@@ -1,0 +1,137 @@
+outfitter "Pirate Outfits"
+	"Galaxy Map"
+	"Reflective Plating Prototype"
+	"B-Class Reinforced Plating"
+	"B-Class Shield Overcharger"
+	"Smartbomb"
+	"Incendiary Grenades"
+	"External Fuel Pod"
+	"Portable Flamethrower"
+
+outfitter "Basic Outfits"
+	"F-Class Reinforced Plating"
+	"F-Class Shield Overcharger"
+
+outfitter "Common Outfits"
+	"Weapon Expansion"
+	"Engine Expansion"
+
+outfitter "Basic Weapons"
+
+outfitter "Deep Sky Basics"
+	"D-Class Reinforced Plating"
+	"D-Class Shield Overcharger"
+	"FP120a Atomic Battery"
+	"FP230b Atomic Battery"
+	"Nanites"
+
+outfitter "Deep Sky Advanced"
+	"B-Class Reinforced Plating"
+	"B-Class Shield Overcharger"
+	"Personal Shield Generator"
+	"Rail Rifle"
+	"Energy Transfer"
+	"Repair Turret"
+	"Nanites"
+	"FP340c Atomic Battery"
+
+outfitter "Lovelace Basics"
+	"D-Class Reinforced Plating"
+	"D-Class Shield Overcharger"
+	"Sidewinder Cap. Up."
+
+outfitter "Lovelace Advanced"
+	"B-Class Reinforced Plating"
+	"B-Class Shield Overcharger"
+	"Plasma Rifle"
+	"Plasma Deflector"
+	"Missile Turret"
+	"Sidewinder Cap. Up."
+
+outfitter "Delta V Basics"
+	"C-Class Reinforced Plating"
+	"C-Class Shield Overcharger"
+	"External Fuel Pod"
+	"Meteor Cap. Up."
+	"Rocket Cap. Up."
+	"Javelin Cap. Up."
+
+outfitter "Delta V advanced"
+	"B-Class Reinforced Plating"
+	"B-Class Shield Overcharger"
+	"Plasma Rifle"
+	"Plasma Deflector"
+	"Meteor Cap. Up."
+	"Rocket Cap. Up."
+	"Javelin Cap. Up."
+	"Rocket Launcher"
+
+outfitter "Syndicate Advanced"
+	"A-Class Reinforced Plating"
+	"A-Class Shield Overcharger"
+	"Plasma Rifle"
+	"Plasma Deflector"
+	"Meteor Cap. Up."
+	"Torpedo Cap. Up."
+	"Javelin Cap. Up."
+
+outfitter "Syndicate Basics"
+	"C-Class Reinforced Plating"
+	"C-Class Shield Overcharger"
+	"Meteor Cap. Up."
+	"Torpedo Cap. Up."
+	"Javelin Cap. Up."
+	"Breach Shotgun"
+
+outfitter "Kraz Basics"
+	"C-Class Reinforced Plating"
+	"C-Class Shield Overcharger"
+	"External Fuel Pod"
+	"Torpedo Cap. Up."
+
+outfitter "Kraz Advanced"
+	"B-Class Reinforced Plating"
+	"B-Class Shield Overcharger"
+	"Plasma Rifle"
+	"Plasma Deflector"
+	"Torpedo Cap. Up."
+
+outfitter "Ammo North"
+
+outfitter "Ammo South"
+
+shipyard "Basic Ships"
+
+shipyard "Tarazed Basics"
+
+shipyard "Tarazed Advanced"
+
+shipyard "Southbound Basics"
+
+shipyard "Southbound Advanced"
+
+shipyard "Lionheart Basics"
+
+shipyard "Lionheart Advanced"
+
+shipyard "Betelgeuse Basics"
+
+shipyard "Betelgeuse Advanced"
+
+shipyard "Navy Basics"
+
+shipyard "Navy Advanced"
+
+shipyard "Megaparsec Basics"
+
+shipyard "Megaparsec Advanced"
+
+shipyard "Syndicate Basics"
+
+shipyard "Syndicate Advanced"
+
+shipyard "Southern Pirates"
+
+shipyard "Northern Pirates"
+
+shipyard "Luxury Ships"

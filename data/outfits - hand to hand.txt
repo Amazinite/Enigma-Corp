@@ -1,0 +1,83 @@
+outfit "Incendiary Grenades"
+	category "Hand to Hand"
+	"cost" 100000
+	thumbnail "outfit/incendiary grenades"
+	"capture attack" 2.7
+	"capture defense" -1.5
+	"unplunderable" 1
+	"illegal" 1000000
+	description "As with Nerve Gas, incendiary weapons are banned by interstellar law, but only if used against people when boarding a ship. Because of this, ship flamethrowers are legal, but incendiary grenades and handheld flamethrowers are not. This grenade is substantially better as an attack weapon than nerve gas, but actually hurts you when defending. Why would you light your own ship on fire?!?!?"
+
+outfit "Plasma Rifle"
+	category "Hand to Hand"
+	"cost" 18000
+	thumbnail "outfit/plasma rifle"
+	"capture attack" 0.8
+	"capture defense" 1.2
+	"unplunderable" 1
+	description "Plasma rifles are a more modern version of the old laser rifles used by most. Instead of firing a beam of light, they fire a small ball of plasma. This ball of plasma has much more stopping power compared to a laser and can severely burn the target if they are not wearing any protective armor."
+
+outfit "Rail Rifle"
+	category "Hand to Hand"
+	"cost" 45000
+	thumbnail "outfit/rail rifle"
+	"capture attack" 1.4
+	"capture defense" 0.8
+	"unplunderable" 1
+	description "Considered by some even more powerful than plasma weaponry, rail rifles are smaller version of the particle cannon that can be used on ships. They fire a high speed kinetic round that can punch through almost any defensive item currently on the market, but require more precision to be useful. Because of this, they are not as reliable when being rushed down by enemies."
+
+outfit "Plasma Deflector"
+	category "Hand to Hand"
+	"cost" 17500
+	thumbnail "outfit/plasma deflector"
+	"capture attack" 0.3
+	"capture defense" 1.8
+	"unplunderable" 1
+	description "The plasma deflector was created as a direct counter to plasma weaponry. It works by making a shield of low energy particles that neutralize the high energy plasma, essentially turning it into a metal BB when it comes out the other side. Hardly anything to worry about, as long as you don’t get hit in the eye. Although, the time and energy it takes to activate a plasma deflector is too much to be able to be used as an offensive item."
+
+outfit "Personal Shield Generator"
+	category "Hand to Hand"
+	"cost" 75000
+	thumbnail "outfit/personal shield"
+	"capture attack" 1.9
+	"capture defense" 3.7
+	"unplunderable" 1
+	description "Personal shield generators take the same technology that protects spaceships and applies it to hand to hand combat. Build to withstand any hand held weapon currently on the market, the personal shield generator is something that everyone should have at the ready in case of an attack."
+
+outfit "Breach Shotgun"
+	category "Hand to Hand"
+	cost 55000
+	thumbnail "outfit/known"
+	"capture attack" 1.9
+	"capture defense" 1.6
+	"unplunderable" 1
+	description "A specially designed shotgun made for use in small ship corridors. Highly mobile and highly deadly."
+
+outfit "Rocket Launcher"
+	category "Hand to Hand"
+	cost 120000
+	thumbnail "outfit/known"
+	"capture attack" 4
+	"capture defense" 1.4
+	"unplunderable" 1
+	description "The rocket launcher is perfect for attacking ships with large amounts of enemies. The rocket can reach longer than any person could throw a grenade, and has more explosive yield as well, making it an excellent offensive weapon."
+
+outfit "Portable Flamethrower"
+	category "Hand to Hand"
+	cost 300000
+	thumbnail "outfit/known"
+	"capture attack" 4.9
+	"capture defense" 2.1
+	"illegal" 2500000
+	"unplunderable" 1
+	description "The man-portable flamethrower was banned years ago for being too harsh and inhumane of a weapon, but that doesn’t stop pirates and people like you from using it, now does it?"
+
+outfit "Crew Implants"
+	category "Hand to Hand"
+	cost 1000000
+	thumbnail "outfit/known"
+	"capture attack" .5
+	"capture defense" .5
+	"required crew" -1
+	"unplunderable" 1
+	description "Crew implants are the next level in human evolution. These implants increase a person's awareness and mental capacity, allowing them to keep track of more things at once than a normal human being. This allows one person to do more than any single person could do. Not only that, but the crew member's combat effectivness is also increased thanks to an increased reaction speed."

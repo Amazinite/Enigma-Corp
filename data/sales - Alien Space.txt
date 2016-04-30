@@ -1,0 +1,22 @@
+shipyard "Wanderer Basics"
+
+shipyard "Wanderer Advanced"
+
+shipyard "Hai Basics"
+
+shipyard "Hai Intermediate"
+
+shipyard "Hai Advanced"
+
+outfitter "Wanderer Basics"
+
+outfitter "Wanderer Advanced"
+	"Thunderhead Cap. Up."
+
+outfitter "Hai Basics"
+
+outfitter "Hai Intermediate"
+	"Tracker Capacity Up."
+
+outfitter "Hai Advanced"
+	"Tracker Capacity Up."

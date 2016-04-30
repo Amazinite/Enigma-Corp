@@ -1,0 +1,36 @@
+government "Enigma Corp"
+	color 0 1 0
+	swizzle 3
+	"attitude toward"
+		"Korath" -.1
+		"Pug" -.1
+		"Quarg" -.1
+		"Hai" -.1
+		"Hai (Unfettered)" .1
+		"Wanderer" -.1
+		"Pirate" .1
+		"Independant" .1
+		"Syndicate" .1
+		"Deep Sky" .1
+	"bribe" .05
+	"fine" 0
+	"friendly hail" "friendly civilian"
+	"hostile hail" "hostile civilian"
+
+government "Termini"
+	color 0.26 0.8 0.84
+	swizzle 5
+
+government "Andromedan"
+	color 0 0.3 1
+	swizzle 6
+	"bribe" 0
+	"attitude toward"
+		"Korath" -0.1
+
+government "Outer Rim Mining"
+	color 1 0.75 0
+	swizzle 0
+	"bribe" 0.5
+	"friendly hail" "friendly civilian"
+	"hostile hail" "hostile civilian"

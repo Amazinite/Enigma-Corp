@@ -1,0 +1,92 @@
+outfit "Hellfire Missile"
+	category "Ammunition"
+	cost 900
+	thumbnail "outfit/hellfire"
+	"hellfire capacity" -1
+	description "A modified version of the meteor missile, this missile has a lower explosive yeild but increased velocity and homing capabilities. Designed to be used on weaker ships that have already had their shields depleted."
+	description "Brought to you by Enigma Corp."
+
+outfit "Flux Missile"
+	category "Ammunition"
+	cost 1200
+	thumbnail "outfit/flux missile"
+	"flux capacity" -1
+	description "A modified version of the sidewinder missile, this missile has a lower explosive yeild but increased velocity and homing capabilities. Designed to be used to quickly deplete ship energy reserves and peck away at the shields."
+	description "Brought to you by Enigma Corp."
+
+outfit "Antimatter Bomb"
+	category "Ammunition"
+	cost 5000000
+	thumbnail "outfit/nuke"
+	"bomb capacity" -1
+	description "This antimatter bomb was recently developed by Engima Corp in secret, because if word of such a weapon were to get out then the Drak may come knocking on the doors of this new weapons corporation. Using alien technology stolen from Quarg ships, this antimatter bomb is guarenteed to wipe half star system clean of enemy ships."
+	description "Warning: bomb may cause damage to own ships. It is advised that you use this rocket far from your target. Enigma Corp is not liable for any injuries sustained while using the Antimatter Bomb."
+	description "Brought to you by Enigma Corp."
+
+outfit "Flux Mine"
+	category "Ammunition"
+	cost 10000
+	thumbnail "outfit/i mine"
+	"flux mine capacity" -1
+	description "A torpedo that has had it's thrusters torn out, essentially turning it into a mine. This type of torpedo was stolen by an alien race and has enough ion damage to immobilize any ship."
+	description "Brought to you by Enigma Corp."
+
+outfit "Typhoon Mine"
+	category "Ammunition"
+	cost 10000
+	thumbnail "outfit/e mine"
+	"mine capacity" -1
+	description "A torpedo that has had it's thrusters torn out, essentially turning it into a mine. This torpedo has been rigged with an increased explosive yield for more damage and blast radius, and has a build in proximity detonation system to kill any enemy that gets within the blast radius. Although, this also causes it to explode upon firing if an enemy is too close, which can be fatal to your ship."
+	description "Brought to you by Enigma Corp."
+
+outfit "Thermite Mine"
+	category "Ammunition"
+	cost 10000
+	thumbnail "outfit/thermite mine"
+	"thermite mine capacity" -1
+	description "A torpedo that has had it's thrusters torn out, essentially turning it into a mine. This version is full of napalm that explodes upon detonation."
+	description "Brought to you by Enigma Corp."
+	
+outfit "Nanites"
+	category "Ammunition"
+	cost 250
+	thumbnail "outfit/nanites"
+	"nanite capacity" -1
+	description "Nanites are small robotic machines that excel at repairing damaged hulls of ships."
+
+outfit "Shrapnel Canister"
+	category "Ammunition"
+	cost 4000
+	thumbnail "outfit/known"
+	"canister capacity" -1
+	description "Shrapnel Canisters each hold 16 small pellets within them, designed to burst out of the canister upon reaching the end of the barrel. Designed for use in Shrapnel Cannons."
+	description "Brought to you by Enigma Corp."
+	
+outfit "Thermite Torpedo"
+	category "Ammunition"
+	cost 2700
+	thumbnail "outfit/thermite torpedo"
+	"thermite torpedo capacity" -1
+	description "Thermite Torpedos have, along with their explosive yield, a small amount of thermite that quickly burns upon impact. The resulting heat has the ability to overheat ships, disbling their combat and engine systems for a short time."
+
+outfit "Flux Torpedo"
+	category "Ammunition"
+	cost 2700
+	thumbnail "outfit/flux torpedo"
+	"flux torpedo capacity" -1
+	description "Flux Torpedos are specially designed anti-shield and anti-warship weapons that deal a considerably amount of ion damage with each shot, quickly disabling larger ships when used in numbers."
+
+outfit "Wolf Bomb"
+	category "Ammunition"
+	cost 0
+	thumbnail "outfit/wolf bomb"
+	"wolf bomb capacity" -1
+	description "Wolf Bombs are the newest in torpedo technology, beating out every other available torpedo on the market in terms of damage."
+	description "Brought to you by Enigma Corp."
+
+outfit "Dark Matter"
+	category "Ammunition"
+	cost 0
+	thumbnail "outfit/known"
+	"dark matter capacity" -1
+	"mass" 0.5

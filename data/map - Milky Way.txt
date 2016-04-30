@@ -1,0 +1,2084 @@
+galaxy "Outer Rim"
+	pos 775 -919
+	sprite "label/outer rim"
+
+galaxy "far east"
+	pos 700 -100
+	sprite "label/far east"
+
+###
+system Enigma
+	pos -740 -485
+	government "Enigma Corp"
+	habitable 880
+	link Termara
+	asteroids "small rock" 6 2.6418
+	asteroids "medium rock" 68 2.2372
+	asteroids "large rock" 22 1.3328
+	asteroids "small metal" 3 2.5228
+	asteroids "medium metal" 6 1.9992
+	asteroids "large metal" 4 2.7132
+	fleet "Oblivion" 15000
+	fleet "Keeper" 50000
+	fleet "Small Northern Merchants" 1500
+	fleet "Large Northern Merchants" 4000
+	fleet "Small Deep" 3500
+	fleet "Large Deep" 6000
+	fleet "Large Northern Pirates" 8000
+	trade Clothing 224
+	trade Electronics 756
+	trade Equipment 352
+	trade Food 345
+	trade "Heavy Metals" 562
+	trade Industrial 748
+	trade "Luxury Goods" 0
+	trade Medical 636
+	trade Metal 376
+	trade Plastic 373
+	object
+		sprite star/f0
+		distance 11.8889
+		period 8.24972
+	object
+		sprite star/k5
+		distance 95.1111
+		period 8.24972
+		offset 180
+	object
+		sprite planet/gas5
+		distance 664.041
+		period 127.543
+		object "Enigma Prime"
+			sprite planet/station7
+			distance 257
+			period 12.3538
+
+planet "Enigma Prime"
+	landscape land/space7
+	"required reputation" 15
+	description `The station is completely quiet, but it seems to have been recently used.`
+
+###
+system Termara
+	pos -757 -411.5
+	government Republic
+	habitable 5880
+	link Suhail
+	link Enigma
+	asteroids "small rock" 6 2.6418
+	asteroids "medium rock" 68 2.2372
+	asteroids "large rock" 22 1.3328
+	asteroids "small metal" 3 2.5228
+	asteroids "medium metal" 6 1.9992
+	asteroids "large metal" 4 2.7132
+	trade Clothing 310
+	trade Electronics 700
+	trade Equipment 398
+	trade Food 414
+	trade "Heavy Metals" 921
+	trade Industrial 710
+	trade "Luxury Goods" 1033
+	trade Medical 796
+	trade Metal 365
+	trade Plastic 306
+	fleet "Small Northern Merchants" 2500
+	fleet "Large Northern Merchants" 5500
+	fleet "Small Deep" 4000
+	fleet "Large Deep" 6500
+	fleet "Large Northern Pirates" 8000
+	object
+		sprite star/wr
+		distance 11.8889
+		period 8.24972
+	object
+		sprite planet/miranda
+		distance 255.401
+		period 30.4227
+	object
+		sprite planet/gas5
+		distance 664.041
+		period 127.543
+	object
+		sprite planet/gas9
+		distance 1579.78
+		period 1596.42
+		object
+			sprite planet/rock0
+			distance 220
+			period 11.5088
+		object
+			sprite planet/rock14
+			distance 374
+			period 25.5097
+			
+###
+system Suhail
+	pos -774 -338
+	government Republic
+	habitable 1715
+	link Regor
+	link Termara
+	asteroids "small rock" 2 2.8224
+	asteroids "medium rock" 1 4.48
+	asteroids "large rock" 1 2.5088
+	asteroids "small metal" 5 5.7344
+	asteroids "medium metal" 3 3.4944
+	asteroids "large metal" 17 4.5696
+	trade Clothing 234
+	trade Electronics 755
+	trade Equipment 442
+	trade Food 413
+	trade "Heavy Metals" 1056
+	trade Industrial 819
+	trade "Luxury Goods" 986
+	trade Medical 774
+	trade Metal 259
+	trade Plastic 277
+	fleet "Small Northern Merchants" 2000
+	fleet "Large Northern Merchants" 5000
+	fleet "Small Deep" 4000
+	fleet "Large Deep" 7000
+	fleet "Large Northern Pirates" 9000
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/water1
+		distance 193.41
+		period 25.9804
+	object
+		sprite planet/io
+		distance 461.7
+		period 95.8226
+	object
+		sprite planet/gas14
+		distance 1034.31
+		period 321.295
+		object "Leviathan Station"
+			sprite planet/station6
+			distance 252
+			period 15.4109
+	object Helheim
+		sprite planet/ocean9
+		distance 1842.75
+		period 764.06
+		object
+			sprite planet/europa
+			distance 166
+			period 20.4528
+
+###
+system Adhara
+	object
+		sprite star/k0
+		distance 33.5961
+		period 16.6267
+	object
+		sprite star/m0
+		distance 71.4039
+		period 16.6267
+		offset 180
+	object
+		sprite planet/desert6
+		distance 279.714
+		period 72.2926
+	object Muspel
+		sprite planet/mars
+		distance 638.124
+		period 249.104
+		object Norn
+			sprite planet/ice7
+			distance 139
+			period 20.6008
+	object
+		sprite planet/cloud7
+		distance 1033.48
+		period 513.426
+		object "Enigma Epsilon"
+			sprite planet/station3
+			distance 151
+			period 20.4
+	object
+		sprite planet/dust1
+		distance 1498.37
+		period 896.299
+	object
+		sprite planet/oberon
+		distance 2411.01
+		period 1829.46
+
+planet "Enigma Epsilon"
+	landscape land/station4
+	"required reputation" 15
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	shipyard "Lionheart Basics"
+	government "Enigma Corp"
+	description `Epsilon Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
+	description `"The Enigma Corporation: We build death machines so you don't have to."`
+	spaceport `Epsilon Station appears to be the only Enigma Corp station that has an outfitter and shipyard stocked with anything other than technology made by the corporation itself. Upon landing, you notice that the station has a number of Deep Sky citizens, mainly scientist. There are a mix of people in green and blue lab coats discussing things in board rooms a view stories up with window views of the spaceport below.`
+	
+###
+system Kraz
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/rock2
+		distance 311.49
+		period 66.9136
+		object
+			sprite planet/dust2
+			distance 176
+			period 22.3285
+	object Rust
+		sprite planet/forest6
+		distance 903.7
+		period 330.662
+		object
+			sprite planet/io
+			distance 123
+			period 17.1483
+	object
+		sprite planet/rock15
+		distance 1258.06
+		period 543.125
+	object
+		sprite planet/gas17
+		distance 2011.3
+		period 1097.9
+		object "Enigma Mu"
+			sprite planet/station2
+			distance 234
+			period 14.441
+		object
+			sprite planet/desert4
+			distance 351
+			period 26.5299
+
+planet "Enigma Mu"
+	landscape land/station2
+	"required reputation" 15
+	government "Enigma Corp"
+	description `Mu Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
+	description `"The Enigma Corporation: We build death machines so you don't have to."`
+	spaceport `Once you land, you notice that Enigma Mu is rather bland compared to the other Enigma Corp stations. There are no workers sprinting around or working on ships. Everything seems eerily calm and quiet, almost to the point of being creepy. You can't quite shake the feeling that you're being watched.`
+
+###
+system "Alpha Centauri"
+	object
+		sprite star/k5
+		distance 26.7033
+		period 16.011
+		offset 180
+	object
+		sprite star/m4
+		distance 63.2967
+		period 16.011
+	object Chiron
+		sprite planet/forest1
+		distance 346.547
+		period 120.975
+		object
+			sprite planet/rock17
+			distance 126
+			period 14.7361
+	object
+		sprite planet/desert2
+		distance 749.037
+		period 384.423
+	object
+		sprite planet/oberon
+		distance 976.197
+		period 571.953
+	object
+		sprite planet/rock15
+		distance 1718.2
+		period 1335.56
+		object "Enigma Alpha"
+			sprite planet/station5
+			distance 153
+			period 162.3
+	object
+		sprite planet/gas13
+		distance 4080.61
+		period 4888.11
+
+planet "Enigma Alpha"
+	landscape land/space7
+	"required reputation" 15
+	government "Enigma Corp"
+	description `Alpha Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
+	description `"The Enigma Corporation: We build death machines so you don't have to."`
+	spaceport `This station is highly advanced compared to other stations that you have seen. As you come in for a landing, a landing pad extends out of the side of the station for you to land on. The landing pad then retracts back into the station and begins automatically refueling your ship. The entire inside of the station is a chrome looking color, and you are immediately met by an Enigma Corp worker as you step outside of your ship.`
+
+###
+system Achernar
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/desert3
+		distance 211.24
+		period 49.1229
+	object Foundry
+		sprite planet/forest1
+		distance 548
+		period 205.254
+		object
+			sprite planet/miranda
+			distance 130
+			period 15.4433
+		object "Enigma Sigma"
+			sprite planet/station1
+			distance 160
+			period 18.124
+	object
+		sprite planet/dust0
+		distance 978.21
+		period 489.517
+	object
+		sprite planet/titan
+		distance 1311.9
+		period 760.276
+	object
+		sprite planet/ice8
+		distance 1664.39
+		period 1086.43
+	object
+		sprite planet/neptune
+		distance 3673.43
+		period 3562.28
+		object
+			sprite planet/lava0
+			distance 202
+			period 12.7598
+		object
+			sprite planet/rhea
+			distance 307
+			period 23.907
+
+planet "Enigma Sigma"
+	landscape land/space5
+	"required reputation" 15
+	government "Enigma Corp"
+	description `Sigma Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
+	description `"The Enigma Corporation: We build death machines so you don't have to."`
+	spaceport `As you land to refuel your ship, you notice that there is a large window that views into what appears to be a shipyard. You see corporation workers building ships that you haven't seen before, possibly ones that will soon be released to the market.`
+
+###
+system Dabih
+	object
+		sprite star/k0
+		distance 30.7164
+		period 14.5355
+		offset 180
+	object
+		sprite star/m0
+		distance 65.2836
+		period 14.5355
+	object
+		sprite planet/cloud3
+		distance 288.034
+		period 75.5418
+	object "New Britain"
+		sprite planet/forest6
+		distance 742.074
+		period 312.387
+	object
+		sprite planet/gas2
+		distance 1761.48
+		period 1142.46
+		object
+			sprite planet/ice0
+			distance 220
+			period 14.5028
+		object
+			sprite planet/rock7
+			distance 309
+			period 24.141
+		object "Enigma Zeta"
+			sprite planet/station5
+			distance 270
+			period 19.135
+
+planet "Enigma Zeta"
+	landscape land/station1
+	"required reputation" 15
+	government "Enigma Corp"
+	description `Zeta Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
+	description `"The Enigma Corporation: We build death machines so you don't have to."`
+	spaceport `Zeta station is a little less well kept than most of the other Enigma Corp stations. There are tools everywhere and workers are constantly running around, looking like they're barely keeping the place together. No one comes to your aid to refuel your ship, so you have to walk over to the refuel station and refuel your ship on your own.`
+
+###
+system AMG-45
+	pos 893.931 -1007.31
+	government "Outer Rim Mining"
+	habitable 233.28
+	link Ostima
+	link KAL-25
+	link UVG-64
+	asteroids "medium rock" 1 6.2675
+	asteroids "large rock" 2 3.45
+	asteroids "small metal" 2 5.405
+	asteroids "medium metal" 23 5.8075
+	asteroids "large metal" 1 4.945
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 750
+	fleet "ORM Southern" 750
+	fleet "ORM Northern" 750
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/lava4
+		distance 142
+		period 44.3153
+	object
+		sprite planet/desert7
+		distance 520.44
+		period 310.94
+	object
+		sprite planet/gas13
+		distance 1143.69
+		period 1012.94
+	object
+		sprite planet/ice3
+		distance 1621.25
+		period 1709.61
+	object
+		sprite planet/neptune
+		distance 4682.41
+		period 8391.23
+		object
+			sprite planet/rock7
+			distance 215
+			period 15.7069
+		object
+			sprite planet/io
+			distance 345
+			period 31.9272
+
+###
+system Auram
+	pos 764.931 -862.312
+	government "Outer Rim Mining"
+	habitable 450
+	link Avilum
+	link Jita
+	link Ukkamu
+	asteroids "small rock" 15 2.838
+	asteroids "medium rock" 37 2.31
+	asteroids "large rock" 61 2.222
+	asteroids "small metal" 6 2.508
+	asteroids "medium metal" 65 1.496
+	asteroids "large metal" 12 3.212
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 2500
+	fleet "ORM Southern" 2500
+	fleet "ORM Northern" 2500
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/mars
+		distance 148.76
+		period 40.5709
+	object "Igolide"
+		sprite planet/rock4
+		distance 427.76
+		period 255.843
+	object
+		sprite planet/gas1
+		distance 1150.32
+		period 872.395
+	object
+		sprite planet/gas17
+		distance 1996.33
+		period 1994.5
+		object
+			sprite planet/callisto
+			distance 223
+			period 14.2276
+		object
+			sprite planet/europa
+			distance 376
+			period 31.1498
+			
+planet "Igolide"
+	landscape land/badlands0
+	"required reputation" 15
+	description `Igolide is a barely habitable planet, orbiting on the edge of the habitable zone of the Auram system. Due to this, Outer Rim Mining exiles members to this planet as punishment for breaking ORM rules.`
+	spaceport `The spaceport is blocked off from the rest of the settlement with high walls and laser gates at every doorway. A few men in military looking suits get up from the cafeteria area across the spaceport and refill your ship before going back to eating.`
+
+###
+system Avilum
+	pos 691.931 -873.312
+	government "Outer Rim Mining"
+	habitable 745.92
+	link Ferum
+	link Auram
+	link UEH-60
+	asteroids "small rock" 3 3.836
+	asteroids "medium rock" 46 2.212
+	asteroids "large rock" 4 1.652
+	asteroids "medium metal" 1 1.624
+	asteroids "large metal" 1 2.716
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 1500
+	fleet "ORM Southern" 1500
+	fleet "ORM Northern" 1500
+	object
+		sprite star/k5
+		distance 51.4801
+		period 19.2524
+		offset 180
+	object
+		sprite star/m0
+		distance 68.5199
+		period 19.2524
+	object
+		sprite planet/desert7
+		distance 203.96
+		period 42.661
+	object
+		sprite planet/rock9
+		distance 510.77
+		period 169.064
+	object
+		sprite planet/lava4
+		distance 984.33
+		period 452.298
+	object
+		sprite planet/gas3
+		distance 1861.22
+		period 1176.01
+		object
+			sprite planet/ice0
+			distance 303
+			period 13.4719
+		object
+			sprite planet/rock17
+			distance 446
+			period 24.0584
+
+###
+system DML-91
+	pos 1000.93 -981.312
+	government "Outer Rim Mining"
+	habitable 233.28
+	link UVG-64
+	link LPK-52
+	link TYU-16
+	asteroids "small rock" 1 2.24
+	asteroids "medium rock" 9 2.44
+	asteroids "large rock" 15 2.16
+	asteroids "small metal" 2 5.96
+	asteroids "medium metal" 168 2.64
+	asteroids "large metal" 4 4.48
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	fleet "ORM Core" 1500
+	fleet "ORM Southern" 1500
+	fleet "ORM Northern" 1500
+	trade Plastic 390
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/io
+		distance 110.76
+		period 30.5278
+	object
+		sprite planet/rock15
+		distance 392
+		period 203.259
+	object
+		sprite planet/desert1
+		distance 996.76
+		period 824.152
+		object
+			sprite planet/dust7
+			distance 159
+			period 17.4038
+	object
+		sprite planet/dust5
+		distance 1438.6
+		period 1429
+	object
+		sprite planet/gas9
+		distance 4156.85
+		period 7018.88
+		object
+			sprite planet/ice8
+			distance 252
+			period 15
+		object
+			sprite planet/rock17
+			distance 337
+			period 23.1972
+
+###
+system DNF-14
+	pos 476.149 -930.254
+	government "Outer Rim Mining"
+	habitable 2859.44
+	link Immeo
+	link KLW-01
+	asteroids "small rock" 7 9.3744
+	asteroids "medium rock" 2 9.9792
+	asteroids "large rock" 6 10.206
+	asteroids "small metal" 2 7.6356
+	asteroids "medium metal" 3 5.292
+	asteroids "large metal" 2 7.7868
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	object
+		sprite star/f0
+		distance 17.8711
+		period 8.04829
+		offset 180
+	object
+		sprite star/k0
+		distance 87.1289
+		period 8.04829
+	object
+		sprite planet/rock11
+		distance 215.939
+		period 23.7364
+	object
+		sprite planet/gas17
+		distance 845.029
+		period 183.75
+		object
+			sprite planet/ice7
+			distance 214
+			period 13.375
+		object
+			sprite planet/dust5
+			distance 349
+			period 27.8555
+		object
+			sprite planet/dust7
+			distance 465
+			period 42.8403
+	object
+		sprite planet/gas15
+		distance 2153.03
+		period 747.299
+		object
+			sprite planet/dust0
+			distance 208
+			period 15.7904
+		object
+			sprite planet/europa
+			distance 325
+			period 30.8406
+
+###
+system END-00
+	pos 1208.93 -1168.31
+	government "Outer Rim Mining"
+	habitable 625
+	link OMA-12
+	asteroids "small rock" 3 1.5675
+	asteroids "medium rock" 240 1.6815
+	asteroids "large rock" 25 4.218
+	asteroids "small metal" 20 1.938
+	asteroids "medium metal" 7 3.3915
+	asteroids "large metal" 10 1.995
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 5000
+	fleet "ORM Southern" 5000
+	fleet "ORM Northern" 5000
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/cloud8
+		distance 219.24
+		period 51.9397
+	object
+		sprite planet/gas15
+		distance 871.08
+		period 411.346
+		object
+			sprite planet/rhea
+			distance 224
+			period 17.6469
+		object
+			sprite planet/ice8
+			distance 338.891
+			period 32.8388
+			offset 322.832
+	object
+		sprite planet/gas0
+		distance 1685.41
+		period 1107.08
+		offset 359.416
+	object
+		sprite planet/uranus
+		distance 2396.5
+		period 1877.1
+		offset 359.753
+		object
+			sprite planet/luna
+			distance 209
+			period 12.909
+
+###
+system Ferum
+	pos 670.931 -942.312
+	government "Outer Rim Mining"
+	habitable 425.92
+	link Avilum
+	link Sedna
+	asteroids "small rock" 20 2.3331
+	asteroids "medium rock" 14 3.0954
+	asteroids "large rock" 2 2.9568
+	asteroids "medium metal" 31 2.1252
+	asteroids "large metal" 33 3.465
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 500
+	fleet "ORM Southern" 500
+	fleet "ORM Northern" 500
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/ganymede
+		distance 133
+		period 29.7285
+	object
+		sprite planet/gas6
+		distance 741.69
+		period 391.498
+		object "Hierro"
+			sprite planet/dust4
+			distance 277
+			period 11.7756
+	object
+		sprite planet/gas9
+		distance 1569.13
+		period 1204.72
+		object
+			sprite planet/io
+			distance 232
+			period 13.2502
+	object
+		sprite planet/gas1
+		distance 2867.34
+		period 2975.88
+		object
+			sprite planet/rock17
+			distance 236
+			period 14.4905
+		object
+			sprite planet/rock14
+			distance 363
+			period 27.6424
+			
+planet "Hierro"
+	landscape land/lava0
+	"required reputation" 15
+	description `Nicknamed "Frozen Hell" by some of the workers at Outer Rim Mining, Hierro is a strange place. It orbits rather close to a gas giant, causing high amounts of volcanic activity. Even so, the orbit of the moon means that it is only within the habitable zone of the star for half of it's orbit, so for a few weeks it is reasonably livable, but the next few weeks are extrememly cold.`
+	spaceport `The spaceport is located inside of a volcano. The only way you were able to find it was because of the large beacon shooting out of the middle of the crater. You question whether or not having the entire spaceport inside a volcano to harness geothermal power is worth the danger of having the volcano erupt on to the space port.`
+
+###
+system Immeo
+	pos 434.931 -887.312
+	government "Outer Rim Mining"
+	habitable 625
+	link DNF-14
+	link NGJ-67
+	asteroids "small rock" 2 3.9528
+	asteroids "medium rock" 178 3.24
+	asteroids "large rock" 20 7.5168
+	asteroids "medium metal" 6 7.7112
+	asteroids "large metal" 15 8.3592
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/ice4
+		distance 151.96
+		period 29.9719
+	object
+		sprite planet/mars
+		distance 568
+		period 216.592
+	object
+		sprite planet/forest1
+		distance 1255.64
+		period 711.898
+		object
+			sprite planet/ice7
+			distance 150
+			period 20.5761
+	object "Outer Rim"
+		sprite planet/wormhole
+		distance 1589.4
+		period 1013.84
+	object
+		sprite planet/gas8
+		distance 2951.49
+		period 2565.56
+		object
+			sprite planet/tethys
+			distance 176
+			period 12.4293
+		object
+			sprite planet/io
+			distance 314
+			period 29.6191
+
+###
+system JMU-10
+	pos 925.931 -1114.31
+	government "Outer Rim Mining"
+	habitable 1080
+	link NDV-52
+	link KAL-25
+	link UVG-64
+	link WOW-56
+	asteroids "small rock" 99 3.1752
+	asteroids "medium rock" 1 1.9656
+	asteroids "large rock" 14 3.6036
+	asteroids "small metal" 6 1.4364
+	asteroids "medium metal" 29 1.4112
+	asteroids "large metal" 6 3.6036
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 1000
+	fleet "ORM Southern" 1000
+	fleet "ORM Northern" 1000
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/dust2
+		distance 168.21
+		period 26.5537
+	object
+		sprite planet/desert5
+		distance 495.21
+		period 134.132
+	object
+		sprite planet/desert2
+		distance 983.77
+		period 375.568
+	object
+		sprite planet/gas9
+		distance 1749.33
+		period 890.545
+	object
+		sprite planet/gas4
+		distance 3089.54
+		period 2090.2
+		object
+			sprite planet/rock3
+			distance 250
+			period 13.9414
+
+###
+system Jita
+	pos 774.931 -919.312
+	government "Outer Rim Mining"
+	habitable 910
+	link Sedna
+	link Auram
+	link Ostima
+	asteroids "medium rock" 2 1.4756
+	asteroids "large rock" 1 1.9754
+	asteroids "small metal" 2 3.3796
+	asteroids "medium metal" 15 2.023
+	asteroids "large metal" 1 2.9512
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 400
+	fleet "ORM Southern" 400
+	fleet "ORM Northern" 400
+	object
+		sprite star/a0
+		period 10
+	object
+		sprite planet/rhea
+		distance 126.56
+		period 27.5957
+	object
+		sprite planet/cloud5
+		distance 555.2
+		period 253.554
+		object
+			sprite planet/desert4
+			distance 186
+			period 16.5782
+	object "The Hub"
+		sprite planet/rock13
+		distance 916.01
+		period 537.336
+	object
+		sprite planet/neptune
+		distance 1409.7
+		period 1025.86
+		object
+			sprite planet/luna
+			distance 203
+			period 14.4104
+	object
+		sprite planet/gas16
+		distance 2234.7
+		period 2047.5
+		
+planet "The Hub"
+	landscape land/city12
+	"required reputation" 15
+	description `Known only as The Hub, this planet is the main outpost of the Outer Rim Mining corporation. Most of the planet has been converted into factories spewing out dangerous chemicals as they smelt down the recently delivered ore into pure metals.`
+	spaceport `Freighters full of ore are constantly flying in and out of the atmoshphere, taking up most of the landing pads. After about an hour of talking with the command tower and waiting for an opening, you are allowed to land on a landing pad near the edge of the spaceport.`
+
+###
+system KAL-25
+	pos 872.931 -1064.31
+	government "Outer Rim Mining"
+	habitable 1250
+	link AMG-45
+	link JMU-10
+	link WOW-56
+	asteroids "small rock" 1 3.1536
+	asteroids "medium rock" 7 2.16
+	asteroids "large rock" 2 2.6784
+	asteroids "small metal" 1 2.4408
+	asteroids "large metal" 3 1.9224
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 900
+	fleet "ORM Southern" 900
+	fleet "ORM Northern" 900
+	object
+		sprite star/g5
+		distance 51
+		period 11.6548
+		offset 180
+	object
+		sprite star/g5
+		distance 51
+		period 11.6548
+	object
+		sprite planet/ice4
+		distance 278.44
+		period 52.5657
+	object
+		sprite planet/rock10
+		distance 647.85
+		period 186.559
+	object
+		sprite planet/gas11
+		distance 1512.09
+		period 665.229
+		object
+			sprite planet/dust7
+			distance 241
+			period 12.3397
+		object
+			sprite planet/rock14
+			distance 339
+			period 20.5863
+	object
+		sprite planet/gas4
+		distance 2344.9
+		period 1284.67
+		object
+			sprite planet/io
+			distance 254
+			period 14.2774
+		object
+			sprite planet/dust3
+			distance 360
+			period 24.0908
+
+###
+system KLW-01
+	pos 539.149 -893.254
+	government "Outer Rim Mining"
+	habitable 320
+	link UEH-60
+	link TOI-02
+	link DNF-14
+	asteroids "small rock" 5 1.386
+	asteroids "medium rock" 21 3.2256
+	asteroids "large rock" 4 3.4272
+	asteroids "small metal" 26 1.9656
+	asteroids "medium metal" 1 3.6288
+	asteroids "large metal" 61 1.512
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/cloud7
+		distance 312.84
+		period 123.728
+		object
+			sprite planet/io
+			distance 146
+			period 24.5944
+	object
+		sprite planet/lava2
+		distance 766.45
+		period 474.472
+	object
+		sprite planet/ice1
+		distance 1273.21
+		period 1015.86
+	object
+		sprite planet/dust6
+		distance 1638.5
+		period 1483.05
+	object
+		sprite planet/neptune
+		distance 3508.59
+		period 4647.12
+
+###
+system LPK-52
+	pos 1079.93 -961.312
+	government "Outer Rim Mining"
+	habitable 1850
+	link DML-91
+	link TYU-16
+	asteroids "medium rock" 49 3.289
+	asteroids "large rock" 7 6.9322
+	asteroids "small metal" 6 5.0094
+	asteroids "medium metal" 60 3.8456
+	asteroids "large metal" 23 6.6792
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 1500
+	fleet "ORM Southern" 1500
+	fleet "ORM Northern" 1500
+	object
+		sprite star/f5
+		distance 9.19459
+		period 13.1532
+	object
+		sprite star/m8
+		distance 116.805
+		period 13.1532
+		offset 180
+	object
+		sprite planet/fog0
+		distance 289.615
+		period 45.836
+	object
+		sprite planet/rock16
+		distance 671.375
+		period 161.779
+	object
+		sprite planet/forest0
+		distance 1043.14
+		period 313.318
+	object
+		sprite planet/uranus
+		distance 2355.38
+		period 1063.08
+
+###
+system NDV-52
+	pos 1034.93 -1132.31
+	government "Outer Rim Mining"
+	habitable 719.96
+	link OMA-12
+	link JMU-10
+	asteroids "medium rock" 15 6.2775
+	asteroids "large rock" 6 7.0875
+	asteroids "small metal" 1 5.8725
+	asteroids "medium metal" 9 7.0875
+	asteroids "large metal" 12 8.0325
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 2000
+	fleet "ORM Southern" 2000
+	fleet "ORM Northern" 2000
+	object
+		sprite star/k0
+		distance 27.2175
+		period 11.4769
+		offset 180
+	object
+		sprite star/m4
+		distance 56.7825
+		period 11.4769
+	object
+		sprite planet/cloud7
+		distance 241.022
+		period 55.7818
+	object
+		sprite planet/rock1
+		distance 521.022
+		period 177.293
+	object
+		sprite planet/rock0
+		distance 688.982
+		period 269.599
+	object
+		sprite planet/cloud1
+		distance 1192.82
+		period 614.143
+	object
+		sprite planet/gas8
+		distance 1868.07
+		period 1203.64
+		object
+			sprite planet/europa
+			distance 222
+			period 17.6079
+		object
+			sprite planet/tethys
+			distance 301
+			period 27.7988
+		object
+			sprite planet/rock17
+			distance 393
+			period 41.473
+		object
+			sprite planet/luna
+			distance 485
+			period 56.8577
+
+###
+system NGJ-67
+	pos 489.149 -861.254
+	government "Outer Rim Mining"
+	habitable 425.92
+	link Immeo
+	asteroids "small rock" 2 4.004
+	asteroids "large rock" 2 7.28
+	asteroids "medium metal" 18 8.372
+	asteroids "large metal" 18 8.4448
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/ice4
+		distance 245.04
+		period 74.3449
+		object
+			sprite planet/rock17
+			distance 145
+			period 21.949
+	object
+		sprite planet/cloud0
+		distance 674
+		period 339.145
+	object
+		sprite planet/rock13
+		distance 887.96
+		period 512.845
+	object
+		sprite planet/gas6
+		distance 1677.12
+		period 1331.2
+		object
+			sprite planet/callisto
+			distance 301
+			period 13.3387
+		object
+			sprite planet/desert4
+			distance 394
+			period 19.976
+
+###
+system OMA-12
+	pos 1111.93 -1191.31
+	government "Outer Rim Mining"
+	habitable 425.92
+	link END-00
+	link NDV-52
+	asteroids "large rock" 1 3.456
+	asteroids "medium metal" 9 3.0208
+	asteroids "large metal" 5 3.6864
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 4000
+	fleet "ORM Southern" 4000
+	fleet "ORM Northern" 4000
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/desert3
+		distance 159.89
+		period 39.1857
+	object
+		sprite planet/gas6
+		distance 951.53
+		period 568.892
+		object
+			sprite planet/dust3
+			distance 267
+			period 11.1438
+		object
+			sprite planet/rock0
+			distance 394
+			period 19.976
+		object
+			sprite planet/dust4
+			distance 530
+			period 31.1658
+	object
+		sprite planet/uranus
+		distance 2387.53
+		period 2261.1
+		object
+			sprite planet/lava0
+			distance 227
+			period 14.6121
+		object
+			sprite planet/ice7
+			distance 388
+			period 32.6528
+		object
+			sprite planet/dust7
+			distance 488
+			period 46.0578
+
+###
+system Ostima
+	pos 844.931 -962.312
+	government "Outer Rim Mining"
+	habitable 945
+	link Ukkamu
+	link Sedna
+	link Jita
+	link AMG-45
+	asteroids "small rock" 9 3.5816
+	asteroids "medium rock" 60 2.9282
+	asteroids "large rock" 23 3.0734
+	asteroids "small metal" 5 1.5004
+	asteroids "medium metal" 127 2.3958
+	asteroids "large metal" 5 2.1296
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 450
+	fleet "ORM Southern" 450
+	fleet "ORM Northern" 450
+	object
+		sprite star/g5
+		distance 33.5238
+		period 12.8173
+		offset 180
+	object
+		sprite star/m0
+		distance 65.4762
+		period 12.8173
+	object
+		sprite planet/mercury
+		distance 240.316
+		period 48.4751
+	object
+		sprite planet/cloud2
+		distance 513.206
+		period 151.28
+		object "Diamond Station"
+			sprite planet/station1
+			distance 124.62
+			period 57.24
+	object
+		sprite planet/gas11
+		distance 1366.9
+		period 657.578
+		object
+			sprite planet/dust1
+			distance 260
+			period 13.8273
+		object
+			sprite planet/dust4
+			distance 399
+			period 26.2868
+		object
+			sprite planet/rock0
+			distance 538
+			period 41.1577
+	object
+		sprite planet/gas7
+		distance 3048.26
+		period 2189.88
+		object
+			sprite planet/desert4
+			distance 218
+			period 11.4503
+		object
+			sprite planet/luna
+			distance 363
+			period 24.6031
+			
+planet "Diamond Station"
+	landscape land/station1
+	"required reputation" 15
+	description `Diamond Station is the refueling station for Outer Rim Mining ships. Ship land to refuel every time the get ready to leave and when they reenter inhabited space.`
+	spaceport `As with The Hub, almost all landing pads are taken by freighters entering and exiting the spaceport. Given the size of the station, there are a lot less landing pads, so you wonder how they keep up with all the ships without clogging up traffic. Just then, a floating drone flies over to your ship and refuels it before you even land, then flies off to refuel more ships.`
+
+###
+system PBD-09
+	pos 710.931 -1136.31
+	government "Outer Rim Mining"
+	habitable 625
+	link QFS-83
+	asteroids "small rock" 19 7.575
+	asteroids "large rock" 1 4.5
+	asteroids "small metal" 91 9.75
+	asteroids "medium metal" 81 4.35
+	asteroids "large metal" 115 7.8
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 2000
+	fleet "ORM Southern" 2000
+	fleet "ORM Northern" 2000
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/venus
+		distance 188.64
+		period 41.4544
+	object
+		sprite planet/ocean0
+		distance 575.2
+		period 220.723
+	object
+		sprite planet/gas17
+		distance 995.01
+		period 502.182
+		object
+			sprite planet/dust7
+			distance 239
+			period 15.7859
+	object
+		sprite planet/dust6
+		distance 1522.01
+		period 950.05
+	object
+		sprite planet/gas8
+		distance 3258.3
+		period 2975.82
+		object
+			sprite planet/desert4
+			distance 177
+			period 12.5354
+		object
+			sprite planet/dust5
+			distance 294
+			period 26.8348
+		object
+			sprite planet/callisto
+			distance 402
+			period 42.9058
+		object
+			sprite planet/rock7
+			distance 528
+			period 64.5844
+
+###
+system QFS-83
+	pos 774.931 -1132.31
+	government "Outer Rim Mining"
+	habitable 1715
+	link WOW-56
+	link RVE-32
+	link PBD-09
+	asteroids "small rock" 18 1.106
+	asteroids "medium rock" 6 1.148
+	asteroids "large rock" 13 1.638
+	asteroids "medium metal" 2 0.826
+	asteroids "large metal" 4 1.54
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 1500
+	fleet "ORM Southern" 1500
+	fleet "ORM Northern" 1500
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/cloud4
+		distance 262.49
+		period 41.0768
+	object
+		sprite planet/rock18
+		distance 566.65
+		period 130.287
+		object
+			sprite planet/desert4
+			distance 130
+			period 18.6328
+	object
+		sprite planet/gas1
+		distance 1414.89
+		period 514.058
+		object
+			sprite planet/tethys
+			distance 245
+			period 15.3273
+		object
+			sprite planet/dust4
+			distance 376
+			period 29.1405
+		object
+			sprite planet/ice7
+			distance 542
+			period 50.433
+
+###
+system RVE-32
+	pos 758.931 -1198.31
+	government "Outer Rim Mining"
+	habitable 659.2
+	link QFS-83
+	asteroids "medium rock" 17 2.21
+	asteroids "large rock" 11 3.5275
+	asteroids "small metal" 14 5.0575
+	asteroids "medium metal" 11 5.95
+	asteroids "large metal" 8 5.355
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 2000
+	fleet "ORM Southern" 2000
+	fleet "ORM Northern" 2000
+	object
+		sprite star/k5
+		distance 30.7879
+		period 12.6424
+	object
+		sprite star/m4
+		distance 56.2121
+		period 12.6424
+		offset 180
+	object
+		sprite planet/lava2
+		distance 187.902
+		period 40.1281
+	object
+		sprite planet/rock1
+		distance 378.462
+		period 114.706
+	object
+		sprite planet/jupiter
+		distance 770.422
+		period 333.154
+	object
+		sprite planet/gas9
+		distance 2385.42
+		period 1815.09
+		object
+			sprite planet/dust1
+			distance 268
+			period 16.451
+		object
+			sprite planet/dust5
+			distance 368
+			period 26.4705
+
+###
+system Sadr
+	object
+		sprite star/a5
+		distance 5.86016
+		period 6.97718
+	object
+		sprite star/m0
+		distance 99.6398
+		period 6.97718
+		offset 180
+	object
+		sprite planet/callisto
+		distance 280.83
+		period 30.3017
+	object
+		sprite planet/rock3
+		distance 543.84
+		period 81.6597
+	object
+		sprite planet/desert6
+		distance 876.65
+		period 167.125
+		object
+			sprite planet/rock17
+			distance 150
+			period 17.5682
+	object
+		sprite planet/desert5
+		distance 1311.09
+		period 305.668
+	object
+		sprite planet/miranda
+		distance 2553.34
+		period 830.739
+	object "Outer Rim"
+		sprite planet/wormhole
+		distance 3000
+		period 1000
+
+
+system Sedna
+	pos 732.931 -974.312
+	government "Outer Rim Mining"
+	habitable 525
+	link Ferum
+	link Jita
+	link Ostima
+	asteroids "medium rock" 24 5.1272
+	asteroids "large rock" 5 2.958
+	asteroids "small metal" 115 6.5076
+	asteroids "medium metal" 6 4.9793
+	asteroids "large metal" 33 6.2118
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 1000
+	fleet "ORM Southern" 1000
+	fleet "ORM Northern" 1000
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/cloud3
+		distance 213.25
+		period 49.8257
+	object "Indalo"
+		sprite planet/forest4
+		distance 540.94
+		period 148.146
+	object
+		sprite planet/mercury
+		distance 728.19
+		period 314.403
+	object
+		sprite planet/gas11
+		distance 2288.44
+		period 1751.58
+		object
+			sprite planet/rhea
+			distance 267
+			period 14.3895
+		object
+			sprite planet/rock14
+			distance 419
+			period 28.2878
+			
+planet "Indalo"
+	landscape land/myrabella7
+	"required reputation" 15
+	description `Indalo appears to be the only planet in the entire region to have plant life on it. There are no factories anywhere, and the only evidence of human civiliation is the small spaceport city located near the equator.`
+	spaceport `There appears to be only one landing pad, but when you land you are lowered down into an underground parking complex. You noticed what appears to be hundreds of rows of ships. A tube attatches to the entrance of your ship, which leads to an evelator to the surface of the planet.`
+
+###
+system TOI-02
+	pos 586.149 -943.254
+	government "Outer Rim Mining"
+	habitable 2201.68
+	link KLW-01
+	asteroids "small rock" 60 1.8304
+	asteroids "medium rock" 11 1.1792
+	asteroids "large rock" 14 2.288
+	asteroids "small metal" 29 2.1648
+	asteroids "medium metal" 15 1.8832
+	asteroids "large metal" 5 2.024
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	object
+		sprite star/f5
+		distance 26.3049
+		period 11.0663
+	object
+		sprite star/k0
+		distance 92.6951
+		period 11.0663
+		offset 180
+	object
+		sprite planet/gas2
+		distance 458.535
+		period 83.7032
+		object
+			sprite planet/ice8
+			distance 204
+			period 17.6547
+	object
+		sprite planet/gas12
+		distance 1160.23
+		period 336.896
+		object
+			sprite planet/oberon
+			distance 255
+			period 10.6954
+	object
+		sprite planet/rock14
+		distance 1915.59
+		period 714.719
+	object
+		sprite planet/gas17
+		distance 3059.6
+		period 1442.71
+
+###
+system TYU-16
+	pos 1026.93 -920.312
+	government "Outer Rim Mining"
+	habitable 425.92
+	link DML-91
+	link LPK-52
+	asteroids "small rock" 1 9.0558
+	asteroids "medium rock" 19 5.4054
+	asteroids "large rock" 24 8.5644
+	asteroids "small metal" 68 3.51
+	asteroids "medium metal" 16 6.3882
+	asteroids "large metal" 13 6.669
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 1500
+	fleet "ORM Southern" 1500
+	fleet "ORM Northern" 1500
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/gas6
+		distance 377.36
+		period 142.079
+	object
+		sprite planet/ice2
+		distance 722.97
+		period 376.77
+	object
+		sprite planet/neptune
+		distance 1449.22
+		period 1069.29
+		object
+			sprite planet/io
+			distance 230
+			period 17.379
+		object
+			sprite planet/luna
+			distance 323
+			period 28.9225
+	object
+		sprite planet/gas14
+		distance 2606.03
+		period 2578.49
+		object
+			sprite planet/callisto
+			distance 262
+			period 17.2707
+
+###
+system UEH-60
+	pos 619.149 -867.254
+	government "Outer Rim Mining"
+	habitable 719.96
+	link Avilum
+	link KLW-01
+	asteroids "small rock" 3 7.1456
+	asteroids "medium rock" 22 3.2538
+	asteroids "large rock" 2 4.6574
+	asteroids "small metal" 19 6.8904
+	asteroids "medium metal" 17 4.4022
+	asteroids "large metal" 1 7.9112
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	object
+		sprite star/k0
+		distance 31.7538
+		period 14.4626
+	object
+		sprite star/m4
+		distance 66.2462
+		period 14.4626
+		offset 180
+	object
+		sprite planet/rock18
+		distance 347.056
+		period 96.3841
+		object
+			sprite planet/dust4
+			distance 154
+			period 24.0239
+	object
+		sprite planet/cloud8
+		distance 791.056
+		period 331.678
+	object
+		sprite planet/gas8
+		distance 1461.35
+		period 832.79
+		object
+			sprite planet/ice8
+			distance 207
+			period 15.8538
+	object
+		sprite planet/neptune
+		distance 2180.04
+		period 1517.4
+		object
+			sprite planet/rock3
+			distance 218
+			period 16.0368
+		object
+			sprite planet/europa
+			distance 354
+			period 33.1846
+
+###
+system UVG-64
+	pos 956.931 -1032.31
+	government "Outer Rim Mining"
+	habitable 425.92
+	link AMG-45
+	link JMU-10
+	link DML-91
+	asteroids "small rock" 3 4.0392
+	asteroids "medium rock" 3 3.6261
+	asteroids "large rock" 13 5.7375
+	asteroids "medium metal" 13 3.7638
+	asteroids "large metal" 24 6.0588
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 1000
+	fleet "ORM Southern" 1000
+	fleet "ORM Northern" 1000
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rock5
+		distance 136.84
+		period 31.0253
+	object
+		sprite planet/rock1
+		distance 469.45
+		period 197.142
+		object
+			sprite planet/dust5
+			distance 166
+			period 24.87
+	object
+		sprite planet/gas14
+		distance 1319.94
+		period 929.453
+	object
+		sprite planet/jupiter
+		distance 1882.58
+		period 1583.16
+		object
+			sprite planet/desert4
+			distance 236
+			period 11.3928
+
+###
+system Ukkamu
+	pos 847.931 -879.312
+	government "Outer Rim Mining"
+	habitable 8640
+	link Auram
+	link Ostima
+	asteroids "medium rock" 56 2.1112
+	asteroids "large rock" 10 2.4206
+	asteroids "small metal" 1 1.1284
+	asteroids "medium metal" 59 1.2194
+	asteroids "large metal" 5 1.547
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 750
+	fleet "ORM Southern" 750
+	fleet "ORM Northern" 750
+	object
+		sprite star/b5
+		period 10
+	object
+		sprite planet/gas3
+		distance 415.36
+		period 36.4284
+	object
+		sprite planet/gas17
+		distance 1035.17
+		period 143.325
+	object
+		sprite planet/gas6
+		distance 2093.58
+		period 412.228
+		object
+			sprite planet/lava0
+			distance 318
+			period 14.4846
+
+###
+system WOW-56
+	pos 840.931 -1114.31
+	government "Outer Rim Mining"
+	habitable 1080
+	link KAL-25
+	link JMU-10
+	link QFS-83
+	asteroids "small rock" 43 5.502
+	asteroids "medium rock" 3 5.082
+	asteroids "large rock" 39 4.536
+	asteroids "small metal" 1 4.494
+	asteroids "large metal" 11 3.654
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 1000
+	fleet "ORM Southern" 1000
+	fleet "ORM Northern" 1000
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/gas13
+		distance 283.01
+		period 57.9496
+	object
+		sprite planet/neptune
+		distance 927.01
+		period 343.538
+		object
+			sprite planet/rock7
+			distance 218
+			period 16.0368
+		object
+			sprite planet/rock17
+			distance 338
+			period 30.9604
+	object
+		sprite planet/gas4
+		distance 1704.01
+		period 856.163
+		object
+			sprite planet/rock3
+			distance 224
+			period 11.8241
+	object
+		sprite planet/gas11
+		distance 2487.01
+		period 1509.61

@@ -1,0 +1,116 @@
+outfit "Ore Hold"
+	category "Systems"
+	thumbnail "outfit/"
+	cost 100000
+	"mass" 0
+	"outfit space" 0
+	"cargo space" -50
+	"ore hold" 50
+
+outfit "Iron"
+	category "Special"
+	thumbnail "outfit/"
+	cost 10000
+	"ore hold" -1
+
+outfit "Copper"
+	category "Special"
+	thumbnail "outfit/"
+	cost 7000
+	"ore hold" -1
+
+outfit "Titanium"
+	category "Special"
+	thumbnail "outfit/"
+	cost 15000
+	"ore hold" -1
+
+outfit "Gemstones"
+	category "Special"
+	thumbnail "outfit/"
+	cost 50000
+	"ore hold" -1
+
+#Anyone up for a mining mod?
+
+outfit "Hull Booster"
+	category "Secondary Weapons"
+	cost 0
+	thumbnail "outfit/known"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	"HB capacity" 100
+	weapon
+		sprite "projectile/typhoon"
+			"frame rate" 4
+			"random start frame"
+		sound "typhoon"
+		ammo "HB"
+		icon "icon/typhoon"
+		"fire effect" "typhoon fire"
+		"hit effect" "big explosion"
+		"die effect" "tiny explosion"
+		"inaccuracy" 1
+		"velocity" -1
+		"lifetime" 1000
+		"reload" 100
+		"firing energy" 10
+		"firing heat" 20
+		"acceleration" 0.001
+		"drag" 0.1
+		"turn" 0
+		"homing" 0
+		"trigger radius" 5000
+		"blast radius" 50
+		"hull damage" -2000
+		"hit force" 50
+		"missile strength" 1000
+
+outfit "Shield Booster"
+	category "Secondary Weapons"
+	cost 0
+	thumbnail "outfit/typhoon launcher"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	"SB capacity" 100
+	weapon
+		sprite "projectile/typhoon"
+			"frame rate" 4
+			"random start frame"
+		sound "typhoon"
+		ammo "SB"
+		icon "icon/typhoon"
+		"fire effect" "typhoon fire"
+		"hit effect" "big explosion"
+		"die effect" "tiny explosion"
+		"inaccuracy" 1
+		"velocity" -1
+		"lifetime" 1000
+		"reload" 100
+		"firing energy" 10
+		"firing heat" 20
+		"acceleration" 0.001
+		"drag" 0.1
+		"turn" 0
+		"homing" 0
+		"trigger radius" 5000
+		"blast radius" 50
+		"shield damage" -2000
+		"hit force" 50
+		"missile strength" 1000
+
+outfit "SB"
+	category "Ammunition"
+	cost 0
+	thumbnail "outfit/known"
+	"SB capacity" -1
+
+outfit "HB"
+	category "Ammunition"
+	cost 0
+	thumbnail "outfit/known"
+	"HB capacity" -1

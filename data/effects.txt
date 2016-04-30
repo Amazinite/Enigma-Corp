@@ -1,0 +1,31 @@
+effect "plasmathrower die"
+	sprite "effect/explosion/plasma small"
+		"no repeat"
+		"frame rate" 15
+		"random start frame"
+	"lifetime" 24
+	"random angle" 360
+	"random velocity" .4
+	"random spin" 2
+	"random frame rate" 5
+	"velocity scale" .4
+
+effect "plasmathrower hit"
+	sprite "effect/explosion/plasma medium"
+		"no repeat"
+		"frame rate" 15
+		"random start frame"
+	"lifetime" 28
+	"random angle" 360
+	"random velocity" .6
+	"random spin" 3
+	"random frame rate" 5
+	"velocity scale" .4
+
+effect "MDS"
+	sprite "effect/MDS"
+		"no repeat"
+		"frame rate" 2
+	sound "MDS"
+	"lifetime" 31
+	"velocity scale" 0

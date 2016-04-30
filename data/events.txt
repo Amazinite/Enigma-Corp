@@ -1,0 +1,331 @@
+event "Enigma Prime Open"
+	planet "Enigma Prime"
+		landscape land/space2
+		outfitter "Enigma Basic"
+		outfitter "Enigma Intermediate"
+		outfitter "Enigma Advanced"
+		outfitter "Enigma Experimental"
+		outfitter "Deep Sky Basics"
+		outfitter "Deep Sky Advanced"
+		shipyard "EC-0"
+		description `The station is rather messy, with the smell of oil in the air and spare parts lying all over the place. Most of the station appears to be off access to visitors, with the only available places being the spaceport, shipyard, and outfitter.`
+		spaceport `The spaceport is full of men and women in light blue suits, working on spaceships you've never seen before and assembling more of those things that the suited man showed you. You look over at your ship and see someone refueling it for you. She turns to see you and just waves before moving on her way.`
+
+event "Enigma Prime Deep Sky"
+	planet "Enigma Prime"
+		outfitter "Deep Sky Basics"
+		outfitter "Deep Sky Advanced"
+
+mission "EPDS"
+	landing
+	invisible
+	to offer
+		has "event:Enigma Prime Open"
+	on offer
+		event "Enigma Prime Deep Sky"
+
+event "Typhoon Cap"
+	outfitter "Deep Sky Basic"
+		"Typhoon Cap. Up."
+	outfitter "Deep Sky Advanced"
+		"Typhoon Cap. Up."
+
+event "New Tech FW"
+	outfitter "Kraz Advanced"
+		"Thermite Torpedo Launcher"
+		"Thermite Torpedo"
+		"Thermite Cap. Up."
+
+event "New Tech Syn"
+	outfitter "Syndicate Advanced"
+		"Plasmathrower"
+		"Flux Torpedo Launcher"
+		"Flux Torpedo"
+		"Thermite Cap. Up."
+
+event "Enigma Corp 1"
+	planet "Enigma Alpha"
+		outfitter "Enigma Basic"
+	planet "Enigma Sigma"
+		outfitter "Enigma Basic"
+	planet "Enigma Mu"
+		outfitter "Enigma Basic"
+	planet "Enigma Epsilon"
+		outfitter "Enigma Basic"
+	planet "Enigma Zeta"
+		outfitter "Enigma Basic"
+
+event "Enigma Corp 2"
+	planet "Enigma Alpha"
+		outfitter "Enigma Intermediate"
+		shipyard "EC-0 Basic"
+	planet "Enigma Sigma"
+		outfitter "Enigma Intermediate"
+		shipyard "EC-0 Basic"
+	planet "Enigma Mu"
+		outfitter "Enigma Intermediate"
+		shipyard "EC-0 Basic"
+	planet "Enigma Epsilon"
+		outfitter "Enigma Intermediate"
+		shipyard "EC-0 Basic"
+	planet "Enigma Zeta"
+		outfitter "Enigma Intermediate"
+		shipyard "EC-0 Basic"
+
+event "Enigma Corp 3"
+	planet "Enigma Alpha"
+		outfitter "Enigma Advanced"
+		shipyard "EC-0 Intermediate"
+	planet "Enigma Sigma"
+		outfitter "Enigma Advanced"
+		shipyard "EC-0 Intermediate"
+	planet "Enigma Mu"
+		outfitter "Enigma Advanced"
+		shipyard "EC-0 Intermediate"
+	planet "Enigma Epsilon"
+		outfitter "Enigma Advanced"
+		shipyard "EC-0 Intermediate"
+	planet "Enigma Zeta"
+		outfitter "Enigma Advanced"
+		shipyard "EC-0 Intermediate"
+
+event "Enigma Corp 4"
+	planet "Enigma Alpha"
+		shipyard "EC-0 Advanced"
+	planet "Enigma Sigma"
+		shipyard "EC-0 Advanced"
+	planet "Enigma Mu"
+		shipyard "EC-0 Advanced"
+	planet "Enigma Epsilon"
+		shipyard "EC-0 Advanced"
+	planet "Enigma Zeta"
+		shipyard "EC-0 Advanced"
+
+mission "Termini"
+	landing
+	invisible
+	to offer
+		has "free worlds plot completed"
+	on offer
+		event "Termini Appear" 15
+
+event "Termini Appear"
+	system "Deneb"
+		fleet "Termini Scout" 10000
+		fleet "Small Core Merchants" 700
+		fleet "Large Core Merchants" 800
+		fleet "Small Syndicate" 2000
+		fleet "Small Core Pirates" 4000
+	system "Vega"
+		fleet "Termini Scout" 15000
+		fleet "Small Southern Merchants" 500
+		fleet "Large Southern Merchants" 1500
+		fleet "Small Republic" 3000
+	system "Altair"
+		fleet "Termini Scout" 15000
+		fleet "Small Core Merchants" 400
+		fleet "Large Core Merchants" 600
+		fleet "Small Northern Merchants" 1000
+		fleet "Large Northern Merchants" 3000
+		fleet "Small Republic" 2000
+		fleet "Large Republic" 6000
+		fleet "Small Syndicate" 9000
+	system "Delta Capricorni"
+		fleet "Termini Scout" 15000
+		fleet "Small Core Merchants" 700
+		fleet "Large Core Merchants" 800
+		fleet "Small Syndicate" 2000
+		fleet "Small Core Pirates" 4000
+	system "Alderamin"
+		fleet "Termini Scout" 15000
+		fleet "Small Core Merchants" 2000
+		fleet "Large Core Merchants" 3200
+		fleet "Small Syndicate" 800
+		fleet "Large Syndicate" 800
+		fleet "Small Core Pirates" 1000
+		fleet "Large Core Pirates" 1200
+	system "Rasalhague"
+		fleet "Termini Scout" 15000
+		fleet "Small Southern Merchants" 1500
+		fleet "Large Southern Merchants" 2000
+		fleet "Small Southern Pirates" 4000
+		fleet "Large Southern Pirates" 8000
+	system "Zeta Aquilae"
+		fleet "Termini Scout" 15000
+		fleet "Small Southern Merchants" 1000
+		fleet "Large Southern Merchants" 3000
+		fleet "Small Southern Pirates" 2000
+		fleet "Large Southern Pirates" 5000
+
+event "Termini Wormhole"
+	system "World's End"
+		object "Wormhole Termini"
+			sprite planet/wormhole
+			distance 2079.28
+			period 4290.76
+			
+mission "Hunted"
+	landing
+	invisible
+	to offer
+		has "free worlds plot completed"
+	on offer
+		event "Hunted" 30
+
+mission "Hunted Warning"
+	landing
+	to offer
+		has "event: Hunted"
+	on offer
+		conversation
+			`	You step out of your ship and walk over to the fuel pump to refill your ship. As you do, a man wearing a red cap steps out of his shuttle on the landing pad next to yours and walks over to you.`
+			`	You notice that his shuttle has pirate colours, and you become increasingly weary of what this man is about to do.`
+			`	"Hey, aren't you <first> <last>?"`
+			choice
+				`	"Yeah, what do you need?"`
+					goto yes
+				`	"No. Never heard of 'em."`
+					goto no
+				
+			label yes
+			`	The man chuckles as he fixes his cap.`
+			`	"Lucky me. Looks like I've found a dead man"`
+			`	"What do you mean?" you respond.`
+			`	"You've got a bounty over your head. A couple of rich guys must really hate you, because they're paying good money to some pirates to have you killed. You might want to steer clear of the uninhabited systems around the Far North."`
+			`	"Thanks for the head's up. I'll make sure to watch myself."`
+			`	You finish fueling your ship as the man goes back to his shuttle, flying off back into space.`
+				decline
+		
+			label no
+			`	"Well if you see them, make sure to tell them that they've got a bounty over their head from a couple of shady fellows who use to be part of the Syndicate. They might want to steer clear of the uninhabited and pirate systems in the Far North."`
+			`	"I'll make sure to tell them if I see them."`
+			`	You finish fueling your ship as the man goes back to his shuttle, flying off back into space.`
+				decline
+	
+event "Hunted"
+	system "Arneb"
+		fleet "Small Northern Pirates" 350
+		fleet "Large Northern Pirates" 400
+		fleet "Large Republic" 15000
+		fleet "Inhibitor" 20000
+	system "Alnilam"
+		fleet "Small Northern Pirates" 400
+		fleet "Large Northern Pirates" 600
+		fleet "Large Republic" 10000
+		fleet "Inhibitor" 20000
+	system "Hatysa"
+		fleet "Small Northern Pirates" 500
+		fleet "Large Northern Pirates" 800
+		fleet "Large Republic" 15000
+		fleet "Inhibitor" 20000
+	system "Almaaz"
+		fleet "Small Northern Pirates" 400
+		fleet "Large Northern Pirates" 500
+		fleet "Large Republic" 4000
+		fleet "Inhibitor" 20000
+	system "Unagi"
+		fleet "Small Northern Pirates" 1000
+		fleet "Large Northern Pirates" 2500
+	system "Gorvi"
+		fleet "Small Northern Pirates" 900
+		fleet "Large Northern Pirates" 900
+		fleet "Large Republic" 4000
+		fleet "Small Northern Merchants" 8000
+		fleet "Inhibitor" 20000
+	system "Mintaka"
+		fleet "Small Northern Pirates" 1700
+		fleet "Large Northern Pirates" 1700
+		fleet "Large Republic" 5000
+		fleet "Small Northern Merchants" 4000
+		fleet "Inhibitor" 20000
+	system "Tortor"
+		fleet "Small Northern Pirates" 900
+		fleet "Large Northern Pirates" 900
+		fleet "Large Republic" 6000
+		fleet "Small Northern Merchants" 6000
+		fleet "Inhibitor" 20000
+	system "Rigel"
+		fleet "Small Northern Merchants" 2000
+		fleet "Large Northern Merchants" 4000
+		fleet "Small Republic" 3000
+		fleet "Large Republic" 5000
+		fleet "Small Northern Pirates" 2500
+		fleet "Large Northern Pirates" 4000
+		fleet "Inhibitor" 20000
+	system "Hassaleh"
+		fleet "Small Northern Merchants" 9000
+		fleet "Small Northern Pirates" 5000
+		fleet "Large Northern Pirates" 15000
+		fleet "Large Republic" 20000
+		fleet "Inhibitor" 20000
+	system "Danoa"
+		fleet "Small Northern Merchants" 15000
+		fleet "Small Northern Pirates" 4000
+		fleet "Large Northern Pirates" 13000
+		fleet "Large Republic" 30000
+		fleet "Inhibitor" 20000
+	system "Sumar"
+		fleet "Small Northern Pirates" 1500
+		fleet "Large Northern Pirates" 5000
+		fleet "Large Republic" 30000
+		fleet "Inhibitor" 20000
+	system "Rajak"
+		fleet "Small Northern Pirates" 3000
+		fleet "Large Northern Pirates" 9000
+		fleet "Inhibitor" 20000
+	system "Cardax"
+		fleet "Small Northern Merchants" 1200
+		fleet "Large Northern Merchants" 3000
+		fleet "Small Northern Pirates" 700
+		fleet "Large Northern Pirates" 2700
+		fleet "Small Republic" 2000
+		fleet "Large Republic" 5000
+		fleet "Inhibitor" 20000
+	system "Volax"
+		fleet "Small Northern Merchants" 1500
+		fleet "Large Northern Merchants" 3000
+		fleet "Small Northern Pirates" 700
+		fleet "Large Northern Pirates" 2700
+		fleet "Small Republic" 5000
+		fleet "Large Republic" 9000
+		fleet "Inhibitor" 20000
+	system "Sospi"
+		fleet "Small Northern Merchants" 1500
+		fleet "Large Northern Merchants" 3000
+		fleet "Small Northern Pirates" 800
+		fleet "Large Northern Pirates" 1700
+		fleet "Small Republic" 5000
+		fleet "Large Republic" 9000
+		fleet "Inhibitor" 20000
+	system "Moktar"
+		fleet "Small Core Merchants" 800
+		fleet "Large Core Merchants" 1700
+		fleet "Small Syndicate" 3000
+		fleet "Large Syndicate" 4000
+		fleet "Small Core Pirates" 1700
+		fleet "Inhibitor" 20000
+	system "Oblate"
+		fleet "Small Southern Pirates" 500
+		fleet "Large Southern Pirates" 800
+		fleet "Large Syndicate" 3000
+		fleet "Inhibitor" 20000
+	system "Alcyone"
+		fleet "Small Southern Pirates" 350
+		fleet "Large Southern Pirates" 500
+		fleet "Large Syndicate" 1200
+		fleet "Inhibitor" 20000
+	system "Durax"
+		fleet "Small Southern Pirates" 400
+		fleet "Large Southern Pirates" 700
+		fleet "Large Syndicate" 2500
+		fleet "Korath Raid" 5000
+		fleet "Inhibitor" 20000
+
+mission "Andromedan Rep"
+	landing
+	invisible
+	on offer
+		event "Andromedan Check"
+
+event "Andromedan Check"
+	"reputation: Andromedan" = -1000

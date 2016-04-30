@@ -1,0 +1,601 @@
+# Say hello to Enigma Corp's EC-0 Series of ships! These ships are the best of the best when it comes to human developed machinery, mainly because Enigma Corp like to steal stuff. But never mind that, just give us some cash and be happy with your top of the line ship!
+# Some people like to refer to the series as "Echo" for short. For example, instead of having to say "E-C-zero-fifty," they just say "Echo 50." Cool, right?
+
+ship "EC-001 'Badger'"
+	sprite "ship/Echo 1"
+	attributes
+		category "Drone"
+		"cost" 127000
+		"hull" 1000
+		"mass" 93
+		"drag" 0.5
+		"heat dissipation" 0.8
+		"outfit space" 100
+		"weapon capacity" 24
+		"engine capacity" 38
+	outfits
+		"Beam Laser" 3
+		
+		"nGVF-BB Fuel Cell"
+		"Supercapacitor" 2
+		
+		"Chipmunk Plasma Thruster"
+		"Chipmunk Plasma Steering"
+		
+	engine 0 35
+	gun -11 -16.5
+	gun 0 -28.5
+	gun 11 -16.5
+	explode "tiny explosion" 25
+	description "The EC-001 Badger was created in order to compete against the Republic Navy Combat Drone. With three gun hardpoints, double the hull strength, and almost double the weight, the Badger is bigger, better, and badder in every way."
+	description "Brought to you by Enigma Corp."
+
+ship "EC-002 'Sentry'"
+	sprite "ship/sentry drone"
+	attributes
+		category "Drone"
+		"cost" 52000
+		"hull" 5000
+		"mass" 200
+		"drag" 100
+		"heat dissipation" 1
+		"outfit space" 100
+		"weapon capacity" 60
+		"engine capacity" 0
+	outfits
+		"Laser Turret"
+		
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		
+		"Decoy Engines"
+		"Decoy Engines"
+		
+	engine -9 29
+	engine 9 29
+	turret 0 0 "Laser Turret"
+	explode "tiny explosion" 15
+	description "The sentry drone is a heavily armored box filled with targeting computers with a turret strapped to it. There's enough space to add any turret out want, but it comes default with a heavy laser turret. The only engines this thing has are tiny little thrusters with only enough power to move the drone a few feet into a drone bay if your ship happens to be nearby"
+	description "Brought to you by Enigma Corp."
+
+ship "EC-031 'Viper'"
+	sprite "ship/Echo 31"
+	attributes
+		category "Light Warship"
+		"cost" 1720000
+		"shields" 5300
+		"hull" 900
+		"required crew" 9
+		"bunks" 17
+		"mass" 157
+		"drag" 5.7
+		"heat dissipation" .7
+		"fuel capacity" 500
+		"cargo space" 30
+		"outfit space" 285
+		"weapon capacity" 90
+		"engine capacity" 110
+		"sidewinder capacity" 125
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Missile Turret" 5
+		"Sidewinder Missile" 375
+		
+		"RT-I Radiothermal"
+		"LP036a Battery Pack"
+		"D23-QP Shield Generator"
+		
+		"A370 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Hyperdrive"
+		
+	engine -23 39
+	turret 12 -72
+	turret 12 -43
+	turret 12 -13
+	turret 12 41
+	turret 12 56
+	explode "tiny explosion" 20
+	explode "small explosion" 15
+	explode "medium explosion" 25
+	explode "big explosion" 10
+	description `When the Enigma Corp isn't using stolen alien technology, they're using missiles. Enigma Corp's line of missile warships are interesting in that they aren't like normal human ships. They emphasize shields over hull and are faster than most ships of the same size. This missile destroyer has five missile turrets and an expanded ammunition bay for more missile ammo.`
+	description "Brought to you by Enigma Corp."
+
+ship "EC-032 'Rattlesnake'"
+	sprite "ship/Echo 32"
+	attributes
+		category "Medium Warship"
+		"cost" 2950000
+		"shields" 9200
+		"hull" 2200
+		"required crew" 15
+		"bunks" 21
+		"mass" 350
+		"drag" 7.5
+		"heat dissipation" .7
+		"fuel capacity" 700
+		"cargo space" 80
+		"outfit space" 450
+		"weapon capacity" 180
+		"engine capacity" 115
+		"hellfire capacity" 245
+		"flux capacity" 350
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Hellfire Missile Launcher" 7
+		"Hellfire Missile" 735
+		"Heavy Anti-Missile Turret" 2
+		
+		"NT-200 Nucleovoltaic"
+		"LP072a Battery Pack"
+		"D41-HY Shield Generator"
+		
+		"A370 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Hyperdrive"
+		
+	engine -13.5 135
+	engine 13.5 135
+	gun 0 -109
+	gun -16 -115
+	gun 16 -115
+	gun -23 -160
+	gun 23 -160
+	gun -48 -102
+	gun 48 -102
+	turret -30 33.5
+	turret 30 33.5
+	explode "tiny explosion" 20
+	explode "small explosion" 36
+	explode "medium explosion" 20
+	explode "big explosion" 8
+	description "An upgrade to the missile destroyer, the Rattlesnake missile cruiser features a special cargo bay designed to only hold Enigma Corp designed missiles, making it a lot better to use missile launchers from Enigma Corp. Did I hear monopoly? Noooooooo."
+	description "Brought to you by Enigma Corp."
+
+ship "EC-033 'King Cobra'"
+	sprite "ship/Echo 33"
+	attributes
+		category "Heavy Warship"
+		"cost" 11163000
+		"shields" 31000
+		"hull" 3600
+		"required crew" 32
+		"bunks" 86
+		"mass" 730
+		"drag" 12.5
+		"heat dissipation" .4
+		"fuel capacity" 500
+		"cargo space" 250
+		"outfit space" 550
+		"weapon capacity" 210
+		"engine capacity" 160
+		"hellfire capacity" 350
+		"flux capacity" 500
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
+	outfits
+		"Hellfire Missile Launcher" 10
+		"Hellfire Missile" 1050
+		"Heavy Anti-Missile Turret"
+		
+		"Fusion Reactor"
+		"FP230b Atomic Battery"
+		"D67-TM Shield Generator"
+		
+		"A520 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Hyperdrive"
+		
+	engine -41.5 109
+	engine 5 109
+	turret -18 -30
+	gun -19 -124.5
+	gun -64.5 -96
+	gun 20.5 -156
+	gun -148 -27.5
+	gun -126 -28
+	gun 76.5 -28.5
+	gun 107.5 -24
+	gun -37.5 -71
+	gun 0.5 -71.5
+	gun 136 -12.5
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "big explosion" 45
+	explode "huge explosion" 30
+	description "The biggest of the big when it comes to Enigma Corp missile ships, this heavy battleship has ten missile launchers and a big enough missile bay to hold an additional 350 hellfire missiles and 500 flux missiles!."
+	description "Brought to you by Enigma Corp."
+
+ship "EC-037 'Aegis'"
+	sprite "ship/Echo 37"
+	attributes
+		category "Medium Warship"
+		"cost" 5100000
+		"shields" 1000
+		"hull" 8300
+		"required crew" 19
+		"bunks" 36
+		"mass" 520
+		"drag" 10.6
+		"heat dissipation" .5
+		"fuel capacity" 400
+		"cargo space" 45
+		"outfit space" 575
+		"weapon capacity" 290
+		"engine capacity" 100
+		weapon
+			"blast radius" 120
+			"shield damage" 1500
+			"hull damage" 900
+			"hit force" 1800
+	outfits
+		"Heavy Laser Turret" 4
+		"Heavy Laser" 5
+		
+		"Fission Reactor"
+		"FP230b Atomic Battery"
+		"D41-HY Shield Generator"
+		
+		"A375 Atomic Steering"
+		"A250 Atomic Thruster"
+		"Hyperdrive"
+		
+	engine -22 181
+	engine 22 181
+	gun 0 60
+	gun -44 55
+	gun 44 55
+	gun -20 -204.5
+	gun 20 -204.5
+	turret -44 85
+	turret 44 85
+	turret -20 127.5
+	turret 20 127.5
+	explode "small explosion" 15
+	explode "medium explosion" 35
+	explode "big explosion" 30
+	explode "huge explosion" 10
+	description "The Echo 37 is somewhat of a mix between a heavy and medium warship, making it odd to place. On one hand it's the closer to the size of a medium warship, but on the other it has enough weapons to compete against a heavy warship. All this extra weapon space does come at the price of less engine capacity, so some tend to shy away from this beast."
+	description "Brought to you by Enigma Corp."
+
+ship "EC-050 'Orca'"
+	sprite "ship/Echo 50"
+	attributes
+		category "Heavy Freighter"
+		"cost" 43270000
+		"shields" 16000
+		"hull" 19600
+		"required crew" 12
+		"bunks" 29
+		"mass" 6730
+		"drag" 23.1
+		"heat dissipation" .25
+		"fuel capacity" 1300
+		"cargo space" 1200
+		"outfit space" 800
+		"weapon capacity" 300
+		"engine capacity" 180
+		weapon
+			"blast radius" 360
+			"shield damage" 3200
+			"hull damage" 2300
+			"hit force" 5300
+	outfits
+		"Heavy Laser Turret" 4
+		"Heavy Anti-Missile Turret" 4
+		
+		"Fusion Reactor"
+		"FP340c Atomic Battery"
+		"D94-YV Shield Generator"
+		
+		"A525 Atomic Steering"
+		"A520 Atomic Thruster"
+		"Scram Drive"
+		
+	engine -45 255
+	engine -37 225
+	engine 37 225
+	engine 45 225
+	turret -12 -224.25 "Heavy Laser Turret"
+	turret -12 -157.75
+	turret -12 -96.75 "Heavy Laser Turret"
+	turret -12 -31.75
+	turret 12 -224.25 "Heavy Laser Turret"
+	turret 12 -157.75
+	turret 12 -96.75 "Heavy Laser Turret"
+	turret 12 -31.75
+	explode "medium explosion" 35
+	explode "big explosion" 40
+	explode "huge explosion" 45
+	description "The newest in freighting technology, the Enigma Corp Orca puts even Syndicate freighters to shame. Designed with protection in mindm the Orca also comes fit with highly resistant armor and six turret hardpoints."
+	description "Brought to you by Enigma Corp."
+
+ship "EC-069 'Star King'"
+	sprite "ship/Echo 69"
+	attributes
+		category "Transport"
+		"cost" 6000000
+		"shields" 6700
+		"hull" 3000
+		"required crew" 49
+		"bunks" 194
+		"mass" 267
+		"drag" 9.4
+		"heat dissipation" 1.2
+		"fuel capacity" 600
+		"cargo space" 200
+		"outfit space" 475
+		"weapon capacity" 180
+		"engine capacity" 120
+		weapon
+			"blast radius" 60
+			"shield damage" 600
+			"hull damage" 300
+			"hit force" 900
+	outfits
+		"Flux Missile Launcher" 3
+		"Flux Missile" 150
+		"Heavy Anti-Missile Turret" 4
+		
+		"NT-200 Nucleovoltaic"
+		"LP072a Battery Pack"
+		"D94-YV Shield Generator"
+		
+		"A520 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Hyperdrive"
+		
+	engine -19 137
+	engine 19 137
+	gun 0 -142 "Flux Missile Launcher"
+	gun -16 -123 "Flux Missile Launcher"
+	gun 16 -123 "Flux Missile Launcher"
+	turret -31 -10 "Heavy Anti-Missile Turret"
+	turret 31 -10 "Heavy Anti-Missile Turret"
+	turret -31 -27 "Heavy Anti-Missile Turret"
+	turret 31 -27 "Heavy Anti-Missile Turret"
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "big explosion" 10
+	description `The Echo 69 'Star King' is the next level in luxury cruisers. Designed for transport of the most important individuals, the Star King is more heavily armed and armoured than it’s smaller cousin, the Star Queen. Every Star Queen also comes with a trained chef and three space waitresses, free of charge!`
+	description "Brought to you by Enigma Corp."
+
+ship "EC-070 'Star Guardian'"
+	sprite "ship/Echo 70"
+	attributes
+		category "Transport"
+		"cost" 7800000
+		"shields" 7500
+		"hull" 4000
+		"required crew" 49
+		"bunks" 194
+		"mass" 291
+		"drag" 10.1
+		"heat dissipation" 0.9
+		"fuel capacity" 600
+		"cargo space" 150
+		"outfit space" 500
+		"weapon capacity" 205
+		"engine capacity" 140
+		weapon
+			"blast radius" 70
+			"shield damage" 650
+			"hull damage" 350
+			"hit force" 1000
+	outfits
+		"EMP Device"
+		"Flux Missile Launcher" 2
+		"Flux Missile" 100
+		"Heavy Anti-Missile Turret" 4
+		
+		"NT-200 Nucleovoltaic"
+		"LP072a Battery Pack"
+		"D94-YV Shield Generator"
+		
+		"A520 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Hyperdrive"
+		
+	engine -19 137
+	engine 19 137
+	gun 0 -142 "EMP Device"
+	gun -16 -123 "Flux Missile Launcher"
+	gun 16 -123 "Flux Missile Launcher"
+	turret -31 -10 "Heavy Anti-Missile Turret"
+	turret 31 -10 "Heavy Anti-Missile Turret"
+	turret -31 -27 "Heavy Anti-Missile Turret"
+	turret 31 -27 "Heavy Anti-Missile Turret"
+	explode "tiny explosion" 15
+	explode "small explosion" 30
+	explode "medium explosion" 30
+	explode "big explosion" 10
+	description ``
+	description "Brought to you by Enigma Corp."
+
+ship "EC-077 'Dire Wolf'"
+	sprite "ship/Echo 77"
+	attributes
+		category "Light Warship"
+		"cost" 1920000
+		"shields" 2200
+		"hull" 600
+		"required crew" 3
+		"bunks" 11
+		"mass" 101
+		"drag" 2.4
+		"heat dissipation" 1
+		"fuel capacity" 400
+		"cargo space" 5
+		"outfit space" 360
+		"weapon capacity" 130
+		"engine capacity" 115
+		"wolf hardpoint" 2
+		weapon
+			"blast radius" 80
+			"shield damage" 440
+			"hull damage" 220
+			"hit force" 660
+	outfits
+		"Particle Cannon" 2
+		"Wolf Bomb Bay" 2
+		"Wolf Bomb" 40
+		
+		"RT-I Radiothermal"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		
+		"A370 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Hyperdrive"
+		
+	engine -56 85
+	engine 56 85
+	gun -9 -94 "Particle Cannon"
+	gun 9 -94 "Particle Cannon"
+	gun -56 9
+	gun 56 9
+	explode "tiny explosion" 30
+	explode "small explosion" 25
+	explode "medium explosion" 20
+	explode "big explosion" 5
+	description "The Dire Wolf is an advanced bomber fitted with the strongest of torpedo technology. This power comes at a cost, though, as the Dire Wolf is clearly one of the weakest ships in its class when it comes to armor and shields."
+	description "Brought to you by Enigma Corp."
+
+ship "EC-078 'Dire Hawk'"
+	sprite "ship/Echo 78"
+	attributes
+		category "Light Warship"
+		"cost" 2520000
+		"shields" 2200
+		"hull" 600
+		"required crew" 3
+		"bunks" 11
+		"mass" 101
+		"drag" 2.4
+		"heat dissipation" 1
+		"fuel capacity" 400
+		"cargo space" 5
+		"outfit space" 360
+		"weapon capacity" 130
+		"engine capacity" 115
+		"wolf hardpoint" 2
+		"cloak" 0.008
+		"cloaking energy" 5
+		"cloaking fuel" .4
+		weapon
+			"blast radius" 80
+			"shield damage" 440
+			"hull damage" 220
+			"hit force" 660
+	outfits
+		"Particle Cannon" 2
+		"Wolf Bomb Bay" 2
+		"Wolf Bomb" 40
+		
+		"RT-I Radiothermal"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		
+		"A370 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Hyperdrive"
+		
+	engine -56 85
+	engine 56 85
+	gun -9 -94 "Particle Cannon"
+	gun 9 -94 "Particle Cannon"
+	gun -56 9
+	gun 56 9
+	explode "tiny explosion" 30
+	explode "small explosion" 25
+	explode "medium explosion" 20
+	explode "big explosion" 5
+	description ""
+	description "Brought to you by Enigma Corp."
+
+ship "EC-099 'Oblivion'"
+	sprite "ship/Echo 99"
+	attributes
+		category "Heavy Warship"
+		"cost" 37500000
+		"shields" 20000
+		"hull" 9000
+		"required crew" 95
+		"bunks" 374
+		"mass" 1665
+		"drag" 19.6
+		"heat dissipation" .25
+		"fuel capacity" 900
+		"cargo space" 340
+		"outfit space" 1425
+		"weapon capacity" 820
+		"engine capacity" 240
+		weapon
+			"blast radius" 500
+			"shield damage" 4800
+			"hull damage" 3600
+			"hit force" 6000
+	outfits
+		"Electron Beam" 4
+		"Heavy Laser Turret" 8
+		"Typhoon Launcher" 4
+		"Typhoon Torpedo" 120
+		"Flux Torpedo Launcher" 2
+		"Flux Torpedo" 60
+		"Heavy Anti-Missile Turret" 4
+		
+		"Blackhole Reactor"
+		"FP230b Atomic Battery"
+		"Heavy Water Coolant System" 5
+		"DP94-YV Shield Generator"
+		
+		"A860 Atomic Thruster"
+		"A865 Atomic Steering"
+		"Hyperdrive"
+		
+	engine -67 166
+	engine 67 166
+	engine -50 301
+	engine 50 301
+	engine -20 285
+	engine 20 285
+	turret -43 -45 "Heavy Laser Turret"
+	turret 43 -45 "Heavy Laser Turret"
+	turret -43 -17 "Heavy Laser Turret"
+	turret 43 -17 "Heavy Laser Turret"
+	turret -43 8.5 "Heavy Laser Turret"
+	turret 43 8.5 "Heavy Laser Turret"
+	turret -43 36 "Heavy Laser Turret"
+	turret 43 36 "Heavy Laser Turret"
+	turret -59 263 "Heavy Anti-Missile Turret"
+	turret 59 263 "Heavy Anti-Missile Turret"
+	turret -59 136 "Heavy Anti-Missile Turret"
+	turret 59 136 "Heavy Anti-Missile Turret"
+	gun -18 -268 "Electron Beam"
+	gun 18 -268 "Electron Beam"
+	gun -37 -331 "Electron Beam"
+	gun 37 -331 "Electron Beam"
+	gun -70 8 "Flux Torpedo Launcher"
+	gun 70 8 "Flux Torpedo Launcher"
+	gun -102 118 "Typhoon Launcher"
+	gun 102 118 "Typhoon Launcher"
+	gun -118 145 "Typhoon Launcher"
+	gun 118 145 "Typhoon Launcher"
+	explode "big explosion" 50
+	explode "huge explosion" 100
+	description "The EC-099 Oblivion heavy flagship is the pinnacle of human technology. Better in every way, this true behemoth is a true beauty, only entrusted to those in the most inner of circles in the Enigma Corporation."
+	description "Brought to you by Enigma Corp."
+	description "Also, why do you have this? I'm watching you..."

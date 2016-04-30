@@ -1,0 +1,306 @@
+#Syndicate Space
+system Achernar
+	fleet "Large Core Merchants" 400
+	fleet "Large Syndicate" 600
+	fleet "Small Syndicate" 500
+	fleet "Small Core Merchants" 300
+system Alderamin
+	fleet "Large Core Merchants" 400
+	fleet "Large Syndicate" 600
+	fleet "Small Syndicate" 500
+	fleet "Small Core Merchants" 300
+system "Al Dhanab"
+	fleet "Small Core Merchants" 400
+	fleet "Large Core Merchants" 400
+	fleet "Small Syndicate" 1000
+	fleet "Large Syndicate" 800
+	fleet "Small Core Pirates" 2000
+	fleet "Large Core Pirates" 3000
+system Algol
+	fleet "Small Core Merchants" 1600
+	fleet "Large Core Merchants" 4000
+	fleet "Small Core Pirates" 1800
+	fleet "Large Core Pirates" 5000
+	fleet "Small Syndicate" 2400
+system Alnair
+	fleet "Small Core Merchants" 2000
+	fleet "Small Core Pirates" 3000
+	fleet "Large Core Pirates" 4000
+	fleet "Small Syndicate" 4000
+	fleet "Large Syndicate" 6000
+system Alpha Hydri
+	fleet "Small Core Merchants" 900
+	fleet "Large Core Merchants" 3000
+	fleet "Small Core Pirates" 2000
+	fleet "Large Core Pirates" 6000
+	fleet "Small Syndicate" 4000
+	fleet "Large Syndicate" 9000
+	fleet "Korath Raid" 40000
+system Alpheratz
+	fleet "Small Core Merchants" 600
+	fleet "Large Core Merchants" 600
+	fleet "Small Syndicate" 800
+	fleet "Large Syndicate" 2000
+	fleet "Small Core Pirates" 1200
+	fleet "Large Core Pirates" 3000
+system Bellatrix
+	fleet "Small Core Merchants" 800
+	fleet "Large Core Merchants" 1500
+	fleet "Small Syndicate" 1000
+	fleet "Large Syndicate" 2000
+	fleet "Small Core Pirates" 3000
+system Caph
+	fleet "Small Core Merchants" 500
+	fleet "Large Core Merchants" 600
+	fleet "Small Syndicate" 1600
+system "Delta Capricorni"
+	fleet "Small Core Merchants" 700
+	fleet "Large Core Merchants" 800
+	fleet "Small Syndicate" 2000
+	fleet "Small Core Pirates" 4000
+system Diphda
+	fleet "Small Core Merchants" 2000
+	fleet "Large Core Merchants" 600
+	fleet "Small Syndicate" 3000
+system Fomalhaut
+	fleet "Small Core Merchants" 1000
+	fleet "Large Core Merchants" 1200
+	fleet "Small Syndicate" 5000
+	fleet "Large Syndicate" 10000
+system Hamal
+	fleet "Small Core Merchants" 1000
+	fleet "Large Core Merchants" 1000
+	fleet "Small Core Pirates" 3000
+	fleet "Large Core Pirates" 8000
+	fleet "Small Syndicate" 4000
+system Markab
+	fleet "Small Core Merchants" 500
+	fleet "Large Core Merchants" 600
+	fleet "Small Syndicate" 600
+	fleet "Large Syndicate" 800
+system Matar
+	fleet "Small Core Merchants" 2000
+	fleet "Large Core Merchants" 2500
+	fleet "Small Core Pirates" 2000
+	fleet "Large Core Pirates" 4000
+	fleet "Small Syndicate" 3000
+	fleet "Large Syndicate" 6000
+system Menkar
+	fleet "Small Core Merchants" 800
+	fleet "Large Core Merchants" 1000
+	fleet "Small Syndicate" 1500
+	fleet "Large Syndicate" 2000
+	fleet "Large Core Pirates" 4000
+system Mirach
+	fleet "Small Core Merchants" 1000
+	fleet "Large Core Merchants" 1200
+	fleet "Small Core Pirates" 4000
+	fleet "Small Syndicate" 3000
+	fleet "Large Syndicate" 5000
+system Mirfak
+	fleet "Small Core Merchants" 500
+	fleet "Large Core Merchants" 700
+	fleet "Small Syndicate" 1000
+	fleet "Large Syndicate" 1800
+system Polaris
+	fleet "Small Core Merchants" 600
+	fleet "Large Core Merchants" 700
+	fleet "Small Syndicate" 1000
+	fleet "Large Syndicate" 2000
+	fleet "Small Core Pirates" 1500
+	fleet "Korath Raid" 50000
+system Ruchbah
+	fleet "Small Core Merchants" 500
+	fleet "Large Core Merchants" 600
+	fleet "Small Syndicate" 1000
+	fleet "Large Syndicate" 2000
+	fleet "Small Core Pirates" 2000
+	fleet "Large Core Pirates" 3000
+system Scheat
+	fleet "Small Core Merchants" 500
+	fleet "Large Core Merchants" 600
+	fleet "Small Syndicate" 1000
+	fleet "Large Syndicate" 2000
+	fleet "Small Core Pirates" 3000
+	fleet "Large Core Pirates" 5000
+system Schedar
+	fleet "Small Core Merchants" 900
+	fleet "Large Core Merchants" 1000
+	fleet "Small Syndicate" 3000
+	fleet "Large Syndicate" 4000
+	fleet "Small Core Pirates" 2000
+	fleet "Large Core Pirates" 3000
+system Sheratan
+	fleet "Small Core Merchants" 1500
+	fleet "Large Core Merchants" 1800
+	fleet "Small Core Pirates" 3000
+	fleet "Large Core Pirates" 5000
+	fleet "Korath Raid" 30000
+system Zaurak
+	fleet "Small Core Merchants" 800
+	fleet "Large Core Merchants" 1000
+	fleet "Small Syndicate" 1600
+	fleet "Large Syndicate" 2500
+	fleet "Small Core Pirates" 2000
+	fleet "Large Core Pirates" 4000
+
+#Deep Space
+system Adhara
+	fleet "Small Northern Merchants" 300
+	fleet "Large Northern Merchants" 400
+	fleet "Small Deep" 500
+	fleet "Large Deep" 1000
+	fleet "Small Northern Pirates" 2000
+system Aspidiske
+	fleet "Small Northern Merchants" 500
+	fleet "Large Northern Merchants" 1500
+	fleet "Small Deep" 1000
+	fleet "Large Deep" 4000
+system Avior
+	fleet "Small Northern Merchants" 600
+	fleet "Large Northern Merchants" 1800
+	fleet "Small Deep" 1200
+	fleet "Large Deep" 4000
+system Dubhe
+	fleet "Small Northern Merchants" 1000
+	fleet "Large Northern Merchants" 2500
+	fleet "Small Deep" 4000
+	fleet "Large Deep" 9000
+	fleet "Small Northern Pirates" 12000
+	fleet "Large Northern Pirates" 8000
+system "Epsilon Leonis"
+	fleet "Small Northern Merchants" 400
+	fleet "Large Northern Merchants" 1000
+	fleet "Small Deep" 1000
+	fleet "Large Deep" 3000
+system Gomeisa
+	fleet "Small Northern Merchants" 400
+	fleet "Large Northern Merchants" 1000
+	fleet "Small Deep" 1200
+	fleet "Large Deep" 2400
+system Markeb
+	fleet "Small Northern Merchants" 800
+	fleet "Large Northern Merchants" 2000
+	fleet "Small Deep" 1500
+	fleet "Large Deep" 3000
+	fleet "Large Northern Pirates" 5000
+system Naos
+	fleet "Small Northern Merchants" 400
+	fleet "Large Northern Merchants" 1000
+	fleet "Small Deep" 1000
+	fleet "Large Deep" 2000
+system Regor
+	fleet "Small Northern Merchants" 1000
+	fleet "Large Northern Merchants" 3000
+	fleet "Small Deep" 2000
+	fleet "Large Deep" 5000
+system Wezen
+	fleet "Small Northern Merchants" 1000
+	fleet "Large Northern Merchants" 2000
+	fleet "Small Deep" 1500
+	fleet "Large Deep" 4000
+	fleet "Small Northern Pirates" 8000
+system Zosma
+	fleet "Small Northern Merchants" 600
+	fleet "Large Northern Merchants" 1000
+	fleet "Small Deep" 2000
+	fleet "Large Deep" 4000
+	fleet "Small Republic" 4000
+	fleet "Small Northern Pirates" 5000
+	fleet "Large Northern Pirates" 9000
+
+#Republic Space
+system "Alpha Centauri"
+	fleet "Small Northern Merchants" 800
+	fleet "Large Northern Merchants" 1000
+	fleet "Small Republic" 2000
+	fleet "Large Republic" 6000
+system Altair
+	fleet "Small Core Merchants" 400
+	fleet "Large Core Merchants" 600
+	fleet "Small Northern Merchants" 1000
+	fleet "Large Northern Merchants" 3000
+	fleet "Small Republic" 2000
+	fleet "Large Republic" 6000
+	fleet "Small Syndicate" 9000
+system Denebola
+	fleet "Small Northern Merchants" 800
+	fleet "Large Northern Merchants" 2000
+	fleet "Small Republic" 1000
+	fleet "Large Republic" 2000
+system Sirius
+	fleet "Small Northern Merchants" 500
+	fleet "Large Northern Merchants" 700
+	fleet "Small Republic" 1000
+	fleet "Large Republic" 1500
+system Sol
+	fleet "Small Northern Merchants" 300
+	fleet "Large Northern Merchants" 500
+	fleet "Small Republic" 600
+	fleet "Large Republic" 900
+	fleet "Small Core Merchants" 1000
+	fleet "Large Core Merchants" 2000
+system Vega
+	fleet "Small Northern Merchants" 800
+	fleet "Large Northern Merchants" 3000
+	fleet "Small Republic" 1600
+	fleet "Large Republic" 5000
+
+#Free Worlds Space
+system Albireo
+	fleet "Small Southern Merchants" 800
+	fleet "Large Southern Merchants" 1200
+	fleet "Small Southern Pirates" 1000
+	fleet "Large Southern Pirates" 1400
+	fleet "Small Militia" 1800
+	fleet "Large Militia" 3000
+system Dabih
+	fleet "Small Southern Merchants" 500
+	fleet "Large Southern Merchants" 800
+	fleet Quarg 4000
+	fleet "Small Militia" 6000
+	fleet "Large Southern Pirates" 10000
+system Eltanin
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 3000
+	fleet "Small Southern Pirates" 4000
+	fleet Quarg 10000
+system Kraz
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 2000
+	fleet "Small Militia" 800
+	fleet "Large Militia" 1200
+system "Kaus Australis"
+	fleet "Small Southern Merchants" 2000
+	fleet "Large Southern Merchants" 3000
+	fleet Quarg 10000
+	fleet "Small Southern Pirates" 4000
+	fleet "Large Southern Pirates" 8000
+system Lurata
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 3000
+	fleet Quarg 7000
+	fleet "Small Militia" 9000
+	fleet "Large Southern Pirates" 4000
+system Mimosa
+	fleet "Small Southern Merchants" 1600
+	fleet "Large Southern Merchants" 5000
+	fleet "Small Militia" 2500
+	fleet "Large Militia" 6000
+	fleet "Large Southern Pirates" 8000
+system Minkar
+	fleet "Small Southern Merchants" 900
+	fleet "Large Southern Merchants" 3000
+	fleet "Small Militia" 1500
+	fleet "Large Militia" 2000
+	fleet "Large Southern Pirates" 12000
+system Sadr
+	fleet "Small Southern Merchants" 4000
+	fleet Quarg 9000
+	fleet "Small Southern Pirates" 5000
+	fleet "Large Southern Pirates" 9000
+system Tarazed
+	fleet "Small Southern Merchants" 500
+	fleet "Large Southern Merchants" 1200
+	fleet Quarg 7000
+	fleet "Large Southern Pirates" 8000
