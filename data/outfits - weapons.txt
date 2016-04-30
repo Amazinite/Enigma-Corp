@@ -819,29 +819,22 @@ outfit "Cryo Beam"
 
 outfit "EMP Device"
 	category "Guns"
-	cost 100000
+	cost 2500000
 	thumbnail "outfit/known"
 	"mass" 35
 	"outfit space" -35
 	"weapon capacity" -35
 	"gun ports" -1
 	weapon
-		sound "pulse"
+		sound "electron beam"
+		"hit effect" "skylance impact"
 		"fire effect" "skylance impact"
-		"inaccuracy" 1
-		"velocity" 1
+		"inaccuracy" 360
+		"velocity" 800
 		"lifetime" 1
 		"burst count" 60
 		"burst reload" 1
-		"reload" 5
+		"reload" 3
 		"firing energy" 21.2
 		"firing heat" 6.7
-		"submunition" "EMP blast" 360
-
-outfit "EMP blast"
-	weapon
-		"hit effect" skylance impact"
-		"inaccuracy" 360
-		"velocity" 400
-		"lifetime" 1
-		"ion damage" 0.1
+		"ion damage" 50
