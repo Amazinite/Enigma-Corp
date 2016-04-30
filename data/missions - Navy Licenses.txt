@@ -200,9 +200,9 @@ mission "Navy License [4]"
 			names "pirate"
 			variant
 				"Leviathan (Heavy)" 15
-				"Firebird (Plasma)" 20
-				"Corvette (Speedy)" 20
-				"Firebird (Plasma)" 20
+				"Firebird (Plasma)" 15
+				"Corvette (Speedy)" 15
+				"Firebird (Plasma)" 15
 
 	npc
 		government "Navy (Oathkeeper)"
@@ -230,9 +230,9 @@ mission "Navy License [4]"
 				"Carrier" 5
 				"Lance" 20
 				"Combat Drone" 80
-				"Cruiser" 10
-				"Frigate" 15
-				"Gunboat" 20
+				"Cruiser" 8
+				"Frigate" 12
+				"Gunboat" 15
 
 	on complete
 		conversation
@@ -252,7 +252,7 @@ mission "Navy License [4]"
 				goto end
 
 			label intown
-			`	"Well that’s nice to know. Thanks for the hand. If you ever want to talk again, you know where to find me."`
+			`	"Well thatâ€™s nice to know. Thanks for the hand. If you ever want to talk again, you know where to find me."`
 				goto end
 
 			label end
