@@ -370,7 +370,7 @@ ship "EC-069 'Star King'"
 	explode "small explosion" 25
 	explode "medium explosion" 25
 	explode "big explosion" 10
-	description `The Echo 69 'Star King' is the next level in luxury cruisers. Designed for transport of the most important individuals, the Star King is more heavily armed and armoured than it’s smaller cousin, the Star Queen. Every Star Queen also comes with a trained chef and three space waitresses, free of charge!`
+	description `The Echo 69 'Star King' is the next level in luxury cruisers. Designed for transport of the most important individuals, the Star King is more heavily armed and armoured than itâ€™s smaller cousin, the Star Queen. Every Star Queen also comes with a trained chef and three space waitresses, free of charge!`
 	description "Brought to you by Enigma Corp."
 
 ship "EC-070 'Star Guardian'"
@@ -407,7 +407,7 @@ ship "EC-070 'Star Guardian'"
 		
 		"A520 Atomic Thruster"
 		"A375 Atomic Steering"
-		"Hyperdrive"
+		"Scram Drive"
 		
 	engine -19 137
 	engine 19 137
@@ -422,7 +422,7 @@ ship "EC-070 'Star Guardian'"
 	explode "small explosion" 30
 	explode "medium explosion" 30
 	explode "big explosion" 10
-	description ``
+	description `The Star Guardian is the pinnicale of luxury transport, and every very important person's choice for transportation. The Star Guardian comes specially fitted with an EMP device made for when the ship gets unexpectedly ambushed and needs to make a quick escape. Just fire the EMP device, scramble the electronics of every pirate ship that was unlucky to be to close, and jump out of the system.`
 	description "Brought to you by Enigma Corp."
 
 ship "EC-077 'Dire Wolf'"
@@ -480,11 +480,11 @@ ship "EC-078 'Dire Hawk'"
 		category "Light Warship"
 		"cost" 2520000
 		"shields" 2200
-		"hull" 600
+		"hull" 500
 		"required crew" 3
 		"bunks" 11
-		"mass" 101
-		"drag" 2.4
+		"mass" 117
+		"drag" 2.9
 		"heat dissipation" 1
 		"fuel capacity" 400
 		"cargo space" 5
@@ -523,7 +523,7 @@ ship "EC-078 'Dire Hawk'"
 	explode "small explosion" 25
 	explode "medium explosion" 20
 	explode "big explosion" 5
-	description ""
+	description "The EC-078 Dire Hawk is pretty much the twin brother of the Dire Wolf, but he got more presents on Christmas. This version of the Dire Wolf includes a built in prototype cloaking device used for stealth missions. Due to its bulk, this version has some added mass and slightly less hull, as well as no new space for weapons. Even still, skilled use of the cloaking device can make the EC-078 more deadly than the EC-077 could ever be."
 	description "Brought to you by Enigma Corp."
 
 ship "EC-099 'Oblivion'"
