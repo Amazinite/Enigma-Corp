@@ -12,6 +12,7 @@ mission "Enigma Corp 1"
 			`	Adhara`
 			`	Alpha Centauri`
 			`	Dabih`
+				fail
 			
 
 mission "Enigma Corp 2"
@@ -24,6 +25,7 @@ mission "Enigma Corp 2"
 		conversation
 			`	As you land, you recieve a message from Enigma Corp.`
 			`	"Come one, come all! Enigma Stations located throughout the galaxy have just been stocked with the latest in Enigma Corporation technology! Get your brand new weapons today!`
+				fail
 
 mission "Enigma Corp 3"
 	landing
@@ -36,6 +38,7 @@ mission "Enigma Corp 3"
 		conversation
 			`	As you land, you recieve a message from Enigma Corp.`
 			`	"Come one, come all! Enigma Stations located throughout the galaxy have just been stocked with the latest in Enigma Corporation technology! Get your brand new weapons today!`
+				fail
 
 mission "Enigma Corp 4"
 	landing
@@ -44,6 +47,7 @@ mission "Enigma Corp 4"
 		has "event: Enigma Prime Open"
 	on offer
 		event "Enigma Corp 4"
+		fail
 
 mission "Typhoon Cap"
 	landing
@@ -52,6 +56,7 @@ mission "Typhoon Cap"
 		has "event: deep sky tech available"
 	on offer
 		event "Typhoon Cap"
+		fail
 
 mission "New FW Tech"
 	name "Technology Escort"
