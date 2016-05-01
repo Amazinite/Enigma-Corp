@@ -31,7 +31,7 @@ outfit "Hellfire Missile Launcher"
 		"hull damage" 50
 		"hit force" 30
 		"missile strength" 4
-	description "This modified meteor missile launcher was recently developed by Enigma Corp. All saftey measures were removed, allowing for more missile capacity, faster firing, and virtually no energy consumption. This comes at the cost of a slightly larger size and much more heat generation when fired."
+	description "This modified Meteor missile launcher was recently developed by Enigma Corp. All saftey measures were removed, allowing for more missile capacity, faster firing, and virtually no energy consumption. This comes at the cost of a slightly larger size and much more heat generation when fired."
 	description "Brought to you by Enigma Corp."
 
 outfit "Flux Missile Launcher"
@@ -68,7 +68,7 @@ outfit "Flux Missile Launcher"
 		"ion damage" 1
 		"hit force" 25
 		"missile strength" 12
-	description "The flux missile launcher is the sidewinder's version of the hellfire launcher. It fires faster and with more capacity, but the flux warhead packs a small EMP. This EMP explodes on the hull of the ship, draining energy from the ship and doing massive damage to the shields."
+	description "The Flux missile launcher is the Sidewinder's version of the Hellfire launcher. It fires faster and with more capacity, but the flux warhead packs a small EMP. This EMP explodes on the hull of the ship, draining energy from the ship and doing massive damage to the shields."
 	description "Brought to you by Enigma Corp."
 
 outfit "Antimatter Launcher"
@@ -177,7 +177,7 @@ outfit "Flux Mine Placer"
 		"blast radius" 85
 		"ion damage" 35
 		"missile strength" 1000
-	description "Coming to you from Enigma Corp is the brand new Flux Mine Placer! This weapon places down unmoving mines that will explode  when an enemy that gets too close, and once they're hit, their ship will be depleted of its energy, causing it to become immobile for a short time."
+	description "Coming to you from Enigma Corp is the brand new Flux Mine Placer! This weapon places down unmoving mines that will explode when an enemy that gets too close, and once they're hit, their ship will be depleted of its energy, causing it to become immobile for a short time."
 	description "Warning: May inflict self damage."
 	description "Brought to you by Enigma Corp."
 
@@ -278,7 +278,7 @@ outfit "Gravitational Wave Generator"
 		"reload" 180
 		"firing energy" 2000
 		"firing heat" -1000
-	description "This device works by smashing together two miniature contained black holes, which generators a gravitational wave strong enough to push away any unwanted ships (or ships that you don't want blown up). The closer your enemy is, the more they get pushed away." 
+	description "This device works by smashing together two miniature contained black holes, which generates a gravitational wave strong enough to push away any unwanted ships (or ships that you don't want blown up). The closer your enemy is, the more they get pushed away." 
 	description "Although, the energy required to move two black holes together is massive, so make sure that you pack some extra batteries to compensate. But strangely enough, the smashing of the black holes draws heat away from your ship, making it act as sort of a cooling device when fired."
 	description "Brought to you by Enigma Corp."
 
@@ -318,7 +318,6 @@ outfit "sbexplosion"
 		"shield damage" 400
 		"hull damage" 400
 		"hit force" 2000
-
 
 outfit "Repair Turret"
 	category "Turrets"
