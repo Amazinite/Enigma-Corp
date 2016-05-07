@@ -68,7 +68,7 @@ outfit "Flux Missile Launcher"
 		"ion damage" 1
 		"hit force" 25
 		"missile strength" 12
-	description "The Flux Missile Launcher is the Sidewinder's version of the Hellfire Launcher. It fires faster and with more capacity, but the flux warhead packs a small EMP. This EMP explodes on the hull of the ship, draining energy from the ship and doing massive damage to the shields."
+	description "The Flux Missile Launcher is to the Hellfire what the Sidewinder is to the Meteor (Of course, they were the base models for them). It fires faster and holds more ammunition, but the real selling point is the flux warhead, which packs a small EMP. This EMP explodes on the hull of the ship, draining energy from the ship and doing massive damage to the shields."
 	description "Brought to you by Enigma Corp."
 
 outfit "Antimatter Launcher"
@@ -104,7 +104,8 @@ outfit "Antimatter Launcher"
 		"hull damage" 2000000
 		"hit force" 80
 		"missile strength" 1000
-	description "This Heavy Rocket Launcher has been modified to hold the massive antimatter bomb developed by Enigma Corp. Given the destructive power of the antimatter bomb, only a specially outfitted capital ship can withstand the amount of energy required to fire. It is perfectly worth it though, because as soon as the slow moving missile hits its target the entire system will be clean of enemies."
+	description "This Heavy Rocket Launcher has been modified to hold the massive Antimatter Bomb developed by Enigma Corp. Given the destructive power of the Antimatter Bomb, only a specially outfitted capital ship can withstand the amount of energy required to fire. It is perfectly worth it though, because as soon as the slow-moving missile hits its target the entire system will be clean of enemies."
+	description "Enigma Corp. is not liable for any casulties involving allied or uninvolved ships due to the detonation of the Antimatter Bomb.
 	description "Brought to you by Enigma Corp."
 
 outfit "Missile Turret"
@@ -141,8 +142,8 @@ outfit "Missile Turret"
 		"hull damage" 60
 		"hit force" 25
 		"missile strength" 12
-	description "The Missile Turret is the next step in missile technology developed by Lovelace Labs. It was becoming increasingly difficult to design missiles with better homing and turning capabilities, so a scientist at Lovelace proposed that a missile turret be developed. This would lower a ship's need to get in position to fire missiles and make it much easier to hit moving targets, as the missiles will already be flying directly towards their target instead of needing to make u-turns and end up running out of fuel."
-	description "The design team decided to simply take a Sidewinder Missile Launcher and place it on a rotating platform. Because of this, the Missile Turret takes the same ammo as Sidewinder Missile Launchers."
+	description "The Missile Turret is the next step in missile technology developed by Lovelace Labs. It was becoming increasingly difficult to design missiles with better homing and turning capabilities, so a scientist at Lovelace proposed that a missile turret be developed. This would eliminate a ship's need to bring its launchers to bear in order to hit moving targets, as the missiles will already be flying directly towards their target instead of needing to make u-turns and end up running out of fuel."
+	description "The design team decided to simply take a Sidewinder Missile Launcher and place it on a rotating platform. Because of this, the Missile Turret fires Sidewinder Missiles."
 
 outfit "Flux Mine Placer"
 	category "Secondary Weapons"
@@ -177,8 +178,8 @@ outfit "Flux Mine Placer"
 		"blast radius" 85
 		"ion damage" 35
 		"missile strength" 1000
-	description "Coming to you from Enigma Corp is the brand new Flux Mine Placer! This weapon places down unmoving mines that will explode when an enemy gets too close, and once they're hit, their ship will be depleted of its energy, causing it to become immobile for a short time."
-	description "Warning: May inflict self damage."
+	description "Coming to you from Enigma Corp is the brand new Flux Mine Placer! This weapon places down unmoving mines that will explode when an enemy gets too close, and once hit, their ship will be depleted of its energy, causing it to become immobile for a short time."
+	description "Warning: May inflict self-damage. Enigma Corp. is not liable for mishandling of explosive weapons."
 	description "Brought to you by Enigma Corp."
 
 outfit "Typhoon Mine Placer"
@@ -217,7 +218,7 @@ outfit "Typhoon Mine Placer"
 		"hit force" 50
 		"missile strength" 1000
 	description "Coming to you from Enigma Corp is the brand new Typhoon Mine Placer! This weapon places down unmoving mines that will explode when an enemy gets too close, causing massive damage"
-	description "Warning: May inflict self damage."
+	description "Warning: May inflict self damage. Enigma Corp. is not liable for mishandling of explosive weapons."
 	description "Brought to you by Enigma Corp."
 
 outfit "Thermite Mine Placer"
@@ -256,8 +257,8 @@ outfit "Thermite Mine Placer"
 		"heat damage" 3000
 		"hit force" 50
 		"missile strength" 1000
-	description "Coming to you from Enigma Corp is the brand new Ion Mine Placer! This weapon places down unmoving mines that will explode when an enemy gets too close, and once they're hit, their ship will take a small amount of damage and an extreme amount of heat damage, causing most ships to overheat."
-	description "Warning: May inflict self damage."
+	description "Coming to you from Enigma Corp is the brand new Thermite Mine Placer! This weapon places down unmoving mines that will explode when an enemy gets too close, and once hit, their ship will take an extreme amount of heat damage, causing most ships to overheat."
+	description "Warning: May inflict self damage. Enigma Corp. is not liable for mishandling of explosive weapons."
 	description "Brought to you by Enigma Corp."
 
 outfit "Gravitational Wave Generator"
@@ -278,8 +279,8 @@ outfit "Gravitational Wave Generator"
 		"reload" 180
 		"firing energy" 2000
 		"firing heat" -1000
-	description "This device works by smashing together two miniature contained black holes, which generates a gravitational wave strong enough to push away any unwanted ships (or ships that you don't want blown up). The closer your enemy is, the more they get pushed away." 
-	description "Although, the energy required to move two black holes together is massive, so make sure that you pack some extra batteries to compensate. But strangely enough, the smashing of the black holes draws heat away from your ship, making it act as sort of a cooling device when fired."
+	description "This device works by smashing together two miniature contained black holes, which generates a gravitational wave strong enough to push away any unwanted ships (or ships that you don't want blown up), although it won't harm them. The closer your target is, the further they end up." 
+	description "The energy required to move two black holes together is massive, so make sure that you pack some extra batteries to compensate. But strangely enough, the smashing of the black holes draws heat away from your ship, making it act as sort of an active cooling device when fired."
 	description "Brought to you by Enigma Corp."
 
 outfit "Wave"
@@ -308,7 +309,7 @@ outfit "Smartbomb"
 		"reload" 350
 		"firing energy" 3000
 		"firing heat" 300
-	description "The Smartbomb is an explosive device that damages all ships that are unlucky enough to get near your ship when it goes off. It was specifically designed for destroying pesky drones, but it's still pretty effective against other ships." 
+	description "The Smartbomb is a cluster munitions device that damages all ships that are unlucky enough to get near it when it goes off. It was specifically designed for destroying pesky drones, but it's still pretty effective against other ships." 
 
 outfit "sbexplosion"
 	weapon
@@ -343,7 +344,7 @@ outfit "Repair Turret"
 		"firing heat" 4.4
 		"shield damage" 0
 		"hull damage" -5
-	description `Using new 'slow laser' technology, the Deep developed a special laser weapon that is able to carry small nanobots within the beam. These nanobots are especially helpful for repairing the hulls of ships, making this an extemely helpful weapon for captains who may want to be able to quickly repair ships in their fleet without putting themselves in danger.`
+	description `Using new 'slow laser' technology, Deep Sky developed a special laser weapon that is able to carry small nanobots within the beam. These nanobots are meant for repairing the hulls of ships, making this an extemely helpful weapon for captains who may want to be able to quickly repair ships in their fleet without putting themselves in danger.`
 
 outfit "Energy Turret"
 	category "Turrets"
@@ -369,7 +370,7 @@ outfit "Energy Turret"
 		"shield damage" 0
 		"hull damage" 0
 		"ion damage" -.25
-	description "The energy transfer turret works by firing a stream of electric energy at your target that will quickly charge their batteries. Especially useful for keeping your own ships in combat."
+	description "The Energy Transfer turret works by firing a stream of energy at your target that will quickly charge their batteries. Especially useful for keeping your own ships in combat."
 
 outfit "Reverse Engineered Skylance"
 	category "Turrets"
@@ -394,9 +395,9 @@ outfit "Reverse Engineered Skylance"
 		"shield damage" 40
 		"hull damage" 30
 		"ion damage" .1
-	description "After disabling and looting about four Quarg spaceships, the Quarg started to hate Enigma Corp. So the Corporation's solution? Reverse engineer some of the stuff they stole!"
-	description "This reverse engineered Skylance is almost like a noraml Quarg Skylance, but a little worse. This version does slightly less damage, generates much more heat, and takes even more energy to fire."
-	description "Brought to you by Enigma Corp."
+	description "After disabling and looting about four Quarg spaceships, the Quarg started to hate Enigma Corp. (More.) Enigma's ingenious solution? Reverse engineer some of the stuff they stole!"
+	description "This reverse-engineered Skylance is almost like a normal Quarg Skylance, but a little worse. This version does slightly less damage, generates much more heat, and takes even more energy to fire."
+	description "Completely legally brought to you by Enigma Corp."
 
 outfit "Plasmathrower"
 	category "Secondary Weapons"
@@ -420,8 +421,9 @@ outfit "Plasmathrower"
 		"firing energy" 1
 		"firing fuel" .1
 		"firing heat" 2
-	description "Since most ships have sufficient enough cooling systems to withstand the heat damage of a flamethrower, Enigma Corp decided to make it a little different. Say hello to the Plasmathrower! This weapon fires super-heated plasma at your foes to deal some massive ion damage, quickly draining their energy reserves. The plasma also does considerable damage to the opponent's shields, meaning that any energy that they have left is probably going to be sucked up by their shield generator."
+	description "Since most ships have sufficient enough cooling systems to withstand the heat damage of a flamethrower, Enigma Corp. decided to make it a little different. Say hello to the Plasmathrower! This weapon fires super-ionized plasma at your foes to deal some massive ion damage, quickly draining their energy reserves. The plasma also does considerable damage to the opponent's shields, meaning that any energy that they have left is probably going to be sucked up by their shield generator."
 	description "Brought to you by Enigma Corp."
+#So super-heating plasma drains energy?
 
 outfit "Plasmathrower Projectile"
 	weapon
@@ -460,8 +462,11 @@ outfit "Arc Discharger"
 		"shield damage" 7.4
 		"hull damage" 2.5
 		"ion damage" 0.166666
-	description "The Arc Discharger works by rerouting your ship’s energy straight into the power core of the weapon. The core is quickly overcharged, releasing a burst of energy in the form of lighting. The resulting lightning storm ionizes the shields of ships, doing massive shield damage and potenially disabling smaller ships due to energy loss."
+		"energy generation" -0.2
+	description "The Arc Discharger works by rerouting your ship’s energy straight into the power core of the weapon. The core is quickly overcharged, releasing a burst of energy in the form of lighting. The resulting storm ionizes the shields of ships, doing massive shield damage and potenially disabling smaller ships due to energy loss."
+	description "Because the weapon needs to always be charged and ready, it puts a permanent drain on power production."
 	description "Brought to you by Enigma Corp."
+#Is ionized right?
 
 outfit "Shrapnel Cannon"
 	category "Secondary Weapons"
@@ -483,7 +488,7 @@ outfit "Shrapnel Cannon"
 		"firing energy" 200
 		"firing heat" 500
 		"submunition" "shrapnel" 16
-	description "The Shrapnel Cannon is basically an oversized shotgun. The large shrapnel shells fired from this weapon explode upon reaching the end of the barrel and fire out 16 superheated shrapnel pellets, doing massive damage up close."
+	description "The Shrapnel Cannon is basically an oversized space shotgun. The large shells fired from this weapon explode upon reaching the end of the barrel and fire out 16 super-heated shrapnel pellets, doing massive damage up close."
 	description "Due to the nature of this weapon, ammunition needs to be specially ordered."
 	description "Brought to you by Enigma Corp."
 
@@ -528,8 +533,8 @@ outfit "Fuel Rod Launcher"
 		"hull damage" 1000
 		"heat damage" 2500
 		"missile strength" 100
-	description "Have you ever felt like you have too much fuel? Do you never run out of fuel because of how many fuel pods you have? Well put that fuel to some good use with the fuel rod launcher!"
-	description "The Fuel Rod Launcher works by filling rods with your ship’s hyperspace fuel and firing them through a torpedo tube. When the rod makes contact with something, it breaks open and causes the fuel to mix with a small amount of chemicals that cause it to catch fire. This creates a large explosion with some heat damage to it. Very useful for damaging the hull of ships as well."
+	description "Have you ever felt like you have too much fuel? Do you never run out of fuel because of how many Fuel Pods or Ramscoops you have? Then it's time to put that fuel to some good use with the Fuel Rod Launcher!"
+	description "The Fuel Rod Launcher works by filling rods with your ship’s hyperspace fuel and firing them through a torpedo tube. When the rod makes contact with something, it breaks open and mixes the fuel with some chemicals that cause it to catch fire. This creates a large and hot explosion. Very useful for damaging the hull of ships as well."
 
 outfit "Flux Torpedo Launcher"
 	category "Secondary Weapons"
@@ -565,7 +570,7 @@ outfit "Flux Torpedo Launcher"
 		"ion damage" 10
 		"hit force" 70
 		"missile strength" 30
-	description "The Flux Torpedo Launcher is an altered version of the Deep Sky's Typhoon Launcher built by Syndicate. Intended to be used to protect freighter convoys, the flux torpedo completely short circuits the enemy's ship, draining much of the ship's energy. This usually allows a convoy enough time to jump out of the system before the enemy ship can recover."
+	description "The Flux Torpedo Launcher is a Syndicate-altered version of Deep Sky's Typhoon Launcher. Intended to be used to protect freighter convoys, the Flux Torpedo completely short-circuits any enemy's ship, draining much of their energy. This usually allows a convoy enough time to jump out of the system before the enemy ship can recover, and is a mechant favorite for its quick activation."
 
 outfit "Thermite Torpedo Launcher"
 	category "Secondary Weapons"
@@ -601,7 +606,7 @@ outfit "Thermite Torpedo Launcher"
 		"heat damage" 1000
 		"hit force" 70
 		"missile strength" 30
-	description "Given the success of the Flamethrower, the Free Worlds decided to make a torpedo version of it. The Thermite Torpedo works by covering the enemy's ship in liquid thermite, burning away at the hull of the ship and causing massive heat damage."
+	description "Given the success of the Flamethrower, the Free Worlds decided to make a torpedo version of it. The Thermite Torpedo works by covering the enemy's ship in liquid thermite, melting away the hull and causing massive heat damage."
 
 outfit "Wolf Bomb Bay"
 	category "Secondary Weapons"
@@ -637,7 +642,7 @@ outfit "Wolf Bomb Bay"
 		"hull damage" 2000
 		"hit force" 70
 		"missile strength" 100
-	description "The Wolf Bomb Bay is specifically designed to be used on the Enigma Corp EC-077 Dire Wolf bomber. Made using only the newest of technology in the field of torpedo weaponry, the explosive yield of a single Wolf Bomb is greater than that of any torpedo to ever come before it."
+	description "The Wolf Bomb Bay is specifically designed to be used on the Enigma Corp. EC-077 Dire Wolf bomber. Made using only the newest of technology in the field of torpedo weaponry, the explosive yield of a single Wolf Bomb is greater than that of any torpedo to ever come before it."
 	description "Brought to you by Enigma Corp."
 
 outfit "Forge Cannon"
@@ -662,7 +667,7 @@ outfit "Forge Cannon"
 		"hit force" 250
 		"shield damage" 1800
 		"hull damage" 2230
-	description "The Forge Cannon is a highly powerful rail gun that fires titanium slugs at extreme speeds. The kinetic force of the slug hitting something causes a massive explosion, quickly ripping through any hull that it hits, while also doing large amounts of shield damage. Due to the size of the slugs and the amount of damage that could be caused by a malfunction, slugs are slowly and carefully reloaded into the cannon, leading to rather long reload times."
+	description "The Forge Cannon is a high-power rail gun that fires titanium slugs at extreme speeds. The kinetic force of the slug hitting something causes a ricocheting pocket-explosion, quickly ripping through any hull that it hits, while also doing large amounts of shield damage. Due to the size of the slugs and the amount of damage that could be caused by a malfunction, slugs are slowly and carefully reloaded into the cannon, leading to rather long firing pauses."
 
 outfit "Grav Bomb"
 	category "Secondary Weapons"
@@ -682,7 +687,7 @@ outfit "Grav Bomb"
 		"reload" 180
 		"firing energy" 1000
 		"firing heat" 0
-	description "The Grav Bomb has the reverse effect of the Gravitational Wave Generator, pulling ships toward the origin point as opposed to pushing them away. This can be extremely helpful for pulling smaller and quicker ships into your optimal weapon ranges, or just stopping those pesky Navy Rainmakers from getting too far away."
+	description "The Grav Bomb Launcher has the reverse effect of the Gravitational Wave Generator, pulling ships toward the origin point as opposed to pushing them away. This can be extremely helpful for pulling smaller and quicker ships into your optimal weapon ranges, or just stopping those pesky missile boats from getting too far away."
 
 outfit "Grav"
 	weapon
@@ -757,10 +762,10 @@ outfit "Missile Denial System"
 		"lifetime" 1
 		"burst count" 300
 		"burst reload" 1
-		"reload" 2
+		"reload" 2000
 		"firing energy" 10
 		"firing heat" 100
-	description "The Missile Denial System is nothing more than a scaled up trophy system, destroying absolutely every missile that enters its range. The only problem is that trophy systems do not last forever, and after a certain amount of projectiles become either completely useless or need time to recharge. The same is the case with the Missile Denial System; after about 300 shots, the MDS must take time to recharge."
+	description "The Missile Denial System is nothing more than a scaled-up trophy system, destroying absolutely every missile that enters its range. The only problem is that trophy systems do not last forever, and after a certain amount of projectiles become either completely useless or need time to recharge. The same is the case with the Missile Denial System; after 300 shots, the MDS must take a very long time to recharge."
 	description "Brought to you by Enigma Corp."
 
 outfit "Seeker Laser"
@@ -788,7 +793,7 @@ outfit "Seeker Laser"
 		"firing heat" 4.2
 		"shield damage" 4.9
 		"hull damage" 6.4
-	description "No one knows exactly how this weapon works, but the outcome is truely amazing. When fired, the Seeker Laser produces a laser that is able to split up into multiple projectiles and track targets, chasing them for long ranges. Almost completely impossible to dodge, the lasers move at an extremely fast speeds and have a high turn radius, allowing the lasers to track even the fastest of ships."
+	description "No one knows exactly how this weapon works, but the outcome is truly amazing. When fired, the Seeker Laser produces a beam that is able to split up into multiple 'projectiles' and track targets, chasing them for long ranges. Almost completely impossible to dodge, the mini-lasers move at an extremely fast speeds and have a high turn radius, allowing them to track even the fastest of ships."
 	description "Brought to you by Enigma Corp."
 
 outfit "Cryo Beam"
@@ -810,11 +815,12 @@ outfit "Cryo Beam"
 		"reload" 1
 		"firing energy" 2
 		"firing heat" 3
+		"heat damage" -0.1
 		"shield damage" 1.8
 		"hull damage" 1.2
 		"slowing damage" 0.1
 		"ion damage" 0.1
-	description "The Cryo Beam is a new development from Enigma Corp. Rumor has it that one of Enigma Corp's scouting fleets found a new alien race with amazing technology, and attempted to engineer some of their weapons from what they saw. It didn't turn out exactly as planned, but this weapon still has the same effect; it slowly freezes the enemy ship, causing them to become almost entirely immobile."
+	description "The Cryo Beam is a new development from Enigma Corp. Rumor has it that one of Enigma Corp's scouting fleets found a new alien race with amazing technology, and attempted to re-engineer some of their weapons from what they saw. It didn't turn out exactly as planned, but this weapon still has the same effect; it slowly freezes the enemy ship, causing them to become almost completely immobile. However, frezing also cancels out any heat damage you may have wanted to inflict."
 	description "Brought to you by Enigma Corp."
 
 outfit "EMP Device"
