@@ -1,3 +1,13 @@
+# Copyright (c) 2016 by Jonathan Steck
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
 outfit "Galaxy Map"
 	category "Special"
 	cost 1000
@@ -25,7 +35,7 @@ outfit "External Fuel Pod"
 	"fuel capacity" 100
 	"hull" -100
 	"shields" -100
-	description "A fuel pod that is placed outside of the hull, making it take up no outfit space! But come on, you’re placing a giant explosive barrel on the outside of your ship for your enemies to shoot at. I think that would cause a little damage when shot."
+	description "A fuel pod that is placed outside of the hull, making it take up no outfit space! But come on, youâ€™re placing a giant explosive barrel on the outside of your ship for your enemies to shoot at. I think that would cause a little damage when shot."
 
 outfit "Weapon Expansion"
 	category "Systems"
