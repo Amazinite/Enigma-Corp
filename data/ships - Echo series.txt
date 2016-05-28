@@ -1,5 +1,12 @@
-# Say hello to Enigma Corp's EC-0 Series of ships! These ships are the best of the best when it comes to human developed machinery, mainly because Enigma Corp like to steal stuff. But never mind that, just give us some cash and be happy with your top of the line ship!
-# Some people like to refer to the series as "Echo" for short. For example, instead of having to say "E-C-zero-fifty," they just say "Echo 50." Cool, right?
+# Copyright (c) 2016 by Jonathan Steck
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 ship "EC-001 'Badger'"
 	sprite "ship/Echo 1"

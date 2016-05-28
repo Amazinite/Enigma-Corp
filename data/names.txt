@@ -1,3 +1,13 @@
+# Copyright (c) 2016 by Jonathan Steck
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
 phrase "keepers"
 	word
 		"The Great "
@@ -80,7 +90,7 @@ phrase "enigma military"
 		"Verran"
 		"Your Ad Here"
 		"Roberto"
-		"Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad Ruiz y Picasso"
+		"Pablo Diego JosÃ© Francisco de Paula Juan Nepomuceno MarÃ­a de los Remedios Cipriano de la SantÃ­sima Trinidad Ruiz y Picasso"
 		"Juan Pablo"
 		"Patriot"
 		"Mirage"
