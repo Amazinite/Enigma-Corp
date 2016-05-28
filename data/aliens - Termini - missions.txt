@@ -1,3 +1,13 @@
+# Copyright (c) 2016 by Jonathan Steck
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
 mission "Termini Intro"
 	name "Strange Figure"
 	description "Go to Vega and board the disabled Termini scout in the area."
@@ -98,7 +108,7 @@ mission "Termini Intro"
 				goto choice2
 				
 			label nowhy
-			`	"You know, that's a pretty fair point… I'll just leave."`
+			`	"You know, that's a pretty fair pointâ€¦ I'll just leave."`
 			`	He turns off and walks back behind the crates that he had jumped from, never to be seen again.`
 				decline
 			
