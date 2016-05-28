@@ -1,3 +1,13 @@
+# Copyright (c) 2016 by Jonathan Steck
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
 outfit "Incendiary Grenades"
 	category "Hand to Hand"
 	"cost" 100000
@@ -33,7 +43,7 @@ outfit "Plasma Deflector"
 	"capture attack" 0.3
 	"capture defense" 1.8
 	"unplunderable" 1
-	description "The plasma deflector was created as a direct counter to plasma weaponry. It works by making a shield of low energy particles that neutralize the high energy plasma, essentially turning it into a metal BB when it comes out the other side. Hardly anything to worry about, as long as you don’t get hit in the eye. Although, the time and energy it takes to activate a plasma deflector is too much to be able to be used as an offensive item."
+	description "The plasma deflector was created as a direct counter to plasma weaponry. It works by making a shield of low energy particles that neutralize the high energy plasma, essentially turning it into a metal BB when it comes out the other side. Hardly anything to worry about, as long as you donâ€™t get hit in the eye. Although, the time and energy it takes to activate a plasma deflector is too much to be able to be used as an offensive item."
 
 outfit "Personal Shield Generator"
 	category "Hand to Hand"
@@ -70,7 +80,7 @@ outfit "Portable Flamethrower"
 	"capture defense" 2.1
 	"illegal" 2500000
 	"unplunderable" 1
-	description "The man-portable flamethrower was banned years ago for being too harsh and inhumane of a weapon, but that doesn’t stop pirates and people like you from using it, now does it?"
+	description "The man-portable flamethrower was banned years ago for being too harsh and inhumane of a weapon, but that doesnâ€™t stop pirates and people like you from using it, now does it?"
 
 outfit "Crew Implants"
 	category "Hand to Hand"
