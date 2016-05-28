@@ -304,10 +304,8 @@ ship "EC-050 'Orca'"
 		"A520 Atomic Thruster"
 		"Scram Drive"
 		
-	engine -45 255
-	engine -37 225
-	engine 37 225
-	engine 45 225
+	engine 42 250
+	engine -42 250
 	turret -12 -224.25 "Heavy Laser Turret"
 	turret -12 -157.75
 	turret -12 -96.75 "Heavy Laser Turret"
