@@ -48,7 +48,7 @@ system Alnair
 	fleet "Large Syndicate" 6000
 	fleet "Small Enigma Merchants" 4000
 	fleet "Large Enigma Merchants" 8000
-system Alpha Hydri
+system "Alpha Hydri"
 	fleet "Small Core Merchants" 900
 	fleet "Large Core Merchants" 3000
 	fleet "Small Core Pirates" 2000
