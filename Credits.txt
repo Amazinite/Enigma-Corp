@@ -21,4 +21,4 @@ All other images that have not been mentioned - Modified by me from the images u
 Special Thanks:
 FallenCat, for helping me get the ships to not crash the game when you click on them and actually have a collision box
 Wrzlprnft, for making the fabulous blender ship images
-Toilethinges, for being my honorary spelling and grammar checker
+Toilethinges and Alkallid, for being my honorary spelling and grammar checker
