@@ -15,10 +15,11 @@ Legacy Echo Ships - Drawn by me, influence by Eve Online ships
 EC-099 original design- MoonredStarblack (Deviant Art)
 The new Echo ships - Designed by me, created by Wrzlprnft in Blender, then touched up by me in Gimp :3
 Echo 7, Echo 7 Civ, and Legacy Echo 69 - Created by me using images from the game
+Blue ships and motherships - Millionth Vector
 
 All other images that have not been mentioned - Modified by me from the images used in Endless Sky
 
 Special Thanks:
 FallenCat, for helping me get the ships to not crash the game when you click on them and actually have a collision box
 Wrzlprnft, for making the fabulous blender ship images
-Toilethinges and Alkallid, for being my honorary spelling and grammar checker
+Toilethinges and Alkallid, for being my honorary spelling and grammar checkers
