@@ -820,7 +820,7 @@ outfit "Cryo Beam"
 		"hull damage" 1.2
 		"slowing damage" 0.1
 		"ion damage" 0.1
-	description "The Cryo Beam is a new development from Enigma Corp. Rumor has it that one of Enigma Corp's scouting fleets found a new alien race with amazing technology, and attempted to re-engineer some of their weapons from what they saw. It didn't turn out exactly as planned, but this weapon still has the same effect; it slowly freezes the enemy ship, causing them to become almost completely immobile. However, frezing also cancels out any heat damage you may have wanted to inflict."
+	description "The Cryo Beam is a new development from Enigma Corp. Rumor has it that one of Enigma Corp's scouting fleets found a new alien race with amazing technology, and attempted to re-engineer some of their weapons from what they saw. It didn't turn out exactly as planned, but this weapon still has the same effect; it slowly freezes the enemy ship, causing them to become almost completely immobile. However, the freezing effect also cancels out any heat damage you may have wanted to inflict."
 	description "Brought to you by Enigma Corp."
 
 outfit "EMP Device"
