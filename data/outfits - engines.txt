@@ -18,8 +18,8 @@ outfit "Antimatter Steering"
 	"turn" 5000
 	"turning energy" 12.4
 	"turning heat" 23.6
-	description "Antimatter engines are the most powerful engines known, being over 50% better than the next best thing. Thanks Quarg!"
-	description "Brought to you by Enigma Corp."
+	description "Antimatter engines are the most powerful engines known to man, being over 50% more efficient than the next best thing. Thanks Quarg!"
+	description "Brought to you by the Enigma Corporation."
 
 outfit "Antimatter Thruster"
 	category "Engines"
@@ -34,16 +34,8 @@ outfit "Antimatter Thruster"
 	"flare sprite" "effect/antimatter/huge"
 		"frame rate" 10
 	"flare sound" "atomic huge"
-	description "Antimatter engines are the most powerful engines known, being over 50% better than the next best thing."
-	description "Brought to you by Enigma Corp."
-
-outfit "Decoy Engines"
-	category "Engines"
-	"cost" 0
-	thumbnail "outfit/afterburner"
-	"thrust" 1
-	"turn" 10
-	description "Engines intended to be used on drones that don't need to move around."
+	description "Antimatter engines are the most powerful engines known to man, being over 50% more efficient than the next best thing. Thanks Quarg!"
+	description "Brought to you by the Enigma Corporation."
 
 outfit "Warp Afterburner"
 	category "Engines"
@@ -57,5 +49,5 @@ outfit "Warp Afterburner"
 	"afterburner energy" 10
 	"afterburner heat" 100
 	"afterburner effect" "ionic afterburner"
-	description "This after burner has so much thrust on it that you'll be reaching warp speed in milliseconds!"
-	description "Brought to you by Enigma Corp."
+	description "This afterburner has so much thrust on it that you'll be reaching warp speed in milliseconds!"
+	description "Brought to you by the Enigma Corporation."
