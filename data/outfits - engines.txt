@@ -36,6 +36,23 @@ outfit "Antimatter Thruster"
 	"flare sound" "atomic huge"
 	description "Antimatter engines are the most powerful engines known to man, being over 50% more efficient than the next best thing. Thanks Quarg!"
 	description "Brought to you by the Enigma Corporation."
+	
+outfit "X1025 Ion Engines"
+	category "Engines"
+	"cost" 10000
+	thumbnail "outfit/tiny ion engines"
+	"mass" 10
+	"outfit space" -10
+	"engine capacity" -10
+	"turn" 45
+	"turning energy" .15
+	"turning heat" .4
+	"thrust" 1.5
+	"thrusting energy" .3
+	"thrusting heat" .4
+	"flare sprite" "effect/ion flare/tiny"
+		"frame rate" 1.2
+	"flare sound" "ion tiny"
 
 outfit "Warp Afterburner"
 	category "Engines"
