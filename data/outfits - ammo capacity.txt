@@ -8,156 +8,156 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-outfit "Meteor Cap. Up."
-	category "Systems"
+outfit "Meteor Cap-Up"
+	category "Ammunition"
 	cost 15000
 	thumbnail "outfit/meteor cap"
 	"mass" 5
 	"outfit space" -5
 	"meteor capacity" 17
-	description "The meteor capacity upgrader will increase the amount of secondary ammo you can carry for your meteor missile launcher!"
+	description "The Meteor Capacity Upgrader will increase the amount of secondary ammo you can carry for your Meteor Missile Launcher."
 
-outfit "Sidewinder Cap. Up."
-	category "Systems"
+outfit "Sidewinder Cap-Up"
+	category "Ammunition"
 	cost 15000
 	thumbnail "outfit/sidewinder cap"
 	"mass" 7
 	"outfit space" -7
 	"sidewinder capacity" 25
-	description "The sidewinder capacity upgrader will increase the amount of secondary ammo you can carry for your sidewinder missile launcher!"
+	description "The Sidewinder Capacity Upgrader will increase the amount of secondary ammo you can carry for your Sidewinder Missile Launcher."
 
-outfit "Javelin Cap. Upg."
-	category "Systems"
+outfit "Javelin Cap-Up"
+	category "Ammunition"
 	cost 15000
 	thumbnail "outfit/javelin cap"
 	"mass" 8
 	"outfit space" -8
 	"javelin capacity" 100
-	description "The javelin capacity upgrader will increase the amount of secondary ammo you can carry for your javelin missile launcher!"
+	description "The Javelin Capacity Upgrader will increase the amount of secondary ammo you can carry for your Javelin Missile Launcher."
 
-outfit "Hellfire Cap. Up."
-	category "Systems"
+outfit "Hellfire Cap-Up"
+	category "Ammunition"
 	cost 15000
 	thumbnail "outfit/hellfire cap"
 	"mass" 7
 	"outfit space" -7s
 	"hellfire capacity" 35
-	description "The hellfire capacity upgrader will increase the amount of secondary ammo you can carry for your hellfire missile launcher!"
+	description "The Hellfire Capacity Upgrader will increase the amount of secondary ammo you can carry for your Hellfire Missile Launcher."
 
-outfit "Flux Cap. Up."
-	category "Systems"
+outfit "Flux Cap-Up"
+	category "Ammunition"
 	cost 15000
 	thumbnail "outfit/flux cap"
 	"mass" 7
 	"outfit space" -7
 	"flux capacity" 50
-	description "The flux capacity upgrader will increase the amount of secondary ammo you can carry for your flux missile launcher!"
+	description "The Flux Capacity Upgrader will increase the amount of secondary ammo you can carry for your Flux Missile Launcher."
 
-outfit "Rocket Cap. Up."
-	category "Systems"
+outfit "Rocket Cap-Up"
+	category "Ammunition"
 	cost 15000
 	thumbnail "outfit/rocket cap"
 	"mass" 10 
 	"outfit space" -10
 	"rocket capacity" 10
-	description "The rocket capacity upgrader will increase the amount of secondary ammo you can carry for your heavy missile launcher!"
+	description "The Rocket Capacity Upgrader will increase the amount of secondary ammo you can carry for your Heavy Missile Launcher."
 
 
-outfit "Torpedo Cap. Up."
-	category "Systems"
+outfit "Torpedo Cap-Up"
+	category "Ammunition"
 	cost 15000
 	thumbnail "outfit/torpedo cap"
 	"mass" 10
 	"outfit space" -10
 	"torpedo capacity" 15
-	description "The torpedo capacity upgrader will increase the amount of secondary ammo you can carry for your torpedo launcher!"
+	description "The Torpedo Capacity Upgrader will increase the amount of secondary ammo you can carry for your Torpedo Launcher."
 
-outfit "Tracker Cap. Up."
-	category "Systems"
+outfit "Tracker Cap-Up"
+	category "Ammunition"
 	cost 15000
 	thumbnail "outfit/tracker cap"
 	"mass" 10
 	"outfit space" -10
 	"tracker capacity" 27
-	description "The tracker capacity upgrader will increase the amount of secondary ammo you can carry for your Hai tracker pod!"
+	description "The Tracker Capacity Upgrader will increase the amount of secondary ammo you can carry for your Hai Tracker Pod."
 
-outfit "Thunderhead Cap. Up."
-	category "Systems"
+outfit "Thunderhead Cap-Up"
+	category "Ammunition"
 	cost 15000
 	thumbnail "outfit/thunder cap"
 	"mass" 10
 	"outfit space" -10
 	"thunderhead capacity" 20
-	description "The thunderhead capacity upgrader will increase the amount of secondary ammo you can carry for your thunderhead launcher!"
+	description "The Thunderhead Capacity Upgrader will increase the amount of secondary ammo you can carry for your Thunderhead Launcher."
 
-outfit "Flux Torpedo Cap. Up."
-	category "Systems"
+outfit "Flux Torpedo Cap-Up"
+	category "Ammunition"
 	cost 15000
 	thumbnail "outfit/flux torpedo cap"
 	"mass" 10
 	"outfit space" -10
 	"flux torpedo capacity" 15
-	description "The flux torpedo capacity upgrader will increase the amount of secondary ammo you can carry for your flux torpedo launcher!"
+	description "The Flux Torpedo Capacity Upgrader will increase the amount of secondary ammo you can carry for your Flux Torpedo Launcher."
 
-outfit "Thermite Torpedo Cap. Up."
-	category "Systems"
+outfit "Thermite Torpedo Cap-Up"
+	category "Ammunition"
 	cost 15000
 	thumbnail "outfit/thermite torpedo cap"
 	"mass" 10
 	"outfit space" -10
 	"thermite torpedo capacity" 15
-	description "The thermite torpedo capacity upgrader will increase the amount of secondary ammo you can carry for your thermite torpedo launcher!"
+	description "The Thermite Torpedo Capacity Upgrader will increase the amount of secondary ammo you can carry for your Thermite Torpedo Launcher."
 
-outfit "Typhoon Cap. Up."
-	category "Systems"
+outfit "Typhoon Cap-Up"
+	category "Ammunition"
 	cost 15000
 	thumbnail "outfit/typhoon cap"
 	"mass" 10
 	"outfit space" -10
 	"typhoon capacity" 15
-	description "The typhoon capacity upgrader will increase the amount of secondary ammo you can carry for your typhoon launcher!"
+	description "The Typhoon Capacity Upgrader will increase the amount of secondary ammo you can carry for your Typhoon Launcher."
 
-outfit "Typhoon Mine Cap. Up."
-	category "Systems"
+outfit "Typhoon Mine Cap-Up"
+	category "Ammunition"
 	cost 15000
 	thumbnail "outfit/e-mine cap"
 	"mass" 10
 	"outfit space" -10
 	"mine capacity" 5
-	description "The explosive mine capacity upgrader will increase the amount of secondary ammo you can carry for your explosive mine placer!"
+	description "The Typhoon Mine Capacity Upgrader will increase the amount of secondary ammo you can carry for your Typhoon Mine Placer."
 
-outfit "Flux Mine Cap. Up."
-	category "Systems"
+outfit "Flux Mine Cap-Up"
+	category "Ammunition"
 	cost 15000
 	thumbnail "outfit/i-mine cap"
 	"mass" 10
 	"outfit space" -10
 	"ion mine capacity" 5
-	description "The flux mine capacity upgrader will increase the amount of secondary ammo you can carry for your flux mine placer!"
+	description "The Flux Mine Capacity Upgrader will increase the amount of secondary ammo you can carry for your Flux Mine Placer."
 
-outfit "Thermite Mine Cap. Up."
-	category "Systems"
+outfit "Thermite Mine Cap-Up"
+	category "Ammunition"
 	cost 15000
 	thumbnail "outfit/t-mine cap"
 	"mass" 10
 	"outfit space" -10
 	"thermite mine capacity" 5
-	description "The thermite mine capacity upgrader will increase the amount of secondary ammo you can carry for your thermite mine placer!"
+	description "The Thermite Mine Capacity Upgrader will increase the amount of secondary ammo you can carry for your Thermite Mine Place."
 
-outfit "AM-Bomb Cap. Up."
-	category "Systems"
+outfit "AM-Bomb Cap-Up"
+	category "Ammunition"
 	cost 1000000
 	thumbnail "outfit/am cap"
 	"mass" 6
 	"outfit space" -6
 	"bomb capacity" 1
-	description "The AM-bomb capacity upgrader will increase the amount of secondary ammo you can carry for your antimatter launcher!"
+	description "The Antimatter Bomb Capacity Upgrader will increase the amount of secondary ammo you can carry for your Antimatter Launcher."
 
-outfit "Canister Cap. Up."
-	category "Systems"
+outfit "Canister Cap-Up"
+	category "Ammunition"
 	cost 15000
 	thumbnail "outfit/known"
 	"mass" 10
 	"outfit space" -10
 	"canister capacity" 50
-	description "The canister capacity upgrader will increase the amount of secondary ammo you can carry for your shrapnel cannon!"
+	description "The Canister Capacity Upgrader will increase the amount of secondary ammo you can carry for your Shrapnel Cannon."

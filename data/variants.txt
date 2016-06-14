@@ -40,7 +40,3 @@ ship "Leviathan" "Leviathan (Inhibitor)"
 		"D94-YV Shield Generator"
 		"Warp Inhibitor"
 		"Dark Matter" 6000
-
-ship "Scout Drone" "Termini Derelict"
-	outfits
-		"OP" 1

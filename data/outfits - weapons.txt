@@ -12,7 +12,7 @@ outfit "Hellfire Missile Launcher"
 	category "Secondary Weapons"
 	cost 25000
 	thumbnail "outfit/hellfire launcher"
-	"mass" 15
+	"mass" 5
 	"outfit space" -15
 	"weapon capacity" -15
 	"gun ports" -1
@@ -37,6 +37,7 @@ outfit "Hellfire Missile Launcher"
 		"drag" .1
 		"turn" 4
 		"homing" 10
+		"infrared tracking" .8
 		"shield damage" 10
 		"hull damage" 50
 		"hit force" 30
@@ -48,7 +49,7 @@ outfit "Flux Missile Launcher"
 	category "Secondary Weapons"
 	cost 80000
 	thumbnail "outfit/flux launcher"
-	"mass" 15
+	"mass" 5
 	"outfit space" -15
 	"weapon capacity" -15
 	"gun ports" -1
@@ -73,6 +74,7 @@ outfit "Flux Missile Launcher"
 		"drag" .1
 		"turn" 4
 		"homing" 10
+		"radar tracking" .9
 		"shield damage" 40
 		"hull damage" 5
 		"ion damage" 1
@@ -85,7 +87,7 @@ outfit "Antimatter Launcher"
 	category "Secondary Weapons"
 	cost 100000000
 	thumbnail "outfit/antimatter launcher"
-	"mass" 75
+	"mass" 70
 	"outfit space" -75
 	"weapon capacity" -75
 	"gun ports" -2
@@ -108,6 +110,9 @@ outfit "Antimatter Launcher"
 		"drag" .1
 		"turn" 2
 		"homing" 10
+		"optical tracking" 1
+		"infrared tracking" 1
+		"radar tracking" 1
 		"trigger radius" 75
 		"blast radius" 85
 		"shield damage" 2000000
@@ -121,7 +126,7 @@ outfit "Missile Turret"
 	category "Turrets"
 	cost 75000
 	thumbnail "outfit/sidewinder launcher"
-	"mass" 15
+	"mass" 6
 	"outfit space" -15
 	"weapon capacity" -15
 	"turret mounts" -1
@@ -147,6 +152,7 @@ outfit "Missile Turret"
 		"drag" .1
 		"turn" 3
 		"homing" 4
+		"radar tracking" 0.9
 		"shield damage" 80
 		"hull damage" 60
 		"hit force" 25
@@ -158,7 +164,7 @@ outfit "Flux Mine Placer"
 	category "Secondary Weapons"
 	cost 500000
 	thumbnail "outfit/i mine launcher"
-	"mass" 40
+	"mass" 25
 	"outfit space" -40
 	"weapon capacity" -40
 	"gun ports" -1
@@ -181,8 +187,6 @@ outfit "Flux Mine Placer"
 		"firing heat" 20
 		"acceleration" 0.001
 		"drag" 0.1
-		"turn" 0
-		"homing" 0
 		"trigger radius" 75
 		"blast radius" 85
 		"ion damage" 35
@@ -195,7 +199,7 @@ outfit "Typhoon Mine Placer"
 	category "Secondary Weapons"
 	cost 500000
 	thumbnail "outfit/e mine launcher"
-	"mass" 40
+	"mass" 25
 	"outfit space" -40
 	"weapon capacity" -40
 	"gun ports" -1
@@ -218,8 +222,6 @@ outfit "Typhoon Mine Placer"
 		"firing heat" 20
 		"acceleration" 0.001
 		"drag" 0.1
-		"turn" 0
-		"homing" 0
 		"trigger radius" 75
 		"blast radius" 85
 		"hull damage" 1500
@@ -234,7 +236,7 @@ outfit "Thermite Mine Placer"
 	category "Secondary Weapons"
 	cost 500000
 	thumbnail "outfit/t-mine placer"
-	"mass" 40
+	"mass" 25
 	"outfit space" -40
 	"weapon capacity" -40
 	"gun ports" -1
@@ -257,8 +259,6 @@ outfit "Thermite Mine Placer"
 		"firing heat" 20
 		"acceleration" 0.001
 		"drag" 0.1
-		"turn" 0
-		"homing" 0
 		"trigger radius" 75
 		"blast radius" 85
 		"hull damage" 250
@@ -333,7 +333,7 @@ outfit "Repair Turret"
 	category "Turrets"
 	cost 500000
 	thumbnail "outfit/repair turret"
-	"mass" 50
+	"mass" 40
 	"outfit space" -50
 	"weapon capacity" -50
 	"turret mounts" -1
@@ -477,7 +477,7 @@ outfit "Shrapnel Cannon"
 	category "Secondary Weapons"
 	cost 235000
 	thumbnail "outfit/known"
-	"mass" 30
+	"mass" 20
 	"outfit space" -30
 	"weapon capacity" -30
 	"gun ports" -1
@@ -533,6 +533,7 @@ outfit "Fuel Rod Launcher"
 		"drag" .1
 		"turn" 3
 		"homing" 2
+		"optical tracking" 0.9
 		"hit force" 1000
 		"shield damage" 250
 		"hull damage" 1000
@@ -545,7 +546,7 @@ outfit "Flux Torpedo Launcher"
 	category "Secondary Weapons"
 	cost 260000
 	thumbnail "outfit/flux torpedo launcher"
-	"mass" 35
+	"mass" 20
 	"outfit space" -35
 	"weapon capacity" -35
 	"gun ports" -1
@@ -570,6 +571,7 @@ outfit "Flux Torpedo Launcher"
 		"drag" .1
 		"turn" 6
 		"homing" 4
+		"optical tracking" .9
 		"shield damage" 0
 		"hull damage" 0
 		"ion damage" 10
@@ -581,7 +583,7 @@ outfit "Thermite Torpedo Launcher"
 	category "Secondary Weapons"
 	cost 260000
 	thumbnail "outfit/thermite torpedo launcher"
-	"mass" 35
+	"mass" 20
 	"outfit space" -35
 	"weapon capacity" -35
 	"gun ports" -1
@@ -606,6 +608,7 @@ outfit "Thermite Torpedo Launcher"
 		"drag" .1
 		"turn" 6
 		"homing" 4
+		"optical tracking" .9
 		"shield damage" 50
 		"hull damage" 250
 		"heat damage" 1000
@@ -617,7 +620,7 @@ outfit "Wolf Bomb Bay"
 	category "Secondary Weapons"
 	cost 1000000
 	thumbnail "outfit/wolf bomb bay"
-	"mass" 35
+	"mass" 20
 	"outfit space" -35
 	"weapon capacity" -35
 	"gun ports" -1
@@ -643,6 +646,8 @@ outfit "Wolf Bomb Bay"
 		"drag" .1
 		"turn" 6
 		"homing" 4
+		"optical tracking" .9
+		"radar tracking" .2
 		"shield damage" 1500
 		"hull damage" 2000
 		"hit force" 70

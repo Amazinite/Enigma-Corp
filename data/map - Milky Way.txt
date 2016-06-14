@@ -62,10 +62,17 @@ system Enigma
 			sprite planet/station7
 			distance 257
 			period 12.3538
+		object "Enigma Meridian"
+			sprite planet/station6
+			distane 450
+			period 21.53
 
 planet "Enigma Prime"
 	landscape land/space7
-	"required reputation" 15
+	description `The station is completely quiet, but it seems to have been recently used.`
+	
+planet "Enigma Meridian"
+	landscape land/space7
 	description `The station is completely quiet, but it seems to have been recently used.`
 
 ###

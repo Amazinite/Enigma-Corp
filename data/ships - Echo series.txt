@@ -47,16 +47,15 @@ ship "EC-002 'Sentry'"
 		"drag" 100
 		"heat dissipation" 1
 		"outfit space" 100
-		"weapon capacity" 60
-		"engine capacity" 0
+		"weapon capacity" 50
+		"engine capacity" 10
 	outfits
 		"Laser Turret"
 		
 		"nGVF-BB Fuel Cell"
 		"LP036a Battery Pack"
 		
-		"Decoy Engines"
-		"Decoy Engines"
+		"X1025 Ion Engines"
 		
 	engine -9 29
 	engine 9 29

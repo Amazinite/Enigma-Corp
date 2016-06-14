@@ -59,6 +59,15 @@ mission "Enigma Corp 4"
 		event "Enigma Corp 4"
 		fail
 
+mission "Meridian"
+	landing
+	invisible
+	to offer
+		has "event: Enigma Corp 4"
+	on offer
+		event "Enigma Meridian"
+		fail
+
 mission "Typhoon Cap"
 	landing
 	invisible
