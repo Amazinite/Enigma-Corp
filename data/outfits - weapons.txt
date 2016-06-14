@@ -12,7 +12,7 @@ outfit "Hellfire Missile Launcher"
 	category "Secondary Weapons"
 	cost 25000
 	thumbnail "outfit/hellfire launcher"
-	"mass" 15
+	"mass" 5
 	"outfit space" -15
 	"weapon capacity" -15
 	"gun ports" -1
@@ -48,7 +48,7 @@ outfit "Flux Missile Launcher"
 	category "Secondary Weapons"
 	cost 80000
 	thumbnail "outfit/flux launcher"
-	"mass" 15
+	"mass" 5
 	"outfit space" -15
 	"weapon capacity" -15
 	"gun ports" -1
@@ -85,7 +85,7 @@ outfit "Antimatter Launcher"
 	category "Secondary Weapons"
 	cost 100000000
 	thumbnail "outfit/antimatter launcher"
-	"mass" 75
+	"mass" 70
 	"outfit space" -75
 	"weapon capacity" -75
 	"gun ports" -2
@@ -121,7 +121,7 @@ outfit "Missile Turret"
 	category "Turrets"
 	cost 75000
 	thumbnail "outfit/sidewinder launcher"
-	"mass" 15
+	"mass" 6
 	"outfit space" -15
 	"weapon capacity" -15
 	"turret mounts" -1
@@ -158,7 +158,7 @@ outfit "Flux Mine Placer"
 	category "Secondary Weapons"
 	cost 500000
 	thumbnail "outfit/i mine launcher"
-	"mass" 40
+	"mass" 25
 	"outfit space" -40
 	"weapon capacity" -40
 	"gun ports" -1
@@ -195,7 +195,7 @@ outfit "Typhoon Mine Placer"
 	category "Secondary Weapons"
 	cost 500000
 	thumbnail "outfit/e mine launcher"
-	"mass" 40
+	"mass" 25
 	"outfit space" -40
 	"weapon capacity" -40
 	"gun ports" -1
@@ -234,7 +234,7 @@ outfit "Thermite Mine Placer"
 	category "Secondary Weapons"
 	cost 500000
 	thumbnail "outfit/t-mine placer"
-	"mass" 40
+	"mass" 25
 	"outfit space" -40
 	"weapon capacity" -40
 	"gun ports" -1
@@ -333,7 +333,7 @@ outfit "Repair Turret"
 	category "Turrets"
 	cost 500000
 	thumbnail "outfit/repair turret"
-	"mass" 50
+	"mass" 40
 	"outfit space" -50
 	"weapon capacity" -50
 	"turret mounts" -1
@@ -477,7 +477,7 @@ outfit "Shrapnel Cannon"
 	category "Secondary Weapons"
 	cost 235000
 	thumbnail "outfit/known"
-	"mass" 30
+	"mass" 20
 	"outfit space" -30
 	"weapon capacity" -30
 	"gun ports" -1
@@ -545,7 +545,7 @@ outfit "Flux Torpedo Launcher"
 	category "Secondary Weapons"
 	cost 260000
 	thumbnail "outfit/flux torpedo launcher"
-	"mass" 35
+	"mass" 20
 	"outfit space" -35
 	"weapon capacity" -35
 	"gun ports" -1
@@ -581,7 +581,7 @@ outfit "Thermite Torpedo Launcher"
 	category "Secondary Weapons"
 	cost 260000
 	thumbnail "outfit/thermite torpedo launcher"
-	"mass" 35
+	"mass" 20
 	"outfit space" -35
 	"weapon capacity" -35
 	"gun ports" -1
@@ -617,7 +617,7 @@ outfit "Wolf Bomb Bay"
 	category "Secondary Weapons"
 	cost 1000000
 	thumbnail "outfit/wolf bomb bay"
-	"mass" 35
+	"mass" 20
 	"outfit space" -35
 	"weapon capacity" -35
 	"gun ports" -1
