@@ -133,7 +133,7 @@ mission "Termini Intro"
 		government Termini
 		personality derelict
 		system Vega
-		ship "Termini Derelict"
+		ship "Scout Drone"
 		dialog "You try and find your way inside of the drone, but nothing works. There are no access hatches of any kind or kinks in the hull that would signify any sort of entry point. Even when attempting to blow a hole in the hull, you don't make a scratch. You make sure to take note of all this and return to Jon with the news."
 		
 	on accept
