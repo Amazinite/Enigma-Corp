@@ -37,6 +37,7 @@ outfit "Hellfire Missile Launcher"
 		"drag" .1
 		"turn" 4
 		"homing" 10
+		"infrared tracking" .8
 		"shield damage" 10
 		"hull damage" 50
 		"hit force" 30
@@ -73,6 +74,7 @@ outfit "Flux Missile Launcher"
 		"drag" .1
 		"turn" 4
 		"homing" 10
+		"radar tracking" .9
 		"shield damage" 40
 		"hull damage" 5
 		"ion damage" 1
@@ -108,6 +110,9 @@ outfit "Antimatter Launcher"
 		"drag" .1
 		"turn" 2
 		"homing" 10
+		"optical tracking" 1
+		"infrared tracking" 1
+		"radar tracking" 1
 		"trigger radius" 75
 		"blast radius" 85
 		"shield damage" 2000000
@@ -147,6 +152,7 @@ outfit "Missile Turret"
 		"drag" .1
 		"turn" 3
 		"homing" 4
+		"radar tracking" 0.9
 		"shield damage" 80
 		"hull damage" 60
 		"hit force" 25
@@ -181,8 +187,6 @@ outfit "Flux Mine Placer"
 		"firing heat" 20
 		"acceleration" 0.001
 		"drag" 0.1
-		"turn" 0
-		"homing" 0
 		"trigger radius" 75
 		"blast radius" 85
 		"ion damage" 35
@@ -218,8 +222,6 @@ outfit "Typhoon Mine Placer"
 		"firing heat" 20
 		"acceleration" 0.001
 		"drag" 0.1
-		"turn" 0
-		"homing" 0
 		"trigger radius" 75
 		"blast radius" 85
 		"hull damage" 1500
@@ -257,8 +259,6 @@ outfit "Thermite Mine Placer"
 		"firing heat" 20
 		"acceleration" 0.001
 		"drag" 0.1
-		"turn" 0
-		"homing" 0
 		"trigger radius" 75
 		"blast radius" 85
 		"hull damage" 250
@@ -533,6 +533,7 @@ outfit "Fuel Rod Launcher"
 		"drag" .1
 		"turn" 3
 		"homing" 2
+		"optical tracking" 0.9
 		"hit force" 1000
 		"shield damage" 250
 		"hull damage" 1000
@@ -570,6 +571,7 @@ outfit "Flux Torpedo Launcher"
 		"drag" .1
 		"turn" 6
 		"homing" 4
+		"optical tracking" .9
 		"shield damage" 0
 		"hull damage" 0
 		"ion damage" 10
@@ -606,6 +608,7 @@ outfit "Thermite Torpedo Launcher"
 		"drag" .1
 		"turn" 6
 		"homing" 4
+		"optical tracking" .9
 		"shield damage" 50
 		"hull damage" 250
 		"heat damage" 1000
@@ -643,6 +646,8 @@ outfit "Wolf Bomb Bay"
 		"drag" .1
 		"turn" 6
 		"homing" 4
+		"optical tracking" .9
+		"radar tracking" .2
 		"shield damage" 1500
 		"hull damage" 2000
 		"hit force" 70
