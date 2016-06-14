@@ -27,6 +27,7 @@ event "Enigma Meridian"
 		outfitter "Trolls and Lols"
 		shipyard "Trolls and Lols"
 		description "This station is meant for nothing more than to sell stuff that is in the mod and not considered balanced or ready to serious your, but you can buy anyways to have fun with. Enjoy."
+		description "Don't get too excited, though. This is going to be removed in v0.6.0 :)"
 		spaceport "Go away."
 
 event "Enigma Prime Deep Sky"
