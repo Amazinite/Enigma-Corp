@@ -21,6 +21,14 @@ event "Enigma Prime Open"
 		description `The station is rather messy, with the smell of oil in the air and spare parts lying all over the place. Most of the station appears to be off access to visitors, with the only available places being the spaceport, shipyard, and outfitter.`
 		spaceport `The spaceport is full of men and women in light blue suits, working on spaceships you've never seen before and assembling more of those things that the suited man showed you. You look over at your ship and see someone refueling it for you. She turns to see you and just waves before moving on her way.`
 
+event "Enigma Meridian"
+	planet "Enigma Meridian"
+		landscape land/space2
+		outfitter "Trolls and Lols"
+		shipyard "Trolls and Lols"
+		description "This station is meant for nothing more than to sell stuff that is in the mod and not considered balanced or ready to serious your, but you can buy anyways to have fun with. Enjoy."
+		spaceport "Go away."
+
 event "Enigma Prime Deep Sky"
 	planet "Enigma Prime"
 		outfitter "Deep Sky Basics"
@@ -175,164 +183,6 @@ event "Termini Wormhole"
 			sprite planet/wormhole
 			distance 2079.28
 			period 4290.76
-			
-mission "Hunted"
-	landing
-	invisible
-	to offer
-		has "free worlds plot completed"
-	on offer
-		event "Hunted" 30
-		fail
-
-mission "Hunted Warning"
-	landing
-	to offer
-		has "event: Hunted"
-	on offer
-		conversation
-			`	You step out of your ship and walk over to the fuel pump to refill your ship. As you do, a man wearing a red cap steps out of his shuttle on the landing pad next to yours and walks over to you.`
-			`	You notice that his shuttle has pirate colours, and you become increasingly weary of what this man is about to do.`
-			`	"Hey, aren't you <first> <last>?"`
-			choice
-				`	"Yeah, what do you need?"`
-					goto yes
-				`	"No. Never heard of 'em."`
-					goto no
-				
-			label yes
-			`	The man chuckles as he fixes his cap.`
-			`	"Lucky me. Looks like I've found a dead man"`
-			`	"What do you mean?" you respond.`
-			`	"You've got a bounty over your head. A couple of rich guys must really hate you, because they're paying good money to some pirates to have you killed. You might want to steer clear of the uninhabited systems around the Far North."`
-			`	"Thanks for the head's up. I'll make sure to watch myself."`
-			`	You finish fueling your ship as the man goes back to his shuttle, flying off back into space.`
-				decline
-		
-			label no
-			`	"Well if you see them, make sure to tell them that they've got a bounty over their head from a couple of shady fellows who use to be part of the Syndicate. They might want to steer clear of the uninhabited and pirate systems in the Far North."`
-			`	"I'll make sure to tell them if I see them."`
-			`	You finish fueling your ship as the man goes back to his shuttle, flying off back into space.`
-				decline
-	
-event "Hunted"
-	system "Arneb"
-		fleet "Small Northern Pirates" 350
-		fleet "Large Northern Pirates" 400
-		fleet "Large Republic" 15000
-		fleet "Inhibitor" 20000
-	system "Alnilam"
-		fleet "Small Northern Pirates" 400
-		fleet "Large Northern Pirates" 600
-		fleet "Large Republic" 10000
-		fleet "Inhibitor" 20000
-	system "Hatysa"
-		fleet "Small Northern Pirates" 500
-		fleet "Large Northern Pirates" 800
-		fleet "Large Republic" 15000
-		fleet "Inhibitor" 20000
-	system "Almaaz"
-		fleet "Small Northern Pirates" 400
-		fleet "Large Northern Pirates" 500
-		fleet "Large Republic" 4000
-		fleet "Inhibitor" 20000
-	system "Unagi"
-		fleet "Small Northern Pirates" 1000
-		fleet "Large Northern Pirates" 2500
-	system "Gorvi"
-		fleet "Small Northern Pirates" 900
-		fleet "Large Northern Pirates" 900
-		fleet "Large Republic" 4000
-		fleet "Small Northern Merchants" 8000
-		fleet "Inhibitor" 20000
-	system "Mintaka"
-		fleet "Small Northern Pirates" 1700
-		fleet "Large Northern Pirates" 1700
-		fleet "Large Republic" 5000
-		fleet "Small Northern Merchants" 4000
-		fleet "Inhibitor" 20000
-	system "Tortor"
-		fleet "Small Northern Pirates" 900
-		fleet "Large Northern Pirates" 900
-		fleet "Large Republic" 6000
-		fleet "Small Northern Merchants" 6000
-		fleet "Inhibitor" 20000
-	system "Rigel"
-		fleet "Small Northern Merchants" 2000
-		fleet "Large Northern Merchants" 4000
-		fleet "Small Republic" 3000
-		fleet "Large Republic" 5000
-		fleet "Small Northern Pirates" 2500
-		fleet "Large Northern Pirates" 4000
-		fleet "Inhibitor" 20000
-	system "Hassaleh"
-		fleet "Small Northern Merchants" 9000
-		fleet "Small Northern Pirates" 5000
-		fleet "Large Northern Pirates" 15000
-		fleet "Large Republic" 20000
-		fleet "Inhibitor" 20000
-	system "Danoa"
-		fleet "Small Northern Merchants" 15000
-		fleet "Small Northern Pirates" 4000
-		fleet "Large Northern Pirates" 13000
-		fleet "Large Republic" 30000
-		fleet "Inhibitor" 20000
-	system "Sumar"
-		fleet "Small Northern Pirates" 1500
-		fleet "Large Northern Pirates" 5000
-		fleet "Large Republic" 30000
-		fleet "Inhibitor" 20000
-	system "Rajak"
-		fleet "Small Northern Pirates" 3000
-		fleet "Large Northern Pirates" 9000
-		fleet "Inhibitor" 20000
-	system "Cardax"
-		fleet "Small Northern Merchants" 1200
-		fleet "Large Northern Merchants" 3000
-		fleet "Small Northern Pirates" 700
-		fleet "Large Northern Pirates" 2700
-		fleet "Small Republic" 2000
-		fleet "Large Republic" 5000
-		fleet "Inhibitor" 20000
-	system "Volax"
-		fleet "Small Northern Merchants" 1500
-		fleet "Large Northern Merchants" 3000
-		fleet "Small Northern Pirates" 700
-		fleet "Large Northern Pirates" 2700
-		fleet "Small Republic" 5000
-		fleet "Large Republic" 9000
-		fleet "Inhibitor" 20000
-	system "Sospi"
-		fleet "Small Northern Merchants" 1500
-		fleet "Large Northern Merchants" 3000
-		fleet "Small Northern Pirates" 800
-		fleet "Large Northern Pirates" 1700
-		fleet "Small Republic" 5000
-		fleet "Large Republic" 9000
-		fleet "Inhibitor" 20000
-	system "Moktar"
-		fleet "Small Core Merchants" 800
-		fleet "Large Core Merchants" 1700
-		fleet "Small Syndicate" 3000
-		fleet "Large Syndicate" 4000
-		fleet "Small Core Pirates" 1700
-		fleet "Inhibitor" 20000
-	system "Oblate"
-		fleet "Small Southern Pirates" 500
-		fleet "Large Southern Pirates" 800
-		fleet "Large Syndicate" 3000
-		fleet "Inhibitor" 20000
-	system "Alcyone"
-		fleet "Small Southern Pirates" 350
-		fleet "Large Southern Pirates" 500
-		fleet "Large Syndicate" 1200
-		fleet "Inhibitor" 20000
-	system "Durax"
-		fleet "Small Southern Pirates" 400
-		fleet "Large Southern Pirates" 700
-		fleet "Large Syndicate" 2500
-		fleet "Korath Raid" 5000
-		fleet "Inhibitor" 20000
 
 mission "Andromedan Rep"
 	landing
