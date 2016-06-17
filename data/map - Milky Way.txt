@@ -69,10 +69,12 @@ system Enigma
 
 planet "Enigma Prime"
 	landscape land/space7
+	security 0
 	description `The station is completely quiet, but it seems to have been recently used.`
 	
 planet "Enigma Meridian"
 	landscape land/space7
+	security 0
 	description `The station is completely quiet, but it seems to have been recently used.`
 
 ###
@@ -226,10 +228,10 @@ system Adhara
 
 planet "Enigma Epsilon"
 	landscape land/station4
-	"required reputation" 15
 	outfitter "Deep Sky Basics"
 	outfitter "Deep Sky Advanced"
 	shipyard "Lionheart Basics"
+	security 0
 	government "Enigma Corp"
 	description `Epsilon Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
 	description `"The Enigma Corporation: We build death machines so you don't have to."`
@@ -275,7 +277,7 @@ system Kraz
 
 planet "Enigma Mu"
 	landscape land/station2
-	"required reputation" 15
+	security 0
 	government "Enigma Corp"
 	description `Mu Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
 	description `"The Enigma Corporation: We build death machines so you don't have to."`
@@ -323,7 +325,7 @@ system "Alpha Centauri"
 
 planet "Enigma Alpha"
 	landscape land/space7
-	"required reputation" 15
+	security 0
 	government "Enigma Corp"
 	description `Alpha Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
 	description `"The Enigma Corporation: We build death machines so you don't have to."`
@@ -377,7 +379,7 @@ system Achernar
 
 planet "Enigma Sigma"
 	landscape land/space5
-	"required reputation" 15
+	security 0
 	government "Enigma Corp"
 	description `Sigma Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
 	description `"The Enigma Corporation: We build death machines so you don't have to."`
@@ -421,7 +423,7 @@ system Dabih
 
 planet "Enigma Zeta"
 	landscape land/station1
-	"required reputation" 15
+	security 0
 	government "Enigma Corp"
 	description `Zeta Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
 	description `"The Enigma Corporation: We build death machines so you don't have to."`
@@ -542,7 +544,8 @@ system Auram
 			
 planet "Igolide"
 	landscape land/badlands0
-	"required reputation" 15
+	"required reputation" 10
+	security 0
 	description `Igolide is a barely habitable planet, orbiting on the edge of the habitable zone of the Auram system. Due to this, Outer Rim Mining exiles members to this planet as punishment for breaking ORM rules.`
 	spaceport `The spaceport is blocked off from the rest of the settlement with high walls and laser gates at every doorway. A few men in military looking suits get up from the cafeteria area across the spaceport and refill your ship before going back to eating.`
 
@@ -857,7 +860,8 @@ system Ferum
 			
 planet "Hierro"
 	landscape land/lava0
-	"required reputation" 15
+	"required reputation" 10
+	security 0
 	description `Nicknamed "Frozen Hell" by some of the workers at Outer Rim Mining, Hierro is a strange place. It orbits rather close to a gas giant, causing high amounts of volcanic activity. Even so, the orbit of the moon means that it is only within the habitable zone of the star for half of it's orbit, so for a few weeks it is reasonably livable, but the next few weeks are extrememly cold.`
 	spaceport `The spaceport is located inside of a volcano. The only way you were able to find it was because of the large beacon shooting out of the middle of the crater. You question whether or not having the entire spaceport inside a volcano to harness geothermal power is worth the danger of having the volcano erupt on to the space port.`
 
@@ -1035,7 +1039,8 @@ system Jita
 		
 planet "The Hub"
 	landscape land/city12
-	"required reputation" 15
+	"required reputation" 50
+	security 0
 	description `Known only as The Hub, this planet is the main outpost of the Outer Rim Mining corporation. Most of the planet has been converted into factories spewing out dangerous chemicals as they smelt down the recently delivered ore into pure metals.`
 	spaceport `Freighters full of ore are constantly flying in and out of the atmoshphere, taking up most of the landing pads. After about an hour of talking with the command tower and waiting for an opening, you are allowed to land on a landing pad near the edge of the spaceport.`
 
@@ -1476,7 +1481,8 @@ system Ostima
 			
 planet "Diamond Station"
 	landscape land/station1
-	"required reputation" 15
+	"required reputation" 25
+	security 0
 	description `Diamond Station is the refueling station for Outer Rim Mining ships. Ship land to refuel every time the get ready to leave and when they reenter inhabited space.`
 	spaceport `As with The Hub, almost all landing pads are taken by freighters entering and exiting the spaceport. Given the size of the station, there are a lot less landing pads, so you wonder how they keep up with all the ships without clogging up traffic. Just then, a floating drone flies over to your ship and refuels it before you even land, then flies off to refuel more ships.`
 
@@ -1760,7 +1766,8 @@ system Sedna
 			
 planet "Indalo"
 	landscape land/myrabella7
-	"required reputation" 15
+	"required reputation" 10
+	security 0
 	description `Indalo appears to be the only planet in the entire region to have plant life on it. There are no factories anywhere, and the only evidence of human civiliation is the small spaceport city located near the equator.`
 	spaceport `There appears to be only one landing pad, but when you land you are lowered down into an underground parking complex. You noticed what appears to be hundreds of rows of ships. A tube attatches to the entrance of your ship, which leads to an evelator to the surface of the planet.`
 
