@@ -16,420 +16,6 @@ galaxy "far east"
 	pos 700 -100
 	sprite "label/far east"
 
-###
-system Enigma
-	pos -740 -485
-	government "Enigma Corp"
-	habitable 880
-	link Termara
-	asteroids "small rock" 6 2.6418
-	asteroids "medium rock" 68 2.2372
-	asteroids "large rock" 22 1.3328
-	asteroids "small metal" 3 2.5228
-	asteroids "medium metal" 6 1.9992
-	asteroids "large metal" 4 2.7132
-	fleet "Oblivion" 15000
-	fleet "Keeper" 50000
-	fleet "Small Northern Merchants" 1500
-	fleet "Large Northern Merchants" 4000
-	fleet "Small Deep" 3500
-	fleet "Large Deep" 6000
-	fleet "Large Northern Pirates" 8000
-	trade Clothing 224
-	trade Electronics 756
-	trade Equipment 352
-	trade Food 345
-	trade "Heavy Metals" 562
-	trade Industrial 748
-	trade "Luxury Goods" 0
-	trade Medical 636
-	trade Metal 376
-	trade Plastic 373
-	object
-		sprite star/f0
-		distance 11.8889
-		period 8.24972
-	object
-		sprite star/k5
-		distance 95.1111
-		period 8.24972
-		offset 180
-	object
-		sprite planet/gas5
-		distance 664.041
-		period 127.543
-		object "Enigma Prime"
-			sprite planet/station7
-			distance 257
-			period 12.3538
-		object "Enigma Meridian"
-			sprite planet/station6
-			distane 450
-			period 21.53
-
-planet "Enigma Prime"
-	landscape land/space7
-	security 0
-	description `The station is completely quiet, but it seems to have been recently used.`
-	
-planet "Enigma Meridian"
-	landscape land/space7
-	security 0
-	description `The station is completely quiet, but it seems to have been recently used.`
-
-###
-system Termara
-	pos -757 -411.5
-	government Republic
-	habitable 5880
-	link Suhail
-	link Enigma
-	asteroids "small rock" 6 2.6418
-	asteroids "medium rock" 68 2.2372
-	asteroids "large rock" 22 1.3328
-	asteroids "small metal" 3 2.5228
-	asteroids "medium metal" 6 1.9992
-	asteroids "large metal" 4 2.7132
-	trade Clothing 310
-	trade Electronics 700
-	trade Equipment 398
-	trade Food 414
-	trade "Heavy Metals" 921
-	trade Industrial 710
-	trade "Luxury Goods" 1033
-	trade Medical 796
-	trade Metal 365
-	trade Plastic 306
-	fleet "Small Northern Merchants" 2500
-	fleet "Large Northern Merchants" 5500
-	fleet "Small Deep" 4000
-	fleet "Large Deep" 6500
-	fleet "Large Northern Pirates" 8000
-	object
-		sprite star/wr
-		distance 11.8889
-		period 8.24972
-	object
-		sprite planet/miranda
-		distance 255.401
-		period 30.4227
-	object
-		sprite planet/gas5
-		distance 664.041
-		period 127.543
-	object
-		sprite planet/gas9
-		distance 1579.78
-		period 1596.42
-		object
-			sprite planet/rock0
-			distance 220
-			period 11.5088
-		object
-			sprite planet/rock14
-			distance 374
-			period 25.5097
-			
-###
-system Suhail
-	pos -774 -338
-	government Republic
-	habitable 1715
-	link Regor
-	link Termara
-	asteroids "small rock" 2 2.8224
-	asteroids "medium rock" 1 4.48
-	asteroids "large rock" 1 2.5088
-	asteroids "small metal" 5 5.7344
-	asteroids "medium metal" 3 3.4944
-	asteroids "large metal" 17 4.5696
-	trade Clothing 234
-	trade Electronics 755
-	trade Equipment 442
-	trade Food 413
-	trade "Heavy Metals" 1056
-	trade Industrial 819
-	trade "Luxury Goods" 986
-	trade Medical 774
-	trade Metal 259
-	trade Plastic 277
-	fleet "Small Northern Merchants" 2000
-	fleet "Large Northern Merchants" 5000
-	fleet "Small Deep" 4000
-	fleet "Large Deep" 7000
-	fleet "Large Northern Pirates" 9000
-	object
-		sprite star/f5
-		period 10
-	object
-		sprite planet/water1
-		distance 193.41
-		period 25.9804
-	object
-		sprite planet/io
-		distance 461.7
-		period 95.8226
-	object
-		sprite planet/gas14
-		distance 1034.31
-		period 321.295
-		object "Leviathan Station"
-			sprite planet/station6
-			distance 252
-			period 15.4109
-	object Helheim
-		sprite planet/ocean9
-		distance 1842.75
-		period 764.06
-		object
-			sprite planet/europa
-			distance 166
-			period 20.4528
-
-###
-system Adhara
-	object
-		sprite star/k0
-		distance 33.5961
-		period 16.6267
-	object
-		sprite star/m0
-		distance 71.4039
-		period 16.6267
-		offset 180
-	object
-		sprite planet/desert6
-		distance 279.714
-		period 72.2926
-	object Muspel
-		sprite planet/mars
-		distance 638.124
-		period 249.104
-		object Norn
-			sprite planet/ice7
-			distance 139
-			period 20.6008
-	object
-		sprite planet/cloud7
-		distance 1033.48
-		period 513.426
-		object "Enigma Epsilon"
-			sprite planet/station3
-			distance 151
-			period 20.4
-	object
-		sprite planet/dust1
-		distance 1498.37
-		period 896.299
-	object
-		sprite planet/oberon
-		distance 2411.01
-		period 1829.46
-
-planet "Enigma Epsilon"
-	landscape land/station4
-	outfitter "Deep Sky Basics"
-	outfitter "Deep Sky Advanced"
-	shipyard "Lionheart Basics"
-	security 0
-	government "Enigma Corp"
-	description `Epsilon Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
-	description `"The Enigma Corporation: We build death machines so you don't have to."`
-	spaceport `Epsilon Station appears to be the only Enigma Corp station that has an outfitter and shipyard stocked with anything other than technology made by the corporation itself. Upon landing, you notice that the station has a number of Deep Sky citizens, mainly scientist. There are a mix of people in green and blue lab coats discussing things in board rooms a view stories up with window views of the spaceport below.`
-	
-###
-system Kraz
-	object
-		sprite star/g0
-		period 10
-	object
-		sprite planet/rock2
-		distance 311.49
-		period 66.9136
-		object
-			sprite planet/dust2
-			distance 176
-			period 22.3285
-	object Rust
-		sprite planet/forest6
-		distance 903.7
-		period 330.662
-		object
-			sprite planet/io
-			distance 123
-			period 17.1483
-	object
-		sprite planet/rock15
-		distance 1258.06
-		period 543.125
-	object
-		sprite planet/gas17
-		distance 2011.3
-		period 1097.9
-		object "Enigma Mu"
-			sprite planet/station2
-			distance 234
-			period 14.441
-		object
-			sprite planet/desert4
-			distance 351
-			period 26.5299
-
-planet "Enigma Mu"
-	landscape land/station2
-	security 0
-	government "Enigma Corp"
-	description `Mu Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
-	description `"The Enigma Corporation: We build death machines so you don't have to."`
-	spaceport `Once you land, you notice that Enigma Mu is rather bland compared to the other Enigma Corp stations. There are no workers sprinting around or working on ships. Everything seems eerily calm and quiet, almost to the point of being creepy. You can't quite shake the feeling that you're being watched.`
-
-###
-system "Alpha Centauri"
-	object
-		sprite star/k5
-		distance 26.7033
-		period 16.011
-		offset 180
-	object
-		sprite star/m4
-		distance 63.2967
-		period 16.011
-	object Chiron
-		sprite planet/forest1
-		distance 346.547
-		period 120.975
-		object
-			sprite planet/rock17
-			distance 126
-			period 14.7361
-	object
-		sprite planet/desert2
-		distance 749.037
-		period 384.423
-	object
-		sprite planet/oberon
-		distance 976.197
-		period 571.953
-	object
-		sprite planet/rock15
-		distance 1718.2
-		period 1335.56
-		object "Enigma Alpha"
-			sprite planet/station5
-			distance 153
-			period 162.3
-	object
-		sprite planet/gas13
-		distance 4080.61
-		period 4888.11
-
-planet "Enigma Alpha"
-	landscape land/space7
-	security 0
-	government "Enigma Corp"
-	description `Alpha Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
-	description `"The Enigma Corporation: We build death machines so you don't have to."`
-	spaceport `This station is highly advanced compared to other stations that you have seen. As you come in for a landing, a landing pad extends out of the side of the station for you to land on. The landing pad then retracts back into the station and begins automatically refueling your ship. The entire inside of the station is a chrome looking color, and you are immediately met by an Enigma Corp worker as you step outside of your ship.`
-
-###
-system Achernar
-	object
-		sprite star/g5
-		period 10
-	object
-		sprite planet/desert3
-		distance 211.24
-		period 49.1229
-	object Foundry
-		sprite planet/forest1
-		distance 548
-		period 205.254
-		object
-			sprite planet/miranda
-			distance 130
-			period 15.4433
-		object "Enigma Sigma"
-			sprite planet/station1
-			distance 160
-			period 18.124
-	object
-		sprite planet/dust0
-		distance 978.21
-		period 489.517
-	object
-		sprite planet/titan
-		distance 1311.9
-		period 760.276
-	object
-		sprite planet/ice8
-		distance 1664.39
-		period 1086.43
-	object
-		sprite planet/neptune
-		distance 3673.43
-		period 3562.28
-		object
-			sprite planet/lava0
-			distance 202
-			period 12.7598
-		object
-			sprite planet/rhea
-			distance 307
-			period 23.907
-
-planet "Enigma Sigma"
-	landscape land/space5
-	security 0
-	government "Enigma Corp"
-	description `Sigma Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
-	description `"The Enigma Corporation: We build death machines so you don't have to."`
-	spaceport `As you land to refuel your ship, you notice that there is a large window that views into what appears to be a shipyard. You see corporation workers building ships that you haven't seen before, possibly ones that will soon be released to the market.`
-
-###
-system Dabih
-	object
-		sprite star/k0
-		distance 30.7164
-		period 14.5355
-		offset 180
-	object
-		sprite star/m0
-		distance 65.2836
-		period 14.5355
-	object
-		sprite planet/cloud3
-		distance 288.034
-		period 75.5418
-	object "New Britain"
-		sprite planet/forest6
-		distance 742.074
-		period 312.387
-	object
-		sprite planet/gas2
-		distance 1761.48
-		period 1142.46
-		object
-			sprite planet/ice0
-			distance 220
-			period 14.5028
-		object
-			sprite planet/rock7
-			distance 309
-			period 24.141
-		object "Enigma Zeta"
-			sprite planet/station5
-			distance 270
-			period 19.135
-
-planet "Enigma Zeta"
-	landscape land/station1
-	security 0
-	government "Enigma Corp"
-	description `Zeta Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
-	description `"The Enigma Corporation: We build death machines so you don't have to."`
-	spaceport `Zeta station is a little less well kept than most of the other Enigma Corp stations. There are tools everywhere and workers are constantly running around, looking like they're barely keeping the place together. No one comes to your aid to refuel your ship, so you have to walk over to the refuel station and refuel your ship on your own.`
-
-###
 system AMG-45
 	pos 893.931 -1007.31
 	government "Outer Rim Mining"
@@ -487,13 +73,135 @@ system AMG-45
 			distance 345
 			period 31.9272
 
-###
+system Achernar
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/desert3
+		distance 211.24
+		period 49.1229
+	object Foundry
+		sprite planet/forest1
+		distance 548
+		period 205.254
+		object
+			sprite planet/miranda
+			distance 130
+			period 15.4433
+		object "Enigma Sigma"
+			sprite planet/station1
+			distance 160
+			period 18.124
+	object
+		sprite planet/dust0
+		distance 978.21
+		period 489.517
+	object
+		sprite planet/titan
+		distance 1311.9
+		period 760.276
+	object
+		sprite planet/ice8
+		distance 1664.39
+		period 1086.43
+	object
+		sprite planet/neptune
+		distance 3673.43
+		period 3562.28
+		object
+			sprite planet/lava0
+			distance 202
+			period 12.7598
+		object
+			sprite planet/rhea
+			distance 307
+			period 23.907
+
+system Adhara
+	object
+		sprite star/k0
+		distance 33.5961
+		period 16.6267
+	object
+		sprite star/m0
+		distance 71.4039
+		period 16.6267
+		offset 180
+	object
+		sprite planet/desert6
+		distance 279.714
+		period 72.2926
+	object Muspel
+		sprite planet/mars
+		distance 638.124
+		period 249.104
+		object Norn
+			sprite planet/ice7
+			distance 139
+			period 20.6008
+	object
+		sprite planet/cloud7
+		distance 1033.48
+		period 513.426
+		object "Enigma Epsilon"
+			sprite planet/station3
+			distance 151
+			period 20.4
+	object
+		sprite planet/dust1
+		distance 1498.37
+		period 896.299
+	object
+		sprite planet/oberon
+		distance 2411.01
+		period 1829.46
+
+system "Alpha Centauri"
+	object
+		sprite star/k5
+		distance 26.7033
+		period 16.011
+		offset 180
+	object
+		sprite star/m4
+		distance 63.2967
+		period 16.011
+	object Chiron
+		sprite planet/forest1
+		distance 346.547
+		period 120.975
+		object
+			sprite planet/rock17
+			distance 126
+			period 14.7361
+	object
+		sprite planet/desert2
+		distance 749.037
+		period 384.423
+	object
+		sprite planet/oberon
+		distance 976.197
+		period 571.953
+	object
+		sprite planet/rock15
+		distance 1718.2
+		period 1335.56
+		object "Enigma Alpha"
+			sprite planet/station5
+			distance 153
+			period 162.3
+	object
+		sprite planet/gas13
+		distance 4080.61
+		period 4888.11
+
 system Auram
 	pos 764.931 -862.312
 	government "Outer Rim Mining"
 	habitable 450
 	link Avilum
-	link Jita
+	link Domov
 	link Ukkamu
 	asteroids "small rock" 15 2.838
 	asteroids "medium rock" 37 2.31
@@ -521,7 +229,7 @@ system Auram
 		sprite planet/mars
 		distance 148.76
 		period 40.5709
-	object "Igolide"
+	object Igolide
 		sprite planet/rock4
 		distance 427.76
 		period 255.843
@@ -541,15 +249,7 @@ system Auram
 			sprite planet/europa
 			distance 376
 			period 31.1498
-			
-planet "Igolide"
-	landscape land/badlands0
-	"required reputation" 10
-	security 0
-	description `Igolide is a barely habitable planet, orbiting on the edge of the habitable zone of the Auram system. Due to this, Outer Rim Mining exiles members to this planet as punishment for breaking ORM rules.`
-	spaceport `The spaceport is blocked off from the rest of the settlement with high walls and laser gates at every doorway. A few men in military looking suits get up from the cafeteria area across the spaceport and refill your ship before going back to eating.`
 
-###
 system Avilum
 	pos 691.931 -873.312
 	government "Outer Rim Mining"
@@ -609,7 +309,6 @@ system Avilum
 			distance 446
 			period 24.0584
 
-###
 system DML-91
 	pos 1000.93 -981.312
 	government "Outer Rim Mining"
@@ -632,10 +331,10 @@ system DML-91
 	trade "Luxury Goods" 1220
 	trade Medical 680
 	trade Metal 390
+	trade Plastic 390
 	fleet "ORM Core" 1500
 	fleet "ORM Southern" 1500
 	fleet "ORM Northern" 1500
-	trade Plastic 390
 	object
 		sprite star/m4
 		period 10
@@ -672,7 +371,6 @@ system DML-91
 			distance 337
 			period 23.1972
 
-###
 system DNF-14
 	pos 476.149 -930.254
 	government "Outer Rim Mining"
@@ -737,7 +435,41 @@ system DNF-14
 			distance 325
 			period 30.8406
 
-###
+system Dabih
+	object
+		sprite star/k0
+		distance 30.7164
+		period 14.5355
+		offset 180
+	object
+		sprite star/m0
+		distance 65.2836
+		period 14.5355
+	object
+		sprite planet/cloud3
+		distance 288.034
+		period 75.5418
+	object "New Britain"
+		sprite planet/forest6
+		distance 742.074
+		period 312.387
+	object
+		sprite planet/gas2
+		distance 1761.48
+		period 1142.46
+		object
+			sprite planet/ice0
+			distance 220
+			period 14.5028
+		object
+			sprite planet/rock7
+			distance 309
+			period 24.141
+		object "Enigma Zeta"
+			sprite planet/station5
+			distance 270
+			period 19.135
+
 system END-00
 	pos 1208.93 -1168.31
 	government "Outer Rim Mining"
@@ -797,13 +529,60 @@ system END-00
 			distance 209
 			period 12.909
 
-###
+system Enigma
+	pos -740 -485
+	government "Enigma Corp"
+	habitable 880
+	link Termara
+	asteroids "small rock" 6 2.6418
+	asteroids "medium rock" 68 2.2372
+	asteroids "large rock" 22 1.3328
+	asteroids "small metal" 3 2.5228
+	asteroids "medium metal" 6 1.9992
+	asteroids "large metal" 4 2.7132
+	trade Clothing 224
+	trade Electronics 756
+	trade Equipment 352
+	trade Food 345
+	trade "Heavy Metals" 562
+	trade Industrial 748
+	trade Medical 636
+	trade Metal 376
+	trade Plastic 373
+	fleet Oblivion 15000
+	fleet Keeper 50000
+	fleet "Small Northern Merchants" 1500
+	fleet "Large Northern Merchants" 4000
+	fleet "Small Deep" 3500
+	fleet "Large Deep" 6000
+	fleet "Large Northern Pirates" 8000
+	object
+		sprite star/f0
+		distance 11.8889
+		period 8.24972
+	object
+		sprite star/k5
+		distance 95.1111
+		period 8.24972
+		offset 180
+	object
+		sprite planet/gas5
+		distance 664.041
+		period 127.543
+		object "Enigma Prime"
+			sprite planet/station7
+			distance 257
+			period 12.3538
+		object "Enigma Meridian"
+			sprite planet/station6
+			period 21.53
+
 system Ferum
 	pos 670.931 -942.312
 	government "Outer Rim Mining"
 	habitable 425.92
 	link Avilum
-	link Sedna
+	link Mesec
 	asteroids "small rock" 20 2.3331
 	asteroids "medium rock" 14 3.0954
 	asteroids "large rock" 2 2.9568
@@ -833,7 +612,7 @@ system Ferum
 		sprite planet/gas6
 		distance 741.69
 		period 391.498
-		object "Hierro"
+		object Hierro
 			sprite planet/dust4
 			distance 277
 			period 11.7756
@@ -857,15 +636,7 @@ system Ferum
 			sprite planet/rock14
 			distance 363
 			period 27.6424
-			
-planet "Hierro"
-	landscape land/lava0
-	"required reputation" 10
-	security 0
-	description `Nicknamed "Frozen Hell" by some of the workers at Outer Rim Mining, Hierro is a strange place. It orbits rather close to a gas giant, causing high amounts of volcanic activity. Even so, the orbit of the moon means that it is only within the habitable zone of the star for half of it's orbit, so for a few weeks it is reasonably livable, but the next few weeks are extrememly cold.`
-	spaceport `The spaceport is located inside of a volcano. The only way you were able to find it was because of the large beacon shooting out of the middle of the crater. You question whether or not having the entire spaceport inside a volcano to harness geothermal power is worth the danger of having the volcano erupt on to the space port.`
 
-###
 system Immeo
 	pos 434.931 -887.312
 	government "Outer Rim Mining"
@@ -923,7 +694,6 @@ system Immeo
 			distance 314
 			period 29.6191
 
-###
 system JMU-10
 	pos 925.931 -1114.31
 	government "Outer Rim Mining"
@@ -979,12 +749,11 @@ system JMU-10
 			distance 250
 			period 13.9414
 
-###
-system Jita
+system Domov
 	pos 774.931 -919.312
 	government "Outer Rim Mining"
 	habitable 910
-	link Sedna
+	link Mesec
 	link Auram
 	link Ostima
 	asteroids "medium rock" 2 1.4756
@@ -1036,15 +805,7 @@ system Jita
 		sprite planet/gas16
 		distance 2234.7
 		period 2047.5
-		
-planet "The Hub"
-	landscape land/city12
-	"required reputation" 50
-	security 0
-	description `Known only as The Hub, this planet is the main outpost of the Outer Rim Mining corporation. Most of the planet has been converted into factories spewing out dangerous chemicals as they smelt down the recently delivered ore into pure metals.`
-	spaceport `Freighters full of ore are constantly flying in and out of the atmoshphere, taking up most of the landing pads. After about an hour of talking with the command tower and waiting for an opening, you are allowed to land on a landing pad near the edge of the spaceport.`
 
-###
 system KAL-25
 	pos 872.931 -1064.31
 	government "Outer Rim Mining"
@@ -1112,7 +873,6 @@ system KAL-25
 			distance 360
 			period 24.0908
 
-###
 system KLW-01
 	pos 539.149 -893.254
 	government "Outer Rim Mining"
@@ -1164,7 +924,43 @@ system KLW-01
 		distance 3508.59
 		period 4647.12
 
-###
+system Kraz
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/rock2
+		distance 311.49
+		period 66.9136
+		object
+			sprite planet/dust2
+			distance 176
+			period 22.3285
+	object Rust
+		sprite planet/forest6
+		distance 903.7
+		period 330.662
+		object
+			sprite planet/io
+			distance 123
+			period 17.1483
+	object
+		sprite planet/rock15
+		distance 1258.06
+		period 543.125
+	object
+		sprite planet/gas17
+		distance 2011.3
+		period 1097.9
+		object "Enigma Mu"
+			sprite planet/station2
+			distance 234
+			period 14.441
+		object
+			sprite planet/desert4
+			distance 351
+			period 26.5299
+
 system LPK-52
 	pos 1079.93 -961.312
 	government "Outer Rim Mining"
@@ -1215,7 +1011,6 @@ system LPK-52
 		distance 2355.38
 		period 1063.08
 
-###
 system NDV-52
 	pos 1034.93 -1132.31
 	government "Outer Rim Mining"
@@ -1286,7 +1081,6 @@ system NDV-52
 			distance 485
 			period 56.8577
 
-###
 system NGJ-67
 	pos 489.149 -861.254
 	government "Outer Rim Mining"
@@ -1338,7 +1132,6 @@ system NGJ-67
 			distance 394
 			period 19.976
 
-###
 system OMA-12
 	pos 1111.93 -1191.31
 	government "Outer Rim Mining"
@@ -1401,14 +1194,13 @@ system OMA-12
 			distance 488
 			period 46.0578
 
-###
 system Ostima
 	pos 844.931 -962.312
 	government "Outer Rim Mining"
 	habitable 945
 	link Ukkamu
-	link Sedna
-	link Jita
+	link Mesec
+	link Domov
 	link AMG-45
 	asteroids "small rock" 9 3.5816
 	asteroids "medium rock" 60 2.9282
@@ -1478,15 +1270,7 @@ system Ostima
 			sprite planet/luna
 			distance 363
 			period 24.6031
-			
-planet "Diamond Station"
-	landscape land/station1
-	"required reputation" 25
-	security 0
-	description `Diamond Station is the refueling station for Outer Rim Mining ships. Ship land to refuel every time the get ready to leave and when they reenter inhabited space.`
-	spaceport `As with The Hub, almost all landing pads are taken by freighters entering and exiting the spaceport. Given the size of the station, there are a lot less landing pads, so you wonder how they keep up with all the ships without clogging up traffic. Just then, a floating drone flies over to your ship and refuels it before you even land, then flies off to refuel more ships.`
 
-###
 system PBD-09
 	pos 710.931 -1136.31
 	government "Outer Rim Mining"
@@ -1554,7 +1338,6 @@ system PBD-09
 			distance 528
 			period 64.5844
 
-###
 system QFS-83
 	pos 774.931 -1132.31
 	government "Outer Rim Mining"
@@ -1612,7 +1395,6 @@ system QFS-83
 			distance 542
 			period 50.433
 
-###
 system RVE-32
 	pos 758.931 -1198.31
 	government "Outer Rim Mining"
@@ -1670,7 +1452,6 @@ system RVE-32
 			distance 368
 			period 26.4705
 
-###
 system Sadr
 	object
 		sprite star/a5
@@ -1710,14 +1491,12 @@ system Sadr
 		distance 3000
 		period 1000
 
-planet "Outer Rim"
-
-system Sedna
+system Mesec
 	pos 732.931 -974.312
 	government "Outer Rim Mining"
 	habitable 525
 	link Ferum
-	link Jita
+	link Domov
 	link Ostima
 	asteroids "medium rock" 24 5.1272
 	asteroids "large rock" 5 2.958
@@ -1744,7 +1523,7 @@ system Sedna
 		sprite planet/cloud3
 		distance 213.25
 		period 49.8257
-	object "Indalo"
+	object Indalo
 		sprite planet/forest4
 		distance 540.94
 		period 148.146
@@ -1764,15 +1543,62 @@ system Sedna
 			sprite planet/rock14
 			distance 419
 			period 28.2878
-			
-planet "Indalo"
-	landscape land/myrabella7
-	"required reputation" 10
-	security 0
-	description `Indalo appears to be the only planet in the entire region to have plant life on it. There are no factories anywhere, and the only evidence of human civiliation is the small spaceport city located near the equator.`
-	spaceport `There appears to be only one landing pad, but when you land you are lowered down into an underground parking complex. You noticed what appears to be hundreds of rows of ships. A tube attatches to the entrance of your ship, which leads to an evelator to the surface of the planet.`
 
-###
+system Suhail
+	pos -774 -338
+	government Republic
+	habitable 1715
+	link Regor
+	link Termara
+	asteroids "small rock" 2 2.8224
+	asteroids "medium rock" 1 4.48
+	asteroids "large rock" 1 2.5088
+	asteroids "small metal" 5 5.7344
+	asteroids "medium metal" 3 3.4944
+	asteroids "large metal" 17 4.5696
+	trade Clothing 234
+	trade Electronics 755
+	trade Equipment 442
+	trade Food 413
+	trade "Heavy Metals" 1056
+	trade Industrial 819
+	trade "Luxury Goods" 986
+	trade Medical 774
+	trade Metal 259
+	trade Plastic 277
+	fleet "Small Northern Merchants" 2000
+	fleet "Large Northern Merchants" 5000
+	fleet "Small Deep" 4000
+	fleet "Large Deep" 7000
+	fleet "Large Northern Pirates" 9000
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/water1
+		distance 193.41
+		period 25.9804
+	object
+		sprite planet/io
+		distance 461.7
+		period 95.8226
+	object
+		sprite planet/gas14
+		distance 1034.31
+		period 321.295
+		object "Leviathan Station"
+			sprite planet/station6
+			distance 252
+			period 15.4109
+	object Helheim
+		sprite planet/ocean9
+		distance 1842.75
+		period 764.06
+		object
+			sprite planet/europa
+			distance 166
+			period 20.4528
+
 system TOI-02
 	pos 586.149 -943.254
 	government "Outer Rim Mining"
@@ -1828,7 +1654,6 @@ system TOI-02
 		distance 3059.6
 		period 1442.71
 
-###
 system TYU-16
 	pos 1026.93 -920.312
 	government "Outer Rim Mining"
@@ -1886,229 +1711,57 @@ system TYU-16
 			distance 262
 			period 17.2707
 
-###
-system UEH-60
-	pos 619.149 -867.254
-	government "Outer Rim Mining"
-	habitable 719.96
-	link Avilum
-	link KLW-01
-	asteroids "small rock" 3 7.1456
-	asteroids "medium rock" 22 3.2538
-	asteroids "large rock" 2 4.6574
-	asteroids "small metal" 19 6.8904
-	asteroids "medium metal" 17 4.4022
-	asteroids "large metal" 1 7.9112
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
+system Termara
+	pos -757 -411.5
+	government Republic
+	habitable 5880
+	link Suhail
+	link Enigma
+	asteroids "small rock" 6 2.6418
+	asteroids "medium rock" 68 2.2372
+	asteroids "large rock" 22 1.3328
+	asteroids "small metal" 3 2.5228
+	asteroids "medium metal" 6 1.9992
+	asteroids "large metal" 4 2.7132
+	trade Clothing 310
+	trade Electronics 700
+	trade Equipment 398
+	trade Food 414
+	trade "Heavy Metals" 921
+	trade Industrial 710
+	trade "Luxury Goods" 1033
+	trade Medical 796
+	trade Metal 365
+	trade Plastic 306
+	fleet "Small Northern Merchants" 2500
+	fleet "Large Northern Merchants" 5500
+	fleet "Small Deep" 4000
+	fleet "Large Deep" 6500
+	fleet "Large Northern Pirates" 8000
 	object
-		sprite star/k0
-		distance 31.7538
-		period 14.4626
+		sprite star/wr
+		distance 11.8889
+		period 8.24972
 	object
-		sprite star/m4
-		distance 66.2462
-		period 14.4626
-		offset 180
+		sprite planet/miranda
+		distance 255.401
+		period 30.4227
 	object
-		sprite planet/rock18
-		distance 347.056
-		period 96.3841
+		sprite planet/gas5
+		distance 664.041
+		period 127.543
+	object
+		sprite planet/gas9
+		distance 1579.78
+		period 1596.42
 		object
-			sprite planet/dust4
-			distance 154
-			period 24.0239
-	object
-		sprite planet/cloud8
-		distance 791.056
-		period 331.678
-	object
-		sprite planet/gas8
-		distance 1461.35
-		period 832.79
+			sprite planet/rock0
+			distance 220
+			period 11.5088
 		object
-			sprite planet/ice8
-			distance 207
-			period 15.8538
-	object
-		sprite planet/neptune
-		distance 2180.04
-		period 1517.4
-		object
-			sprite planet/rock3
-			distance 218
-			period 16.0368
-		object
-			sprite planet/europa
-			distance 354
-			period 33.1846
-
-###
-system UVG-64
-	pos 956.931 -1032.31
-	government "Outer Rim Mining"
-	habitable 425.92
-	link AMG-45
-	link JMU-10
-	link DML-91
-	asteroids "small rock" 3 4.0392
-	asteroids "medium rock" 3 3.6261
-	asteroids "large rock" 13 5.7375
-	asteroids "medium metal" 13 3.7638
-	asteroids "large metal" 24 6.0588
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
-	fleet "ORM Core" 1000
-	fleet "ORM Southern" 1000
-	fleet "ORM Northern" 1000
-	object
-		sprite star/k5
-		period 10
-	object
-		sprite planet/rock5
-		distance 136.84
-		period 31.0253
-	object
-		sprite planet/rock1
-		distance 469.45
-		period 197.142
-		object
-			sprite planet/dust5
-			distance 166
-			period 24.87
-	object
-		sprite planet/gas14
-		distance 1319.94
-		period 929.453
-	object
-		sprite planet/jupiter
-		distance 1882.58
-		period 1583.16
-		object
-			sprite planet/desert4
-			distance 236
-			period 11.3928
-
-###
-system Ukkamu
-	pos 847.931 -879.312
-	government "Outer Rim Mining"
-	habitable 8640
-	link Auram
-	link Ostima
-	asteroids "medium rock" 56 2.1112
-	asteroids "large rock" 10 2.4206
-	asteroids "small metal" 1 1.1284
-	asteroids "medium metal" 59 1.2194
-	asteroids "large metal" 5 1.547
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
-	fleet "ORM Core" 750
-	fleet "ORM Southern" 750
-	fleet "ORM Northern" 750
-	object
-		sprite star/b5
-		period 10
-	object
-		sprite planet/gas3
-		distance 415.36
-		period 36.4284
-	object
-		sprite planet/gas17
-		distance 1035.17
-		period 143.325
-	object
-		sprite planet/gas6
-		distance 2093.58
-		period 412.228
-		object
-			sprite planet/lava0
-			distance 318
-			period 14.4846
-
-###
-system WOW-56
-	pos 840.931 -1114.31
-	government "Outer Rim Mining"
-	habitable 1080
-	link KAL-25
-	link JMU-10
-	link QFS-83
-	asteroids "small rock" 43 5.502
-	asteroids "medium rock" 3 5.082
-	asteroids "large rock" 39 4.536
-	asteroids "small metal" 1 4.494
-	asteroids "large metal" 11 3.654
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
-	fleet "ORM Core" 1000
-	fleet "ORM Southern" 1000
-	fleet "ORM Northern" 1000
-	object
-		sprite star/g0
-		period 10
-	object
-		sprite planet/gas13
-		distance 283.01
-		period 57.9496
-	object
-		sprite planet/neptune
-		distance 927.01
-		period 343.538
-		object
-			sprite planet/rock7
-			distance 218
-			period 16.0368
-		object
-			sprite planet/rock17
-			distance 338
-			period 30.9604
-	object
-		sprite planet/gas4
-		distance 1704.01
-		period 856.163
-		object
-			sprite planet/rock3
-			distance 224
-			period 11.8241
-	object
-		sprite planet/gas11
-		distance 2487.01
-		period 1509.61
-
-
+			sprite planet/rock14
+			distance 374
+			period 25.5097
 
 system "Test 1"
 	pos 152.298 -912.95
@@ -2196,7 +1849,7 @@ system "Test 11"
 	habitable 425.92
 	link "Test 10"
 	link "Test 14"
-	link Test15
+	link "Test 15"
 	asteroids "small rock" 9 2.1105
 	asteroids "medium rock" 7 3.654
 	asteroids "large rock" 1 2.079
@@ -2403,7 +2056,7 @@ system "Test 3"
 	habitable 745.92
 	link "Test 1"
 	link "Test 13"
-	link Test15
+	link "Test 15"
 	asteroids "small rock" 8 3.3696
 	asteroids "medium rock" 2 6.9264
 	asteroids "large rock" 8 5.9904
@@ -2701,7 +2354,7 @@ system "Test 9"
 		distance 2037.92
 		period 1347.39
 
-system Test15
+system "Test 15"
 	pos 325.298 -941.95
 	habitable 320
 	link "Test 3"
@@ -2751,3 +2404,312 @@ system Test15
 			distance 416
 			period 21.6723
 
+system UEH-60
+	pos 619.149 -867.254
+	government "Outer Rim Mining"
+	habitable 719.96
+	link Avilum
+	link KLW-01
+	asteroids "small rock" 3 7.1456
+	asteroids "medium rock" 22 3.2538
+	asteroids "large rock" 2 4.6574
+	asteroids "small metal" 19 6.8904
+	asteroids "medium metal" 17 4.4022
+	asteroids "large metal" 1 7.9112
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	object
+		sprite star/k0
+		distance 31.7538
+		period 14.4626
+	object
+		sprite star/m4
+		distance 66.2462
+		period 14.4626
+		offset 180
+	object
+		sprite planet/rock18
+		distance 347.056
+		period 96.3841
+		object
+			sprite planet/dust4
+			distance 154
+			period 24.0239
+	object
+		sprite planet/cloud8
+		distance 791.056
+		period 331.678
+	object
+		sprite planet/gas8
+		distance 1461.35
+		period 832.79
+		object
+			sprite planet/ice8
+			distance 207
+			period 15.8538
+	object
+		sprite planet/neptune
+		distance 2180.04
+		period 1517.4
+		object
+			sprite planet/rock3
+			distance 218
+			period 16.0368
+		object
+			sprite planet/europa
+			distance 354
+			period 33.1846
+
+system UVG-64
+	pos 956.931 -1032.31
+	government "Outer Rim Mining"
+	habitable 425.92
+	link AMG-45
+	link JMU-10
+	link DML-91
+	asteroids "small rock" 3 4.0392
+	asteroids "medium rock" 3 3.6261
+	asteroids "large rock" 13 5.7375
+	asteroids "medium metal" 13 3.7638
+	asteroids "large metal" 24 6.0588
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 1000
+	fleet "ORM Southern" 1000
+	fleet "ORM Northern" 1000
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rock5
+		distance 136.84
+		period 31.0253
+	object
+		sprite planet/rock1
+		distance 469.45
+		period 197.142
+		object
+			sprite planet/dust5
+			distance 166
+			period 24.87
+	object
+		sprite planet/gas14
+		distance 1319.94
+		period 929.453
+	object
+		sprite planet/jupiter
+		distance 1882.58
+		period 1583.16
+		object
+			sprite planet/desert4
+			distance 236
+			period 11.3928
+
+system Ukkamu
+	pos 847.931 -879.312
+	government "Outer Rim Mining"
+	habitable 8640
+	link Auram
+	link Ostima
+	asteroids "medium rock" 56 2.1112
+	asteroids "large rock" 10 2.4206
+	asteroids "small metal" 1 1.1284
+	asteroids "medium metal" 59 1.2194
+	asteroids "large metal" 5 1.547
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 750
+	fleet "ORM Southern" 750
+	fleet "ORM Northern" 750
+	object
+		sprite star/b5
+		period 10
+	object
+		sprite planet/gas3
+		distance 415.36
+		period 36.4284
+	object
+		sprite planet/gas17
+		distance 1035.17
+		period 143.325
+	object
+		sprite planet/gas6
+		distance 2093.58
+		period 412.228
+		object
+			sprite planet/lava0
+			distance 318
+			period 14.4846
+
+system WOW-56
+	pos 840.931 -1114.31
+	government "Outer Rim Mining"
+	habitable 1080
+	link KAL-25
+	link JMU-10
+	link QFS-83
+	asteroids "small rock" 43 5.502
+	asteroids "medium rock" 3 5.082
+	asteroids "large rock" 39 4.536
+	asteroids "small metal" 1 4.494
+	asteroids "large metal" 11 3.654
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	fleet "ORM Core" 1000
+	fleet "ORM Southern" 1000
+	fleet "ORM Northern" 1000
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/gas13
+		distance 283.01
+		period 57.9496
+	object
+		sprite planet/neptune
+		distance 927.01
+		period 343.538
+		object
+			sprite planet/rock7
+			distance 218
+			period 16.0368
+		object
+			sprite planet/rock17
+			distance 338
+			period 30.9604
+	object
+		sprite planet/gas4
+		distance 1704.01
+		period 856.163
+		object
+			sprite planet/rock3
+			distance 224
+			period 11.8241
+	object
+		sprite planet/gas11
+		distance 2487.01
+		period 1509.61
+
+planet "Diamond Station"
+	landscape land/station1
+	description `Diamond Station is the refueling station for Outer Rim Mining ships. Ship land to refuel every time the get ready to leave and when they reenter inhabited space.`
+	spaceport `As with The Hub, almost all landing pads are taken by freighters entering and exiting the spaceport. Given the size of the station, there are a lot less landing pads, so you wonder how they keep up with all the ships without clogging up traffic. Just then, a floating drone flies over to your ship and refuels it before you even land, then flies off to refuel more ships.`
+	"required reputation" 25
+	security 0
+
+planet "Enigma Alpha"
+	landscape land/space7
+	description `Alpha Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
+	description `	"The Enigma Corporation: We build death machines so you don't have to."`
+	spaceport `This station is highly advanced compared to other stations that you have seen. As you come in for a landing, a landing pad extends out of the side of the station for you to land on. The landing pad then retracts back into the station and begins automatically refueling your ship. The entire inside of the station is a chrome looking color, and you are immediately met by an Enigma Corp worker as you step outside of your ship.`
+	security 0
+	government "Enigma Corp"
+
+planet "Enigma Epsilon"
+	landscape land/station4
+	description `Epsilon Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
+	description `	"The Enigma Corporation: We build death machines so you don't have to."`
+	spaceport `Epsilon Station appears to be the only Enigma Corp station that has an outfitter and shipyard stocked with anything other than technology made by the corporation itself. Upon landing, you notice that the station has a number of Deep Sky citizens, mainly scientist. There are a mix of people in green and blue lab coats discussing things in board rooms a view stories up with window views of the spaceport below.`
+	shipyard "Lionheart Basics"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	security 0
+	government "Enigma Corp"
+
+planet "Enigma Meridian"
+	landscape land/space7
+	description `The station is completely quiet, but it seems to have been recently used.`
+	security 0
+
+planet "Enigma Mu"
+	landscape land/station2
+	description `Mu Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
+	description `	"The Enigma Corporation: We build death machines so you don't have to."`
+	spaceport `Once you land, you notice that Enigma Mu is rather bland compared to the other Enigma Corp stations. There are no workers sprinting around or working on ships. Everything seems eerily calm and quiet, almost to the point of being creepy. You can't quite shake the feeling that you're being watched.`
+	security 0
+	government "Enigma Corp"
+
+planet "Enigma Prime"
+	landscape land/space7
+	description `The station is completely quiet, but it seems to have been recently used.`
+	security 0
+
+planet "Enigma Sigma"
+	landscape land/space5
+	description `Sigma Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
+	description `	"The Enigma Corporation: We build death machines so you don't have to."`
+	spaceport `As you land to refuel your ship, you notice that there is a large window that views into what appears to be a shipyard. You see corporation workers building ships that you haven't seen before, possibly ones that will soon be released to the market.`
+	security 0
+	government "Enigma Corp"
+
+planet "Enigma Zeta"
+	landscape land/station1
+	description `Zeta Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
+	description `	"The Enigma Corporation: We build death machines so you don't have to."`
+	spaceport `Zeta station is a little less well kept than most of the other Enigma Corp stations. There are tools everywhere and workers are constantly running around, looking like they're barely keeping the place together. No one comes to your aid to refuel your ship, so you have to walk over to the refuel station and refuel your ship on your own.`
+	security 0
+	government "Enigma Corp"
+
+planet Hierro
+	landscape land/lava0
+	description `Nicknamed "Frozen Hell" by some of the workers at Outer Rim Mining, Hierro is a strange place. It orbits rather close to a gas giant, causing high amounts of volcanic activity. Even so, the orbit of the moon means that it is only within the habitable zone of the star for half of it's orbit, so for a few weeks it is reasonably livable, but the next few weeks are extrememly cold.`
+	spaceport `The spaceport is located inside of a volcano. The only way you were able to find it was because of the large beacon shooting out of the middle of the crater. You question whether or not having the entire spaceport inside a volcano to harness geothermal power is worth the danger of having the volcano erupt on to the space port.`
+	"required reputation" 10
+	security 0
+
+planet Igolide
+	landscape land/badlands0
+	description `Igolide is a barely habitable planet, orbiting on the edge of the habitable zone of the Auram system. Due to this, Outer Rim Mining exiles members to this planet as punishment for breaking ORM rules.`
+	spaceport `The spaceport is blocked off from the rest of the settlement with high walls and laser gates at every doorway. A few men in military looking suits get up from the cafeteria area across the spaceport and refill your ship before going back to eating.`
+	"required reputation" 10
+	security 0
+
+planet Indalo
+	landscape land/myrabella7
+	description `Indalo appears to be the only planet in the entire region to have plant life on it. There are no factories anywhere, and the only evidence of human civiliation is the small spaceport city located near the equator.`
+	spaceport `There appears to be only one landing pad, but when you land you are lowered down into an underground parking complex. You noticed what appears to be hundreds of rows of ships. A tube attatches to the entrance of your ship, which leads to an evelator to the surface of the planet.`
+	"required reputation" 10
+	security 0
+
+planet "Outer Rim"
+	description "Wormhole connecting Sadr with Immeo."
+
+planet "The Hub"
+	landscape land/city12
+	description `Known only as The Hub, this planet is the main outpost of the Outer Rim Mining corporation. Most of the planet has been converted into factories spewing out dangerous chemicals as they smelt down the recently delivered ore into pure metals.`
+	spaceport `Freighters full of ore are constantly flying in and out of the atmoshphere, taking up most of the landing pads. After about an hour of talking with the command tower and waiting for an opening, you are allowed to land on a landing pad near the edge of the spaceport.`
+	"required reputation" 50
+	security 0
+	
