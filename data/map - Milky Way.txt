@@ -1710,6 +1710,7 @@ system Sadr
 		distance 3000
 		period 1000
 
+planet "Outer Rim"
 
 system Sedna
 	pos 732.931 -974.312
