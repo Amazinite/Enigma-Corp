@@ -350,7 +350,7 @@ ship "EC-069 'Star King'"
 			"hit force" 900
 	outfits
 		"Flux Missile Launcher" 3
-		"Flux Missile" 150
+		"Flux Missile" 300
 		"Heavy Anti-Missile Turret" 4
 		
 		"NT-200 Nucleovoltaic"
@@ -402,7 +402,7 @@ ship "EC-070 'Star Guardian'"
 	outfits
 		"EMP Device"
 		"Flux Missile Launcher" 2
-		"Flux Missile" 100
+		"Flux Missile" 200
 		"Heavy Anti-Missile Turret" 4
 		
 		"NT-200 Nucleovoltaic"
