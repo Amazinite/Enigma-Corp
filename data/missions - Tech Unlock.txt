@@ -68,14 +68,27 @@ mission "Meridian"
 		event "Enigma Meridian"
 		fail
 
-mission "Typhoon Cap"
-	landing
-	invisible
-	to offer
-		has "event: deep sky tech available"
-	on offer
-		event "Typhoon Cap"
-		fail
+ship "Bulk Freighter" "Bulk Freighter (Warp)"
+	outfits
+		"Laser Turret" 2
+		"Heavy Laser Turret" 2
+		"Heavy Anti-Missile Turret"
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 70
+		"Fission Reactor"
+		"LP072a Battery Pack"
+		"D94-YV Shield Generator"
+		"Mass Expansion"
+		"A250 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Scram Drive"
+		"Jump Drive"
+		"External Fuel Pod" 5
+	turret "Laser Turret"
+	turret "Heavy Laser Turret"
+	turret "Heavy Anti-Missile Turret"
+	turret "Laser Turret"
+	turret "Heavy Laser Turret"
 
 mission "New FW Tech"
 	name "Technology Escort"
