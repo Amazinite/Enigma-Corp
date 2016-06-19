@@ -1,3 +1,32 @@
+V0.5.4 and a half
+  Content
+    Replaced the Decoy Engines with X1025 Ion Engines.
+    Termini Drones are now automaton and uncaptureable.
+    There is now a station in the Enigma system called "Enigma Meridian" that holds within it stuff that is purposefully OP and unbalanced as well as some ships that you aren't normally suppose to be able to buy
+      This is just for testing purposes. Go ahead and mess with the stuff if you want. It will be gone in v0.6.0. :)
+    Enigma Corp and ORM no longer fine you.
+    The Sadr-Immeo wormhole now has a path for your pathing ai to use. You're Welcome Takarada
+    Added new systems located in the Outer Rim to be used in a later update.
+    Updated the navy license mission for v0.9.2 compatability. You must start the mission line within 60 days of completing the main plot and finish it within 90 days of completing the main plot.
+    Reworked the "New Syn Tech" mission to require you to return some cargo that is found on the NPC to the Syndicate instead of just boarding it.
+      Declining this mission makes the core pirates stronger.
+      Declining this mission also triggers the event, which would normally be triggered upon completion, after 60 days.
+    Reworked the "New FW Tech" mission to where the merchants will explain to you that they have Jump Drives on their Bulk Freighters.
+      Declining this mission also triggers the event, which would normally be triggered upon completion, after 60 days.
+    Reworked many of the descriptions for ships and outfits.
+    Capacity upgraders are now abbreviated as "Cap-Up" instead of "Cap. Up."
+  Balance
+    Plasmathrower now also does some heat damage.
+    Ammunition has been given mass and weapons that require ammo have had their mass reduced.
+    Antimatter Bombs are now illegal. Like really illegal. Like "I'll kill you for possessing one of these" illegal. Like 50 years in jail for possessing 2 grams of weed in America type of illegal.
+    The Shrapnel Cannon now has a random velocity and random lifetime to it so that the pellet spread is not the same every time.
+  Bug Fixes
+   The usual typo fixes (thx @Alkallid)
+    Fixed the Echo 50 engine coordinates.
+    Better Andromeda galaxy image.
+    Fixed a bug that caused a random system with nothing in it to appear at position 0,0.
+    The Star King and Star Guardian are now sold with the proper amount of Flux Missiles.
+
 V0.5.4 Missions and Compatibility
   New missions
     Introductory missions for the Andromedans and Termini that hint as to the direction of both storylines.
@@ -164,53 +193,52 @@ V0.5.0a Hotfix
   Fuel Powered Generator is now listed under power
 
 V0.5.0- Alien Invasion! (not really though [kind of])
+  2 new alien factions!
+    The Andromedans: a newly discovered wormhole is leading pilots to the Andromeda Galaxy, somewhere where no one has been before. Upon arrival, pilots have occasionally had run-ins with an unknown alien race that have been dubbed Andromedans. They are hostile to anything that is not their own, and are immensely powerful.
+      Upon further investigation, it has been found that the Andromedans are somewhat of a primitive species when it come to their technology. They have never discovered anything more powerful than combustion engines or ballistic weaponry, and do not even posses shield technology. Because of this, the only way that their civilization has been able to advance is to make their ships and weapons even bigger. Andromedan ships have massive hulls and extremely powerful weapons, but they have very little range and are rather slow due to their technology and size.
+      Given the massive need for raw materials and energy in order to sustain the Andromedan society, any planet that is deemed uninhabitable is immediately marked off for being mined away. The sheer amount of raw materials received from mining away entire solar systems is only barely enough to feed their massive empire. Stars too are sucked up of every possible drop of energy, having gigantic Dyson Sphere around many stars, with most still seemingly under construction or left to remain in their unfinished state.
+      It is unconfirmed whether or not Andromedans possess faster than flight travel, as no one has ever witnessed one of their ships entering or exitting a system through any warp or hyper drive system currently known, and they seem to salvage any hyperdrives and warp drives that they find as they prey upon hopeless explorers. As such, it has been speculated that Andromedan lives last many millennium if they are able to hold together such a massive galactic empire without faster than light travel. 
+      Lately, Andromedan ships have been rarely seen entering the Milky Way through the same wormhole that explorers are entering Andromeda through. They appear for just a short while before returning back through the wormhole, but this alone is unsettling to some and seems to indicate that the Andromedans are preparing to enter the Milky Way with a strong force.
 
-2 new alien factions!
-The Andromedans: a newly discovered wormhole is leading pilots to the Andromeda Galaxy, somewhere where no one has been before. Upon arrival, pilots have occasionally had run-ins with an unknown alien race that have been dubbed Andromedans. They are hostile to anything that is not their own, and are immensely powerful.
-Upon further investigation, it has been found that the Andromedans are somewhat of a primitive species when it come to their technology. They have never discovered anything more powerful than combustion engines or ballistic weaponry, and do not even posses shield technology. Because of this, the only way that their civilization has been able to advance is to make their ships and weapons even bigger. Andromedan ships have massive hulls and extremely powerful weapons, but they have very little range and are rather slow due to their technology and size.
-Given the massive need for raw materials and energy in order to sustain the Andromedan society, any planet that is deemed uninhabitable is immediately marked off for being mined away. The sheer amount of raw materials received from mining away entire solar systems is only barely enough to feed their massive empire. Stars too are sucked up of every possible drop of energy, having gigantic Dyson Sphere around many stars, with most still seemingly under construction or left to remain in their unfinished state.
-It is unconfirmed whether or not Andromedans possess faster than flight travel, as no one has ever witnessed one of their ships entering or exitting a system through any warp or hyper drive system currently known, and they seem to salvage any hyperdrives and warp drives that they find as they prey upon hopeless explorers. As such, it has been speculated that Andromedan lives last many millennium if they are able to hold together such a massive galactic empire without faster than light travel. 
-Lately, Andromedan ships have been rarely seen entering the Milky Way through the same wormhole that explorers are entering Andromeda through. They appear for just a short while before returning back through the wormhole, but this alone is unsettling to some and seems to indicate that the Andromedans are preparing to enter the Milky Way with a strong force.
+    The Termini: little is known about the Termini, as they have only been recently sighted flying around human space, starting shortly after the end of the Pug War. Some claim to have seen Termini scout ships, which is only what we can assume they are, flying out of the wormhole that was left behind by the Pug. None of the other alien races that we are able to contact have any information on the Termini. One can only hope that they are here for peace and not war. 
+      Both alien species ship sprites courtesy of Millionth Vector’s blog.
 
-The Termini: little is known about the Termini, as they have only been recently sighted flying around human space, starting shortly after the end of the Pug War. Some claim to have seen Termini scout ships, which is only what we can assume they are, flying out of the wormhole that was left behind by the Pug. None of the other alien races that we are able to contact have any information on the Termini. One can only hope that they are here for peace and not war. 
-Both alien species ship sprites courtesy of Millionth Vector’s blog.
+  Story Changes
+    I’ve removed the conversation you have at Enigma Prime for the time being. Will be reintroduced in the story update of v0.6.0.
+    There are now 5 Enigma Corp stations located throughout human space that unlock new technology through the story campaign.
+    Enigma Prime is now only unlockable after the main story has been completed. Head towards your nearest friendly neighborhood pirate planet and hang out around the spaceport.
+    Two missions that unlock new technology after the main campaign has been finished. Ask around the Deep and Syndicate space for two separate missions. 
 
-Story Changes
-I’ve removed the conversation you have at Enigma Prime for the time being. Will be reintroduced in the story update of v0.6.0.
-There are now 5 Enigma Corp stations located throughout human space that unlock new technology through the story campaign.
-Enigma Prime is now only unlockable after the main story has been completed. Head towards your nearest friendly neighborhood pirate planet and hang out around the spaceport.
-Two missions that unlock new technology after the main campaign has been finished. Ask around the Deep and Syndicate space for two separate missions. 
+  9 new ships (and a drone)!
+    EC-007 Carrier and EC-007 Civilian Class Carrier, for those who want a carrier of their own without needing to steal some navy license or attack navy ships.
+    EC-031 ‘Viper,’ EC-032 ‘Rattlesnake,’ and EC-033 ‘King Cobra.’ Three missile warships in three varieties: light, medium, and heavy in that order. Fitted with more gun hardpoints than most ships of the same size and above average shields, but lower armor.
+    EC-037 ‘Aegis,’ a medium and heavy warship mix. It’s the size of a medium warship but has the weapon capacity of a heavy warship, making it an interesting ship to fly.
+    EC-050 ‘Orca,’ the newest in freighting technology, having more cargo space than any ship to ever come before it. 
+    EC-069 ‘Star King,’ the best of the best when it comes to luxury.
+    EC-077 ‘Dire Wolf,’ a stealth bomber fitted with exclusive torpedo launchers that can out damage any other torpedo launcher currently on the market.
+    Sentry Drone, a heavy, nearly immobile drone that can be fitted with any turret currently available on the market.
 
-9 new ships (and a drone)!
-EC-007 Carrier and EC-007 Civilian Class Carrier, for those who want a carrier of their own without needing to steal some navy license or attack navy ships.
-EC-031 ‘Viper,’ EC-032 ‘Rattlesnake,’ and EC-033 ‘King Cobra.’ Three missile warships in three varieties: light, medium, and heavy in that order. Fitted with more gun hardpoints than most ships of the same size and above average shields, but lower armor.
-EC-037 ‘Aegis,’ a medium and heavy warship mix. It’s the size of a medium warship but has the weapon capacity of a heavy warship, making it an interesting ship to fly.
-EC-050 ‘Orca,’ the newest in freighting technology, having more cargo space than any ship to ever come before it. 
-EC-069 ‘Star King,’ the best of the best when it comes to luxury.
-EC-077 ‘Dire Wolf,’ a stealth bomber fitted with exclusive torpedo launchers that can out damage any other torpedo launcher currently on the market.
-Sentry Drone, a heavy, nearly immobile drone that can be fitted with any turret currently available on the market.
-
-More new outfits than ever before!
-Hand to Hand
-Breaching Shotgun, an interesting new take on boarding weaponry
-Rocket Launcher, more effective than a grenade thanks to its increased range
-Portable Flamethrower, a highly illegal weapon used only by the most ruthless of individuals
-Guns
-Plasmathrower, a version of the Flamethrower that does ion damage.
-Flux Missiles, Sidewinder missiles modified with a flux explosive that causes a decent amount of shield damage and some ion damage.
-Thermite and Flux Torpedo Launchers, launcher versions of the thermite and flux mine placers
-Shrapnel Cannon, a huge space shotgun.
-Arc Discharger, channel the energy of your ship directly into a weapon, ionizing the shields of your opponents.
-Fuel Rod Launcher, have any extra fuel? Fire it at your enemies!
-Turrets
-Reverse Engineered Skylance, as simple as it sounds. A version of the skylance that isn’t as powerful or efficient, but heck, what else are you going to use?
-Forge Cannon, a long range artillery weapon that does massive damage upon impact but takes a long time to reload.
-Energy Transfer, as a flagship, you can transfer unneeded energy to your escorts if they need it.
-Power and Cooling
-Heavy Water Coolant System, a more effective water cooling system that takes up the same amount of space
-Atomic Batteries, 50% more energy capacity at 200% the cost.
-Blackhole Reactor, Red Star Core, and Cold Fusion Reactor, just a ton of new energy generating systems.
-Fuel Powered Generator, convert your unused hyperspace fuel into energy if you need a little boost in the middle of combat, but beware the massive heat generated from the process.
+  More new outfits than ever before!
+    Hand to Hand
+      Breaching Shotgun, an interesting new take on boarding weaponry
+      Rocket Launcher, more effective than a grenade thanks to its increased range
+      Portable Flamethrower, a highly illegal weapon used only by the most ruthless of individuals
+    Guns
+      Plasmathrower, a version of the Flamethrower that does ion damage.
+      Flux Missiles, Sidewinder missiles modified with a flux explosive that causes a decent amount of shield damage and some ion damage.
+      Thermite and Flux Torpedo Launchers, launcher versions of the thermite and flux mine placers
+      Shrapnel Cannon, a huge space shotgun.
+      Arc Discharger, channel the energy of your ship directly into a weapon, ionizing the shields of your opponents.
+      Fuel Rod Launcher, have any extra fuel? Fire it at your enemies!
+    Turrets
+      Reverse Engineered Skylance, as simple as it sounds. A version of the skylance that isn’t as powerful or efficient, but heck, what else are you going to use?
+      Forge Cannon, a long range artillery weapon that does massive damage upon impact but takes a long time to reload.
+      Energy Transfer, as a flagship, you can transfer unneeded energy to your escorts if they need it.
+    Power and Cooling
+      Heavy Water Coolant System, a more effective water cooling system that takes up the same amount of space
+      Atomic Batteries, 50% more energy capacity at 200% the cost.
+      Blackhole Reactor, Red Star Core, and Cold Fusion Reactor, just a ton of new energy generating systems.
+      Fuel Powered Generator, convert your unused hyperspace fuel into energy if you need a little boost in the middle of combat, but beware the massive heat generated from the process.
   Bug fixes, balance changes, and other small stuff
     Most of the double spacing in the code that was caused by me using normal Notepad has been removed. If there’s any files with a lot of extra spacing, go ahead and point them out to me. 
     Balanced out the Antimatter Bomb a "bit" for the arrival of the Drak
