@@ -8,13 +8,27 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+mission "Navy License [-1]"
+	landing
+	invisible
+	to offer
+		has "main plot completed"
+	on offer
+		event "geminus rebuilt soon" 60
+		fail
+
+event "geminus rebuilt soon"
+
 mission "Navy License [0]"
 	source "Geminus"
 	name "Rebuilding Geminus"
 	description "Assist the Republic Navy in rebuilding the shipyard that was lost before the war. Head to <destination> and meet up with a convoy of freighters."
 	destination "Prime"
 	to offer
-		has "free worlds plot completed"
+		has "main plot completed"
+		not "event: geminus rebuilt soon"
+	to fail
+		has "event: geminus rebuilt"
 	on offer
 		conversation
 			`	With the war being behind humanity, each of the factions of the war now need to rebuild their lost infrastructure.`
@@ -74,8 +88,8 @@ mission "Navy License [1]"
 	destination "Geminus"
 	to offer
 		has "Navy License [0]: done"
-	on offer
-		"reputation: Pirate" = -1000
+	to fail
+		has "event: geminus rebuilt"
 
 	npc save accompany
 		government "Republic"
@@ -135,6 +149,8 @@ mission "Navy License [2]"
 	destination "Valhalla"
 	to offer
 		has "Navy License [1]: done"
+	to fail
+		has "event: geminus rebuilt"
 
 	on complete
 		conversation
@@ -149,6 +165,8 @@ mission "Navy License [3]"
 	passengers 10
 	to offer
 		has "Navy License [2]: done"
+	to fail
+		has "event: geminus rebuilt"
 
 mission "Navy License [4]"
 	name "Rebuilding Geminus"
@@ -158,6 +176,8 @@ mission "Navy License [4]"
 	destination "Farpoint"
 	to offer
 		has "Navy License [3]: done"
+	to fail
+		has "event: geminus rebuilt"
 	on offer
 		"reputation: Pirate" = -1000
 		conversation
@@ -277,7 +297,6 @@ mission "Navy License [5]"
 	to offer
 		has "Navy License [4]: done"
 	on complete
-		event "Geminus Rebuilt" 30
 		set "license: Navy"
 		set "license: Cruiser"
 		set "license: Carrier"
@@ -290,24 +309,12 @@ mission "Navy License [5]"
 			`	"If anyone asks, you found them."`
 			`	Officer Smith smiles and gives you a quick pat on the back before walking off back to the tents outside of the spaceport.`
 
-event "Geminus Rebuilt"
-	planet Geminus
-		shipyard "Basic Ships"
-		shipyard "Navy Basics"
-		shipyard "Navy Advanced"
-		shipyard "Betelgeuse Basics"
-		shipyard "Lionheart Basics"
-		outfitter "Common Outfits"
-		outfitter "Ammo North"
-		outfitter "Lovelace Advanced"
-		outfitter "Syndicate Basics"
-		description `	Thanks to your recent actions of assisting the Navy in rebuilding the shipyard, Geminus is now once again home to the largest Navy shipyard in human space. The new shipyard was placed a few miles away from the old one, so the crater is still easily visible off in the distance, a remainder of the war.`
-
-mission "Navy License Unlocked"
+mission "Geminus Rebuilt Notification"
 	invisible
 	landing
 	to offer
-		has "event: Geminus Rebuilt"
+		has "Navy License [5]: done"
+		has "event: geminus rebuilt"
 	on offer
 		dialog `You notice you've just recieved a message from Officer Smith. "Guess what, we've finally completed rebuilding the shipyard! Come stop by some time and pick up some ships if you want."`
-		fail
+			fail
