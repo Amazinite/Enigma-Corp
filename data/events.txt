@@ -43,83 +43,21 @@ mission "EPDS"
 	on offer
 		event "Enigma Prime Deep Sky"
 		fail
-
+		
+mission "Typhoon Cap"
+	landing
+	invisible
+	to offer
+		has "event: deep sky tech available"
+	on offer
+		event "Typhoon Cap"
+		fail
+		
 event "Typhoon Cap"
 	outfitter "Deep Sky Basic"
 		"Typhoon Cap. Up."
 	outfitter "Deep Sky Advanced"
 		"Typhoon Cap. Up."
-
-event "New Tech FW"
-	outfitter "Kraz Advanced"
-		"Thermite Torpedo Launcher"
-		"Thermite Torpedo"
-		"Thermite Cap. Up."
-
-event "New Tech Syn"
-	outfitter "Syndicate Advanced"
-		"Plasmathrower"
-		"Flux Torpedo Launcher"
-		"Flux Torpedo"
-		"Thermite Cap. Up."
-
-event "Enigma Corp 1"
-	planet "Enigma Alpha"
-		outfitter "Enigma Basic"
-	planet "Enigma Sigma"
-		outfitter "Enigma Basic"
-	planet "Enigma Mu"
-		outfitter "Enigma Basic"
-	planet "Enigma Epsilon"
-		outfitter "Enigma Basic"
-	planet "Enigma Zeta"
-		outfitter "Enigma Basic"
-
-event "Enigma Corp 2"
-	planet "Enigma Alpha"
-		outfitter "Enigma Intermediate"
-		shipyard "EC-0 Basic"
-	planet "Enigma Sigma"
-		outfitter "Enigma Intermediate"
-		shipyard "EC-0 Basic"
-	planet "Enigma Mu"
-		outfitter "Enigma Intermediate"
-		shipyard "EC-0 Basic"
-	planet "Enigma Epsilon"
-		outfitter "Enigma Intermediate"
-		shipyard "EC-0 Basic"
-	planet "Enigma Zeta"
-		outfitter "Enigma Intermediate"
-		shipyard "EC-0 Basic"
-
-event "Enigma Corp 3"
-	planet "Enigma Alpha"
-		outfitter "Enigma Advanced"
-		shipyard "EC-0 Intermediate"
-	planet "Enigma Sigma"
-		outfitter "Enigma Advanced"
-		shipyard "EC-0 Intermediate"
-	planet "Enigma Mu"
-		outfitter "Enigma Advanced"
-		shipyard "EC-0 Intermediate"
-	planet "Enigma Epsilon"
-		outfitter "Enigma Advanced"
-		shipyard "EC-0 Intermediate"
-	planet "Enigma Zeta"
-		outfitter "Enigma Advanced"
-		shipyard "EC-0 Intermediate"
-
-event "Enigma Corp 4"
-	planet "Enigma Alpha"
-		shipyard "EC-0 Advanced"
-	planet "Enigma Sigma"
-		shipyard "EC-0 Advanced"
-	planet "Enigma Mu"
-		shipyard "EC-0 Advanced"
-	planet "Enigma Epsilon"
-		shipyard "EC-0 Advanced"
-	planet "Enigma Zeta"
-		shipyard "EC-0 Advanced"
 
 mission "Termini"
 	landing
