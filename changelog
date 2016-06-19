@@ -19,8 +19,10 @@ V0.5.4 and a half
   Balance
     Plasmathrower now also does some heat damage.
     Ammunition has been given mass and weapons that require ammo have had their mass reduced.
-    Antimatter Bombs are now illegal. Like really illegal. Like "I'll kill you for possessing one of these" illegal. Like 50 years in jail for possessing 2 grams of weed in America type of illegal.
+    Antimatter Bombs and Crew Implants are now illegal. Like really illegal. Like "I'll kill you for possessing one of these" illegal. Like 50 years in jail for possessing 2 grams of weed in America type of illegal.
     The Shrapnel Cannon now has a random velocity and random lifetime to it so that the pellet spread is not the same every time.
+    The Rocket Launcher has had its attack and defense reduced to be equal to that of two frag grenades
+    As a result of the Rocket Launcher change, Incendiary Grenades have had their attack and defense both buffed.
   Bug Fixes
    The usual typo fixes (thx @Alkallid)
     Fixed the Echo 50 engine coordinates.
