@@ -4,7 +4,7 @@ V0.5.4 and a half
     Termini Drones are now automaton and uncaptureable.
     There is now a station in the Enigma system called "Enigma Meridian" that holds within it stuff that is purposefully OP and unbalanced as well as some ships that you aren't normally suppose to be able to buy
       This is just for testing purposes. Go ahead and mess with the stuff if you want. It will be gone in v0.6.0. :)
-    Enigma Corp and ORM no longer fine you.
+    Enigma Corp and ORM no longer fine you when you have illegal outfits and cargo.
     The Sadr-Immeo wormhole now has a path for your pathing ai to use. You're Welcome Takarada
     Added new systems located in the Outer Rim to be used in a later update.
     Updated the navy license mission for v0.9.2 compatability. You must start the mission line within 60 days of completing the main plot and finish it within 90 days of completing the main plot.
@@ -15,6 +15,7 @@ V0.5.4 and a half
       Declining this mission also triggers the event, which would normally be triggered upon completion, after 60 days.
     Reworked many of the descriptions for ships and outfits.
     Capacity upgraders are now abbreviated as "Cap-Up" instead of "Cap. Up."
+    Capacity Upgraders are now categorized as "Ammunition" instead of "Systems"
   Balance
     Plasmathrower now also does some heat damage.
     Ammunition has been given mass and weapons that require ammo have had their mass reduced.
