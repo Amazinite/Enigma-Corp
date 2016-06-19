@@ -23,6 +23,18 @@ mission "Enigma Corp 1"
 			`	Alpha Centauri`
 			`	Dabih`
 				fail
+
+event "Enigma Corp 1"
+	planet "Enigma Alpha"
+		outfitter "Enigma Basic"
+	planet "Enigma Sigma"
+		outfitter "Enigma Basic"
+	planet "Enigma Mu"
+		outfitter "Enigma Basic"
+	planet "Enigma Epsilon"
+		outfitter "Enigma Basic"
+	planet "Enigma Zeta"
+		outfitter "Enigma Basic"
 			
 
 mission "Enigma Corp 2"
@@ -37,6 +49,23 @@ mission "Enigma Corp 2"
 			`	"Come one, come all! Enigma Stations located throughout the galaxy have just been stocked with the latest in Enigma Corporation technology! Get your brand new weapons today!`
 				fail
 
+event "Enigma Corp 2"
+	planet "Enigma Alpha"
+		outfitter "Enigma Intermediate"
+		shipyard "EC-0 Basic"
+	planet "Enigma Sigma"
+		outfitter "Enigma Intermediate"
+		shipyard "EC-0 Basic"
+	planet "Enigma Mu"
+		outfitter "Enigma Intermediate"
+		shipyard "EC-0 Basic"
+	planet "Enigma Epsilon"
+		outfitter "Enigma Intermediate"
+		shipyard "EC-0 Basic"
+	planet "Enigma Zeta"
+		outfitter "Enigma Intermediate"
+		shipyard "EC-0 Basic"
+
 mission "Enigma Corp 3"
 	landing
 	invisible
@@ -50,6 +79,24 @@ mission "Enigma Corp 3"
 			`	"Come one, come all! Enigma Stations located throughout the galaxy have just been stocked with the latest in Enigma Corporation technology! Get your brand new weapons today!`
 				fail
 
+event "Enigma Corp 3"
+	planet "Enigma Alpha"
+		outfitter "Enigma Advanced"
+		shipyard "EC-0 Intermediate"
+	planet "Enigma Sigma"
+		outfitter "Enigma Advanced"
+		shipyard "EC-0 Intermediate"
+	planet "Enigma Mu"
+		outfitter "Enigma Advanced"
+		shipyard "EC-0 Intermediate"
+	planet "Enigma Epsilon"
+		outfitter "Enigma Advanced"
+		shipyard "EC-0 Intermediate"
+	planet "Enigma Zeta"
+		outfitter "Enigma Advanced"
+		shipyard "EC-0 Intermediate"
+
+
 mission "Enigma Corp 4"
 	landing
 	invisible
@@ -59,6 +106,18 @@ mission "Enigma Corp 4"
 		event "Enigma Corp 4"
 		fail
 
+event "Enigma Corp 4"
+	planet "Enigma Alpha"
+		shipyard "EC-0 Advanced"
+	planet "Enigma Sigma"
+		shipyard "EC-0 Advanced"
+	planet "Enigma Mu"
+		shipyard "EC-0 Advanced"
+	planet "Enigma Epsilon"
+		shipyard "EC-0 Advanced"
+	planet "Enigma Zeta"
+		shipyard "EC-0 Advanced"
+
 mission "Meridian"
 	landing
 	invisible
@@ -67,15 +126,37 @@ mission "Meridian"
 	on offer
 		event "Enigma Meridian"
 		fail
+		
+event "Enigma Meridian"
+	planet "Enigma Meridian"
+		landscape land/space2
+		outfitter "Trolls and Lols"
+		shipyard "Trolls and Lols"
+		description "This station is meant for nothing more than to sell stuff that is in the mod and not considered balanced or ready to serious your, but you can buy anyways to have fun with. Enjoy."
+		description "Don't get too excited, though. This is going to be removed in v0.6.0 :)"
+		spaceport "Go away."
 
-mission "Typhoon Cap"
-	landing
-	invisible
-	to offer
-		has "event: deep sky tech available"
-	on offer
-		event "Typhoon Cap"
-		fail
+ship "Bulk Freighter" "Bulk Freighter (Warp)"
+	outfits
+		"Laser Turret" 2
+		"Heavy Laser Turret" 2
+		"Heavy Anti-Missile Turret"
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 70
+		"Fission Reactor"
+		"LP072a Battery Pack"
+		"D94-YV Shield Generator"
+		"Mass Expansion"
+		"A250 Atomic Thruster"
+		"A375 Atomic Steering"
+		"Scram Drive"
+		"Jump Drive"
+		"External Fuel Pod" 5
+	turret "Laser Turret"
+	turret "Heavy Laser Turret"
+	turret "Heavy Anti-Missile Turret"
+	turret "Laser Turret"
+	turret "Heavy Laser Turret"
 
 mission "New FW Tech"
 	name "Technology Escort"
@@ -136,6 +217,12 @@ mission "New FW Tech"
 		dialog "The men thank you for escorting them safely and pay you <payment>. Come back tomorrow for new technology."
 		event "New Tech FW"
 		payment 100000
+
+event "New Tech FW"
+	outfitter "Kraz Advanced"
+		"Thermite Torpedo Launcher"
+		"Thermite Torpedo"
+		"Thermite Cap. Up."
 
 ship "Leviathan" "Leviathan (Stolen Info)"
 	outfits
@@ -217,3 +304,10 @@ mission "New Syn Tech"
 		outfit "Stolen Cargo" -1
 		payment 250000
 		dialog "The Syndicate pays you <payment> and thanks you for eliminating the <npc>. Head toward the nearest advanced Syndicate outfitter for new technology."
+		
+event "New Tech Syn"
+	outfitter "Syndicate Advanced"
+		"Plasmathrower"
+		"Flux Torpedo Launcher"
+		"Flux Torpedo"
+		"Thermite Cap. Up."

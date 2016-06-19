@@ -7,119 +7,21 @@
 # Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
-
-event "Enigma Prime Open"
-	planet "Enigma Prime"
-		landscape land/space2
-		outfitter "Enigma Basic"
-		outfitter "Enigma Intermediate"
-		outfitter "Enigma Advanced"
-		outfitter "Enigma Experimental"
-		outfitter "Deep Sky Basics"
-		outfitter "Deep Sky Advanced"
-		shipyard "EC-0"
-		description `The station is rather messy, with the smell of oil in the air and spare parts lying all over the place. Most of the station appears to be off access to visitors, with the only available places being the spaceport, shipyard, and outfitter.`
-		spaceport `The spaceport is full of men and women in light blue suits, working on spaceships you've never seen before and assembling more of those things that the suited man showed you. You look over at your ship and see someone refueling it for you. She turns to see you and just waves before moving on her way.`
-
-event "Enigma Meridian"
-	planet "Enigma Meridian"
-		landscape land/space2
-		outfitter "Trolls and Lols"
-		shipyard "Trolls and Lols"
-		description "This station is meant for nothing more than to sell stuff that is in the mod and not considered balanced or ready to serious your, but you can buy anyways to have fun with. Enjoy."
-		description "Don't get too excited, though. This is going to be removed in v0.6.0 :)"
-		spaceport "Go away."
-
-event "Enigma Prime Deep Sky"
-	planet "Enigma Prime"
-		outfitter "Deep Sky Basics"
-		outfitter "Deep Sky Advanced"
-
-mission "EPDS"
+		
+mission "Typhoon Cap"
 	landing
 	invisible
 	to offer
-		has "event:Enigma Prime Open"
+		has "event: deep sky tech available"
 	on offer
-		event "Enigma Prime Deep Sky"
+		event "Typhoon Cap"
 		fail
-
+		
 event "Typhoon Cap"
 	outfitter "Deep Sky Basic"
 		"Typhoon Cap. Up."
 	outfitter "Deep Sky Advanced"
 		"Typhoon Cap. Up."
-
-event "New Tech FW"
-	outfitter "Kraz Advanced"
-		"Thermite Torpedo Launcher"
-		"Thermite Torpedo"
-		"Thermite Cap. Up."
-
-event "New Tech Syn"
-	outfitter "Syndicate Advanced"
-		"Plasmathrower"
-		"Flux Torpedo Launcher"
-		"Flux Torpedo"
-		"Thermite Cap. Up."
-
-event "Enigma Corp 1"
-	planet "Enigma Alpha"
-		outfitter "Enigma Basic"
-	planet "Enigma Sigma"
-		outfitter "Enigma Basic"
-	planet "Enigma Mu"
-		outfitter "Enigma Basic"
-	planet "Enigma Epsilon"
-		outfitter "Enigma Basic"
-	planet "Enigma Zeta"
-		outfitter "Enigma Basic"
-
-event "Enigma Corp 2"
-	planet "Enigma Alpha"
-		outfitter "Enigma Intermediate"
-		shipyard "EC-0 Basic"
-	planet "Enigma Sigma"
-		outfitter "Enigma Intermediate"
-		shipyard "EC-0 Basic"
-	planet "Enigma Mu"
-		outfitter "Enigma Intermediate"
-		shipyard "EC-0 Basic"
-	planet "Enigma Epsilon"
-		outfitter "Enigma Intermediate"
-		shipyard "EC-0 Basic"
-	planet "Enigma Zeta"
-		outfitter "Enigma Intermediate"
-		shipyard "EC-0 Basic"
-
-event "Enigma Corp 3"
-	planet "Enigma Alpha"
-		outfitter "Enigma Advanced"
-		shipyard "EC-0 Intermediate"
-	planet "Enigma Sigma"
-		outfitter "Enigma Advanced"
-		shipyard "EC-0 Intermediate"
-	planet "Enigma Mu"
-		outfitter "Enigma Advanced"
-		shipyard "EC-0 Intermediate"
-	planet "Enigma Epsilon"
-		outfitter "Enigma Advanced"
-		shipyard "EC-0 Intermediate"
-	planet "Enigma Zeta"
-		outfitter "Enigma Advanced"
-		shipyard "EC-0 Intermediate"
-
-event "Enigma Corp 4"
-	planet "Enigma Alpha"
-		shipyard "EC-0 Advanced"
-	planet "Enigma Sigma"
-		shipyard "EC-0 Advanced"
-	planet "Enigma Mu"
-		shipyard "EC-0 Advanced"
-	planet "Enigma Epsilon"
-		shipyard "EC-0 Advanced"
-	planet "Enigma Zeta"
-		shipyard "EC-0 Advanced"
 
 mission "Termini"
 	landing

@@ -74,6 +74,19 @@ mission "Enigma Corp [0]"
 			`	"Keep the change. And call me if you need anything."`
 			`	He winks, and goes back walking towards the restricted access area.`
 
+event "Enigma Prime Open"
+	planet "Enigma Prime"
+		landscape land/space2
+		outfitter "Enigma Basic"
+		outfitter "Enigma Intermediate"
+		outfitter "Enigma Advanced"
+		outfitter "Enigma Experimental"
+		outfitter "Deep Sky Basics"
+		outfitter "Deep Sky Advanced"
+		shipyard "EC-0"
+		description `The station is rather messy, with the smell of oil in the air and spare parts lying all over the place. Most of the station appears to be off access to visitors, with the only available places being the spaceport, shipyard, and outfitter.`
+		spaceport `The spaceport is full of men and women in light blue suits, working on spaceships you've never seen before and assembling more of those things that the suited man showed you. You look over at your ship and see someone refueling it for you. She turns to see you and just waves before moving on her way.`
+
 mission "Enigma Corp [1a]"
 	source "Enigma Prime"
 	name "A Brand New Car"
