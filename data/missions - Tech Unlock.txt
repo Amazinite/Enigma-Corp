@@ -16,7 +16,7 @@ mission "Enigma Corp 1"
 	on offer
 		event "Enigma Corp 1"
 		conversation
-			`	As you land, you get a message informing you of a new corporation that has just opened its doors to the public. Head towards an Enigma Corporation station located in one of the following systems`
+			`	As you land, you get a message informing you of a new corporation that has just opened its doors to the public. Head towards an Enigma Corporation station located in one of the following systems:`
 			`	Kraz`
 			`	Achernar`
 			`	Adhara`
@@ -95,15 +95,31 @@ mission "New FW Tech"
 		has "event: deep sky tech available"
 	on offer
 		conversation
-			`	As you step out onto the platform, a man walks up to you`
-			`	"Hey, I was wondering if you could help escort me and my buddies to <destination>. We're delivering some new technology that's going to go out on the market soon."`
+			`	As you step out onto the platform, two men walk up to you.`
+			`	"Hey, I was wondering if you could help escort me and my buddies to <destination>. We're delivering some new technology that's going to go out on the market soon," one of the men states.`
+			`	With almost no pause after the first man finishes speaking, the second man chimes in. "That may be a long ways away from here, but don't worry. We have Jump Drives." The first man suddenly gives the second a sharp look.`
 			choice
 				`	"Sure thing, anything for a fellow merchant."`
 					accept
 				`	"How much are you going to pay me?"`
 					goto pay
+				`	"How did you get Jump Drives?"`
+					goto jump
 				`	"Sorry, I've got better things to do than escort freighters."`
 					decline
+
+			label jump
+			`	"How else would we get them?" the first man starts to say nervously. A bead of sweat rolls down the side of his face. "We found a disabled Korath Raider over in Zaurak."`
+			choice
+				`	"That seems fair enough. Get your ships ready."`
+					accept
+				`	"Sorry, but that seems a little suspicious. I'm going to have to say no."`
+				`	"Zaurak? But Korath Raiders don't even go there!"`
+					goto caught
+					
+			label caught
+			`	As soon as you say that, the two men turn around and bolt for their ships. Without even caring to take off, they activate their Jump Drives right there and then, drawing attention from the many people roaming around the spaceport and slipping away into the void. Off in the distance you can see a number of Republic ships taking off, seemingly to follow the men who just ran away.`
+				decline
 
 			label pay
 			`	<payment>. That's all we can spare."`
@@ -112,15 +128,47 @@ mission "New FW Tech"
 					accept
 				`	"Get your chump change out of my face!"`
 					decline
+	
+	on decline
+		event "New Tech FW" 60
 					
 	on complete
-		dialog "The captain of the <npc> thanks you for escorting them safely, and pays you <payment>. Come back tomorrow for new technology."
+		dialog "The men thank you for escorting them safely and pay you <payment>. Come back tomorrow for new technology."
 		event "New Tech FW"
 		payment 100000
 
+ship "Leviathan" "Leviathan (Stolen Info)"
+	outfits
+		"Torpedo Launcher" 2
+		"Torpedo" 60
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 70
+		"Heavy Laser Turret" 4
+		"Breeder Reactor"
+		"LP036a Battery Pack"
+		"D94-YV Shield Generator" 2
+		"Liquid Nitrogen Cooler"
+		"Impala Plasma Thruster"
+		"A375 Atomic Steering"
+		"Afterburner"
+		"Scram Drive"
+		"Ramscoop"
+		"Stolen Cargo"
+	gun "Torpedo Launcher"
+	gun "Torpedo Launcher"
+	gun "Meteor Missile Launcher"
+	gun "Meteor Missile Launcher"
+	
+outfit "Stolen Cargo"
+	category "Special"
+	cost 0
+	thumbnail "outfit/unknown"
+	"mass" 5
+	description "A shit load of secrets. No peeking."
+
 mission "New Syn Tech"
 	name "Hunt down <npc>"
-	description "A pirate has stolen Syndicate secrets. Seek it down and return the information to <planet>."
+	description "A pirate has stolen Syndicate secrets. Search for it and return the information to <planet>."
 	source
 		government Syndicate
 		attributes core
@@ -132,30 +180,40 @@ mission "New Syn Tech"
 		fleet
 			names "pirate"
 			variant
-				"Leviathan (Heavy)"
+				"Leviathan (Stolen Info)"
 	to offer
-		has "free worlds plot complete"
+		has "main plot completed"
 	on offer
 		conversation
-			`	While walking around the spaceport, three men in suits approach you. You assume them to be with the Syndicate.`
-			`	One of them steps up and says,`
-			`	"Now I know you might not like us that much, but we have a favor to ask of you that it would likely be in your interest to accept."`
+			`	While walking around the spaceport, three men in suits and glasses with reflective lenses approach you. Judging by their atire, you assume them to be with the Syndicate.`
+			`	They stop in front of you shoulder to shoulder with their hands behind their backs. One of them takes a step foward and begins to speak.`
+			`	"We have a favor to ask of you that would be in your best interests to accept."`
 			choice
 				`	"What kind of favor?"`
 					goto favor
-				`	"Nothing you could offer me would be enough to make up for the problems you've caused."`
-					decline
+				`	"Why would it be in my best interests to accept?."`
+					goto why?
+			label why
+			`	The man looks back at his companions and then back at you.`
+			`	"Because if you don't, then the pirate factions of this region will become stronger, and we both know that that is something that nobody wants."`
 
 			label favor
 			`	"There's a pirate not too far from here who has stolen some technological secrets of ours from one of our freighter convoys, and we need someone strong enough to be able to get it back."`
-			`	"If you were to be able to board this pirate and recover the intelligence from the ship, then we'd be greatful. You would certainly be the first to be able to purchase the technology, even before it is on the market."`
+			`	"If you are to be able to board this pirate and recover the intelligence from the ship, then we'd be grateful. You would certainly be the first to be able to purchase the technology, even before it is available to the public."`
 			choice
-				`	"I'm interested. I'll be sure to bring back those secrets."`
+				`	"I accept your offer. I'll be sure to bring back those secrets back here."`
 					accept
-				`	"No! I'd rather the pirates have new weapons than the likes of you."`
+				`	"You know, I actually think it would be pretty funny if the pirates got that technology, whatever it may be. Good luck trying to get those secrets back on your own."`
 					decline
+	on visit
+		dialog "You land on <planet>, but you don't have the stolen cargo! Return to the <npc> and bring the cargo back to <planet>."
+		
+	on decline
+		event "New Tech Syn" 60
+		event "Core Pirates Stronger" 30
 
 	on complete
 		event "New Tech Syn"
+		outfit "Stolen Cargo" -1
 		payment 250000
-		dialog "The Syndicate gratefully pays you <payment> for eliminating the <npc>. Head towards the nearest advanced Syndicate outfitter for new technology."
+		dialog "The Syndicate pays you <payment> and thanks you for eliminating the <npc>. Head toward the nearest advanced Syndicate outfitter for new technology."
