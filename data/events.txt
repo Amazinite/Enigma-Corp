@@ -7,42 +7,6 @@
 # Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
-
-event "Enigma Prime Open"
-	planet "Enigma Prime"
-		landscape land/space2
-		outfitter "Enigma Basic"
-		outfitter "Enigma Intermediate"
-		outfitter "Enigma Advanced"
-		outfitter "Enigma Experimental"
-		outfitter "Deep Sky Basics"
-		outfitter "Deep Sky Advanced"
-		shipyard "EC-0"
-		description `The station is rather messy, with the smell of oil in the air and spare parts lying all over the place. Most of the station appears to be off access to visitors, with the only available places being the spaceport, shipyard, and outfitter.`
-		spaceport `The spaceport is full of men and women in light blue suits, working on spaceships you've never seen before and assembling more of those things that the suited man showed you. You look over at your ship and see someone refueling it for you. She turns to see you and just waves before moving on her way.`
-
-event "Enigma Meridian"
-	planet "Enigma Meridian"
-		landscape land/space2
-		outfitter "Trolls and Lols"
-		shipyard "Trolls and Lols"
-		description "This station is meant for nothing more than to sell stuff that is in the mod and not considered balanced or ready to serious your, but you can buy anyways to have fun with. Enjoy."
-		description "Don't get too excited, though. This is going to be removed in v0.6.0 :)"
-		spaceport "Go away."
-
-event "Enigma Prime Deep Sky"
-	planet "Enigma Prime"
-		outfitter "Deep Sky Basics"
-		outfitter "Deep Sky Advanced"
-
-mission "EPDS"
-	landing
-	invisible
-	to offer
-		has "event:Enigma Prime Open"
-	on offer
-		event "Enigma Prime Deep Sky"
-		fail
 		
 mission "Typhoon Cap"
 	landing
