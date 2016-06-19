@@ -2699,7 +2699,7 @@ planet Igolide
 planet Indalo
 	landscape land/myrabella7
 	description `Indalo appears to be the only planet in the entire region to have plant life on it. There are no factories anywhere, and the only evidence of human civiliation is the small spaceport city located near the equator.`
-	spaceport `There appears to be only one landing pad, but when you land you are lowered down into an underground parking complex. You noticed what appears to be hundreds of rows of ships. A tube attatches to the entrance of your ship, which leads to an evelator to the surface of the planet.`
+	spaceport `There appears to be only one landing pad, but when you land you are lowered down into an underground parking complex. You noticed what appears to be hundreds of rows of ships. A tube attatches to the entrance of your ship, which leads to an elevator to the surface of the planet.`
 	"required reputation" 10
 	security 0
 
