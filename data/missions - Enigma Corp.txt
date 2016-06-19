@@ -33,7 +33,7 @@ mission "Enigma Corp [0]"
 				goto what
 
 			label what
-			`	"I'm the owner of a rather succesful ship and weapons developing corporation. Enigma Corp. I'm sure you've heard about it."`
+			`	"I'm the owner of a rather succesful ship and weapons development corporation. Enigma Corp. I'm sure you've heard about it."`
 			`	"Well I've heard some good things about you, and I was wondering if you could give me a hand. Between you and me, I'm kind of stuck here."`
 			choice
 				`	"Sure thing. Where do we go?"`
