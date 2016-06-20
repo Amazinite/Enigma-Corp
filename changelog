@@ -5,7 +5,7 @@ V0.5.4 and a half
     There is now a station in the Enigma system called "Enigma Meridian" that holds within it stuff that is purposefully OP and unbalanced as well as some ships that you aren't normally suppose to be able to buy
       This is just for testing purposes. Go ahead and mess with the stuff if you want. It will be gone in v0.6.0. :)
     Enigma Corp and ORM no longer fine you when you have illegal outfits and cargo.
-    The Sadr-Immeo wormhole now has a path for your pathing ai to use. You're Welcome Takarada
+    The Sadr-Immeo wormhole now has a path for your pathing ai to use.
     Added new systems located in the Outer Rim to be used in a later update.
     Updated the navy license mission for v0.9.2 compatability. You must start the mission line within 60 days of completing the main plot and finish it within 90 days of completing the main plot.
     Reworked the "New Syn Tech" mission to require you to return some cargo that is found on the NPC to the Syndicate instead of just boarding it.
@@ -24,7 +24,7 @@ V0.5.4 and a half
     The Rocket Launcher has had its attack and defense reduced to be equal to that of two frag grenades
     As a result of the Rocket Launcher change, Incendiary Grenades have had their attack and defense both buffed.
   Bug Fixes
-    The usual typo fixes (thx @Alkallid)
+    The usual typo fixes (thx @Alkallid and Takarada)
     Fixed the Echo 50 engine coordinates.
     Better Andromeda galaxy image.
     Fixed a bug that caused a random system with nothing in it to appear at position 0,0.
