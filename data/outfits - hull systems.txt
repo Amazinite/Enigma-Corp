@@ -24,7 +24,7 @@ outfit "Reflective Plating"
 	"mass" 60
 	"outfit space" -60
 	"scan interference" 500
-	description "Behold! A smugglers best friend! This reflective plating works* by reflecting** any incoming scans, so if those pesky Republic ships try and scan your illegal cargo, they'll end up scanning themselves! Isn't that great?"
+	description "Behold! A smuggler's best friend! This reflective plating works* by reflecting** any incoming scans, so if those pesky Republic ships try and scan your illegal cargo, they'll end up scanning themselves! Isn't that great?"
 	description "*These will only work if your entire ship is covered in this plating, so make sure to save some space."
 	description "**Enigma Corp is not liable for any ships that are scanned while using reflective plating, as traveling thourgh space may scratch the plating and reduce its effectivness."
 	description "Brought to you by Enigma Corp."
@@ -45,7 +45,7 @@ outfit "F-Class Reinforced Plating"
 	"mass" 30
 	"outfit space" -30
 	"hull" 500
-	description "Reinforced platings are placed on the outer hull of a ship to increase the total hitpoints of the ship. This F-Class version is meant for smaller ships and only increases hull strength very slightly."
+	description "Reinforced platings are placed on the outer hull of a ship to increase the total armor strength of the ship. This F-Class version is meant for smaller ships and only increases hull strength very slightly."
 
 outfit "F-Class Shield Overcharger"
 	category "Systems"
@@ -54,7 +54,7 @@ outfit "F-Class Shield Overcharger"
 	"mass" 30
 	"outfit space" -30
 	"shields" 500
-	description "Shield overchargers are connected to the shield generator of a ship to increase the total hipooitns of the ship. This F-Class version is meant for smaller ships and only increases shield strength very slightly."
+	description "Shield overchargers are connected to the shield generator of a ship to increase the total shields of the ship. This F-Class version is meant for smaller ships and only increases shield strength very slightly."
 
 outfit "D-Class Reinforced Plating"
 	category "Systems"
@@ -63,7 +63,7 @@ outfit "D-Class Reinforced Plating"
 	"mass" 50
 	"outfit space" -50
 	"hull" 1000
-	description "Reinforced platings are placed on the outer hull of a ship to increase the total hitpoints of the ship. This D-Class version is meant for light warships and increases hull strength slightly."
+	description "Reinforced platings are placed on the outer hull of a ship to increase the total armor strength of the ship. This D-Class version is meant for light warships and increases hull strength slightly."
 
 outfit "D-Class Shield Overcharger"
 	category "Systems"
@@ -72,7 +72,7 @@ outfit "D-Class Shield Overcharger"
 	"mass" 50
 	"outfit space" -50
 	"shields" 1000
-	description "Shield overchargers are connected to the shield generator of a ship to increase the total hipooitns of the ship. This D-Class version is meant for light warships and increases shield strength slightly."
+	description "Shield overchargers are connected to the shield generator of a ship to increase the total shields of the ship. This D-Class version is meant for light warships and increases shield strength slightly."
 
 outfit "C-Class Reinforced Plating"
 	category "Systems"
@@ -81,7 +81,7 @@ outfit "C-Class Reinforced Plating"
 	"mass" 100
 	"outfit space" -100
 	"hull" 2500
-	description "Reinforced platings are placed on the outer hull of a ship to increase the total hitpoints of the ship. This C-Class version is meant for medium warships and moderately increases hull strength."
+	description "Reinforced platings are placed on the outer hull of a ship to increase the total armor strength of the ship. This C-Class version is meant for medium warships and moderately increases hull strength."
 
 outfit "C-Class Shield Overcharger"
 	category "Systems"
@@ -90,7 +90,7 @@ outfit "C-Class Shield Overcharger"
 	"mass" 100
 	"outfit space" -100
 	"shields" 2500
-	description "Shield overchargers are connected to the shield generator of a ship to increase the total hipooitns of the ship. This C-Class version is meant for medium warships and moderately increases shield strength."
+	description "Shield overchargers are connected to the shield generator of a ship to increase the total shields of the ship. This C-Class version is meant for medium warships and moderately increases shield strength."
 
 outfit "B-Class Reinforced Plating"
 	category "Systems"
@@ -99,7 +99,7 @@ outfit "B-Class Reinforced Plating"
 	"mass" 175
 	"outfit space" -175
 	"hull" 5000
-	description "Reinforced platings are placed on the outer hull of a ship to increase the total hitpoints of the ship. This B-Class version is meant for larger ships and increases hull strength by a substantial amount."
+	description "Reinforced platings are placed on the outer hull of a ship to increase the total armor strength of the ship. This B-Class version is meant for larger ships and increases hull strength by a substantial amount."
 
 outfit "B-Class Shield Overcharger"
 	category "Systems"
@@ -108,7 +108,7 @@ outfit "B-Class Shield Overcharger"
 	"mass" 175
 	"outfit space" -175
 	"shields" 5000
-	description "Shield overchargers are connected to the shield generator of a ship to increase the total hipooitns of the ship. This B-Class version is meant for larger ships and increases shield strength by a substantial amount."
+	description "Shield overchargers are connected to the shield generator of a ship to increase the total shields of the ship. This B-Class version is meant for larger ships and increases shield strength by a substantial amount."
 
 outfit "A-Class Reinforced Plating"
 	category "Systems"
@@ -117,7 +117,7 @@ outfit "A-Class Reinforced Plating"
 	"mass" 250
 	"outfit space" -250
 	"hull" 7500
-	description "Reinforced platings are placed on the outer hull of a ship to increase the total hitpoints of the ship. This A-Class version is meant for capital ships and gives a massive increase to hull strength."
+	description "Reinforced platings are placed on the outer hull of a ship to increase the total armor strength of the ship. This A-Class version is meant for capital ships and gives a massive increase to hull strength."
 
 outfit "A-Class Shield Overcharger"
 	category "Systems"
@@ -126,7 +126,7 @@ outfit "A-Class Shield Overcharger"
 	"mass" 250
 	"outfit space" -250
 	"shields" 7500
-	description "Shield overchargers are connected to the shield generator of a ship to increase the total hipooitns of the ship. This A-Class version is meant for capital ships and gives a increase to shield strength."
+	description "Shield overchargers are connected to the shield generator of a ship to increase the total shields of the ship. This A-Class version is meant for capital ships and gives a increase to shield strength."
 
 outfit "S-Class Reinforced Plating"
 	category "Systems"
@@ -135,7 +135,7 @@ outfit "S-Class Reinforced Plating"
 	"mass" 300
 	"outfit space" -300
 	"hull" 10000
-	description "Reinforced platings are placed on the outer hull of a ship to increase the total hitpoints of the ship. This S-Class version is meant only for the most massive of ships that have sacrificed some weapon and engine space for all this hull."
+	description "Reinforced platings are placed on the outer hull of a ship to increase the total armor strength of the ship. This S-Class version is meant only for the most massive of ships that have sacrificed some weapon and engine space for all this hull."
 	description "Brought to you by Enigma Corp."
 
 outfit "S-Class Shield Overcharger"
@@ -145,5 +145,5 @@ outfit "S-Class Shield Overcharger"
 	"mass" 300
 	"outfit space" -300
 	"shields" 10000
-	description "Shield overchargers are connected to the shield generator of a ship to increase the total hipooitns of the ship. This S-Class version is meant only for the most massive of ships that have sacrificed some weapon and engine space for all this shield."
+	description "Shield overchargers are connected to the shield generator of a ship to increase the total shields of the ship. This S-Class version is meant only for the most massive of ships that have sacrificed some weapon and engine space for all this shield."
 	description "Brought to you by Enigma Corp."
