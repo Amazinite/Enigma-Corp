@@ -491,7 +491,7 @@ outfit "Shrapnel Cannon"
 		"firing heat" 500
 		"submunition" "shrapnel pellets" 16
 		"submunition" "shrapnel" 16
-	description "The Shrapnel Cannon is basically an oversized shotgun. The large shrapnel shells fired from this weapon explode upon reaching the end of the barrel and fire out 16 superheated shrapnel pellets, doing massive damage up close."
+	description "The Shrapnel Cannon is basically an oversized shotgun. The large shrapnel shells fired from this weapon explode upon reaching the end of the barrel and fire out 16 super-heated shrapnel pellets, doing massive damage up close."
 	description "Due to the nature of this weapon, ammunition needs to be specially ordered."
 	description "Brought to you by Enigma Corp."
 
@@ -546,8 +546,8 @@ outfit "Fuel Rod Launcher"
 		"hull damage" 1000
 		"heat damage" 2500
 		"missile strength" 100
-	description "Have you ever felt like you have too much fuel? Do you never run out of fuel because of how many fuel pods you have? Well put that fuel to some good use with the fuel rod launcher!"
-	description "The Fuel Rod Launcher works by filling rods with your ship’s hyperspace fuel and firing them through a torpedo tube. When the rod makes contact with something, it breaks open and causes the fuel to mix with a small amount of chemicals that cause it to catch fire. This creates a large explosion with some heat damage to it. Very useful for damaging the hull of ships as well."
+	description "Have you ever felt like you have too much fuel? Do you never run out of fuel because of how many fuel pods you have? Well put that fuel to some good use with the Fuel Rod Launcher!"
+	description "The Fuel Rod Launcher works by filling rods with your ship’s hyperspace fuel and firing them through a torpedo tube. When the rod makes contact with something, it breaks open and causes the fuel to mix with a small amount of chemicals and catch fire. This creates a large explosion with some heat damage to it. Very useful for damaging the hull of ships as well."
 
 outfit "Flux Torpedo Launcher"
 	category "Secondary Weapons"
@@ -584,7 +584,7 @@ outfit "Flux Torpedo Launcher"
 		"ion damage" 10
 		"hit force" 70
 		"missile strength" 30
-	description "The Flux Torpedo Launcher is an altered version of the Deep Sky's Typhoon Launcher built by Syndicate. Intended to be used to protect freighter convoys, the flux torpedo completely short circuits the enemy's ship, draining much of the ship's energy. This usually allows a convoy enough time to jump out of the system before the enemy ship can recover."
+	description "The Flux Torpedo Launcher is an altered version of Deep Sky's Typhoon Launcher built by the Syndicate. Intended to be used to protect freighter convoys, the Flux Torpedo completely short-circuits the enemy's ship, draining much of the ship's energy. This usually allows a convoy enough time to jump out of the system before the aggressor can recover."
 
 outfit "Thermite Torpedo Launcher"
 	category "Secondary Weapons"
@@ -684,7 +684,7 @@ outfit "Forge Cannon"
 		"hit force" 250
 		"shield damage" 1800
 		"hull damage" 2230
-	description "The Forge Cannon is a highly powerful rail gun that fires titanium slugs at extreme speeds. The kinetic force of the slug hitting something causes a massive explosion, quickly ripping through any hull that it hits, while also doing large amounts of shield damage. Due to the size of the slugs and the amount of damage that could be caused by a malfunction, slugs are slowly and carefully reloaded into the cannon, leading to rather long reload times."
+	description "The Forge Cannon is a highly powerful railgun that fires titanium slugs at extreme speeds. The kinetic force of the slug hitting something causes a massive explosion, quickly ripping through any hull that it hits, while also doing large amounts of shield damage. Due to the size of the slugs and the amount of damage that could be caused by a malfunction, slugs are slowly and carefully reloaded into the cannon, leading to rather long reload periods."
 
 outfit "Grav Bomb"
 	category "Secondary Weapons"
@@ -810,7 +810,7 @@ outfit "Seeker Laser"
 		"firing heat" 4.2
 		"shield damage" 4.9
 		"hull damage" 6.4
-	description "No one knows exactly how this weapon works, but the outcome is truely amazing. When fired, the Seeker Laser produces a laser that is able to split up into multiple projectiles and track targets, chasing them for long ranges. Almost completely impossible to dodge, the lasers move at an extremely fast speeds and have a high turn radius, allowing the lasers to track even the fastest of ships."
+	description "No one knows exactly how this weapon works, but the outcome is truly amazing. When fired, the Seeker Laser produces a laser that is able to split up into multiple projectiles and track targets, chasing them for long ranges. Almost completely impossible to dodge, the lasers move at extremely fast speeds and have a high turn radius, allowing the lasers to track even the fastest of ships."
 	description "Brought to you by Enigma Corp."
 
 outfit "Cryo Beam"
