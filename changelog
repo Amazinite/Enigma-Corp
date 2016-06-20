@@ -22,7 +22,7 @@ V0.5.4 and a half
     Antimatter Bombs are now illegal. Like really illegal. Like "I'll kill you for possessing one of these" illegal. Like 50 years in jail for possessing 2 grams of weed in America type of illegal.
     The Shrapnel Cannon now has a random velocity and random lifetime to it so that the pellet spread is not the same every time.
   Bug Fixes
-   The usual typo fixes (thx @Alkallid)
+    The usual typo fixes (thx @Alkallid)
     Fixed the Echo 50 engine coordinates.
     Better Andromeda galaxy image.
     Fixed a bug that caused a random system with nothing in it to appear at position 0,0.
