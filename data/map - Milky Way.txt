@@ -575,6 +575,7 @@ system Enigma
 			period 12.3538
 		object "Enigma Meridian"
 			sprite planet/station6
+			distance 459
 			period 21.53
 
 system Ferum
