@@ -1763,11 +1763,11 @@ system Termara
 			distance 374
 			period 25.5097
 
-system "Test 1"
+system "Karuht'aryet"
 	pos 152.298 -912.95
 	habitable 425.92
-	link "Test 2"
-	link "Test 3"
+	link "Karuht'quyet"
+	link "Karuht'enyet"
 	asteroids "medium rock" 2 1.4756
 	asteroids "large rock" 1 1.9754
 	asteroids "small metal" 2 3.3796
@@ -1805,11 +1805,11 @@ system "Test 1"
 		distance 2234.7
 		period 2047.5
 
-system "Test 10"
+system "Karuht'uma"
 	pos 462.298 -1039.95
 	habitable 486.68
-	link "Test 9"
-	link "Test 11"
+	link "Karuht'ut"
+	link "Karuht'yet"
 	asteroids "small rock" 50 2.0352
 	asteroids "medium rock" 69 5.376
 	asteroids "large rock" 41 2.1504
@@ -1844,12 +1844,12 @@ system "Test 10"
 			distance 262
 			period 12.4282
 
-system "Test 11"
+system "Karuht'yet"
 	pos 402.298 -974.95
 	habitable 425.92
-	link "Test 10"
-	link "Test 14"
-	link "Test 15"
+	link "Karuht'uma"
+	link "Karuht'utyet"
+	link "Karuht'olyet"
 	asteroids "small rock" 9 2.1105
 	asteroids "medium rock" 7 3.654
 	asteroids "large rock" 1 2.079
@@ -1884,10 +1884,10 @@ system "Test 11"
 			distance 420
 			period 25.225
 
-system "Test 12"
+system "Karuht'umayet"
 	pos 262.298 -891.95
 	habitable 233.28
-	link "Test 2"
+	link "Karuht'quyet"
 	asteroids "small rock" 1 1.365
 	asteroids "medium rock" 163 0.845
 	asteroids "large rock" 10 1.755
@@ -1930,11 +1930,11 @@ system "Test 12"
 			distance 662
 			period 60.5923
 
-system "Test 13"
+system "Karuht'duyet"
 	pos 200.298 -1042.95
 	habitable 1080
-	link "Test 3"
-	link "Test 14"
+	link "Karuht'enyet"
+	link "Karuht'utyet"
 	asteroids "small rock" 1 6.864
 	asteroids "medium rock" 11 6.384
 	asteroids "large rock" 1 4.944
@@ -1976,11 +1976,11 @@ system "Test 13"
 			distance 359
 			period 35.8046
 
-system "Test 14"
+system "Karuht'utyet"
 	pos 298.298 -1031.95
 	habitable 425.92
-	link "Test 13"
-	link "Test 11"
+	link "Karuht'duyet"
+	link "Karuht'yet"
 	asteroids "medium rock" 5 5.616
 	asteroids "large rock" 4 10.512
 	asteroids "small metal" 6 6.768
@@ -2010,11 +2010,11 @@ system "Test 14"
 			distance 148
 			period 17.218
 
-system "Test 2"
+system "Karuht'quyet"
 	pos 214.298 -846.95
 	habitable 233.28
-	link "Test 1"
-	link "Test 12"
+	link "Karuht'aryet"
+	link "Karuht'umayet"
 	asteroids "medium rock" 28 2.6163
 	asteroids "large rock" 1 4.5144
 	asteroids "small metal" 3 6.3612
@@ -2051,12 +2051,12 @@ system "Test 2"
 			distance 445
 			period 24.6561
 
-system "Test 3"
+system "Karuht'enyet"
 	pos 225.298 -963.95
 	habitable 745.92
-	link "Test 1"
-	link "Test 13"
-	link "Test 15"
+	link "Karuht'aryet"
+	link "Karuht'duyet"
+	link "Karuht'olyet"
 	asteroids "small rock" 8 3.3696
 	asteroids "medium rock" 2 6.9264
 	asteroids "large rock" 8 5.9904
@@ -2093,11 +2093,11 @@ system "Test 3"
 			distance 217
 			period 13.0181
 
-system "Test 4"
+system "Karuht'qu"
 	pos 772.298 -1016.95
 	habitable 1715
-	link "Test 7"
-	link "Test 5"
+	link "Karuht'ol"
+	link "Karuht'ar"
 	asteroids "small rock" 34 3.564
 	asteroids "medium rock" 28 5.454
 	asteroids "large rock" 4 3.402
@@ -2140,11 +2140,11 @@ system "Test 4"
 			distance 389
 			period 40.3851
 
-system "Test 5"
+system "Karuht'ar"
 	pos 736.298 -1089.95
 	habitable 425.92
-	link "Test 7"
-	link "Test 4"
+	link "Karuht'ol"
+	link "Karuht'qu"
 	asteroids "large metal" 1 2.4795
 	object
 		sprite star/k5
@@ -2174,12 +2174,12 @@ system "Test 5"
 			distance 431
 			period 23.5018
 
-system "Test 6"
+system "Karuht'du"
 	pos 612.298 -1057.95
 	habitable 2795
-	link "Test 7"
-	link "Test 8"
-	link "Test 9"
+	link "Karuht'ol"
+	link "Karuht'en"
+	link "Karuht'ut"
 	asteroids "large metal" 1 0.732
 	object
 		sprite star/f5
@@ -2227,12 +2227,12 @@ system "Test 6"
 			distance 501
 			period 36.9857
 
-system "Test 7"
+system "Karuht'ol"
 	pos 688.298 -1015.95
 	habitable 368.28
-	link "Test 4"
-	link "Test 5"
-	link "Test 6"
+	link "Karuht'qu"
+	link "Karuht'ar"
+	link "Karuht'du"
 	asteroids "small rock" 29 2.808
 	asteroids "medium rock" 52 2.028
 	asteroids "large rock" 4 4.5552
@@ -2277,10 +2277,10 @@ system "Test 7"
 			distance 358
 			period 19.1221
 
-system "Test 8"
+system "Karuht'en"
 	pos 636.298 -1122.95
 	habitable 1080
-	link "Test 6"
+	link "Karuht'du"
 	asteroids "large rock" 3 3.705
 	asteroids "small metal" 4 3.762
 	asteroids "medium metal" 2 8.037
@@ -2313,11 +2313,11 @@ system "Test 8"
 			distance 232
 			period 15.0975
 
-system "Test 9"
+system "Karuht'ut"
 	pos 549.298 -1014.95
 	habitable 745.92
-	link "Test 6"
-	link "Test 10"
+	link "Karuht'du"
+	link "Karuht'uma"
 	asteroids "small rock" 13 3.096
 	asteroids "medium rock" 30 1.368
 	asteroids "large rock" 20 2.304
@@ -2354,11 +2354,11 @@ system "Test 9"
 		distance 2037.92
 		period 1347.39
 
-system "Test 15"
+system "Karuht'olyet"
 	pos 325.298 -941.95
 	habitable 320
-	link "Test 3"
-	link "Test 11"
+	link "Karuht'enyet"
+	link "Karuht'yet"
 	asteroids "small rock" 11 2.1996
 	asteroids "large rock" 3 2.1996
 	asteroids "small metal" 13 1.5444
