@@ -486,14 +486,20 @@ outfit "Shrapnel Cannon"
 		sound "shotgun"
 		ammo "Shrapnel Canister"
 		icon "icon/meteor"
+		"velocity" 1
 		"reload" 120
 		"firing energy" 200
 		"firing heat" 500
 		"submunition" "shrapnel pellets" 16
 		"submunition" "shrapnel" 16
+		"submunition" "tracer (250)" 1
 	description "The Shrapnel Cannon is basically an oversized shotgun. The large shrapnel shells fired from this weapon explode upon reaching the end of the barrel and fire out 16 super-heated shrapnel pellets, doing massive damage up close."
 	description "Due to the nature of this weapon, ammunition needs to be specially ordered."
 	description "Brought to you by Enigma Corp."
+	
+outfit "tracer (250)"
+	weapon
+		"lifetime" 250
 
 outfit "shrapnel"
 	weapon
@@ -509,12 +515,13 @@ outfit "shrapnel pellets"
 		"hit effect" "proton impact" 3
 		"inaccuracy" 45
 		"lifetime" 15
+		"random lifetime" 5
 		"velocity" 15
-		"random velocity" 15
-		"shield damage" 62.5
-		"hull damage" 62.5
+		"random velocity" 5
+		"shield damage" 75
+		"hull damage" 75
 		"heat damage" 125
-		"hit force" 100
+		"hit force" 50
 
 outfit "Fuel Rod Launcher"
 	category "Secondary Weapons"
