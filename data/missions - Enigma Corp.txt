@@ -450,12 +450,12 @@ mission "Enigma Corp [1c]"
 		has "Enigma Corp [1b]: done"
 	
 	npc save
-		government "Enigma Corp"
-		personality heroic escort
+		government "Escort"
+		personality heroic
 		fleet
 			names "enigma military"
 			variant
-				"EC-078 'Dire Hawk'" 3
+				"EC-078 'Dire Hawk'" 2
 				
 	npc kill
 		government "Test Dummy"
@@ -463,11 +463,11 @@ mission "Enigma Corp [1c]"
 		fleet
 			names "Civilian"
 			variant
-				"Firebird" 2
+				"Firebird" 1
 				
 	npc save
 		government "Enigma Corp"
-		personality fleeing uninterested
+		personality uninterested
 		fleet
 			names "Dolent1"
 			variant
