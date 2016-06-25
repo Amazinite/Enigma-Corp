@@ -279,7 +279,8 @@ mission "New Syn Tech"
 				`	"What kind of favor?"`
 					goto favor
 				`	"Why would it be in my best interests to accept?."`
-					goto why?
+					goto why
+
 			label why
 			`	The man looks back at his companions and then back at you.`
 			`	"Because if you don't, then the pirate factions of this region will become stronger, and we both know that that is something that nobody wants."`
@@ -310,4 +311,87 @@ event "New Tech Syn"
 		"Plasmathrower"
 		"Flux Torpedo Launcher"
 		"Flux Torpedo"
-		"Thermite Cap. Up."
+		"Flux Torpedo Cap. Up."
+		
+event "Core Pirates Stronger"
+	fleet "Small Core Pirates"
+		government "Pirate"
+		names "pirate"
+		cargo 1
+		personality
+			plunders
+			confusion 20
+		variant 4
+			"Quicksilver (Proton)"
+		variant 2
+			"Sparrow"
+		variant 3
+			"Hawk"
+		variant 2
+			"Hawk (Rocket)"
+		variant 2
+			"Hawk (Speedy)"
+		variant 4
+			"Fury"
+		variant 2
+			"Fury (Laser)"
+		variant 1
+			"Fury (Missile)"
+		variant 1
+			"Headhunter"
+		variant 1
+			"Headhunter (Particle)"
+		variant 2
+			"Quicksilver" 2
+		variant 5
+			"Fury (Plasmathrower)" 2
+		variant 5
+			"Hawk (Rocket)"
+			"Hawk (Flux Torpedo)" 2
+		variant 5
+			"Quicksilver (Proton)"
+			"Quicksilver (Ionizer)"
+
+	fleet "Large Core Pirates"
+		government "Pirate"
+		names "pirate"
+		cargo 1
+		personality
+			plunders
+		variant 5
+			"Quicksilver (Proton)" 3
+		variant 2
+			"Quicksilver" 3
+		variant 3
+			"Splinter"
+			"Quicksilver (Proton)"
+		variant 3
+			"Splinter (Laser)"
+			"Quicksilver"
+		variant 4
+			"Manta (Proton)"
+		variant 2
+			"Manta"
+		variant 2
+			"Splinter" 2
+		variant 1
+			"Splinter (Laser)" 2
+		variant 2
+			"Falcon"
+		variant 1
+			"Falcon (Heavy)"
+		variant 1
+			"Falcon (Laser)"
+		variant 2
+			"Firebird"
+		variant 1
+			"Firebird (Plasma)"
+		variant 1
+			"Firebird (Missile)"
+		variant 5
+			"Firebird (Plasmathrower)" 2
+		variant 5
+			"Falcon (Flux Torpedo)"
+			"Quicksilver (Proton)" 2
+		variant 5
+			"Splinter (Plasmathrower)" 2
