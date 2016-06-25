@@ -13,19 +13,23 @@ V0.5.4 and a half
       Declining this mission also triggers the event, which would normally be triggered upon completion, after 60 days.
     Reworked the "New FW Tech" mission to where the merchants will explain to you that they have Jump Drives on their Bulk Freighters.
       Declining this mission also triggers the event, which would normally be triggered upon completion, after 60 days.
+    Reworked Enigma Corp 1C so that you can actually make the Dire Hawks cloak.
     Reworked many of the descriptions for ships and outfits.
     Capacity upgraders are now abbreviated as "Cap-Up" instead of "Cap. Up."
-    Capacity Upgraders are now categorized as "Ammunition" instead of "Systems"
+    Capacity Upgraders are now categorized as "Ammunition" instead of "Systems."
+    Removed old Echo 7 images and the Legacy Echo images.
   Balance
     Plasmathrower now also does some heat damage.
     Ammunition has been given mass and weapons that require ammo have had their mass reduced.
     Antimatter Bombs and Crew Implants are now illegal. Like really illegal. Like "I'll kill you for possessing one of these" illegal. Like 50 years in jail for possessing 2 grams of weed in America type of illegal.
     The Shrapnel Cannon now has a random velocity and random lifetime to it so that the pellet spread is not the same every time.
-    The Rocket Launcher has had its attack and defense reduced to be equal to that of two frag grenades
+      Pellets do more damage (62.5 -> 75), but have less hit force (100 -> 50).
+    The Rocket Launcher has had its attack and defense reduced to be equal to that of two frag grenades.
     As a result of the Rocket Launcher change, Incendiary Grenades have had their attack and defense both buffed.
   Bug Fixes
     The usual typo fixes (thx @Alkallid and Takarada)
     Fixed the Echo 50 engine coordinates.
+    Fixed the Echo 99 gun port coordinates.
     Better Andromeda galaxy image.
     Fixed a bug that caused a random system with nothing in it to appear at position 0,0.
     The Star King and Star Guardian are now sold with the proper amount of Flux Missiles.
