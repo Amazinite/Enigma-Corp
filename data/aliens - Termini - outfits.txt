@@ -140,7 +140,3 @@ outfit "Mothership Core"
 	"ramscoop" 100000
 	"shield generation" 10000000
 	"hull repair rate" 10000000
-
-outfit "OP"
-	category "Hand to Hand"
-	"capture defense" 1000000
