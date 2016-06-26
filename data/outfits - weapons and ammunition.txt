@@ -119,6 +119,7 @@ outfit "EMP Device"
 	"outfit space" -35
 	"weapon capacity" -35
 	"gun ports" -1
+	"EMP hardpoint" -1
 	weapon
 		sound "electron beam"
 		"hit effect" "skylance impact"
