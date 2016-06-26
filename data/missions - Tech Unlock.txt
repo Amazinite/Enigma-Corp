@@ -302,6 +302,7 @@ mission "New Syn Tech"
 
 	on complete
 		event "New Tech Syn"
+		event "Core Pirates Stronger" 120
 		outfit "Stolen Cargo" -1
 		payment 250000
 		dialog "The Syndicate pays you <payment> and thanks you for eliminating the <npc>. Head toward the nearest advanced Syndicate outfitter for new technology."
