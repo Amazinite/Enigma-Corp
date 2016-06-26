@@ -24,14 +24,14 @@ outfit "Arc Discharger"
 		"inaccuracy" 30
 		"velocity" 300
 		"lifetime" 1
-		"reload" 1
-		"firing energy" 10
-		"firing heat" 2.5
-		"shield damage" 7.4
-		"hull damage" 2.5
-		"ion damage" 0.166666
-	description "The Arc Discharger works by rerouting your ship’s energy straight into the power core of the weapon. The core is quickly overcharged, releasing a burst of energy in the form of lighting. The resulting lightning storm ionizes the shields of ships, doing massive shield damage and potenially disabling smaller ships due to energy loss."
-	description "Brought to you by Enigma Corp."
+		"reload" 2
+		"firing energy" 20
+		"firing heat" 5
+		"shield damage" 14.8
+		"hull damage" 5
+		"ion damage" 0.3333
+	description "The Arc Discharger works by rerouting your ship's power straight to the core of the weapon. After a short amount of time, the core overcharges and releases a large burst of energy. The resulting lightning storm deals large amounts of shield damage and disrupting the energy systems of any ship that it hits, draining much of their energy."
+	description "Brought to you by the Enigma Corporation."
 
 outfit "Antimatter Launcher"
 	category "Secondary Weapons"
@@ -68,9 +68,9 @@ outfit "Antimatter Launcher"
 		"shield damage" 2000000
 		"hull damage" 2000000
 		"hit force" 80
-		"missile strength" 1000
-	description "This Heavy Rocket Launcher has been modified to hold the massive antimatter bomb developed by Enigma Corp. Given the destructive power of the antimatter bomb, only a specially outfitted capital ship can withstand the amount of energy required to fire. It is perfectly worth it though, because as soon as the slow moving missile hits its target the entire system will be clean of enemies."
-	description "Brought to you by Enigma Corp."
+		"missile strength" 0
+	description "Although not available to the wider public, the Enigma Corporation has a plethra of weaponry and other outfits that are based off of stolen alien technology. The Antimatter Launcher is likely the most destructive weapon in existance, using the power of a Quarg Antimatter Core and converting it in to a useable weapon. With enough explosive yield to level half a star system, the Antimatter Launcher requires a specially fitted capital ship to even fit and fire."
+	description "Brought to you by the Enigma Corporation."
 	
 outfit "Antimatter Bomb"
 	category "Ammunition"
@@ -80,6 +80,7 @@ outfit "Antimatter Bomb"
 	"bomb capacity" -1
 	"illegal" -1
 	description "The Antimatter Bomb is a highly illegal ammunition used for the Antimatter Launcher."
+	description "	Given the power of even a single Antimatter Bomb, carrying any bombs at all is punishable by death. And god forbid an Archon see you with one of these."
 	description "Brought to you by the Enigma Corporation."
 
 outfit "Cryo Beam"
@@ -94,8 +95,7 @@ outfit "Cryo Beam"
 		sprite "projectile/cryobeam"
 		sound "skylance"
 		"hit effect" "skylance impact"
-		"fire effect" "skylance impact"
-		"inaccuracy" 0
+		"inaccuracy" 0.1
 		"velocity" 500
 		"lifetime" 1
 		"reload" 1
@@ -105,8 +105,11 @@ outfit "Cryo Beam"
 		"hull damage" 1.2
 		"slowing damage" 0.1
 		"ion damage" 0.1
-	description "The Cryo Beam is a new development from Enigma Corp. Rumor has it that one of Enigma Corp's scouting fleets found a new alien race with amazing technology, and attempted to engineer some of their weapons from what they saw. It didn't turn out exactly as planned, but this weapon still has the same effect; it slowly freezes the enemy ship, causing them to become almost entirely immobile."
-	description "Brought to you by Enigma Corp."
+		"heat damage" -0.1
+		"disruption damage" -0.1
+	description `The Cryo Beam is a strange weapon that few understand. Although it does not literally cryogentically freeze ships, it acts as though it freezes them by slowing the target, making their shields "brittle" and more suseptible to damage, and reducing the temperature of the targeted ship, as well as disrupting its energy systems.`
+	description "Some say that the Cryo Beam is stolen technology from an undiscovered alien race that is far superior to humanity, leading some to wonder just how powerful the Corporation really is."
+	description "Brought to you by the Enigma Corporation."
 
 outfit "EMP Device"
 	category "Guns"
@@ -129,6 +132,8 @@ outfit "EMP Device"
 		"firing energy" 21.2
 		"firing heat" 6.7
 		"ion damage" 50
+	description "An EMP Device works similarly to an Arc Discharger in that it charges a power core that discharges in a burst of ionizing energy. The difference is that the EMP Device requires much more energy and impacts ships all around the source instead of focusing the energy to the front of the ship. The large amount of energy that is released greatly heats up the core, requiring a cooling time after being fired."
+	description "Brought to you by the Enigma Corporation."
 
 outfit "Energy Turret"
 	category "Turrets"
@@ -154,7 +159,7 @@ outfit "Energy Turret"
 		"shield damage" 0
 		"hull damage" 0
 		"ion damage" -.25
-	description "The energy transfer turret works by firing a stream of electric energy at your target that will quickly charge their batteries. Especially useful for keeping your own ships in combat."
+	description "The Energy Turret is a new development from the Deep that works to reverse the effects that ion weapons have on ships. Firing a beam of electric energy, any ship that is hit by the beam has their batteries quickly charged, making the Energy Turret especially helpful on support ships to assist front line ships in keeping their energy reserves topped off."
 	
 outfit "Flux Mine Placer"
 	category "Secondary Weapons"
@@ -189,13 +194,13 @@ outfit "Flux Mine Placer"
 		"missile strength" 1000
 	description "Coming to you from Enigma Corp is the brand new Flux Mine Placer! This weapon places down unmoving mines that will explode when an enemy gets too close, and once they're hit, their ship will be depleted of its energy, causing it to become immobile for a short time."
 	description "Warning: May inflict self damage."
-	description "Brought to you by Enigma Corp."
+	description "Brought to you by the Enigma Corporation."
 
 outfit "Flux Mine"
 	category "Ammunition"
 	cost 10000
 	thumbnail "outfit/i mine"
-	"mass" .4
+	"mass" 1.5
 	"flux mine capacity" -1
 	description "The Flux Mine is nothing more than a Flux Torpedo with its thrusters removed; used as ammunition for the Flux Mine Placer."
 	description "Brought to you by the Enigma Corporation."
@@ -204,9 +209,9 @@ outfit "Flux Missile Launcher"
 	category "Secondary Weapons"
 	cost 80000
 	thumbnail "outfit/flux launcher"
-	"mass" 5
-	"outfit space" -15
-	"weapon capacity" -15
+	"mass" 3
+	"outfit space" -17
+	"weapon capacity" -17
 	"gun ports" -1
 	"flux capacity" 100
 	weapon
@@ -227,24 +232,25 @@ outfit "Flux Missile Launcher"
 		"firing heat" 25
 		"acceleration" 1
 		"drag" .1
-		"turn" 4
-		"homing" 10
+		"turn" 5
+		"homing" 4
 		"radar tracking" .9
-		"shield damage" 40
-		"hull damage" 5
+		"shield damage" 75
+		"hull damage" 15
 		"ion damage" 1
 		"hit force" 25
 		"missile strength" 12
-	description "The Flux Missile Launcher is the Sidewinder's version of the Hellfire Launcher. It fires faster and with more capacity, but the flux warhead packs a small EMP. This EMP explodes on the hull of the ship, draining energy from the ship and doing massive damage to the shields."
-	description "Brought to you by Enigma Corp."
+	description "After the huge success of the Hellfire Missile Launcher, the Corporation decided to attempt the same thing with Lovelace's Sidewinder Missile Launcher. As a result, the Flux Missile Launcher was born. Given a similar makeover as the Hellfire Missile Launcher, the Flux Missile Launcher fires faster and holds more missiles, while also having better homing and velocity."
+	description "Brought to you by the Enigma Corporation."
 	
 outfit "Flux Missile"
 	category "Ammunition"
 	cost 1200
 	thumbnail "outfit/flux missile"
-	"mass" .2
+	"mass" .15
 	"flux capacity" -1
 	description "The Flux Missile is the ammunition used for the Flux Missile Launcher."
+	description "	The warhead of the Flux Missile is packed with a small electromagnetic charge that is designed to quickly deplete both the shields and energy reserves of the target ship, making the Flux Missile Launcher a formidable weapon against ships that are working on the edge of their energy generation."
 	description "Brought to you by the Enigma Corporation."
 	
 outfit "Flux Torpedo Launcher"
@@ -416,8 +422,8 @@ outfit "Gravitational Wave Generator"
 		"firing energy" 2000
 		"firing heat" -1000
 	description "This device works by smashing together two miniature contained black holes, which generates a gravitational wave strong enough to push away any unwanted ships (or ships that you don't want blown up). The closer your enemy is, the more they get pushed away." 
-	description "Although, the energy required to move two black holes together is massive, so make sure that you pack some extra batteries to compensate. But strangely enough, the smashing of the black holes draws heat away from your ship, making it act as sort of a cooling device when fired."
-	description "Brought to you by Enigma Corp."
+	description "	Although, the energy required to move two black holes together is massive, so make sure that you pack some extra batteries to compensate. But strangely enough, the smashing of the black holes draws heat away from your ship, making it act as sort of a cooling device when fired."
+	description "Brought to you by the Enigma Corporation."
 
 outfit "Wave"
 	weapon
@@ -432,9 +438,9 @@ outfit "Hellfire Missile Launcher"
 	category "Secondary Weapons"
 	cost 25000
 	thumbnail "outfit/hellfire launcher"
-	"mass" 5
-	"outfit space" -15
-	"weapon capacity" -15
+	"mass" 2
+	"outfit space" -16
+	"weapon capacity" -16
 	"gun ports" -1
 	"hellfire capacity" 70
 	weapon
@@ -450,20 +456,20 @@ outfit "Hellfire Missile Launcher"
 		"inaccuracy" 25
 		"velocity" 25
 		"lifetime" 120
-		"reload" 20
+		"reload" 24
 		"firing energy" 0.1
 		"firing heat" 50
 		"acceleration" 1
 		"drag" .1
 		"turn" 4
-		"homing" 10
+		"homing" 4
 		"infrared tracking" .8
 		"shield damage" 10
 		"hull damage" 50
 		"hit force" 30
 		"missile strength" 4
-	description "This modified Meteor Missile Launcher was recently developed by Enigma Corp. All saftey measures were removed, allowing for more missile capacity, faster firing, and virtually no energy consumption. This comes at the cost of a slightly larger size and much more heat generation when fired."
-	description "Brought to you by Enigma Corp."
+	description "The Hellfire Missile Launcher was the first in a long line of patent-infringing weapons that were developed by the Enigma Corporation. Using the Meteor Missile Launcher as a base, all safety measures were removed. This allows for a faster fire rate and next to no energy consumption at the cost of greatly increased heat generated per shot. They also added a larger missile storage compartement, which increases the amount of space needed to fit the launcher."
+	description "Brought to you by the Enigma Corporation."
 	
 outfit "Hellfire Missile"
 	category "Ammunition"
@@ -472,6 +478,7 @@ outfit "Hellfire Missile"
 	"mass" .2
 	"hellfire capacity" -1
 	description "The Hellfire Missiles are the standard ammunition for the Hellfire Missile Launcher."
+	description "To avoid complete legal suicide, the Corporation decided to change the design of the Meteor Missile to make it a different missile entirely. The Hellfire Missile has a higher velocity, better homing capabilities, and a higher explosive yeild compared to its Meteor Missile cousin, but at the cost of lasting a much shorter amount of time and doing far less shield damage."
 	description "Brought to you by the Enigma Corporation."
 
 outfit "Missile Denial System"
@@ -487,13 +494,13 @@ outfit "Missile Denial System"
 		"anti-missile" 20
 		"velocity" 400
 		"lifetime" 1
-		"burst count" 300
+		"burst count" 50
 		"burst reload" 1
 		"reload" 2
 		"firing energy" 10
 		"firing heat" 100
-	description "The Missile Denial System is nothing more than a scaled up trophy system, destroying absolutely every missile that enters its range. The only problem is that trophy systems do not last forever, and after a certain amount of projectiles become either completely useless or need time to recharge. The same is the case with the Missile Denial System; after about 300 shots, the MDS must take time to recharge."
-	description "Brought to you by Enigma Corp."
+	description "The Missile Denial System is based off of old 21st century active protection system technology that destroyed missiles before they reached the vehicle that the APS was mounted on. These APS systems were highly effective, but did not last forever. After a certain amount of projectiles have been stopped, the system becomes useless and must be reloaded. The same is true with the MDS; after 50 shots, the system must take time to recharge."
+	description "Brought to you by the Enigma Corporation."
 
 outfit "Missile Turret"
 	category "Turrets"
@@ -530,8 +537,8 @@ outfit "Missile Turret"
 		"hull damage" 60
 		"hit force" 25
 		"missile strength" 12
-	description "The Missile Turret is the next step in missile technology developed by Lovelace Labs. It was becoming increasingly difficult to design missiles with better homing and turning capabilities, so a scientist at Lovelace proposed that a missile turret be developed. This would lower a ship's need to get in position to fire missiles and make it much easier to hit moving targets, as the missiles will already be flying directly towards their target instead of needing to make u-turns and end up running out of fuel."
-	description "The design team decided to simply take a Sidewinder Missile Launcher and place it on a rotating platform. Because of this, the Missile Turret takes the same ammo as Sidewinder Missile Launchers."
+	description "Another development from Lovelace Labs, the Missile Turret is the next step in missile technology. It was becoming increasingly difficult to design missiles with better homing and turning capabilities, so one of the engineers at Lovelace proposed that a missile turret be developed. This would allow missiles to be fired directly at their target, removing the need for missiles to make wide turns and waste much of their fuel and artificially increasing their targeting capabilities."
+	description "The design team decided to simply take a Sidewinder Missile Launcher and place it on a rotating platform as a prototype. As such, the turret uses Sidewinder Missiles as ammunition."
 	
 outfit "Plasmathrower"
 	category "Secondary Weapons"
@@ -552,26 +559,25 @@ outfit "Plasmathrower"
 		"velocity" 9
 		"lifetime" 5
 		"reload" 1
-		"firing energy" 1
-		"firing fuel" .1
-		"firing heat" 2
-	description "Since most ships have sufficient enough cooling systems to withstand the heat damage of a flamethrower, Enigma Corp decided to make it a little different. Say hello to the Plasmathrower! This weapon fires super-heated plasma at your foes to deal some massive ion damage, quickly draining their energy reserves. The plasma also does considerable damage to the opponent's shields, meaning that any energy that they have left is probably going to be sucked up by their shield generator."
-	description "Brought to you by Enigma Corp."
-	
+		"firing energy" 3.5
+		"firing fuel" .5
+		"firing heat" 2.5
+	description "The Plasmathrower seeks to reinvent the Flamethrower in a more modern context. By using plasma instead of flames, much more heat is produced and the intrinsic properties of plasma also allow the Plasmathrower to inflict a decent amount of ion damage on the targeted ship."
+
 outfit "Plasmathrower Projectile"
 	weapon
 		sprite "projectile/plasmathrower"
 			"frame rate" 17
 			"random start frame"
 		sound "plasma"
-		"die effect" "plasmathrower die"
 		"hit effect" "plasmathrower hit"
+		"die effect" "plasmathrower die"
 		"inaccuracy" 20
 		"lifetime" 22
-		"shield damage" 2.6
-		"hull damage" 0.3
-		"ion damage" 0.1
-		"heat damage" 0.05
+		"shield damage" 1.2
+		"hull damage" 0.9
+		"ion damage" 0.2
+		"heat damage" 300
 	
 outfit "Repair Turret"
 	category "Turrets"
@@ -624,7 +630,7 @@ outfit "Reverse Engineered Skylance"
 		"ion damage" .1
 	description "After disabling and looting about four Quarg spaceships, the Quarg started to hate Enigma Corp. So the Corporation's solution? Reverse engineer some of the stuff they stole!"
 	description "This reverse engineered Skylance is almost like a noraml Quarg Skylance, but a little worse. This version does slightly less damage, generates much more heat, and takes even more energy to fire."
-	description "Brought to you by Enigma Corp."
+	description "Brought to you by the Enigma Corporation."
 	
 outfit "Nanites"
 	category "Ammunition"
@@ -660,13 +666,13 @@ outfit "Seeker Laser"
 		"shield damage" 4.9
 		"hull damage" 6.4
 	description "No one knows exactly how this weapon works, but the outcome is truly amazing. When fired, the Seeker Laser produces a laser that is able to split up into multiple projectiles and track targets, chasing them for long ranges. Almost completely impossible to dodge, the lasers move at extremely fast speeds and have a high turn radius, allowing the lasers to track even the fastest of ships."
-	description "Brought to you by Enigma Corp."
+	description "Brought to you by the Enigma Corporation."
 
 outfit "Shrapnel Cannon"
 	category "Secondary Weapons"
 	cost 235000
 	thumbnail "outfit/known"
-	"mass" 30
+	"mass" 20
 	"outfit space" -30
 	"weapon capacity" -30
 	"gun ports" -1
@@ -682,13 +688,13 @@ outfit "Shrapnel Cannon"
 		"submunition" "shrapnel pellets" 16
 		"submunition" "shrapnel" 16
 		"submunition" "tracer (250)" 1
-	description "The Shrapnel Cannon is basically an oversized shotgun. The large shrapnel shells fired from this weapon explode upon reaching the end of the barrel and fire out 16 super-heated shrapnel pellets, doing massive damage up close."
-	description "Due to the nature of this weapon, ammunition needs to be specially ordered."
-	description "Brought to you by Enigma Corp."
+	description `When someone at the Enigma Corporation was given thirty seconds to come up with an idea for a new weapon, they immediately blurted out "Big space shotgun!" The Shrapnel Cannon is just that. The large shrapnel shells fired from this weapon explode upon reaching the end of the barrel, firing out sixteen super-heated pellets. This allows for considerable amounts of damage to be dealt up close, but makes the weapon almost completely useless at range.`
+	description "Brought to you by the Enigma Corporation."
 	
 outfit "tracer (250)"
 	weapon
 		"lifetime" 250
+	description "Tracers are used to artificially increase the range of certain weapons so that the AI is able to use them properly. This tracer increases the range to 250."
 
 outfit "shrapnel"
 	weapon
@@ -716,9 +722,11 @@ outfit "Shrapnel Canister"
 	category "Ammunition"
 	cost 4000
 	thumbnail "outfit/known"
-	"mass" .3
+	"mass" .1
 	"canister capacity" -1
 	description "Shrapnel Canisters are ammunition for the Shrapnel Cannon and each hold sixteen super-heated pellets."
+	description "Brought to you by the Enigma Corporation."
+
 
 outfit "Thermite Mine Placer"
 	category "Secondary Weapons"
@@ -756,13 +764,13 @@ outfit "Thermite Mine Placer"
 		"missile strength" 1000
 	description "Coming to you from Enigma Corp is the brand new Ion Mine Placer! This weapon places down unmoving mines that will explode when an enemy gets too close, and once they're hit, their ship will take a small amount of damage and an extreme amount of heat damage, causing most ships to overheat."
 	description "Warning: May inflict self damage."
-	description "Brought to you by Enigma Corp."
+	description "Brought to you by the Enigma Corporation."
 	
 outfit "Thermite Mine"
 	category "Ammunition"
 	cost 10000
 	thumbnail "outfit/thermite mine"
-	"mass" .4
+	"mass" 1.5
 	"thermite mine capacity" -1
 	description "The Thermite Mine is nothing more than a Thermite Torepdo with its thrusters removed; used as ammunition for the Thermite Mine Placer."
 	description "Brought to you by the Enigma Corporation."
@@ -847,13 +855,13 @@ outfit "Typhoon Mine Placer"
 		"missile strength" 1000
 	description "Coming to you from Enigma Corp is the brand new Typhoon Mine Placer! This weapon places down unmoving mines that will explode when an enemy gets too close, causing massive damage"
 	description "Warning: May inflict self damage."
-	description "Brought to you by Enigma Corp."
+	description "Brought to you by the Enigma Corporation."
 
 outfit "Typhoon Mine"
 	category "Ammunition"
 	cost 10000
 	thumbnail "outfit/e mine"
-	"mass" .4
+	"mass" 1.5
 	"mine capacity" -1
 	description "The Typhoon Mine is nothing more than a Typhoon Torepdo with its thrusters removed; used as ammunition for the Typhoon Mine Placer."
 	description "Brought to you by the Enigma Corporation."
@@ -932,7 +940,7 @@ outfit "Wolf Bomb Bay"
 		"hit force" 70
 		"missile strength" 100
 	description "The Wolf Bomb Bay is specifically designed to be used on the Enigma Corp EC-077 Dire Wolf bomber. Made using only the newest of technology in the field of torpedo weaponry, the explosive yield of a single Wolf Bomb is greater than that of any torpedo to ever come before it."
-	description "Brought to you by Enigma Corp."
+	description "Brought to you by the Enigma Corporation."
 
 outfit "Wolf Bomb"
 	category "Ammunition"
