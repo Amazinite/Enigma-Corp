@@ -38,7 +38,7 @@ outfit "Exotic Matter Plating"
 	description "Exotic matter is similar to antimatter, but instead of having the opposite charge of normal matter, it has opposite mass. This means that exotic matter has negative mass, making it possible to reduce the total mass of a ship. Helpful for freighters that travel through areas of high piracy."
 	description "Brought to you by Enigma Corp."
 
-outfit "F-Class Reinforced Plating"
+outfit "Reinforced Plating F-Class"
 	category "Systems"
 	cost 125000
 	thumbnail "outfit/reinforced plating"
@@ -47,7 +47,7 @@ outfit "F-Class Reinforced Plating"
 	"hull" 500
 	description "Reinforced platings are placed on the outer hull of a ship to increase the total armor strength of the ship. This F-Class version is meant for smaller ships and only increases hull strength very slightly."
 
-outfit "F-Class Shield Overcharger"
+outfit "Shield Overcharger F-Class"
 	category "Systems"
 	cost 125000
 	thumbnail "outfit/tiny overcharger"
@@ -56,7 +56,7 @@ outfit "F-Class Shield Overcharger"
 	"shields" 500
 	description "Shield overchargers are connected to the shield generator of a ship to increase the total shields of the ship. This F-Class version is meant for smaller ships and only increases shield strength very slightly."
 
-outfit "D-Class Reinforced Plating"
+outfit "Reinforced Plating D-Class"
 	category "Systems"
 	cost 250000
 	thumbnail "outfit/reinforced plating"
@@ -65,7 +65,7 @@ outfit "D-Class Reinforced Plating"
 	"hull" 1000
 	description "Reinforced platings are placed on the outer hull of a ship to increase the total armor strength of the ship. This D-Class version is meant for light warships and increases hull strength slightly."
 
-outfit "D-Class Shield Overcharger"
+outfit "Shield Overcharger D-Class"
 	category "Systems"
 	cost 250000
 	thumbnail "outfit/small overcharger"
@@ -74,7 +74,7 @@ outfit "D-Class Shield Overcharger"
 	"shields" 1000
 	description "Shield overchargers are connected to the shield generator of a ship to increase the total shields of the ship. This D-Class version is meant for light warships and increases shield strength slightly."
 
-outfit "C-Class Reinforced Plating"
+outfit "Reinforced Plating C-Class"
 	category "Systems"
 	cost 625000
 	thumbnail "outfit/reinforced plating"
@@ -83,7 +83,7 @@ outfit "C-Class Reinforced Plating"
 	"hull" 2500
 	description "Reinforced platings are placed on the outer hull of a ship to increase the total armor strength of the ship. This C-Class version is meant for medium warships and moderately increases hull strength."
 
-outfit "C-Class Shield Overcharger"
+outfit "Shield Overcharger C-Class"
 	category "Systems"
 	cost 625000
 	thumbnail "outfit/medium overcharger"
@@ -92,7 +92,7 @@ outfit "C-Class Shield Overcharger"
 	"shields" 2500
 	description "Shield overchargers are connected to the shield generator of a ship to increase the total shields of the ship. This C-Class version is meant for medium warships and moderately increases shield strength."
 
-outfit "B-Class Reinforced Plating"
+outfit "Reinforced Plating B-Class"
 	category "Systems"
 	cost 1250000
 	thumbnail "outfit/reinforced plating"
@@ -101,7 +101,7 @@ outfit "B-Class Reinforced Plating"
 	"hull" 5000
 	description "Reinforced platings are placed on the outer hull of a ship to increase the total armor strength of the ship. This B-Class version is meant for larger ships and increases hull strength by a substantial amount."
 
-outfit "B-Class Shield Overcharger"
+outfit "Shield Overcharger B-Class"
 	category "Systems"
 	cost 1250000
 	thumbnail "outfit/large overcharger"
@@ -110,7 +110,7 @@ outfit "B-Class Shield Overcharger"
 	"shields" 5000
 	description "Shield overchargers are connected to the shield generator of a ship to increase the total shields of the ship. This B-Class version is meant for larger ships and increases shield strength by a substantial amount."
 
-outfit "A-Class Reinforced Plating"
+outfit "Reinforced Plating A-Class"
 	category "Systems"
 	cost 1875000
 	thumbnail "outfit/reinforced plating"
@@ -119,7 +119,7 @@ outfit "A-Class Reinforced Plating"
 	"hull" 7500
 	description "Reinforced platings are placed on the outer hull of a ship to increase the total armor strength of the ship. This A-Class version is meant for capital ships and gives a massive increase to hull strength."
 
-outfit "A-Class Shield Overcharger"
+outfit "Shield Overcharger A-Class"
 	category "Systems"
 	cost 1875000
 	thumbnail "outfit/huge overcharger"
@@ -128,7 +128,7 @@ outfit "A-Class Shield Overcharger"
 	"shields" 7500
 	description "Shield overchargers are connected to the shield generator of a ship to increase the total shields of the ship. This A-Class version is meant for capital ships and gives a increase to shield strength."
 
-outfit "S-Class Reinforced Plating"
+outfit "Reinforced Plating S-Class"
 	category "Systems"
 	cost 2500000
 	thumbnail "outfit/reinforced plating"
@@ -138,7 +138,7 @@ outfit "S-Class Reinforced Plating"
 	description "Reinforced platings are placed on the outer hull of a ship to increase the total armor strength of the ship. This S-Class version is meant only for the most massive of ships that have sacrificed some weapon and engine space for all this hull."
 	description "Brought to you by Enigma Corp."
 
-outfit "S-Class Shield Overcharger"
+outfit "Shield Overcharger S-Class"
 	category "Systems"
 	cost 2500000
 	thumbnail "outfit/huge overcharger"
