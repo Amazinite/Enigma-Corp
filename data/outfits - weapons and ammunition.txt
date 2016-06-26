@@ -314,14 +314,15 @@ outfit "Forge Cannon"
 		"inaccuracy" 1
 		"velocity" 20
 		"lifetime" 100
-		"reload" 900
+		"reload" 600
 		"firing energy" 2400
-		"firing force" 100
+		"firing force" 250
 		"firing heat" 4800
-		"hit force" 250
+		"hit force" 750
 		"shield damage" 1800
 		"hull damage" 2230
-	description "The Forge Cannon is a highly powerful railgun that fires titanium slugs at extreme speeds. The kinetic force of the slug hitting something causes a massive explosion, quickly ripping through any hull that it hits, while also doing large amounts of shield damage. Due to the size of the slugs and the amount of damage that could be caused by a malfunction, slugs are slowly and carefully reloaded into the cannon, leading to rather long reload periods."
+	description "The Forge Cannon is a highly powerful railgun that fires titanium slugs at extreme speeds, able to reach very long ranges. The kinetic force of the slug landing on a target causes a massive explosion, dealing large amounts of damage and knocking back the ship that it hits. Due to the size of the slugs and the power at which the projectile is launched, they are slowly loaded into the barrel of the weapon and time must be taken for the cannon to charge, leading to rather long reload periods."
+	description "Brought to you by the Enigma Corporation."
 	
 outfit "Fuel Rod Launcher"
 	category "Secondary Weapons"
@@ -353,8 +354,8 @@ outfit "Fuel Rod Launcher"
 		"hull damage" 1000
 		"heat damage" 2500
 		"missile strength" 100
-	description "Have you ever felt like you have too much fuel? Do you never run out of fuel because of how many fuel pods you have? Well put that fuel to some good use with the Fuel Rod Launcher!"
-	description "The Fuel Rod Launcher works by filling rods with your ship’s hyperspace fuel and firing them through a torpedo tube. When the rod makes contact with something, it breaks open and causes the fuel to mix with a small amount of chemicals and catch fire. This creates a large explosion with some heat damage to it. Very useful for damaging the hull of ships as well."
+	description "The Fuel Rod Launcher is as simple as it sounds. The weapon fills hollow rods full of your hyperspace fuel and launches them at your foes. The rod is specially designed to shatter upon impact and ignite the fuel, causing a large heat explosion."
+	description "Brought to you by the Enigma Corporation."
 
 outfit "Grav Bomb"
 	category "Secondary Weapons"
@@ -374,7 +375,8 @@ outfit "Grav Bomb"
 		"reload" 180
 		"firing energy" 1000
 		"firing heat" 0
-	description "The Grav Bomb has the reverse effect of the Gravitational Wave Generator, pulling ships toward the origin point as opposed to pushing them away. This can be extremely helpful for pulling smaller and quicker ships into your optimal weapon ranges, or just stopping those pesky Navy Rainmakers from getting too far away."
+	description "The Grav Bomb has the reverse effect of the Gravitational Wave Generator, pulling ships toward the origin point as opposed to pushing them away. This can be extremely helpful for pulling smaller and quicker ships into the optimal range of your weapon, or stopping missile boats from getting too far away.."
+	description "Brought to you by the Enigma Corporation."
 
 outfit "Grav"
 	weapon
@@ -422,8 +424,7 @@ outfit "Gravitational Wave Generator"
 		"reload" 180
 		"firing energy" 2000
 		"firing heat" -1000
-	description "This device works by smashing together two miniature contained black holes, which generates a gravitational wave strong enough to push away any unwanted ships (or ships that you don't want blown up). The closer your enemy is, the more they get pushed away." 
-	description "	Although, the energy required to move two black holes together is massive, so make sure that you pack some extra batteries to compensate. But strangely enough, the smashing of the black holes draws heat away from your ship, making it act as sort of a cooling device when fired."
+	description "The Gravitational Wave Generator works on unknown technology in order to generator a gravitational wave strong enough to exert a force upon ships and push them away from the origin point of the blast. This requires large amounts of energy, but mysteriously also draws heat away from your ship."
 	description "Brought to you by the Enigma Corporation."
 
 outfit "Wave"
@@ -604,7 +605,8 @@ outfit "Repair Turret"
 		"firing heat" 4.4
 		"shield damage" 0
 		"hull damage" -5
-	description `Using new 'slow laser' technology, the Deep developed a special laser weapon that is able to carry small nanobots within the beam. These nanobots are especially helpful for repairing the hulls of ships, making this an extemely helpful weapon for captains who may want to be able to quickly repair ships in their fleet without putting themselves in danger.`
+		"piercing" 1
+	description `Along with the development of the Energy Turret, Deep Sky also created the Repair Turret. This turret takes advantage of nanites used to repair the hull of a ship and fires them through space using new "slow laser" technology. The slow laser carries the nanites to their target where they begin to work away reparing the hull of the ship that they land on.`
 	
 outfit "Reverse Engineered Skylance"
 	category "Turrets"
@@ -666,7 +668,7 @@ outfit "Seeker Laser"
 		"firing heat" 4.2
 		"shield damage" 4.9
 		"hull damage" 6.4
-	description "No one knows exactly how this weapon works, but the outcome is truly amazing. When fired, the Seeker Laser produces a laser that is able to split up into multiple projectiles and track targets, chasing them for long ranges. Almost completely impossible to dodge, the lasers move at extremely fast speeds and have a high turn radius, allowing the lasers to track even the fastest of ships."
+	description "The Seeker Laser is said to be made from similar technology to the Cryo Beam. No one knows exactly how it works, but the outcome is incredible. The weapon acts like a normal laser, but fires the lasers in burst instead of in a constant stream. This results in multiple sections that are indepedant from eachother. These mini laser sections then somehow seek their target, moving at speeds so fast that they are nearly impossible to dodge."
 	description "Brought to you by the Enigma Corporation."
 
 outfit "Shrapnel Cannon"
