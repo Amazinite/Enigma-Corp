@@ -34,8 +34,8 @@ ship "EC-001 'Badger'"
 	gun 0 -28.5
 	gun 11 -16.5
 	explode "tiny explosion" 25
-	description "The EC-001 Badger was created in order to compete against the Republic Navy Combat Drone. With three gun hardpoints, double the hull strength, and almost double the weight, the Badger is bigger, better, and badder in every way."
-	description "Brought to you by Enigma Corp."
+	description `The Badger was the first of the Corporation's ships that did not use a stolen design. Created to compete against the Republic Navy Combat Drone, it is the strongest drone currently on the galactic market. Equipped with three gun hardpoints and double the hull strength, the Badger can pack a huge punch. Although, some critique the Badger for being very slow and large, making it an easy target.`
+	description "Brought to you by the Enigma Corporation."
 
 ship "EC-002 'Sentry'"
 	sprite "ship/sentry drone"
@@ -43,8 +43,8 @@ ship "EC-002 'Sentry'"
 		category "Drone"
 		"cost" 52000
 		"hull" 5000
-		"mass" 200
-		"drag" 100
+		"mass" 120
+		"drag" 5.4
 		"heat dissipation" 1
 		"outfit space" 100
 		"weapon capacity" 50
@@ -61,8 +61,8 @@ ship "EC-002 'Sentry'"
 	engine 9 29
 	turret 0 0 "Laser Turret"
 	explode "tiny explosion" 15
-	description "The sentry drone is a heavily armored box filled with targeting computers with a turret strapped to it. There's enough space to add any turret out want, but it comes default with a heavy laser turret. The only engines this thing has are tiny little thrusters with only enough power to move the drone a few feet into a drone bay if your ship happens to be nearby"
-	description "Brought to you by Enigma Corp."
+	description "The Sentry Drone is little more than a joke among those in the Corporation design team. Nothing more than a huge metal box filled with targetting computer and a single turret hardpoint placed on the top, the Sentry is a rarely seen drone that can be very useful in numbers, but due to its large mass and low engine capacity it is a rather easy target to hit and does not last long in large battles."
+	description "Brought to you by the Enigma Corporation."
 
 ship "EC-031 'Viper'"
 	sprite "ship/Echo 31"
@@ -109,8 +109,8 @@ ship "EC-031 'Viper'"
 	explode "small explosion" 15
 	explode "medium explosion" 25
 	explode "big explosion" 10
-	description `When the Enigma Corp isn't using stolen alien technology, they're using missiles. Enigma Corp's line of missile warships are interesting in that they aren't like normal human ships. They emphasize shields over hull and are faster than most ships of the same size. This missile destroyer has five missile turrets and an expanded ammunition bay for more missile ammo.`
-	description "Brought to you by Enigma Corp."
+	description `The Enigma Corproation's "Missile Series" of ships was the first to gain reasonable public acclaim, mainly from those who enjoy using missiles over laser or blaster weaponry. The Viper was the first in this series to be released to the public. Similar to the rest of the ships in the Missile Series, it greatly emphasizes shields over hull compared to normal human ships and is designed to have a very low drag compared to ships of the same size. It has also been praised by many for its niche design of using Lovelace Labs' new Missile Turrets and having a built in missile storage system for carrying even more missiles."
+	description "Brought to you by the Enigma Corporation."
 
 ship "EC-032 'Rattlesnake'"
 	sprite "ship/Echo 32"
@@ -164,8 +164,8 @@ ship "EC-032 'Rattlesnake'"
 	explode "small explosion" 36
 	explode "medium explosion" 20
 	explode "big explosion" 8
-	description "An upgrade to the missile destroyer, the Rattlesnake missile cruiser features a special cargo bay designed to only hold Enigma Corp designed missiles, making it a lot better to use missile launchers from Enigma Corp. Did I hear monopoly? Noooooooo."
-	description "Brought to you by Enigma Corp."
+	description `The Rattlesnake is the Viper's big brother, having a similar design philosophy and capitalizing on missile bay technology in order to increase the amount of missiles able to be carried. Unsurprisingly, the Corporation has designed the Rattlesnake to only be able to carry extra missiles that have been built by the Corporation itself, able to carry an additional 245 Hellfire Missiles and 350 Flux Missiles.`
+	description "Brought to you by the Enigma Corporation."
 
 ship "EC-033 'King Cobra'"
 	sprite "ship/Echo 33"
@@ -221,8 +221,8 @@ ship "EC-033 'King Cobra'"
 	explode "medium explosion" 35
 	explode "big explosion" 45
 	explode "huge explosion" 30
-	description "The biggest of the big when it comes to Enigma Corp missile ships, this heavy battleship has ten missile launchers and a big enough missile bay to hold an additional 350 hellfire missiles and 500 flux missiles!."
-	description "Brought to you by Enigma Corp."
+	description `If the Rattlesnake is the Viper's big brother, than the King Cobra is the father of them all. The biggest of the big when it comes to Enigma Corp missile ships, this heavy warship has ten missile launchers and big enough missile bays to hold 350 Hellfire Missiles and 500 Flux Missiles.`
+	description "Brought to you by the Enigma Corporation."
 
 ship "EC-037 'Aegis'"
 	sprite "ship/Echo 37"
@@ -273,8 +273,8 @@ ship "EC-037 'Aegis'"
 	explode "medium explosion" 35
 	explode "big explosion" 30
 	explode "huge explosion" 10
-	description "The Echo 37 is somewhat of a mix between a heavy and medium warship, making it odd to place. On one hand it's the closer to the size of a medium warship, but on the other it has enough weapons to compete against a heavy warship. All this extra weapon space does come at the price of less engine capacity, so some tend to shy away from this beast."
-	description "Brought to you by Enigma Corp."
+	description `The Aegis was the first ship from the Corporation's "Mythos Series" of ships that was made available to the public. A mix between a medium and heavy warship, it is in a rather odd place. On one had it is the size of a medium warship, but on the other it has enough weapons to compete against many heavy warships. But some tend to shy away from this beast, as all that extra weapon space come as the cost of sustantially less engine capacity.`
+	description "Brought to you by the Enigma Corporation."
 
 ship "EC-050 'Orca'"
 	sprite "ship/Echo 50"
@@ -291,7 +291,7 @@ ship "EC-050 'Orca'"
 		"fuel capacity" 1300
 		"cargo space" 1200
 		"outfit space" 800
-		"weapon capacity" 300
+		"weapon capacity" 210
 		"engine capacity" 180
 		weapon
 			"blast radius" 360
@@ -312,19 +312,19 @@ ship "EC-050 'Orca'"
 		
 	engine 42 250
 	engine -42 250
-	turret -12 -224.25 "Heavy Laser Turret"
+	turret -12 -224.25 "Laser Turret"
 	turret -12 -157.75
-	turret -12 -96.75 "Heavy Laser Turret"
+	turret -12 -96.75 "Laser Turret"
 	turret -12 -31.75
-	turret 12 -224.25 "Heavy Laser Turret"
+	turret 12 -224.25 "Laser Turret"
 	turret 12 -157.75
-	turret 12 -96.75 "Heavy Laser Turret"
+	turret 12 -96.75 "Laser Turret"
 	turret 12 -31.75
 	explode "medium explosion" 35
 	explode "big explosion" 40
 	explode "huge explosion" 45
-	description "The newest in freighting technology, the Enigma Corp Orca puts even Syndicate freighters to shame. Designed with protection in mindm the Orca also comes fit with highly resistant armor and six turret hardpoints."
-	description "Brought to you by Enigma Corp."
+	description "The Orca is the mother of all haulers, able to carry twice as much cargo as it competitor, the Bulk Freighter. It does this my packing the cargo as tight as humanly possible and converting much of the space that would normally be used for crew quarters and other facilities into cargo space. Although, this makes the Orca come at a heavy cost of over 43 million credits for the hull alone, as well as making the Orca a large and slow target that can have trouble defending itself."
+	description "Brought to you by the Enigma Corporation."
 
 ship "EC-069 'Star King'"
 	sprite "ship/Echo 69"
@@ -374,8 +374,8 @@ ship "EC-069 'Star King'"
 	explode "small explosion" 25
 	explode "medium explosion" 25
 	explode "big explosion" 10
-	description `The Echo 69 'Star King' is the next level in luxury cruisers. Designed for transport of the most important individuals, the Star King is more heavily armed and armoured than it’s smaller cousin, the Star Queen. Every Star Queen also comes with a trained chef and three space waitresses, free of charge!`
-	description "Brought to you by Enigma Corp."
+	description `The Star King was the Corporation's attempt at reviving the luxury cruiser market and openning it up to the wider market of combat pilots. Designed for transport of the most important individuals, the Star King is both more heavily armed and armored than it's smaller cousin, the Star Queen. Every Star King also comes complete with a trained chef and three space waitresses free of charge!`
+	description "Brought to you by the Enigma Corporation."
 
 ship "EC-070 'Star Guardian'"
 	sprite "ship/Echo 70"
@@ -394,6 +394,7 @@ ship "EC-070 'Star Guardian'"
 		"outfit space" 500
 		"weapon capacity" 205
 		"engine capacity" 140
+		"EMP hardpoint" 1
 		weapon
 			"blast radius" 70
 			"shield damage" 650
@@ -426,8 +427,8 @@ ship "EC-070 'Star Guardian'"
 	explode "small explosion" 30
 	explode "medium explosion" 30
 	explode "big explosion" 10
-	description `The Star Guardian is the pinnicale of luxury transport, and every very important person's choice for transportation. The Star Guardian comes specially fitted with an EMP device made for when the ship gets unexpectedly ambushed and needs to make a quick escape. Just fire the EMP device, scramble the electronics of every pirate ship that was unlucky to be to close, and jump out of the system.`
-	description "Brought to you by Enigma Corp."
+	description "After the mixed reception of the Star King to the public market, the Corporation began work on a new design that sought to create a perfect luxury transport ship that could also double as a warship. The Star Guardian is the result of that. The pinnicale of luxry transport, the Star Guardian is better than the Star King in every way and also comes specially fitted with an EMP Device designed to get you out of the stickiest of situations. The newly designed EMP Device scrambles the power systems of nearby enemy ships, allowing for the Star Guardian to quickly warp out of the system while recieving little damage."
+	description "Brought to you by the Enigma Corporation."
 
 ship "EC-077 'Dire Wolf'"
 	sprite "ship/Echo 77"
@@ -475,8 +476,8 @@ ship "EC-077 'Dire Wolf'"
 	explode "small explosion" 25
 	explode "medium explosion" 20
 	explode "big explosion" 5
-	description "The Dire Wolf is an advanced bomber fitted with the strongest of torpedo technology. This power comes at a cost, though, as the Dire Wolf is clearly one of the weakest ships in its class when it comes to armor and shields."
-	description "Brought to you by Enigma Corp."
+	description `This ship was a venture into the widely untouched market of bomber technology. The Dire Wolf is an advanced bomber fitted with the strongest of torpedo technology: Enigma Corp's new Wolf Bombs. These weapons are stronger than any other torpedo technology on the market, making the Wolf a formidable foe. This power comes at a cost, though, as the Dire Wolf is clearly one of the weakest ships in its class when it comes to armor and shields.`
+	description "Brought to you by the Enigma Corporation."
 
 ship "EC-078 'Dire Hawk'"
 	sprite "ship/Echo 78"
@@ -527,8 +528,8 @@ ship "EC-078 'Dire Hawk'"
 	explode "small explosion" 25
 	explode "medium explosion" 20
 	explode "big explosion" 5
-	description "The EC-078 Dire Hawk is pretty much the twin brother of the Dire Wolf, but he got more presents on Christmas. This version of the Dire Wolf includes a built in prototype cloaking device used for stealth missions. Due to its bulk, this version has some added mass and slightly less hull, as well as no new space for weapons. Even still, skilled use of the cloaking device can make the EC-078 more deadly than the EC-077 could ever be."
-	description "Brought to you by Enigma Corp."
+	description "One of the main critiques with the Dire Wolf was its low amount of armor in shields, leading to a quick death in most situations. As a result, the Corporation began work on making a new bomber that would be able to withstand much more fire. They ended up creating the Dire Hawk. This ship is exactly the same as the Dire Wolf in almost all ways, except for one important part; the Dire Hawk comes fitted with a prototype cloaking device. This cloaking device allows for the Dire Hawk to avoid taking damage if used correctly, making the Hawk more deadly than the Wolf could ever be."
+	description "Brought to you by the Enigma Corporation."
 
 ship "EC-099 'Oblivion'"
 	sprite "ship/Echo 99"
@@ -600,6 +601,5 @@ ship "EC-099 'Oblivion'"
 	gun 118 145 "Typhoon Launcher"
 	explode "big explosion" 50
 	explode "huge explosion" 100
-	description "The EC-099 Oblivion heavy flagship is the pinnacle of human technology. Better in every way, this true behemoth is a true beauty, only entrusted to those in the most inner of circles in the Enigma Corporation."
-	description "Brought to you by Enigma Corp."
-	description "Also, why do you have this? I'm watching you..."
+	description "The EC-099 Oblivion heavy flagship is the pinnacle of human technology. Better in almost every way, this behemoth is a true beauty, only entrusted to those in the most inner of circles in the Enigma Corporation. Or just those who cheat to get it."
+	description "Brought to you by the Enigma Corporation."
