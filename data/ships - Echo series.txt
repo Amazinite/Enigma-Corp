@@ -109,7 +109,7 @@ ship "EC-031 'Viper'"
 	explode "small explosion" 15
 	explode "medium explosion" 25
 	explode "big explosion" 10
-	description `The Enigma Corproation's "Missile Series" of ships was the first to gain reasonable public acclaim, mainly from those who enjoy using missiles over laser or blaster weaponry. The Viper was the first in this series to be released to the public. Similar to the rest of the ships in the Missile Series, it greatly emphasizes shields over hull compared to normal human ships and is designed to have a very low drag compared to ships of the same size. It has also been praised by many for its niche design of using Lovelace Labs' new Missile Turrets and having a built in missile storage system for carrying even more missiles."
+	description `The Enigma Corproation's "Missile Series" of ships was the first to gain reasonable public acclaim, mainly from those who enjoy using missiles over laser or blaster weaponry. The Viper was the first in this series to be released to the public. Similar to the rest of the ships in the Missile Series, it greatly emphasizes shields over hull compared to normal human ships and is designed to have a very low drag compared to ships of the same size. It has also been praised by many for its niche design of using Lovelace Labs' new Missile Turrets and having a built in missile storage system for carrying even more missiles.`
 	description "Brought to you by the Enigma Corporation."
 
 ship "EC-032 'Rattlesnake'"
