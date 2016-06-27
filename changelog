@@ -19,6 +19,7 @@ V0.5.4 and a half
     Capacity Upgraders are now categorized as "Ammunition" instead of "Systems."
     Removed old Echo 7 images and the Legacy Echo images.
     Removed the Smartbomb because it's trash.
+    Plasmathrowers are no longer sold at Enigma Corp outfitters
     Changed the Reinforced Plating and Shield Overcharger names to have their class be at the end of the name as to make them appear next to eachother in outfitters
   Balance
     Plasmathrower now also does some heat damage.
@@ -38,6 +39,10 @@ V0.5.4 and a half
     Reduced Sentry Drone mass (200->120) and drag (100->5.4)
     Reduced Orca weapon space (300->210) and it is now sold with Laser Turrets instead of Heavy Laser Turrets.
     The EMP Device can now only be used on the Star Guardian.
+    Forge Cannon reload time decreased (900->600), hit force increased (250->750), and firing force increased (100->250).
+    The Repair Turret now has 100% piercing so that it can be used through shields.
+    All mine placers have had their trigger and blast radii reduced (75->40 and 85->50 respectively).
+    Increased Flux Mine Placer (35->50) and Flux Torpedo Launcher (10->20) ion damages.
   Bug Fixes
     The usual typo fixes (thx Alkallid and Takarada)
     Fixed the Echo 50 engine coordinates.
@@ -46,6 +51,7 @@ V0.5.4 and a half
     Fixed a bug that caused a random system with nothing in it to appear at position 0,0.
     The Star King and Star Guardian are now sold with the proper amount of Flux Missiles.
     Any weapon that had a homing of 10 now has a homing of 4
+    The Fuel Powered Generator now requires you to have an open gun port, as otherwise you would have been unable to use it.
 
 V0.5.4 Missions and Compatibility
   New missions
