@@ -189,12 +189,11 @@ outfit "Flux Mine Placer"
 		"firing heat" 20
 		"acceleration" 0.001
 		"drag" 0.1
-		"trigger radius" 75
-		"blast radius" 85
-		"ion damage" 35
+		"trigger radius" 40
+		"blast radius" 50
+		"ion damage" 50
 		"missile strength" 1000
-	description "Coming to you from Enigma Corp is the brand new Flux Mine Placer! This weapon places down unmoving mines that will explode when an enemy gets too close, and once they're hit, their ship will be depleted of its energy, causing it to become immobile for a short time."
-	description "Warning: May inflict self damage."
+	description "The Flux Mine Placer, along with the other two mine placer weapons developed by Enigma Corp, seeks to open up a corner of the weapons market that has yet to be touched. Using the Flux Torpedo as a base, this mine placer deploys a mine that detonates upon coming in close proximity to an enemy ship and deals massive amounts of ion damage."
 	description "Brought to you by the Enigma Corporation."
 
 outfit "Flux Mine"
@@ -203,7 +202,7 @@ outfit "Flux Mine"
 	thumbnail "outfit/i mine"
 	"mass" 1.5
 	"flux mine capacity" -1
-	description "The Flux Mine is nothing more than a Flux Torpedo with its thrusters removed; used as ammunition for the Flux Mine Placer."
+	description "The Flux Mine is a Flux Torepdo that has had its thrusters removed and replaced with more flux explosives; used as ammunition for the Flux Mine Placer."
 	description "Brought to you by the Enigma Corporation."
 
 outfit "Flux Missile Launcher"
@@ -286,10 +285,10 @@ outfit "Flux Torpedo Launcher"
 		"optical tracking" .9
 		"shield damage" 0
 		"hull damage" 0
-		"ion damage" 10
+		"ion damage" 20
 		"hit force" 70
 		"missile strength" 30
-	description "The Flux Torpedo Launcher is an altered version of Deep Sky's Typhoon Launcher built by the Syndicate. Intended to be used to protect freighter convoys, the Flux Torpedo completely short-circuits the enemy's ship, draining much of the ship's energy. This usually allows a convoy enough time to jump out of the system before the aggressor can recover."
+	description "The Flux Torpedo Launcher is an experiment from Syndicate to create an altered version of Deep Sky's Typhoon Launcher that, instead of damage it, disrupts the electrical systems of a ship, leaving them completely useless. This allows convoys of freighters to leave the system before they become too damage or for combat fleets to pummel their useless enemies into submission."
 	
 outfit "Flux Torpedo"
 	category "Ammunition"
@@ -758,15 +757,14 @@ outfit "Thermite Mine Placer"
 		"firing heat" 20
 		"acceleration" 0.001
 		"drag" 0.1
-		"trigger radius" 75
-		"blast radius" 85
+		"trigger radius" 40
+		"blast radius" 50
 		"hull damage" 250
 		"shield damage" 250
 		"heat damage" 3000
 		"hit force" 50
 		"missile strength" 1000
-	description "Coming to you from Enigma Corp is the brand new Ion Mine Placer! This weapon places down unmoving mines that will explode when an enemy gets too close, and once they're hit, their ship will take a small amount of damage and an extreme amount of heat damage, causing most ships to overheat."
-	description "Warning: May inflict self damage."
+	description "The Thermite Mine Placer, along with the other two mine placer weapons developed by Enigma Corp, seeks to open up a corner of the weapons market that has yet to be touched. Using the Thermite Torpedo as a base, this mine placer deploys an explosive mine that detonates upon coming in close proximity to an enemy ship and deals massive amounts of heat damage."
 	description "Brought to you by the Enigma Corporation."
 	
 outfit "Thermite Mine"
@@ -775,7 +773,7 @@ outfit "Thermite Mine"
 	thumbnail "outfit/thermite mine"
 	"mass" 1.5
 	"thermite mine capacity" -1
-	description "The Thermite Mine is nothing more than a Thermite Torepdo with its thrusters removed; used as ammunition for the Thermite Mine Placer."
+	description "The Thermite Mine is a Thermite Torepdo that has had its thrusters removed and replaced with more thermite explosives; used as ammunition for the Thermite Mine Placer."
 	description "Brought to you by the Enigma Corporation."
 	
 outfit "Thermite Torpedo Launcher"
@@ -813,7 +811,7 @@ outfit "Thermite Torpedo Launcher"
 		"heat damage" 1000
 		"hit force" 70
 		"missile strength" 30
-	description "Given the success of the Flamethrower, the Free Worlds decided to make a torpedo version of it. The Thermite Torpedo works by covering the enemy's ship in liquid thermite, burning away at the hull of the ship and causing massive heat damage."
+	description "After the release of the Flamethrower, many in the south were hungry for more weapons that would overheat the many pirates that they had to fight off. As a result, engineers on Rust began experimenting with using iron thermite to generate the heat needed to overheat a ship. This thermite was loaded in to torpedos, creating the Thermite Torpedo and its respective launcher."
 	
 outfit "Thermite Torpedo"
 	category "Ammunition"
@@ -850,14 +848,13 @@ outfit "Typhoon Mine Placer"
 		"firing heat" 20
 		"acceleration" 0.001
 		"drag" 0.1
-		"trigger radius" 75
-		"blast radius" 85
+		"trigger radius" 40
+		"blast radius" 50
 		"hull damage" 1500
 		"shield damage" 1500
 		"hit force" 50
 		"missile strength" 1000
-	description "Coming to you from Enigma Corp is the brand new Typhoon Mine Placer! This weapon places down unmoving mines that will explode when an enemy gets too close, causing massive damage"
-	description "Warning: May inflict self damage."
+	description "The Typhoon Mine Placer, along with the other two mine placer weapons developed by Enigma Corp, seeks to open up a corner of the weapons market that has yet to be touched. Using the Typhoon Torpedo as a base, this mine placer deploys a highly explosive mine that detonates upon coming in close proximity to an enemy ship."
 	description "Brought to you by the Enigma Corporation."
 
 outfit "Typhoon Mine"
@@ -866,7 +863,7 @@ outfit "Typhoon Mine"
 	thumbnail "outfit/e mine"
 	"mass" 1.5
 	"mine capacity" -1
-	description "The Typhoon Mine is nothing more than a Typhoon Torepdo with its thrusters removed; used as ammunition for the Typhoon Mine Placer."
+	description "The Typhoon Mine is a Typhoon Torepdo that has had its thrusters removed and replaced with more explosives; used as ammunition for the Typhoon Mine Placer."
 	description "Brought to you by the Enigma Corporation."
 	
 outfit "Warp Inhibitor"
@@ -942,7 +939,7 @@ outfit "Wolf Bomb Bay"
 		"hull damage" 2000
 		"hit force" 70
 		"missile strength" 100
-	description "The Wolf Bomb Bay is specifically designed to be used on the Enigma Corp EC-077 Dire Wolf bomber. Made using only the newest of technology in the field of torpedo weaponry, the explosive yield of a single Wolf Bomb is greater than that of any torpedo to ever come before it."
+	description "The Wolf Bomb Bay is specifically designed to be used on the Dire Wolf bomber and to be better than any other torpedo available on the market. The explosive yield of a single Wolf Bomb is greater than other torpedos and has increased armor to survive more punishment from anti-missile systems."
 	description "Brought to you by the Enigma Corporation."
 
 outfit "Wolf Bomb"
