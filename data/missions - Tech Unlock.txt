@@ -8,13 +8,25 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-mission "Enigma Corp 1"
+mission "Enigma Corp 1 Timer"
 	landing
 	invisible
 	to offer
 		has "event: war begins"
 	on offer
+		event "Enigma Corp 1 Timer" 14
+		fail
+
+event "Enigma Corp 1 Timer"
+
+mission "Enigma Corp 1"
+	landing
+	invisible
+	to offer
+		has "event: Enigma Corp 1 Timer"
+	on offer
 		event "Enigma Corp 1"
+		event "Enigma Corp 2 Timer" 180
 		conversation
 			`	As you land, you get a message informing you of a new corporation that has just opened its doors to the public. Head towards an Enigma Corporation station located in one of the following systems:`
 			`	Kraz`
@@ -36,12 +48,13 @@ event "Enigma Corp 1"
 	planet "Enigma Zeta"
 		outfitter "Enigma Basic"
 			
+event "Enigma Corp 2 Timer"
 
 mission "Enigma Corp 2"
 	landing
 	invisible
 	to offer
-		has "event: joined the free worlds"
+		has "event: Enigma Corp 2 Timer"
 	on offer
 		event "Enigma Corp 2"
 		conversation
@@ -66,12 +79,23 @@ event "Enigma Corp 2"
 		outfitter "Enigma Intermediate"
 		shipyard "EC-0 Basic"
 
-mission "Enigma Corp 3"
+mission "Enigma Corp 3 Timer"
 	landing
 	invisible
 	to offer
 		has "event: New Tech FW"
 		has "event: New Tech Syn"
+	on offer
+		event "Enigma Corp Timer 3" 60
+		fail
+
+event "Enigma Corp Timer 3"
+
+mission "Enigma Corp 3"
+	landing
+	invisible
+	to offer
+		has "event: Enigma Corp 3 Timer"
 	on offer
 		event "Enigma Corp 3"
 		conversation
