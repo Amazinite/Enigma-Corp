@@ -9,7 +9,7 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 ship "Scout Drone"
-	sprite "ship/blueshuttlenoweps"
+	sprite "ship/blue shuttle"
 	"uncapturable"
 	attributes
 		category "Interceptor"

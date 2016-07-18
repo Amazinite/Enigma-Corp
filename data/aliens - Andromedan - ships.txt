@@ -93,7 +93,7 @@ ship "Artillery Battleship"
 	explode "huge explosion" 30
 
 ship "Gun Carrier"
-	sprite "ship/blue carrier"
+	sprite "ship/blue gun carrier"
 	attributes
 		category "Medium Warship"
 		"cost" 0
