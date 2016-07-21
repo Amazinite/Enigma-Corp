@@ -41,7 +41,7 @@ outfit "Exotic Matter Plating"
 outfit "Reinforced Plating F-Class"
 	category "Systems"
 	cost 125000
-	thumbnail "outfit/reinforced plating"
+	thumbnail "outfit/f class plating"
 	"mass" 30
 	"outfit space" -30
 	"hull" 500
@@ -59,7 +59,7 @@ outfit "Shield Overcharger F-Class"
 outfit "Reinforced Plating D-Class"
 	category "Systems"
 	cost 250000
-	thumbnail "outfit/reinforced plating"
+	thumbnail "outfit/d class plating"
 	"mass" 50
 	"outfit space" -50
 	"hull" 1000
@@ -77,7 +77,7 @@ outfit "Shield Overcharger D-Class"
 outfit "Reinforced Plating C-Class"
 	category "Systems"
 	cost 625000
-	thumbnail "outfit/reinforced plating"
+	thumbnail "outfit/c class plating"
 	"mass" 100
 	"outfit space" -100
 	"hull" 2500
@@ -95,7 +95,7 @@ outfit "Shield Overcharger C-Class"
 outfit "Reinforced Plating B-Class"
 	category "Systems"
 	cost 1250000
-	thumbnail "outfit/reinforced plating"
+	thumbnail "outfit/b class plating"
 	"mass" 175
 	"outfit space" -175
 	"hull" 5000
@@ -113,7 +113,7 @@ outfit "Shield Overcharger B-Class"
 outfit "Reinforced Plating A-Class"
 	category "Systems"
 	cost 1875000
-	thumbnail "outfit/reinforced plating"
+	thumbnail "outfit/a class plating"
 	"mass" 250
 	"outfit space" -250
 	"hull" 7500
@@ -131,7 +131,7 @@ outfit "Shield Overcharger A-Class"
 outfit "Reinforced Plating S-Class"
 	category "Systems"
 	cost 2500000
-	thumbnail "outfit/reinforced plating"
+	thumbnail "outfit/s class plating"
 	"mass" 300
 	"outfit space" -300
 	"hull" 10000

@@ -46,7 +46,7 @@ outfit "Antimatter Launcher"
 		sprite "projectile/rocket"
 			"frame rate" 4
 		sound "rocket"
-		ammo "Antimatter Bomb"
+		ammo "Antimatter Rocket"
 		icon "icon/rocket"
 		"hit effect" "nuke explosion"
 		"die effect" "small explosion"
@@ -72,15 +72,15 @@ outfit "Antimatter Launcher"
 	description "Although not available to the wider public, the Enigma Corporation has a plethra of weaponry and other outfits that are based off of stolen alien technology. The Antimatter Launcher is likely the most destructive weapon in existance, using the power of a Quarg Antimatter Core and converting it in to a useable weapon. With enough explosive yield to level half a star system, the Antimatter Launcher requires a specially fitted capital ship to even fit and fire."
 	description "Brought to you by the Enigma Corporation."
 	
-outfit "Antimatter Bomb"
+outfit "Antimatter Rocket"
 	category "Ammunition"
 	cost 5000000
-	thumbnail "outfit/nuke"
+	thumbnail "outfit/antimatter rocket"
 	"mass" 1
 	"bomb capacity" -1
 	"illegal" -1
-	description "The Antimatter Bomb is a highly illegal ammunition used for the Antimatter Launcher."
-	description "	Given the power of even a single Antimatter Bomb, carrying any bombs at all is punishable by death. And god forbid an Archon see you with one of these."
+	description "The Antimatter Rocket is a highly illegal ammunition used for the Antimatter Launcher."
+	description "	Given the power of even a single Antimatter Rocket, carrying any bombs at all is punishable by death. And god forbid an Archon see you with one of these."
 	description "Brought to you by the Enigma Corporation."
 
 outfit "Cryo Beam"
@@ -165,7 +165,7 @@ outfit "Energy Turret"
 outfit "Flux Mine Placer"
 	category "Secondary Weapons"
 	cost 500000
-	thumbnail "outfit/i mine launcher"
+	thumbnail "outfit/f mine placer"
 	"mass" 25
 	"outfit space" -40
 	"weapon capacity" -40
@@ -199,7 +199,7 @@ outfit "Flux Mine Placer"
 outfit "Flux Mine"
 	category "Ammunition"
 	cost 10000
-	thumbnail "outfit/i mine"
+	thumbnail "outfit/f mine"
 	"mass" 1.5
 	"flux mine capacity" -1
 	description "The Flux Mine is a Flux Torepdo that has had its thrusters removed and replaced with more flux explosives; used as ammunition for the Flux Mine Placer."
@@ -733,7 +733,7 @@ outfit "Shrapnel Canister"
 outfit "Thermite Mine Placer"
 	category "Secondary Weapons"
 	cost 500000
-	thumbnail "outfit/t-mine placer"
+	thumbnail "outfit/t mine placer"
 	"mass" 25
 	"outfit space" -40
 	"weapon capacity" -40
@@ -770,7 +770,7 @@ outfit "Thermite Mine Placer"
 outfit "Thermite Mine"
 	category "Ammunition"
 	cost 10000
-	thumbnail "outfit/thermite mine"
+	thumbnail "outfit/t mine"
 	"mass" 1.5
 	"thermite mine capacity" -1
 	description "The Thermite Mine is a Thermite Torepdo that has had its thrusters removed and replaced with more thermite explosives; used as ammunition for the Thermite Mine Placer."

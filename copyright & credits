@@ -14,6 +14,11 @@ FallenCat, for helping me get the ships to not crash the game when you click on 
 Wrzlprnft, for making the fabulous blender ship images
 Toilethinges and Alkallid, for being my honorary spelling and grammar checkers
 ______________________________________________________________________________
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: endless-sky-enigma-corp-plugin
+Upstream-Contact: Jonathan Steck <jsteck2000@gmail.com>
+Source: https://github.com/amazinite/enigma-corp
+
 Files: *
 Copyright: Jonathan Steck
 License: GPL-3+

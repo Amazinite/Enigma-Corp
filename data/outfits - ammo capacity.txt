@@ -120,7 +120,7 @@ outfit "Typhoon Cap-Up"
 outfit "Typhoon Mine Cap-Up"
 	category "Ammunition"
 	cost 15000
-	thumbnail "outfit/e-mine cap"
+	thumbnail "outfit/e mine cap"
 	"mass" 10
 	"outfit space" -10
 	"mine capacity" 5
@@ -129,7 +129,7 @@ outfit "Typhoon Mine Cap-Up"
 outfit "Flux Mine Cap-Up"
 	category "Ammunition"
 	cost 15000
-	thumbnail "outfit/i-mine cap"
+	thumbnail "outfit/f mine cap"
 	"mass" 10
 	"outfit space" -10
 	"ion mine capacity" 5
@@ -138,7 +138,7 @@ outfit "Flux Mine Cap-Up"
 outfit "Thermite Mine Cap-Up"
 	category "Ammunition"
 	cost 15000
-	thumbnail "outfit/t-mine cap"
+	thumbnail "outfit/t mine cap"
 	"mass" 10
 	"outfit space" -10
 	"thermite mine capacity" 5
