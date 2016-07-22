@@ -197,7 +197,7 @@ ship "EC-033 'King Cobra'"
 		"Heavy Anti-Missile Turret"
 		
 		"Fusion Reactor"
-		"FP230b Atomic Battery"
+		"LP144a Battery Pack"
 		"D67-TM Shield Generator"
 		
 		"A520 Atomic Thruster"
@@ -251,7 +251,7 @@ ship "EC-037 'Aegis'"
 		"Heavy Laser" 5
 		
 		"Fission Reactor"
-		"FP230b Atomic Battery"
+		"LP144a Battery Pack"
 		"D41-HY Shield Generator"
 		
 		"A375 Atomic Steering"
@@ -303,7 +303,7 @@ ship "EC-050 'Orca'"
 		"Heavy Anti-Missile Turret" 4
 		
 		"Fusion Reactor"
-		"FP340c Atomic Battery"
+		"LP576a Battery Pack"
 		"D94-YV Shield Generator"
 		
 		"A525 Atomic Steering"
@@ -562,9 +562,9 @@ ship "EC-099 'Oblivion'"
 		"Flux Torpedo" 60
 		"Heavy Anti-Missile Turret" 4
 		
-		"Blackhole Reactor"
-		"FP230b Atomic Battery"
-		"Heavy Water Coolant System" 5
+		"Armageddon Core"
+		"LP288a Battery Pack"
+		"Liquid Helium Cooler"
 		"DP94-YV Shield Generator"
 		
 		"A860 Atomic Thruster"
