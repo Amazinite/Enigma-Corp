@@ -722,7 +722,7 @@ outfit "shrapnel pellets"
 		
 outfit "Shrapnel Canister"
 	category "Ammunition"
-	cost 4000
+	cost 1000
 	thumbnail "outfit/known"
 	"mass" .1
 	"canister capacity" -1
