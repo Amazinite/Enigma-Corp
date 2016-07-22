@@ -26,7 +26,13 @@ outfitter "Wanderer Advanced"
 outfitter "Hai Basics"
 
 outfitter "Hai Intermediate"
-	"Tracker Capacity Up."
+	"Hai Tracker Cap-Up"
+	"Railgun Cap-Up"
 
 outfitter "Hai Advanced"
-	"Tracker Capacity Up."
+	"Hai Tracker Cap-Up"
+	"Railgun Cap-Up"
+
+outfitter "Korath Basics"
+	"Korath Piercer Cap-Up"
+	"Korath Mine Cap-Up"
