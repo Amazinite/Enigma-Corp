@@ -1,0 +1,159 @@
+ship "Hai Medium Warship"
+	sprite "ship/hai med warship"
+	attributes
+		category "Medium Warship"
+		"cost" 10250000
+		"shields" 12600
+		"hull" 6200
+		"required crew" 23
+		"bunks" 42
+		"mass" 325
+		"drag" 4.7
+		"heat dissipation" .7
+		"fuel capacity" 400
+		"cargo space" 87
+		"outfit space" 438
+		"weapon capacity" 124
+		"engine capacity" 99
+		weapon
+			"blast radius" 124
+			"shield damage" 1240
+			"hull damage" 620
+			"hit force" 1860
+	outfits
+		"Pulse Cannon" 2
+		"Ion Cannon" 2
+		"Geode Reactor"
+		"Hai Chasm Batteries"
+		"Hai Gorge Batteries"
+		"Hai Diamond Regenerator"
+		"Hai Williwaw Cooling" 3
+		"Large Radar Jammer" 2
+		`"Biroo" Atomic Thruster`
+		`"Bondir" Atomic Steering`
+		"Hyperdrive"
+	gun -27 -28
+	gun 27 -28
+	gun 36 9 "Ion Cannon"
+	gun -36 9 "Ion Cannon"
+	engine -16 100
+	engine 16 100
+	fighter -40 76 under
+	fighter 40 76 under
+	explode "small explosion" 20
+	explode "medium explosion" 30
+	explode "big explosion" 20
+	explode "huge explosion" 10
+	description "Unfettered medium warship. Can carry 2 fighters. Fitted with Large Radar Jammers that the Alphas provided as countermeasures for the Wanderer's infrared and radar tracking Thunderhead missiles in lue of using anti missile turrets."
+
+ship "Hai Medium Droneship"
+	sprite "ship/hai light droneship"
+	attributes
+		category "Medium Warship"
+		"cost" 7250000
+		"shields" 11000
+		"hull" 3500
+		"required crew" 34
+		"bunks" 41
+		"mass" 320
+		"drag" 7.6
+		"heat dissipation" .7
+		"fuel capacity" 400
+		"cargo space" 94
+		"outfit space" 366
+		"weapon capacity" 106
+		"engine capacity" 82
+		weapon
+			"blast radius" 124
+			"shield damage" 1240
+			"hull damage" 620
+			"hit force" 1860
+	outfits
+		"Ion Cannon" 2
+		"Pebble Core"
+		"Hai Gorge Batteries"
+		"Hai Chasm Batteries"
+		"Hai Diamond Regenerator"
+		"Hai Corundum Regenerator"
+		"Hai Williwaw Cooling" 2
+		`"Biroo" Atomic Thruster`
+		`"Biroo" Atomic Steering`
+		"Hyperdrive"
+	gun -23.5 -23
+	gun 23.5 -23
+	engine 42.5 86
+	engine -42.5 86
+	drone -43 37 over
+	drone 43 37 over
+	drone -43 37 under
+	drone 43 37 under
+	explode "small explosion" 15
+	explode "medium explosion" 35
+	explode "big explosion" 25
+	explode "huge explosion" 5
+	description "Hai medium warship. Carries 4 drones. Only two gun hardpoints, relying mainly on its drones for fire power."
+	
+ship "Hai Heavy Droneship"
+	sprite "ship/hai droneship"
+	attributes
+		category "Heavy Warship"
+		"cost" 14900000
+		"shields" 26500
+		"hull" 7900
+		"required crew" 34
+		"bunks" 72
+		"mass" 478
+		"drag" 10.6
+		"heat dissipation" .55
+		"fuel capacity" 500
+		"cargo space" 117
+		"outfit space" 661
+		"weapon capacity" 233
+		"engine capacity" 140
+		weapon
+			"blast radius" 400
+			"shield damage" 4000
+			"hull damage" 2000
+			"hit force" 3000
+	outfits
+		"Ion Cannon" 2
+		"Hai Tracker Pod" 2
+		"Hai Tracker" 112
+		"Chameleon Anti-Missile" 1
+		"Pulse Turret" 2
+		"Boulder Reactor"
+		"Pebble Core"
+		"Hai Gorge Batteries"
+		"Hai Ravine Batteries"
+		"Hai Diamond Regenerator" 
+		"Hai Corundum Regenerator"
+		"Hai Williwaw Cooling" 3
+		`"Bufaer" Atomic Thruster`
+		`"Biroo" Atomic Steering`
+		"Hyperdrive"
+	gun -17.5 -71 "Hai Tracker Pod"
+	gun 17.5 -71 "Hai Tracker Pod"
+	gun -28 -45
+	gun 28 -45
+	turret 60 27
+	turret 1 72.5 "Chameleon Anti-Missile"
+	turret -60 27
+	engine 60 90
+	engine -60 90
+	drone -54 -10 over
+	drone -86 20 over
+	drone -65 57 over
+	drone 54 -10 over
+	drone 86 20 over
+	drone 65 57 over
+	drone -31 90 under
+	drone -13 105 under
+	drone 31 90 under
+	drone 13 105 under
+	explode "tiny explosion" 40
+	explode "small explosion" 40
+	explode "medium explosion" 40
+	explode "big explosion" 40
+	explode "huge explosion" 15
+	description "Hai heavy warship. Carries 10 drones. The bigger version of the Medium Droneship."
+	

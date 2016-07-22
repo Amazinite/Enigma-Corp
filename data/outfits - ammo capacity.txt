@@ -197,7 +197,29 @@ outfit "Korath Mine Cap-Up"
 	"minelayer capacity" 8
 	description "The Korath Mine Upgrader will increase the amount of secondary ammo you can carry for your Korath Minelayer."
 	
-	"mass" 10
-	"outfit space" -10
-	"canister capacity" 50
-	description "The Canister Capacity Upgrader will increase the amount of secondary ammo you can carry for your Shrapnel Cannon."
+outfit "Repeater Slug Cap-Up"
+	category "Ammunition"
+	cost 5000
+	thumbnail "outfit/prepeater cap"
+	"mass" 1.5
+	"outfit space" -3
+	"repeater capacity" 150
+	description "The Repeater Slug Capacity Upgrader will increase the amount of secondary ammo you can carry for your Particle Repeater."
+
+outfit "Blaster Slug Cap-Up"
+	category "Ammunition"
+	cost 5000
+	thumbnail "outfit/pblaster cap"
+	"mass" 2
+	"outfit space" -4
+	"blaster capacity" 100
+	description "The Blaster Slug Capacity Upgrader will increase the amount of secondary ammo you can carry for your Particle Blaster."
+	
+outfit "Proton Cap-Up"
+	category "Ammunition"
+	cost 12500
+	thumbnail "outfit/capacitor cap"
+	"mass" 1.5
+	"outfit space" -3
+	"capacitor capacity" 250
+	description "The Proton Capacity Upgrader will increase the amount of secondary ammo you can carry for your Modified Proton Gun."
