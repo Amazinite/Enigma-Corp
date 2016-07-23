@@ -549,13 +549,13 @@ outfit "Missile Denial System"
 	description "The Missile Denial System is based off of old 21st century active protection system technology that destroyed missiles before they reached the vehicle that the APS was mounted on. These APS systems were highly effective, but did not last forever. After a certain amount of projectiles have been stopped, the system becomes useless and must be reloaded. The same is true with the MDS; after 50 shots, the system must take time to recharge."
 	description "Brought to you by the Enigma Corporation."
 
-outfit "Missile Turret"
+outfit "Sidewinder Missile Turret"
 	category "Turrets"
 	cost 75000
 	thumbnail "outfit/sidewinder launcher"
-	"mass" 6
-	"outfit space" -15
-	"weapon capacity" -15
+	"mass" 9
+	"outfit space" -18
+	"weapon capacity" -18
 	"turret mounts" -1
 	"required crew" 1
 	"sidewinder capacity" 50
@@ -584,8 +584,7 @@ outfit "Missile Turret"
 		"hull damage" 60
 		"hit force" 25
 		"missile strength" 12
-	description "Another development from Lovelace Labs, the Missile Turret is the next step in missile technology. It was becoming increasingly difficult to design missiles with better homing and turning capabilities, so one of the engineers at Lovelace proposed that a missile turret be developed. This would allow missiles to be fired directly at their target, removing the need for missiles to make wide turns and waste much of their fuel and artificially increasing their targeting capabilities."
-	description "The design team decided to simply take a Sidewinder Missile Launcher and place it on a rotating platform as a prototype. As such, the turret uses Sidewinder Missiles as ammunition."
+	description "Another development from Lovelace Labs, the Sidewinder Missile Turret is the next step in missile technology. It was becoming increasingly difficult to design missiles with better homing and turning capabilities, so one of the engineers at Lovelace proposed that a missile turret be developed. This would allow missiles to be fired directly at their target, removing the need for missiles to make wide turns and waste much of their fuel and artificially increasing their targeting capabilities."
 	
 outfit "Particle Repeater"
 	category "Secondary Weapons"

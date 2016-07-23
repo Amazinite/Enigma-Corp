@@ -88,7 +88,7 @@ ship "EC-031 'Viper'"
 			"hull damage" 400
 			"hit force" 1200
 	outfits
-		"Missile Turret" 5
+		"Sidewinder Missile Turret" 5
 		"Sidewinder Missile" 375
 		
 		"RT-I Radiothermal"

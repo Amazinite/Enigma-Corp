@@ -52,7 +52,7 @@ outfitter "Lovelace Advanced"
 	"Shield Overcharger B-Class"
 	"Plasma Rifle"
 	"Plasma Deflector"
-	"Missile Turret"
+	"Sidewinder Missile Turret"
 	"Sidewinder Cap-Up"
 
 outfitter "Delta V Basics"
