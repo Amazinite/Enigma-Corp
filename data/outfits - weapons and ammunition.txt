@@ -456,7 +456,7 @@ outfit "Hellfire Missile Launcher"
 		"hit effect" "medium explosion"
 		"inaccuracy" 25
 		"velocity" 25
-		"lifetime" 120
+		"lifetime" 180
 		"reload" 24
 		"firing energy" 0.1
 		"firing heat" 50
