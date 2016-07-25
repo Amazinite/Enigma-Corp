@@ -14,8 +14,8 @@ ship "EC-001 'Badger'"
 		category "Drone"
 		"cost" 127000
 		"hull" 1000
-		"mass" 93
-		"drag" 0.5
+		"mass" 43
+		"drag" 0.7
 		"heat dissipation" 0.8
 		"outfit space" 100
 		"weapon capacity" 24
@@ -44,7 +44,7 @@ ship "EC-002 'Sentry'"
 		"cost" 52000
 		"hull" 5000
 		"mass" 120
-		"drag" 5.4
+		"drag" 1
 		"heat dissipation" 1
 		"outfit space" 100
 		"weapon capacity" 50
@@ -68,36 +68,38 @@ ship "EC-031 'Viper'"
 	sprite "ship/Echo 31"
 	attributes
 		category "Light Warship"
-		"cost" 1720000
-		"shields" 5300
-		"hull" 900
-		"required crew" 9
-		"bunks" 17
-		"mass" 157
-		"drag" 5.7
+		"cost" 1820000
+		"shields" 6500
+		"hull" 600
+		"required crew" 5
+		"bunks" 15
+		"mass" 110
+		"drag" 2.9
 		"heat dissipation" .7
 		"fuel capacity" 500
 		"cargo space" 30
-		"outfit space" 285
+		"outfit space" 270
 		"weapon capacity" 90
-		"engine capacity" 110
+		"engine capacity" 90
 		"sidewinder capacity" 125
 		weapon
-			"blast radius" 80
-			"shield damage" 800
-			"hull damage" 400
-			"hit force" 1200
+			"blast radius" 60
+			"shield damage" 600
+			"hull damage" 300
+			"hit force" 900
 	outfits
 		"Sidewinder Missile Turret" 5
 		"Sidewinder Missile" 375
 		
-		"RT-I Radiothermal"
+		"Dwarf Core"
+		"Cooling Ducts"
 		"LP036a Battery Pack"
 		"D23-QP Shield Generator"
 		
-		"A370 Atomic Thruster"
-		"A255 Atomic Steering"
-		"Hyperdrive"
+		"X3700 Ion Thruster"
+		"X1700 Ion Thruster"
+		"X2200 Ion Steering"
+		Hyperdrive
 		
 	engine -23 39
 	turret 12 -72
@@ -105,10 +107,10 @@ ship "EC-031 'Viper'"
 	turret 12 -13
 	turret 12 41
 	turret 12 56
-	explode "tiny explosion" 20
-	explode "small explosion" 15
-	explode "medium explosion" 25
-	explode "big explosion" 10
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 30
+	explode "big explosion" 15
 	description `The Enigma Corproation's "Missile Series" of ships was the first to gain reasonable public acclaim, mainly from those who enjoy using missiles over laser or blaster weaponry. The Viper was the first in this series to be released to the public. Similar to the rest of the ships in the Missile Series, it greatly emphasizes shields over hull compared to normal human ships and is designed to have a very low drag compared to ships of the same size. It has also been praised by many for its niche design of using Lovelace Labs' new Missile Turrets and having a built in missile storage system for carrying even more missiles.`
 	description "Brought to you by the Enigma Corporation."
 
@@ -117,37 +119,37 @@ ship "EC-032 'Rattlesnake'"
 	attributes
 		category "Medium Warship"
 		"cost" 2950000
-		"shields" 9200
-		"hull" 2200
+		"shields" 8900
+		"hull" 1300
 		"required crew" 15
 		"bunks" 21
-		"mass" 350
-		"drag" 7.5
+		"mass" 300
+		"drag" 4.7
 		"heat dissipation" .7
-		"fuel capacity" 700
-		"cargo space" 80
-		"outfit space" 450
-		"weapon capacity" 180
-		"engine capacity" 115
+		"fuel capacity" 500
+		"cargo space" 40
+		"outfit space" 400
+		"weapon capacity" 150
+		"engine capacity" 110
 		"hellfire capacity" 245
 		"flux capacity" 350
 		weapon
-			"blast radius" 100
-			"shield damage" 1000
-			"hull damage" 500
-			"hit force" 1500
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
 	outfits
 		"Hellfire Missile Launcher" 7
 		"Hellfire Missile" 735
-		"Heavy Anti-Missile Turret" 2
+		"Anti-Missile Turret" 2
 		
-		"NT-200 Nucleovoltaic"
+		"Fission Reactor"
 		"LP072a Battery Pack"
 		"D41-HY Shield Generator"
 		
-		"A370 Atomic Thruster"
-		"A525 Atomic Steering"
-		"Hyperdrive"
+		"X4200 Ion Steering"
+		"X3700 Ion Thruster"
+		Hyperdrive
 		
 	engine -13.5 135
 	engine 13.5 135
@@ -160,10 +162,10 @@ ship "EC-032 'Rattlesnake'"
 	gun 48 -102
 	turret -30 33.5
 	turret 30 33.5
-	explode "tiny explosion" 20
-	explode "small explosion" 36
-	explode "medium explosion" 20
-	explode "big explosion" 8
+	explode "tiny explosion" 5
+	explode "small explosion" 15
+	explode "medium explosion" 30
+	explode "big explosion" 20
 	description `The Rattlesnake is the Viper's big brother, having a similar design philosophy and capitalizing on missile bay technology in order to increase the amount of missiles able to be carried. Unsurprisingly, the Corporation has designed the Rattlesnake to only be able to carry extra missiles that have been built by the Corporation itself, able to carry an additional 245 Hellfire Missiles and 350 Flux Missiles.`
 	description "Brought to you by the Enigma Corporation."
 
@@ -172,37 +174,38 @@ ship "EC-033 'King Cobra'"
 	attributes
 		category "Heavy Warship"
 		"cost" 11163000
-		"shields" 31000
-		"hull" 3600
+		"shields" 30000
+		"hull" 2600
 		"required crew" 32
 		"bunks" 86
-		"mass" 730
-		"drag" 12.5
-		"heat dissipation" .4
+		"mass" 530
+		"drag" 9.5
+		"heat dissipation" .5
 		"fuel capacity" 500
-		"cargo space" 250
-		"outfit space" 550
-		"weapon capacity" 210
-		"engine capacity" 160
+		"cargo space" 175
+		"outfit space" 590
+		"weapon capacity" 200
+		"engine capacity" 180
 		"hellfire capacity" 350
 		"flux capacity" 500
 		weapon
-			"blast radius" 260
-			"shield damage" 2600
-			"hull damage" 1300
-			"hit force" 3900
+			"blast radius" 160
+			"shield damage" 1600
+			"hull damage" 800
+			"hit force" 2400
 	outfits
 		"Hellfire Missile Launcher" 10
 		"Hellfire Missile" 1050
 		"Heavy Anti-Missile Turret"
-		
+
 		"Fusion Reactor"
 		"LP144a Battery Pack"
+		"Water Coolant System"
 		"D67-TM Shield Generator"
-		
-		"A520 Atomic Thruster"
-		"A525 Atomic Steering"
-		"Hyperdrive"
+
+		"X4700 Ion Thruster"
+		"X5200 Ion Steering"
+		Hyperdrive
 		
 	engine -41.5 109
 	engine 5 109
@@ -217,10 +220,10 @@ ship "EC-033 'King Cobra'"
 	gun -37.5 -71
 	gun 0.5 -71.5
 	gun 136 -12.5
-	explode "small explosion" 25
-	explode "medium explosion" 35
-	explode "big explosion" 45
-	explode "huge explosion" 30
+	explode "small explosion" 18
+	explode "medium explosion" 36
+	explode "big explosion" 24
+	explode "huge explosion" 8
 	description `If the Rattlesnake is the Viper's big brother, than the King Cobra is the father of them all. The biggest of the big when it comes to Enigma Corp missile ships, this heavy warship has ten missile launchers and big enough missile bays to hold 350 Hellfire Missiles and 500 Flux Missiles.`
 	description "Brought to you by the Enigma Corporation."
 
@@ -228,19 +231,19 @@ ship "EC-037 'Aegis'"
 	sprite "ship/Echo 37"
 	attributes
 		category "Medium Warship"
-		"cost" 5100000
-		"shields" 1000
+		"cost" 5250000
+		"shields" 4500
 		"hull" 8300
-		"required crew" 19
-		"bunks" 36
+		"required crew" 26
+		"bunks" 52
 		"mass" 520
 		"drag" 10.6
 		"heat dissipation" .5
-		"fuel capacity" 400
-		"cargo space" 45
-		"outfit space" 575
-		"weapon capacity" 290
-		"engine capacity" 100
+		"fuel capacity" 300
+		"cargo space" 20
+		"outfit space" 520
+		"weapon capacity" 250
+		"engine capacity" 95
 		weapon
 			"blast radius" 120
 			"shield damage" 1500
@@ -250,13 +253,14 @@ ship "EC-037 'Aegis'"
 		"Heavy Laser Turret" 4
 		"Heavy Laser" 5
 		
-		"Fission Reactor"
+		"Breeder Reactor"
 		"LP144a Battery Pack"
-		"D41-HY Shield Generator"
+		"Water Coolant System"
+		"D67-TM Shield Generator"
 		
-		"A375 Atomic Steering"
-		"A250 Atomic Thruster"
-		"Hyperdrive"
+		"X3200 Ion Steering"
+		"X3700 Ion Thruster"
+		Hyperdrive
 		
 	engine -22 181
 	engine 22 181
@@ -269,10 +273,10 @@ ship "EC-037 'Aegis'"
 	turret 44 85
 	turret -20 127.5
 	turret 20 127.5
-	explode "small explosion" 15
-	explode "medium explosion" 35
-	explode "big explosion" 30
-	explode "huge explosion" 10
+	explode "small explosion" 18
+	explode "medium explosion" 36
+	explode "big explosion" 24
+	explode "huge explosion" 8
 	description `The Aegis was the first ship from the Corporation's "Mythos Series" of ships that was made available to the public. A mix between a medium and heavy warship, it is in a rather odd place. On one had it is the size of a medium warship, but on the other it has enough weapons to compete against many heavy warships. But some tend to shy away from this beast, as all that extra weapon space come as the cost of sustantially less engine capacity.`
 	description "Brought to you by the Enigma Corporation."
 
@@ -283,46 +287,49 @@ ship "EC-050 'Orca'"
 		"cost" 43270000
 		"shields" 16000
 		"hull" 19600
-		"required crew" 12
-		"bunks" 29
-		"mass" 6730
-		"drag" 23.1
-		"heat dissipation" .25
-		"fuel capacity" 1300
+		"required crew" 27
+		"bunks" 43
+		"mass" 1950
+		"drag" 17.4
+		"heat dissipation" .4
+		"fuel capacity" 900
 		"cargo space" 1200
-		"outfit space" 800
-		"weapon capacity" 210
-		"engine capacity" 180
+		"outfit space" 650
+		"weapon capacity" 200
+		"engine capacity" 160
 		weapon
-			"blast radius" 360
-			"shield damage" 3200
-			"hull damage" 2300
-			"hit force" 5300
+			"blast radius" 280
+			"shield damage" 2800
+			"hull damage" 1400
+			"hit force" 4200
 	outfits
-		"Heavy Laser Turret" 4
-		"Heavy Anti-Missile Turret" 4
+		"Anti-Missile Turret" 4
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 2
 		
 		"Fusion Reactor"
-		"LP576a Battery Pack"
+		"LP288a Battery Pack"
 		"D94-YV Shield Generator"
 		
-		"A525 Atomic Steering"
-		"A520 Atomic Thruster"
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		"X2200 Ion Steering"
 		"Scram Drive"
 		
 	engine 42 250
 	engine -42 250
-	turret -12 -224.25 "Laser Turret"
-	turret -12 -157.75
-	turret -12 -96.75 "Laser Turret"
-	turret -12 -31.75
-	turret 12 -224.25 "Laser Turret"
-	turret 12 -157.75
-	turret 12 -96.75 "Laser Turret"
-	turret 12 -31.75
-	explode "medium explosion" 35
-	explode "big explosion" 40
-	explode "huge explosion" 45
+	turret -12 -224.25
+	turret 12 -224.25
+	turret -12 -157.75 "Quad Blaster Turret"
+	turret 12 -157.75 "Quad Blaster Turret"
+	turret -12 -96.75
+	turret 12 -96.75
+	turret -12 -31.75 "Heavy Anti-Missile Turret"
+	turret 12 -31.75 "Heavy Anti-Missile Turret"
+	explode "small explosion" 80
+	explode "medium explosion" 60
+	explode "big explosion" 30
+	explode "huge explosion" 20
 	description "The Orca is the mother of all haulers, able to carry twice as much cargo as it competitor, the Bulk Freighter. It does this my packing the cargo as tight as humanly possible and converting much of the space that would normally be used for crew quarters and other facilities into cargo space. Although, this makes the Orca come at a heavy cost of over 43 million credits for the hull alone, as well as making the Orca a large and slow target that can have trouble defending itself."
 	description "Brought to you by the Enigma Corporation."
 
@@ -331,17 +338,17 @@ ship "EC-069 'Star King'"
 	attributes
 		category "Transport"
 		"cost" 6000000
-		"shields" 6700
+		"shields" 6000
 		"hull" 3000
 		"required crew" 49
 		"bunks" 194
-		"mass" 267
-		"drag" 9.4
-		"heat dissipation" 1.2
+		"mass" 156
+		"drag" 5.8
+		"heat dissipation" 0.6
 		"fuel capacity" 600
-		"cargo space" 200
-		"outfit space" 475
-		"weapon capacity" 180
+		"cargo space" 70
+		"outfit space" 400
+		"weapon capacity" 160
 		"engine capacity" 120
 		weapon
 			"blast radius" 60
@@ -351,15 +358,16 @@ ship "EC-069 'Star King'"
 	outfits
 		"Flux Missile Launcher" 3
 		"Flux Missile" 300
-		"Heavy Anti-Missile Turret" 4
-		
-		"NT-200 Nucleovoltaic"
+		"Anti-Missile Turret" 2
+		"Heavy Anti-Missile Turret" 2
+
+		"Dwarf Core"
 		"LP072a Battery Pack"
 		"D94-YV Shield Generator"
 		
-		"A520 Atomic Thruster"
-		"A375 Atomic Steering"
-		"Hyperdrive"
+		"X4200 Ion Steering"
+		"X3700 Ion Thruster"
+		"Scram Drive"
 		
 	engine -19 137
 	engine 19 137
@@ -382,22 +390,22 @@ ship "EC-070 'Star Guardian'"
 	attributes
 		category "Transport"
 		"cost" 7800000
-		"shields" 7500
-		"hull" 4000
-		"required crew" 49
-		"bunks" 194
-		"mass" 291
-		"drag" 10.1
-		"heat dissipation" 0.9
-		"fuel capacity" 600
-		"cargo space" 150
-		"outfit space" 500
-		"weapon capacity" 205
+		"shields" 6300
+		"hull" 3700
+		"required crew" 46
+		"bunks" 157
+		"mass" 173
+		"drag" 6.7
+		"heat dissipation" 0.5
+		"fuel capacity" 500
+		"cargo space" 80
+		"outfit space" 440
+		"weapon capacity" 200
 		"engine capacity" 140
 		"EMP hardpoint" 1
 		weapon
 			"blast radius" 70
-			"shield damage" 650
+			"shield damage" 700
 			"hull damage" 350
 			"hit force" 1000
 	outfits
@@ -405,14 +413,14 @@ ship "EC-070 'Star Guardian'"
 		"Flux Missile Launcher" 2
 		"Flux Missile" 200
 		"Heavy Anti-Missile Turret" 4
-		
-		"NT-200 Nucleovoltaic"
-		"LP072a Battery Pack"
-		"D94-YV Shield Generator"
-		
-		"A520 Atomic Thruster"
-		"A375 Atomic Steering"
-		"Scram Drive"
+
+		"Dwarf Core"
+		"LP036a Battery Pack"
+		"D67-TM Shield Generator"
+
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		Hyperdrive
 		
 	engine -19 137
 	engine 19 137
@@ -434,48 +442,46 @@ ship "EC-077 'Dire Wolf'"
 	sprite "ship/Echo 77"
 	attributes
 		category "Light Warship"
-		"cost" 1920000
-		"shields" 2200
-		"hull" 600
+		"cost" 1280000
+		"shields" 2700
+		"hull" 1000
 		"required crew" 3
-		"bunks" 11
-		"mass" 101
-		"drag" 2.4
-		"heat dissipation" 1
-		"fuel capacity" 400
+		"bunks" 5
+		"mass" 91
+		"drag" 2.2
+		"heat dissipation" 0.9
+		"fuel capacity" 300
 		"cargo space" 5
-		"outfit space" 360
-		"weapon capacity" 130
-		"engine capacity" 115
+		"outfit space" 260
+		"weapon capacity" 100
+		"engine capacity" 80
 		"wolf hardpoint" 2
 		weapon
-			"blast radius" 80
-			"shield damage" 440
-			"hull damage" 220
-			"hit force" 660
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
 	outfits
-		"Particle Cannon" 2
+		"Heavy Laser" 2
 		"Wolf Bomb Bay" 2
 		"Wolf Bomb" 40
 		
-		"RT-I Radiothermal"
-		"LP072a Battery Pack"
+		"Dwarf Core"
+		Supercapacitor
 		"D23-QP Shield Generator"
 		
-		"A370 Atomic Thruster"
-		"A525 Atomic Steering"
-		"Hyperdrive"
+		"A250 Atomic Thruster"
+		"A375 Atomic Steering"
+		Hyperdrive
 		
 	engine -56 85
 	engine 56 85
-	gun -9 -94 "Particle Cannon"
-	gun 9 -94 "Particle Cannon"
+	gun -9 -94 "Heavy Laser"
+	gun 9 -94 "Heavy Laser"
 	gun -56 9
 	gun 56 9
-	explode "tiny explosion" 30
-	explode "small explosion" 25
-	explode "medium explosion" 20
-	explode "big explosion" 5
+	explode "tiny explosion" 12
+	explode "small explosion" 16
 	description `This ship was a venture into the widely untouched market of bomber technology. The Dire Wolf is an advanced bomber fitted with the strongest of torpedo technology: Enigma Corp's new Wolf Bombs. These weapons are stronger than any other torpedo technology on the market, making the Wolf a formidable foe. This power comes at a cost, though, as the Dire Wolf is clearly one of the weakest ships in its class when it comes to armor and shields.`
 	description "Brought to you by the Enigma Corporation."
 
@@ -483,51 +489,49 @@ ship "EC-078 'Dire Hawk'"
 	sprite "ship/Echo 78"
 	attributes
 		category "Light Warship"
-		"cost" 2520000
-		"shields" 2200
-		"hull" 500
+		"cost" 3500000
+		"shields" 2700
+		"hull" 700
 		"required crew" 3
-		"bunks" 11
-		"mass" 117
-		"drag" 2.9
-		"heat dissipation" 1
-		"fuel capacity" 400
+		"bunks" 5
+		"mass" 111
+		"drag" 2.5
+		"heat dissipation" 0.9
+		"fuel capacity" 300
 		"cargo space" 5
-		"outfit space" 360
-		"weapon capacity" 130
-		"engine capacity" 115
+		"outfit space" 260
+		"weapon capacity" 100
+		"engine capacity" 80
 		"wolf hardpoint" 2
 		"cloak" 0.008
 		"cloaking energy" 5
 		"cloaking fuel" .4
 		weapon
-			"blast radius" 80
-			"shield damage" 440
-			"hull damage" 220
-			"hit force" 660
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 600
 	outfits
-		"Particle Cannon" 2
+		"Heavy Laser" 2
 		"Wolf Bomb Bay" 2
 		"Wolf Bomb" 40
 		
-		"RT-I Radiothermal"
-		"LP072a Battery Pack"
+		"Dwarf Core"
+		Supercapacitor
 		"D23-QP Shield Generator"
 		
-		"A370 Atomic Thruster"
-		"A525 Atomic Steering"
-		"Hyperdrive"
+		"A250 Atomic Thruster"
+		"A375 Atomic Steering"
+		Hyperdrive
 		
 	engine -56 85
 	engine 56 85
-	gun -9 -94 "Particle Cannon"
-	gun 9 -94 "Particle Cannon"
+	gun -9 -94 "Heavy Laser"
+	gun 9 -94 "Heavy Laser"
 	gun -56 9
 	gun 56 9
-	explode "tiny explosion" 30
-	explode "small explosion" 25
-	explode "medium explosion" 20
-	explode "big explosion" 5
+	explode "tiny explosion" 12
+	explode "small explosion" 16
 	description "One of the main critiques with the Dire Wolf was its low amount of armor in shields, leading to a quick death in most situations. As a result, the Corporation began work on making a new bomber that would be able to withstand much more fire. They ended up creating the Dire Hawk. This ship is exactly the same as the Dire Wolf in almost all ways, except for one important part; the Dire Hawk comes fitted with a prototype cloaking device. This cloaking device allows for the Dire Hawk to avoid taking damage if used correctly, making the Hawk more deadly than the Wolf could ever be."
 	description "Brought to you by the Enigma Corporation."
 
@@ -536,40 +540,41 @@ ship "EC-099 'Oblivion'"
 	attributes
 		category "Heavy Warship"
 		"cost" 37500000
-		"shields" 20000
-		"hull" 9000
+		"shields" 43000
+		"hull" 15700
 		"required crew" 95
 		"bunks" 374
-		"mass" 1665
+		"mass" 1225
 		"drag" 19.6
 		"heat dissipation" .25
 		"fuel capacity" 900
 		"cargo space" 340
-		"outfit space" 1425
-		"weapon capacity" 820
-		"engine capacity" 240
+		"outfit space" 1225
+		"weapon capacity" 700
+		"engine capacity" 200
 		weapon
-			"blast radius" 500
-			"shield damage" 4800
-			"hull damage" 3600
-			"hit force" 6000
+			"blast radius" 340
+			"shield damage" 5200
+			"hull damage" 2600
+			"hit force" 7800
 	outfits
-		"Electron Beam" 4
+		"Heavy Laser" 4
 		"Heavy Laser Turret" 8
-		"Typhoon Launcher" 4
-		"Typhoon Torpedo" 120
+		"Anti-Missile Turret" 2
+		"Heavy Anti-Missile Turret" 2
 		"Flux Torpedo Launcher" 2
 		"Flux Torpedo" 60
-		"Heavy Anti-Missile Turret" 4
-		
+		"Typhoon Launcher" 4
+		"Typhoon Torpedo" 120
+
 		"Armageddon Core"
 		"LP288a Battery Pack"
 		"Liquid Helium Cooler"
-		"DP94-YV Shield Generator"
-		
-		"A860 Atomic Thruster"
+		"D94-YV Shield Generator"
+
+		"A520 Atomic Thruster"
 		"A865 Atomic Steering"
-		"Hyperdrive"
+		Hyperdrive
 		
 	engine -67 166
 	engine 67 166
@@ -599,7 +604,10 @@ ship "EC-099 'Oblivion'"
 	gun 102 118 "Typhoon Launcher"
 	gun -118 145 "Typhoon Launcher"
 	gun 118 145 "Typhoon Launcher"
-	explode "big explosion" 50
-	explode "huge explosion" 100
+	explode "tiny explosion" 140
+	explode "small explosion" 100
+	explode "medium explosion" 70
+	explode "big explosion" 30
+	explode "huge explosion" 10
 	description "The EC-099 Oblivion heavy flagship is the pinnacle of human technology. Better in almost every way, this behemoth is a true beauty, only entrusted to those in the most inner of circles in the Enigma Corporation. Or just those who cheat to get it."
 	description "Brought to you by the Enigma Corporation."
