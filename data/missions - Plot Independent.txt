@@ -1,14 +1,13 @@
 # The following mission chain (Lovelace Trolling A) twas for the greater good.
 # Takarada now has an obligation to create an alien race based off of me in this mod, "Alphean Boolean."
 
-mission "Lovelace Trolling [A1]"
+mission "Lovelace Trolling [1]"
 	name "Vandilize Lovelace Labs"
 	source 
 		attributes core
 	destination "Ada"
 	description "Go to <destination> and vandilize Lovelace Labs."
 	to offer
-		not "Lovelace Trolling [A1]: offered"
 		random > 60
 	on offer
 		conversation
@@ -128,12 +127,12 @@ event "lovelace find out"
 	planet "Carbuncle Station"
 		"reputation required" 1000
 		
-mission "Lovelace Trolling [A2]"
+mission "Lovelace Trolling [2]"
 	invisible
 	landing
 	deadline 7
 	to offer
-		has "Lovelace Trolling [A1]: done"
+		has "Lovelace Trolling [1]: done"
 	on offer
 		conversation
 			`You land on the outskirts of the main facility to avoid being spotted by Lovelace security. You step off of your ship and notice that some of the guys from the bar who weren't drunk enough to forget where the hyperdrive button is or where they were even going landed with you.`
@@ -172,7 +171,7 @@ mission "Lovelace Trolling [A2]"
 			variant
 				"Raven" 2
 
-mission "Lovelace Trolling [A3]"
+mission "Lovelace Trolling [3]"
 	invisible
 	landing
 	to offer
