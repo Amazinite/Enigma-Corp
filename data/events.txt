@@ -86,13 +86,3 @@ event "Termini Wormhole"
 			sprite planet/wormhole
 			distance 2079.28
 			period 4290.76
-
-mission "Andromedan Rep"
-	landing
-	invisible
-	on offer
-		event "Andromedan Check"
-		fail
-
-event "Andromedan Check"
-	"reputation: Andromedan" = -1000

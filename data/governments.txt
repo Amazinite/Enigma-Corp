@@ -24,6 +24,7 @@ government "Enigma Corp"
 		"Syndicate" .1
 		"Deep Sky" .1
 		"Test Dummy" -.1
+		"Outer Ring Mining" .1
 	"bribe" .05
 	"fine" 0
 	"friendly hail" "friendly civilian"
@@ -40,9 +41,11 @@ government "Freelancer"
 
 government "Lovelace Labs"
 	swizzle 0
-	"player reputation" -10
+	"player reputation" -1000
 	"attitude toward"
 		"Pirate" -.1
+	"friendly hail" "friendly navy"
+	"hostile hail" "hostile navy"
 	
 government "Termini"
 	color 0.26 0.8 0.84
@@ -62,5 +65,34 @@ government "Outer Rim Mining"
 	swizzle 0
 	"bribe" 0.5
 	"player reputation" 10
+	"attitude toward"
+		"Wanderer" .1
+		"Adamas" .1
+		"Pirate" -.1
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
+	
+
+# Repeat missions that make sure you are never friendly with certain governments
+#	The `not "<government> friendly"` is for if I ever want to have these governments be friendly.
+#	If they are suppose to be friendly, then that condition will be set in your character's conditions
+
+mission "Andromedan Rep Check"
+	landing
+	invisible
+	repeat
+	to offer
+		not "andromedas friendly"
+	on offer
+		"reputation: Andromedan" = -1000
+		fail
+
+mission "Lovelace Rep Check"
+	landing
+	invisible
+	repeat
+	to offer
+		not "lovelace friendly"
+	on offer
+		"reputation: Lovelace Labs" = -1000
+		fail
