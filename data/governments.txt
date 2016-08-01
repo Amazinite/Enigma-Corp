@@ -66,7 +66,6 @@ government "Outer Rim Mining"
 	"bribe" 0.5
 	"player reputation" 10
 	"attitude toward"
-		"Wanderer" .1
 		"Adamas" .1
 		"Pirate" -.1
 	"friendly hail" "friendly civilian"
