@@ -14,12 +14,18 @@ ship "EC-001 'Badger'"
 		category "Drone"
 		"cost" 127000
 		"hull" 1000
-		"mass" 43
+		"mass" 36
 		"drag" 0.7
 		"heat dissipation" 0.8
 		"outfit space" 100
 		"weapon capacity" 24
 		"engine capacity" 38
+		"automaton" 1
+		weapon
+			"blast radius" 10
+			"shield damage" 100
+			"hull damage" 50
+			"hit force" 150
 	outfits
 		"Beam Laser" 3
 		
@@ -49,6 +55,12 @@ ship "EC-002 'Sentry'"
 		"outfit space" 100
 		"weapon capacity" 50
 		"engine capacity" 10
+		"automaton" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
 		"Laser Turret"
 		
