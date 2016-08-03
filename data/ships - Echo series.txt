@@ -12,22 +12,25 @@ ship "EC-001 'Badger'"
 	sprite "ship/Echo 1"
 	attributes
 		category "Drone"
+#		category "Interceptor"
 		"cost" 127000
 		"hull" 1000
-		"mass" 36
-		"drag" 0.7
+		"mass" 30
+		"drag" 0.8
 		"heat dissipation" 0.8
-		"outfit space" 100
-		"weapon capacity" 24
+		"outfit space" 90
+		"weapon capacity" 15
 		"engine capacity" 38
 		"automaton" 1
+#		"required crew" 1
+#		"bunks" 1
 		weapon
 			"blast radius" 10
 			"shield damage" 100
 			"hull damage" 50
 			"hit force" 150
 	outfits
-		"Beam Laser" 3
+		"Energy Blaster" 3
 		
 		"nGVF-BB Fuel Cell"
 		"Supercapacitor" 2
@@ -35,7 +38,8 @@ ship "EC-001 'Badger'"
 		"Chipmunk Plasma Thruster"
 		"Chipmunk Plasma Steering"
 		
-	engine 0 35
+	engine -6.5 35
+	engine 6.5 35
 	gun -11 -16.5
 	gun 0 -28.5
 	gun 11 -16.5
