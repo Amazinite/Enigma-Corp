@@ -13,14 +13,14 @@ ship "EC-001 'Badger'"
 	attributes
 		category "Drone"
 #		category "Interceptor"
-		"cost" 127000
+		"cost" 115000
 		"hull" 1000
 		"mass" 30
 		"drag" 0.8
 		"heat dissipation" 0.8
 		"outfit space" 90
 		"weapon capacity" 15
-		"engine capacity" 38
+		"engine capacity" 30
 		"automaton" 1
 #		"required crew" 1
 #		"bunks" 1
@@ -31,13 +31,14 @@ ship "EC-001 'Badger'"
 			"hit force" 150
 	outfits
 		"Energy Blaster" 3
-		
-		"nGVF-BB Fuel Cell"
-		"Supercapacitor" 2
-		
-		"Chipmunk Plasma Thruster"
-		"Chipmunk Plasma Steering"
-		
+
+		"nGVF-CC Fuel Cell"
+		"Supercapacitor"
+		"Cooling Ducts"
+
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+
 	engine -6.5 35
 	engine 6.5 35
 	gun -11 -16.5
@@ -51,6 +52,7 @@ ship "EC-002 'Sentry'"
 	sprite "ship/sentry drone"
 	attributes
 		category "Drone"
+#		category "Interceptor"
 		"cost" 52000
 		"hull" 5000
 		"mass" 120
@@ -60,6 +62,8 @@ ship "EC-002 'Sentry'"
 		"weapon capacity" 50
 		"engine capacity" 10
 		"automaton" 1
+#		"required crew" 1
+#		"bunks" 1
 		weapon
 			"blast radius" 12
 			"shield damage" 120
