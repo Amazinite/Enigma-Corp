@@ -71,12 +71,12 @@ ship "EC-002 'Sentry'"
 			"hit force" 180
 	outfits
 		"Laser Turret"
-		
+
 		"nGVF-BB Fuel Cell"
 		"LP036a Battery Pack"
-		
+
 		"X1025 Ion Engines"
-		
+
 	engine -9 29
 	engine 9 29
 	turret 0 0 "Laser Turret"
@@ -110,17 +110,17 @@ ship "EC-031 'Viper'"
 	outfits
 		"Sidewinder Missile Turret" 5
 		"Sidewinder Missile" 375
-		
+
 		"Dwarf Core"
 		"Cooling Ducts"
 		"LP036a Battery Pack"
 		"D23-QP Shield Generator"
-		
+
 		"X3700 Ion Thruster"
 		"X1700 Ion Thruster"
 		"X2200 Ion Steering"
 		Hyperdrive
-		
+
 	engine -23 39
 	turret 12 -72
 	turret 12 -43
@@ -162,15 +162,15 @@ ship "EC-032 'Rattlesnake'"
 		"Hellfire Missile Launcher" 7
 		"Hellfire Missile" 735
 		"Anti-Missile Turret" 2
-		
+
 		"Fission Reactor"
 		"LP072a Battery Pack"
 		"D41-HY Shield Generator"
-		
+
 		"X4200 Ion Steering"
 		"X3700 Ion Thruster"
 		Hyperdrive
-		
+
 	engine -13.5 135
 	engine 13.5 135
 	gun 0 -109
@@ -226,7 +226,7 @@ ship "EC-033 'King Cobra'"
 		"X4700 Ion Thruster"
 		"X5200 Ion Steering"
 		Hyperdrive
-		
+
 	engine -41.5 109
 	engine 5 109
 	turret -18 -30
@@ -272,16 +272,16 @@ ship "EC-037 'Aegis'"
 	outfits
 		"Heavy Laser Turret" 4
 		"Heavy Laser" 5
-		
+
 		"Breeder Reactor"
 		"LP144a Battery Pack"
 		"Water Coolant System"
 		"D67-TM Shield Generator"
-		
+
 		"X3200 Ion Steering"
 		"X3700 Ion Thruster"
 		Hyperdrive
-		
+
 	engine -22 181
 	engine 22 181
 	gun 0 60
@@ -326,16 +326,16 @@ ship "EC-050 'Orca'"
 		"Anti-Missile Turret" 4
 		"Quad Blaster Turret" 2
 		"Heavy Anti-Missile Turret" 2
-		
+
 		"Fusion Reactor"
 		"LP288a Battery Pack"
 		"D94-YV Shield Generator"
-		
+
 		"X4700 Ion Thruster"
 		"X4200 Ion Steering"
 		"X2200 Ion Steering"
 		"Scram Drive"
-		
+
 	engine 42 250
 	engine -42 250
 	turret -12 -224.25
@@ -384,11 +384,11 @@ ship "EC-069 'Star King'"
 		"Dwarf Core"
 		"LP072a Battery Pack"
 		"D94-YV Shield Generator"
-		
+
 		"X4200 Ion Steering"
 		"X3700 Ion Thruster"
 		"Scram Drive"
-		
+
 	engine -19 137
 	engine 19 137
 	gun 0 -142 "Flux Missile Launcher"
@@ -441,7 +441,7 @@ ship "EC-070 'Star Guardian'"
 		"X4700 Ion Thruster"
 		"X4200 Ion Steering"
 		Hyperdrive
-		
+
 	engine -19 137
 	engine 19 137
 	gun 0 -142 "EMP Device"
@@ -485,15 +485,15 @@ ship "EC-077 'Dire Wolf'"
 		"Heavy Laser" 2
 		"Wolf Bomb Bay" 2
 		"Wolf Bomb" 40
-		
+
 		"Dwarf Core"
 		Supercapacitor
 		"D23-QP Shield Generator"
-		
+
 		"A250 Atomic Thruster"
 		"A375 Atomic Steering"
 		Hyperdrive
-		
+
 	engine -56 85
 	engine 56 85
 	gun -9 -94 "Heavy Laser"
@@ -535,15 +535,15 @@ ship "EC-078 'Dire Hawk'"
 		"Heavy Laser" 2
 		"Wolf Bomb Bay" 2
 		"Wolf Bomb" 40
-		
+
 		"Dwarf Core"
 		Supercapacitor
 		"D23-QP Shield Generator"
-		
+
 		"A250 Atomic Thruster"
 		"A375 Atomic Steering"
 		Hyperdrive
-		
+
 	engine -56 85
 	engine 56 85
 	gun -9 -94 "Heavy Laser"
@@ -595,7 +595,7 @@ ship "EC-099 'Oblivion'"
 		"A520 Atomic Thruster"
 		"A865 Atomic Steering"
 		Hyperdrive
-		
+
 	engine -67 166
 	engine 67 166
 	engine -50 301
