@@ -510,7 +510,7 @@ outfit "Modified Proton Gun"
 	
 outfit "Modified Proton Fragment"
 	weapon
-		sprite "projectile/supercapacitor"
+		sprite "projectile/proton fragment"
 			"no repeat"
 			"frame rate" 2
 		"hit effect" "proton impact"
@@ -523,7 +523,7 @@ outfit "Modified Proton Fragment"
 outfit "Proton Capacitor"
 	category "Ammunition"
 	cost 50
-	thumbnail "outfit/proton capacitor"
+	thumbnail "outfit/supercapacitor"
 	mass 0.006
 	"capacitor capacity" -1
 	description "Proton Capacitors are ammunition used for Modified Proton Guns. Due to the amount of ampage that must be reached in order to make a Modified Proton Gun work, one must use specially built capacitors (that burn out after each use) in order to make the weapon function."

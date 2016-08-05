@@ -1,4 +1,4 @@
-# The following mission chain (Lovelace Trolling A) twas for the greater good.
+# The following mission chain (Lovelace Trolling) twas for the greater good.
 # Takarada now has an obligation to create an alien race based off of me in this mod, "Alphean Boolean."
 
 mission "Lovelace Trolling [1]"
