@@ -23,23 +23,28 @@ ship "Hai Medium Warship"
 	outfits
 		"Pulse Cannon" 2
 		"Ion Cannon" 2
+
 		"Geode Reactor"
 		"Hai Chasm Batteries"
 		"Hai Gorge Batteries"
 		"Hai Diamond Regenerator"
 		"Hai Williwaw Cooling" 3
 		"Large Radar Jammer" 2
+
 		`"Biroo" Atomic Thruster`
 		`"Bondir" Atomic Steering`
 		"Hyperdrive"
-	gun -27 -28
-	gun 27 -28
-	gun 36 9 "Ion Cannon"
-	gun -36 9 "Ion Cannon"
-	engine -16 100
-	engine 16 100
-	fighter -40 76 under
-	fighter 40 76 under
+
+	engine -17 114
+	engine 17 114
+	engine -45 83
+	engine 45 83
+	gun -42 9 "Ion Cannon"
+	gun 42 9 "Ion Cannon"
+	gun -30 -32
+	gun 32 -32
+	fighter -45 83 under
+	fighter 45 83 under
 	explode "small explosion" 20
 	explode "medium explosion" 30
 	explode "big explosion" 20
@@ -70,23 +75,26 @@ ship "Hai Medium Droneship"
 			"hit force" 1860
 	outfits
 		"Ion Cannon" 2
+
 		"Pebble Core"
 		"Hai Gorge Batteries"
 		"Hai Chasm Batteries"
 		"Hai Diamond Regenerator"
 		"Hai Corundum Regenerator"
 		"Hai Williwaw Cooling" 2
+
 		`"Biroo" Atomic Thruster`
 		`"Biroo" Atomic Steering`
 		"Hyperdrive"
-	gun -23.5 -23
-	gun 23.5 -23
-	engine 42.5 86
-	engine -42.5 86
-	drone -43 37 over
-	drone 43 37 over
-	drone -43 37 under
-	drone 43 37 under
+
+	engine -34 69
+	engine 34 69
+	gun -20 -17
+	gun 20 -17
+	drone -36 29 over
+	drone 36 29 over
+	drone -36 29 under
+	drone 36 29 under
 	explode "small explosion" 15
 	explode "medium explosion" 35
 	explode "big explosion" 25
@@ -121,6 +129,7 @@ ship "Hai Heavy Droneship"
 		"Hai Tracker" 112
 		"Chameleon Anti-Missile" 1
 		"Pulse Turret" 2
+
 		"Boulder Reactor"
 		"Pebble Core"
 		"Hai Gorge Batteries"
@@ -128,28 +137,30 @@ ship "Hai Heavy Droneship"
 		"Hai Diamond Regenerator" 
 		"Hai Corundum Regenerator"
 		"Hai Williwaw Cooling" 3
+
 		`"Bufaer" Atomic Thruster`
 		`"Biroo" Atomic Steering`
 		"Hyperdrive"
-	gun -17.5 -71 "Hai Tracker Pod"
-	gun 17.5 -71 "Hai Tracker Pod"
-	gun -28 -45
-	gun 28 -45
-	turret 60 27
-	turret 1 72.5 "Chameleon Anti-Missile"
-	turret -60 27
-	engine 60 90
-	engine -60 90
-	drone -54 -10 over
-	drone -86 20 over
-	drone -65 57 over
-	drone 54 -10 over
-	drone 86 20 over
-	drone 65 57 over
-	drone -31 90 under
-	drone -13 105 under
-	drone 31 90 under
-	drone 13 105 under
+
+	engine -63 93
+	engine 63 93
+	gun -30 48.5
+	gun -19 -78 "Hai Tracker Pod"
+	gun 19 78 "Hai Tracker Pod"
+	gun 30 48.5
+	turret -63.5 26.5
+	turret 0 74 "Chameleon Anti-Missile"
+	turret 63.5 26.5
+	drone -60 -10 over
+	drone 60 -10 over
+	drone -90 39 over
+	drone 90 39 over
+	drone -60 -10 under
+	drone 60 -10 under
+	drone -90 39 under
+	drone 90 39 under
+	drone 0 0 under
+	drone 0 0 under
 	explode "tiny explosion" 40
 	explode "small explosion" 40
 	explode "medium explosion" 40
