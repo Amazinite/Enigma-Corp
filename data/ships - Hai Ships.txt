@@ -159,8 +159,8 @@ ship "Hai Heavy Droneship"
 	drone 60 -10 under
 	drone -90 39 under
 	drone 90 39 under
-	drone 0 0 under
-	drone 0 0 under
+	drone -64 27 under
+	drone 64 27 under
 	explode "tiny explosion" 40
 	explode "small explosion" 40
 	explode "medium explosion" 40
