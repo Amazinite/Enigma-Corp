@@ -17,9 +17,10 @@ galaxy "far east"
 	sprite "label/far east"
 
 system AMG-45
-	pos 893.931 -1007.31
+	pos 894 -1007
 	government "Outer Rim Mining"
-	habitable 233.28
+	habitable 240
+	belt 2000
 	link Ostima
 	link KAL-25
 	link UVG-64
@@ -28,16 +29,9 @@ system AMG-45
 	asteroids "small metal" 2 5.405
 	asteroids "medium metal" 23 5.8075
 	asteroids "large metal" 1 4.945
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
+	minables silicon 34 6.1241
+	minables lead 18 7.2452
+	minables iron 5 7.7825
 	fleet "ORM Core" 750
 	fleet "ORM Southern" 750
 	fleet "ORM Northern" 750
@@ -197,9 +191,10 @@ system "Alpha Centauri"
 		period 4888.11
 
 system Auram
-	pos 764.931 -862.312
+	pos 765 -862
 	government "Outer Rim Mining"
 	habitable 450
+	belt 1500
 	link Avilum
 	link Domov
 	link Ukkamu
@@ -209,6 +204,8 @@ system Auram
 	asteroids "small metal" 6 2.508
 	asteroids "medium metal" 65 1.496
 	asteroids "large metal" 12 3.212
+	minables copper 9 5.6244
+	minables iron 3 6.1513
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -251,17 +248,20 @@ system Auram
 			period 31.1498
 
 system Avilum
-	pos 691.931 -873.312
+	pos 692 -873
 	government "Outer Rim Mining"
-	habitable 745.92
+	habitable 746
+	belt 750
 	link Ferum
 	link Auram
-	link UEH-60
+	link "Tua Gamma"
 	asteroids "small rock" 3 3.836
 	asteroids "medium rock" 46 2.212
 	asteroids "large rock" 4 1.652
 	asteroids "medium metal" 1 1.624
 	asteroids "large metal" 1 2.716
+	minables silicon 2 2.4146
+	minables copper 1 2.6723
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -310,9 +310,10 @@ system Avilum
 			period 24.0584
 
 system DML-91
-	pos 1000.93 -981.312
+	pos 1001 -981
 	government "Outer Rim Mining"
-	habitable 233.28
+	habitable 233
+	belt 600
 	link UVG-64
 	link LPK-52
 	link TYU-16
@@ -322,16 +323,9 @@ system DML-91
 	asteroids "small metal" 2 5.96
 	asteroids "medium metal" 168 2.64
 	asteroids "large metal" 4 4.48
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
+	minables copper 24 2.1535
+	minables iron 12 2.2351
+	minables titanium 6 2.6235
 	fleet "ORM Core" 1500
 	fleet "ORM Southern" 1500
 	fleet "ORM Northern" 1500
@@ -371,28 +365,15 @@ system DML-91
 			distance 337
 			period 23.1972
 
-system DNF-14
-	pos 476.149 -930.254
+system "Tua Alpha"
+	pos 476 -930
 	government "Outer Rim Mining"
-	habitable 2859.44
+	habitable 2859
 	link Immeo
-	link KLW-01
+	link "Tua Beta"
 	asteroids "small rock" 7 9.3744
-	asteroids "medium rock" 2 9.9792
-	asteroids "large rock" 6 10.206
 	asteroids "small metal" 2 7.6356
-	asteroids "medium metal" 3 5.292
 	asteroids "large metal" 2 7.7868
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
 	object
 		sprite star/f0
 		distance 17.8711
@@ -431,7 +412,7 @@ system DNF-14
 			distance 208
 			period 15.7904
 		object
-			sprite planet/europa
+			sprite planet/station1
 			distance 325
 			period 30.8406
 
@@ -471,9 +452,10 @@ system Dabih
 			period 19.135
 
 system END-00
-	pos 1208.93 -1168.31
+	pos 1209 -1168
 	government "Outer Rim Mining"
 	habitable 625
+	belt 3000
 	link OMA-12
 	asteroids "small rock" 3 1.5675
 	asteroids "medium rock" 240 1.6815
@@ -481,16 +463,9 @@ system END-00
 	asteroids "small metal" 20 1.938
 	asteroids "medium metal" 7 3.3915
 	asteroids "large metal" 10 1.995
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
+	minables gold 20 10.6813
+	minables silver 15 10.8153
+	minables uranium 10 11.5135
 	fleet "ORM Core" 5000
 	fleet "ORM Southern" 5000
 	fleet "ORM Northern" 5000
@@ -533,6 +508,7 @@ system Enigma
 	pos -740 -485
 	government "Enigma Corp"
 	habitable 880
+	belt 1000
 	link Termara
 	asteroids "small rock" 6 2.6418
 	asteroids "medium rock" 68 2.2372
@@ -540,6 +516,7 @@ system Enigma
 	asteroids "small metal" 3 2.5228
 	asteroids "medium metal" 6 1.9992
 	asteroids "large metal" 4 2.7132
+	minables uranium 1 4.1232
 	trade Clothing 224
 	trade Electronics 756
 	trade Equipment 352
@@ -579,9 +556,10 @@ system Enigma
 			period 21.53
 
 system Ferum
-	pos 670.931 -942.312
+	pos 671 -942
 	government "Outer Rim Mining"
-	habitable 425.92
+	habitable 426
+	belt 800
 	link Avilum
 	link Mesec
 	asteroids "small rock" 20 2.3331
@@ -589,6 +567,8 @@ system Ferum
 	asteroids "large rock" 2 2.9568
 	asteroids "medium metal" 31 2.1252
 	asteroids "large metal" 33 3.465
+	minables iron 10 3.1451
+	minables lead 5 3.6234
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -639,26 +619,11 @@ system Ferum
 			period 27.6424
 
 system Immeo
-	pos 434.931 -887.312
+	pos 435 -887
 	government "Outer Rim Mining"
 	habitable 625
-	link DNF-14
-	link NGJ-67
-	asteroids "small rock" 2 3.9528
-	asteroids "medium rock" 178 3.24
-	asteroids "large rock" 20 7.5168
-	asteroids "medium metal" 6 7.7112
-	asteroids "large metal" 15 8.3592
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
+	link "Tua Alpha"
+	link "Tua Omega"
 	object
 		sprite star/g5
 		period 10
@@ -696,9 +661,10 @@ system Immeo
 			period 29.6191
 
 system JMU-10
-	pos 925.931 -1114.31
+	pos 926 -1114
 	government "Outer Rim Mining"
 	habitable 1080
+	belt 650
 	link NDV-52
 	link KAL-25
 	link UVG-64
@@ -709,16 +675,9 @@ system JMU-10
 	asteroids "small metal" 6 1.4364
 	asteroids "medium metal" 29 1.4112
 	asteroids "large metal" 6 3.6036
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
+	minables copper 24 2.1535
+	minables iron 12 2.2351
+	minables titanium 6 2.6235
 	fleet "ORM Core" 1000
 	fleet "ORM Southern" 1000
 	fleet "ORM Northern" 1000
@@ -751,17 +710,15 @@ system JMU-10
 			period 13.9414
 
 system Domov
-	pos 774.931 -919.312
+	pos 775 -919
 	government "Outer Rim Mining"
 	habitable 910
 	link Mesec
 	link Auram
 	link Ostima
 	asteroids "medium rock" 2 1.4756
-	asteroids "large rock" 1 1.9754
 	asteroids "small metal" 2 3.3796
 	asteroids "medium metal" 15 2.023
-	asteroids "large metal" 1 2.9512
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -808,9 +765,10 @@ system Domov
 		period 2047.5
 
 system KAL-25
-	pos 872.931 -1064.31
+	pos 873 -1064
 	government "Outer Rim Mining"
 	habitable 1250
+	belt 900
 	link AMG-45
 	link JMU-10
 	link WOW-56
@@ -819,16 +777,8 @@ system KAL-25
 	asteroids "large rock" 2 2.6784
 	asteroids "small metal" 1 2.4408
 	asteroids "large metal" 3 1.9224
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
+	minables lead 19 3.9762
+	minables neodynium 6 4.2355
 	fleet "ORM Core" 900
 	fleet "ORM Southern" 900
 	fleet "ORM Northern" 900
@@ -874,29 +824,17 @@ system KAL-25
 			distance 360
 			period 24.0908
 
-system KLW-01
-	pos 539.149 -893.254
+system "Tua Beta"
+	pos 540 -893
 	government "Outer Rim Mining"
 	habitable 320
-	link UEH-60
-	link TOI-02
-	link DNF-14
+	link "Tua Gamma"
+	link "Tua Psi"
+	link "Tua Alpha"
 	asteroids "small rock" 5 1.386
 	asteroids "medium rock" 21 3.2256
-	asteroids "large rock" 4 3.4272
 	asteroids "small metal" 26 1.9656
 	asteroids "medium metal" 1 3.6288
-	asteroids "large metal" 61 1.512
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
 	object
 		sprite star/m0
 		period 10
@@ -905,7 +843,7 @@ system KLW-01
 		distance 312.84
 		period 123.728
 		object
-			sprite planet/io
+			sprite planet/station4
 			distance 146
 			period 24.5944
 	object
@@ -963,9 +901,10 @@ system Kraz
 			period 26.5299
 
 system LPK-52
-	pos 1079.93 -961.312
+	pos 1080 -961
 	government "Outer Rim Mining"
 	habitable 1850
+	belt 400
 	link DML-91
 	link TYU-16
 	asteroids "medium rock" 49 3.289
@@ -973,16 +912,8 @@ system LPK-52
 	asteroids "small metal" 6 5.0094
 	asteroids "medium metal" 60 3.8456
 	asteroids "large metal" 23 6.6792
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
+	minables silicon 47 3.1535
+	minables platinum 4 3.7245
 	fleet "ORM Core" 1500
 	fleet "ORM Southern" 1500
 	fleet "ORM Northern" 1500
@@ -1013,9 +944,10 @@ system LPK-52
 		period 1063.08
 
 system NDV-52
-	pos 1034.93 -1132.31
+	pos 1035 -1132
 	government "Outer Rim Mining"
-	habitable 719.96
+	habitable 720
+	belt 750
 	link OMA-12
 	link JMU-10
 	asteroids "medium rock" 15 6.2775
@@ -1023,16 +955,9 @@ system NDV-52
 	asteroids "small metal" 1 5.8725
 	asteroids "medium metal" 9 7.0875
 	asteroids "large metal" 12 8.0325
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
+	minables aluminum 21 4.1242
+	minables tungsten 7 4.7232
+	minables silver 2 5.1241
 	fleet "ORM Core" 2000
 	fleet "ORM Southern" 2000
 	fleet "ORM Northern" 2000
@@ -1082,25 +1007,15 @@ system NDV-52
 			distance 485
 			period 56.8577
 
-system NGJ-67
-	pos 489.149 -861.254
+system "Tua Omega"
+	pos 489 -861
 	government "Outer Rim Mining"
-	habitable 425.92
+	habitable 426
 	link Immeo
 	asteroids "small rock" 2 4.004
 	asteroids "large rock" 2 7.28
 	asteroids "medium metal" 18 8.372
 	asteroids "large metal" 18 8.4448
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
 	object
 		sprite star/k5
 		period 10
@@ -1116,6 +1031,10 @@ system NGJ-67
 		sprite planet/cloud0
 		distance 674
 		period 339.145
+		object 
+			sprite planet/station5
+			distance 200
+			period 27.949
 	object
 		sprite planet/rock13
 		distance 887.96
@@ -1134,24 +1053,18 @@ system NGJ-67
 			period 19.976
 
 system OMA-12
-	pos 1111.93 -1191.31
+	pos 1112 -1191
 	government "Outer Rim Mining"
-	habitable 425.92
+	habitable 426
+	belt 1800
 	link END-00
 	link NDV-52
 	asteroids "large rock" 1 3.456
 	asteroids "medium metal" 9 3.0208
 	asteroids "large metal" 5 3.6864
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
+	minables silicon 25 6.5574
+	minables copper 14 6.9421
+	minables gold 7 7.1241
 	fleet "ORM Core" 4000
 	fleet "ORM Southern" 4000
 	fleet "ORM Northern" 4000
@@ -1196,7 +1109,7 @@ system OMA-12
 			period 46.0578
 
 system Ostima
-	pos 844.931 -962.312
+	pos 845 -962
 	government "Outer Rim Mining"
 	habitable 945
 	link Ukkamu
@@ -1204,11 +1117,9 @@ system Ostima
 	link Domov
 	link AMG-45
 	asteroids "small rock" 9 3.5816
-	asteroids "medium rock" 60 2.9282
-	asteroids "large rock" 23 3.0734
+	asteroids "medium rock" 49 2.9282
 	asteroids "small metal" 5 1.5004
-	asteroids "medium metal" 127 2.3958
-	asteroids "large metal" 5 2.1296
+	asteroids "medium metal" 20 2.3958
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -1273,25 +1184,18 @@ system Ostima
 			period 24.6031
 
 system PBD-09
-	pos 710.931 -1136.31
+	pos 711 -1136
 	government "Outer Rim Mining"
 	habitable 625
+	belt 1300
 	link QFS-83
 	asteroids "small rock" 19 7.575
 	asteroids "large rock" 1 4.5
 	asteroids "small metal" 91 9.75
 	asteroids "medium metal" 81 4.35
 	asteroids "large metal" 115 7.8
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
+	minables gold 6 5.1245
+	minables uranium 3 5.7231
 	fleet "ORM Core" 2000
 	fleet "ORM Southern" 2000
 	fleet "ORM Northern" 2000
@@ -1340,9 +1244,10 @@ system PBD-09
 			period 64.5844
 
 system QFS-83
-	pos 774.931 -1132.31
+	pos 775 -1132
 	government "Outer Rim Mining"
 	habitable 1715
+	belt 850
 	link WOW-56
 	link RVE-32
 	link PBD-09
@@ -1351,16 +1256,9 @@ system QFS-83
 	asteroids "large rock" 13 1.638
 	asteroids "medium metal" 2 0.826
 	asteroids "large metal" 4 1.54
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
+	minables lead 12 4.6162
+	minables iron 6 4.7123
+	minables uranium 1 4.8132
 	fleet "ORM Core" 1500
 	fleet "ORM Southern" 1500
 	fleet "ORM Northern" 1500
@@ -1397,25 +1295,18 @@ system QFS-83
 			period 50.433
 
 system RVE-32
-	pos 758.931 -1198.31
+	pos 759 -1198
 	government "Outer Rim Mining"
-	habitable 659.2
+	habitable 659
+	belt 600
 	link QFS-83
 	asteroids "medium rock" 17 2.21
 	asteroids "large rock" 11 3.5275
 	asteroids "small metal" 14 5.0575
 	asteroids "medium metal" 11 5.95
 	asteroids "large metal" 8 5.355
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
+	minables tungsten 12 2.7424
+	minables silver 6 2.8231
 	fleet "ORM Core" 2000
 	fleet "ORM Southern" 2000
 	fleet "ORM Northern" 2000
@@ -1493,9 +1384,10 @@ system Sadr
 		period 1000
 
 system Mesec
-	pos 732.931 -974.312
+	pos 733 -974
 	government "Outer Rim Mining"
 	habitable 525
+	belt 1100
 	link Ferum
 	link Domov
 	link Ostima
@@ -1504,6 +1396,7 @@ system Mesec
 	asteroids "small metal" 115 6.5076
 	asteroids "medium metal" 6 4.9793
 	asteroids "large metal" 33 6.2118
+	minables silicon 15 4.8312
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -1546,81 +1439,18 @@ system Mesec
 			period 28.2878
 
 system Suhail
-	pos -774 -338
-	government Republic
-	habitable 1715
 	link Regor
 	link Termara
-	asteroids "small rock" 2 2.8224
-	asteroids "medium rock" 1 4.48
-	asteroids "large rock" 1 2.5088
-	asteroids "small metal" 5 5.7344
-	asteroids "medium metal" 3 3.4944
-	asteroids "large metal" 17 4.5696
-	trade Clothing 234
-	trade Electronics 755
-	trade Equipment 442
-	trade Food 413
-	trade "Heavy Metals" 1056
-	trade Industrial 819
-	trade "Luxury Goods" 986
-	trade Medical 774
-	trade Metal 259
-	trade Plastic 277
-	fleet "Small Northern Merchants" 2000
-	fleet "Large Northern Merchants" 5000
-	fleet "Small Deep" 4000
-	fleet "Large Deep" 7000
-	fleet "Large Northern Pirates" 9000
-	object
-		sprite star/f5
-		period 10
-	object
-		sprite planet/water1
-		distance 193.41
-		period 25.9804
-	object
-		sprite planet/io
-		distance 461.7
-		period 95.8226
-	object
-		sprite planet/gas14
-		distance 1034.31
-		period 321.295
-		object "Leviathan Station"
-			sprite planet/station6
-			distance 252
-			period 15.4109
-	object Helheim
-		sprite planet/ocean9
-		distance 1842.75
-		period 764.06
-		object
-			sprite planet/europa
-			distance 166
-			period 20.4528
 
-system TOI-02
-	pos 586.149 -943.254
+system "Tua Psi"
+	pos 586 -943
 	government "Outer Rim Mining"
-	habitable 2201.68
-	link KLW-01
+	habitable 2202
+	link "Tua Beta"
 	asteroids "small rock" 60 1.8304
 	asteroids "medium rock" 11 1.1792
 	asteroids "large rock" 14 2.288
 	asteroids "small metal" 29 2.1648
-	asteroids "medium metal" 15 1.8832
-	asteroids "large metal" 5 2.024
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
 	object
 		sprite star/f5
 		distance 26.3049
@@ -1650,15 +1480,20 @@ system TOI-02
 		sprite planet/rock14
 		distance 1915.59
 		period 714.719
+		object
+			sprite planet/station2
+			distance 255
+			period 10.6954
 	object
 		sprite planet/gas17
 		distance 3059.6
 		period 1442.71
 
 system TYU-16
-	pos 1026.93 -920.312
+	pos 1027 -920
 	government "Outer Rim Mining"
-	habitable 425.92
+	habitable 426
+	belt 1150
 	link DML-91
 	link LPK-52
 	asteroids "small rock" 1 9.0558
@@ -1667,16 +1502,9 @@ system TYU-16
 	asteroids "small metal" 68 3.51
 	asteroids "medium metal" 16 6.3882
 	asteroids "large metal" 13 6.669
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
+	minables aluminum 21 4.6236
+	minables iron 10 4.7135
+	minables gold 7 4.8125
 	fleet "ORM Core" 1500
 	fleet "ORM Southern" 1500
 	fleet "ORM Northern" 1500
@@ -1716,24 +1544,13 @@ system Termara
 	pos -757 -411.5
 	government Republic
 	habitable 5880
+	belt 1200
 	link Suhail
 	link Enigma
 	asteroids "small rock" 6 2.6418
-	asteroids "medium rock" 68 2.2372
-	asteroids "large rock" 22 1.3328
 	asteroids "small metal" 3 2.5228
-	asteroids "medium metal" 6 1.9992
-	asteroids "large metal" 4 2.7132
-	trade Clothing 310
-	trade Electronics 700
-	trade Equipment 398
-	trade Food 414
-	trade "Heavy Metals" 921
-	trade Industrial 710
-	trade "Luxury Goods" 1033
-	trade Medical 796
-	trade Metal 365
-	trade Plastic 306
+	minables neodymium 8 3.1412
+	minables uranium 5 2.9358
 	fleet "Small Northern Merchants" 2500
 	fleet "Large Northern Merchants" 5500
 	fleet "Small Deep" 4000
@@ -1765,15 +1582,15 @@ system Termara
 			period 25.5097
 
 system "Karuht'aryet"
-	pos 152.298 -912.95
-	habitable 425.92
+	pos 152 -913
+	habitable 426
+	belt 800
 	link "Karuht'quyet"
 	link "Karuht'enyet"
 	asteroids "medium rock" 2 1.4756
-	asteroids "large rock" 1 1.9754
-	asteroids "small metal" 2 3.3796
-	asteroids "medium metal" 15 2.023
-	asteroids "large metal" 1 2.9512
+	minables silicon 24 4.6178
+	minables tungsten 15 4.7125
+	minables uranium 9 4.8124
 	object
 		sprite star/k5
 		period 10
@@ -1807,16 +1624,15 @@ system "Karuht'aryet"
 		period 2047.5
 
 system "Karuht'uma"
-	pos 462.298 -1039.95
-	habitable 486.68
+	pos 462 -1040
+	habitable 487
+	belt 1400
 	link "Karuht'ut"
 	link "Karuht'yet"
 	asteroids "small rock" 50 2.0352
-	asteroids "medium rock" 69 5.376
-	asteroids "large rock" 41 2.1504
-	asteroids "small metal" 8 2.5344
-	asteroids "medium metal" 8 3.1488
-	asteroids "large metal" 7 2.7264
+	minables copper 17 5.1526
+	minables iron 14 5.4623
+	minables uranium 9 5.6812
 	object
 		sprite star/k0
 		period 10
@@ -1846,17 +1662,16 @@ system "Karuht'uma"
 			period 12.4282
 
 system "Karuht'yet"
-	pos 402.298 -974.95
-	habitable 425.92
+	pos 402 -975
+	habitable 426
+	belt 650
 	link "Karuht'uma"
 	link "Karuht'utyet"
 	link "Karuht'olyet"
 	asteroids "small rock" 9 2.1105
-	asteroids "medium rock" 7 3.654
-	asteroids "large rock" 1 2.079
-	asteroids "small metal" 13 3.4965
-	asteroids "medium metal" 1 4.473
-	asteroids "large metal" 18 2.772
+	minables aluminum 27 3.2515
+	minables copper 18 3.5625
+	minables uranium 9 3.7526
 	object
 		sprite star/k5
 		period 10
@@ -1886,15 +1701,14 @@ system "Karuht'yet"
 			period 25.225
 
 system "Karuht'umayet"
-	pos 262.298 -891.95
-	habitable 233.28
+	pos 262 -892
+	habitable 233
+	belt 500
 	link "Karuht'quyet"
-	asteroids "small rock" 1 1.365
 	asteroids "medium rock" 163 0.845
-	asteroids "large rock" 10 1.755
-	asteroids "small metal" 11 0.793
-	asteroids "medium metal" 11 1.157
-	asteroids "large metal" 3 1.183
+	minables lead 25 3.1515
+	minables silver 12 3.2631
+	minables uranium 9 3.3865
 	object
 		sprite star/m4
 		period 10
@@ -1932,15 +1746,16 @@ system "Karuht'umayet"
 			period 60.5923
 
 system "Karuht'duyet"
-	pos 200.298 -1042.95
+	pos 200 -1043
 	habitable 1080
+	belt 400
 	link "Karuht'enyet"
 	link "Karuht'utyet"
 	asteroids "small rock" 1 6.864
 	asteroids "medium rock" 11 6.384
-	asteroids "large rock" 1 4.944
-	asteroids "small metal" 2 5.136
-	asteroids "large metal" 3 4.992
+	minables lead 30 2.9241
+	minables neodynium 14 3.1527
+	minables uranium 9 3.2526
 	object
 		sprite star/g0
 		period 10
@@ -1978,15 +1793,16 @@ system "Karuht'duyet"
 			period 35.8046
 
 system "Karuht'utyet"
-	pos 298.298 -1031.95
-	habitable 425.92
+	pos 298 -1032
+	habitable 426
+	belt 900
 	link "Karuht'duyet"
 	link "Karuht'yet"
 	asteroids "medium rock" 5 5.616
 	asteroids "large rock" 4 10.512
-	asteroids "small metal" 6 6.768
-	asteroids "medium metal" 76 10.44
-	asteroids "large metal" 24 7.848
+	minables silicon 31 4.5252
+	minables platinum 10 4.6812
+	minables uranium 9 4.7263
 	object
 		sprite star/k5
 		period 10
@@ -2012,14 +1828,15 @@ system "Karuht'utyet"
 			period 17.218
 
 system "Karuht'quyet"
-	pos 214.298 -846.95
-	habitable 233.28
+	pos 214 -847
+	habitable 233
+	belt 800
 	link "Karuht'aryet"
 	link "Karuht'umayet"
 	asteroids "medium rock" 28 2.6163
-	asteroids "large rock" 1 4.5144
-	asteroids "small metal" 3 6.3612
-	asteroids "large metal" 2 4.7709
+	minables copper 32 3.9132
+	minables titanium 12 4.1616
+	minables uranium 9 4.2142
 	object
 		sprite star/m4
 		period 10
@@ -2053,17 +1870,17 @@ system "Karuht'quyet"
 			period 24.6561
 
 system "Karuht'enyet"
-	pos 225.298 -963.95
-	habitable 745.92
+	pos 225 -964
+	habitable 746
+	belt 1600
 	link "Karuht'aryet"
 	link "Karuht'duyet"
 	link "Karuht'olyet"
 	asteroids "small rock" 8 3.3696
 	asteroids "medium rock" 2 6.9264
-	asteroids "large rock" 8 5.9904
-	asteroids "small metal" 2 3.6972
-	asteroids "medium metal" 13 6.1776
-	asteroids "large metal" 1 3.8844
+	minables aluminum 24 5.5325
+	minables gold 9 5.7982
+	minables uranium 9 6.1245
 	object
 		sprite star/k5
 		distance 48.048
@@ -2095,16 +1912,16 @@ system "Karuht'enyet"
 			period 13.0181
 
 system "Karuht'qu"
-	pos 772.298 -1016.95
+	pos 772 -1017
 	habitable 1715
+	belt 1150
 	link "Karuht'ol"
 	link "Karuht'ar"
 	asteroids "small rock" 34 3.564
 	asteroids "medium rock" 28 5.454
-	asteroids "large rock" 4 3.402
-	asteroids "small metal" 6 5.4
-	asteroids "medium metal" 1 5.022
-	asteroids "large metal" 4 5.67
+	minables lead 31 4.3155
+	minables tungsten 12 4.5236
+	minables uranium 9 4.7514
 	object
 		sprite star/f5
 		period 10
@@ -2142,11 +1959,15 @@ system "Karuht'qu"
 			period 40.3851
 
 system "Karuht'ar"
-	pos 736.298 -1089.95
-	habitable 425.92
+	pos 736 -1090
+	habitable 426
+	belt 600
 	link "Karuht'ol"
 	link "Karuht'qu"
-	asteroids "large metal" 1 2.4795
+	asteroids "large metal" 11 2.4795
+	minables aluminum 25 2.7547
+	minables copper 23 2.8532
+	minables uranium 9 2.9583
 	object
 		sprite star/k5
 		period 10
@@ -2176,12 +1997,16 @@ system "Karuht'ar"
 			period 23.5018
 
 system "Karuht'du"
-	pos 612.298 -1057.95
+	pos 612 -1058
 	habitable 2795
+	belt 750
 	link "Karuht'ol"
 	link "Karuht'en"
 	link "Karuht'ut"
-	asteroids "large metal" 1 0.732
+	asteroids "large metal" 11 0.732
+	minables copper 24 3.7532
+	minables lead 16 3.8642
+	minables uranium 9 3.9672
 	object
 		sprite star/f5
 		distance 49.4597
@@ -2229,17 +2054,16 @@ system "Karuht'du"
 			period 36.9857
 
 system "Karuht'ol"
-	pos 688.298 -1015.95
-	habitable 368.28
+	pos 688 -1016
+	habitable 368
+	belt 650
 	link "Karuht'qu"
 	link "Karuht'ar"
 	link "Karuht'du"
 	asteroids "small rock" 29 2.808
-	asteroids "medium rock" 52 2.028
-	asteroids "large rock" 4 4.5552
-	asteroids "small metal" 9 2.3712
-	asteroids "medium metal" 28 2.6832
-	asteroids "large metal" 19 2.028
+	minables silver 12 3.4512
+	minables platinum 9 3.7133
+	minables uranium 9 3.9531
 	object
 		sprite star/m4
 		distance 35.1906
@@ -2279,13 +2103,15 @@ system "Karuht'ol"
 			period 19.1221
 
 system "Karuht'en"
-	pos 636.298 -1122.95
+	pos 636 -1123
 	habitable 1080
+	belt 1050
 	link "Karuht'du"
-	asteroids "large rock" 3 3.705
-	asteroids "small metal" 4 3.762
-	asteroids "medium metal" 2 8.037
-	asteroids "large metal" 3 4.218
+	asteroids "large rock" 13 3.705
+	asteroids "small metal" 14 3.762
+	minables aluminum 32 4.6124
+	minables lead 21 4.7152
+	minables uranium 9 4.8135
 	object
 		sprite star/g0
 		period 10
@@ -2315,16 +2141,16 @@ system "Karuht'en"
 			period 15.0975
 
 system "Karuht'ut"
-	pos 549.298 -1014.95
-	habitable 745.92
+	pos 550 -1015
+	habitable 746
+	belt 650
 	link "Karuht'du"
 	link "Karuht'uma"
 	asteroids "small rock" 13 3.096
 	asteroids "medium rock" 30 1.368
-	asteroids "large rock" 20 2.304
-	asteroids "small metal" 5 3.024
-	asteroids "medium metal" 127 2.328
-	asteroids "large metal" 1 2.112
+	minables aluminum 25 3.5712
+	minables gold 9 3.8635
+	minables uranium 9 3.9752
 	object
 		sprite star/k5
 		distance 50.6221
@@ -2356,15 +2182,16 @@ system "Karuht'ut"
 		period 1347.39
 
 system "Karuht'olyet"
-	pos 325.298 -941.95
+	pos 325 -942
 	habitable 320
+	belt 1200
 	link "Karuht'enyet"
 	link "Karuht'yet"
 	asteroids "small rock" 11 2.1996
 	asteroids "large rock" 3 2.1996
-	asteroids "small metal" 13 1.5444
-	asteroids "medium metal" 26 1.9188
-	asteroids "large metal" 18 2.4804
+	minables silicon 24 5.7153
+	minables iron 14 5.8621
+	minables uranium 9 5.9323
 	object
 		sprite star/m0
 		period 10
@@ -2405,28 +2232,15 @@ system "Karuht'olyet"
 			distance 416
 			period 21.6723
 
-system UEH-60
-	pos 619.149 -867.254
+system "Tua Gamma"
+	pos 619 -867
 	government "Outer Rim Mining"
-	habitable 719.96
+	habitable 720
 	link Avilum
-	link KLW-01
+	link "Tua Beta"
 	asteroids "small rock" 3 7.1456
 	asteroids "medium rock" 22 3.2538
 	asteroids "large rock" 2 4.6574
-	asteroids "small metal" 19 6.8904
-	asteroids "medium metal" 17 4.4022
-	asteroids "large metal" 1 7.9112
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
 	object
 		sprite star/k0
 		distance 31.7538
@@ -2448,6 +2262,10 @@ system UEH-60
 		sprite planet/cloud8
 		distance 791.056
 		period 331.678
+		object
+			sprite planet/station6
+			distance 184
+			period 27.1691
 	object
 		sprite planet/gas8
 		distance 1461.35
@@ -2470,9 +2288,10 @@ system UEH-60
 			period 33.1846
 
 system UVG-64
-	pos 956.931 -1032.31
+	pos 957 -1032
 	government "Outer Rim Mining"
-	habitable 425.92
+	habitable 426
+	belt 1400
 	link AMG-45
 	link JMU-10
 	link DML-91
@@ -2481,16 +2300,9 @@ system UVG-64
 	asteroids "large rock" 13 5.7375
 	asteroids "medium metal" 13 3.7638
 	asteroids "large metal" 24 6.0588
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
+	minables aluminum 18 5.8124
+	minables copper 14 5.8951
+	minables iron 6 5.9523
 	fleet "ORM Core" 1000
 	fleet "ORM Southern" 1000
 	fleet "ORM Northern" 1000
@@ -2523,7 +2335,7 @@ system UVG-64
 			period 11.3928
 
 system Ukkamu
-	pos 847.931 -879.312
+	pos 848 -879
 	government "Outer Rim Mining"
 	habitable 8640
 	link Auram
@@ -2567,9 +2379,10 @@ system Ukkamu
 			period 14.4846
 
 system WOW-56
-	pos 840.931 -1114.31
+	pos 841 -1114
 	government "Outer Rim Mining"
 	habitable 1080
+	belt 2000
 	link KAL-25
 	link JMU-10
 	link QFS-83
@@ -2578,16 +2391,9 @@ system WOW-56
 	asteroids "large rock" 39 4.536
 	asteroids "small metal" 1 4.494
 	asteroids "large metal" 11 3.654
-	trade Clothing 290
-	trade Electronics 740
-	trade Equipment 530
-	trade Food 350
-	trade "Heavy Metals" 960
-	trade Industrial 720
-	trade "Luxury Goods" 1220
-	trade Medical 680
-	trade Metal 390
-	trade Plastic 390
+	minables aluminum 18 6.5235
+	minables titanium 9 6.7266
+	minables platinum 3 6.9573
 	fleet "ORM Core" 1000
 	fleet "ORM Southern" 1000
 	fleet "ORM Northern" 1000
