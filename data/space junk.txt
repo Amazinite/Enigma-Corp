@@ -1,0 +1,99 @@
+# Copyright (c) 2016 by Jonathan Steck
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+minable "star barge junk"
+	sprite "ship/star barge"
+	hull 1000
+	payload "Aluminum" 10
+	payload "Iron" 10
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
+	
+minable "shuttle junk"
+	sprite "ship/shuttle"
+		"frame rate" 0
+	hull 600
+	payload "Aluminum" 10
+	payload "Lead" 10
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
+	
+minable "flivver junk"
+	sprite "ship/flivver"
+	hull 200
+	payload "Aluminum" 10
+	payload "Silicon" 10
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
+	
+minable "heavy shuttle junk"
+	sprite "ship/heavy shuttle"
+	hull 700
+	payload "Aluminum" 10
+	payload "Iron" 10
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
+	
+minable "scout junk"
+	sprite "ship/scout"
+	hull 400
+	payload "Aluminum" 10
+	payload "Silicon" 10
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
+	
+minable "sparrow junk"
+	sprite "ship/sparrow"
+	hull 300
+	payload "Aluminum" 10
+	payload "Lead" 10
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
+	
+minable "hawk junk"
+	sprite "ship/hawk"
+	hull 500
+	payload "Aluminum" 20
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
+	
+minable "fury junk"
+	sprite "ship/fury"
+	hull 400
+	payload "Aluminum" 10
+	payload "Iron" 10
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
+	
+minable "berserker junk"
+	sprite "ship/berserker"
+	hull 500
+	payload "Aluminum" 10
+	payload "Lead" 10
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
+	
+minable "wasp junk"
+	sprite "ship/wasp"
+	hull 500
+	payload "Aluminum" 10
+	payload "Silicon" 10
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
