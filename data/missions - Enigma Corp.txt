@@ -126,15 +126,15 @@ mission "Enigma Corp [1a]"
 			choice
 				`	That is way too long. Do you think I could talk to him right now?`
 					goto now
-				#`	"Sure, I'll schedule it for then."`
-				#	goto schedule
+#				`	"Sure, I'll schedule it for then."`
+#					goto schedule
 				`	"You know what, nevermind."`
 					defer
 			
 			label schedule
 			`	"Sign here, here, and initial here please. Come back in exactly 120 days and Mr. Dolent will be waiting for you near the landing pads."`
 			`	"Thank you."`
-				fail
+				decline
 				
 			label looking
 			`	"Have a nice day then."`

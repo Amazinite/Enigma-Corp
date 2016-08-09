@@ -34,7 +34,7 @@ mission "Enigma Corp 1"
 			`	Adhara`
 			`	Alpha Centauri`
 			`	Dabih`
-				fail
+				decline
 
 event "Enigma Corp 1"
 	planet "Enigma Alpha"
@@ -60,7 +60,7 @@ mission "Enigma Corp 2"
 		conversation
 			`	As you land, you recieve a message from Enigma Corp.`
 			`	"Come one, come all! Enigma Stations located throughout the galaxy have just been stocked with the latest in Enigma Corporation technology! Get your brand new weapons today!`
-				fail
+				decline
 
 event "Enigma Corp 2"
 	planet "Enigma Alpha"
@@ -101,7 +101,7 @@ mission "Enigma Corp 3"
 		conversation
 			`	As you land, you recieve a message from Enigma Corp.`
 			`	"Come one, come all! Enigma Stations located throughout the galaxy have just been stocked with the latest in Enigma Corporation technology! Get your brand new weapons today!`
-				fail
+				decline
 
 event "Enigma Corp 3"
 	planet "Enigma Alpha"
