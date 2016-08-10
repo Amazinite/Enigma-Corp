@@ -219,7 +219,7 @@ mission "Lovelace Secrets [1]"
 			`	While taking a sip of the drink that you ordered (which tastes pretty stale, and really isn't worth the credits you spent for it) a shady looking character sits down next to you and orders a drink. He is wearing a long black trench coat that covers his feet and a wide brim hat that covers most of his face.`
 			choice
 				`	(Introduce yourself.)`
-				`	(Walk away to try and avoid contronfation.)`
+				`	(Walk away to try and avoid confrontation.)`
 					goto walk
 			
 			`	You turn to the man and extend your hand.`
