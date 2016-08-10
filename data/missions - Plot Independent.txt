@@ -121,11 +121,11 @@ mission "Lovelace Trolling [1]"
 event "lovelace find out"
 	"reputation: Republic" -= 10
 	planet "Ada"
-		"reputation required" 1000
+		"required reputation" 1000
 	planet "Pilot"
-		"reputation required" 1000
+		"required reputation" 1000
 	planet "Carbuncle Station"
-		"reputation required" 1000
+		"required reputation" 1000
 		
 mission "Lovelace Trolling [2]"
 	invisible
