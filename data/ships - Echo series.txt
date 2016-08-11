@@ -350,7 +350,7 @@ ship "EC-050 'Orca'"
 	explode "medium explosion" 60
 	explode "big explosion" 30
 	explode "huge explosion" 20
-	description "The Orca is the mother of all haulers, able to carry twice as much cargo as it competitor, the Bulk Freighter. It does this my packing the cargo as tight as humanly possible and converting much of the space that would normally be used for crew quarters and other facilities into cargo space. Although, this makes the Orca come at a heavy cost of over 43 million credits for the hull alone, as well as making the Orca a large and slow target that can have trouble defending itself."
+	description "The Orca is the mother of all haulers, able to carry twice as much cargo as it competitor, the Bulk Freighter. It does this by packing the cargo as tight as humanly possible and converting much of the space that would normally be used for crew quarters and other facilities into cargo space. Although, this makes the Orca come at a heavy cost of over 43 million credits for the hull alone, as well as making the Orca a large and slow target that can have trouble defending itself."
 	description "Brought to you by the Enigma Corporation."
 
 ship "EC-069 'Star King'"
