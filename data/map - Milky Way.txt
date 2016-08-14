@@ -1541,7 +1541,7 @@ system TYU-16
 			period 17.2707
 
 system Termara
-	pos -757 -411.5
+	pos -757 -412
 	government Republic
 	habitable 5880
 	belt 1200
