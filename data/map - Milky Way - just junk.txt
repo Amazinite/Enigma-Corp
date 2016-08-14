@@ -18,9 +18,9 @@ system Cardax
 	asteroids "large metal" 12 6.4532
 	minables aluminum 4 8.53341
 	minables lead 1 7.70182
-	minables "sparrow junk" 1 6
-	minables "wasp junk" 1 6
-	minables "berserker junk" 1 6
+	minables "sparrow junk a" 1 6
+	minables "wasp junk a" 1 6
+	minables "berserker junk a" 1 6
 system Danoa
 	asteroids "small rock" 26 2.425
 	asteroids "medium rock" 274 2.15
@@ -31,9 +31,9 @@ system Danoa
 	minables copper 47 2.85289
 	minables silicon 20 2.3468
 	minables titanium 3 3.894
-	minables "sparrow junk" 1 3
-	minables "fury junk" 1 3
-	minables "hawk junk" 1 3
+	minables "sparrow junk a" 1 3
+	minables "fury junk a" 1 3
+	minables "hawk junk a" 1 3
 system Durax
 	asteroids "small rock" 16 8.1744
 	asteroids "medium rock" 4 5.304
@@ -42,9 +42,9 @@ system Durax
 	asteroids "medium metal" 11 7.8624
 	asteroids "large metal" 1 8.6736
 	minables lead 9 12.9774
-	minables "sparrow junk" 1 10
-	minables "wasp junk" 1 10
-	minables "berserker junk" 1 10
+	minables "sparrow junk a" 1 10
+	minables "wasp junk a" 1 10
+	minables "berserker junk a" 1 10
 system Gorvi
 	asteroids "small rock" 60 1.1781
 	asteroids "medium rock" 3 2.1692
@@ -53,9 +53,9 @@ system Gorvi
 	asteroids "large metal" 1 1.5895
 	minables iron 7 2.21226
 	minables lead 9 2.73021
-	minables "berserker junk" 1 2.5
-	minables "fury junk" 1 2.5
-	minables "hawk junk" 1 2.5
+	minables "berserker junk a" 1 2.5
+	minables "fury junk a" 1 2.5
+	minables "hawk junk a" 1 2.5
 system Hassaleh
 	asteroids "small rock" 6 1.9305
 	asteroids "medium rock" 75 4.4928
@@ -66,9 +66,9 @@ system Hassaleh
 	minables copper 23 7.2985
 	minables gold 10 4.45585
 	minables silicon 21 7.82544
-	minables "sparrow junk" 1 6
-	minables "fury junk" 1 6
-	minables "hawk junk" 1 6
+	minables "sparrow junk a" 1 6
+	minables "fury junk a" 1 6
+	minables "hawk junk a" 1 6
 system Hatysa
 	asteroids "small rock" 19 0.858
 	asteroids "large rock" 3 1.0296
@@ -78,9 +78,9 @@ system Hatysa
 	minables copper 27 2.2074
 	minables iron 4 2.54657
 	minables neodymium 9 2.45903
-	minables "berserker junk" 1 2.5
-	minables "fury junk" 1 2.5
-	minables "hawk junk" 1 2.5
+	minables "berserker junk a" 1 2.5
+	minables "fury junk a" 1 2.5
+	minables "hawk junk a" 1 2.5
 system Mintaka
 	asteroids "small rock" 34 6.935
 	asteroids "medium rock" 1 4.6075
@@ -90,9 +90,9 @@ system Mintaka
 	minables aluminum 11 9.8728
 	minables titanium 3 11.7992
 	minables uranium 9 6.96883
-	minables "berserker junk" 1 8
-	minables "fury junk" 1 8
-	minables "hawk junk" 1 8
+	minables "berserker junk a" 1 8
+	minables "fury junk a" 1 8
+	minables "hawk junk a" 1 8
 system Mirzam
 	asteroids "small rock" 24 3.402
 	asteroids "medium rock" 42 4.4712
@@ -102,9 +102,9 @@ system Mirzam
 	minables iron 6 4.2336
 	minables silicon 24 7.53697
 	minables tungsten 2 5.97339
-	minables "sparrow junk" 1 6
-	minables "fury junk" 1 6
-	minables "hawk junk" 1 6
+	minables "sparrow junk a" 1 6
+	minables "fury junk a" 1 6
+	minables "hawk junk a" 1 6
 system Moktar
 	asteroids "small rock" 2 4.945
 	asteroids "medium rock" 7 8.395
@@ -114,9 +114,9 @@ system Moktar
 	asteroids "large metal" 1 6.9575
 	minables aluminum 4 7.32905
 	minables lead 2 12.5577
-	minables "sparrow junk" 1 9
-	minables "wasp junk" 1 9
-	minables "berserker junk" 1 9
+	minables "sparrow junk a" 1 9
+	minables "wasp junk a" 1 9
+	minables "berserker junk a" 1 9
 system Oblate
 	asteroids "small rock" 2 2.1
 	asteroids "medium rock" 7 1.3944
@@ -127,9 +127,9 @@ system Oblate
 	minables iron 4 3.88695
 	minables lead 1 3.86035
 	minables silicon 3 2.34276
-	minables "sparrow junk" 1 3
-	minables "wasp junk" 1 3
-	minables "berserker junk" 1 3
+	minables "sparrow junk a" 1 3
+	minables "wasp junk a" 1 3
+	minables "berserker junk a" 1 3
 system Rajak
 	asteroids "small rock" 15 2.3232
 	asteroids "medium rock" 51 4.1536
@@ -137,9 +137,9 @@ system Rajak
 	asteroids "medium metal" 2 4.1888
 	asteroids "large metal" 3 1.8304
 	minables silicon 5 4.86566
-	minables "sparrow junk" 1 4
-	minables "fury junk" 1 4
-	minables "hawk junk" 1 4
+	minables "sparrow junk a" 1 4
+	minables "fury junk a" 1 4
+	minables "hawk junk a" 1 4
 system Rigel
 	asteroids "small rock" 12 11.076
 	asteroids "medium rock" 42 3.9
@@ -150,9 +150,9 @@ system Rigel
 	minables copper 6 10.5446
 	minables neodymium 17 11.7377
 	minables tungsten 5 13.3277
-	minables "sparrow junk" 1 10
-	minables "fury junk" 1 10
-	minables "hawk junk" 1 10
+	minables "sparrow junk a" 1 10
+	minables "fury junk a" 1 10
+	minables "hawk junk a" 1 10
 system Sospi
 	asteroids "small rock" 1 2.8336
 	asteroids "large rock" 1 1.9481
@@ -162,14 +162,14 @@ system Sospi
 	minables neodymium 1 4.20171
 	minables titanium 3 3.46551
 	minables uranium 5 3.96983
-	minables "sparrow junk" 1 4
-	minables "fury junk" 1 4
-	minables "hawk junk" 1 4
+	minables "sparrow junk a" 1 4
+	minables "fury junk a" 1 4
+	minables "hawk junk a" 1 4
 system Sumar
 	asteroids "large metal" 1 2.2176
-	minables "sparrow junk" 1 2
-	minables "fury junk" 1 2
-	minables "hawk junk" 1 2
+	minables "sparrow junk a" 1 2
+	minables "fury junk a" 1 2
+	minables "hawk junk a" 1 2
 system Tortor
 	asteroids "small rock" 8 1.404
 	asteroids "medium rock" 12 1.872
@@ -179,9 +179,9 @@ system Tortor
 	minables iron 9 4.67607
 	minables lead 1 4.79499
 	minables silicon 1 3.75422
-	minables "berserker junk" 1 4
-	minables "fury junk" 1 4
-	minables "hawk junk" 1 4
+	minables "berserker junk a" 1 4
+	minables "fury junk a" 1 4
+	minables "hawk junk a" 1 4
 system Unagi
 	asteroids "large rock" 1 3.102
 	asteroids "small metal" 2 2.772
@@ -189,14 +189,14 @@ system Unagi
 	asteroids "large metal" 1 2.805
 	minables gold 4 5.8391
 	minables tungsten 1 3.91882
-	minables "berserker junk" 1 4
-	minables "fury junk" 1 4
-	minables "hawk junk" 1 4
+	minables "berserker junk a" 1 4
+	minables "fury junk a" 1 4
+	minables "hawk junk a" 1 4
 system Volax
 	asteroids "large metal" 1 1.7688
-	minables "sparrow junk" 1 2
-	minables "wasp junk" 1 2
-	minables "berserker junk" 1 2
+	minables "sparrow junk a" 1 2
+	minables "wasp junk a" 1 2
+	minables "berserker junk a" 1 2
 
 # Deep
 # Shuttle, Scout, Flivver, Fury
@@ -208,14 +208,14 @@ system Algieba
 	asteroids "medium metal" 14 3.8025
 	asteroids "large metal" 9 3.2175
 	minables iron 4 5.44731
-	minables "flivver junk" 1 2
-	minables "scout junk" 1 2
-	minables "shuttle junk" 1 2
+	minables "flivver junk a" 1 2
+	minables "scout junk a" 1 2
+	minables "shuttle junk a" 1 2
 system Aspidiske
 	asteroids "large metal" 1 3.7422
-	minables "fury junk" 1 2
-	minables "flivver junk" 1 2
-	minables "scout junk" 1 2
+	minables "fury junk a" 1 2
+	minables "flivver junk a" 1 2
+	minables "scout junk a" 1 2
 
 # Core
 # Star Barge, Wasp, Sparrow, Shuttle
@@ -229,9 +229,9 @@ system "Gamma Cassiopeiae"
 	minables aluminum 2 6.56317
 	minables titanium 28 4.09147
 	minables tungsten 6 7.59246
-	minables "star barge junk" 1 2
-	minables "wasp junk" 1 2
-	minables "shuttle junk" 1 2
+	minables "star barge junk a" 1 2
+	minables "wasp junk a" 1 2
+	minables "shuttle junk a" 1 2
 system Persian
 	asteroids "small rock" 1 2.574
 	asteroids "medium rock" 4 2.448
@@ -242,9 +242,9 @@ system Persian
 	minables aluminum 1 1.81803
 	minables copper 12 1.48149
 	minables silver 59 2.13643
-	minables "star barge junk" 1 2
-	minables "wasp junk" 1 2
-	minables "sparrow junk" 1 2
+	minables "star barge junk a" 1 2
+	minables "wasp junk a" 1 2
+	minables "sparrow junk a" 1 2
 
 # Paradise Worlds
 # Flivver, Scout, Wasp, Berserker
@@ -256,9 +256,9 @@ system Acamar
 	asteroids "large metal" 12 2.352
 	minables iron 9 3.05965
 	minables titanium 1 3.40286
-	minables "flivver junk" 1 2
-	minables "wasp junk" 1 2
-	minables "scout junk" 1 2
+	minables "flivver junk a" 1 2
+	minables "wasp junk a" 1 2
+	minables "scout junk a" 1 2
 system Eteron
 	asteroids "small rock" 30 2.688
 	asteroids "medium rock" 4 6
@@ -269,9 +269,9 @@ system Eteron
 	minables aluminum 29 8.87071
 	minables copper 27 6.83551
 	minables iron 27 5.29693
-	minables "berserker junk" 1 2
-	minables "flivver junk" 1 2
-	minables "scout junk" 1 2
+	minables "berserker junk a" 1 2
+	minables "flivver junk a" 1 2
+	minables "scout junk a" 1 2
 system Kugel
 	asteroids "small rock" 58 3.234
 	asteroids "medium rock" 24 2.2792
@@ -280,9 +280,9 @@ system Kugel
 	asteroids "large metal" 1 1.848
 	minables aluminum 10 5.68513
 	minables copper 5 3.58384
-	minables "wasp junk" 1 2
-	minables "scout junk" 1 2
-	minables "berserker junk" 1 2
+	minables "wasp junk a" 1 2
+	minables "scout junk a" 1 2
+	minables "berserker junk a" 1 2
 system Menkalinan
 	asteroids "small rock" 175 2.1204
 	asteroids "medium rock" 62 1.482
@@ -293,9 +293,9 @@ system Menkalinan
 	minables iron 40 2.63132
 	minables lead 23 2.64595
 	minables silver 4 3.04495
-	minables "scout junk" 1 2
-	minables "wasp junk" 1 2
-	minables "flivver junk" 1 2
+	minables "scout junk a" 1 2
+	minables "wasp junk a" 1 2
+	minables "flivver junk a" 1 2
 system Procyon
 	asteroids "small rock" 9 4.4226
 	asteroids "medium rock" 16 2.7594
@@ -305,9 +305,9 @@ system Procyon
 	asteroids "large metal" 5 4.347
 	minables iron 1 5.11549
 	minables silicon 84 4.13794
-	minables "berserker junk" 1 2
-	minables "scout junk" 1 2
-	minables "wasp junk" 1 2
+	minables "berserker junk a" 1 2
+	minables "scout junk a" 1 2
+	minables "wasp junk a" 1 2
 
 # Near Earth
 # Star Barge, Sparrow, Fury, Scout
@@ -321,9 +321,9 @@ system Fala
 	minables copper 9 3.84288
 	minables lead 7 2.60722
 	minables titanium 22 3.57674
-	minables "star barge junk" 1 2
-	minables "sparrow junk" 1 2
-	minables "scout junk" 1 2
+	minables "star barge junk a" 1 2
+	minables "sparrow junk a" 1 2
+	minables "scout junk a" 1 2
 system Fingol
 	asteroids "small rock" 3 2.992
 	asteroids "medium rock" 8 3.74
@@ -332,9 +332,9 @@ system Fingol
 	asteroids "large metal" 1 4.828
 	minables iron 6 5.99599
 	minables tungsten 9 6.24826
-	minables "sparrow junk" 1 2
-	minables "scout junk" 1 2
-	minables "fury junk" 1 2
+	minables "sparrow junk a" 1 2
+	minables "scout junk a" 1 2
+	minables "fury junk a" 1 2
 system Gacrux
 	asteroids "medium rock" 20 1.8354
 	asteroids "large rock" 1 2.2862
@@ -342,14 +342,14 @@ system Gacrux
 	asteroids "medium metal" 143 3.5742
 	asteroids "large metal" 30 4.7656
 	minables silicon 29 3.91092
-	minables "star barge junk" 1 2
-	minables "fury junk" 1 2
-	minables "scout junk" 1 2
+	minables "star barge junk a" 1 2
+	minables "fury junk a" 1 2
+	minables "scout junk a" 1 2
 system Ipsing
 	asteroids "large metal" 1 1.1424
-	minables "star barge junk" 1 2
-	minables "fury junk" 1 2
-	minables "scout junk" 1 2
+	minables "star barge junk a" 1 2
+	minables "fury junk a" 1 2
+	minables "scout junk a" 1 2
 system Lolami
 	asteroids "small rock" 68 1.6926
 	asteroids "medium rock" 55 1.6653
@@ -359,14 +359,14 @@ system Lolami
 	asteroids "large metal" 2 3.4398
 	minables silicon 40 3.12005
 	minables titanium 17 3.27761
-	minables "sparrow junk" 1 2
-	minables "scout junk" 1 2
-	minables "fury junk" 1 2
+	minables "sparrow junk a" 1 2
+	minables "scout junk a" 1 2
+	minables "fury junk a" 1 2
 system Mizar
 	asteroids "large metal" 1 2.6304
-	minables "star barge junk" 1 2
-	minables "fury junk" 1 2
-	minables "scout junk" 1 2
+	minables "star barge junk a" 1 2
+	minables "fury junk a" 1 2
+	minables "scout junk a" 1 2
 system Mora
 	asteroids "medium rock" 54 1.9305
 	asteroids "large rock" 33 1.9877
@@ -375,9 +375,9 @@ system Mora
 	minables iron 25 1.82412
 	minables silicon 11 1.71081
 	minables tungsten 10 2.90508
-	minables "star barge junk" 1 2
-	minables "sparrow junk" 1 2
-	minables "scout junk" 1 2
+	minables "star barge junk a" 1 2
+	minables "sparrow junk a" 1 2
+	minables "scout junk a" 1 2
 system Muphrid
 	asteroids "small rock" 10 4.7348
 	asteroids "medium rock" 7 3.192
@@ -385,9 +385,9 @@ system Muphrid
 	asteroids "small metal" 1 7.182
 	asteroids "large metal" 1 5.1072
 	minables tungsten 3 4.9859
-	minables "star barge junk" 1 2
-	minables "fury junk" 1 2
-	minables "scout junk" 1 2
+	minables "star barge junk a" 1 2
+	minables "fury junk a" 1 2
+	minables "scout junk a" 1 2
 system Nocte
 	asteroids "small rock" 121 1.9558
 	asteroids "medium rock" 14 1.9096
@@ -398,9 +398,9 @@ system Nocte
 	minables copper 46 2.98163
 	minables iron 18 3.78094
 	minables titanium 4 2.67322
-	minables "star barge junk" 1 2
-	minables "sparrow junk" 1 2
-	minables "scout junk" 1 2
+	minables "star barge junk a" 1 2
+	minables "sparrow junk a" 1 2
+	minables "scout junk a" 1 2
 system Regulus
 	asteroids "small rock" 31 3.7752
 	asteroids "medium rock" 47 2.145
@@ -410,9 +410,9 @@ system Regulus
 	asteroids "large metal" 15 4.0898
 	minables copper 8 4.57124
 	minables lead 36 4.94873
-	minables "sparrow junk" 1 2
-	minables "scout junk" 1 2
-	minables "fury junk" 1 2
+	minables "sparrow junk a" 1 2
+	minables "scout junk a" 1 2
+	minables "fury junk a" 1 2
 
 # South
 # Sparrow, Hawk, Berserker, Heavy Shuttle
@@ -424,9 +424,9 @@ system Alnasl
 	asteroids "large metal" 4 1.7688
 	minables aluminum 4 3.53834
 	minables iron 2 4.61991
-	minables "sparrow junk" 1 2
-	minables "hawk junk" 1 2
-	minables "berserker junk" 1 2
+	minables "sparrow junk a" 1 2
+	minables "hawk junk a" 1 2
+	minables "berserker junk a" 1 2
 system "Alpha Arae"
 	asteroids "small rock" 1 1.302
 	asteroids "medium rock" 26 3.129
@@ -435,9 +435,9 @@ system "Alpha Arae"
 	asteroids "medium metal" 18 1.68
 	asteroids "large metal" 9 1.932
 	minables silicon 10 3.80746
-	minables "sparrow junk" 1 2
-	minables "hawk junk" 1 2
-	minables "heavy shuttle junk" 1 2
+	minables "sparrow junk a" 1 2
+	minables "hawk junk a" 1 2
+	minables "heavy shuttle junk a" 1 2
 system "Beta Lupi"
 	asteroids "small rock" 12 4.1272
 	asteroids "medium rock" 124 2.2484
@@ -448,9 +448,9 @@ system "Beta Lupi"
 	minables gold 4 3.65247
 	minables lead 39 3.41114
 	minables silicon 4 3.54232
-	minables "sparrow junk" 1 2
-	minables "berserker junk" 1 2
-	minables "heavy shuttle junk" 1 2
+	minables "sparrow junk a" 1 2
+	minables "berserker junk a" 1 2
+	minables "heavy shuttle junk a" 1 2
 system Boral
 	asteroids "small rock" 7 2.4752
 	asteroids "medium rock" 126 4.42
@@ -460,9 +460,9 @@ system Boral
 	asteroids "large metal" 11 4.5968
 	minables aluminum 6 4.01149
 	minables titanium 30 6.89282
-	minables "hawk junk" 1 2
-	minables "berserker junk" 1 2
-	minables "heavy shuttle junk" 1 2
+	minables "hawk junk a" 1 2
+	minables "berserker junk a" 1 2
+	minables "heavy shuttle junk a" 1 2
 system Eber
 	asteroids "small rock" 18 1.4868
 	asteroids "medium rock" 3 3.5532
@@ -473,9 +473,9 @@ system Eber
 	minables aluminum 1 3.67652
 	minables platinum 2 3.43245
 	minables uranium 4 2.53236
-	minables "sparrow junk" 1 2
-	minables "hawk junk" 1 2
-	minables "berserker junk" 1 2
+	minables "sparrow junk a" 1 2
+	minables "hawk junk a" 1 2
+	minables "berserker junk a" 1 2
 system Eltanin
 	asteroids "small rock" 34 1.904
 	asteroids "medium rock" 12 4.896
@@ -485,9 +485,9 @@ system Eltanin
 	minables iron 7 3.63992
 	minables silicon 1 5.00673
 	minables titanium 1 4.77008
-	minables "sparrow junk" 1 2
-	minables "hawk junk" 1 2
-	minables "heavy shuttle junk" 1 2
+	minables "sparrow junk a" 1 2
+	minables "hawk junk a" 1 2
+	minables "heavy shuttle junk a" 1 2
 system Hintar
 	asteroids "small rock" 34 2.016
 	asteroids "medium rock" 7 3.168
@@ -496,23 +496,23 @@ system Hintar
 	asteroids "medium metal" 23 1.344
 	asteroids "large metal" 16 1.632
 	minables tungsten 10 3.44444
-	minables "sparrow junk" 1 2
-	minables "berserker junk" 1 2
-	minables "heavy shuttle junk" 1 2
+	minables "sparrow junk a" 1 2
+	minables "berserker junk a" 1 2
+	minables "heavy shuttle junk a" 1 2
 system Holeb
 	asteroids "large metal" 1 3.5904
-	minables "hawk junk" 1 2
-	minables "berserker junk" 1 2
-	minables "heavy shuttle junk" 1 2
+	minables "hawk junk a" 1 2
+	minables "berserker junk a" 1 2
+	minables "heavy shuttle junk a" 1 2
 system Ildaria
 	asteroids "medium rock" 1 3.159
 	asteroids "large rock" 1 3.51
 	asteroids "small metal" 9 3.3696
 	asteroids "medium metal" 3 2.691
 	asteroids "large metal" 7 2.9484
-	minables "sparrow junk" 1 2
-	minables "hawk junk" 1 2
-	minables "berserker junk" 1 2
+	minables "sparrow junk a" 1 2
+	minables "hawk junk a" 1 2
+	minables "berserker junk a" 1 2
 system Lesath
 	asteroids "medium rock" 9 4.8384
 	asteroids "large rock" 21 7.2
@@ -520,9 +520,9 @@ system Lesath
 	asteroids "large metal" 1 5.4144
 	minables silicon 3 10.2616
 	minables titanium 2 10.8766
-	minables "sparrow junk" 1 2
-	minables "hawk junk" 1 2
-	minables "heavy shuttle junk" 1 2
+	minables "sparrow junk a" 1 2
+	minables "hawk junk a" 1 2
+	minables "heavy shuttle junk a" 1 2
 system Lurata
 	asteroids "medium rock" 2 4.225
 	asteroids "large rock" 1 8.125
@@ -531,9 +531,9 @@ system Lurata
 	asteroids "large metal" 2 8.71
 	minables aluminum 2 11.6169
 	minables lead 3 8.61211
-	minables "sparrow junk" 1 2
-	minables "berserker junk" 1 2
-	minables "heavy shuttle junk" 1 2
+	minables "sparrow junk a" 1 2
+	minables "berserker junk a" 1 2
+	minables "heavy shuttle junk a" 1 2
 system Minkar
 	asteroids "medium rock" 22 3.3698
 	asteroids "large rock" 3 5.4404
@@ -542,9 +542,9 @@ system Minkar
 	asteroids "large metal" 1 4.9532
 	minables aluminum 1 4.72132
 	minables neodymium 1 5.33208
-	minables "hawk junk" 1 2
-	minables "berserker junk" 1 2
-	minables "heavy shuttle junk" 1 2
+	minables "hawk junk a" 1 2
+	minables "berserker junk a" 1 2
+	minables "heavy shuttle junk a" 1 2
 system Naper
 	asteroids "small rock" 3 2.0757
 	asteroids "medium rock" 13 0.9724
@@ -555,9 +555,9 @@ system Naper
 	minables aluminum 23 3.46095
 	minables lead 1 2.32582
 	minables titanium 17 3.86804
-	minables "sparrow junk" 1 2
-	minables "hawk junk" 1 2
-	minables "berserker junk" 1 2
+	minables "sparrow junk a" 1 2
+	minables "hawk junk a" 1 2
+	minables "berserker junk a" 1 2
 system Orvala
 	asteroids "small rock" 27 1.44
 	asteroids "medium rock" 2 2.6304
@@ -566,9 +566,9 @@ system Orvala
 	asteroids "large metal" 27 0.9792
 	minables copper 4 2.00322
 	minables lead 13 1.96636
-	minables "sparrow junk" 1 2
-	minables "hawk junk" 1 2
-	minables "heavy shuttle junk" 1 2
+	minables "sparrow junk a" 1 2
+	minables "hawk junk a" 1 2
+	minables "heavy shuttle junk a" 1 2
 system Sadr
 	asteroids "small rock" 48 4.9932
 	asteroids "medium rock" 19 4.5828
@@ -579,9 +579,9 @@ system Sadr
 	minables aluminum 38 4.53472
 	minables iron 10 3.98726
 	minables titanium 23 7.41082
-	minables "sparrow junk" 1 2
-	minables "berserker junk" 1 2
-	minables "heavy shuttle junk" 1 2
+	minables "sparrow junk a" 1 2
+	minables "berserker junk a" 1 2
+	minables "heavy shuttle junk a" 1 2
 system Tais
 	asteroids "medium rock" 7 6.65
 	asteroids "large rock" 2 7
@@ -590,23 +590,23 @@ system Tais
 	asteroids "large metal" 2 9.94
 	minables iron 2 10.9885
 	minables tungsten 2 9.2358
-	minables "hawk junk" 1 2
-	minables "berserker junk" 1 2
-	minables "heavy shuttle junk" 1 2
+	minables "hawk junk a" 1 2
+	minables "berserker junk a" 1 2
+	minables "heavy shuttle junk a" 1 2
 system Umbral
 	asteroids "small rock" 2 2.2968
 	asteroids "medium rock" 1 2.1978
 	asteroids "large rock" 8 1.0692
 	asteroids "small metal" 1 1.8216
 	asteroids "large metal" 5 1.6632
-	minables "hawk junk" 1 2
-	minables "berserker junk" 1 2
-	minables "heavy shuttle junk" 1 2
+	minables "hawk junk a" 1 2
+	minables "berserker junk a" 1 2
+	minables "heavy shuttle junk a" 1 2
 system Wei
 	asteroids "large metal" 1 3.1824
-	minables "hawk junk" 1 2
-	minables "berserker junk" 1 2
-	minables "heavy shuttle junk" 1 2
+	minables "hawk junk a" 1 2
+	minables "berserker junk a" 1 2
+	minables "heavy shuttle junk a" 1 2
 system Zubenelgenubi
 	asteroids "medium rock" 2 2.5344
 	asteroids "large rock" 1 3.2076
@@ -615,6 +615,6 @@ system Zubenelgenubi
 	asteroids "large metal" 6 5.5836
 	minables gold 1 9.77852
 	minables iron 3 10.6772
-	minables "hawk junk" 1 2
-	minables "berserker junk" 1 2
-	minables "heavy shuttle junk" 1 2
+	minables "hawk junk a" 1 2
+	minables "berserker junk a" 1 2
+	minables "heavy shuttle junk a" 1 2

@@ -8,92 +8,605 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-minable "star barge junk"
+minable "star barge junk a"
 	sprite "ship/star barge"
 	hull 1000
-	payload "Aluminum" 10
-	payload "Iron" 10
+	payload "Damaged Fuel Cell" 10
+	payload "Damaged LP036a Battery" 10
+	payload "Damaged Chipmunk Engines" 10
+	payload "Damaged D14-RN Shield" 10
+	payload "Damaged Hyperdrive" 10
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
 	
-minable "shuttle junk"
+minable "star barge junk b"
+	sprite "ship/star barge"
+	hull 1000
+	payload "Damaged Blaster Turret" 10
+	payload "Damaged Fuel Cell" 10
+	payload "Damaged LP036a Battery" 10
+	payload "Damaged Chipmunk Engines" 10
+	payload "Damaged D14-RN Shield" 10
+	payload "Damaged Hyperdrive" 10
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
+	
+minable "shuttle junk a"
 	sprite "ship/shuttle"
 		"frame rate" 0
 	hull 600
-	payload "Aluminum" 10
-	payload "Lead" 10
+	payload "Damaged Fuel Cell" 10
+	payload "Damaged LP036a Battery" 10
+	payload "Damaged Chipmunk Engines" 10
+	payload "Damaged D14-RN Shield" 10
+	payload "Damaged Hyperdrive" 10
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
-	
-minable "flivver junk"
-	sprite "ship/flivver"
-	hull 200
-	payload "Aluminum" 10
-	payload "Silicon" 10
-	explode "smoke" 10
-	explode "bolide" 10
-	explode "final explosion small"
-	
-minable "heavy shuttle junk"
+
+minable "heavy shuttle junk a"
 	sprite "ship/heavy shuttle"
 	hull 700
-	payload "Aluminum" 10
-	payload "Iron" 10
+	payload "Damaged Fuel Cell" 10
+	payload "Damaged LP036a Battery" 10
+	payload "Damaged Chipmunk Engines" 10
+	payload "Damaged D14-RN Shield" 10
+	payload "Damaged Hyperdrive" 10
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
 	
-minable "scout junk"
-	sprite "ship/scout"
-	hull 400
-	payload "Aluminum" 10
-	payload "Silicon" 10
+minable "heavy shuttle junk b"
+	sprite "ship/heavy shuttle"
+	hull 700
+	payload "Damaged Energy Blaster" 10
+	payload "Damaged Fuel Cell" 10
+	payload "Damaged LP036a Battery" 10
+	payload "Damaged Chipmunk Engines" 10
+	payload "Damaged D14-RN Shield" 10
+	payload "Damaged Hyperdrive" 10
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
 	
-minable "sparrow junk"
+minable "flivver junk a"
+	sprite "ship/flivver"
+	hull 200
+	payload "Damaged Meteor Launcher" 10
+	payload "Damaged Fuel Cell" 10
+	payload "Damaged LP036a Battery" 10
+	payload "Damaged X2 Ion Engines" 10
+	payload "Damaged D14-RN Shield" 10
+	payload "Damaged Hyperdrive" 10
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
+	
+minable "flivver junk b"
+	sprite "ship/flivver"
+	hull 200
+	payload "Damaged Radiothermal" 10
+	payload "Damaged LP036a Battery" 10
+	payload "Damaged A120/5 Atomics" 10
+	payload "Damaged D14-RN Shield" 10
+	payload "Damaged Water Cooling" 10
+	payload "Damaged Hyperdrive" 10
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
+	
+minable "sparrow junk a"
 	sprite "ship/sparrow"
 	hull 300
-	payload "Aluminum" 10
-	payload "Lead" 10
+	payload "Damaged Beam Laser" 10
+	payload "Damaged Fuel Cell" 10
+	payload "Damaged LP036a Battery" 10
+	payload "Damaged Chipmunk Engines" 10
+	payload "Damaged D14-RN Shield" 10
+	payload "Damaged Hyperdrive" 10
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
 	
-minable "hawk junk"
+minable "sparrow junk b"
+	sprite "ship/sparrow"
+	hull 300
+	payload "Damaged Beam Laser" 10
+	payload "Damaged Fuel Cell" 10
+	payload "Damaged LP036a Battery" 10
+	payload "Damaged Chipmunk Engines" 10
+	payload "Damaged D14-RN Shield" 10
+	payload "Damaged Scanner" 10
+	payload "Damaged Hyperdrive" 10
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
+	
+minable "sparrow junk c"
+	sprite "ship/sparrow"
+	hull 300
+	payload "Damaged Gatling Gun" 10
+	payload "Damaged Fuel Cell" 10
+	payload "Damaged LP036a Battery" 10
+	payload "Damaged Chipmunk Engines" 10
+	payload "Damaged D14-RN Shield" 10
+	payload "Damaged Hyperdrive" 10
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
+	
+minable "hawk junk a"
 	sprite "ship/hawk"
 	hull 500
-	payload "Aluminum" 20
+	payload "Damaged Heavy Laser" 10
+	payload "Damaged Fuel Cell" 10
+	payload "Damaged LP036a Battery" 10
+	payload "Damaged Greyhound Engines" 10
+	payload "Damaged D23-QP Shield" 10
+	payload "Damaged Hyperdrive" 10
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
 	
-minable "fury junk"
+minable "hawk junk b"
+	sprite "ship/hawk"
+	hull 500
+	payload "Damaged Heavy Laser" 10
+	payload "Damaged Thermionic" 10
+	payload "Damaged Supercapacitor" 10
+	payload "Damaged A250/5 Atomics" 10
+	payload "Damaged D41-HY Shield" 10
+	payload "Damaged Hyperdrive" 10
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
+	
+minable "hawk junk c"
+	sprite "ship/hawk"
+	hull 500
+	payload "Damaged Heavy Rocket" 10
+	payload "Damaged Radiothermal" 10
+	payload "Damaged Supercapacitor" 10
+	payload "Damaged Greyhound Engines" 10
+	payload "Damaged D41-HY Shield" 10
+	payload "Damaged Hyperdrive" 10
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
+	
+minable "fury junk a"
 	sprite "ship/fury"
 	hull 400
-	payload "Aluminum" 10
-	payload "Iron" 10
+	payload "Damaged Energy Blaster" 10
+	payload "Damaged Fuel Cell" 10
+	payload "Damaged LP036a Battery" 10
+	payload "Damaged X2 Ion Engines" 10
+	payload "Damaged D14-RN Shield" 10
+	payload "Damaged Hyperdrive" 10
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
 	
-minable "berserker junk"
+minable "fury junk b"
+	sprite "ship/fury"
+	hull 400
+	payload "Damaged Meteor Launcher" 10
+	payload "Damaged Fuel Cell" 10
+	payload "Damaged Supercapacitor" 10
+	payload "Damaged Greyhound Engines" 10
+	payload "Damaged D14-RN Shield" 10
+	payload "Damaged Hyperdrive" 10
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
+	
+minable "fury junk c"
+	sprite "ship/fury"
+	hull 400
+	payload "Damaged Heavy Laser" 10
+	payload "Damaged Radiothermal" 10
+	payload "Damaged Supercapacitor" 10
+	payload "Damaged A120/5 Atomics" 10
+	payload "Damaged D23-QP Shield" 10
+	payload "Damaged Coolig Ducts" 10
+	payload "Damaged Hyperdrive" 10
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
+	
+minable "berserker junk a"
 	sprite "ship/berserker"
 	hull 500
-	payload "Aluminum" 10
-	payload "Lead" 10
+	payload "Damaged Beam Laser" 10
+	payload "Damaged Fuel Cell" 10
+	payload "Damaged LP072a Battery" 10
+	payload "Damaged X2 Ion Engines" 10
+	payload "Damaged D23-QP Shield" 10
+	payload "Damaged Hyperdrive" 10
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
 	
-minable "wasp junk"
-	sprite "ship/wasp"
+minable "berserker junk b"
+	sprite "ship/berserker"
 	hull 500
-	payload "Aluminum" 10
-	payload "Silicon" 10
+	payload "Damaged Energy Blaster" 10
+	payload "Damaged Javelin Pod" 10
+	payload "Damaged Fuel Cell" 10
+	payload "Damaged LP036a Battery" 10
+	payload "Damaged Greyhound Engines" 10
+	payload "Damaged Afterburner" 10
+	payload "Damaged D23-QP Shield" 10
+	payload "Damaged Ramscoop" 10
+	payload "Damaged Hyperdrive" 10
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
+	
+minable "wasp junk a"
+	sprite "ship/wasp"
+	hull 500
+	payload "Damaged Energy Blaster" 10
+	payload "Damaged Javelin Pod" 10
+	payload "Damaged Fuel Cell" 10
+	payload "Damaged LP036a Battery" 10
+	payload "Damaged X2 Ion Engines" 10
+	payload "Damaged D14-RN Shield" 10
+	payload "Damaged Hyperdrive" 10
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
+	
+minable "wasp junk b"
+	sprite "ship/wasp"
+	hull 500
+	payload "Damaged Proton Gun" 10
+	payload "Damaged Fuel Cell" 10
+	payload "Damaged LP036a Battery" 10
+	payload "Damaged X2 Ion Engines" 10
+	payload "Damaged D14-RN Shield" 10
+	payload "Damaged Hyperdrive" 10
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
+
+minable "scout junk a"
+	sprite "ship/scout"
+	hull 400
+	payload "Damaged Energy Blaster" 10
+	payload "Damaged AM Turret" 10
+	payload "Damaged Fuel Cell" 10
+	payload "Damaged LP036a Battery" 10
+	payload "Damaged X3 Ion Engines" 10
+	payload "Damaged D14-RN Shield" 10
+	payload "Damaged Ramscoop" 10
+	payload "Damaged Radar Jammer" 10
+	payload "Damaged Hyperdrive" 10
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
+	
+minable "scout junk b"
+	sprite "ship/scout"
+	hull 400
+	payload "Damaged Meteor Launcher" 10
+	payload "Damaged Sidewinder Launcher" 10
+	payload "Damaged Nucleovoltaic" 10
+	payload "Damaged Supercapacitor" 10
+	payload "Damaged A250/5 Atomics" 10
+	payload "Damaged D23-QP Shield" 10
+	payload "Damaged Cooling Ducts" 10
+	payload "Damaged Hyperdrive" 10
+	explode "smoke" 10
+	explode "bolide" 10
+	explode "final explosion small"
+
+
+
+outfit "Damaged Hyperdrive"
+	category "Special"
+	cost 27000
+	thumbnail "outfit/hyperdrive"
+	"flotsam sprite" "effect/box"
+	"mass" 16
+	"installable" -1
+	description "An old Hyperdrive, damaged beyond repair."
+
+outfit "Damaged Water Cooling"
+	category "Special"
+	cost 13000
+	thumbnail "outfit/water cooling"
+	"flotsam sprite" "effect/box"
+	"mass" 7
+	"installable" -1
+	description "An old water coolant system, damaged beyond repair."
+
+outfit "Damaged Cooling Ducts"
+	category "Special"
+	cost 4500
+	thumbnail "outfit/cooling ducts"
+	"flotsam sprite" "effect/box"
+	"mass" 4
+	"installable" -1
+	description "Some old cooling ducts, damaged beyond repair."
+
+outfit "Damaged Ramscoop"
+	category "Special"
+	cost 35000
+	thumbnail "outfit/ramscoop"
+	"flotsam sprite" "effect/box"
+	"mass" 8
+	"installable" -1
+	description "An old Ramscoop, damaged beyond repair."
+
+outfit "Damaged Radar Jammer"
+	category "Special"
+	cost 32500
+	thumbnail "outfit/small radar jammer"
+	"flotsam sprite" "effect/box"
+	"mass" 3.5
+	"installable" -1
+	description "An old radar jammer, damaged beyond repair."
+
+outfit "Damaged Scanner"
+	category "Special"
+	cost 8500
+	thumbnail "outfit/outfit scanner"
+	"flotsam sprite" "effect/box"
+	"mass" 1.5
+	"installable" -1
+	description "An old scanner, damaged beyond repair."
+
+outfit "Damaged D41-HY Shield"
+	category "Special"
+	cost 32000
+	thumbnail "outfit/medium shield"
+	"flotsam sprite" "effect/box"
+	"mass" 27
+	"installable" -1
+	description "An old D41-HY Shield Generator, damaged beyond repair."
+
+outfit "Damaged D23-QP Shield"
+	category "Special"
+	cost 16000
+	thumbnail "outfit/small shield"
+	"flotsam sprite" "effect/box"
+	"mass" 18
+	"installable" -1
+	description "An old D23-QP Shield Generator, damaged beyond repair."
+
+outfit "Damaged D14-RN Shield"
+	category "Special"
+	cost 1000
+	thumbnail "outfit/tiny shield"
+	"flotsam sprite" "effect/box"
+	"mass" 12
+	"installable" -1
+	description "An old D14-RN Shield Generator, damaged beyond repair."
+	
+outfit "Damaged Afterburner"
+	category "Special"
+	cost 30000
+	thumbnail "outfit/afterburner"
+	"flotsam sprite" "effect/box"
+	"mass" 13
+	"installable" -1
+	description "An old afterburner, damaged beyond repair."
+
+outfit "Damaged Chipmunk Engines"
+	category "Special"
+	cost 24000
+	thumbnail "outfit/tiny plasma thruster"
+	"flotsam sprite" "effect/box"
+	"mass" 29
+	"installable" -1
+	description "Some old Chipmunk Plasma engine scraps, damaged beyond repair."
+	
+outfit "Damaged Greyhound Engines"
+	category "Special"
+	cost 45000
+	thumbnail "outfit/small plasma thruster"
+	"flotsam sprite" "effect/box"
+	"mass" 50
+	"installable" -1
+	description "Some old Greyhound Plasma engine scraps, damaged beyond repair."
+	
+outfit "Damaged X2 Ion Engines"
+	category "Special"
+	cost 32000
+	thumbnail "outfit/small ion thruster"
+	"flotsam sprite" "effect/box"
+	"mass" 42
+	"installable" -1
+	description "Some old X2 series ion engine scraps, damaged beyond repair."
+	
+outfit "Damaged X3 Ion Engines"
+	category "Special"
+	cost 68000
+	thumbnail "outfit/medium ion thruster"
+	"flotsam sprite" "effect/box"
+	"mass" 68
+	"installable" -1
+	description "Some old X3 series ion engine scraps, damaged beyond repair."
+	
+outfit "Damaged A120/5 Atomics"
+	category "Special"
+	cost 100000
+	thumbnail "outfit/tiny atomic thruster"
+	"flotsam sprite" "effect/box"
+	"mass" 30
+	"installable" -1
+	description "Some old A120 and A125 Atomic engine scraps, damaged beyond repair."
+	
+outfit "Damaged A250/5 Atomics"
+	category "Special"
+	cost 230000
+	thumbnail "outfit/small atomic thruster"
+	"flotsam sprite" "effect/box"
+	"mass" 49
+	"installable" -1
+	description "Some old A250 and A255 Atomic engine scraps, damaged beyond repair."
+
+outfit "Damaged Supercapacitor"
+	category "Special"
+	cost 10000
+	thumbnail "outfit/supercapacitor"
+	"flotsam sprite" "effect/box"
+	"mass" 1
+	"installable" -1
+	description "An old supercapacitor, damaged beyond repair."
+	
+outfit "Damaged LP036a Battery"
+	category "Special"
+	cost 7000
+	thumbnail "outfit/tiny battery"
+	"flotsam sprite" "effect/box"
+	"mass" 8
+	"installable" -1
+	description "An old LP036a Battery Pack, damaged beyond repair."
+	
+outfit "Damaged LP072a Battery"
+	category "Special"
+	cost 13000
+	thumbnail "outfit/small battery"
+	"flotsam sprite" "effect/box"
+	"mass" 17
+	"installable" -1
+	description "An old LP072a Battery Pack, damaged beyond repair."
+
+outfit "Damaged Fuel Cell"
+	category "Special"
+	cost 23000
+	thumbnail "outfit/small fuel cell"
+	"flotsam sprite" "effect/box"
+	"mass" 25
+	"installable" -1
+	description "An old nGVF Fuel Cell, damaged beyond repair."
+	
+outfit "Damaged Radiothermic"
+	category "Special"
+	cost 140000
+	thumbnail "outfit/small radiothermic"
+	"flotsam sprite" "effect/box"
+	"mass" 40
+	"installable" -1
+	description "An old RT-I Radiothermal generator, damaged beyond repair."
+	
+outfit "Damaged Thermionic"
+	category "Special"
+	cost 200000
+	thumbnail "outfit/small thermionic"
+	"flotsam sprite" "effect/box"
+	"mass" 51
+	"installable" -1
+	description "An old S3 Thermionic generator, damaged beyond repair."
+
+outfit "Damaged Nucleovoltaic"
+	category "Special"
+	cost 260000
+	thumbnail "outfit/small nucleovoltaic"
+	"flotsam sprite" "effect/box"
+	"mass" 57
+	"installable" -1
+	description "An old NT-200 Nucleovoltaic generator, damaged beyond repair."
+
+outfit "Damaged Energy Blaster"
+	category "Special"
+	cost 10000
+	thumbnail "outfit/blaster"
+	"flotsam sprite" "effect/box"
+	"mass" 4
+	"installable" -1
+	description "An old Energy Blaster, damaged beyond repair."
+	
+outfit "Damaged Beam Laser"
+	category "Special"
+	cost 14500
+	thumbnail "outfit/laser"
+	"flotsam sprite" "effect/box"
+	"mass" 6.5
+	"installable" -1
+	description "An old Beam Laser, damaged beyond repair."
+	
+outfit "Damaged Heavy Laser"
+	category "Special"
+	cost 29000
+	thumbnail "outfit/heavy laser"
+	"flotsam sprite" "effect/box"
+	"mass" 13
+	"installable" -1
+	description "An old Heavy Laser, damaged beyond repair."
+	
+outfit "Damaged Proton Gun"
+	category "Special"
+	cost 80000
+	thumbnail "outfit/proton gun"
+	"flotsam sprite" "effect/box"
+	"mass" 22
+	"installable" -1
+	description "An old Proton Gun, damaged beyond repair."
+	
+outfit "Damaged Meteor Launcher"
+	category "Special"
+	cost 6000
+	thumbnail "outfit/meteor launcher"
+	"flotsam sprite" "effect/box"
+	"mass" 3
+	"installable" -1
+	description "An old Meteor Missile Launcher, damaged beyond repair."
+	
+outfit "Damaged Sidewinder Launcher"
+	category "Special"
+	cost 18000
+	thumbnail "outfit/sidewinder launcher"
+	"flotsam sprite" "effect/box"
+	"mass" 4
+	"installable" -1
+	description "An old Sidewinder Missile Launcher, damaged beyond repair."
+	
+outfit "Damaged Javelin Pod"
+	category "Special"
+	cost 11000
+	thumbnail "outfit/javelin pod"
+	"flotsam sprite" "effect/box"
+	"mass" 4
+	"installable" -1
+	description "An old Javelin Pod, damaged beyond repair."
+	
+outfit "Damaged Heavy Rocket"
+	category "Special"
+	cost 29000
+	thumbnail "outfit/rocket launcher"
+	"flotsam sprite" "effect/box"
+	"mass" 10
+	"installable" -1
+	description "An old Heavy Rocket Launcher, damaged beyond repair."
+	
+outfit "Damaged Gatling Gun"
+	category "Special"
+	cost 6000
+	thumbnail "outfit/gat"
+	"flotsam sprite" "effect/box"
+	"mass" 2
+	"installable" -1
+	description "An old Gatling Gun, damaged beyond repair."
+	
+outfit "Damaged AM Turret"
+	category "Special"
+	cost 32000
+	thumbnail "outfit/anti-missile"
+	"flotsam sprite" "effect/box"
+	"mass" 14
+	"installable" -1
+	description "An old Anti-Missile Turret, damaged beyond repair."
+	
+outfit "Damaged Blaster Turret"
+	category "Special"
+	cost 45000
+	thumbnail "outfit/blaster turret"
+	"flotsam sprite" "effect/box"
+	"mass" 12
+	"installable" -1
+	description "An old Blaster Turret, damaged beyond repair."
