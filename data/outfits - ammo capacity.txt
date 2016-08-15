@@ -44,7 +44,7 @@ outfit "Hellfire Cap-Up"
 	"hellfire capacity" 30
 	description "The Hellfire Capacity Upgrader will increase the amount of secondary ammo you can carry for your Hellfire Missile Launcher."
 
-outfit "Flux Cap-Up"
+outfit "Flux Missile Cap-Up"
 	category "Ammunition"
 	cost 45000
 	thumbnail "outfit/flux cap"
@@ -152,14 +152,14 @@ outfit "AM-Bomb Cap-Up"
 	"bomb capacity" 1
 	description "The Antimatter Bomb Capacity Upgrader will increase the amount of secondary ammo you can carry for your Antimatter Launcher."
 
-outfit "Canister Cap-Up"
+outfit "Shrapnel Can Cap-Up"
 	category "Ammunition"
 	cost 50000
 	thumbnail "outfit/known"
 	"mass" 5
 	"outfit space" -10
 	"canister capacity" 50
-	description "The Canister Capacity Upgrader will increase the amount of secondary ammo you can carry for your Shrapnel Cannon."
+	description "The Shrapnel Canister Capacity Upgrader will increase the amount of secondary ammo you can carry for your Shrapnel Cannon."
 
 outfit "Railgun Cap-Up"
 	category "Ammunition"
