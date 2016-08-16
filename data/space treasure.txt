@@ -1,0 +1,183 @@
+# Copyright (c) 2016 by Jonathan Steck
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+government "Abandoned Merchant Ship"
+	swizzle 5
+	"player reputation" -1000
+	"bribe" 0
+
+government "Abandoned Syndicate Ship"
+	swizzle 4
+	"player reputation" -1000
+	"bribe" 0
+
+government "Abandoned Pirate Ship"
+	swizzle 6
+	"player reputation" -1000
+	"bribe" 0
+	
+government "Abandoned Militia Ship"
+	swizzle 2
+	"player reputation" -1000
+	"bribe" 0
+
+government "Abandoned Navy Ship"
+	swizzle 0
+	"player reputation" -1000
+	"bribe" 0
+
+
+
+mission "Northern Derelict 1"
+	source
+		attributes north
+	landing
+	deadline 2
+	repeat
+	invisible
+	to offer 
+		random < 50
+	npc
+		government "Abandoned Merchant Ship"
+		personality derelict staying
+		system
+			distance 1 2
+		fleet "Small Northern Merchants"
+
+mission "Northern Derelict 2"
+	source
+		attributes north
+	landing
+	deadline 2
+	repeat
+	invisible
+	to offer 
+		random >= 50
+		random <= 85
+	npc
+		government "Abandoned Merchant Ship"
+		personality derelict staying
+		system
+			distance 1 2
+		fleet "Large Northern Merchants"
+
+mission "Northern Derelict 3"
+	source
+		attributes north
+	landing
+	deadline 2
+	repeat
+	invisible
+	to offer 
+		random > 85
+	npc
+		government "Abandoned Navy Ship"
+		personality derelict staying
+		system
+			distance 1 2
+		fleet "Large Republic"
+
+
+
+mission "Core Derelict 1"
+	source
+		attributes core
+	landing
+	deadline 2
+	repeat
+	invisible
+	to offer 
+		random < 50
+	npc
+		government "Abandoned Merchant Ship"
+		personality derelict staying
+		system
+			distance 1 2
+		fleet "Small Core Merchants"
+
+mission "Core Derelict 2"
+	source
+		attributes core
+	landing
+	deadline 2
+	repeat
+	invisible
+	to offer 
+		random >= 50
+		random <= 85
+	npc
+		government "Abandoned Merchant Ship"
+		personality derelict staying
+		system
+			distance 1 2
+		fleet "Large Core Merchants"
+
+mission "Core Derelict 3"
+	source
+		attributes core
+	landing
+	deadline 2
+	repeat
+	invisible
+	to offer 
+		random > 85
+	npc
+		government "Abandoned Syndicate Ship"
+		personality derelict staying
+		system
+			distance 1 2
+		fleet "Large Syndicate"
+
+
+
+mission "Southern Derelict 1"
+	source
+		attributes rim "dirt belt" south
+	landing
+	deadline 2
+	repeat
+	invisible
+	to offer 
+		random < 50
+	npc
+		government "Abandoned Merchant Ship"
+		personality derelict staying
+		system
+			distance 1 2
+		fleet "Small Southern Merchants"
+
+mission "Southern Derelict 2"
+	source
+		attributes rim "dirt belt" south
+	landing
+	deadline 2
+	repeat
+	invisible
+	npc
+		government "Abandoned Merchant Ship"
+		personality derelict staying
+		system
+			distance 1 2
+		fleet "Large Southern Merchants"
+
+mission "Southern Derelict 3"
+	source
+		attributes rim "dirt belt" south
+	landing
+	deadline 2
+	repeat
+	invisible
+	npc
+		government "Abandoned Militia Ship"
+		personality derelict staying
+		system
+			distance 1 2
+		fleet "Large Free Worlds"
+
