@@ -2439,6 +2439,8 @@ planet "Diamond Station"
 planet "Enigma Alpha"
 	attributes EC "EC Development" "EC Research" "EC Secret" "near earth"
 	landscape land/space7
+	outfitter "Common Outfits"
+	outfitter "Basic Outfits"
 	description `Alpha Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
 	description `	"The Enigma Corporation: We build death machines so you don't have to."`
 	spaceport `This station is highly advanced compared to other stations that you have seen. As you come in for a landing, a landing pad extends out of the side of the station for you to land on. The landing pad then retracts back into the station and begins automatically refueling your ship. The entire inside of the station is a chrome looking color, and you are immediately met by an Enigma Corp worker as you step outside of your ship.`
@@ -2448,12 +2450,14 @@ planet "Enigma Alpha"
 planet "Enigma Epsilon"
 	attributes EC "EC Development" "EC Research" deep
 	landscape land/station4
-	description `Epsilon Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
-	description `	"The Enigma Corporation: We build death machines so you don't have to."`
-	spaceport `Epsilon Station appears to be the only Enigma Corp station that has an outfitter and shipyard stocked with anything other than technology made by the corporation itself. Upon landing, you notice that the station has a number of Deep Sky citizens, mainly scientist. There are a mix of people in green and blue lab coats discussing things in board rooms a view stories up with window views of the spaceport below.`
 	shipyard "Lionheart Basics"
 	outfitter "Deep Sky Basics"
 	outfitter "Deep Sky Advanced"
+	outfitter "Common Outfits"
+	outfitter "Basic Outfits"
+	description `Epsilon Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
+	description `	"The Enigma Corporation: We build death machines so you don't have to."`
+	spaceport `Epsilon Station appears to be the only Enigma Corp station that has an outfitter and shipyard stocked with anything other than technology made by the corporation itself. Upon landing, you notice that the station has a number of Deep Sky citizens, mainly scientist. There are a mix of people in green and blue lab coats discussing things in board rooms a view stories up with window views of the spaceport below.`
 	security 0
 	government "Enigma Corp"
 
@@ -2465,6 +2469,8 @@ planet "Enigma Meridian"
 planet "Enigma Mu"
 	attributes EC "EC Shady" "EC Secret" rim
 	landscape land/station2
+	outfitter "Common Outfits"
+	outfitter "Basic Outfits"
 	description `Mu Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
 	description `	"The Enigma Corporation: We build death machines so you don't have to."`
 	spaceport `Once you land, you notice that Enigma Mu is rather bland compared to the other Enigma Corp stations. There are no workers sprinting around or working on ships. Everything seems eerily calm and quiet, almost to the point of being creepy. You can't quite shake the feeling that you're being watched.`
@@ -2479,6 +2485,8 @@ planet "Enigma Prime"
 planet "Enigma Sigma"
 	attributes EC "EC Shady" "EC Development" core
 	landscape land/space5
+	outfitter "Common Outfits"
+	outfitter "Basic Outfits"
 	description `Sigma Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
 	description `	"The Enigma Corporation: We build death machines so you don't have to."`
 	spaceport `As you land to refuel your ship, you notice that there is a large window that views into what appears to be a shipyard. You see corporation workers building ships that you haven't seen before, possibly ones that will soon be released to the market.`
@@ -2488,6 +2496,8 @@ planet "Enigma Sigma"
 planet "Enigma Zeta"
 	attributes EC "EC Shady" "dirt belt"
 	landscape land/station1
+	outfitter "Common Outfits"
+	outfitter "Basic Outfits"
 	description `Zeta Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
 	description `	"The Enigma Corporation: We build death machines so you don't have to."`
 	spaceport `Zeta station is a little less well kept than most of the other Enigma Corp stations. There are tools everywhere and workers are constantly running around, looking like they're barely keeping the place together. No one comes to your aid to refuel your ship, so you have to walk over to the refuel station and refuel your ship on your own.`

@@ -142,24 +142,6 @@ event "Enigma Corp 4"
 	planet "Enigma Zeta"
 		shipyard "EC-0 Advanced"
 
-mission "Meridian"
-	landing
-	invisible
-	to offer
-		has "event: Enigma Corp 4"
-	on offer
-		event "Enigma Meridian"
-		fail
-		
-event "Enigma Meridian"
-	planet "Enigma Meridian"
-		landscape land/space2
-		outfitter "Trolls and Lols"
-		shipyard "Trolls and Lols"
-		description "This station is meant for nothing more than to sell stuff that is in the mod and not considered balanced or ready to serious your, but you can buy anyways to have fun with. Enjoy."
-		description "Don't get too excited, though. This is going to be removed in v0.6.0 :)"
-		spaceport "Go away."
-
 ship "Bulk Freighter" "Bulk Freighter (Warp)"
 	outfits
 		"Laser Turret" 2
