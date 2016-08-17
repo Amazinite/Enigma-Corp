@@ -4,30 +4,31 @@ ship "Hai Medium Warship"
 		category "Medium Warship"
 		"cost" 10250000
 		"shields" 12600
-		"hull" 6200
-		"required crew" 23
-		"bunks" 42
+		"hull" 4200
+		"required crew" 17
+		"bunks" 34
 		"mass" 325
 		"drag" 4.7
 		"heat dissipation" .7
 		"fuel capacity" 400
 		"cargo space" 87
 		"outfit space" 438
-		"weapon capacity" 124
+		"weapon capacity" 164
 		"engine capacity" 99
 		weapon
-			"blast radius" 124
-			"shield damage" 1240
-			"hull damage" 620
-			"hit force" 1860
+			"blast radius" 250
+			"shield damage" 2000
+			"hull damage" 1000
+			"hit force" 2000
 	outfits
 		"Pulse Cannon" 2
 		"Ion Cannon" 2
+		"Bullfrog Anti-Missile" 2
 
 		"Geode Reactor"
 		"Hai Chasm Batteries"
 		"Hai Gorge Batteries"
-		"Hai Diamond Regenerator"
+		"Hai Corundum Regenerator" 2
 		"Hai Williwaw Cooling" 3
 		"Large Radar Jammer" 2
 
@@ -43,44 +44,46 @@ ship "Hai Medium Warship"
 	gun 42 9 "Ion Cannon"
 	gun -30 -32
 	gun 32 -32
+	turret -53 56
+	turret 53 56
 	fighter -45 83 under
 	fighter 45 83 under
-	explode "small explosion" 20
-	explode "medium explosion" 30
-	explode "big explosion" 20
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "big explosion" 40
 	explode "huge explosion" 10
 	description "Unfettered medium warship. Can carry 2 fighters. Fitted with Large Radar Jammers that the Alphas provided as countermeasures for the Wanderer's infrared and radar tracking Thunderhead missiles in lue of using anti missile turrets."
 
-ship "Hai Medium Droneship"
+ship "Hai Light Droneship"
 	sprite "ship/hai light droneship"
 	attributes
-		category "Medium Warship"
-		"cost" 7250000
-		"shields" 11000
-		"hull" 3500
-		"required crew" 34
-		"bunks" 41
-		"mass" 320
-		"drag" 7.6
-		"heat dissipation" .7
+		category "Light Warship"
+		"cost" 4750000
+		"shields" 7800
+		"hull" 210
+		"required crew" 6
+		"bunks" 18
+		"mass" 270
+		"drag" 4.1
+		"heat dissipation" .8
 		"fuel capacity" 400
-		"cargo space" 94
-		"outfit space" 366
-		"weapon capacity" 106
+		"cargo space" 54
+		"outfit space" 307
+		"weapon capacity" 99
 		"engine capacity" 82
 		weapon
-			"blast radius" 124
-			"shield damage" 1240
-			"hull damage" 620
-			"hit force" 1860
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
 	outfits
 		"Ion Cannon" 2
 
 		"Pebble Core"
 		"Hai Gorge Batteries"
 		"Hai Chasm Batteries"
-		"Hai Diamond Regenerator"
-		"Hai Corundum Regenerator"
+		"Hai Corundum Regenerator" 2
 		"Hai Williwaw Cooling" 2
 
 		`"Biroo" Atomic Thruster`
@@ -95,12 +98,12 @@ ship "Hai Medium Droneship"
 	drone 36 29 over
 	drone -36 29 under
 	drone 36 29 under
-	explode "small explosion" 15
-	explode "medium explosion" 35
-	explode "big explosion" 25
-	explode "huge explosion" 5
-	description "Hai medium warship. Carries 4 drones. Only two gun hardpoints, relying mainly on its drones for fire power."
-	
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 24
+	explode "big explosion" 10
+	description "Hai light warship. Carries 4 drones. Only two gun hardpoints, relying mainly on its drones for fire power."
+
 ship "Hai Heavy Droneship"
 	sprite "ship/hai droneship"
 	attributes
@@ -109,20 +112,20 @@ ship "Hai Heavy Droneship"
 		"shields" 26500
 		"hull" 7900
 		"required crew" 34
-		"bunks" 72
+		"bunks" 67
 		"mass" 478
-		"drag" 10.6
-		"heat dissipation" .55
+		"drag" 7.4
+		"heat dissipation" .6
 		"fuel capacity" 500
 		"cargo space" 117
 		"outfit space" 661
 		"weapon capacity" 233
-		"engine capacity" 140
+		"engine capacity" 137
 		weapon
-			"blast radius" 400
-			"shield damage" 4000
-			"hull damage" 2000
-			"hit force" 3000
+			"blast radius" 350
+			"shield damage" 3500
+			"hull damage" 1750
+			"hit force" 3250
 	outfits
 		"Ion Cannon" 2
 		"Hai Tracker Pod" 2
@@ -134,8 +137,7 @@ ship "Hai Heavy Droneship"
 		"Pebble Core"
 		"Hai Gorge Batteries"
 		"Hai Ravine Batteries"
-		"Hai Diamond Regenerator" 
-		"Hai Corundum Regenerator"
+		"Hai Corundum Regenerator" 2
 		"Hai Williwaw Cooling" 3
 
 		`"Bufaer" Atomic Thruster`
