@@ -1152,7 +1152,7 @@ system Ostima
 		period 151.28
 		object "Diamond Station"
 			sprite planet/station1
-			distance 124.62
+			distance 164.62
 			period 57.24
 	object
 		sprite planet/gas11
