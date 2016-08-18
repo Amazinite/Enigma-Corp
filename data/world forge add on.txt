@@ -148,7 +148,7 @@ shipyard "Andromedan"
 	"Planet Razer"
 	"Artillery Battleship"
 
-shipyard "hai"
+shipyard "EC Hai"
 	"Hai Heavy Droneship"
 	"Hai Light Droneship"
 	"Hai Medium Warship"
@@ -171,6 +171,7 @@ planet Mods
 	shipyard "Enigma Corp"
 	shipyard "Andromedan"
 	shipyard "Termini"
+	shipyard "EC Hai"
 	outfitter "Enigma Corp"
 	outfitter "EC Misc"
 	outfitter "Termini"
@@ -180,6 +181,7 @@ planet Forge
 	shipyard "Enigma Corp"
 	shipyard "Andromedan"
 	shipyard "Termini"
+	shipyard "EC Hai"
 	outfitter "Enigma Corp"
 	outfitter "EC Misc"
 	outfitter "Termini"
@@ -189,3 +191,6 @@ planet Human
 	shipyard "Enigma Corp"
 	outfitter "Enigma Corp"
 	outfitter "EC Misc"
+	
+planet Hai
+	shipyard "EC Hai"
