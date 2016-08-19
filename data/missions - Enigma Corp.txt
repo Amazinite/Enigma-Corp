@@ -15,7 +15,7 @@ mission "Enigma Corp [0]"
 	description "Help get the CEO of Enigma Corporation back to <destination>."
 	destination "Enigma Prime"
 	to offer
-		has "free worlds plot completed"
+		has "main plot completed"
 	on offer
 		conversation
 			`	You step off of your ship onto the pirate planet. As usual, you get some nasty looks from people nearby and the feeling that someone really wants to stab you right now.`

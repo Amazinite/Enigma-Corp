@@ -1,4 +1,4 @@
-# Copyright (c) 2016 by Jonathan Steck
+﻿# Copyright (c) 2016 by Jonathan Steck
 #
 # Endless Sky is free software: you can redistribute it and/or modify it under the
 # terms of the GNU General Public License as published by the Free Software
@@ -29,6 +29,8 @@ mission "Navy License [0]"
 		not "event: geminus rebuilt soon"
 	to fail
 		has "event: geminus rebuilt"
+	on fail
+		dialog "You have failed your mission in assisting to rebuild the Geminus shipyard, as you took too long and the shipyard was eventually rebuilt without you."
 	on offer
 		conversation
 			`	With the war being behind humanity, each of the factions of the war now need to rebuild their lost infrastructure.`
@@ -90,6 +92,8 @@ mission "Navy License [1]"
 		has "Navy License [0]: done"
 	to fail
 		has "event: geminus rebuilt"
+	on fail
+		dialog "You have failed your mission in assisting to rebuild the Geminus shipyard, as you took too long and the shipyard was eventually rebuilt without you."
 
 	npc save accompany
 		government "Republic"
@@ -109,6 +113,9 @@ mission "Navy License [1]"
 			variant
 				"Hawk" 3
 
+	on visit
+		dialog "You arrived at your destination, but you appear to have left the Freighters behind! Return to space and wait for the Freighters to arrive with you."
+				
 	on complete
 		conversation
 			`	You return to Geminus with the convoy of freighters. They immediately begin unloading their cargo on to the spaceport as transport drones carry the crates off to the shipyard location.`
@@ -151,6 +158,8 @@ mission "Navy License [2]"
 		has "Navy License [1]: done"
 	to fail
 		has "event: geminus rebuilt"
+	on fail
+		dialog "You have failed your mission in assisting to rebuild the Geminus shipyard, as you took too long and the shipyard was eventually rebuilt without you."
 
 	on complete
 		conversation
@@ -163,10 +172,13 @@ mission "Navy License [3]"
 	description "Head back to <destination> with the engineers."
 	destination "Geminus"
 	passengers 10
+	blocked "You do not have enough passenger space to pick up this mission. Make sure you have enough space for at least 10 passengers."
 	to offer
 		has "Navy License [2]: done"
 	to fail
 		has "event: geminus rebuilt"
+	on fail
+		dialog "You have failed your mission in assisting to rebuild the Geminus  shipyard, as you took too long and the shipyard was eventually rebuilt without you."
 
 mission "Navy License [4]"
 	name "Rebuilding Geminus"
@@ -178,8 +190,9 @@ mission "Navy License [4]"
 		has "Navy License [3]: done"
 	to fail
 		has "event: geminus rebuilt"
+	on fail
+		dialog "You have failed your mission in assisting to rebuild the Geminus shipyard, as you took too long and the shipyard was eventually rebuilt without you."
 	on offer
-		"reputation: Pirate" = -1000
 		conversation
 			`	You land back on Geminus to the sound of alarms going off. Everyone is running frantically to their ships and launching into orbit. You quickly drop off the engineers and find Officer Smith inside of a command tent talking to some other officers.`
 			`	"<last>! Just the person I wanted to see. We've just gotten word that there the Oathkeepers up north are under attack by a large hostile force. We weren't able to pick up who it was, so we're assuming that it's a clan of pirates. We need a combat fleet there ASAP, and we're going to need all we've got."`
@@ -217,10 +230,10 @@ mission "Navy License [4]"
 		fleet
 			names "pirate"
 			variant
-				"Leviathan (Heavy)" 25
-				"Firebird (Plasma)" 25
-				"Corvette (Speedy)" 25
-				"Firebird (Plasma)" 25
+				"Leviathan (Heavy)" 5
+				"Firebird (Plasma)" 3
+				"Corvette (Speedy)" 3
+				"Firebird (Plasma)" 3
 
 	npc kill
 		government "Pirate"
@@ -229,10 +242,10 @@ mission "Navy License [4]"
 		fleet
 			names "pirate"
 			variant
-				"Leviathan (Heavy)" 15
-				"Firebird (Plasma)" 15
-				"Corvette (Speedy)" 15
-				"Firebird (Plasma)" 15
+				"Leviathan (Heavy)" 7
+				"Firebird (Plasma)" 4
+				"Corvette (Speedy)" 4
+				"Firebird (Plasma)" 4
 
 	npc
 		government "Navy (Oathkeeper)"
@@ -242,12 +255,12 @@ mission "Navy License [4]"
 			names "republic capital"
 			fighters "republic fighter"
 			variant
-				"Carrier" 10
-				"Lance" 40
-				"Combat Drone" 100
-				"Cruiser" 10
-				"Frigate" 15
-				"Gunboat" 20
+				"Carrier" 2
+				"Lance" 8
+				"Combat Drone" 10
+				"Cruiser" 1
+				"Frigate" 2
+				"Gunboat" 3
 
 	npc
 		government "Navy (Oathkeeper)"
@@ -257,12 +270,14 @@ mission "Navy License [4]"
 			names "republic capital"
 			fighters "republic fighter"
 			variant
-				"Carrier" 5
-				"Lance" 20
-				"Combat Drone" 80
-				"Cruiser" 8
-				"Frigate" 12
-				"Gunboat" 15
+				"Carrier" 2
+				"Lance" 8
+				"Combat Drone" 10
+				"Frigate" 3
+				"Gunboat" 4
+
+	on visit
+		dialog "There are still some pirates that you need to kill in order to complete this mission. Launch back into space anc finish the job."
 
 	on complete
 		conversation
@@ -296,6 +311,8 @@ mission "Navy License [5]"
 	destination "Geminus"
 	to offer
 		has "Navy License [4]: done"
+	on fail
+		dialog "You have failed your mission in assisting to rebuild the Geminus shipyard, as you took too long and the shipyard was eventually rebuilt without you."
 	on complete
 		set "license: Navy"
 		set "license: Cruiser"
