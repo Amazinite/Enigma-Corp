@@ -14,7 +14,6 @@ government Uninhabited
 mission "Uninhabited Systems"
 	invisible
 	landing
-	repeat
 	on offer
 		event "Uninhabited Government"
 		fail
