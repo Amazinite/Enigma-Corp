@@ -551,7 +551,7 @@ outfit "Damaged KP-6 Panel"
 	description "An old KP-6 Photovoltaic Array, damaged beyond repair. There are quite a few pieces missing, but it should probably sell for half its original price."
 
 outfit "Damaged nGVF-AA Cell"
-	ategory "Special"
+	category "Special"
 	cost 20000
 	thumbnail "outfit/tiny fuel cell"
 	"flotsam sprite" "effect/box"
@@ -560,7 +560,7 @@ outfit "Damaged nGVF-AA Cell"
 	description "An old nGVF-AA Fuel Cell, damaged beyond repair. There are quite a few pieces missing, but it should probably sell for half its original price."
 
 outfit "Damaged nGVF-BB Cell"
-	ategory "Special"
+	category "Special"
 	cost 23500
 	thumbnail "outfit/small fuel cell"
 	"flotsam sprite" "effect/box"
@@ -569,7 +569,7 @@ outfit "Damaged nGVF-BB Cell"
 	description "An old nGVF-BB Fuel Cell, damaged beyond repair. There are quite a few pieces missing, but it should probably sell for half its original price."
 
 outfit "Damaged nGVF-CC Cell"
-	ategory "Special"
+	category "Special"
 	cost 36000
 	thumbnail "outfit/medium fuel cell"
 	"flotsam sprite" "effect/box"
@@ -578,7 +578,7 @@ outfit "Damaged nGVF-CC Cell"
 	description "An old nGVF-CC Fuel Cell, damaged beyond repair. There are quite a few pieces missing, but it should probably sell for half its original price."
 
 outfit "Damaged nGVF-DD Cell"
-	ategory "Special"
+	category "Special"
 	cost 59000
 	thumbnail "outfit/large fuel cell"
 	"flotsam sprite" "effect/box"
@@ -587,7 +587,7 @@ outfit "Damaged nGVF-DD Cell"
 	description "An old nGVF-DD Fuel Cell, damaged beyond repair. There are quite a few pieces missing, but it should probably sell for half its original price."
 
 outfit "Damaged nGVF-EE Cell"
-	ategory "Special"
+	category "Special"
 	cost 88500
 	thumbnail "outfit/huge fuel cell"
 	"flotsam sprite" "effect/box"
@@ -623,7 +623,7 @@ outfit "Damaged Nucleovoltaic"
 	description "An old NT-200 Nucleovoltaic generator, damaged beyond repair. There are quite a few pieces missing, but it should probably sell for half its original price."
 
 outfit "Damaged Dwarf Core"
-	ategory "Special"
+	category "Special"
 	cost 400000
 	thumbnail "outfit/dwarf core"
 	"flotsam sprite" "effect/box"
@@ -632,7 +632,7 @@ outfit "Damaged Dwarf Core"
 	description "An old Dwarf Core, damaged beyond repair. There are quite a few pieces missing, but it should probably sell for half its original price."
 
 outfit "Damaged Fission Reactor"
-	ategory "Special"
+	category "Special"
 	cost 750000
 	thumbnail "outfit/fission"
 	"flotsam sprite" "effect/box"
@@ -641,7 +641,7 @@ outfit "Damaged Fission Reactor"
 	description "An old Fission Reactor, damaged beyond repair. There are quite a few pieces missing, but it should probably sell for half its original price."
 
 outfit "Damaged Breeder Reactor"
-	ategory "Special"
+	category "Special"
 	cost 1250000
 	thumbnail "outfit/breeder"
 	"flotsam sprite" "effect/box"
@@ -650,7 +650,7 @@ outfit "Damaged Breeder Reactor"
 	description "An old Breeder Reactor, damaged beyond repair. There are quite a few pieces missing, but it should probably sell for half its original price."
 
 outfit "Damaged Fusion Reactor"
-	ategory "Special"
+	category "Special"
 	cost 2500000
 	thumbnail "outfit/fusion"
 	"flotsam sprite" "effect/box"
@@ -659,7 +659,7 @@ outfit "Damaged Fusion Reactor"
 	description "An old Fusion Reactor, damaged beyond repair. There are quite a few pieces missing, but it should probably sell for half its original price."
 
 outfit "Damaged Armageddon Core"
-	ategory "Special"
+	category "Special"
 	cost 4500000
 	thumbnail "outfit/core"
 	"flotsam sprite" "effect/box"

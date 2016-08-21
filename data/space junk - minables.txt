@@ -14,7 +14,7 @@ minable "star barge junk a"
 	payload "Damaged nGVF-BB Cell" 4
 	payload "Damaged LP036a Battery" 4
 	payload "Damaged Chipmunk Thruster" 2
-	paylaod "Damaged Chipmunk Steering" 2
+	payload "Damaged Chipmunk Steering" 2
 	payload "Damaged D14-RN Shield" 4
 	payload "Damaged Hyperdrive" 2
 	explode "smoke" 10
@@ -28,7 +28,7 @@ minable "star barge junk b"
 	payload "Damaged nGVF-BB Cell" 4
 	payload "Damaged LP036a Battery" 4
 	payload "Damaged Chipmunk Thruster" 2
-	paylaod "Damaged Chipmunk Steering" 2
+	payload "Damaged Chipmunk Steering" 2
 	payload "Damaged D14-RN Shield" 4
 	payload "Damaged Hyperdrive" 2
 	explode "smoke" 10
@@ -42,7 +42,7 @@ minable "shuttle junk a"
 	payload "Damaged nGVF-BB Cell" 4
 	payload "Damaged LP036a Battery" 4
 	payload "Damaged Chipmunk Thruster" 2
-	paylaod "Damaged Chipmunk Steering" 2
+	payload "Damaged Chipmunk Steering" 2
 	payload "Damaged D14-RN Shield" 4
 	payload "Damaged Hyperdrive" 2
 	explode "smoke" 10
@@ -55,7 +55,7 @@ minable "heavy shuttle junk a"
 	payload "Damaged nGVF-BB Cell" 4
 	payload "Damaged LP036a Battery" 4
 	payload "Damaged Chipmunk Thruster" 2
-	paylaod "Damaged Chipmunk Steering" 2
+	payload "Damaged Chipmunk Steering" 2
 	payload "Damaged D14-RN Shield" 4
 	payload "Damaged Hyperdrive" 2
 	explode "smoke" 10
@@ -69,7 +69,7 @@ minable "heavy shuttle junk b"
 	payload "Damaged nGVF-BB Cell" 4
 	payload "Damaged LP036a Battery" 4
 	payload "Damaged Chipmunk Thruster" 2
-	paylaod "Damaged Chipmunk Steering" 2
+	payload "Damaged Chipmunk Steering" 2
 	payload "Damaged D14-RN Shield" 4
 	payload "Damaged Hyperdrive" 2
 	explode "smoke" 10
@@ -111,7 +111,7 @@ minable "sparrow junk a"
 	payload "Damaged nGVF-BB Cell" 4
 	payload "Damaged LP036a Battery" 4
 	payload "Damaged Chipmunk Thruster" 2
-	paylaod "Damaged Chipmunk Steering" 2
+	payload "Damaged Chipmunk Steering" 2
 	payload "Damaged D14-RN Shield" 4
 	payload "Damaged Hyperdrive" 2
 	explode "smoke" 10
@@ -125,7 +125,7 @@ minable "sparrow junk b"
 	payload "Damaged nGVF-BB Cell" 4
 	payload "Damaged LP036a Battery" 4
 	payload "Damaged Chipmunk Thruster" 2
-	paylaod "Damaged Chipmunk Steering" 2
+	payload "Damaged Chipmunk Steering" 2
 	payload "Damaged D14-RN Shield" 4
 	payload "Damaged Outfit Scanner" 2
 	payload "Damaged Cargo Scanner" 2
@@ -141,7 +141,7 @@ minable "sparrow junk c"
 	payload "Damaged nGVF-BB Cell" 4
 	payload "Damaged LP036a Battery" 4
 	payload "Damaged Chipmunk Thruster" 2
-	paylaod "Damaged Chipmunk Steering" 2
+	payload "Damaged Chipmunk Steering" 2
 	payload "Damaged D14-RN Shield" 4
 	payload "Damaged Hyperdrive" 2
 	explode "smoke" 10
@@ -155,7 +155,7 @@ minable "hawk junk a"
 	payload "Damaged nGVF-BB Cell" 4
 	payload "Damaged LP036a Battery" 4
 	payload "Damaged Greyhound Thruster" 2
-	paylaod "Damaged Greyhound Steering" 2
+	payload "Damaged Greyhound Steering" 2
 	payload "Damaged D23-QP Shield" 3
 	payload "Damaged Hyperdrive" 2
 	explode "smoke" 10
@@ -183,7 +183,7 @@ minable "hawk junk c"
 	payload "Damaged Radiothermal" 4
 	payload "Damaged Supercapacitor" 10
 	payload "Damaged Greyhound Thruster" 2
-	paylaod "Damaged Greyhound Steering" 2
+	payload "Damaged Greyhound Steering" 2
 	payload "Damaged D41-HY Shield" 2
 	payload "Damaged Hyperdrive" 2
 	explode "smoke" 10
@@ -211,7 +211,7 @@ minable "fury junk b"
 	payload "Damaged nGVF-BB Cell" 4
 	payload "Damaged Supercapacitor" 10
 	payload "Damaged Greyhound Thruster" 2
-	paylaod "Damaged Greyhound Steering" 2
+	payload "Damaged Greyhound Steering" 2
 	payload "Damaged D14-RN Shield" 4
 	payload "Damaged Hyperdrive" 2
 	explode "smoke" 10
@@ -255,7 +255,7 @@ minable "berserker junk b"
 	payload "Damaged nGVF-BB Cell" 4
 	payload "Damaged LP036a Battery" 4
 	payload "Damaged Greyhound Thruster" 2
-	paylaod "Damaged Greyhound Steering" 2
+	payload "Damaged Greyhound Steering" 2
 	payload "Damaged Afterburner" 2
 	payload "Damaged D23-QP Shield" 3
 	payload "Damaged Ramscoop" 2
