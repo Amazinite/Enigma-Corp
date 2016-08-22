@@ -508,7 +508,7 @@ outfit "Korath Dual Slicer Turret"
 		"hull damage" 33.4
 
 outfit "Korath Disruptor Gun"
-	category "Turrets"
+	category "Guns"
 	cost 783000
 	thumbnail "outfit/disruptor gun"
 	"mass" 25
