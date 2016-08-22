@@ -482,6 +482,54 @@ outfit "Hellfire Missile"
 	description "To avoid complete legal suicide, the Corporation decided to change the design of the Meteor Missile to make it a different missile entirely. The Hellfire Missile has a higher velocity, better homing capabilities, and a higher explosive yeild compared to its Meteor Missile cousin, but at the cost of lasting a much shorter amount of time and doing far less shield damage."
 	description "Brought to you by the Enigma Corporation."
 
+outfit "Korath Dual Slicer Turret"
+	category "Turrets"
+	cost 2946000
+	thumbnail "outfit/dual slicer turret"
+	"mass" 105
+	"outfit space" -105
+	"weapon capacity" -105
+	"turret mounts" -1
+	"required crew" 2
+	weapon
+		sprite "projectile/2x slicer"
+			"frame rate" 6
+		sound "slicer"
+		"hit effect" "slicer impact" 2
+		"inaccuracy" 0
+		"velocity" 520
+		"lifetime" 1
+		"reload" 1.62
+		"burst reload" 1
+		"burst count" 17
+		"firing energy" 11.2
+		"firing heat" 35.6
+		"shield damage" 12.6
+		"hull damage" 33.4
+
+outfit "Korath Disruptor Gun"
+	category "Turrets"
+	cost 783000
+	thumbnail "outfit/disruptor gun"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"gun ports" -1
+	weapon
+		sprite "projectile/disruptor"
+			"frame rate" 15
+		sound "disruptor"
+		"hit effect" "disruptor impact"
+		"inaccuracy" 1
+		"velocity" 480
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 8.0
+		"firing heat" 2.7
+		"shield damage" 3.8
+		"hull damage" .5
+		"disruption damage" .24
+
 outfit "Modified Proton Gun"
 	category "Secondary Weapons"
 	cost 32000
