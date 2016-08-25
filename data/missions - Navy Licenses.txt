@@ -277,7 +277,7 @@ mission "Navy License [4]"
 				"Gunboat" 4
 
 	on visit
-		dialog "There are still some pirates that you need to kill in order to complete this mission. Launch back into space anc finish the job."
+		dialog "There are still some pirates that you need to kill in order to complete this mission. Launch back into space and finish the job."
 
 	on complete
 		conversation
@@ -333,5 +333,5 @@ mission "Geminus Rebuilt Notification"
 		has "Navy License [5]: done"
 		has "event: geminus rebuilt"
 	on offer
-		dialog `You notice you've just recieved a message from Officer Smith. "Guess what, we've finally completed rebuilding the shipyard! Come stop by some time and pick up some ships if you want."`
+		dialog `You notice you've just received a message from Officer Smith. "Guess what, we've finally completed rebuilding the shipyard! Come stop by some time and pick up some ships if you want."`
 			fail

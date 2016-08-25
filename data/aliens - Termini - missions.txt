@@ -1,4 +1,4 @@
-# Copyright (c) 2016 by Jonathan Steck
+﻿# Copyright (c) 2016 by Jonathan Steck
 #
 # Endless Sky is free software: you can redistribute it and/or modify it under the
 # terms of the GNU General Public License as published by the Free Software
@@ -18,27 +18,27 @@ mission "Termini Intro"
 		has "event: Termini Appear"
 	on offer
 		conversation
-			`	As you step out of your ship, you notice a shadowy figure move from behind a stack of crates and quickly approach you.`
+			`As you step out of your ship, you notice a shadowy figure move from behind a stack of crates and quickly approach you.`
 			choice
-				`	Karate chop`
+				`	(Karate chop.)`
 					goto chop
-				`	Shoot`
+				`	(Shoot.)`
 					goto shoot
 						
 			label chop
 			`	Before the figure reached you, you karate chop it in the neck region. It crumbles to the ground with a grunt, and attempts to get back up.`
 			choice
-				`	Wait`
+				`	(Wait.)`
 					goto wait
-				`	Shoot to kill`
+				`	(Shoot to kill.)`
 					goto kill
 			
 			label shoot
 			`	You quickly pull your laser pistol and fire at the figure. The laser fires straight through it, and the figure cripples down on top of you. As you push it off of you, it grunts, still barely alive.`
 			choice
-				`	Look at what it is.`
+				`	(Look at what it is.)`
 					goto see
-				`	Shoot to kill`
+				`	(Shoot to kill.)`
 					goto kill
 						
 			label kill
@@ -62,9 +62,9 @@ mission "Termini Intro"
 			label introduction
 			`	"That's one interesting way to introduce yourself. Hi, I'm Jon. You must be asshole." He says with a smirk as he extends his hand.`
 			choice
-				`	Shake his hand`
+				`	(Shake his hand.)`
 					goto shake
-				`	NOW shoot to kill`
+				`	(NOW shoot to kill.)`
 					goto triggerhappy
 						
 			label shake
@@ -108,7 +108,7 @@ mission "Termini Intro"
 				goto choice2
 				
 			label nowhy
-			`	"You know, that's a pretty fair point… I'll just leave."`
+			`	"You know, that's a pretty fair point... I'll just leave."`
 			`	He turns off and walks back behind the crates that he had jumped from, never to be seen again.`
 				decline
 			

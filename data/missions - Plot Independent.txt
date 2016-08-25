@@ -1,12 +1,22 @@
+# Copyright (c) 2016 by Jonathan Steck
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
 # The following mission chain (Lovelace Trolling) twas for the greater good.
 # Takarada now has an obligation to create an alien race based off of me in this mod, "Alphean Boolean."
 
 mission "Lovelace Trolling [1]"
-	name "Vandilize Lovelace Labs"
+	name "Vandalize Lovelace Labs"
 	source 
 		attributes core
 	destination "Ada"
-	description "Go to <destination> and vandilize Lovelace Labs."
+	description "Go to <destination> and Vandalize Lovelace Labs."
 	to offer
 		random > 60
 	on offer
@@ -54,18 +64,18 @@ mission "Lovelace Trolling [1]"
 			`	"Hey <first>! Want to play?"`
 			`	You hobble over to the corner and sit down in an empty chair, ready to make up the stupidest dare of your life. For some reason, the only thing you can think about is the Sidewinder Missile Launcher.`
 			`	"Loser has to go to Lovelace Labs and spray paint something on the side of a building."`
-			`	The table goes crazy, ready to see who has to go out to <destination> and vandilize Lovelace Labs.`
+			`	The table goes crazy, ready to see who has to go out to <destination> and Vandalize Lovelace Labs.`
 			choice
 				`	"I choose heads."`
 					goto heads
 				`	"I choose tails."`
 
-			`	The coin flips in to the air, flying one end over the other. It flips for what feels like forever, before finally fallng to the table. It bounces once. Twice. Three times. Finally, it lands on the table. You lean in to see what it is.`
+			`	The coin flips into the air, flying one end over the other. It flips for what feels like forever, before finally falling to the table. It bounces once. Twice. Three times. Finally, it lands on the table. You lean in to see what it is.`
 			`	Heads. You lose.`
 				goto lost
 
 			label heads
-			`	The coin flips in to the air, flying one end over the other. It flips for what feels like forever, before finally fallng to the table. It bounces once. Twice. Three times. Finally, it lands on the table. You lean in to see what it is.`
+			`	The coin flips into the air, flying one end over the other. It flips for what feels like forever, before finally falling to the table. It bounces once. Twice. Three times. Finally, it lands on the table. You lean in to see what it is.`
 			`	Tails. You lose.`
 
 			label lost
@@ -141,8 +151,8 @@ mission "Lovelace Trolling [2]"
 			`	You make your way from the outskirts of the facility toward the outer wall. You shake up your spray can and think of what to write.`
 			`	What should you spray paint?`
 			choice
-				`	"U suk!"`
-				`	"Wazzuuuuuuup?`
+				`	("U suk!")`
+				`	("Wazzuuuuuuup?)`
 				`	[censored]`
 				
 			`	You spray paint your interesting message on to the side of the building. Just as you finish, you hear a voice yell at you from above. You look up to find a Lovelace Labs security guard staring down at you.`

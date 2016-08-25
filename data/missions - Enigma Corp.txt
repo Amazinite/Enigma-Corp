@@ -1,4 +1,4 @@
-# Copyright (c) 2016 by Jonathan Steck
+﻿# Copyright (c) 2016 by Jonathan Steck
 #
 # Endless Sky is free software: you can redistribute it and/or modify it under the
 # terms of the GNU General Public License as published by the Free Software
@@ -18,25 +18,25 @@ mission "Enigma Corp [0]"
 		has "main plot completed"
 	on offer
 		conversation
-			`	You step off of your ship onto the pirate planet. As usual, you get some nasty looks from people nearby and the feeling that someone really wants to stab you right now.`
-			`	You head on over to the bar to grab a drink. You notice the man sitting next to you is wearing a suit, and find that rather odd considering the setting.`
-			`	As you drink, the man turns to you.`
-			`	"Hey kid, you think you could help me out?"`
+			`	You walk into the <origin> spaceport, getting some nasty looks from people nearby as usual and the feeling that someone really wants to stab you right now.`
+			`	You head on over to the bar to grab a drink and notice the man seated next to you is wearing a suit. Normally this wouldn't be something to worry about, but you find it rather odd considering the setting of mostly dirty, raggedy space pirates.`
+			`	As you take a sip of your drink, the man turns to you.`
+			`	"I can tell this isn't the kind of place you normally go to. You think you could help me out?"`
 			choice
 				`	"Who are you?"`
 					goto what
-				`	"No thanks."`
+				`	"No thanks, I've better things to do."`
 					goto no
 
 			label no
-			`	"Hold on."`
+			`	"Hold on. I believe I could persuade you otherwise."`
 				goto what
 
 			label what
-			`	"I'm the owner of a rather succesful ship and weapons development corporation. Enigma Corp. I'm sure you've heard about it."`
-			`	"Well I've heard some good things about you, and I was wondering if you could give me a hand. Between you and me, I'm kind of stuck here."`
+			`	"I'm the owner of a rather successful ship and weapons development company: ‘The Enigma Corporation.’ I'm sure you've heard about it."`
+			`	"Well I've heard some good things about you, <last>, and I was wondering if you could give me a hand. Between you and me, I'm kind of stuck here."`
 			choice
-				`	"Sure thing. Where do we go?"`
+				`	"Sure thing. Where do you need to go?"`
 					goto yes
 				`	"What do I get out if it?"`
 					goto reward
@@ -44,12 +44,12 @@ mission "Enigma Corp [0]"
 					goto nope
 
 			label reward
-			`	"My destination is a place where we don't normally let outsiders into. It has never before seen technology that would probably interest you, as well as a line of ships that are stronger than almost anything else you can buy."`
+			`	"My destination is a place where we don't normally allow outsiders to enter. It has never before seen technology that would probably interest you, as well as a line of ships that are stronger than almost anything else currently on the market."`
 			`	"So, what do you say?"`
 			choice
 				`	"You've got my attention. Where to?"`
 					goto yes
-				`	"Not interested. I can probably get better things by raiding some Quarg."`
+				`	"Not interested. I can probably get better things by raiding the Quarg."`
 					goto nope
 
 			label nope
@@ -57,22 +57,27 @@ mission "Enigma Corp [0]"
 				decline
 
 			label yes
-			`	"Go to the Enigma System. It's located north of Deep Sky Space, right by Wezen."`
+			`	"Go to <destination>. It's located north of Deep Sky space, right by Suhail."`
 				accept
 
 	on accept
 		event "Enigma Prime Open"
-		"reputation: Enigma Corp" = 1000
+		"reputation: Enigma Corp” += 20
 
 	on complete
+		event "Talk to Dolent" 10
+		event "EC: New Ship" 60
 		payment 30000000
 		conversation
-			`	"Thank you for the ride. Help yourself to my ships and outfits. As long as you pay, of course. And if you don't mind, I'd like to ask a few favors of you in the future. Until then."`
+			`	"Thank you for the ride. Not many people these days would care enough to help out a stranger. Help yourself to the outfitters and shipyards, and I'd love to have you work for me in the future."`
 			`	He begins walking off towards a wing of the station labeled "Restricted Access," but then turns around and walks back to you.`
 			`	"I almost forgot something."`
 			`	He hands you <payment>.`
 			`	"Keep the change. And call me if you need anything."`
 			`	He winks, and goes back walking towards the restricted access area.`
+
+
+event "Talk to Dolent"
 
 event "Enigma Prime Open"
 	planet "Enigma Prime"
@@ -89,8 +94,9 @@ event "Enigma Prime Open"
 		shipyard "Basic Ships"
 		shipyard "Lionheart Basics"
 		shipyard "EC-0"
-		description `The station is rather messy, with the smell of oil in the air and spare parts lying all over the place. Most of the station appears to be off access to visitors, with the only available places being the spaceport, shipyard, and outfitter.`
-		spaceport `The spaceport is full of men and women in light blue suits, working on spaceships you've never seen before and assembling more of those things that the suited man showed you. You look over at your ship and see someone refueling it for you. She turns to see you and just waves before moving on her way.`
+		description `A near constant stream of freighters are landing and launching from the hangar of the station, presumably to bring supplies for whatever crazy experiments the corporation is conducting in this secretive station. Much of the station is labeled as “authorized personnel only,” leaving you with only the outfitters and shipyards to explore. `
+		description `Part of the hangar wall is a large tinted glass window facing the center of the system. You are able to see the binary stars orbiting each other in close proximity, one pulling gas from the other due to its immense gravity.`
+		spaceport `The spaceport is full of men and women in light blue suits, most of which are busy unloading the freighters that enter the station and carting off the cargo to another section of the station. At the far end of the hangar you can see what appears to be a shipyard of sorts, with workers building or repairing small ships that you have never seen before, likely a new ship that will eventually be released onto the market.`
 	planet "Enigma Meridian"
 		landscape land/space2
 		outfitter "Trolls and Lols"
@@ -106,6 +112,7 @@ mission "EC Prime reverse compat"
 		has "event: Enigma Prime Open"
 	on offer
 		event "Enigma Prime Update"
+		event "EC: New Ship" 60
 		fail
 
 event "Enigma Prime Update"
@@ -115,6 +122,11 @@ event "Enigma Prime Update"
 		outfitter "Ammo North"
 		shipyard "Basic Ships"
 		shipyard "Lionheart Basics"
+		description `A near constant stream of freighters are landing and launching from the hangar of the station, presumably to bring supplies for whatever crazy experiments the corporation is conducting in this secretive station. Much of the station is labeled as “authorized personnel only,” leaving you with only the outfitters and shipyards to explore. `
+		description `Part of the hangar wall is a large tinted glass window facing the center of the system. You are able to see the binary stars orbiting each other in close proximity, one pulling gas from the other due to its immense gravity.`
+		spaceport `The spaceport is full of men and women in light blue suits, most of which are busy unloading the freighters that enter the station and carting off the cargo to another section of the station. At the far end of the hangar you can see what appears to be a shipyard of sorts, with workers building or repairing small ships that you have never seen before, likely a new ship that will eventually be released onto the market.`
+
+event "EC: New Ship"
 
 mission "Enigma Corp [1a]"
 	source "Enigma Prime"
@@ -123,20 +135,21 @@ mission "Enigma Corp [1a]"
 	destination "Enigma Prime"
 	to offer
 		has "Enigma Corp [0]: done"
+		has “event: Talk to Dolent”
 	on offer
 		conversation
-			`	You land back on Enigma Prime. Do you want to try and see if you can find the CEO?`
+			`Do you wish to find the CEO of Enigma Corp?`
 			choice
-				`	Yes.`
+				`	(Yes.)`
 					goto begin
-				`	No.`
+				`	(Not right now.)`
 					defer
 
 			label begin
 			choice
-				`	Ask around for help.`
+				`	(Ask where he is.)`
 					goto help
-				`	Try and find him on your own.`
+				`	(Attempt to find him on your own.)`
 					goto solo
 					
 			label help
@@ -171,7 +184,7 @@ mission "Enigma Corp [1a]"
 			
 			label now
 			`	"Give me a minute to call him and see." The lady picks up the phone on the reception desk and punches in a few numbers.`
-			`	"Mr. Dolent, there's a captain down here who wishes to see you. His name is..."`
+			`	"Mr. Dolent, there's a captain down here who wishes to see you. His name is..." She brings the phone down from her ear and looks at you.`
 			`	"<first> <last>," you say.`
 			`	"Captain <last>."`
 			`	Mr. Dolent screams so loud on the other side of the line that you can hear him from where you're standing.`
@@ -285,11 +298,11 @@ mission "Enigma Corp [1a]"
 			
 			label sit
 			`	You sit down in the chair and begin skimming over the dozens of TVs on the walls.`
-			`	Most of the TVs show boring scenes of empty hallways or just normal shipyard work areas, but one TV catches your eye.`
+			`	Most of the video screens show boring scenes of empty hallways or just normal shipyard work areas, but one screen catches your eye.`
 			`	It appears to be overlooking one of the lab areas where they test and develop new technology.`
 			`	In the lab are two people fitted head to toe in hazmat suits, observing what appears to be a Quarg on an operating table. The Quarg seems to be dead, but then the hazmat figures pull out a laser scalpel and begin cutting into the Quarg.`
 			`	You can't hear anything, but you can see the Quarg begin to twist and spasm, held down by multiple metal clamps. After about thirty seconds of watching the poor creature get tortured, you look away in disgust. Just then, a shadow falls over the room from the doorway.`
-			`	You turn around to find yourself face to face with the CEO of Enigma Corp. He looks at you, then to the TV, then back to you. He begins to reach down to his side, looking as though he is about to pull a weapon.`
+			`	You turn around to find yourself face to face with the CEO of Enigma Corp. He looks at you, then to the screen, then back to you. He begins to reach down to his side, looking as though he is about to pull a weapon.`
 			choice
 				`	"No! Wait! I won't tell anyone!"`
 					goto wait
@@ -351,8 +364,8 @@ mission "Enigma Corp [1a]"
 				
 			label proposition
 			`	"As of right now, we have two new ships that need a bit of combat testing. Both are variants of ships we already have out on the market, but they include special features meant for only the most important of individuals."`
-			`	"The first one, the EC-070, is a combat version of the EC-069 'Star Queen.' Ic comes specially fitted with an EMP device used to scramble the electronics of ships that happen to get to close to the ship, allowing for safer travel from pirates. Pirates warp in and get to close? Set off the EMP and jump out ASAP."`
-			`	"The second one, which is going to need a few more weeks of preparation before we're ready to put a human inside of it, is the EC-078, which is just the EC-077 strapped with out new prototype cloaking device."`
+			`	"The first one, the EC-070, is a combat version of the EC-069 'Star King.' It comes specially fitted with an EMP device used to scramble the electronics of ships that happen to get too close to the ship, allowing for safer travel from pirates. Pirates warp in and get to close? Set off the EMP and jump out ASAP."`
+			`	"The second one, which is going to need a few more weeks of preparation before we're ready to put a human inside of it, is the EC-078, which is just the EC-077 strapped without new prototype cloaking device."`
 			`	"The device is rather large at the moment, which is why it needs to be integrated directly into the ship. It works by increasing the gravity around the ship using harvested dark matter, allowing the ship to bend the light around it and become almost completely invisible."`
 			`	"So, would you be interested in helping to test them?"`
 			choice
@@ -381,7 +394,7 @@ mission "Enigma Corp [1a]"
 		government "Pirate"
 		personality heroic staying
 		system "Mebsuta"
-		ship "Frigate" "Souless Sun"
+		ship "Frigate" "Soulless Sun"
 			
 	npc
 		government "Pirate"
@@ -428,7 +441,7 @@ mission "Enigma Corp [1b]"
 		has "event: Star Guardian"
 	on offer
 		conversation
-			`You recieve a message from Enigma Corp.`
+			`You receive a message from Enigma Corp.`
 			`	"<last>, the EC-078 is ready for testing, and the EC-070 is now open to the public. Come stop on by if you want to help test out the EC-078."`
 			choice
 				`	Test the EC-078.`

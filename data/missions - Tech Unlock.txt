@@ -58,7 +58,7 @@ mission "Enigma Corp 2"
 	on offer
 		event "Enigma Corp 2"
 		conversation
-			`	As you land, you recieve a message from Enigma Corp.`
+			`	As you land, you receive a message from Enigma Corp.`
 			`	"Come one, come all! Enigma Stations located throughout the galaxy have just been stocked with the latest in Enigma Corporation technology! Get your brand new weapons today!`
 				decline
 
@@ -99,7 +99,7 @@ mission "Enigma Corp 3"
 	on offer
 		event "Enigma Corp 3"
 		conversation
-			`	As you land, you recieve a message from Enigma Corp.`
+			`	As you land, you receive a message from Enigma Corp.`
 			`	"Come one, come all! Enigma Stations located throughout the galaxy have just been stocked with the latest in Enigma Corporation technology! Get your brand new weapons today!`
 				decline
 
@@ -278,8 +278,8 @@ mission "New Syn Tech"
 		has "main plot completed"
 	on offer
 		conversation
-			`	While walking around the spaceport, three men in suits and glasses with reflective lenses approach you. Judging by their atire, you assume them to be with the Syndicate.`
-			`	They stop in front of you shoulder to shoulder with their hands behind their backs. One of them takes a step foward and begins to speak.`
+			`	While walking around the spaceport, three men in suits and glasses with reflective lenses approach you. Judging by their attire, you assume them to be with the Syndicate.`
+			`	They stop in front of you shoulder to shoulder with their hands behind their backs. One of them takes a step forward and begins to speak.`
 			`	"We have a favor to ask of you that would be in your best interests to accept."`
 			choice
 				`	"What kind of favor?"`
