@@ -94,6 +94,7 @@ event "Enigma Prime Open"
 		shipyard "Basic Ships"
 		shipyard "Lionheart Basics"
 		shipyard "EC-0"
+		description `A near constant stream of freighters are landing and launching from the hangar of the station, presumably to bring supplies for whatever crazy experiments the corporation is conducting in this secretive station. Much of the station is labeled as "authorized personnel only," leaving you with only the outfitters and shipyards to explore. `
 		description `Part of the hangar wall is a large tinted glass window facing the center of the system. You are able to see the binary stars orbiting each other in close proximity, one pulling gas from the other due to its immense gravity.`
 		spaceport `The spaceport is full of men and women in light blue suits, most of which are busy unloading the freighters that enter the station and carting off the cargo to another section of the station. At the far end of the hangar you can see what appears to be a shipyard of sorts, with workers building or repairing small ships that you have never seen before, likely a new ship that will eventually be released onto the market.`
 	planet "Enigma Meridian"
@@ -121,6 +122,7 @@ event "Enigma Prime Update"
 		outfitter "Ammo North"
 		shipyard "Basic Ships"
 		shipyard "Lionheart Basics"
+		description `A near constant stream of freighters are landing and launching from the hangar of the station, presumably to bring supplies for whatever crazy experiments the corporation is conducting in this secretive station. Much of the station is labeled as "authorized personnel only," leaving you with only the outfitters and shipyards to explore. `
 		description `Part of the hangar wall is a large tinted glass window facing the center of the system. You are able to see the binary stars orbiting each other in close proximity, one pulling gas from the other due to its immense gravity.`
 		spaceport `The spaceport is full of men and women in light blue suits, most of which are busy unloading the freighters that enter the station and carting off the cargo to another section of the station. At the far end of the hangar you can see what appears to be a shipyard of sorts, with workers building or repairing small ships that you have never seen before, likely a new ship that will eventually be released onto the market.`
 
@@ -133,6 +135,7 @@ mission "Enigma Corp [1a]"
 	destination "Enigma Prime"
 	to offer
 		has "Enigma Corp [0]: done"
+		has "event: Talk to Dolent"
 	on offer
 		conversation
 			`Do you wish to find the CEO of Enigma Corp?`
