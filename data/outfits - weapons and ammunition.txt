@@ -105,9 +105,9 @@ outfit "Cryo Beam"
 		"hull damage" 1.2
 		"slowing damage" 0.1
 		"ion damage" 0.1
-		"heat damage" -0.1
-		"disruption damage" -0.1
-	description `The Cryo Beam is a strange weapon that few understand. Although it does not literally cryogentically freeze ships, it acts as though it freezes them by slowing the target, making their shields "brittle" and more suseptible to damage, and reducing the temperature of the targeted ship, as well as disrupting its energy systems.`
+		"heat damage" -10
+		"disruption damage" 0.1
+	description `The Cryo Beam is a strange weapon that few understand. Although it does not literally cryogentically freeze ships, it acts as though it freezes them by slowing the target, making their shields "brittle" and suseptible to pierce damage, and reducing the temperature of the targeted ship, as well as disrupting its energy systems.`
 	description "Some say that the Cryo Beam is stolen technology from an undiscovered alien race that is far superior to humanity, leading some to wonder just how powerful the Corporation really is."
 	description "Brought to you by the Enigma Corporation."
 
