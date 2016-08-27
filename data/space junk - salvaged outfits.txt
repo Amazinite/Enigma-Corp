@@ -529,7 +529,7 @@ outfit "Salvaged S-270 Regenerator"
 	"energy generation" -.3
 	"heat generation" 2
 
-outfit "Salvaged S-970 Regenerator"
+outfit "Salvaged S-920 Regenerator"
 	category "Systems"
 	cost 600000
 	thumbnail "outfit/large regenerator"
