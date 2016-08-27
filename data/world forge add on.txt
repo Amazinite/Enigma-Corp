@@ -144,6 +144,7 @@ outfitter "Termini"
 	"Razer"
 
 outfitter "Salvaged"
+	"Scrap Metal"
 	"Salvaged Afterburner"
 	"Salvaged Ionic 'Burner"
 	"Salvaged X1050 Engines"

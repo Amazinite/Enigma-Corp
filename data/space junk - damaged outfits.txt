@@ -8,6 +8,15 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+outfit "Scrap Metal"
+	category "Special"
+	cost 4000
+	thumbnail "outfit/interference plating"
+	"flotsam sprite" "effect/box"
+	"mass" 1
+	"installable" -1
+	description "Scrap metal from the hull of the ship. There might be a few outfit pieces in here as well."
+
 # Engines
 outfit "Damaged Afterburner"
 	category "Special"

@@ -614,14 +614,6 @@ outfit "Salvaged Fuel Pod"
 	"mass" 8
 	"outfit space" -8
 	"fuel capacity" 100
-
-outfit "Salvaged Plating"
-	category "Systems"
-	cost 37500
-	thumbnail "outfit/interference plating"
-	"mass" 4
-	"outfit space" -4
-	"scan interference" .5
 ##########################
 # Batteries
 outfit "Salvaged Supercapacitor"

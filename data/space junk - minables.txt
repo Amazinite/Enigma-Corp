@@ -17,6 +17,7 @@ minable "star barge junk a"
 	payload "Damaged Chipmunk Steering" 2
 	payload "Damaged D14-RN Shield" 4
 	payload "Damaged Hyperdrive" 2
+	payload "Scrap Metal" 15
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
@@ -31,6 +32,7 @@ minable "star barge junk b"
 	payload "Damaged Chipmunk Steering" 2
 	payload "Damaged D14-RN Shield" 4
 	payload "Damaged Hyperdrive" 2
+	payload "Scrap Metal" 15
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
@@ -45,6 +47,7 @@ minable "shuttle junk a"
 	payload "Damaged Chipmunk Steering" 2
 	payload "Damaged D14-RN Shield" 4
 	payload "Damaged Hyperdrive" 2
+	payload "Scrap Metal" 15
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
@@ -58,6 +61,7 @@ minable "heavy shuttle junk a"
 	payload "Damaged Chipmunk Steering" 2
 	payload "Damaged D14-RN Shield" 4
 	payload "Damaged Hyperdrive" 2
+	payload "Scrap Metal" 15
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
@@ -72,6 +76,7 @@ minable "heavy shuttle junk b"
 	payload "Damaged Chipmunk Steering" 2
 	payload "Damaged D14-RN Shield" 4
 	payload "Damaged Hyperdrive" 2
+	payload "Scrap Metal" 15
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
@@ -86,6 +91,7 @@ minable "flivver junk a"
 	payload "Damaged X2200 Steering" 2
 	payload "Damaged D14-RN Shield" 4
 	payload "Damaged Hyperdrive" 2
+	payload "Scrap Metal" 15
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
@@ -100,6 +106,7 @@ minable "flivver junk b"
 	payload "Damaged D14-RN Shield" 4
 	payload "Damaged Water Cooling" 3
 	payload "Damaged Hyperdrive" 2
+	payload "Scrap Metal" 15
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
@@ -114,6 +121,7 @@ minable "sparrow junk a"
 	payload "Damaged Chipmunk Steering" 2
 	payload "Damaged D14-RN Shield" 4
 	payload "Damaged Hyperdrive" 2
+	payload "Scrap Metal" 15
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
@@ -130,6 +138,7 @@ minable "sparrow junk b"
 	payload "Damaged Outfit Scanner" 2
 	payload "Damaged Cargo Scanner" 2
 	payload "Damaged Hyperdrive" 2
+	payload "Scrap Metal" 15
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
@@ -144,6 +153,7 @@ minable "sparrow junk c"
 	payload "Damaged Chipmunk Steering" 2
 	payload "Damaged D14-RN Shield" 4
 	payload "Damaged Hyperdrive" 2
+	payload "Scrap Metal" 15
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
@@ -158,6 +168,7 @@ minable "hawk junk a"
 	payload "Damaged Greyhound Steering" 2
 	payload "Damaged D23-QP Shield" 3
 	payload "Damaged Hyperdrive" 2
+	payload "Scrap Metal" 15
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
@@ -172,6 +183,7 @@ minable "hawk junk b"
 	payload "Damaged A255 Steering" 1
 	payload "Damaged D41-HY Shield" 2
 	payload "Damaged Hyperdrive" 2
+	payload "Scrap Metal" 15
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
@@ -186,6 +198,7 @@ minable "hawk junk c"
 	payload "Damaged Greyhound Steering" 2
 	payload "Damaged D41-HY Shield" 2
 	payload "Damaged Hyperdrive" 2
+	payload "Scrap Metal" 15
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
@@ -200,6 +213,7 @@ minable "fury junk a"
 	payload "Damaged X2200 Steering" 2
 	payload "Damaged D14-RN Shield" 4
 	payload "Damaged Hyperdrive" 2
+	payload "Scrap Metal" 15
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
@@ -214,6 +228,7 @@ minable "fury junk b"
 	payload "Damaged Greyhound Steering" 2
 	payload "Damaged D14-RN Shield" 4
 	payload "Damaged Hyperdrive" 2
+	payload "Scrap Metal" 15
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
@@ -229,6 +244,7 @@ minable "fury junk c"
 	payload "Damaged D23-QP Shield" 3
 	payload "Damaged Cooling Ducts" 3
 	payload "Damaged Hyperdrive" 2
+	payload "Scrap Metal" 15
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
@@ -243,6 +259,7 @@ minable "berserker junk a"
 	payload "Damaged X2200 Steering" 2
 	payload "Damaged D23-QP Shield" 3
 	payload "Damaged Hyperdrive" 2
+	payload "Scrap Metal" 15
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
@@ -260,6 +277,7 @@ minable "berserker junk b"
 	payload "Damaged D23-QP Shield" 3
 	payload "Damaged Ramscoop" 2
 	payload "Damaged Hyperdrive" 2
+	payload "Scrap Metal" 15
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
@@ -275,6 +293,7 @@ minable "wasp junk a"
 	payload "Damaged X2200 Steering" 2
 	payload "Damaged D14-RN Shield" 4
 	payload "Damaged Hyperdrive" 2
+	payload "Scrap Metal" 15
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
@@ -289,6 +308,7 @@ minable "wasp junk b"
 	payload "Damaged X2200 Steering" 2
 	payload "Damaged D14-RN Shield" 4
 	payload "Damaged Hyperdrive" 2
+	payload "Scrap Metal" 15
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
@@ -306,6 +326,7 @@ minable "scout junk a"
 	payload "Damaged Ramscoop" 2
 	payload "Damaged Small Jammer" 2
 	payload "Damaged Hyperdrive" 2
+	payload "Scrap Metal" 15
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
@@ -322,6 +343,7 @@ minable "scout junk b"
 	payload "Damaged D23-QP Shield" 3
 	payload "Damaged Cooling Ducts" 4
 	payload "Damaged Hyperdrive" 2
+	payload "Scrap Metal" 15
 	explode "smoke" 10
 	explode "bolide" 10
 	explode "final explosion small"
