@@ -416,40 +416,50 @@ system "Tua Alpha"
 			distance 325
 			period 30.8406
 
-system Dabih
+system Betelgeuse
 	object
-		sprite star/k0
-		distance 30.7164
-		period 14.5355
-		offset 180
+		sprite star/g0
+		period 10
 	object
-		sprite star/m0
-		distance 65.2836
-		period 14.5355
+		sprite planet/desert2
+		distance 179.44
+		period 29.2568
 	object
-		sprite planet/cloud3
-		distance 288.034
-		period 75.5418
-	object "New Britain"
-		sprite planet/forest6
-		distance 742.074
-		period 312.387
+		sprite planet/rock0
+		distance 535.69
+		period 150.91
+	object Prime
+		sprite planet/forest2
+		distance 1081.98
+		period 433.189
 	object
-		sprite planet/gas2
-		distance 1761.48
-		period 1142.46
+		sprite planet/ocean4
+		distance 1582.62
+		period 766.325
 		object
-			sprite planet/ice0
-			distance 220
-			period 14.5028
+			sprite planet/lava1
+			distance 182
+			period 21.6509
+	object
+		sprite planet/gas13
+		distance 4580.11
+		period 3772.78
 		object
-			sprite planet/rock7
-			distance 309
-			period 24.141
+			sprite planet/rock17
+			distance 282
+			period 12.7057
+		object
+			sprite planet/lava2
+			distance 372
+			period 19.2504
+		object
+			sprite planet/oberon
+			distance 516
+			period 31.4485
 		object "Enigma Zeta"
 			sprite planet/station5
-			distance 270
-			period 19.135
+			distance 750
+			period 40
 
 system END-00
 	pos 1209 -1168
