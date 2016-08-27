@@ -536,13 +536,18 @@ system Enigma
 	trade Medical 636
 	trade Metal 376
 	trade Plastic 373
-	fleet Oblivion 15000
-	fleet Keeper 50000
+	fleet "Small Enigma Merchents" 500
+	fleet "Large Enigma Merchants" 1000
+	fleet "Small Enigma Military" 750
+	fleet "Large Enigma Military" 1500
 	fleet "Small Northern Merchants" 1500
-	fleet "Large Northern Merchants" 4000
-	fleet "Small Deep" 3500
-	fleet "Large Deep" 6000
-	fleet "Large Northern Pirates" 8000
+	fleet "Large Northern Merchants" 3000
+	fleet "Small Northern Pirates" 2000
+	fleet "Large Northern Pirates" 3000
+	fleet "Small Deep" 3000
+	fleet "Large Deep" 5000
+	fleet "Oblivion" 25000
+	fleet "Keeper" 75000
 	object
 		sprite star/f0
 		distance 11.8889
@@ -2472,8 +2477,14 @@ planet "Enigma Epsilon"
 	government "Enigma Corp"
 
 planet "Enigma Meridian"
-	landscape land/space7
-	description `The station is completely quiet, but it seems to have been recently used.`
+	landscape land/space2
+	outfitter "Trolls and Lols"
+	shipyard "Trolls and Lols"
+	description "This station is meant for nothing more than to sell stuff that is in the mod and not considered balanced or ready to serious your, but you can buy anyways to have fun with. Enjoy."
+	description "Don't get too excited, though. This is going to be removed in v0.6.0 :)"
+	spaceport "Go away."
+	"required reputation" 1000000
+	bribe 0
 	security 0
 
 planet "Enigma Mu"
@@ -2484,12 +2495,28 @@ planet "Enigma Mu"
 	description `Mu Station is one of many stations throughout the galaxy owned by the Enigma Corporation. The Enigma Corporation is constantly developing new technology for use by the people of the galaxy.`
 	description `	"The Enigma Corporation: We build death machines so you don't have to."`
 	spaceport `Once you land, you notice that Enigma Mu is rather bland compared to the other Enigma Corp stations. There are no workers sprinting around or working on ships. Everything seems eerily calm and quiet, almost to the point of being creepy. You can't quite shake the feeling that you're being watched.`
-	security 0
 	government "Enigma Corp"
+	security 0
 
 planet "Enigma Prime"
-	landscape land/space7
-	description `The station is completely quiet, but it seems to have been recently used.`
+	landscape land/space2
+	outfitter "Enigma Basic"
+	outfitter "Enigma Intermediate"
+	outfitter "Enigma Advanced"
+	outfitter "Enigma Experimental"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Common Outfits"
+	outfitter "Basic Outfits"
+	outfitter "Ammo North"
+	shipyard "Basic Ships"
+	shipyard "Lionheart Basics"
+	shipyard "EC-0"
+	description `A near constant stream of freighters are landing and launching from the hangar of the station, presumably to bring supplies for whatever crazy experiments the corporation is conducting in this secretive station. Much of the station is labeled as "authorized personnel only," leaving you with only the outfitters and shipyards to explore. `
+	description `Part of the hangar wall is a large tinted glass window facing the center of the system. You are able to see the binary stars orbiting each other in close proximity, one pulling gas from the other due to its immense gravity.`
+	spaceport `The spaceport is full of men and women in light blue suits, most of which are busy unloading the freighters that enter the station and carting off the cargo to another section of the station. At the far end of the hangar you can see what appears to be a shipyard of sorts, with workers building or repairing small ships that you have never seen before, likely a new ship that will eventually be released onto the market.`
+	"required reputation" 1000000
+	bribe 0
 	security 0
 
 planet "Enigma Sigma"

@@ -262,7 +262,7 @@ fleet "Keeper"
 fleet "Small Enigma Merchants"
 	government "Enigma Corp"
 	names "civilian"
-	cargo 3
+	cargo 4
 	personality
 		confusion 40
 		timid frugal
@@ -313,7 +313,7 @@ fleet "Small Enigma Merchants"
 fleet "Large Enigma Merchants"
 	government "Enigma Corp"
 	names "civilian"
-	cargo 4
+	cargo 5
 	personality
 		confusion 20
 		timid frugal
@@ -457,7 +457,7 @@ fleet "Large Enigma Merchants"
 fleet "Small Enigma Military"
 	government "Enigma Corp"
 	names "enigma military"
-	cargo 0
+	cargo 1
 	personality
 		heroic
 	variant 6
@@ -478,7 +478,7 @@ fleet "Large Enigma Military"
 	government "Enigma Corp"
 	names "enigma military"
 	fighters "enigma drone"
-	cargo 0
+	cargo 1
 	personality
 		heroic
 	variant 5

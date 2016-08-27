@@ -81,41 +81,26 @@ event "Talk to Dolent"
 
 event "Enigma Prime Open"
 	planet "Enigma Prime"
-		landscape land/space2
-		outfitter "Enigma Basic"
-		outfitter "Enigma Intermediate"
-		outfitter "Enigma Advanced"
-		outfitter "Enigma Experimental"
-		outfitter "Deep Sky Basics"
-		outfitter "Deep Sky Advanced"
-		outfitter "Common Outfits"
-		outfitter "Basic Outfits"
-		outfitter "Ammo North"
-		shipyard "Basic Ships"
-		shipyard "Lionheart Basics"
-		shipyard "EC-0"
-		description `A near constant stream of freighters are landing and launching from the hangar of the station, presumably to bring supplies for whatever crazy experiments the corporation is conducting in this secretive station. Much of the station is labeled as "authorized personnel only," leaving you with only the outfitters and shipyards to explore. `
-		description `Part of the hangar wall is a large tinted glass window facing the center of the system. You are able to see the binary stars orbiting each other in close proximity, one pulling gas from the other due to its immense gravity.`
-		spaceport `The spaceport is full of men and women in light blue suits, most of which are busy unloading the freighters that enter the station and carting off the cargo to another section of the station. At the far end of the hangar you can see what appears to be a shipyard of sorts, with workers building or repairing small ships that you have never seen before, likely a new ship that will eventually be released onto the market.`
+		"required reputation" 20
+		bribe 0.1
 	planet "Enigma Meridian"
-		landscape land/space2
-		outfitter "Trolls and Lols"
-		shipyard "Trolls and Lols"
-		description "This station is meant for nothing more than to sell stuff that is in the mod and not considered balanced or ready to serious your, but you can buy anyways to have fun with. Enjoy."
-		description "Don't get too excited, though. This is going to be removed in v0.6.0 :)"
-		spaceport "Go away."
+		"required reputation" 20
+		bribe 0.1
 
-mission "EC Prime reverse compat"
+mission "EC reverse compat"
 	landing
 	invisible
 	to offer
 		has "event: Enigma Prime Open"
 	on offer
-		event "Enigma Prime Update"
+		event "Enigma Update"
 		event "EC: New Ship" 60
 		fail
 
-event "Enigma Prime Update"
+event "Enigma Update"
+	planet "Enigma Meridian"
+		"required reputation" 20
+		bribe 0.1
 	planet "Enigma Prime"
 		outfitter "Common Outfits"
 		outfitter "Basic Outfits"
@@ -125,6 +110,21 @@ event "Enigma Prime Update"
 		description `A near constant stream of freighters are landing and launching from the hangar of the station, presumably to bring supplies for whatever crazy experiments the corporation is conducting in this secretive station. Much of the station is labeled as "authorized personnel only," leaving you with only the outfitters and shipyards to explore. `
 		description `Part of the hangar wall is a large tinted glass window facing the center of the system. You are able to see the binary stars orbiting each other in close proximity, one pulling gas from the other due to its immense gravity.`
 		spaceport `The spaceport is full of men and women in light blue suits, most of which are busy unloading the freighters that enter the station and carting off the cargo to another section of the station. At the far end of the hangar you can see what appears to be a shipyard of sorts, with workers building or repairing small ships that you have never seen before, likely a new ship that will eventually be released onto the market.`
+		"required reputation" 20
+		bribe 0.1
+	system Enigma
+		fleet "Small Enigma Merchents" 500
+		fleet "Large Enigma Merchants" 1000
+		fleet "Small Enigma Military" 750
+		fleet "Large Enigma Military" 1500
+		fleet "Small Northern Merchants" 1500
+		fleet "Large Northern Merchants" 3000
+		fleet "Small Northern Pirates" 2000
+		fleet "Large Northern Pirates" 3000
+		fleet "Small Deep" 3000
+		fleet "Large Deep" 5000
+		fleet "Oblivion" 25000
+		fleet "Keeper" 75000
 
 event "EC: New Ship"
 
