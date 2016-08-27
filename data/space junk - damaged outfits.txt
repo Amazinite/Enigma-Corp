@@ -11,7 +11,7 @@
 outfit "Scrap Metal"
 	category "Special"
 	cost 4000
-	thumbnail "outfit/interference plating"
+	thumbnail "outfit/scrap metal"
 	"flotsam sprite" "effect/box"
 	"mass" 1
 	"installable" -1
