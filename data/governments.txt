@@ -19,7 +19,6 @@ government "Enigma Corp"
 		"Hai" -.1
 		"Hai (Unfettered)" .1
 		"Wanderer" -.1
-		"Pirate" -.1
 		"Independant" .1
 		"Syndicate" .1
 		"Deep Sky" .1
