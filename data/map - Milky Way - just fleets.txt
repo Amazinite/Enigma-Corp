@@ -8,21 +8,51 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-#Syndicate Space
+system Acamar
+	fleet "Large Core Merchants" 3000
+	fleet "Small Core Merchants" 2000
+	fleet "Small Republic" 3600
+	fleet "Small Syndicate" 3200
+	fleet "Small Enigma Merchants" 4000
+	fleet "Large Enigma Merchants" 6000
+	fleet "Small Enigma Military" 12000
+	fleet "Large Enigma Military" 24000
+
+# Station
 system Achernar
 	fleet "Large Core Merchants" 400
 	fleet "Large Syndicate" 600
 	fleet "Small Syndicate" 500
 	fleet "Small Core Merchants" 300
-	fleet "Small Enigma Merchants" 300
-	fleet "Large Enigma Merchants" 400
-system Alderamin
-	fleet "Large Core Merchants" 400
-	fleet "Large Syndicate" 600
-	fleet "Small Syndicate" 500
-	fleet "Small Core Merchants" 300
+	fleet "Small Enigma Merchants" 600
+	fleet "Large Enigma Merchants" 900
+	fleet "Small Enigma Military" 1200
+	fleet "Large Enigma Military" 1800
+
+system Acrux
+	fleet "Small Southern Merchants" 600
+	fleet "Large Southern Merchants" 1000
+	fleet "Small Militia" 800
+	fleet "Large Militia" 1200
+	fleet "Small Southern Pirates" 1000
+	fleet "Large Southern Pirates" 2400
+	fleet "Small Enigma Merchants" 1200
+	fleet "Large Enigma Merchants" 2000
+	fleet "Small Enigma Military" 4000
+	fleet "Large Enigma Military" 8000
+
+# Station
+system Adhara
+	fleet "Small Northern Merchants" 300
+	fleet "Large Northern Merchants" 400
+	fleet "Small Deep" 500
+	fleet "Large Deep" 1000
+	fleet "Small Northern Pirates" 2000
 	fleet "Small Enigma Merchants" 600
 	fleet "Large Enigma Merchants" 800
+	fleet "Small Enigma Military" 1200
+	fleet "Large Enigma Military" 1800
+
 system "Al Dhanab"
 	fleet "Small Core Merchants" 400
 	fleet "Large Core Merchants" 400
@@ -32,22 +62,256 @@ system "Al Dhanab"
 	fleet "Large Core Pirates" 3000
 	fleet "Small Enigma Merchants" 800
 	fleet "Large Enigma Merchants" 800
+	fleet "Small Enigma Military" 1600
+	fleet "Large Enigma Military" 3200
+
+system Albaldah
+	fleet "Small Southern Merchants" 600
+	fleet "Large Southern Merchants" 1000
+	fleet "Small Southern Pirates" 800
+	fleet "Large Southern Pirates" 1200
+	fleet "Small Militia" 1400
+	fleet "Large Militia" 2400
+	fleet Quarg 3000
+	fleet "Small Enigma Military" 4000
+	fleet "Large Enigma Military" 8000
+
+system Albireo
+	fleet "Small Southern Merchants" 800
+	fleet "Large Southern Merchants" 1200
+	fleet "Small Southern Pirates" 1000
+	fleet "Large Southern Pirates" 1400
+	fleet "Small Militia" 1800
+	fleet "Large Militia" 3000
+	fleet Quarg 2000
+	fleet "Small Enigma Military" 4800
+	fleet "Large Enigma Military" 9600
+
+system Alcyone
+	fleet "Small Core Pirates" 400
+	fleet "Large Core Pirates" 600
+	fleet "Large Syndicate" 1200
+	fleet "Small Enigma Merchants" 800
+	fleet "Large Enigma Merchants" 1200
+	fleet "Small Enigma Military" 2400
+	fleet "Large Enigma Military" 4800
+
+system Aldebaran
+	fleet "Small Northern Merchants" 600
+	fleet "Large Northern Merchants" 600
+	fleet "Small Republic" 800
+	fleet "Large Republic" 400
+	fleet "Small Enigma Merchants" 1200
+	fleet "Large Enigma Merchants" 1200
+	fleet "Small Enigma Military" 2400
+	fleet "Large Enigma Military" 4800
+
+system Alderamin
+	fleet "Small Core Merchants" 2000
+	fleet "Large Core Merchants" 3200
+	fleet "Small Syndicate" 800
+	fleet "Large Syndicate" 800
+	fleet "Small Core Pirates" 1000
+	fleet "Large Core Pirates" 1200
+	fleet "Small Enigma Merchants" 4000
+	fleet "Large Enigma Merchants" 6400
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 16000
+
+system Aldhibain
+	fleet "Small Southern Merchants" 400
+	fleet "Large Southern Merchants" 600
+	fleet "Small Militia" 600
+	fleet "Large Militia" 1000
+	fleet "Small Southern Pirates" 800
+	fleet "Large Southern Pirates" 2000
+	fleet "Small Enigma Merchants" 800
+	fleet "Large Enigma Merchants" 1600
+	fleet "Small Enigma Military" 3200
+	fleet "Large Enigma Military" 6400
+
+system Algenib
+	fleet "Small Core Pirates" 300
+	fleet "Large Core Pirates" 500
+	fleet "Large Syndicate" 800
+	fleet "Small Core Merchants" 600
+	fleet "Small Enigma Merchants" 1200
+	fleet "Large Enigma Merchants" 2400
+	fleet "Small Enigma Military" 3200
+	fleet "Large Enigma Military" 4800
+
+system Algieba
+	fleet "Small Republic" 1400
+	fleet "Large Republic" 5000
+	fleet "Small Southern Merchants" 400
+	fleet "Small Northern Merchants" 800
+	fleet "Large Southern Merchants" 600
+	fleet "Large Northern Merchants" 1000
+	fleet "Small Enigma Merchants" 800
+	fleet "Large Enigma Merchants" 1600
+	fleet "Small Enigma Military" 3200
+	fleet "Large Enigma Military" 6400
+
 system Algol
 	fleet "Small Core Merchants" 1600
 	fleet "Large Core Merchants" 4000
 	fleet "Small Core Pirates" 1800
 	fleet "Large Core Pirates" 5000
 	fleet "Small Syndicate" 2400
+	fleet "Small Enigma Merchants" 2400
+	fleet "Large Enigma Merchants" 4800
+	fleet "Small Enigma Military" 4800
+
+system Algorel
+	fleet "Small Southern Merchants" 600
+	fleet "Large Southern Merchants" 900
+	fleet "Small Militia" 2000
+	fleet "Small Republic" 3000
+	fleet "Small Southern Pirates" 1600
+	fleet "Large Southern Pirates" 5000
+	fleet "Small Enigma Merchants" 1200
+	fleet "Large Enigma Merchants" 1800
+	fleet "Small Enigma Military" 3200
+	fleet "Large Enigma Military" 6400
+
+system Alheka
+	fleet "Small Northern Merchants" 1000
+	fleet "Large Northern Merchants" 3000
+	fleet "Small Republic" 1200
+	fleet "Large Republic" 4000
+	fleet "Small Northern Pirates" 2000
+	fleet "Large Northern Pirates" 2000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system Alhena
+	fleet "Small Northern Merchants" 500
+	fleet "Large Northern Merchants" 700
+	fleet "Small Republic" 900
+	fleet "Large Republic" 1400
+	fleet "Small Enigma Merchants" 1000
+	fleet "Large Enigma Merchants" 1400
+	fleet "Small Enigma Military" 2800
+	fleet "Large Enigma Military" 5600
+
+system Alioth
+	fleet "Small Southern Merchants" 400
+	fleet "Large Northern Merchants" 600
+	fleet "Small Militia" 900
+	fleet "Small Southern Pirates" 1200
+	fleet "Large Southern Pirates" 2400
+	fleet "Small Enigma Merchants" 800
+	fleet "Large Enigma Merchants" 1600
+	fleet "Small Enigma Military" 3200
+	fleet "Large Enigma Military" 6400
+
+system Alkaid
+	fleet "Small Southern Merchants" 1600
+	fleet "Large Southern Merchants" 5000
+	fleet "Small Southern Pirates" 2400
+	fleet "Large Southern Pirates" 5000
 	fleet "Small Enigma Merchants" 3200
-	fleet "Large Enigma Merchants" 8000
+	fleet "Large Enigma Merchants" 6400
+	fleet "Small Enigma Military" 5000
+	fleet "Large Enigma Military" 10000
+
+system Almaaz
+	fleet "Small Northern Pirates" 500
+	fleet "Large Northern Pirates" 600
+	fleet "Large Republic" 4000
+	fleet "Small Enigma Merchants" 1000
+	fleet "Large Enigma Merchants" 2000
+	fleet "Small Enigma Military" 4000
+	fleet "Large Enigma Military" 8000
+
+system Almach
+	fleet "Small Core Pirates" 500
+	fleet "Large Core Pirates" 1400
+	fleet "Large Syndicate" 6000
+	fleet "Korath Raid" 20000
+	fleet "Small Enigma Merchants" 1000
+	fleet "Large Enigma Merchants" 2000
+	fleet "Small Enigma Military" 2000
+	fleet "Large Enigma Military" 3000
+
 system Alnair
 	fleet "Small Core Merchants" 2000
 	fleet "Small Core Pirates" 3000
 	fleet "Large Core Pirates" 4000
 	fleet "Small Syndicate" 4000
 	fleet "Large Syndicate" 6000
-	fleet "Small Enigma Merchants" 4000
-	fleet "Large Enigma Merchants" 8000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 3000
+	fleet "Small Enigma Military" 4000
+	fleet "Large Enigma Military" 6000
+
+system Alnasl
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 2000
+	fleet "Small Militia" 3000
+	fleet "Large Militia" 6000
+	fleet "Small Southern Pirates" 4000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 3000
+	fleet "Small Enigma Military" 4000
+	fleet "Large Enigma Military" 8000
+
+system Alnilam
+	fleet "Small Northern Pirates" 500
+	fleet "Large Northern Pirates" 700
+	fleet "Large Republic" 10000
+	fleet "Small Enigma Merchants" 1000
+	fleet "Large Enigma Merchants" 2000
+	fleet "Small Enigma Military" 4000
+	fleet "Large Enigma Military" 8000
+
+system Alnitak
+	fleet "Small Northern Pirates" 3000
+	fleet "Large Northern Pirates" 5000
+	fleet "Small Republic" 2000
+	fleet "Large Republic" 4000
+	fleet "Small Enigma Merchants" 3000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 12000
+
+system Alniyat
+	fleet "Small Southern Merchants" 500
+	fleet "Large Southern Merchants" 700
+	fleet "Small Southern Pirates" 2000
+	fleet "Large Southern Pirates" 4000
+	fleet "Small Militia" 800
+	fleet "Large Militia" 3000
+	fleet "Small Enigma Merchants" 1000
+	fleet "Large Enigma Merchants" 2000
+	fleet "Small Enigma Military" 4000
+	fleet "Large Enigma Military" 8000
+
+system "Alpha Arae"
+	fleet "Small Southern Merchants" 1800
+	fleet "Large Southern Merchants" 6000
+	fleet "Small Militia" 4000
+	fleet "Large Militia" 9000
+	fleet "Small Southern Pirates" 4000
+	fleet "Large Southern Pirates" 9000
+	fleet "Small Enigma Merchants" 3200
+	fleet "Large Enigma Merchants" 6400
+	fleet "Small Enigma Military" 6400
+	fleet "Large Enigma Military" 9600
+
+# Station
+system "Alpha Centauri"
+	fleet "Small Northern Merchants" 800
+	fleet "Large Northern Merchants" 1000
+	fleet "Small Republic" 2000
+	fleet "Large Republic" 6000
+	fleet "Small Enigma Merchants" 1200
+	fleet "Large Enigma Merchants" 1800
+	fleet "Small Enigma Military" 1800
+	fleet "Large Enigma Military" 2400
+
 system "Alpha Hydri"
 	fleet "Small Core Merchants" 900
 	fleet "Large Core Merchants" 3000
@@ -56,8 +320,32 @@ system "Alpha Hydri"
 	fleet "Small Syndicate" 4000
 	fleet "Large Syndicate" 9000
 	fleet "Korath Raid" 40000
-	fleet "Small Enigma Merchants" 600
-	fleet "Large Enigma Merchants" 800
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 4000
+	fleet "Large Enigma Military" 8000
+
+system Alphard
+	fleet "Small Northern Merchants" 400
+	fleet "Large Northern Merchants" 700
+	fleet "Small Deep" 3000
+	fleet "Small Republic" 2400
+	fleet "Large Republic" 6000
+	fleet "Small Enigma Merchants" 800
+	fleet "Large Enigma Merchants" 1600
+	fleet "Small Enigma Military" 3200
+	fleet "Large Enigma Military" 6400
+
+system Alphecca
+	fleet "Small Southern Merchants" 2000
+	fleet "Large Northern Merchants" 3500
+	fleet "Small Southern Pirates" 3000
+	fleet "Small Militia" 5000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
 system Alpheratz
 	fleet "Small Core Merchants" 600
 	fleet "Large Core Merchants" 600
@@ -66,237 +354,10 @@ system Alpheratz
 	fleet "Small Core Pirates" 1200
 	fleet "Large Core Pirates" 3000
 	fleet "Small Enigma Merchants" 1200
-	fleet "Large Enigma Merchants" 1200
-system Bellatrix
-	fleet "Small Core Merchants" 800
-	fleet "Large Core Merchants" 1500
-	fleet "Small Syndicate" 1000
-	fleet "Large Syndicate" 2000
-	fleet "Small Core Pirates" 3000
-	fleet "Small Enigma Merchants" 1600
-	fleet "Large Enigma Merchants" 3000
-system Caph
-	fleet "Small Core Merchants" 500
-	fleet "Large Core Merchants" 600
-	fleet "Small Syndicate" 1600
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 1600
-system "Delta Capricorni"
-	fleet "Small Core Merchants" 700
-	fleet "Large Core Merchants" 800
-	fleet "Small Syndicate" 2000
-	fleet "Small Core Pirates" 4000
-	fleet "Small Enigma Merchants" 1400
-	fleet "Large Enigma Merchants" 1600
-system Diphda
-	fleet "Small Core Merchants" 2000
-	fleet "Large Core Merchants" 600
-	fleet "Small Syndicate" 3000
-	fleet "Small Enigma Merchants" 4000
-	fleet "Large Enigma Merchants" 1200
-system Fomalhaut
-	fleet "Small Core Merchants" 1000
-	fleet "Large Core Merchants" 1200
-	fleet "Small Syndicate" 5000
-	fleet "Large Syndicate" 10000
-	fleet "Small Enigma Merchants" 2000
 	fleet "Large Enigma Merchants" 2400
-system Hamal
-	fleet "Small Core Merchants" 1000
-	fleet "Large Core Merchants" 1000
-	fleet "Small Core Pirates" 3000
-	fleet "Large Core Pirates" 8000
-	fleet "Small Syndicate" 4000
-	fleet "Small Enigma Merchants" 2000
-	fleet "Large Enigma Merchants" 2000
-system Markab
-	fleet "Small Core Merchants" 500
-	fleet "Large Core Merchants" 600
-	fleet "Small Syndicate" 600
-	fleet "Large Syndicate" 800
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 1200
-system Matar
-	fleet "Small Core Merchants" 2000
-	fleet "Large Core Merchants" 2500
-	fleet "Small Core Pirates" 2000
-	fleet "Large Core Pirates" 4000
-	fleet "Small Syndicate" 3000
-	fleet "Large Syndicate" 6000
-	fleet "Small Enigma Merchants" 4000
-	fleet "Large Enigma Merchants" 5000
-system Menkar
-	fleet "Small Core Merchants" 800
-	fleet "Large Core Merchants" 1000
-	fleet "Small Syndicate" 1500
-	fleet "Large Syndicate" 2000
-	fleet "Large Core Pirates" 4000
-	fleet "Small Enigma Merchants" 1600
-	fleet "Large Enigma Merchants" 2000
-system Mirach
-	fleet "Small Core Merchants" 1000
-	fleet "Large Core Merchants" 1200
-	fleet "Small Core Pirates" 4000
-	fleet "Small Syndicate" 3000
-	fleet "Large Syndicate" 5000
-	fleet "Small Enigma Merchants" 2000
-	fleet "Large Enigma Merchants" 2400
-system Mirfak
-	fleet "Small Core Merchants" 500
-	fleet "Large Core Merchants" 700
-	fleet "Small Syndicate" 1000
-	fleet "Large Syndicate" 1800
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 1400
-system Polaris
-	fleet "Small Core Merchants" 600
-	fleet "Large Core Merchants" 700
-	fleet "Small Syndicate" 1000
-	fleet "Large Syndicate" 2000
-	fleet "Small Core Pirates" 1500
-	fleet "Korath Raid" 50000
-	fleet "Small Enigma Merchants" 1200
-	fleet "Large Enigma Merchants" 1400
-system Ruchbah
-	fleet "Small Core Merchants" 500
-	fleet "Large Core Merchants" 600
-	fleet "Small Syndicate" 1000
-	fleet "Large Syndicate" 2000
-	fleet "Small Core Pirates" 2000
-	fleet "Large Core Pirates" 3000
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 1200
-system Scheat
-	fleet "Small Core Merchants" 500
-	fleet "Large Core Merchants" 600
-	fleet "Small Syndicate" 1000
-	fleet "Large Syndicate" 2000
-	fleet "Small Core Pirates" 3000
-	fleet "Large Core Pirates" 5000
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 1200
-system Schedar
-	fleet "Small Core Merchants" 900
-	fleet "Large Core Merchants" 1000
-	fleet "Small Syndicate" 3000
-	fleet "Large Syndicate" 4000
-	fleet "Small Core Pirates" 2000
-	fleet "Large Core Pirates" 3000
-	fleet "Small Enigma Merchants" 1800
-	fleet "Large Enigma Merchants" 2000
-system Sheratan
-	fleet "Small Core Merchants" 1500
-	fleet "Large Core Merchants" 1800
-	fleet "Small Core Pirates" 3000
-	fleet "Large Core Pirates" 5000
-	fleet "Korath Raid" 30000
-	fleet "Small Enigma Merchants" 3000
-	fleet "Large Enigma Merchants" 3600
-system Zaurak
-	fleet "Small Core Merchants" 800
-	fleet "Large Core Merchants" 1000
-	fleet "Small Syndicate" 1600
-	fleet "Large Syndicate" 2500
-	fleet "Small Core Pirates" 2000
-	fleet "Large Core Pirates" 4000
-	fleet "Small Enigma Merchants" 1600
-	fleet "Large Enigma Merchants" 2000
+	fleet "Small Enigma Military" 4800
+	fleet "Large Enigma Military" 9600
 
-#Deep Space
-system Adhara
-	fleet "Small Northern Merchants" 300
-	fleet "Large Northern Merchants" 400
-	fleet "Small Deep" 500
-	fleet "Large Deep" 1000
-	fleet "Small Northern Pirates" 2000
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 2000
-system Aspidiske
-	fleet "Small Northern Merchants" 500
-	fleet "Large Northern Merchants" 1500
-	fleet "Small Deep" 1000
-	fleet "Large Deep" 4000
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 2000
-system Avior
-	fleet "Small Northern Merchants" 600
-	fleet "Large Northern Merchants" 1800
-	fleet "Small Deep" 1200
-	fleet "Large Deep" 4000
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 2000
-system Dubhe
-	fleet "Small Northern Merchants" 1000
-	fleet "Large Northern Merchants" 2500
-	fleet "Small Deep" 4000
-	fleet "Large Deep" 9000
-	fleet "Small Northern Pirates" 12000
-	fleet "Large Northern Pirates" 8000
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 2000
-system "Epsilon Leonis"
-	fleet "Small Northern Merchants" 400
-	fleet "Large Northern Merchants" 1000
-	fleet "Small Deep" 1000
-	fleet "Large Deep" 3000
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 2000
-system Gomeisa
-	fleet "Small Northern Merchants" 400
-	fleet "Large Northern Merchants" 1000
-	fleet "Small Deep" 1200
-	fleet "Large Deep" 2400
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 2000
-system Markeb
-	fleet "Small Northern Merchants" 800
-	fleet "Large Northern Merchants" 2000
-	fleet "Small Deep" 1500
-	fleet "Large Deep" 3000
-	fleet "Large Northern Pirates" 5000
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 2000
-system Naos
-	fleet "Small Northern Merchants" 400
-	fleet "Large Northern Merchants" 1000
-	fleet "Small Deep" 1000
-	fleet "Large Deep" 2000
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 2000
-system Regor
-	fleet "Small Northern Merchants" 1000
-	fleet "Large Northern Merchants" 3000
-	fleet "Small Deep" 2000
-	fleet "Large Deep" 5000
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 2000
-system Wezen
-	fleet "Small Northern Merchants" 1000
-	fleet "Large Northern Merchants" 2000
-	fleet "Small Deep" 1500
-	fleet "Large Deep" 4000
-	fleet "Small Northern Pirates" 8000
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 2000
-system Zosma
-	fleet "Small Northern Merchants" 600
-	fleet "Large Northern Merchants" 1000
-	fleet "Small Deep" 2000
-	fleet "Large Deep" 4000
-	fleet "Small Republic" 4000
-	fleet "Small Northern Pirates" 5000
-	fleet "Large Northern Pirates" 9000
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 2000
-
-#Republic Space
-system "Alpha Centauri"
-	fleet "Small Northern Merchants" 800
-	fleet "Large Northern Merchants" 1000
-	fleet "Small Republic" 2000
-	fleet "Large Republic" 6000
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 2000
 system Altair
 	fleet "Small Core Merchants" 400
 	fleet "Large Core Merchants" 600
@@ -305,22 +366,1314 @@ system Altair
 	fleet "Small Republic" 2000
 	fleet "Large Republic" 6000
 	fleet "Small Syndicate" 9000
+	fleet "Small Enigma Merchants" 800
+	fleet "Large Enigma Merchants" 1600
+	fleet "Small Enigma Military" 3200
+	fleet "Large Enigma Military" 6400
+
+system Aludra
+	fleet "Small Deep" 600
+	fleet "Large Deep" 1000
+	fleet "Small Northern Merchants" 300
+	fleet "Large Northern Merchants" 900
+	fleet "Small Enigma Merchants" 600
+	fleet "Large Enigma Merchants" 1800
+	fleet "Small Enigma Military" 3600
+	fleet "Large Enigma Military" 7200
+
+system Ankaa
+	fleet "Small Core Merchants" 600
+	fleet "Large Core Merchants" 700
+	fleet "Small Syndicate" 900
+	fleet "Large Core Pirates" 4000
+	fleet "Small Enigma Merchants" 1200
+	fleet "Large Enigma Merchants" 2400
+	fleet "Small Enigma Military" 4800
+	fleet "Large Enigma Military" 9600
+
+system Antares
+	fleet "Small Southern Pirates" 1000
+	fleet "Large Southern Pirates" 2000
+	fleet "Large Militia" 5000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 10000
+
+system Arcturus
+	fleet "Small Southern Merchants" 700
+	fleet "Large Southern Merchants" 3000
+	fleet "Small Militia" 10000
+	fleet "Small Enigma Merchants" 1400
+	fleet "Large Enigma Merchants" 2800
+	fleet "Small Enigma Military" 4600
+	fleet "Large Enigma Military" 9200
+
+system Arneb
+	fleet "Small Northern Pirates" 400
+	fleet "Large Northern Pirates" 500
+	fleet "Large Republic" 15000
+	fleet "Small Enigma Merchants" 800
+	fleet "Large Enigma Merchants" 1600
+	fleet "Small Enigma Military" 3200
+	fleet "Large Enigma Military" 6400
+
+system Ascella
+	fleet "Small Southern Merchants" 600
+	fleet "Large Southern Merchants" 1000
+	fleet "Small Militia" 4000
+	fleet "Small Southern Pirates" 3000
+	fleet "Small Enigma Merchants" 1200
+	fleet "Large Enigma Merchants" 2400
+	fleet "Small Enigma Military" 4800
+	fleet "Large Enigma Military" 9600
+
+system Aspidiske
+	fleet "Small Northern Merchants" 500
+	fleet "Large Northern Merchants" 1500
+	fleet "Small Deep" 1000
+	fleet "Large Deep" 4000
+	fleet "Small Enigma Merchants" 1000
+	fleet "Large Enigma Merchants" 3000
+	fleet "Small Enigma Military" 5000
+	fleet "Large Enigma Military" 9000
+
+system Atria
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 3000
+	fleet "Small Southern Pirates" 3000
+	fleet "Large Southern Pirates" 5000
+	fleet "Small Militia" 8000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 7500
+	fleet "Large Enigma Military" 10000
+
+system Avior
+	fleet "Small Northern Merchants" 600
+	fleet "Large Northern Merchants" 1800
+	fleet "Small Deep" 1200
+	fleet "Large Deep" 4000
+	fleet "Small Enigma Merchants" 1200
+	fleet "Large Enigma Merchants" 3200
+	fleet "Small Enigma Military" 6400
+	fleet "Large Enigma Military" 10000
+
+system Bellatrix
+	fleet "Small Core Merchants" 800
+	fleet "Large Core Merchants" 1500
+	fleet "Small Syndicate" 1000
+	fleet "Large Syndicate" 2000
+	fleet "Small Core Pirates" 3000
+	fleet "Small Enigma Merchants" 1600
+	fleet "Large Enigma Merchants" 3000
+	fleet "Small Enigma Military" 4000
+	fleet "Large Enigma Military" 8000
+
+ystem "Beta Lupi"
+	fleet "Small Southern Merchants" 1000
+	fleet "Small Southern Pirates" 1500
+	fleet "Large Southern Pirates" 2500
+	fleet "Small Militia" 2000
+	fleet "Large Militia" 5000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 3000
+	fleet "Small Enigma Military" 4000
+	fleet "Large Enigma Military" 10000
+
+# Station
+system Betelgeuse
+	fleet "Small Northern Merchants" 2000
+	fleet "Large Northern Merchants" 800
+	fleet "Small Republic" 2000
+	fleet "Large Republic" 3000
+	fleet "Large Northern Pirates" 4000
+	fleet "Small Enigma Merchants" 600
+	fleet "Large Enigma Merchants" 1000
+	fleet "Small Enigma Military" 1000
+	fleet "Large Enigma Military" 2000
+
+system Boral
+	fleet "Small Southern Merchants" 3000
+	fleet "Large Northern Merchants" 8000
+	fleet "Small Southern Pirates" 1500
+	fleet "Small Militia" 10000
+	fleet "Small Enigma Merchants" 3000
+	fleet "Large Enigma Merchants" 6000
+	fleet "Small Enigma Military" 5000
+	fleet "Large Enigma Military" 10000
+
+system Canopus
+	fleet "Small Northern Merchants" 900
+	fleet "Large Northern Merchants" 700
+	fleet "Small Republic" 1000
+	fleet "Large Republic" 2000
+	fleet "Small Enigma Merchants" 1800
+	fleet "Large Enigma Merchants" 3200
+	fleet "Small Enigma Military" 6400
+	fleet "Large Enigma Military" 9600
+
+system Capella
+	fleet "Small Northern Merchants" 500
+	fleet "Large Northern Merchants" 800
+	fleet "Small Republic" 800
+	fleet "Large Republic" 1400
 	fleet "Small Enigma Merchants" 1000
 	fleet "Large Enigma Merchants" 2000
+	fleet "Small Enigma Military" 3000
+	fleet "Large Enigma Military" 5000
+
+system Caph
+	fleet "Small Core Merchants" 500
+	fleet "Large Core Merchants" 600
+	fleet "Small Syndicate" 1600
+	fleet "Small Enigma Merchants" 1000
+	fleet "Large Enigma Merchants" 1200
+	fleet "Small Enigma Military" 2400
+	fleet "Large Enigma Military" 4800
+
+system Cardax
+	fleet "Small Northern Merchants" 1200
+	fleet "Large Northern Merchants" 3000
+	fleet "Small Northern Pirates" 1000
+	fleet "Large Northern Pirates" 3000
+	fleet "Small Core Pirates" 3000
+	fleet "Small Republic" 2000
+	fleet "Large Republic" 5000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system Castor
+	fleet "Small Northern Merchants" 600
+	fleet "Large Northern Merchants" 800
+	fleet "Small Republic" 1000
+	fleet "Large Republic" 500
+	fleet "Small Enigma Merchants" 1200
+	fleet "Large Enigma Merchants" 1600
+	fleet "Small Enigma Military" 3200
+	fleet "Large Enigma Military" 6400
+
+system Cebalrai
+	fleet "Small Southern Merchants" 600
+	fleet "Large Southern Merchants" 2000
+	fleet "Small Militia" 4000
+	fleet "Small Southern Pirates" 4000
+	fleet "Small Enigma Merchants" 1200
+	fleet "Large Enigma Merchants" 2400
+	fleet "Small Enigma Military" 4800
+	fleet "Large Enigma Military" 9600
+
+system "Cor Caroli"
+	fleet "Small Southern Merchants" 700
+	fleet "Large Southern Merchants" 1300
+	fleet "Small Southern Pirates" 2000
+	fleet "Small Republic" 10000
+	fleet "Small Militia" 7000
+	fleet "Small Enigma Merchants" 1400
+	fleet "Large Enigma Merchants" 2600
+	fleet "Small Enigma Military" 4200
+	fleet "Large Enigma Military" 8400
+
+system Dabih
+	fleet "Small Southern Merchants" 500
+	fleet "Large Southern Merchants" 800
+	fleet Quarg 4000
+	fleet "Small Militia" 6000
+	fleet "Large Southern Pirates" 10000
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 12000
+
+system Danoa
+	fleet "Small Northern Merchants" 15000
+	fleet "Small Northern Pirates" 5000
+	fleet "Large Northern Pirates" 16000
+	fleet "Large Republic" 30000
+	fleet "Small Enigma Merchants" 5000
+	fleet "Small Enigma Military" 10000
+
+system "Delta Capricorni"
+	fleet "Small Core Merchants" 700
+	fleet "Large Core Merchants" 800
+	fleet "Small Syndicate" 2000
+	fleet "Small Core Pirates" 4000
+	fleet "Small Enigma Merchants"
+	fleet "Large Enigma Merchants"
+	fleet "Small Enigma Military"
+	fleet "Large Enigma Military"
+
+system "Delta Sagittarii"
+	fleet "Small Southern Merchants" 900
+	fleet "Large Southern Merchants" 3000
+	fleet "Small Southern Pirates" 3000
+	fleet "Small Militia" 7000
+	fleet "Small Enigma Merchants"
+	fleet "Large Enigma Merchants"
+	fleet "Small Enigma Military"
+	fleet "Large Enigma Military"
+
+system "Delta Velorum"
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 3000
+	fleet "Small Southern Pirates" 2000
+	fleet "Large Southern Pirates" 5000
+	fleet "Small Republic" 12000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 16000
+
 system Denebola
 	fleet "Small Northern Merchants" 800
 	fleet "Large Northern Merchants" 2000
 	fleet "Small Republic" 1000
 	fleet "Large Republic" 2000
+	fleet "Small Enigma Merchants" 1600
+	fleet "Large Enigma Merchants" 3200
+	fleet "Small Enigma Military" 6400
+	fleet "Large Enigma Military" 9600
+
+system Diphda
+	fleet "Small Core Merchants" 2000
+	fleet "Large Core Merchants" 600
+	fleet "Small Syndicate" 3000
 	fleet "Small Enigma Merchants" 1000
 	fleet "Large Enigma Merchants" 2000
+	fleet "Small Enigma Military" 4000
+	fleet "Large Enigma Military" 8000
+
+system Dschubba
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 3000
+	fleet "Small Southern Pirates" 2000
+	fleet "Large Southern Pirates" 4000
+	fleet "Small Militia" 3000
+	fleet "Large Militia" 5000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system Dubhe
+	fleet "Small Northern Merchants" 1000
+	fleet "Large Northern Merchants" 2500
+	fleet "Small Deep" 4000
+	fleet "Large Deep" 9000
+	fleet "Small Northern Pirates" 12000
+	fleet "Large Northern Pirates" 8000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 5000
+	fleet "Small Enigma Military" 7500
+	fleet "Large Enigma Military" 10000
+
+system Durax
+	fleet "Small Core Pirates" 600
+	fleet "Large Core Pirates" 900
+	fleet "Large Syndicate" 2500
+	fleet "Korath Raid" 5000
+	fleet "Small Enigma Merchants" 1200
+	fleet "Large Enigma Merchants" 1800
+	fleet "Small Enigma Military" 2400
+	fleet "Large Enigma Military" 3600
+
+system Eber
+	fleet "Small Southern Merchants" 1600
+	fleet "Large Southern Merchants" 2500
+	fleet "Small Militia" 4000
+	fleet "Large Militia" 5000
+	fleet "Small Southern Pirates" 2000
+	fleet "Small Enigma Merchants" 3200
+	fleet "Large Enigma Merchants" 4800
+	fleet "Small Enigma Military" 6400
+	fleet "Large Enigma Military" 9600
+
+system Elnath
+	fleet "Small Northern Merchants" 4000
+	fleet "Large Northern Merchants" 9000
+	fleet "Small Republic" 7000
+	fleet "Large Republic" 20000
+	fleet "Small Northern Pirates" 5000
+	fleet "Large Northern Pirates" 18000
+	fleet "Small Enigma Merchants" 4000
+	fleet "Large Enigma Merchants" 8000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 10000
+
+system Eltanin
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 3000
+	fleet "Small Southern Pirates" 4000
+	fleet Quarg 10000
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 12000
+
+system Enif
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 4000
+	fleet Quarg 600
+	fleet "Small Enigma Military" 3000
+	fleet "Large Enigma Military" 9000
+
+system "Epsilon Leonis"
+	fleet "Small Northern Merchants" 400
+	fleet "Large Northern Merchants" 1000
+	fleet "Small Deep" 1000
+	fleet "Large Deep" 3000
+	fleet "Small Enigma Merchants" 800
+	fleet "Large Enigma Merchants" 2000
+	fleet "Small Enigma Military" 1600
+	fleet "Large Enigma Military" 4000
+
+system Eteron
+	fleet "Small Northern Merchants" 1000
+	fleet "Large Northern Merchants" 1500
+	fleet "Small Republic" 2000
+	fleet "Large Republic" 400
+	fleet "Small Northern Pirates" 1000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 3000
+	fleet "Small Enigma Military" 4000
+	fleet "Large Enigma Military" 6000
+
+system Fala
+	fleet "Small Northern Merchants" 1600
+	fleet "Large Northern Merchants" 3000
+	fleet "Small Republic" 4000
+	fleet "Small Northern Pirates" 2000
+	fleet "Large Northern Pirates" 4000
+	fleet "Small Enigma Merchants" 3200
+	fleet "Large Enigma Merchants" 6000
+	fleet "Small Enigma Military" 6400
+	fleet "Large Enigma Military" 10000
+
+system Fingol
+	fleet "Small Northern Merchants" 1200
+	fleet "Large Northern Merchants" 3000
+	fleet "Small Republic" 2000
+	fleet "Large Republic" 3000
+	fleet "Small Northern Pirates" 2000
+	fleet "Small Enigma Merchants" 2400
+	fleet "Large Enigma Merchants" 6000
+	fleet "Small Enigma Military" 4800
+	fleet "Large Enigma Military" 9600
+
+system Fomalhaut
+	fleet "Small Core Merchants" 1000
+	fleet "Large Core Merchants" 1200
+	fleet "Small Syndicate" 5000
+	fleet "Large Syndicate" 10000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 2400
+	fleet "Small Enigma Military" 4000
+	fleet "Large Enigma Military" 8000
+
+system Gacrux
+	fleet "Small Southern Merchants" 2000
+	fleet "Large Southern Merchants" 5000
+	fleet "Small Southern Pirates" 1000
+	fleet "Large Southern Pirates" 3000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system "Gamma Cassiopeiae"
+	fleet "Small Core Pirates" 1000
+	fleet "Large Core Pirates" 2000
+	fleet "Large Syndicate" 5000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system "Gamma Corvi"
+	fleet "Small Southern Merchants" 800
+	fleet "Large Southern Merchants" 1500
+	fleet "Small Militia" 1000
+	fleet "Large Militia" 2000
+	fleet "Small Southern Pirates" 10000
+	fleet "Small Enigma Merchants" 1600
+	fleet "Large Enigma Merchants" 3000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 9000
+
+system Gienah
+	fleet "Small Core Pirates" 500
+	fleet "Large Core Pirates" 800
+	fleet "Large Syndicate" 5000
+	fleet "Small Enigma Merchants" 1000
+	fleet "Small Enigma Military" 2000
+	fleet "Large Enigma Military" 4000
+
+system Girtab
+	fleet "Small Southern Merchants" 700
+	fleet "Large Southern Merchants" 1700
+	fleet "Small Southern Pirates" 2000
+	fleet "Large Southern Pirates" 3000
+	fleet "Small Enigma Merchants" 1400
+	fleet "Large Enigma Merchants" 3400
+	fleet "Small Enigma Military" 6800
+	fleet "Large Enigma Military" 9600
+
+system Gomeisa
+	fleet "Small Northern Merchants" 400
+	fleet "Large Northern Merchants" 1000
+	fleet "Small Deep" 1200
+	fleet "Large Deep" 2400
+	fleet "Small Enigma Merchants" 800
+	fleet "Large Enigma Merchants" 2000
+	fleet "Small Enigma Military" 3000
+	fleet "Large Enigma Military" 6000
+
+system Gorvi
+	fleet "Small Northern Pirates" 1000
+	fleet "Large Northern Pirates" 1000
+	fleet "Large Republic" 4000
+	fleet "Small Northern Merchants" 8000
+	fleet "Small Enigma Merchants"
+	fleet "Large Enigma Merchants"
+	fleet "Small Enigma Military"
+	fleet "Large Enigma Military"
+
+system Graffias
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 4000
+	fleet "Small Southern Pirates" 5000
+	fleet "Small Enigma Merchants"
+	fleet "Large Enigma Merchants"
+	fleet "Small Enigma Military"
+	fleet "Large Enigma Military"
+
+system Hadar
+	fleet "Small Southern Merchants" 400
+	fleet "Large Southern Merchants" 1000
+	fleet "Small Militia" 800
+	fleet "Large Militia" 1500
+	fleet "Small Southern Pirates" 4000
+	fleet "Large Southern Pirates" 9000
+	fleet "Small Enigma Merchants" 800
+	fleet "Large Enigma Merchants" 2000
+	fleet "Small Enigma Military" 1600
+	fleet "Large Enigma Military" 4000
+
+system Hamal
+	fleet "Small Core Merchants" 1000
+	fleet "Large Core Merchants" 1000
+	fleet "Small Core Pirates" 3000
+	fleet "Large Core Pirates" 8000
+	fleet "Small Syndicate" 4000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 2000
+	fleet "Small Enigma Military" 4000
+	fleet "Large Enigma Military" 6000
+
+system Han
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 5000
+	fleet "Small Southern Pirates" 1000
+	fleet "Large Southern Pirates" 5000
+	fleet "Small Militia" 4000
+	fleet "Large Militia" 10000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system Hassaleh
+	fleet "Small Northern Merchants" 9000
+	fleet "Small Northern Pirates" 6000
+	fleet "Large Northern Pirates" 20000
+	fleet "Large Republic" 20000
+	fleet "Small Enigma Merchants" 6000
+	fleet "Large Enigma Military" 10000
+
+system Hatysa
+	fleet "Small Northern Pirates" 600
+	fleet "Large Northern Pirates" 1000
+	fleet "Large Republic" 15000
+	fleet "Small Enigma Merchants" 1200
+	fleet "Large Enigma Merchants" 2400
+	fleet "Small Enigma Military" 4800
+	fleet "Large Enigma Military" 9600
+
+system Hintar
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 3000
+	fleet "Small Militia" 5000
+	fleet "Small Southern Pirates" 2000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system Holeb
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 3000
+	fleet "Small Southern Pirates" 5000
+	fleet "Small Militia" 5000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system Ildaria
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 2000
+	fleet "Small Militia" 3000
+	fleet "Large Militia" 6000
+	fleet "Small Southern Pirates" 1000
+	fleet "Large Southern Pirates" 2000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system Ipsing
+	fleet "Small Southern Merchants" 2000
+	fleet "Large Southern Merchants" 5000
+	fleet "Small Southern Pirates" 3000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system Izar
+	fleet "Small Southern Merchants" 700
+	fleet "Large Southern Merchants" 1800
+	fleet "Small Militia" 800
+	fleet "Large Militia" 1200
+	fleet "Small Enigma Merchants" 1400
+	fleet "Large Enigma Merchants" 2800
+	fleet "Small Enigma Military" 4600
+	fleet "Large Enigma Military" 9200
+
+system "Kappa Centauri"
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 3000
+	fleet "Small Southern Pirates" 2000
+	fleet "Small Militia" 2000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system "Kaus Australis"
+	fleet "Small Southern Merchants" 2000
+	fleet "Large Southern Merchants" 3000
+	fleet Quarg 10000
+	fleet "Small Southern Pirates" 4000
+	fleet "Large Southern Pirates" 8000
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 12000
+
+system "Kaus Borealis"
+	fleet "Small Southern Merchants" 600
+	fleet "Large Southern Merchants" 3000
+	fleet "Small Militia" 8000
+	fleet "Small Southern Pirates" 5000
+	fleet "Small Enigma Merchants" 1200
+	fleet "Large Enigma Merchants" 2400
+	fleet "Small Enigma Military" 4800
+	fleet "Large Enigma Military" 9600
+
+system Kochab
+	fleet "Small Southern Merchants" 2000
+	fleet "Large Southern Merchants" 6000
+	fleet "Small Southern Pirates" 5000
+	fleet "Small Militia" 6000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system Kornephoros
+	fleet "Small Southern Merchants" 600
+	fleet "Large Southern Merchants" 1200
+	fleet "Small Southern Pirates" 3000
+	fleet "Small Militia" 2000
+	fleet "Large Militia" 4000
+	fleet "Small Enigma Merchants" 1200
+	fleet "Large Enigma Merchants" 2400
+	fleet "Small Enigma Military" 4800
+	fleet "Large Enigma Military" 9600
+
+# Station
+system Kraz
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 2000
+	fleet "Small Militia" 800
+	fleet "Large Militia" 1200
+	fleet "Small Enigma Merchants" 1500
+	fleet "Large Enigma Merchants" 2500
+	fleet "Small Enigma Military" 3000
+	fleet "Large Enigma Military" 4000
+
+system Kugel
+	fleet "Large Core Merchants" 4000
+	fleet "Small Core Merchants" 4000
+	fleet "Small Republic" 6000
+	fleet "Small Syndicate" 80200
+	fleet "Large Core Pirates" 4000
+	fleet "Small Core Pirates" 4000
+	fleet "Small Enigma Merchants" 8000
+	fleet "Large Enigma Merchants" 8000
+	fleet "Small Enigma Military" 10000
+	fleet "Large Enigma Military" 10000
+
+system Kursa
+	fleet "Small Northern Merchants" 2000
+	fleet "Large Northern Merchants" 3000
+	fleet "Small Northern Pirates" 4000
+	fleet "Large Northern Pirates" 8000
+	fleet "Small Republic" 5000
+	fleet "Large Republic" 8000
+	fleet "Small Enigma Merchants" 4000
+	fleet "Large Enigma Merchants" 6000
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 10000
+
+system Lesath
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 2000
+	fleet "Small Southern Pirates" 2000
+	fleet "Large Southern Pirates" 4000
+	fleet "Small Militia" 5000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+system Lolami
+	fleet "Small Northern Merchants" 2000
+	fleet "Large Northern Merchants" 3000
+	fleet "Small Republic" 5000
+	fleet "Small Northern Pirates" 2000
+	fleet "Large Northern Pirates" 4000
+	fleet "Small Enigma Merchants" 4000
+	fleet "Large Enigma Merchants" 6000
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 10000
+
+system Lurata
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 3000
+	fleet Quarg 7000
+	fleet "Small Militia" 9000
+	fleet "Large Southern Pirates" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system Markab
+	fleet "Small Core Merchants" 500
+	fleet "Large Core Merchants" 600
+	fleet "Small Syndicate" 600
+	fleet "Large Syndicate" 800
+	fleet "Small Enigma Merchants" 1000
+	fleet "Large Enigma Merchants" 1200
+	fleet "Small Enigma Military" 2000
+	fleet "Large Enigma Military" 4000
+
+system Markeb
+	fleet "Small Northern Merchants" 800
+	fleet "Large Northern Merchants" 2000
+	fleet "Small Deep" 1500
+	fleet "Large Deep" 3000
+	fleet "Large Northern Pirates" 5000
+	fleet "Small Enigma Merchants" 1600
+	fleet "Large Enigma Merchants" 3200
+	fleet "Small Enigma Military" 6400
+	fleet "Large Enigma Military" 9600
+
+system Matar
+	fleet "Small Core Merchants" 2000
+	fleet "Large Core Merchants" 2500
+	fleet "Small Core Pirates" 2000
+	fleet "Large Core Pirates" 4000
+	fleet "Small Syndicate" 3000
+	fleet "Large Syndicate" 6000
+	fleet "Small Enigma Merchants" 4000
+	fleet "Large Enigma Merchants" 6000
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 10000
+
+system Mebsuta
+	fleet "Small Northern Merchants" 3000
+	fleet "Large Northern Merchants" 5000
+	fleet "Small Northern Pirates" 4000
+	fleet "Large Northern Pirates" 8000
+	fleet "Small Republic" 12000
+	fleet "Small Enigma Merchants" 4000
+	fleet "Large Enigma Merchants" 6000
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 10000
+
+system Men
+	fleet "Small Southern Pirates" 400
+	fleet "Large Southern Pirates" 600
+	fleet "Small Northern Pirates" 2000
+	fleet "Large Northern Pirates" 4000
+	fleet "Small Enigma Merchants" 800
+	fleet "Large Enigma Merchants" 1600
+	fleet "Small Enigma Military" 3200
+	fleet "Large Enigma Military" 6400
+
+system Menkalinan
+	fleet "Small Northern Merchants" 500
+	fleet "Large Northern Merchants" 800
+	fleet "Small Republic" 700
+	fleet "Large Republic" 1500
+	fleet "Small Enigma Merchants" 1000
+	fleet "Large Enigma Merchants" 1200
+	fleet "Small Enigma Military" 2000
+	fleet "Large Enigma Military" 4000
+
+system Menkar
+	fleet "Small Core Merchants" 800
+	fleet "Large Core Merchants" 1000
+	fleet "Small Syndicate" 1500
+	fleet "Large Syndicate" 2000
+	fleet "Large Core Pirates" 4000
+	fleet "Small Enigma Merchants" 1600
+	fleet "Large Enigma Merchants" 3200
+	fleet "Small Enigma Military" 6400
+	fleet "Large Enigma Military" 9600
+
+system Menkent
+	fleet "Small Southern Merchants" 500
+	fleet "Large Southern Merchants" 1500
+	fleet "Small Republic" 3000
+	fleet "Small Enigma Merchants" 1000
+	fleet "Large Enigma Merchants" 1200
+	fleet "Small Enigma Military" 2000
+	fleet "Large Enigma Military" 4000
+
+system Merak
+	fleet "Small Southern Merchants" 600
+	fleet "Small Northern Merchants" 800
+	fleet "Large Southern Merchants" 2000
+	fleet "Large Northern Merchants" 1500
+	fleet "Small Republic" 2000
+	fleet "Large Republic" 4000
+	fleet "Small Enigma Merchants" 1200
+	fleet "Large Enigma Merchants" 1600
+	fleet "Small Enigma Military" 2400
+	fleet "Large Enigma Military" 4800
+
+system Miaplacidus
+	fleet "Small Northern Merchants" 600
+	fleet "Large Northern Merchants" 900
+	fleet "Small Republic" 1500
+	fleet "Large Republic" 3000
+	fleet "Small Enigma Merchants" 1000
+	fleet "Large Enigma Merchants" 1200
+	fleet "Small Enigma Military" 2000
+	fleet "Large Enigma Military" 4000
+
+system Mimosa
+	fleet "Small Southern Merchants" 1600
+	fleet "Large Southern Merchants" 5000
+	fleet "Small Militia" 2500
+	fleet "Large Militia" 6000
+	fleet "Large Southern Pirates" 8000
+	fleet "Small Enigma Merchants" 3200
+	fleet "Large Enigma Merchants" 4800
+	fleet "Small Enigma Military" 6400
+	fleet "Large Enigma Military" 8500
+
+system Minkar
+	fleet "Small Southern Merchants" 900
+	fleet "Large Southern Merchants" 3000
+	fleet "Small Militia" 1500
+	fleet "Large Militia" 2000
+	fleet "Large Southern Pirates" 12000
+	fleet "Small Enigma Merchants" 1800
+	fleet "Large Enigma Merchants" 3600
+	fleet "Small Enigma Military" 5200
+	fleet "Large Enigma Military" 8000
+
+system Mintaka
+	fleet "Small Northern Pirates" 2000
+	fleet "Large Northern Pirates" 2000
+	fleet "Large Republic" 5000
+	fleet "Small Northern Merchants" 4000
+	fleet "Small Enigma Merchants" 4000
+	fleet "Large Enigma Merchants" 6000
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 10000
+
+system Mirach
+	fleet "Small Core Merchants" 1000
+	fleet "Large Core Merchants" 1200
+	fleet "Small Core Pirates" 4000
+	fleet "Small Syndicate" 3000
+	fleet "Large Syndicate" 5000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system Mirfak
+	fleet "Small Core Merchants" 500
+	fleet "Large Core Merchants" 700
+	fleet "Small Syndicate" 1000
+	fleet "Large Syndicate" 1800
+	fleet "Small Enigma Merchants" 1000
+	fleet "Large Enigma Merchants" 1200
+	fleet "Small Enigma Military" 2000
+	fleet "Large Enigma Military" 4000
+
+system Mirzam
+	fleet "Small Northern Merchants" 2000
+	fleet "Large Northern Merchants" 2000
+	fleet "Small Republic" 3000
+	fleet "Large Republic" 4000
+	fleet "Small Northern Pirates" 5000
+	fleet "Large Northern Pirates" 8000
+	fleet "Small Enigma Merchants" 4000
+	fleet "Large Enigma Merchants" 6000
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 10000
+
+system Mizar
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 3500
+	fleet "Small Southern Pirates" 6000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system Moktar
+	fleet "Small Core Merchants" 1000
+	fleet "Large Core Merchants" 2000
+	fleet "Small Syndicate" 3000
+	fleet "Large Syndicate" 4000
+	fleet "Small Core Pirates" 2000
+	fleet "Small Northern Pirates" 3000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system Mora
+	fleet "Large Southern Merchants" 4000
+	fleet "Small Southern Pirates" 2000
+	fleet "Large Southern Pirates" 3000
+	fleet "Small Republic" 20000
+	fleet "Small Enigma Merchants" 6000
+	fleet "Large Enigma Merchants" 8000
+	fleet "Small Enigma Military" 10000
+	fleet "Large Enigma Military" 12000
+
+system Muhlifain
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 3500
+	fleet "Small Southern Pirates" 6000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system Muphrid
+	fleet "Small Southern Merchants" 800
+	fleet "Large Southern Merchants" 3500
+	fleet "Small Southern Pirates" 6000
+	fleet "Small Republic" 5000
+	fleet "Small Enigma Merchants" 1600
+	fleet "Large Enigma Merchants" 3200
+	fleet "Small Enigma Military" 6400
+	fleet "Large Enigma Military" 9600
+
+system Naos
+	fleet "Small Northern Merchants" 400
+	fleet "Large Northern Merchants" 1000
+	fleet "Small Deep" 1000
+	fleet "Large Deep" 2000
+	fleet "Small Enigma Merchants" 1000
+	fleet "Large Enigma Merchants" 1200
+	fleet "Small Enigma Military" 2000
+	fleet "Large Enigma Military" 4000
+
+system Naper
+	fleet "Small Southern Merchants" 1500
+	fleet "Large Southern Merchants" 3000
+	fleet "Small Militia" 5000
+	fleet "Small Southern Pirates" 1000
+	fleet "Small Enigma Merchants" 3000
+	fleet "Large Enigma Merchants" 4500
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 9000
+
+system Nihal
+	fleet "Small Northern Merchants" 800
+	fleet "Large Northern Merchants" 1200
+	fleet "Small Northern Pirates" 3000
+	fleet "Large Northern Pirates" 5000
+	fleet "Small Republic" 4000
+	fleet "Large Republic" 7000
+	fleet "Small Enigma Merchants" 1600
+	fleet "Large Enigma Merchants" 3200
+	fleet "Small Enigma Military" 6400
+	fleet "Large Enigma Military" 9600
+
+system Nocte
+	fleet "Small Northern Merchants" 1500
+	fleet "Large Northern Merchants" 5000
+	fleet "Small Republic" 3000
+	fleet "Large Republic" 7000
+	fleet "Small Northern Pirates" 2500
+	fleet "Small Enigma Merchants" 3000
+	fleet "Large Enigma Merchants" 4500
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 9000
+
+system Nunki
+	fleet "Small Southern Pirates" 1200
+	fleet "Large Southern Pirates" 2000
+	fleet "Small Southern Merchants" 1600
+	fleet "Small Militia" 2000
+	fleet "Small Enigma Merchants" 2400
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system Oblate
+	fleet "Small Core Pirates" 600
+	fleet "Large Core Pirates" 1000
+	fleet "Large Syndicate" 3000
+	fleet "Small Enigma Merchants" 1200
+	fleet "Large Enigma Merchants" 2000
+	fleet "Small Enigma Military" 3000
+	fleet "Large Enigma Military" 6000
+
+system Orvala
+	fleet "Small Southern Merchants" 3000
+	fleet "Large Southern Merchants" 6000
+	fleet "Small Southern Pirates" 1000
+	fleet "Large Southern Pirates" 3000
+	fleet "Small Enigma Merchants" 5000
+	fleet "Large Enigma Merchants" 7000
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 10000
+
+system Peacock
+	fleet "Small Southern Merchants" 2000
+	fleet "Large Southern Merchants" 5000
+	fleet "Small Militia" 8000
+	fleet "Small Southern Pirates" 4000
+	fleet "Large Southern Pirates" 10000
+	fleet "Small Enigma Merchants" 4000
+	fleet "Large Enigma Merchants" 6000
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 10000
+
+system Persian
+	fleet "Small Syndicate" 800
+	fleet "Large Syndicate" 1200
+	fleet "Small Core Pirates" 600
+	fleet "Large Core Pirates" 2000
+	fleet "Small Enigma Merchants" 1600
+	fleet "Large Enigma Merchants" 2400
+	fleet "Small Enigma Military" 4800
+	fleet "Large Enigma Military" 9600
+
+system Phact
+	fleet "Small Northern Merchants" 2000
+	fleet "Large Northern Merchants" 2000
+	fleet "Small Republic" 4000
+	fleet "Large Republic" 8000
+	fleet "Small Northern Pirates" 3000
+	fleet "Large Northern Pirates" 5000
+	fleet "Small Enigma Merchants" 4000
+	fleet "Large Enigma Merchants" 6000
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 10000
+
+system Phecda
+	fleet "Small Northern Merchants" 700
+	fleet "Large Northern Merchants" 1000
+	fleet "Small Southern Merchants" 700
+	fleet "Large Southern Merchants" 1000
+	fleet "Small Republic" 5000
+	fleet "Small Enigma Merchants" 1400
+	fleet "Large Enigma Merchants" 2800
+	fleet "Small Enigma Military" 4600
+	fleet "Large Enigma Military" 7200
+
+system Pherkad
+	fleet "Small Southern Merchants" 500
+	fleet "Large Southern Merchants" 1000
+	fleet "Small Militia" 700
+	fleet "Large Militia" 1200
+	fleet "Small Southern Pirates" 2000
+	fleet "Large Southern Pirates" 3000
+	fleet "Small Enigma Merchants" 1000
+	fleet "Large Enigma Merchants" 1500
+	fleet "Small Enigma Military" 3000
+	fleet "Large Enigma Military" 6000
+
+system Phurad
+	fleet "Small Northern Merchants" 800
+	fleet "Large Northern Merchants" 1500
+	fleet "Small Republic" 2000
+	fleet "Large Republic" 5000
+	fleet "Small Northern Pirates" 9000
+	fleet "Small Enigma Merchants" 1600
+	fleet "Large Enigma Merchants" 3200
+	fleet "Small Enigma Military" 4800
+	fleet "Large Enigma Military" 6400
+
+system Polaris
+	fleet "Small Core Merchants" 600
+	fleet "Large Core Merchants" 700
+	fleet "Small Syndicate" 1000
+	fleet "Large Syndicate" 2000
+	fleet "Small Core Pirates" 1500
+	fleet "Korath Raid" 50000
+	fleet "Small Enigma Merchants" 1200
+	fleet "Large Enigma Merchants" 2400
+	fleet "Small Enigma Military" 4800
+	fleet "Large Enigma Military" 9600
+
+system Pollux
+	fleet "Small Northern Merchants" 500
+	fleet "Large Northern Merchants" 800
+	fleet "Small Republic" 1000
+	fleet "Large Republic" 2000
+	fleet "Small Enigma Merchants" 1000
+	fleet "Large Enigma Merchants" 1500
+	fleet "Small Enigma Military" 3000
+	fleet "Large Enigma Military" 6000
+
+system Porrima
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 3000
+	fleet "Small Republic" 8000
+	fleet "Small Southern Pirates" 6000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system Procyon
+	fleet "Small Northern Merchants" 700
+	fleet "Large Northern Merchants" 1200
+	fleet "Small Republic" 1500
+	fleet "Large Republic" 3000
+	fleet "Small Enigma Merchants" 1400
+	fleet "Large Enigma Merchants" 2800
+	fleet "Small Enigma Military" 4600
+	fleet "Large Enigma Military" 7200
+
+system Rajak
+	fleet "Small Northern Pirates" 4000
+	fleet "Large Northern Pirates" 10000
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 12000
+
+system Rasalhague
+	fleet "Small Southern Merchants" 1500
+	fleet "Large Southern Merchants" 2000
+	fleet "Small Southern Pirates" 4000
+	fleet "Large Southern Pirates" 8000
+	fleet "Small Enigma Merchants" 3000
+	fleet "Large Enigma Merchants" 6000
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 10000
+
+system Rastaban
+	fleet "Small Southern Merchants" 800
+	fleet "Large Southern Merchants" 1600
+	fleet "Small Southern Pirates" 3000
+	fleet "Large Southern Pirates" 5000
+	fleet "Small Enigma Merchants" 1600
+	fleet "Large Enigma Merchants" 3200
+	fleet "Small Enigma Military" 4800
+	fleet "Large Enigma Military" 6400
+
+system Regor
+	fleet "Small Northern Merchants" 1000
+	fleet "Large Northern Merchants" 3000
+	fleet "Small Deep" 2000
+	fleet "Large Deep" 5000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system Regulus
+	fleet "Small Southern Merchants" 4000
+	fleet "Small Southern Pirates" 2000
+	fleet "Large Southern Pirates" 8000
+	fleet "Small Republic" 10000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 10000
+
+system Rigel
+	fleet "Small Northern Merchants" 2000
+	fleet "Large Northern Merchants" 4000
+	fleet "Small Republic" 3000
+	fleet "Large Republic" 5000
+	fleet "Small Northern Pirates" 3000
+	fleet "Large Northern Pirates" 5000
+	fleet "Small Enigma Merchants" 4000
+	fleet "Large Enigma Merchants" 6000
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 10000
+
+system Ruchbah
+	fleet "Small Core Merchants" 500
+	fleet "Large Core Merchants" 600
+	fleet "Small Syndicate" 1000
+	fleet "Large Syndicate" 2000
+	fleet "Small Core Pirates" 2000
+	fleet "Large Core Pirates" 3000
+	fleet "Small Enigma Merchants" 1000
+	fleet "Large Enigma Merchants" 1500
+	fleet "Small Enigma Military" 3000
+	fleet "Large Enigma Military" 6000
+
+system Rutilicus
+	fleet "Small Southern Merchants" 600
+	fleet "Large Southern Merchants" 2000
+	fleet "Small Militia" 6000
+	fleet "Small Enigma Merchants" 1200
+	fleet "Large Enigma Merchants" 2400
+	fleet "Small Enigma Military" 4800
+	fleet "Large Enigma Military" 9600
+
+system Sabik
+	fleet "Small Southern Merchants" 400
+	fleet "Large Southern Merchants" 900
+	fleet "Small Militia" 1200
+	fleet "Large Militia" 2000
+	fleet "Small Enigma Merchants" 800
+	fleet "Large Enigma Merchants" 1800
+	fleet "Small Enigma Military" 2600
+	fleet "Large Enigma Military" 4800
+
+system Sadalmelik
+	fleet "Small Southern Merchants" 800
+	fleet "Large Southern Merchants" 1200
+	fleet Quarg 2000
+	fleet "Small Enigma Military" 4000
+	fleet "Large Enigma Military" 6000
+
+system Sadalsuud
+	fleet "Small Southern Merchants" 900
+	fleet "Large Southern Merchants" 1500
+	fleet Quarg 1000
+	fleet "Small Enigma Military" 3000
+	fleet "Large Enigma Military" 5000
+
+system Sadr
+	fleet "Small Southern Merchants" 4000
+	fleet Quarg 9000
+	fleet "Small Southern Pirates" 5000
+	fleet "Large Southern Pirates" 9000
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 10000
+
+system Saiph
+	fleet "Small Northern Merchants" 1200
+	fleet "Large Northern Merchants" 2000
+	fleet "Small Northern Pirates" 2000
+	fleet "Large Northern Pirates" 3000
+	fleet "Small Republic" 4000
+	fleet "Large Republic" 7000
+	fleet "Small Enigma Merchants" 2400
+	fleet "Large Enigma Merchants" 3600
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system Sargas
+	fleet "Small Southern Merchants" 700
+	fleet "Large Southern Merchants" 3000
+	fleet "Small Southern Pirates" 2000
+	fleet "Large Southern Pirates" 4000
+	fleet "Small Militia" 4000
+	fleet "Large Militia" 7000
+	fleet "Small Enigma Merchants" 1400
+	fleet "Large Enigma Merchants" 2800
+	fleet "Small Enigma Military" 4600
+	fleet "Large Enigma Military" 7200
+
+system Sarin
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 3000
+	fleet "Small Southern Pirates" 2000
+	fleet "Large Southern Pirates" 6000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system Scheat
+	fleet "Small Core Merchants" 500
+	fleet "Large Core Merchants" 600
+	fleet "Small Syndicate" 1000
+	fleet "Large Syndicate" 2000
+	fleet "Small Core Pirates" 3000
+	fleet "Large Core Pirates" 5000
+	fleet "Small Enigma Merchants" 1000
+	fleet "Large Enigma Merchants" 1500
+	fleet "Small Enigma Military" 3000
+	fleet "Large Enigma Military" 6000
+
+system Schedar
+	fleet "Small Core Merchants" 900
+	fleet "Large Core Merchants" 1000
+	fleet "Small Syndicate" 3000
+	fleet "Large Syndicate" 4000
+	fleet "Small Core Pirates" 2000
+	fleet "Large Core Pirates" 3000
+	fleet "Small Enigma Merchants" 1800
+	fleet "Large Enigma Merchants" 3600
+	fleet "Small Enigma Military" 7200
+	fleet "Large Enigma Military" 9600
+
+system Seginus
+	fleet "Small Southern Merchants" 900
+	fleet "Large Southern Merchants" 2000
+	fleet "Small Militia" 3000
+	fleet "Small Southern Pirates" 5000
+	fleet "Small Enigma Merchants" 1800
+	fleet "Large Enigma Merchants" 3600
+	fleet "Small Enigma Military" 7200
+	fleet "Large Enigma Military" 9600
+
+system Shaula
+	fleet "Small Southern Pirates" 500
+	fleet "Large Southern Pirates" 800
+	fleet "Small Core Pirates" 4000
+	fleet "Large Core Pirates" 7000
+	fleet "Small Northern Pirates" 5000
+	fleet "Large Northern Pirates" 9000
+	fleet "Large Militia" 9000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 9000
+
+system Sheratan
+	fleet "Small Core Merchants" 1500
+	fleet "Large Core Merchants" 1800
+	fleet "Small Core Pirates" 3000
+	fleet "Large Core Pirates" 5000
+	fleet "Korath Raid" 30000
+	fleet "Small Enigma Merchants" 3000
+	fleet "Large Enigma Merchants" 6000
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 10000
+
 system Sirius
 	fleet "Small Northern Merchants" 500
 	fleet "Large Northern Merchants" 700
 	fleet "Small Republic" 1000
 	fleet "Large Republic" 1500
 	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 1500
+	fleet "Small Enigma Military" 3000
+	fleet "Large Enigma Military" 6000
+
 system Sol
 	fleet "Small Northern Merchants" 300
 	fleet "Large Northern Merchants" 500
@@ -328,91 +1681,288 @@ system Sol
 	fleet "Large Republic" 900
 	fleet "Small Core Merchants" 1000
 	fleet "Large Core Merchants" 2000
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 2000
-system Vega
-	fleet "Small Northern Merchants" 800
-	fleet "Large Northern Merchants" 3000
-	fleet "Small Republic" 1600
-	fleet "Large Republic" 5000
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 2000
+	fleet "Small Enigma Merchants" 600
+	fleet "Large Enigma Merchants" 1200
+	fleet "Small Enigma Military" 3000
+	fleet "Large Enigma Military" 6000
 
-#Free Worlds Space
-system Albireo
-	fleet "Small Southern Merchants" 800
-	fleet "Large Southern Merchants" 1200
-	fleet "Small Southern Pirates" 1000
-	fleet "Large Southern Pirates" 1400
-	fleet "Small Militia" 1800
-	fleet "Large Militia" 3000
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 2000
-system Dabih
-	fleet "Small Southern Merchants" 500
-	fleet "Large Southern Merchants" 800
-	fleet Quarg 4000
-	fleet "Small Militia" 6000
-	fleet "Large Southern Pirates" 10000
+system Sospi
+	fleet "Small Northern Merchants" 1500
+	fleet "Large Northern Merchants" 3000
+	fleet "Small Northern Pirates" 1000
+	fleet "Large Northern Pirates" 2000
+	fleet "Small Republic" 5000
+	fleet "Large Republic" 9000
 	fleet "Small Enigma Merchants" 3000
 	fleet "Large Enigma Merchants" 6000
-system Eltanin
-	fleet "Small Southern Merchants" 1000
-	fleet "Large Southern Merchants" 3000
-	fleet "Small Southern Pirates" 4000
-	fleet Quarg 10000
-	fleet "Small Enigma Merchants" 3000
-	fleet "Large Enigma Merchants" 6000
-system Kraz
-	fleet "Small Southern Merchants" 1000
-	fleet "Large Southern Merchants" 2000
-	fleet "Small Militia" 800
-	fleet "Large Militia" 1200
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 2000
-system "Kaus Australis"
-	fleet "Small Southern Merchants" 2000
-	fleet "Large Southern Merchants" 3000
-	fleet Quarg 10000
-	fleet "Small Southern Pirates" 4000
-	fleet "Large Southern Pirates" 8000
-	fleet "Small Enigma Merchants" 3000
-	fleet "Large Enigma Merchants" 6000
-system Lurata
-	fleet "Small Southern Merchants" 1000
-	fleet "Large Southern Merchants" 3000
-	fleet Quarg 7000
-	fleet "Small Militia" 9000
-	fleet "Large Southern Pirates" 4000
-	fleet "Small Enigma Merchants" 3000
-	fleet "Large Enigma Merchants" 6000
-system Mimosa
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 10000
+
+system Spica
 	fleet "Small Southern Merchants" 1600
-	fleet "Large Southern Merchants" 5000
-	fleet "Small Militia" 2500
-	fleet "Large Militia" 6000
-	fleet "Large Southern Pirates" 8000
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 2000
-system Minkar
-	fleet "Small Southern Merchants" 900
 	fleet "Large Southern Merchants" 3000
-	fleet "Small Militia" 1500
-	fleet "Large Militia" 2000
-	fleet "Large Southern Pirates" 12000
-	fleet "Small Enigma Merchants" 1000
-	fleet "Large Enigma Merchants" 2000
-system Sadr
-	fleet "Small Southern Merchants" 4000
-	fleet Quarg 9000
-	fleet "Small Southern Pirates" 5000
-	fleet "Large Southern Pirates" 9000
-	fleet "Small Enigma Merchants" 3000
+	fleet "Small Militia" 2000
+	fleet "Large Militia" 4000
+	fleet "Small Southern Pirates" 6000
+	fleet "Large Southern Pirates" 10000
+	fleet "Small Enigma Merchants" 3200
 	fleet "Large Enigma Merchants" 6000
+	fleet "Small Enigma Military" 6400
+	fleet "Large Enigma Military" 8200
+
+system Suhail
+	fleet "Small Northern Merchants" 2000
+	fleet "Large Northern Merchants" 5000
+	fleet "Small Deep" 4000
+	fleet "Large Deep" 7000
+	fleet "Large Northern Pirates" 9000
+	fleet "Small Enigma Merchants" 4000
+	fleet "Large Enigma Merchants" 6000
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 10000
+
+system Sumar
+	fleet "Small Northern Pirates" 2000
+	fleet "Large Northern Pirates" 6000
+	fleet "Large Republic" 30000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 9000
+
+system Tais
+	fleet "Small Southern Merchants" 1500
+	fleet "Large Southern Merchants" 4000
+	fleet "Small Militia" 9000
+	fleet Quarg 15000
+	fleet "Small Southern Pirates" 3000
+	fleet "Large Southern Pirates" 7000
+	fleet "Small Enigma Military" 12000
+	fleet "Large Enigma Military" 18000
+
+system Talita
+	fleet "Small Northern Merchants" 600
+	fleet "Large Northern Merchants" 900
+	fleet "Small Republic" 1000
+	fleet "Large Republic" 2000
+	fleet "Small Enigma Merchants" 1200
+	fleet "Large Enigma Merchants" 2400
+	fleet "Small Enigma Military" 4800
+	fleet "Large Enigma Military" 9600
+
+system "Tania Australis"
+	fleet "Small Northern Merchants" 1000
+	fleet "Large Northern Merchants" 2000
+	fleet "Small Republic" 3000
+	fleet "Small Northern Pirates" 4000
+	fleet "Large Northern Pirates" 9000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
 system Tarazed
 	fleet "Small Southern Merchants" 500
 	fleet "Large Southern Merchants" 1200
 	fleet Quarg 7000
 	fleet "Large Southern Pirates" 8000
+	fleet "Small Enigma Military" 5000
+	fleet "Large Enigma Military" 8000
+
+system Tejat
+	fleet "Small Northern Merchants" 700
+	fleet "Large Northern Merchants" 1500
+	fleet "Small Republic" 2000
+	fleet "Large Republic" 2000
+	fleet "Small Enigma Merchants" 1400
+	fleet "Large Enigma Merchants" 3200
+	fleet "Small Enigma Military" 6400
+	fleet "Large Enigma Military" 8000
+
+system Tortor
+	fleet "Small Northern Pirates" 1000
+	fleet "Large Northern Pirates" 1000
+	fleet "Large Republic" 6000
+	fleet "Small Northern Merchants" 6000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system Turais
+	fleet "Small Southern Merchants" 2000
+	fleet "Large Southern Merchants" 6000
+	fleet "Small Southern Pirates" 3000
+	fleet "Large Southern Pirates" 7000
+	fleet "Small Enigma Merchants" 4000
+	fleet "Large Enigma Merchants" 6000
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 10000
+
+system Umbral
+	fleet "Small Southern Merchants" 4000
+	fleet "Large Southern Merchants" 5000
+	fleet Quarg 15000
+	fleet "Large Southern Pirates" 6000
+	fleet "Small Enigma Military" 10000
+	fleet "Large Enigma Military" 15000
+
+system Unagi
+	fleet "Small Northern Pirates" 1500
+	fleet "Large Northern Pirates" 3000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system Unukalhai
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 4000
+	fleet "Small Southern Pirates" 3000
+	fleet "Small Militia" 4000
+	fleet "Large Militia" 10000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system Vega
+	fleet "Small Northern Merchants" 800
+	fleet "Large Northern Merchants" 3000
+	fleet "Small Republic" 1600
+	fleet "Large Republic" 5000
+	fleet "Small Enigma Merchants" 1600
+	fleet "Large Enigma Merchants" 3200
+	fleet "Small Enigma Military" 4800
+	fleet "Large Enigma Military" 6400
+
+system Vindemiatrix
+	fleet "Small Southern Merchants" 600
+	fleet "Large Southern Merchants" 3000
+	fleet "Small Southern Pirates" 2000
+	fleet "Large Southern Pirates" 4000
+	fleet "Small Enigma Merchants" 1200
+	fleet "Large Enigma Merchants" 2400
+	fleet "Small Enigma Military" 4800
+	fleet "Large Enigma Military" 9600
+
+system Volax
+	fleet "Small Northern Merchants" 1500
+	fleet "Large Northern Merchants" 3000
+	fleet "Small Northern Pirates" 1000
+	fleet "Large Northern Pirates" 3000
+	fleet "Small Republic" 5000
+	fleet "Large Republic" 9000
 	fleet "Small Enigma Merchants" 3000
 	fleet "Large Enigma Merchants" 6000
+	fleet "Small Enigma Military" 8000
+	fleet "Large Enigma Military" 10000
+
+system Wazn
+	fleet "Small Northern Merchants" 700
+	fleet "Large Northern Merchants" 1500
+	fleet "Small Republic" 2000
+	fleet "Large Republic" 4000
+	fleet "Small Enigma Merchants" 1400
+	fleet "Large Enigma Merchants" 2800
+	fleet "Small Enigma Military" 4600
+	fleet "Large Enigma Military" 7200
+
+system Wei
+	fleet "Small Southern Merchants" 600
+	fleet "Large Southern Merchants" 2000
+	fleet "Small Southern Pirates" 4000
+	fleet "Small Militia" 3000
+	fleet "Large Militia" 5000
+	fleet "Small Enigma Merchants" 1200
+	fleet "Large Enigma Merchants" 2400
+	fleet "Small Enigma Military" 4800
+	fleet "Large Enigma Military" 9600
+
+system Wezen
+	fleet "Small Northern Merchants" 1000
+	fleet "Large Northern Merchants" 2000
+	fleet "Small Deep" 1500
+	fleet "Large Deep" 4000
+	fleet "Small Northern Pirates" 8000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system "Yed Prior"
+	fleet "Small Northern Merchants" 800
+	fleet "Large Northern Merchants" 1600
+	fleet "Small Southern Pirates" 2000
+	fleet "Large Southern Pirates" 3000
+	fleet "Small Militia" 3000
+	fleet "Large Militia" 5000
+	fleet "Small Enigma Merchants" 1600
+	fleet "Large Enigma Merchants" 3200
+	fleet "Small Enigma Military" 4800
+	fleet "Large Enigma Military" 6400
+
+system Zaurak
+	fleet "Small Core Merchants" 800
+	fleet "Large Core Merchants" 1000
+	fleet "Small Syndicate" 1600
+	fleet "Large Syndicate" 2500
+	fleet "Small Core Pirates" 2000
+	fleet "Large Core Pirates" 4000
+	fleet "Small Enigma Merchants" 1600
+	fleet "Large Enigma Merchants" 3200
+	fleet "Small Enigma Military" 4800
+	fleet "Large Enigma Military" 6400
+
+system "Zeta Aquilae"
+	fleet "Small Southern Merchants" 1000
+	fleet "Large Southern Merchants" 3000
+	fleet "Small Southern Pirates" 2000
+	fleet "Large Southern Pirates" 5000
+	fleet "Small Enigma Merchants" 2000
+	fleet "Large Enigma Merchants" 4000
+	fleet "Small Enigma Military" 6000
+	fleet "Large Enigma Military" 8000
+
+system "Zeta Centauri"
+	fleet "Small Southern Merchants" 800
+	fleet "Large Southern Merchants" 2000
+	fleet "Small Militia" 1500
+	fleet "Large Militia" 2500
+	fleet "Small Southern Pirates" 3000
+	fleet "Large Southern Pirates" 5000
+	fleet "Small Enigma Merchants" 1600
+	fleet "Large Enigma Merchants" 3200
+	fleet "Small Enigma Military" 4800
+	fleet "Large Enigma Military" 6400
+
+system Zosma
+	fleet "Small Northern Merchants" 600
+	fleet "Large Northern Merchants" 1000
+	fleet "Small Deep" 2000
+	fleet "Large Deep" 4000
+	fleet "Small Republic" 4000
+	fleet "Small Northern Pirates" 5000
+	fleet "Large Northern Pirates" 9000
+	fleet "Small Enigma Merchants" 1200
+	fleet "Large Enigma Merchants" 2400
+	fleet "Small Enigma Military" 4800
+	fleet "Large Enigma Military" 9600
+
+system Zubenelgenubi
+	fleet "Small Southern Merchants" 500
+	fleet "Large Southern Merchants" 1500
+	fleet "Small Militia" 2000
+	fleet "Large Militia" 3000
+	fleet "Small Southern Pirates" 3000
+	fleet "Large Southern Pirates" 5000
+	fleet "Small Enigma Merchants" 1000
+	fleet "Large Enigma Merchants" 1500
+	fleet "Small Enigma Military" 3000
+	fleet "Large Enigma Military" 6000
+
+system Zubeneschamali
+	fleet "Small Southern Merchants" 500
+	fleet "Large Southern Merchants" 1500
+	fleet "Small Militia" 3000
+	fleet "Large Militia" 5000
+	fleet "Small Southern Pirates" 2000
+	fleet "Large Southern Pirates" 3000
+	fleet "Small Enigma Merchants" 1000
+	fleet "Large Enigma Merchants" 1500
+	fleet "Small Enigma Military" 3000
+	fleet "Large Enigma Military" 6000
