@@ -39,13 +39,27 @@ mission "Northern and Deep Derelict 1"
 	source
 		attributes north paradise "near earth" deep
 	landing
-	deadline 2
+	deadline 5
 	repeat
 	invisible
 	to offer 
 		random >= 50
 		random < 70
-	npc
+		not "Northern and Deep Derelict 1: active"
+		not "Northern and Deep Derelict 2: active"
+		not "Deep Derelict 3: active"
+		not "Northern Derelict 3: active"
+		not "Deep Derelict 4: active"
+		not "Northern Derelict 4: active"
+		not "Core Derelict 1: active"
+		not "Core Derelict 2: active"
+		not "Core Derelict 3: active"
+		not "Core Derelict 4: active"
+		not "Southern Derelict 1: active"
+		not "Southern Derelict 2: active"
+		not "Southern Derelict 3: active"
+		not "Southern Derelict 4: active"
+	npc kill
 		government "Abandoned Merchant"
 		personality derelict staying
 		system
@@ -56,13 +70,27 @@ mission "Northern and Deep Derelict 2"
 	source
 		attributes north paradise "near earth" deep
 	landing
-	deadline 2
+	deadline 5
 	repeat
 	invisible
 	to offer 
 		random >= 70
 		random < 85
-	npc
+		not "Northern and Deep Derelict 1: active"
+		not "Northern and Deep Derelict 2: active"
+		not "Deep Derelict 3: active"
+		not "Northern Derelict 3: active"
+		not "Deep Derelict 4: active"
+		not "Northern Derelict 4: active"
+		not "Core Derelict 1: active"
+		not "Core Derelict 2: active"
+		not "Core Derelict 3: active"
+		not "Core Derelict 4: active"
+		not "Southern Derelict 1: active"
+		not "Southern Derelict 2: active"
+		not "Southern Derelict 3: active"
+		not "Southern Derelict 4: active"
+	npc kill
 		government "Abandoned Merchant"
 		personality derelict staying
 		system
@@ -73,13 +101,27 @@ mission "Northern Derelict 3"
 	source
 		attributes north paradise "near earth"
 	landing
-	deadline 2
+	deadline 5
 	repeat
 	invisible
 	to offer 
 		random >= 85
 		random < 95
-	npc
+		not "Northern and Deep Derelict 1: active"
+		not "Northern and Deep Derelict 2: active"
+		not "Deep Derelict 3: active"
+		not "Northern Derelict 3: active"
+		not "Deep Derelict 4: active"
+		not "Northern Derelict 4: active"
+		not "Core Derelict 1: active"
+		not "Core Derelict 2: active"
+		not "Core Derelict 3: active"
+		not "Core Derelict 4: active"
+		not "Southern Derelict 1: active"
+		not "Southern Derelict 2: active"
+		not "Southern Derelict 3: active"
+		not "Southern Derelict 4: active"
+	npc kill
 		government "Abandoned Republic"
 		personality derelict staying
 		system
@@ -90,13 +132,27 @@ mission "Deep Derelict 3"
 	source
 		attributes north
 	landing
-	deadline 2
+	deadline 5
 	repeat
 	invisible
 	to offer 
 		random >= 85
 		random < 95
-	npc
+		not "Northern and Deep Derelict 1: active"
+		not "Northern and Deep Derelict 2: active"
+		not "Deep Derelict 3: active"
+		not "Northern Derelict 3: active"
+		not "Deep Derelict 4: active"
+		not "Northern Derelict 4: active"
+		not "Core Derelict 1: active"
+		not "Core Derelict 2: active"
+		not "Core Derelict 3: active"
+		not "Core Derelict 4: active"
+		not "Southern Derelict 1: active"
+		not "Southern Derelict 2: active"
+		not "Southern Derelict 3: active"
+		not "Southern Derelict 4: active"
+	npc kill
 		government "Abandoned Republic"
 		personality derelict staying
 		system
@@ -107,12 +163,26 @@ mission "Northern Derelict 4"
 	source
 		attributes north paradise "near earth"
 	landing
-	deadline 2
+	deadline 5
 	repeat
 	invisible
 	to offer 
 		random >= 95
-	npc
+		not "Northern and Deep Derelict 1: active"
+		not "Northern and Deep Derelict 2: active"
+		not "Deep Derelict 3: active"
+		not "Northern Derelict 3: active"
+		not "Deep Derelict 4: active"
+		not "Northern Derelict 4: active"
+		not "Core Derelict 1: active"
+		not "Core Derelict 2: active"
+		not "Core Derelict 3: active"
+		not "Core Derelict 4: active"
+		not "Southern Derelict 1: active"
+		not "Southern Derelict 2: active"
+		not "Southern Derelict 3: active"
+		not "Southern Derelict 4: active"
+	npc kill
 		government "Abandoned Republic"
 		personality derelict staying
 		system
@@ -123,12 +193,26 @@ mission "Deep Derelict 4"
 	source
 		attributes north
 	landing
-	deadline 2
+	deadline 5
 	repeat
 	invisible
 	to offer 
 		random >= 95
-	npc
+		not "Northern and Deep Derelict 1: active"
+		not "Northern and Deep Derelict 2: active"
+		not "Deep Derelict 3: active"
+		not "Northern Derelict 3: active"
+		not "Deep Derelict 4: active"
+		not "Northern Derelict 4: active"
+		not "Core Derelict 1: active"
+		not "Core Derelict 2: active"
+		not "Core Derelict 3: active"
+		not "Core Derelict 4: active"
+		not "Southern Derelict 1: active"
+		not "Southern Derelict 2: active"
+		not "Southern Derelict 3: active"
+		not "Southern Derelict 4: active"
+	npc kill
 		government "Abandoned Republic"
 		personality derelict staying
 		system
@@ -141,13 +225,27 @@ mission "Core Derelict 1"
 	source
 		attributes core
 	landing
-	deadline 2
+	deadline 5
 	repeat
 	invisible
 	to offer 
 		random >= 50
 		random < 70
-	npc
+		not "Northern and Deep Derelict 1: active"
+		not "Northern and Deep Derelict 2: active"
+		not "Deep Derelict 3: active"
+		not "Northern Derelict 3: active"
+		not "Deep Derelict 4: active"
+		not "Northern Derelict 4: active"
+		not "Core Derelict 1: active"
+		not "Core Derelict 2: active"
+		not "Core Derelict 3: active"
+		not "Core Derelict 4: active"
+		not "Southern Derelict 1: active"
+		not "Southern Derelict 2: active"
+		not "Southern Derelict 3: active"
+		not "Southern Derelict 4: active"
+	npc kill
 		government "Abandoned Merchant"
 		personality derelict staying
 		system
@@ -158,13 +256,27 @@ mission "Core Derelict 2"
 	source
 		attributes core
 	landing
-	deadline 2
+	deadline 5
 	repeat
 	invisible
 	to offer 
 		random >= 70
 		random < 85
-	npc
+		not "Northern and Deep Derelict 1: active"
+		not "Northern and Deep Derelict 2: active"
+		not "Deep Derelict 3: active"
+		not "Northern Derelict 3: active"
+		not "Deep Derelict 4: active"
+		not "Northern Derelict 4: active"
+		not "Core Derelict 1: active"
+		not "Core Derelict 2: active"
+		not "Core Derelict 3: active"
+		not "Core Derelict 4: active"
+		not "Southern Derelict 1: active"
+		not "Southern Derelict 2: active"
+		not "Southern Derelict 3: active"
+		not "Southern Derelict 4: active"
+	npc kill
 		government "Abandoned Merchant"
 		personality derelict staying
 		system
@@ -175,13 +287,27 @@ mission "Core Derelict 3"
 	source
 		attributes core
 	landing
-	deadline 2
+	deadline 5
 	repeat
 	invisible
 	to offer 
 		random >= 85
 		random < 95
-	npc
+		not "Northern and Deep Derelict 1: active"
+		not "Northern and Deep Derelict 2: active"
+		not "Deep Derelict 3: active"
+		not "Northern Derelict 3: active"
+		not "Deep Derelict 4: active"
+		not "Northern Derelict 4: active"
+		not "Core Derelict 1: active"
+		not "Core Derelict 2: active"
+		not "Core Derelict 3: active"
+		not "Core Derelict 4: active"
+		not "Southern Derelict 1: active"
+		not "Southern Derelict 2: active"
+		not "Southern Derelict 3: active"
+		not "Southern Derelict 4: active"
+	npc kill
 		government "Abandoned Syndicate"
 		personality derelict staying
 		system
@@ -192,12 +318,26 @@ mission "Core Derelict 4"
 	source
 		attributes core
 	landing
-	deadline 2
+	deadline 5
 	repeat
 	invisible
 	to offer 
 		random >= 95
-	npc
+		not "Northern and Deep Derelict 1: active"
+		not "Northern and Deep Derelict 2: active"
+		not "Deep Derelict 3: active"
+		not "Northern Derelict 3: active"
+		not "Deep Derelict 4: active"
+		not "Northern Derelict 4: active"
+		not "Core Derelict 1: active"
+		not "Core Derelict 2: active"
+		not "Core Derelict 3: active"
+		not "Core Derelict 4: active"
+		not "Southern Derelict 1: active"
+		not "Southern Derelict 2: active"
+		not "Southern Derelict 3: active"
+		not "Southern Derelict 4: active"
+	npc kill
 		government "Abandoned Syndicate"
 		personality derelict staying
 		system
@@ -210,13 +350,27 @@ mission "Southern Derelict 1"
 	source
 		attributes rim "dirt belt" south
 	landing
-	deadline 2
+	deadline 5
 	repeat
 	invisible
 	to offer 
 		random >= 50
 		random < 70
-	npc
+		not "Northern and Deep Derelict 1: active"
+		not "Northern and Deep Derelict 2: active"
+		not "Deep Derelict 3: active"
+		not "Northern Derelict 3: active"
+		not "Deep Derelict 4: active"
+		not "Northern Derelict 4: active"
+		not "Core Derelict 1: active"
+		not "Core Derelict 2: active"
+		not "Core Derelict 3: active"
+		not "Core Derelict 4: active"
+		not "Southern Derelict 1: active"
+		not "Southern Derelict 2: active"
+		not "Southern Derelict 3: active"
+		not "Southern Derelict 4: active"
+	npc kill
 		government "Abandoned Merchant"
 		personality derelict staying
 		system
@@ -227,13 +381,27 @@ mission "Southern Derelict 2"
 	source
 		attributes rim "dirt belt" south
 	landing
-	deadline 2
+	deadline 5
 	repeat
 	invisible
 	to offer 
 		random >= 70
 		random < 85
-	npc
+		not "Northern and Deep Derelict 1: active"
+		not "Northern and Deep Derelict 2: active"
+		not "Deep Derelict 3: active"
+		not "Northern Derelict 3: active"
+		not "Deep Derelict 4: active"
+		not "Northern Derelict 4: active"
+		not "Core Derelict 1: active"
+		not "Core Derelict 2: active"
+		not "Core Derelict 3: active"
+		not "Core Derelict 4: active"
+		not "Southern Derelict 1: active"
+		not "Southern Derelict 2: active"
+		not "Southern Derelict 3: active"
+		not "Southern Derelict 4: active"
+	npc kill
 		government "Abandoned Merchant"
 		personality derelict staying
 		system
@@ -244,13 +412,27 @@ mission "Southern Derelict 3"
 	source
 		attributes rim "dirt belt" south
 	landing
-	deadline 2
+	deadline 5
 	repeat
 	invisible
 	to offer 
 		random >= 85
 		random < 95
-	npc
+		not "Northern and Deep Derelict 1: active"
+		not "Northern and Deep Derelict 2: active"
+		not "Deep Derelict 3: active"
+		not "Northern Derelict 3: active"
+		not "Deep Derelict 4: active"
+		not "Northern Derelict 4: active"
+		not "Core Derelict 1: active"
+		not "Core Derelict 2: active"
+		not "Core Derelict 3: active"
+		not "Core Derelict 4: active"
+		not "Southern Derelict 1: active"
+		not "Southern Derelict 2: active"
+		not "Southern Derelict 3: active"
+		not "Southern Derelict 4: active"
+	npc kill
 		government "Abandoned Militia"
 		personality derelict staying
 		system
@@ -261,12 +443,26 @@ mission "Southern Derelict 4"
 	source
 		attributes rim "dirt belt" south
 	landing
-	deadline 2
+	deadline 5
 	repeat
 	invisible
 	to offer 
 		random >= 95
-	npc
+		not "Northern and Deep Derelict 1: active"
+		not "Northern and Deep Derelict 2: active"
+		not "Deep Derelict 3: active"
+		not "Northern Derelict 3: active"
+		not "Deep Derelict 4: active"
+		not "Northern Derelict 4: active"
+		not "Core Derelict 1: active"
+		not "Core Derelict 2: active"
+		not "Core Derelict 3: active"
+		not "Core Derelict 4: active"
+		not "Southern Derelict 1: active"
+		not "Southern Derelict 2: active"
+		not "Southern Derelict 3: active"
+		not "Southern Derelict 4: active"
+	npc kill
 		government "Abandoned Militia"
 		personality derelict staying
 		system
