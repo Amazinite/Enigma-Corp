@@ -1,42 +1,62 @@
 V0.5.5
 	New Content
-		Added a few attributes to Enigma stations for use in missions.
-		Added a new mission involving vandilizing Lovelace Labs that introduces the Freelancers, a new government that will be expanded upon later.
-		Added capacity upgraders for some newer weapons.
-		Added three new weapons: The Particle Blaster, Particle Repeater, and Modified Proton Gun, all created during the community pack frenzy that resulted in things such as the Gatling Gun and Solifuge.
-		Added three new ships to be used by the Hai, also created during the community pack frenzy.
-		All systems now include minable asteroids (Endless Sky v0.9.3 only)
-		Space Junk! (Endless Sky v0.9.3 only)
-			Uninhabited systems have a chance of spawning abandoned small ships orbitting their stars. Destroying these ships will drop damaged outfits that can be sold for money.
+		*Added a few attributes to Enigma stations for use in missions.
+		*Added a new mission involving vandilizing Lovelace Labs that introduces the Freelancers, a new government that will be expanded upon later.
+		*Added capacity upgraders for some newer weapons.
+		*Added three new weapons: The Particle Blaster, Particle Repeater, and Modified Proton Gun, all created during the community pack frenzy that resulted in things such as the Gatling Gun and Solifuge.
+		*Added three new ships to be used by the Hai, also created during the community pack frenzy.
+		*All systems now include minable asteroids (Endless Sky v0.9.3 only).
+		*Space Junk! (Endless Sky v0.9.3 only)
+			*Uninhabited systems have a chance of spawning abandoned small ships orbitting their stars. Destroying these ships will drop damaged outfits and scraps of metal that can be sold for money.
+			*There is also a chance to find old, abandoned ships floating around in human space. These ships are less banged up than those small ships in uninhabited systems and must be boarded to be looted. There is a 50% chance of a derelict fleet spawning every time you land, and it will be located anywhere from 3 to 6 jumps from the landing point.
+		*Damaged outfits: A whole set of human outfits that are damaged and no good. Only meant for selling and can be found in abandoned ships.
+		*Salavaged outfits: A whole set of human outfits that are slightly dented up, having worse stats in some way to their normal variants. Can be used if you need a free outfit and don't mind the extra drawbacks, but are really more for selling. Can be found by looting abandoned ships.
+		*A Dual Slicer Turret and Korath Disruptor Gun for the luls; not currently on any Korath ships.
 	Content Changes
-		The release of Enigma Corp technology is now on a timer instead of being based off of which campaign missions you have completed.
-		Redid a lot of the old outfit images so that I can have @2x versions of them.
-		Moved some old outfits from the beginning of the mod to Enigma Meridian. These outfits will likely be removed from the game due to them just being silly things I made to get into modding.
-		Changed the government reputations a bit.
-			EC like ORM.
-			EC no longer hate Test Dummies.
-			ORM like Adamas and hate Pirates.
-		Renamed the Antimatter Bomb to the Antimatter Rocket.
-		Renamed a few of the systems in the Outer Rim.
+		*The release of Enigma Corp technology is now on a timer instead of being based off of which campaign missions you have completed.
+		*Redid a lot of the old outfit images so that I can have @2x versions of them.
+		*Moved some old outfits from the beginning of the mod to Enigma Meridian. These outfits will likely be removed from the game due to them just being silly things I made to get into modding.
+		*Changed the government reputations a bit.
+			*EC like ORM.
+			*EC no longer hate Test Dummies.
+			*ORM like Adamas and hate Pirates.
+		*Renamed the Antimatter Bomb to the Antimatter Rocket.
+		*Renamed a few of the systems in the Outer Rim.
+		*Enigma Stations now all have the "Common Outfits" and "Basic Outfits" outfitters.
+		*Enigma Prime now has the "Basic Ships" and "Lionheart Basics" shipyards.
+		*Changed some stuff in the Navy License mission.
+			*`on fail` dialogs that tell you that you ran out of time.
+			*Less pirate and Navy ships during the final battle.
+			*Pirates are no longer set to hostile if you for some reason are friendly with them.
+			*Blocked and on visit dialogs in some spots.
+		*Enigma Corp fleets are now less likely to spawn in the same systems as the Quarg, as the two factions are hostile towards one another.
+		*Did some rewording in the Enigma Corp [0] mission and of the Enigma Prime descriptions.
+		*Enigma Corp [1a] can now only be offered 10 days after dropping the EC CEO off at Enigma Prime
+		*Move Enigma Zeta out of the Quarg visited system of Dahib and up to Betelgeuse.
+		*Enigma Prime is no longer abandoned before starting the EC mission; they just won't let you land without 1 million rep.
+		*Changed the fleets that spawn in the Enigma system; you'll now see actual Enigma fleets.
 	Balance
-		Rebalanced the capacity upgraders a lot to now compensate for ammunition mass.
-		Reduced the cost of Shrapnel Canisters (4000->1000).
-		Increased Missile Turret mass (15->18) as well as renaming it to the "Sidewinder Missile Turret."
-		Buffed the Hellfire Missile's lifetime by 50% (120->180).
-		Completely rebalanced all the Enigma Corp ships in the game so far. They are now not all top of their class and mainly are stock fitted with Navy gear (Ion engines and the many fusion/fission reactors).
+		*Rebalanced the capacity upgraders a lot to now compensate for ammunition mass.
+		*Reduced the cost of Shrapnel Canisters (4000->1000).
+		*Increased Missile Turret mass (15->18) as well as renaming it to the "Sidewinder Missile Turret."
+		*Buffed the Hellfire Missile's lifetime by 50% (120->180).
+		*Completely rebalanced all the Enigma Corp ships in the game so far. They are now not all top of their class and mainly are stock fitted with Navy gear (Ion engines and the many fusion/fission reactors).
+		*Buffed (nerfed?) the heat damage of the Cryo Beam (-0.1 -> -10) and set its disruption damage to positive.
 	Bug Fixes
-		The usual typo fixes.
-		Fixed some errors that were popping up in errors.txt.
-			Fixed a quote error on the Viper description.
-			Fixed an error on a few missions where fail was used instead of decline
-			Fixed an error where "reputation required" was used instead of "required reputation."
-				If the above error persists after updating then it has gone to your save file. Go to your save file and search for "reputation required" to replace it with "required reputation".
+		*The usual typo fixes.
+		*Fixed some errors that were popping up in errors.txt.
+			*Fixed a quote error on the Viper description.
+			*Fixed an error on a few missions where fail was used instead of decline.
+			*Fixed an error where "reputation required" was used instead of "required reputation."
+				*If the above error persists after updating then it has gone to your save file. Go to your save file and search for "reputation required" to replace it with "required reputation".
+		*Diamond Station is now a more appropriate distance from the planet it orbits.
+		*Put parentheses around choice actions in some missions for consistency with vanilla.
 	Misc
-		Removed all @2x files from the plugin. An independent @2x plugin will be created later.
-		Created a copyright file.
-		Added a file in to the mod that will only be useable when the World Forge mod is also downloaded. It makes Enigma Corp outfits and ships appear on the Mods and Forge planets, as well as some of it being on the Human planet.
-		Removed useless Thumbs.db files.
-		Resized a lot of the Echo ships, as many of them were bigger than they should have been.
+		*Removed all @2x files from the plugin. An independent @2x plugin will be created later.
+		*Created a copyright file.
+		*Added a file in to the mod that will only be useable when the World Forge mod is also downloaded. It makes Enigma Corp outfits and ships appear on the Mods and Forge planets, as well as some of it being on the Human planet.
+		*Removed useless Thumbs.db files.
+		*Resized a lot of the Echo ships, as many of them were bigger than they should have been.
 
 V0.5.4 and a half
   Content
