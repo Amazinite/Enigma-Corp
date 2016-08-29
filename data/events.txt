@@ -27,7 +27,7 @@ mission "Termini"
 	landing
 	invisible
 	to offer
-		has "free worlds plot completed"
+		has "main plot completed"
 	on offer
 		event "Termini Appear" 15
 		fail
