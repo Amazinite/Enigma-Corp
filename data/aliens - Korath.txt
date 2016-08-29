@@ -37,9 +37,9 @@ outfit "Korath Disruptor Gun"
 	category "Guns"
 	cost 560000
 	thumbnail "outfit/disruptor gun"
-	"mass" 25
-	"outfit space" -25
-	"weapon capacity" -25
+	"mass" 28
+	"outfit space" -28
+	"weapon capacity" -28
 	"gun ports" -1
 	weapon
 		sprite "projectile/disruptor"
