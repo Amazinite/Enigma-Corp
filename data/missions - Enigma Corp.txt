@@ -18,7 +18,7 @@ mission "Enigma Corp [0]"
 		has "main plot completed"
 	on offer
 		conversation
-			`	You walk into the <origin> spaceport, getting some nasty looks from people nearby as usual and the feeling that someone really wants to stab you right now.`
+			`You walk into the <origin> spaceport, getting some nasty looks from people nearby as usual and the feeling that someone really wants to stab you right now.`
 			`	You head on over to the bar to grab a drink and notice the man seated next to you is wearing a suit. Normally this wouldn't be something to worry about, but you find it rather odd considering the setting of mostly dirty, raggedy space pirates.`
 			`	As you take a sip of your drink, the man turns to you.`
 			`	"I can tell this isn't the kind of place you normally go to. You think you could help me out?"`
@@ -168,15 +168,8 @@ mission "Enigma Corp [1a]"
 			choice
 				`	That is way too long. Do you think I could talk to him right now?`
 					goto now
-#				`	"Sure, I'll schedule it for then."`
-#					goto schedule
 				`	"You know what, nevermind."`
 					defer
-			
-			label schedule
-			`	"Sign here, here, and initial here please. Come back in exactly 120 days and Mr. Dolent will be waiting for you near the landing pads."`
-			`	"Thank you."`
-				decline
 				
 			label looking
 			`	"Have a nice day then."`
@@ -404,9 +397,9 @@ mission "Enigma Corp [1a]"
 			
 	on complete
 		payment 1000000
-		event "Star Guardian" 14
+		event "Star Guardian" 30
 		conversation
-			`	As you step out of your ship, Mr. Dolent is already waiting on the platform for you.`
+			`As you step out of your ship, Mr. Dolent is already waiting on the platform for you.`
 			`	"Did you get good results?"`
 			choice
 				`	"It went perfectly. That frigate never stood a chance."`
@@ -419,7 +412,7 @@ mission "Enigma Corp [1a]"
 				goto payment
 
 			label consistent
-			`	"We had noticed that during testing, but there wasn't much of a way around it without directly damaging the ship. It will just have to stay that way for now."`
+			`	"We had noticed that during testing, but there wasn't much of a way around it without directly damaging the ship. It will just have to stay that way until we can develop some sort of field technology that will allow it to be more consistent."`
 			`	We'll make sure to start producing as many as we can right away. If you want to buy some of your own, just come back in a few weeks."`
 				goto payment
 
@@ -444,30 +437,42 @@ mission "Enigma Corp [1b]"
 			`You receive a message from Enigma Corp.`
 			`	"<last>, the EC-078 is ready for testing, and the EC-070 is now open to the public. Come stop on by if you want to help test out the EC-078."`
 			choice
-				`	Test the EC-078.`
+				`	"Sure. I should arrive in a few day's time,"`
 					accept
-				`	Screw that.`
+				`	"Sorry, but I am rather busy at the moment. Would you be able to wait for me?"`
+					goto busy
+
+			label busy
+			`	"I'm on a tight schedule, so if you don't do it then we'll simply have someone else do it in your place."
+			choice
+				`	"I suppose I could make some time for it. I'll be there as soon as possible."`
+					accept
+				`	"Well I don't have any time to help, so you'll have to find someone else. "`
 					decline
+
+	on decline
+		event "Dire Hawk" 120
+
 	on complete
 		conversation
-			`	You walk over to the reception desk and ask for Mr. Dolent. The receptionist sends you down to the conference room that you talked to Mr. Dolent with in before.`
-			`	You find Mr. Dolent staring out at the two stars at the center of the solar system. He doesn't notice you at first.`
+			`You walk over to the reception desk and ask for Mr. Dolent. The receptionist sends you down to the same conference room that you first spoke with Mr. Dolent in.`
+			`	You find Mr. Dolent staring out the room's window towards the system center, the large star slowly being devoured by the small one. He doesn't seem to notice you.`
 			choice
-				`	Cough to get his attention.`
-					goto cough
-				`	Wait.`
+				`	"Hello."`
+					goto hello
+				`	(Wait.)`
 					goto wait
 
-			label cough
+			label hello
 			`	"Oh, <last>. I didn't see you come in."`
 			`	"How's it been?"`
 			choice
-				`	"Nothing much."`
-					goto anyways
-				`	"I ended up fighting a few aliens here and there."`
+				`	"Fairly normal, at least by my standards."`
 					goto anyways
 				`	"Making money as usual."`
 					goto anyways
+				`	"Not too well, considering that I recently lost some important ships in my fleet."`
+					goto bad
 
 			label wait
 			`	The room is silent for a few minutes until Mr. Dolent breaks the silence.`
@@ -476,17 +481,20 @@ mission "Enigma Corp [1b]"
 			`	"Whatever, I like to just sit and think in silence.`
 				goto anyways
 
+			label bad
+			`	Mr. Dolent looks you in the eyes and appears to frown. "Oh, well that's too bad."`
+
 			label anyways
 			`	"Anyways, the EC-078s are ready for testing."`
-			`	"There are a bunch of automated ships that we're going to use to test the EC-078s. All I really need you to do is supervise to make sure none of the 78s gets blown up."`
-			`	"Have the EC-078s cloak near the drone ships and make sure that they really do work. After that just go ahead and blow up the drones and land back here."`
-			`	"I need to go right now, so once you get the data, just pass off the data to the receptionist or something."`
+			`	"We have an automated Firebird that will be used to test the EC-078s. All I need you to do is supervise to make sure none of the 78s get blown up."`
+			`	"Have the EC-078s cloak near the Firebird and make sure that they work. After that just go ahead and blow up the drone before landing back here."`
+			`	"I will be leaving for an... uh... business trip in a few minutes, so once you finish testing the cloaks my receptionist shall be waiting near the landing pads to retrieve the data."`
 
 mission "Enigma Corp [1c]"
 	source "Enigma Prime"
 	landing
 	name "Another Brand New Car"
-	description "Test the EC-078 cloaks on the drone ships."
+	description "Test the EC-078 cloaks on the drone ship."
 	destination "Enigma Prime"
 	to offer
 		has "Enigma Corp [1b]: done"
@@ -516,13 +524,12 @@ mission "Enigma Corp [1c]"
 				"EC-069 'Star King'"
 				
 	on fail
-		"reputation: Enigma Corp" = -100
+		"reputation: Enigma Corp" = -1
 				
 	on complete
 		payment 1000000
-		event "Dire Hawk" 7
-		conversation
-			`	After returning to Enigma Prime with the EC-078s, you pass off the data about the prototype cloaking devices to the receptionist. She then hands you a credit chip for payments. <payment>.`
+		event "Dire Hawk" 45
+		dialog `After returning to Enigma Prime with the EC-078s, you pass off the data about the prototype cloaking devices to the receptionist. She then hands you a credit chip for payment. <payment>. "We will have produced enough EC-078 to begin selling them in a few weeks," the receptionist says to you before leaving into the halls of the massive station.`
 		
 event "Dire Hawk"
 	shipyard "EC-0"
