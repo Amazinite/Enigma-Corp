@@ -8,7 +8,7 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 		
-mission "Typhoon Cap"
+mission "Typhoon Cap-Up"
 	landing
 	invisible
 	to offer
@@ -19,11 +19,11 @@ mission "Typhoon Cap"
 		
 event "Typhoon Cap"
 	outfitter "Deep Sky Basic"
-		"Typhoon Cap. Up."
+		"Typhoon Cap-Up"
 	outfitter "Deep Sky Advanced"
-		"Typhoon Cap. Up."
+		"Typhoon Cap-Up"
 
-mission "Termini"
+mission "Termini Appear"
 	landing
 	invisible
 	to offer
@@ -35,50 +35,75 @@ mission "Termini"
 event "Termini Appear"
 	system "Deneb"
 		fleet "Termini Scout" 10000
-		fleet "Small Core Merchants" 700
-		fleet "Large Core Merchants" 800
-		fleet "Small Syndicate" 2000
-		fleet "Small Core Pirates" 4000
+		fleet "Small Core Merchants" 400
+		fleet "Large Core Merchants" 600
+		fleet "Small Northern Merchants" 1000
+		fleet "Large Northern Merchants" 3000
+		fleet "Small Republic" 700
+		fleet "Large Republic" 900
+		fleet "Small Syndicate" 1200
+		fleet "Large Syndicate" 2000
 	system "Vega"
 		fleet "Termini Scout" 15000
-		fleet "Small Southern Merchants" 500
-		fleet "Large Southern Merchants" 1500
-		fleet "Small Republic" 3000
+		fleet "Small Northern Merchants" 800
+		fleet "Large Northern Merchants" 3000
+		fleet "Small Republic" 800
+		fleet "Large Republic" 1200
+		fleet "Small Enigma Merchants" 1000
+		fleet "Large Enigma Merchants" 2000
+		fleet "Small Enigma Military" 3000
+		fleet "Large Enigma Military" 6000
 	system "Altair"
 		fleet "Termini Scout" 15000
 		fleet "Small Core Merchants" 400
 		fleet "Large Core Merchants" 600
 		fleet "Small Northern Merchants" 1000
 		fleet "Large Northern Merchants" 3000
-		fleet "Small Republic" 2000
-		fleet "Large Republic" 6000
-		fleet "Small Syndicate" 9000
+		fleet "Small Republic" 700
+		fleet "Large Republic" 900
+		fleet "Small Enigma Merchants" 1000
+		fleet "Large Enigma Merchants" 2000
+		fleet "Small Enigma Military" 3000
+		fleet "Large Enigma Military" 6000
 	system "Delta Capricorni"
 		fleet "Termini Scout" 15000
 		fleet "Small Core Merchants" 700
 		fleet "Large Core Merchants" 800
-		fleet "Small Syndicate" 2000
-		fleet "Small Core Pirates" 4000
+		fleet "Small Syndicate" 500
+		fleet "Large Syndicate" 600
+		fleet "Small Enigma Merchants" 1200
+		fleet "Large Enigma Merchants" 2400
+		fleet "Small Enigma Military" 3600
+		fleet "Large Enigma Military" 7200
 	system "Alderamin"
 		fleet "Termini Scout" 15000
 		fleet "Small Core Merchants" 2000
 		fleet "Large Core Merchants" 3200
-		fleet "Small Syndicate" 800
-		fleet "Large Syndicate" 800
-		fleet "Small Core Pirates" 1000
-		fleet "Large Core Pirates" 1200
+		fleet "Small Syndicate" 700
+		fleet "Large Syndicate" 900
+		fleet "Small Enigma Merchants" 1400
+		fleet "Large Enigma Merchants" 2800
+		fleet "Small Enigma Military" 4200
+		fleet "Large Enigma Military" 8400
 	system "Rasalhague"
 		fleet "Termini Scout" 15000
 		fleet "Small Southern Merchants" 1500
 		fleet "Large Southern Merchants" 2000
-		fleet "Small Southern Pirates" 4000
-		fleet "Large Southern Pirates" 8000
+		fleet "Small Republic" 1200
+		fleet "Large Republic" 2500
+		fleet "Small Enigma Merchants" 1600
+		fleet "Large Enigma Merchants" 3200
+		fleet "Small Enigma Military" 4800
+		fleet "Large Enigma Military" 9600
 	system "Zeta Aquilae"
 		fleet "Termini Scout" 15000
 		fleet "Small Southern Merchants" 1000
 		fleet "Large Southern Merchants" 3000
-		fleet "Small Southern Pirates" 2000
-		fleet "Large Southern Pirates" 5000
+		fleet "Small Republic" 1000
+		fleet "Large Republic" 2000
+		fleet "Small Enigma Merchants" 1800
+		fleet "Large Enigma Merchants" 3600
+		fleet "Small Enigma Military" 5400
 
 event "Termini Wormhole"
 	system "World's End"
