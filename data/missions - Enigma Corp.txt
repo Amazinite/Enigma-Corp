@@ -416,7 +416,7 @@ mission "Enigma Corp [1a]"
 
 			label consistent
 			`	"We had noticed that during testing, but there wasn't much of a way around it without directly damaging the ship. It will just have to stay that way until we can develop some sort of field technology that will allow it to be more consistent."`
-			`	We'll make sure to start producing as many as we can right away. If you want to buy some of your own, just come back in a few weeks."`
+			`	"We'll make sure to start producing as many as we can right away. If you want to buy some of your own, just come back in a few weeks."`
 				goto payment
 
 			label payment
