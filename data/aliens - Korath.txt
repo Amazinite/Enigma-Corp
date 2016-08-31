@@ -65,6 +65,7 @@ ship "Model 16" "Model 16 (Disruptor)"
 		"Generator (Inferno Class)"
 		"Systems Core (Small)"
 		"Small Heat Shunt"
+		"Reasoning Node"
 		
 		"Thruster (Planetary Class)"
 		"Steering (Lunar Class)"
@@ -80,6 +81,7 @@ ship "Model 32" "Model 32 (Dual Slicers)"
 		"Generator (Candle Class)"
 		"Systems Core (Small)"
 		"Small Heat Shunt" 2
+		"Reasoning Node"
 		
 		"Thruster (Planetary Class)"
 		"Steering (Lunar Class)"
@@ -95,6 +97,7 @@ ship "Model 32" "Model 32 (Slicer)"
 		"Generator (Candle Class)"
 		"Systems Core (Small)"
 		"Small Heat Shunt" 2
+		"Reasoning Node"
 		
 		"Thruster (Planetary Class)"
 		"Steering (Lunar Class)"
@@ -109,6 +112,7 @@ ship "Model 64" "Model 64 (Dual Slicers)"
 		"Generator (Furnace Class)"
 		"Systems Core (Medium)"
 		"Small Heat Shunt" 2
+		"Reasoning Node" 2
 		
 		"Thruster (Lunar Class)"
 		"Thruster (Asteroid Class)"
@@ -126,6 +130,7 @@ ship "Model 64" "Model 64 (Slicer)"
 		"Generator (Candle Class)"
 		"Systems Core (Small)"
 		"Large Heat Shunt"
+		"Reasoning Node" 2
 		
 		"Thruster (Lunar Class)"
 		"Thruster (Asteroid Class)"
@@ -141,6 +146,7 @@ ship "Model 128" "Model 128 (Disruptor)"
 		"Double Plasma Core" 2
 		"Systems Core (Medium)"
 		"Large Heat Shunt" 2
+		"Reasoning Node" 2
 		
 		"Thruster (Planetary Class)"
 		"Steering (Planetary Class)"
@@ -155,6 +161,7 @@ ship "Model 128" "Model 128 (Dual Slicers)"
 		"Generator (Inferno Class)"
 		"Systems Core (Medium)"
 		"Large Heat Shunt"
+		"Reasoning Node" 2
 		
 		"Thruster (Planetary Class)"
 		"Steering (Planetary Class)"
@@ -172,6 +179,7 @@ ship "Model 256" "Model 256 (Disruptor)"
 		"Systems Core (Large)"
 		"Large Heat Shunt"
 		"Small Heat Shunt" 2
+		"Reasoning Node" 3
 		
 		"Thruster (Planetary Class)"
 		"Steering (Planetary Class)"
@@ -188,6 +196,7 @@ ship "Model 256" "Model 256 (Mines)"
 		"Triple Plasma Core"
 		"Systems Core (Large)"
 		"Large Heat Shunt" 2
+		"Reasoning Node" 3
 		
 		"Thruster (Planetary Class)"
 		"Steering (Planetary Class)"
@@ -203,6 +212,7 @@ ship "Model 512" "Model 512 (Dual Slicers)"
 		"Systems Core (Large)"
 		"Large Heat Shunt" 2
 		"Small Heat Shunt" 2
+		"Reasoning Node" 3
 		
 		"Thruster (Planetary Class)"
 		"Steering (Stellar Class)"
@@ -220,6 +230,7 @@ ship "Model 512" "Model 512 (Disruptor)"
 		"Systems Core (Medium)"
 		"Large Heat Shunt" 2
 		"Small Heat Shunt" 2
+		"Reasoning Node" 3
 		
 		"Thruster (Planetary Class)"
 		"Steering (Stellar Class)"
