@@ -549,14 +549,8 @@ system Enigma
 	fleet "Oblivion" 25000
 	fleet "Keeper" 75000
 	object
-		sprite star/f0
-		distance 11.8889
-		period 8.24972
-	object
-		sprite star/k5
-		distance 95.1111
-		period 8.24972
-		offset 180
+		sprite "star/devoured star"
+		period 10
 	object
 		sprite planet/gas5
 		distance 664.041
@@ -1566,11 +1560,16 @@ system Termara
 	asteroids "small metal" 3 2.5228
 	minables neodymium 8 3.1412
 	minables uranium 5 2.9358
-	fleet "Small Northern Merchants" 2500
-	fleet "Large Northern Merchants" 5500
-	fleet "Small Deep" 4000
-	fleet "Large Deep" 6500
-	fleet "Large Northern Pirates" 8000
+	fleet "Small Enigma Merchants" 750
+	fleet "Large Enigma Merchants" 1500
+	fleet "Small Enigma Military" 2250
+	fleet "Large Enigma Military" 4500
+	fleet "Small Northern Merchants" 1000
+	fleet "Large Northern Merchants" 2500
+	fleet "Small Northern Pirates" 1500
+	fleet "Large Northern Pirates" 2500
+	fleet "Small Deep" 2000
+	fleet "Large Deep" 4000
 	object
 		sprite star/wr
 		distance 11.8889
