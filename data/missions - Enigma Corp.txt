@@ -63,6 +63,9 @@ mission "Enigma Corp [0]"
 	on accept
 		event "Enigma Prime Open"
 		"reputation: Enigma Corp" += 20
+	
+	on decline
+		"reputation: Enigma Corp" = -1
 
 	on complete
 		event "Talk to Dolent" 10
@@ -396,9 +399,11 @@ mission "Enigma Corp [1a]"
 		fleet "Large Northern Pirates"
 		
 	on decline
+		"reputation: Enigma Corp" --
 		event "Star Guardian" 90
 			
 	on complete
+		"reputation: Enigma Corp" ++
 		payment 1000000
 		event "Star Guardian" 30
 		conversation
@@ -458,7 +463,11 @@ mission "Enigma Corp [1b1]"
 				decline
 
 	on decline
-		event "Dire Hawk" 180
+		"reputation: Enigma Corp" --
+		event "Dire Hawk" 120
+	
+	on complete
+		"reputation: Enigma Corp" ++
 
 mission "Enigma Corp [1b2]"
 	landing
@@ -488,11 +497,15 @@ mission "Enigma Corp [1b2]"
 					goto decline
 					
 			label decline
-			`	"Well that's too bad. Hopefully you find some time later to help out."`
+			`	"Well that's too bad. Hopefully you will eventually find some time to help out."`
 				decline
 
 	on decline
-		event "Dire Hawk" 120
+		"reputation: Enigma Corp" --
+		event "Dire Hawk" 180
+	
+	on complete
+		"reputation: Enigma Corp" ++
 
 ship "Quicksilver" "Quicksilver (Automaton)"
 	attributes
@@ -595,8 +608,12 @@ mission "Enigma Corp [1c]"
 				
 	on fail
 		"reputation: Enigma Corp" = -1
-				
+	
+	on decline
+		"reputation: Enigma Corp" --
+	
 	on complete
+		"reputation: Enigma Corp" ++
 		payment 1000000
 		event "Dire Hawk" 45
 		dialog `After returning to Enigma Prime with the EC-078, you pass off the data about the prototype cloaking devices to the receptionist. She then hands you a credit chip for payment. <payment>.`
