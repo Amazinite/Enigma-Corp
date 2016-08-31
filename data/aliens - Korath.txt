@@ -64,7 +64,6 @@ ship "Model 16" "Model 16 (Disruptor)"
 		"Plasma Core"
 		"Generator (Inferno Class)"
 		"Systems Core (Small)"
-		"Small Heat Shunt"
 		"Reasoning Node"
 		
 		"Thruster (Planetary Class)"
