@@ -1060,7 +1060,7 @@ system "Kaus Borealis"
 	fleet "Small Enigma Military" 4800
 	fleet "Large Enigma Military" 9600
 
-# 7. Free Worlds
+# 7 Free Worlds
 system Kochab
 	fleet "Small Southern Merchants" 2000
 	fleet "Large Southern Merchants" 6000
