@@ -10,6 +10,7 @@
 
 mission "Fleet Compat 1"
 	landing
+	invisible
 	to offer
 		has "event: war begins"
 	on offer
@@ -74,6 +75,7 @@ event "fleet compat 1"
 
 mission "Fleet Compat 2"
 	landing
+	invisible
 	to offer
 		has "event: initial deployment 1"
 	on offer
@@ -218,6 +220,7 @@ event "fleet compat 2"
 
 mission "Fleet Compat 3"
 	landing
+	invisible
 	to offer
 		has "event: initial deployment 2"
 	on offer
@@ -465,6 +468,7 @@ event "fleet compat 3"
 
 mission "Fleet Compat 4"
 	landing
+	invisible
 	to offer
 		has "event: initial deployment 3"
 	on offer
@@ -582,6 +586,7 @@ event "fleet compat 4"
 
 mission "Fleet Compat 5"
 	landing
+	invisible
 	to offer
 		has "event: initial deployment 4"
 	on offer
@@ -694,6 +699,7 @@ event "fleet compat 5"
 
 mission "Fleet Compat 6"
 	landing
+	invisible
 	to offer
 		has "event: capture of Kornephoros"
 	on offer
@@ -721,6 +727,7 @@ event "fleet compat 6"
 
 mission "Fleet Compat 7"
 	landing
+	invisible
 	to offer
 		has "event: recapture of Kornephoros"
 	on offer
@@ -747,6 +754,7 @@ event "fleet compat 7"
 
 mission "Fleet Compat 8"
 	landing
+	invisible
 	to offer
 		has "event: oathkeepers founded"
 	on offer
@@ -868,6 +876,7 @@ event "fleet compat 8"
 
 mission "Fleet Compat 9"
 	landing
+	invisible
 	to offer
 		has "event: fw suppressed Greenrock"
 	on offer
@@ -886,6 +895,7 @@ event "fleet compat 9"
 
 mission "Fleet Compat 10"
 	landing
+	invisible
 	to offer
 		has "event: fw abandoned Greenrock"
 	on offer
@@ -907,6 +917,7 @@ event "fleet compat 10"
 
 mission "Fleet Compat 11"
 	landing
+	invisible
 	to offer
 		has "event: navy occupying the south"
 	on offer
@@ -948,6 +959,7 @@ event "fleet compat 11"
 
 mission "Fleet Compat 12"
 	landing
+	invisible
 	to offer
 		has "event: gunboats in Alnasl"
 	on offer
@@ -965,6 +977,7 @@ event "fleet compat 12"
 
 mission "Fleet Compat 13"
 	landing
+	invisible
 	to offer
 		has "event: normal in Alnasl"
 	on offer
@@ -985,6 +998,7 @@ event "fleet compat 13"
 
 mission "Fleet Compat 14"
 	landing
+	invisible
 	to offer
 		has "event: fw southern expansion"
 	on offer
@@ -1069,6 +1083,7 @@ event "fleet compat 14"
 
 mission "Fleet Compat 15"
 	landing
+	invisible
 	to offer
 		has "event: fw occupying the north"
 	on offer
@@ -1126,6 +1141,7 @@ event "fleet compat 15"
 
 mission "Fleet Compat 16"
 	landing
+	invisible
 	to offer
 		has "event: albatross joins free worlds"
 	on offer
@@ -1145,6 +1161,7 @@ event "fleet compat 16"
 
 mission "Fleet Compat 17"
 	landing
+	invisible
 	to offer
 		has "event: fw expanded and cut"
 	on offer
@@ -1200,6 +1217,7 @@ event "fleet compat 17"
 
 mission "Fleet Compat 18"
 	landing
+	invisible
 	to offer
 		has "event: fw at war with Syndicate"
 	on offer
@@ -1231,6 +1249,7 @@ event "fleet compat 18"
 
 mission "Fleet Compat 19"
 	landing
+	invisible
 	to offer
 		has "event: fw armistice"
 	on offer
@@ -1270,6 +1289,7 @@ event "fleet compat 19"
 
 mission "Fleet Compat 20"
 	landing
+	invisible
 	to offer
 		has "event: navy out of rastaban"
 	on offer
@@ -1335,6 +1355,7 @@ event "fleet compat 20"
 
 mission "Fleet Compat 21"
 	landing
+	invisible
 	to offer
 		has "event: syndicate occupies sol"
 	on offer
@@ -1358,6 +1379,7 @@ event "fleet compat 21"
 
 mission "Fleet Compat 22"
 	landing
+	invisible
 	to offer
 		has "event: pug invasion 4"
 	on offer
@@ -1458,6 +1480,7 @@ event "fleet compat 22"
 
 mission "Fleet Compat 23"
 	landing
+	invisible
 	to offer
 		has "event: fw syndicate welcoming"
 	on offer
@@ -1475,6 +1498,7 @@ event "fleet compat 23"
 
 mission "Fleet Compat 24"
 	landing
+	invisible
 	to offer
 		has "event: pug flee"
 	on offer
@@ -1582,6 +1606,7 @@ event "fleet compat 24"
 
 mission "Fleet Compat 25"
 	landing
+	invisible
 	to offer
 		has "event: pug territory liberated"
 	on offer
@@ -1603,6 +1628,7 @@ event "fleet compat 25"
 
 mission "Fleet Compat 26"
 	landing
+	invisible
 	to offer
 		has "event: navy occupies algenib"
 	on offer
@@ -1628,6 +1654,7 @@ event "fleet compat 26"
 
 mission "Fleet Compat 27"
 	landing
+	invisible
 	to offer
 		has "event: navy done with algenib"
 	on offer
@@ -1654,6 +1681,7 @@ event "fleet compat 27"
 
 mission "Fleet Compat 28"
 	landing
+	invisible
 	to offer
 		has "event: fwc southern battle"
 	on offer
@@ -1676,6 +1704,7 @@ event "fleet compat 28"
 
 mission "Fleet Compat 29"
 	landing
+	invisible
 	to offer
 		has "event: fwc southern liberation"
 	on offer
@@ -1729,6 +1758,7 @@ event "fleet compat 29"
 
 mission "Fleet Compat 30"
 	landing
+	invisible
 	to offer
 		has "event: fwc attack kaus borealis"
 	on offer
@@ -1752,6 +1782,7 @@ event "fleet compat 30"
 
 mission "Fleet Compat 31"
 	landing
+	invisible
 	to offer
 		has "event: fwc capture kaus borealis"
 	on offer
@@ -1780,6 +1811,7 @@ event "fleet compat 31"
 
 mission "Fleet Compat 32"
 	landing
+	invisible
 	to offer
 		has "event: fwc attack cebalrai"
 	on offer
@@ -1797,6 +1829,7 @@ event "fleet compat 32"
 
 mission "Fleet Compat 33"
 	landing
+	invisible
 	to offer
 		has "event: fwc capture cebalrai"
 	on offer
@@ -1826,6 +1859,7 @@ event "fleet compat 33"
 
 mission "Fleet Compat 34"
 	landing
+	invisible
 	to offer
 		has "event: fwc defended cebalrai"
 	on offer
@@ -1927,6 +1961,7 @@ event "fleet compat 34"
 
 mission "Fleet Compat 35"
 	landing
+	invisible
 	to offer
 		has "event: fwc capture menkent"
 	on offer
@@ -1947,6 +1982,7 @@ event "fleet compat 35"
 
 mission "Fleet Compat 36"
 	landing
+	invisible
 	to offer
 		has "event: fwc pug invasion"
 	on offer
@@ -2008,6 +2044,7 @@ event "fleet compat 36"
 
 mission "Fleet Compat 37"
 	landing
+	invisible
 	to offer
 		has "event: fwc navy retakes cebalrai"
 	on offer
@@ -2038,6 +2075,7 @@ event "fleet compat 37"
 
 mission "Fleet Compat 38"
 	landing
+	invisible
 	to offer
 		has "event: fwc peace with the navy"
 	on offer
@@ -2055,6 +2093,7 @@ event "fleet compat 38"
 
 mission "Fleet Compat 39"
 	landing
+	invisible
 	to offer
 		has "event: fwc liberation of rasalhague"
 	on offer
@@ -2116,6 +2155,7 @@ event "fleet compat 39"
 
 mission "Fleet Compat 40"
 	landing
+	invisible
 	to offer
 		has "event: fwc reconnect zeta aquilae"
 	on offer
@@ -2136,6 +2176,7 @@ event "fleet compat 40"
 
 mission "Fleet Compat 41"
 	landing
+	invisible
 	to offer
 		has "event: fwc reconnect vega"
 	on offer
@@ -2155,6 +2196,7 @@ event "fleet compat 41"
 
 mission "Fleet Compat 42"
 	landing
+	invisible
 	to offer
 		has "event: fwc reconnect vega"
 	on offer
