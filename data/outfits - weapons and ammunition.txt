@@ -213,7 +213,7 @@ outfit "Flux Missile Launcher"
 	"outfit space" -17
 	"weapon capacity" -17
 	"gun ports" -1
-	"flux capacity" 100
+	"flux capacity" 60
 	weapon
 		sprite "projectile/flux"
 			"no repeat"
@@ -245,9 +245,9 @@ outfit "Flux Missile Launcher"
 	
 outfit "Flux Missile"
 	category "Ammunition"
-	cost 1200
+	cost 1500
 	thumbnail "outfit/flux missile"
-	"mass" .15
+	"mass" .25
 	"flux capacity" -1
 	description "The Flux Missile is the ammunition used for the Flux Missile Launcher."
 	description "	The warhead of the Flux Missile is packed with a small electromagnetic charge that is designed to quickly deplete both the shields and energy reserves of the target ship, making the Flux Missile Launcher a formidable weapon against ships that are working on the edge of their energy generation."
@@ -439,11 +439,11 @@ outfit "Hellfire Missile Launcher"
 	category "Secondary Weapons"
 	cost 25000
 	thumbnail "outfit/hellfire launcher"
-	"mass" 2
-	"outfit space" -16
-	"weapon capacity" -16
+	"mass" 3
+	"outfit space" -13
+	"weapon capacity" -13
 	"gun ports" -1
-	"hellfire capacity" 70
+	"hellfire capacity" 100
 	weapon
 		sprite "projectile/hellfire"
 			"no repeat"
@@ -474,9 +474,9 @@ outfit "Hellfire Missile Launcher"
 	
 outfit "Hellfire Missile"
 	category "Ammunition"
-	cost 900
+	cost 350
 	thumbnail "outfit/hellfire"
-	"mass" .2
+	"mass" .1
 	"hellfire capacity" -1
 	description "The Hellfire Missiles are the standard ammunition for the Hellfire Missile Launcher."
 	description "To avoid complete legal suicide, the Corporation decided to change the design of the Meteor Missile to make it a different missile entirely. The Hellfire Missile has a higher velocity, better homing capabilities, and a higher explosive yeild compared to its Meteor Missile cousin, but at the cost of lasting a much shorter amount of time and doing far less shield damage."

@@ -40,17 +40,17 @@ outfit "Hellfire Cap-Up"
 	cost 15000
 	thumbnail "outfit/hellfire cap"
 	"mass" 2
-	"outfit space" -8
-	"hellfire capacity" 30
+	"outfit space" -7
+	"hellfire capacity" 50
 	description "The Hellfire Capacity Upgrader will increase the amount of secondary ammo you can carry for your Hellfire Missile Launcher."
 
 outfit "Flux Missile Cap-Up"
 	category "Ammunition"
 	cost 45000
 	thumbnail "outfit/flux cap"
-	"mass" 2
-	"outfit space" -8
-	"flux capacity" 40
+	"mass" 1.5
+	"outfit space" -9
+	"flux capacity" 30
 	description "The Flux Capacity Upgrader will increase the amount of secondary ammo you can carry for your Flux Missile Launcher."
 
 outfit "Heavy Rocket Cap-Up"

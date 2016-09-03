@@ -151,8 +151,8 @@ ship "EC-032 'Rattlesnake'"
 		"outfit space" 400
 		"weapon capacity" 150
 		"engine capacity" 110
-		"hellfire capacity" 245
-		"flux capacity" 350
+		"hellfire capacity" 350
+		"flux capacity" 210
 		weapon
 			"blast radius" 80
 			"shield damage" 800
@@ -160,7 +160,7 @@ ship "EC-032 'Rattlesnake'"
 			"hit force" 1200
 	outfits
 		"Hellfire Missile Launcher" 7
-		"Hellfire Missile" 735
+		"Hellfire Missile" 1050
 		"Anti-Missile Turret" 2
 
 		"Fission Reactor"
@@ -206,8 +206,8 @@ ship "EC-033 'King Cobra'"
 		"outfit space" 590
 		"weapon capacity" 200
 		"engine capacity" 180
-		"hellfire capacity" 350
-		"flux capacity" 500
+		"hellfire capacity" 500
+		"flux capacity" 300
 		weapon
 			"blast radius" 160
 			"shield damage" 1600
@@ -215,7 +215,7 @@ ship "EC-033 'King Cobra'"
 			"hit force" 2400
 	outfits
 		"Hellfire Missile Launcher" 10
-		"Hellfire Missile" 1050
+		"Hellfire Missile" 1500
 		"Heavy Anti-Missile Turret"
 
 		"Fusion Reactor"
