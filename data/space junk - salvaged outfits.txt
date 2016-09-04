@@ -9,6 +9,21 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 # Engines
+#
+# Engine variants:
+#	125% energy and heat requirement; "Busted."
+#	75% thrust/heat at same energy; "Broken inputs."
+#	150% heat production; "Running hot."
+#	150% energy requirement; "Faulty wiring."
+#	125% increased outfit/weapon/engine space; "Dented up."
+#	20% constant energy and heat; "Unstable"
+#	50% mass efficiency but 200% better energy/heat efficiency; "Something strange."
+#	+ Hybrid Engines only:
+#		No steering; "Broken steering."
+#		No thrusting; "Broken thrusters."
+#	+ Afterburners only:
+#		150% fuel requirement; "Broken fuel pipe."
+
 outfit "Salvaged Afterburner"
 	category "Engines"
 	"cost" 52500
@@ -20,6 +35,7 @@ outfit "Salvaged Afterburner"
 	"afterburner fuel" .5
 	"afterburner heat" 10.0
 	"afterburner effect" "afterburner"
+	description "A salvaged Afterburner, only slightly damaged, but still useable."
 
 outfit "Salvaged Ionic 'Burner"
 	category "Engines"
@@ -33,6 +49,7 @@ outfit "Salvaged Ionic 'Burner"
 	"afterburner energy" 5.1
 	"afterburner heat" 12.0
 	"afterburner effect" "ionic afterburner"
+	description "A salvaged Ionic Afterburner, only slightly damaged, but still useable."
 
 outfit "Salvaged X1050 Engines"
 	category "Engines"
@@ -50,6 +67,7 @@ outfit "Salvaged X1050 Engines"
 	"flare sprite" "effect/ion flare/tiny"
 		"frame rate" 1.2
 	"flare sound" "ion tiny"
+	description "Salvaged X1050 Ion Engines, only slightly damaged, but still useable."
 
 outfit "Salvaged X1700 Thruster"
 	category "Engines"
@@ -64,6 +82,7 @@ outfit "Salvaged X1700 Thruster"
 	"flare sprite" "effect/ion flare/tiny"
 		"frame rate" 1.2
 	"flare sound" "ion tiny"
+	description "A salvaged X1700 Ion Thruster, only slightly damaged, but still useable."
 
 outfit "Salvaged X2700 Thruster"
 	category "Engines"
@@ -78,6 +97,7 @@ outfit "Salvaged X2700 Thruster"
 	"flare sprite" "effect/ion flare/small"
 		"frame rate" 1.1
 	"flare sound" "ion small"
+	description "A salvaged X2700 Ion Thruster, only slightly damaged, but still useable."
 
 outfit "Salvaged X3700 Thruster"
 	category "Engines"
@@ -92,6 +112,7 @@ outfit "Salvaged X3700 Thruster"
 	"flare sprite" "effect/ion flare/medium"
 		"frame rate" 1.0
 	"flare sound" "ion medium"
+	description "A salvaged X3700 Ion Thruster, only slightly damaged, but still useable."
 
 outfit "Salvaged X4700 Thruster"
 	category "Engines"
@@ -106,6 +127,7 @@ outfit "Salvaged X4700 Thruster"
 	"flare sprite" "effect/ion flare/big"
 		"frame rate" 0.9
 	"flare sound" "ion large"
+	description "A salvaged X4700 Ion Thruster, only slightly damaged, but still useable."
 
 outfit "Salvaged X5700 Thruster"
 	category "Engines"
@@ -120,6 +142,7 @@ outfit "Salvaged X5700 Thruster"
 	"flare sprite" "effect/ion flare/huge"
 		"frame rate" 0.8
 	"flare sound" "ion huge"
+	description "A salvaged X5700 Ion Thruster, only slightly damaged, but still useable."
 
 outfit "Salvaged X1200 Steering"
 	category "Engines"
@@ -131,6 +154,7 @@ outfit "Salvaged X1200 Steering"
 	"turn" 160
 	"turning energy" .3
 	"turning heat" .6
+	description "Salvaged X1200 Ion steering, only slightly damaged, but still useable."
 
 outfit "Salvaged X2200 Steering"
 	category "Engines"
@@ -142,6 +166,7 @@ outfit "Salvaged X2200 Steering"
 	"turn" 307
 	"turning energy" .6
 	"turning heat" 1.1
+	description "Salvaged X2200 Ion steering, only slightly damaged, but still useable."
 
 outfit "Salvaged X3200 Steering"
 	category "Engines"
@@ -153,6 +178,7 @@ outfit "Salvaged X3200 Steering"
 	"turn" 590
 	"turning energy" 1.1
 	"turning heat" 2.0
+	description "Salvaged X3200 Ion steering, only slightly damaged, but still useable."
 
 outfit "Salvaged X4200 Steering"
 	category "Engines"
@@ -164,6 +190,7 @@ outfit "Salvaged X4200 Steering"
 	"turn" 1132
 	"turning energy" 1.9
 	"turning heat" 3.9
+	description "Salvaged X4200 Ion steering, only slightly damaged, but still useable."
 
 outfit "Salvaged X5200 Steering"
 	category "Engines"
@@ -175,6 +202,7 @@ outfit "Salvaged X5200 Steering"
 	"turn" 2174
 	"turning energy" 3.5
 	"turning heat" 7.3
+	description "Salvaged X5200 Ion steering, only slightly damaged, but still useable."
 
 outfit "Salvaged Chipmunk Thruster"
 	category "Engines"
@@ -189,6 +217,7 @@ outfit "Salvaged Chipmunk Thruster"
 	"flare sprite" "effect/plasma flare/tiny"
 		"frame rate" 5
 	"flare sound" "plasma tiny"
+	description "A salvaged Chipmunk Plasma Thruster, only slightly damaged, but still useable."
 
 outfit "Salvaged Greyhound Thruster"
 	category "Engines"
@@ -203,6 +232,7 @@ outfit "Salvaged Greyhound Thruster"
 	"flare sprite" "effect/plasma flare/small"
 		"frame rate" 6
 	"flare sound" "plasma small"
+	description "A salvaged Greyhound Plasma Thruster, only slightly damaged, but still useable."
 
 outfit "Salvaged Impala Thruster"
 	category "Engines"
@@ -217,6 +247,7 @@ outfit "Salvaged Impala Thruster"
 	"flare sprite" "effect/plasma flare/medium"
 		"frame rate" 7
 	"flare sound" "plasma medium"
+	description "A salvaged Impala Plasma Thruster, only slightly damaged, but still useable."
 
 outfit "Salvaged Orca Thruster"
 	category "Engines"
@@ -231,6 +262,7 @@ outfit "Salvaged Orca Thruster"
 	"flare sprite" "effect/plasma flare/big"
 		"frame rate" 8
 	"flare sound" "plasma large"
+	description "A salvaged Orca Plasma Thruster, only slightly damaged, but still useable."
 
 outfit "Salvaged Tyrant Thruster"
 	category "Engines"
@@ -245,6 +277,7 @@ outfit "Salvaged Tyrant Thruster"
 	"flare sprite" "effect/plasma flare/huge"
 		"frame rate" 9
 	"flare sound" "plasma huge"
+	description "A salvaged Tyrant Plasma Thruster, only slightly damaged, but still useable."
 
 outfit "Salvaged Chipmunk Steering"
 	category "Engines"
@@ -256,6 +289,7 @@ outfit "Salvaged Chipmunk Steering"
 	"turn" 256
 	"turning energy" .5
 	"turning heat" 1.1
+	description "Salvaged Chipmunk Plasma Steering, only slightly damaged, but still useable."
 
 outfit "Salvaged Greyhound Steering"
 	category "Engines"
@@ -267,6 +301,7 @@ outfit "Salvaged Greyhound Steering"
 	"turn" 492
 	"turning energy" 0.9
 	"turning heat" 2.1
+	description "Salvaged Greyhound Plasma Steering, only slightly damaged, but still useable."
 
 outfit "Salvaged Impala Steering"
 	category "Engines"
@@ -278,6 +313,7 @@ outfit "Salvaged Impala Steering"
 	"turn" 944
 	"turning energy" 1.6
 	"turning heat" 4.1
+	description "Salvaged Impala Plasma Steering, only slightly damaged, but still useable."
 
 outfit "Salvaged Orca Steering"
 	category "Engines"
@@ -289,6 +325,7 @@ outfit "Salvaged Orca Steering"
 	"turn" 1812
 	"turning energy" 2.9
 	"turning heat" 7.7
+	description "Salvaged Orca Plasma Steering, only slightly damaged, but still useable."
 
 outfit "Salvaged Tyrant Steering"
 	category "Engines"
@@ -300,6 +337,7 @@ outfit "Salvaged Tyrant Steering"
 	"turn" 3479
 	"turning energy" 5.2
 	"turning heat" 14.7
+	description "Salvaged Tyrant Plasma Steering, only slightly damaged, but still useable."
 
 outfit "Salvaged A120 Thruster"
 	category "Engines"
@@ -314,6 +352,7 @@ outfit "Salvaged A120 Thruster"
 	"flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 14
 	"flare sound" "atomic tiny"
+	description "A salvaged A120 Atomic Thruster, only slightly damaged, but still useable."
 
 outfit "Salvaged A250 Thruster"
 	category "Engines"
@@ -328,6 +367,7 @@ outfit "Salvaged A250 Thruster"
 	"flare sprite" "effect/atomic flare/small"
 		"frame rate" 13
 	"flare sound" "atomic small"
+	description "A salvaged A250 Atomic Thruster, only slightly damaged, but still useable."
 
 outfit "Salvaged A370 Thruster"
 	category "Engines"
@@ -342,6 +382,7 @@ outfit "Salvaged A370 Thruster"
 	"flare sprite" "effect/atomic flare/medium"
 		"frame rate" 12
 	"flare sound" "atomic medium"
+	description "A salvaged A370 Atomic Thruster, only slightly damaged, but still useable."
 
 outfit "Salvaged A520 Thruster"
 	category "Engines"
@@ -356,6 +397,7 @@ outfit "Salvaged A520 Thruster"
 	"flare sprite" "effect/atomic flare/large"
 		"frame rate" 11
 	"flare sound" "atomic large"
+	description "A salvaged A520 Atomic Thruster, only slightly damaged, but still useable."
 
 outfit "Salvaged A860 Thruster"
 	category "Engines"
@@ -370,6 +412,7 @@ outfit "Salvaged A860 Thruster"
 	"flare sprite" "effect/atomic flare/huge"
 		"frame rate" 10
 	"flare sound" "atomic huge"
+	description "A salvaged A860 Atomic Thruster, only slightly damaged, but still useable."
 
 outfit "Salvaged A125 Steering"
 	category "Engines"
@@ -381,6 +424,7 @@ outfit "Salvaged A125 Steering"
 	"turn" 392
 	"turning energy" 0.9
 	"turning heat" 2.2
+	description "Salvaged A125 Atomic Steering, only slightly damaged, but still useable."
 
 outfit "Salvaged A255 Steering"
 	category "Engines"
@@ -392,6 +436,7 @@ outfit "Salvaged A255 Steering"
 	"turn" 687
 	"turning energy" 1.5
 	"turning heat" 3.7
+	description "Salvaged A255 Atomic Steering, only slightly damaged, but still useable."
 
 outfit "Salvaged A375 Steering"
 	category "Engines"
@@ -403,6 +448,7 @@ outfit "Salvaged A375 Steering"
 	"turn" 1192
 	"turning energy" 2.5
 	"turning heat" 6.3
+	description "Salvaged A375 Atomic Steering, only slightly damaged, but still useable."
 
 outfit "Salvaged A525 Steering"
 	category "Engines"
@@ -414,6 +460,7 @@ outfit "Salvaged A525 Steering"
 	"turn" 2050
 	"turning energy" 4.1
 	"turning heat" 10.5
+	description "Salvaged A525 Atomic Steering, only slightly damaged, but still useable."
 
 outfit "Salvaged A865 Steering"
 	category "Engines"
@@ -425,6 +472,7 @@ outfit "Salvaged A865 Steering"
 	"turn" 3509
 	"turning energy" 6.6
 	"turning heat" 17.5
+	description "Salvaged A865 Atomic Steering, only slightly damaged, but still useable."
 
 outfit "Salvaged AR120 Thruster"
 	category "Engines"
@@ -436,9 +484,16 @@ outfit "Salvaged AR120 Thruster"
 	"reverse thrust" 15.4
 	"reverse thrusting energy" 1.8
 	"reverse thrusting heat" 3.5
+	description "A salvaged AR120 Reverse Thruster, only slightly damaged, but still useable."
 
 ##########################
 # Cooling
+#
+# Cooling variants:
+#	125% increased outfit/weapon/engine space; "Dented up."
+#	75% cooling ability; "Broken pipes."
+#	20% constant energy requirement; "Unstable."
+
 outfit "Salvaged Cooling Ducts"
 	category "Systems"
 	cost 7500
@@ -446,6 +501,7 @@ outfit "Salvaged Cooling Ducts"
 	"mass" 5
 	"outfit space" -5
 	"cooling" 5
+	description "Salvaged cooling ducts, only slightly damaged, but still useable."
 
 outfit "Salvaged Water Cooling"
 	category "Systems"
@@ -454,6 +510,7 @@ outfit "Salvaged Water Cooling"
 	"mass" 10
 	"outfit space" -10
 	"cooling" 12
+	description "A salvaged water coolant system, only slightly damaged, but still useable."
 
 outfit "Salvaged Nitrogen Cooler"
 	category "Systems"
@@ -462,6 +519,7 @@ outfit "Salvaged Nitrogen Cooler"
 	"mass" 20
 	"outfit space" -20
 	"cooling" 29
+	description "A salvaged liquid nitrogen cooler, only slightly damaged, but still useable."
 
 outfit "Salvaged Helium Cooler"
 	category "Systems"
@@ -470,9 +528,18 @@ outfit "Salvaged Helium Cooler"
 	"mass" 40
 	"outfit space" -40
 	"cooling" 69
+	description "A salvaged liquid helium cooler, only slightly damaged, but still useable."
 
 ##########################
 # Shields
+#
+# Shield variants:
+#	150% energy requirement (applies to both shield and constant); "Faulty wiring."
+#	150% heat production (applies to both shield and constant); "Running hot."
+#	125% increased outfit/weapon/engine space; "Dented up."
+#	75% less shield production/energy requirement; "Busted outputs."
+#	50% constant energy requirement; "Unstable."
+
 outfit "Salvaged D14-RN Shield"
 	category "Systems"
 	cost 15000
@@ -481,6 +548,7 @@ outfit "Salvaged D14-RN Shield"
 	"outfit space" -15
 	"shield generation" .2
 	"shield energy" .2
+	description "A salvaged D14-RN Shield Generator, only slightly damaged, but still useable."
 
 outfit "Salvaged D23-QP Shield"
 	category "Systems"
@@ -490,6 +558,7 @@ outfit "Salvaged D23-QP Shield"
 	"outfit space" -22
 	"shield generation" .32
 	"shield energy" .32
+	description "A salvaged D23-QP Shield Generator, only slightly damaged, but still useable."
 
 outfit "Salvaged D41-HY Shield"
 	category "Systems"
@@ -499,6 +568,7 @@ outfit "Salvaged D41-HY Shield"
 	"outfit space" -30
 	"shield generation" .51
 	"shield energy" .51
+	description "A salvaged D41-HY Shield Generator, only slightly damaged, but still useable."
 
 outfit "Salvaged D67-TM Shield"
 	category "Systems"
@@ -508,6 +578,7 @@ outfit "Salvaged D67-TM Shield"
 	"outfit space" -45
 	"shield generation" .82
 	"shield energy" .82
+	description "A salvaged D67-TM Shield Generator, only slightly damaged, but still useable."
 
 outfit "Salvaged D94-YV Shield"
 	category "Systems"
@@ -517,6 +588,7 @@ outfit "Salvaged D94-YV Shield"
 	"outfit space" -60
 	"shield generation" 1.31
 	"shield energy" 1.31
+	description "A salvaged D94-YV Shield Generator, only slightly damaged, but still useable."
 
 outfit "Salvaged S-270 Regenerator"
 	category "Systems"
@@ -528,6 +600,7 @@ outfit "Salvaged S-270 Regenerator"
 	"shield energy" .6
 	"energy generation" -.3
 	"heat generation" 2
+	description "A salvaged S-270 Shield Regenerator, only slightly damaged, but still useable."
 
 outfit "Salvaged S-970 Regenerator"
 	category "Systems"
@@ -539,8 +612,26 @@ outfit "Salvaged S-970 Regenerator"
 	"shield energy" 2.3
 	"energy generation" -.9
 	"heat generation" 6
+	description "A salvaged S-970 Shield Regenerator, only slightly damaged, but still useable."
 ##########################
 # Other Outfits
+#
+# Jammer/Scanner variants:
+# 	125% increased outfit/weapon/engine space; "Dented up."
+#	75% efficiency; "Busted."
+#	+ Jammers only:
+#		50% constant energy requirement; "Unstable."
+#	+ Scanners only:
+#		.5% constant energy requirement; "Unstable."
+#
+# Ramscoop, Hyperdrive, and Fuel Pod variants:
+#	125% increased outfit/weapon/engine space; "Dented up."
+#	75% efficiency; "Busted."
+#	+ Hyperdrives only:
+#		100% constant energy requirement; "Unstable."
+#		+Scram Drive only:
+#			150% constant energy requirement; "Unstable."
+
 outfit "Salvaged Small Jammer"
 	category "Systems"
 	cost 52500
@@ -548,6 +639,7 @@ outfit "Salvaged Small Jammer"
 	"mass" 4
 	"outfit space" -4
 	"radar jamming" 2
+	description "A salvaged small radar jammer, only slightly damaged, but still useable."
 
 outfit "Salvaged Large Jammer"
 	category "Systems"
@@ -556,6 +648,7 @@ outfit "Salvaged Large Jammer"
 	"mass" 14
 	"outfit space" -14
 	"radar jamming" 10
+	description "A salvaged large radar jammer, only slightly damaged, but still useable."
 
 outfit "Salvaged Ramscoop"
 	category "Systems"
@@ -564,6 +657,7 @@ outfit "Salvaged Ramscoop"
 	"mass" 10
 	"outfit space" -10
 	"ramscoop" 1
+	description "A salvaged Ramscoop, only slightly damaged, but still useable."
 
 outfit "Salvaged Catalytic"
 	category "Systems"
@@ -572,6 +666,7 @@ outfit "Salvaged Catalytic"
 	"mass" 16
 	"outfit space" -16
 	"ramscoop" 7
+	description "A salvaged Catalytic Ramscoop, only slightly damaged, but still useable."
 
 outfit "Salvaged Hyperdrive"
 	category "Systems"
@@ -581,6 +676,7 @@ outfit "Salvaged Hyperdrive"
 	"outfit space" -20
 	"jump speed" .2
 	"hyperdrive" 1
+	description "A salvaged Hyperdrive, only slightly damaged, but still useable."
 
 outfit "Salvaged Scram Drive"
 	category "Systems"
@@ -590,6 +686,7 @@ outfit "Salvaged Scram Drive"
 	"outfit space" -30
 	"scram drive" .2
 	"hyperdrive" 1
+	description "A salvaged Scram Drive, only slightly damaged, but still useable."
 
 outfit "Salvaged Cargo Scanner"
 	category "Systems"
@@ -598,6 +695,7 @@ outfit "Salvaged Cargo Scanner"
 	"mass" 1
 	"outfit space" -1
 	"cargo scan" 300
+	description "A salvaged Cargo Scanner, only slightly damaged, but still useable."
 
 outfit "Salvaged Outfit Scanner"
 	category "Systems"
@@ -606,6 +704,7 @@ outfit "Salvaged Outfit Scanner"
 	"mass" 2
 	"outfit space" -2
 	"outfit scan" 500
+	description "A salvaged Outfit Scanner, only slightly damaged, but still useable."
 
 outfit "Salvaged Fuel Pod"
 	category "Systems"
@@ -614,8 +713,15 @@ outfit "Salvaged Fuel Pod"
 	"mass" 8
 	"outfit space" -8
 	"fuel capacity" 100
+	description "A salvaged fuel pod, only slightly damaged, but still useable."
 ##########################
 # Batteries
+#
+# Battery variants:
+#	125% increased outfit/weapon/engine space; "Dented up."
+#	75% efficiency; "Busted."
+#	1%->.05% constant energy requirement; "Unstable."
+
 outfit "Salvaged Supercapacitor"
 	category "Power"
 	cost 18750
@@ -665,6 +771,14 @@ outfit "Salvaged LP576a Battery"
 	"energy capacity" 23000
 ##########################
 # Power
+#
+# Power variants:
+# 	125% increased outfit/weapon/engine space; "Dented up."
+#	150% heat production; "Running hot."
+#	75% efficiency; "Busted."
+#	75% energy at same heat; "Broken outputs."
+#	50% mass efficiency but 200% heat/energy efficiency; "Something strange."
+
 outfit "Salvaged KP-6 Array"
 	category "Power"
 	cost 7500
