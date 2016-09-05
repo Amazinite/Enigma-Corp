@@ -29,11 +29,11 @@ mission "Enigma Corp 1"
 		event "Enigma Corp 2 Timer" 180
 		conversation
 			`	As you land, you get a message informing you of a new corporation that has just opened its doors to the public. Head towards an Enigma Corporation station located in one of the following systems:`
-			`	Kraz`
 			`	Achernar`
 			`	Adhara`
 			`	Alpha Centauri`
-			`	Dabih`
+			`	Betelgeuse`
+			`	Kraz`
 				decline
 
 event "Enigma Corp 1"
