@@ -36,7 +36,7 @@ system AMG-45
 	fleet "ORM Southern" 750
 	fleet "ORM Northern" 750
 	object
-		sprite star/m4
+		sprite stars/m4
 			"frame rate" 0.5
 		period 10
 	object
@@ -70,7 +70,7 @@ system AMG-45
 
 system Achernar
 	object
-		sprite star/g5
+		sprite stars/g5
 			"frame rate" 0.5
 		period 10
 	object
@@ -116,12 +116,12 @@ system Achernar
 
 system Adhara
 	object
-		sprite star/k0
+		sprite stars/k0
 			"frame rate" 0.5
 		distance 33.5961
 		period 16.6267
 	object
-		sprite star/m0
+		sprite stars/m0
 			"frame rate" 0.5
 		distance 71.4039
 		period 16.6267
@@ -157,13 +157,13 @@ system Adhara
 
 system "Alpha Centauri"
 	object
-		sprite star/k5
+		sprite stars/k5
 			"frame rate" 0.5
 		distance 26.7033
 		period 16.011
 		offset 180
 	object
-		sprite star/m4
+		sprite stars/m4
 			"frame rate" 0.5
 		distance 63.2967
 		period 16.011
@@ -226,7 +226,7 @@ system Auram
 	fleet "ORM Southern" 2500
 	fleet "ORM Northern" 2500
 	object
-		sprite star/m0
+		sprite stars/m0
 			"frame rate" 0.5
 		period 10
 	object
@@ -283,13 +283,13 @@ system Avilum
 	fleet "ORM Southern" 1500
 	fleet "ORM Northern" 1500
 	object
-		sprite star/k5
+		sprite stars/k5
 			"frame rate" 0.5
 		distance 51.4801
 		period 19.2524
 		offset 180
 	object
-		sprite star/m0
+		sprite stars/m0
 			"frame rate" 0.5
 		distance 68.5199
 		period 19.2524
@@ -339,7 +339,7 @@ system DML-91
 	fleet "ORM Southern" 1500
 	fleet "ORM Northern" 1500
 	object
-		sprite star/m4
+		sprite stars/m4
 			"frame rate" 0.5
 		period 10
 	object
@@ -385,13 +385,13 @@ system "Tua Alpha"
 	asteroids "small metal" 2 7.6356
 	asteroids "large metal" 2 7.7868
 	object
-		sprite star/f0
+		sprite stars/f0
 			"frame rate" 0.5
 		distance 17.8711
 		period 8.04829
 		offset 180
 	object
-		sprite star/k0
+		sprite stars/k0
 			"frame rate" 0.5
 		distance 87.1289
 		period 8.04829
@@ -430,7 +430,7 @@ system "Tua Alpha"
 
 system Betelgeuse
 	object
-		sprite star/g0
+		sprite stars/g0
 			"frame rate" 0.5
 		period 10
 	object
@@ -493,7 +493,7 @@ system END-00
 	fleet "ORM Southern" 5000
 	fleet "ORM Northern" 5000
 	object
-		sprite star/g5
+		sprite stars/g5
 			"frame rate" 0.5v
 		period 10
 	object
@@ -563,7 +563,7 @@ system Enigma
 	fleet "Oblivion" 25000
 	fleet "Keeper" 75000
 	object
-		sprite "star/devoured star"
+		sprite "stars/devoured star"
 		period 10
 	object
 		sprite planet/gas5
@@ -606,7 +606,7 @@ system Ferum
 	fleet "ORM Southern" 500
 	fleet "ORM Northern" 500
 	object
-		sprite star/k5
+		sprite stars/k5
 			"frame rate" 0.5
 		period 10
 	object
@@ -649,7 +649,7 @@ system Immeo
 	link "Tua Alpha"
 	link "Tua Omega"
 	object
-		sprite star/g5
+		sprite stars/g5
 			"frame rate" 0.5
 		period 10
 	object
@@ -707,7 +707,7 @@ system JMU-10
 	fleet "ORM Southern" 1000
 	fleet "ORM Northern" 1000
 	object
-		sprite star/g0
+		sprite stars/g0
 			"frame rate" 0.5
 		period 10
 	object
@@ -759,7 +759,7 @@ system Domov
 	fleet "ORM Southern" 400
 	fleet "ORM Northern" 400
 	object
-		sprite star/a0
+		sprite stars/a0
 			"frame rate" 0.5
 		period 10
 	object
@@ -810,13 +810,13 @@ system KAL-25
 	fleet "ORM Southern" 900
 	fleet "ORM Northern" 900
 	object
-		sprite star/g5
+		sprite stars/g5
 			"frame rate" 0.5
 		distance 51
 		period 11.6548
 		offset 180
 	object
-		sprite star/g5
+		sprite stars/g5
 		distance 51
 		period 11.6548
 	object
@@ -864,7 +864,7 @@ system "Tua Beta"
 	asteroids "small metal" 26 1.9656
 	asteroids "medium metal" 1 3.6288
 	object
-		sprite star/m0
+		sprite stars/m0
 			"frame rate" 0.5
 		period 10
 	object
@@ -894,7 +894,7 @@ system "Tua Beta"
 
 system Kraz
 	object
-		sprite star/g0
+		sprite stars/g0
 			"frame rate" 0.5
 		period 10
 	object
@@ -948,12 +948,12 @@ system LPK-52
 	fleet "ORM Southern" 1500
 	fleet "ORM Northern" 1500
 	object
-		sprite star/f5
+		sprite stars/f5
 			"frame rate" 0.5
 		distance 9.19459
 		period 13.1532
 	object
-		sprite star/m8
+		sprite stars/m8
 			"frame rate" 0.5
 		distance 116.805
 		period 13.1532
@@ -994,13 +994,13 @@ system NDV-52
 	fleet "ORM Southern" 2000
 	fleet "ORM Northern" 2000
 	object
-		sprite star/k0
+		sprite stars/k0
 			"frame rate" 0.5
 		distance 27.2175
 		period 11.4769
 		offset 180
 	object
-		sprite star/m4
+		sprite stars/m4
 			"frame rate" 0.5
 		distance 56.7825
 		period 11.4769
@@ -1051,7 +1051,7 @@ system "Tua Omega"
 	asteroids "medium metal" 18 8.372
 	asteroids "large metal" 18 8.4448
 	object
-		sprite star/k5
+		sprite stars/k5
 			"frame rate" 0.5
 		period 10
 	object
@@ -1104,7 +1104,7 @@ system OMA-12
 	fleet "ORM Southern" 4000
 	fleet "ORM Northern" 4000
 	object
-		sprite star/k5
+		sprite stars/k5
 			"frame rate" 0.5
 		period 10
 	object
@@ -1170,13 +1170,13 @@ system Ostima
 	fleet "ORM Southern" 450
 	fleet "ORM Northern" 450
 	object
-		sprite star/g5
+		sprite stars/g5
 			"frame rate" 0.5
 		distance 33.5238
 		period 12.8173
 		offset 180
 	object
-		sprite star/m0
+		sprite stars/m0
 			"frame rate" 0.5
 		distance 65.4762
 		period 12.8173
@@ -1238,7 +1238,7 @@ system PBD-09
 	fleet "ORM Southern" 2000
 	fleet "ORM Northern" 2000
 	object
-		sprite star/g5
+		sprite stars/g5
 			"frame rate" 0.5
 		period 10
 	object
@@ -1302,7 +1302,7 @@ system QFS-83
 	fleet "ORM Southern" 1500
 	fleet "ORM Northern" 1500
 	object
-		sprite star/f5
+		sprite stars/f5
 			"frame rate" 0.5
 		period 10
 	object
@@ -1351,12 +1351,12 @@ system RVE-32
 	fleet "ORM Southern" 2000
 	fleet "ORM Northern" 2000
 	object
-		sprite star/k5
+		sprite stars/k5
 			"frame rate" 0.5
 		distance 30.7879
 		period 12.6424
 	object
-		sprite star/m4
+		sprite stars/m4
 			"frame rate" 0.5
 		distance 56.2121
 		period 12.6424
@@ -1388,12 +1388,12 @@ system RVE-32
 
 system Sadr
 	object
-		sprite star/a5
+		sprite stars/a5
 			"frame rate" 0.5
 		distance 5.86016
 		period 6.97718
 	object
-		sprite star/m0
+		sprite stars/m0
 			"frame rate" 0.5
 		distance 99.6398
 		period 6.97718
@@ -1455,7 +1455,7 @@ system Mesec
 	fleet "ORM Southern" 1000
 	fleet "ORM Northern" 1000
 	object
-		sprite star/g5
+		sprite stars/g5
 			"frame rate" 0.5
 		period 10
 	object
@@ -1497,12 +1497,12 @@ system "Tua Psi"
 	asteroids "large rock" 14 2.288
 	asteroids "small metal" 29 2.1648
 	object
-		sprite star/f5
+		sprite stars/f5
 			"frame rate" 0.5
 		distance 26.3049
 		period 11.0663
 	object
-		sprite star/k0
+		sprite stars/k0
 			"frame rate" 0.5
 		distance 92.6951
 		period 11.0663
@@ -1556,7 +1556,7 @@ system TYU-16
 	fleet "ORM Southern" 1500
 	fleet "ORM Northern" 1500
 	object
-		sprite star/k5
+		sprite stars/k5
 			"frame rate" 0.5
 		period 10
 	object
@@ -1610,7 +1610,7 @@ system Termara
 	fleet "Small Deep" 2000
 	fleet "Large Deep" 4000
 	object
-		sprite star/wr
+		sprite stars/wr
 			"frame rate" 0.5
 		distance 11.8889
 		period 8.24972
@@ -1646,7 +1646,7 @@ system "Karuht'aryet"
 	minables tungsten 15 4.7125
 	minables uranium 9 4.8124
 	object
-		sprite star/k5
+		sprite stars/k5
 			"frame rate" 0.5
 		period 10
 	object
@@ -1689,7 +1689,7 @@ system "Karuht'uma"
 	minables iron 14 5.4623
 	minables uranium 9 5.6812
 	object
-		sprite star/k0
+		sprite stars/k0
 			"frame rate" 0.5
 		period 10
 	object
@@ -1729,7 +1729,7 @@ system "Karuht'yet"
 	minables copper 18 3.5625
 	minables uranium 9 3.7526
 	object
-		sprite star/k5
+		sprite stars/k5
 			"frame rate" 0.5
 		period 10
 	object
@@ -1767,7 +1767,7 @@ system "Karuht'umayet"
 	minables silver 12 3.2631
 	minables uranium 9 3.3865
 	object
-		sprite star/m4
+		sprite stars/m4
 			"frame rate" 0.5
 		period 10
 	object
@@ -1815,7 +1815,7 @@ system "Karuht'duyet"
 	minables neodynium 14 3.1527
 	minables uranium 9 3.2526
 	object
-		sprite star/g0
+		sprite stars/g0
 			"frame rate" 0.5
 		period 10
 	object
@@ -1863,7 +1863,7 @@ system "Karuht'utyet"
 	minables platinum 10 4.6812
 	minables uranium 9 4.7263
 	object
-		sprite star/k5
+		sprite stars/k5
 			"frame rate" 0.5
 		period 10
 	object
@@ -1898,7 +1898,7 @@ system "Karuht'quyet"
 	minables titanium 12 4.1616
 	minables uranium 9 4.2142
 	object
-		sprite star/m4
+		sprite stars/m4
 			"frame rate" 0.5
 		period 10
 	object
@@ -1943,13 +1943,13 @@ system "Karuht'enyet"
 	minables gold 9 5.7982
 	minables uranium 9 6.1245
 	object
-		sprite star/k5
+		sprite stars/k5
 			"frame rate" 0.5
 		distance 48.048
 		period 17.3596
 		offset 180
 	object
-		sprite star/m0
+		sprite stars/m0
 		distance 63.952
 		period 17.3596
 	object
@@ -1985,7 +1985,7 @@ system "Karuht'qu"
 	minables tungsten 12 4.5236
 	minables uranium 9 4.7514
 	object
-		sprite star/f5
+		sprite stars/f5
 			"frame rate" 0.5
 		period 10
 	object
@@ -2032,7 +2032,7 @@ system "Karuht'ar"
 	minables copper 23 2.8532
 	minables uranium 9 2.9583
 	object
-		sprite star/k5
+		sprite stars/k5
 			"frame rate" 0.5
 		period 10
 	object
@@ -2072,13 +2072,13 @@ system "Karuht'du"
 	minables lead 16 3.8642
 	minables uranium 9 3.9672
 	object
-		sprite star/f5
+		sprite stars/f5
 			"frame rate" 0.5
 		distance 49.4597
 		period 10.9568
 		offset 180
 	object
-		sprite star/g0
+		sprite stars/g0
 			"frame rate" 0.5
 		distance 78.5403
 		period 10.9568
@@ -2131,12 +2131,12 @@ system "Karuht'ol"
 	minables platinum 9 3.7133
 	minables uranium 9 3.9531
 	object
-		sprite star/m4
+		sprite stars/m4
 			"frame rate" 0.5
 		distance 35.1906
 		period 19.6055
 	object
-		sprite star/m8
+		sprite stars/m8
 			"frame rate" 0.5
 		distance 60.8094
 		period 19.6055
@@ -2181,7 +2181,7 @@ system "Karuht'en"
 	minables lead 21 4.7152
 	minables uranium 9 4.8135
 	object
-		sprite star/g0
+		sprite stars/g0
 			"frame rate" 0.5
 		period 10
 	object
@@ -2221,13 +2221,13 @@ system "Karuht'ut"
 	minables gold 9 3.8635
 	minables uranium 9 3.9752
 	object
-		sprite star/k5
+		sprite stars/k5
 			"frame rate" 0.5
 		distance 50.6221
 		period 18.7731
 		offset 180
 	object
-		sprite star/m0
+		sprite stars/m0
 			"frame rate" 0.5
 		distance 67.3779
 		period 18.7731
@@ -2264,7 +2264,7 @@ system "Karuht'olyet"
 	minables iron 14 5.8621
 	minables uranium 9 5.9323
 	object
-		sprite star/m0
+		sprite stars/m0
 			"frame rate" 0.5
 		period 10
 	object
@@ -2314,12 +2314,12 @@ system "Tua Gamma"
 	asteroids "medium rock" 22 3.2538
 	asteroids "large rock" 2 4.6574
 	object
-		sprite star/k0
+		sprite stars/k0
 			"frame rate" 0.5
 		distance 31.7538
 		period 14.4626
 	object
-		sprite star/m4
+		sprite stars/m4
 			"frame rate" 0.5
 		distance 66.2462
 		period 14.4626
@@ -2381,7 +2381,7 @@ system UVG-64
 	fleet "ORM Southern" 1000
 	fleet "ORM Northern" 1000
 	object
-		sprite star/k5
+		sprite stars/k5
 			"frame rate" 0.5
 		period 10
 	object
@@ -2434,7 +2434,7 @@ system Ukkamu
 	fleet "ORM Southern" 750
 	fleet "ORM Northern" 750
 	object
-		sprite star/b5
+		sprite stars/b5
 			"frame rate" 0.5
 		period 10
 	object
@@ -2474,7 +2474,7 @@ system WOW-56
 	fleet "ORM Southern" 1000
 	fleet "ORM Northern" 1000
 	object
-		sprite star/g0
+		sprite stars/g0
 			"frame rate" 0.5
 		period 10
 	object
