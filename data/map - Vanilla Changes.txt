@@ -53,10 +53,6 @@ system Achernar
 		sprite planet/forest1
 		distance 548
 		period 205.254
-		object
-			sprite planet/miranda
-			distance 130
-			period 15.4433
 		object "Enigma Sigma"
 			sprite planet/station1
 			distance 160
