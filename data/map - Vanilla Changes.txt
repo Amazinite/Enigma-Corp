@@ -444,6 +444,7 @@ system Algenib
 			distance 497
 			period 42.6838
 
+system Algieba
 	object
 		sprite stars/f0
 			"frame rate" 0.5
