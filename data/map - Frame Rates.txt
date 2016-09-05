@@ -8,7 +8,7 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-# This file is to set the frame rates of all the stars so that star animations look good.
+# Changes to vanilla; frame rates on stars, Enigma Corporations in a few systems.
 
 system Acamar
 	object
@@ -57,6 +57,10 @@ system Achernar
 			sprite planet/miranda
 			distance 130
 			period 15.4433
+		object "Enigma Sigma"
+			sprite planet/station1
+			distance 160
+			period 18.124
 	object
 		sprite planet/dust0
 		distance 978.21
@@ -159,6 +163,10 @@ system Adhara
 		sprite planet/cloud7
 		distance 1033.48
 		period 513.426
+		object "Enigma Epsilon"
+			sprite planet/station3
+			distance 151
+			period 20.4
 	object
 		sprite planet/dust1
 		distance 1498.37
@@ -1002,6 +1010,10 @@ system "Alpha Centauri"
 		sprite planet/rock15
 		distance 1718.2
 		period 1335.56
+		object "Enigma Alpha"
+			sprite planet/station5
+			distance 153
+			period 162.3
 	object
 		sprite planet/gas13
 		distance 4080.61
@@ -1670,6 +1682,10 @@ system Betelgeuse
 			sprite planet/oberon
 			distance 516
 			period 31.4485
+		object "Enigma Zeta"
+			sprite planet/station5
+			distance 750
+			period 40
 
 system Boral
 	object
@@ -5414,8 +5430,8 @@ system Kraz
 		sprite planet/gas17
 		distance 2011.3
 		period 1097.9
-		object
-			sprite planet/mercury
+		object "Enigma Mu"
+			sprite planet/station2
 			distance 234
 			period 14.441
 		object
