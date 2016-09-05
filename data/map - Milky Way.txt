@@ -1398,7 +1398,7 @@ system Termara
 	fleet "Small Deep" 2000
 	fleet "Large Deep" 4000
 	object
-		sprite stars/wr
+		sprite star/wr
 			"frame rate" 0.5
 		distance 11.8889
 		period 8.24972
