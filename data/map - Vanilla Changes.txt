@@ -13,7 +13,7 @@
 system Acamar
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/lava2
@@ -43,7 +43,7 @@ system Acamar
 system Achernar
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert3
@@ -85,12 +85,12 @@ system Achernar
 system Acrux
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 17.9429
 		period 11.4474
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 60.5571
 		period 11.4474
 		offset 180
@@ -134,12 +134,12 @@ system Acrux
 system Adhara
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 33.5961
 		period 16.6267
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 71.4039
 		period 16.6267
 		offset 180
@@ -175,7 +175,7 @@ system Adhara
 system "Al Dhanab"
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/ice5
@@ -209,13 +209,13 @@ system "Al Dhanab"
 system Albaldah
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 42.7246
 		period 19.0178
 		offset 180
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 63.7754
 		period 19.0178
 	object
@@ -250,12 +250,12 @@ system Albaldah
 system Albireo
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 15.6316
 		period 11.9778
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 72.3684
 		period 11.9778
 		offset 180
@@ -279,13 +279,13 @@ system Albireo
 system Alcyone
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 45.5
 		period 21.132
 		offset 180
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 45.5
 		period 21.132
 	object Stormhold
@@ -320,7 +320,7 @@ system Alcyone
 system Aldebaran
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud6
@@ -342,12 +342,12 @@ system Aldebaran
 system Alderamin
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 36.6569
 		period 9.68719
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 63.3431
 		period 9.68719
 		offset 180
@@ -379,7 +379,7 @@ system Alderamin
 system Aldhibain
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert10
@@ -405,7 +405,7 @@ system Aldhibain
 system Algenib
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object "Buccaneer Bay"
 		sprite planet/ocean6
@@ -443,12 +443,12 @@ system Algenib
 system Algieba
 	object
 		sprite stars/f0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 5.86085
 		period 9.75123
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 111.139
 		period 9.75123
 		offset 180
@@ -484,12 +484,12 @@ system Algieba
 system Algol
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 42.7246
 		period 19.0178
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 63.7754
 		period 19.0178
 		offset 180
@@ -525,7 +525,7 @@ system Algol
 system Algorel
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object "New Wales"
 		sprite planet/cloud6
@@ -559,7 +559,7 @@ system Algorel
 system Alheka
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert8
@@ -585,13 +585,13 @@ system Alheka
 system Alhena
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 32.1693
 		period 12.0484
 		offset 180
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 62.8307
 		period 12.0484
 	object
@@ -626,7 +626,7 @@ system Alhena
 system Alioth
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/fog0
@@ -652,7 +652,7 @@ system Alioth
 system Alkaid
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud5
@@ -694,7 +694,7 @@ system Alkaid
 system Almaaz
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock10
@@ -712,7 +712,7 @@ system Almaaz
 system Almach
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert8
@@ -746,7 +746,7 @@ system Almach
 system Alnair
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object Hippocrates
 		sprite planet/cloud4
@@ -784,13 +784,13 @@ system Alnair
 system Alnasl
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 41.5
 		period 11.956
 		offset 180
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 41.5
 		period 11.956
 	object
@@ -817,7 +817,7 @@ system Alnasl
 system Alnilam
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert1
@@ -867,12 +867,12 @@ system Alnilam
 system Alnitak
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 31.1055
 		period 15.4564
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 49.3945
 		period 15.4564
 		offset 180
@@ -896,12 +896,12 @@ system Alnitak
 system Alniyat
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 41.9222
 		period 18.4847
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 62.5778
 		period 18.4847
 		offset 180
@@ -937,13 +937,13 @@ system Alniyat
 system "Alpha Arae"
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 31.1534
 		period 11.4822
 		offset 180
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 60.8466
 		period 11.4822
 	object
@@ -978,13 +978,13 @@ system "Alpha Arae"
 system "Alpha Centauri"
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 26.7033
 		period 16.011
 		offset 180
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 63.2967
 		period 16.011
 	object Chiron
@@ -1019,12 +1019,12 @@ system "Alpha Centauri"
 system "Alpha Hydri"
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 24.6857
 		period 11.9986
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 83.3143
 		period 11.9986
 		offset 180
@@ -1048,13 +1048,13 @@ system "Alpha Hydri"
 system Alphard
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 41.5307
 		period 11.8953
 		offset 180
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 56.9693
 		period 11.8953
 	object
@@ -1081,13 +1081,13 @@ system Alphard
 system Alphecca
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 27.8857
 		period 14.4057
 		offset 180
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 94.1143
 		period 14.4057
 	object
@@ -1110,12 +1110,12 @@ system Alphecca
 system Alpheratz
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 48.2767
 		period 14.9084
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 66.2233
 		period 14.9084
 		offset 180
@@ -1147,13 +1147,13 @@ system Alpheratz
 system Altair
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 31.4921
 		period 11.6699
 		offset 180
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 61.5079
 		period 11.6699
 	object
@@ -1184,7 +1184,7 @@ system Altair
 system Aludra
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert10
@@ -1218,7 +1218,7 @@ system Aludra
 system Ankaa
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock4
@@ -1244,7 +1244,7 @@ system Ankaa
 system Antares
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/ice5
@@ -1278,7 +1278,7 @@ system Antares
 system Ap'arak
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/ice3
@@ -1308,7 +1308,7 @@ system Ap'arak
 system Arcturus
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object "New Greenland"
 		sprite planet/ocean1
@@ -1342,7 +1342,7 @@ system Arcturus
 system Arneb
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/venus
@@ -1368,13 +1368,13 @@ system Arneb
 system Ascella
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 43.5
 		period 12.8307
 		offset 180
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 43.5
 		period 12.8307
 	object Arabia
@@ -1401,7 +1401,7 @@ system Ascella
 system Asikafarnut
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object "Sestor Ikfar"
 		sprite planet/desert0
@@ -1439,7 +1439,7 @@ system Asikafarnut
 system Aspidiske
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud2
@@ -1473,7 +1473,7 @@ system Aspidiske
 system Atria
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object Lichen
 		sprite planet/cloud1
@@ -1507,12 +1507,12 @@ system Atria
 system Avior
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 11
 		period 11.3038
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 88
 		period 11.3038
 		offset 180
@@ -1548,7 +1548,7 @@ system Avior
 system Aya'k'k
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object "Varu K'prai"
 		sprite planet/ice4
@@ -1582,13 +1582,13 @@ system Aya'k'k
 system Bellatrix
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 34.556
 		period 17.3444
 		offset 180
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 73.444
 		period 17.3444
 	object
@@ -1615,7 +1615,7 @@ system Bellatrix
 system "Beta Lupi"
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/lava5
@@ -1641,7 +1641,7 @@ system "Beta Lupi"
 system Betelgeuse
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert2
@@ -1687,7 +1687,7 @@ system Betelgeuse
 system Boral
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud3
@@ -1725,7 +1725,7 @@ system Boral
 system "Bore Fah"
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/ice3
@@ -1755,12 +1755,12 @@ system "Bore Fah"
 system "Bote Asu"
 	object
 		sprite stars/f0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 17.3605
 		period 7.70584
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 84.6395
 		period 7.70584
 		offset 180
@@ -1816,7 +1816,7 @@ system "Bote Asu"
 system Canopus
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object Splashdown
 		sprite planet/ice7
@@ -1838,7 +1838,7 @@ system Canopus
 system Capella
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/dust5
@@ -1876,7 +1876,7 @@ system Capella
 system Caph
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert0
@@ -1910,13 +1910,13 @@ system Caph
 system Cardax
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 45.4545
 		period 13.3761
 		offset 180
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 78.5455
 		period 13.3761
 	object
@@ -1943,12 +1943,12 @@ system Cardax
 system Castor
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 52.9147
 		period 17.1076
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 72.5853
 		period 17.1076
 		offset 180
@@ -1996,7 +1996,7 @@ system Castor
 system Cebalrai
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/miranda
@@ -2026,7 +2026,7 @@ system Cebalrai
 system Celeborim
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object "Firka Tesk"
 		sprite planet/lava3
@@ -2060,7 +2060,7 @@ system Celeborim
 system Chikatip
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/ganymede
@@ -2090,13 +2090,13 @@ system Chikatip
 system Chimitarp
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 53.205
 		period 16.1167
 		offset 180
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 60.795
 		period 16.1167
 	object
@@ -2135,7 +2135,7 @@ system Chimitarp
 system Chirr'ay'akai
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/lava5
@@ -2161,7 +2161,7 @@ system Chirr'ay'akai
 system Chornifath
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock4
@@ -2199,7 +2199,7 @@ system Chornifath
 system Chy'chra
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/lava3
@@ -2237,7 +2237,7 @@ system Chy'chra
 system "Cor Caroli"
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock0
@@ -2263,7 +2263,7 @@ system "Cor Caroli"
 system "Da Ent"
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object Newhome
 		sprite planet/ice4
@@ -2297,7 +2297,7 @@ system "Da Ent"
 system "Da Lest"
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/ice2
@@ -2323,13 +2323,13 @@ system "Da Lest"
 system Dabih
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 30.7164
 		period 14.5355
 		offset 180
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 65.2836
 		period 14.5355
 	object
@@ -2356,7 +2356,7 @@ system Dabih
 system Danoa
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert7
@@ -2390,12 +2390,12 @@ system Danoa
 system "Delta Capricorni"
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 29.7539
 		period 17.3608
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 86.7461
 		period 17.3608
 		offset 180
@@ -2423,7 +2423,7 @@ system "Delta Capricorni"
 system "Delta Sagittarii"
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object "New Portland"
 		sprite planet/ocean6
@@ -2457,7 +2457,7 @@ system "Delta Sagittarii"
 system "Delta Velorum"
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock18
@@ -2483,7 +2483,7 @@ system "Delta Velorum"
 system Deneb
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object Pugglemug
 		sprite planet/ocean2
@@ -2513,13 +2513,13 @@ system Deneb
 system Denebola
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 41.5211
 		period 18.22
 		offset 180
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 61.9789
 		period 18.22
 	object
@@ -2550,12 +2550,12 @@ system Denebola
 system Diphda
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 20.9143
 		period 14.4057
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 70.5857
 		period 14.4057
 		offset 180
@@ -2579,7 +2579,7 @@ system Diphda
 system Dokdobaru
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object "Korati Efreti"
 		sprite planet/station1k
@@ -2653,13 +2653,13 @@ system Dokdobaru
 system Dschubba
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 18.9364
 		period 19.0038
 		offset 180
 	object
 		sprite stars/m8
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 77.5636
 		period 19.0038
 	object Sundrinker
@@ -2694,13 +2694,13 @@ system Dschubba
 system Dubhe
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 42.6977
 		period 24.8575
 		offset 180
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 67.8023
 		period 24.8575
 	object Haze
@@ -2723,7 +2723,7 @@ system Dubhe
 system "Due Yoot"
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object Greenbloom
 		sprite planet/cloud3
@@ -2757,7 +2757,7 @@ system "Due Yoot"
 system Durax
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock16
@@ -2795,7 +2795,7 @@ system Durax
 system Eber
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/gas4
@@ -2829,7 +2829,7 @@ system Eber
 system "Ehma Ti"
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/lava5
@@ -2871,7 +2871,7 @@ system "Ehma Ti"
 system Ek'kek'ru
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object "Kort Kehai"
 		sprite planet/rock13
@@ -2901,7 +2901,7 @@ system Ek'kek'ru
 system Elnath
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock13
@@ -2935,7 +2935,7 @@ system Elnath
 system Eltanin
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud5
@@ -2965,7 +2965,7 @@ system Eltanin
 system Eneremprukt
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert7
@@ -2995,7 +2995,7 @@ system Eneremprukt
 system Enif
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/lava5
@@ -3055,13 +3055,13 @@ system Enif
 system "Epsilon Leonis"
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 25.8286
 		period 12.8414
 		offset 180
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 87.1714
 		period 12.8414
 	object
@@ -3100,7 +3100,7 @@ system "Epsilon Leonis"
 system Es'sprak'ai
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud4
@@ -3134,13 +3134,13 @@ system Es'sprak'ai
 system Eshkoshtar
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 47.9992
 		period 18.7451
 		offset 180
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 73.0008
 		period 18.7451
 	object
@@ -3180,7 +3180,7 @@ system Eshkoshtar
 system Eteron
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock9
@@ -3214,7 +3214,7 @@ system Eteron
 system "Fah Root"
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock19
@@ -3252,7 +3252,7 @@ system "Fah Root"
 system "Fah Soom"
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object Greenwater
 		sprite planet/cloud1
@@ -3282,7 +3282,7 @@ system "Fah Soom"
 system Fala
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert1
@@ -3312,7 +3312,7 @@ system Fala
 system Farbutero
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock6
@@ -3358,7 +3358,7 @@ system Farbutero
 system Faronektu
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock16
@@ -3397,13 +3397,13 @@ system Faronektu
 system Feroteri
 	object
 		sprite stars/a0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 9.18418
 		period 6.8723
 		offset 180
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 107.816
 		period 6.8723
 	object
@@ -3454,7 +3454,7 @@ system Feroteri
 system Ferukistek
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock3
@@ -3480,7 +3480,7 @@ system Ferukistek
 system Fingol
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud4
@@ -3510,7 +3510,7 @@ system Fingol
 system Fomalhaut
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/lava4
@@ -3544,7 +3544,7 @@ system Fomalhaut
 system Fornarep
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object "Sek Alarfarat"
 		sprite planet/rock4
@@ -3581,7 +3581,7 @@ system Fornarep
 system Furmeliki
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock5
@@ -3623,12 +3623,12 @@ system Furmeliki
 system Gacrux
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 32.6953
 		period 12.7313
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 48.8047
 		period 12.7313
 		offset 180
@@ -3664,7 +3664,7 @@ system Gacrux
 system "Gamma Cassiopeiae"
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/ice7
@@ -3694,13 +3694,13 @@ system "Gamma Cassiopeiae"
 system "Gamma Corvi"
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 39.0165
 		period 15.3924
 		offset 180
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 92.4835
 		period 15.3924
 	object
@@ -3731,13 +3731,13 @@ system "Gamma Corvi"
 system Gienah
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 31.893
 		period 12.2656
 		offset 180
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 47.607
 		period 12.2656
 	object Covert
@@ -3768,7 +3768,7 @@ system Gienah
 system Girtab
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud4
@@ -3806,13 +3806,13 @@ system Girtab
 system Gomeisa
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 55.5
 		period 15.4962
 		offset 180
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 55.5
 		period 15.4962
 	object
@@ -3847,13 +3847,13 @@ system Gomeisa
 system Graffias
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 59.5
 		period 17.2013
 		offset 180
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 59.5
 		period 17.2013
 	object
@@ -3884,7 +3884,7 @@ system Graffias
 system Hadar
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/oberon
@@ -3914,7 +3914,7 @@ system Hadar
 system Hamal
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/callisto
@@ -3940,13 +3940,13 @@ system Hamal
 system Han
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 47.4335
 		period 14.5195
 		offset 180
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 65.0665
 		period 14.5195
 	object
@@ -3977,12 +3977,12 @@ system Han
 system Hassaleh
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 36.1558
 		period 18.5627
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 76.8442
 		period 18.5627
 		offset 180
@@ -4006,12 +4006,12 @@ system Hassaleh
 system Hatysa
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 13.6124
 		period 15.528
 	object
 		sprite stars/m8
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 79.3876
 		period 15.528
 		offset 180
@@ -4039,13 +4039,13 @@ system Hatysa
 system "Heia Due"
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 13.2222
 		period 14.8968
 		offset 180
 	object
 		sprite stars/m8
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 105.778
 		period 14.8968
 	object
@@ -4080,7 +4080,7 @@ system "Heia Due"
 system Hesselpost
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/venus
@@ -4126,7 +4126,7 @@ system Hesselpost
 system "Hevru Hai"
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object "Alta Hai"
 		sprite planet/ringworld
@@ -4221,7 +4221,7 @@ system "Hevru Hai"
 system "Hi Yahr"
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock19
@@ -4254,7 +4254,7 @@ system "Hi Yahr"
 system Hintar
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert1
@@ -4288,7 +4288,7 @@ system Hintar
 system Holeb
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/lava4
@@ -4314,7 +4314,7 @@ system Holeb
 system Host
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud8
@@ -4348,7 +4348,7 @@ system Host
 system Ik'kara'ka
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/lava2
@@ -4382,7 +4382,7 @@ system Ik'kara'ka
 system "Imo Dep"
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/gas11
@@ -4424,7 +4424,7 @@ system "Imo Dep"
 system "Io Lowe"
 	object
 		sprite stars/m8
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object Heartvalley
 		sprite planet/rock16
@@ -4454,13 +4454,13 @@ system "Io Lowe"
 system "Io Mann"
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 54
 		period 14.3899
 		offset 180
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 54
 		period 14.3899
 	object
@@ -4500,13 +4500,13 @@ system "Io Mann"
 system Ipsing
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 21.7143
 		period 9.89877
 		offset 180
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 73.2857
 		period 9.89877
 	object
@@ -4549,7 +4549,7 @@ system Ipsing
 system Iyech'yek
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object "Tik Klai"
 		sprite planet/rock15
@@ -4575,13 +4575,13 @@ system Iyech'yek
 system Izar
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 15.6511
 		period 10.2136
 		offset 180
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 78.8489
 		period 10.2136
 	object
@@ -4612,7 +4612,7 @@ system Izar
 system Ka'ch'chrai
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/europa
@@ -4642,12 +4642,12 @@ system Ka'ch'chrai
 system Ka'pru
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 29.4144
 		period 10.9322
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 74.5856
 		period 10.9322
 		offset 180
@@ -4687,7 +4687,7 @@ system Ka'pru
 system Kaliptari
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object "Spera Anatrusk"
 		sprite planet/mars
@@ -4733,12 +4733,12 @@ system Kaliptari
 system "Kappa Centauri"
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 10.2222
 		period 10.1264
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 81.7778
 		period 10.1264
 		offset 180
@@ -4774,7 +4774,7 @@ system "Kappa Centauri"
 system Kashikt
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock1
@@ -4812,7 +4812,7 @@ system Kashikt
 system "Kaus Australis"
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object Hopper
 		sprite planet/cloud8
@@ -4834,12 +4834,12 @@ system "Kaus Australis"
 system "Kaus Borealis"
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 20.4571
 		period 13.936
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 69.0429
 		period 13.936
 		offset 180
@@ -4871,13 +4871,13 @@ system "Kaus Borealis"
 system Kiro'ku
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 50.3456
 		period 14.7951
 		offset 180
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 64.6544
 		period 14.7951
 	object
@@ -4920,13 +4920,13 @@ system Kiro'ku
 system Kiru'kichi
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 53.7102
 		period 12.3991
 		offset 180
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 85.2898
 		period 12.3991
 	object
@@ -4953,7 +4953,7 @@ system Kiru'kichi
 system Kochab
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object Mere
 		sprite planet/ocean4
@@ -4975,7 +4975,7 @@ system Kochab
 system "Kor En'lakfar"
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert1
@@ -5009,7 +5009,7 @@ system "Kor En'lakfar"
 system "Kor Fel'tar"
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/ocean3
@@ -5047,12 +5047,12 @@ system "Kor Fel'tar"
 system "Kor Men"
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 33.3868
 		period 11.5563
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 91.6132
 		period 11.5563
 		offset 180
@@ -5084,12 +5084,12 @@ system "Kor Men"
 system "Kor Nor'peli"
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 25.4857
 		period 19.3783
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 86.0143
 		period 19.3783
 		offset 180
@@ -5125,7 +5125,7 @@ system "Kor Nor'peli"
 system "Kor Tar'bei"
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/ocean6
@@ -5155,12 +5155,12 @@ system "Kor Tar'bei"
 system "Kor Zena'i"
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 8.94444
 		period 10.8953
 	object
 		sprite stars/m8
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 71.5556
 		period 10.8953
 		offset 180
@@ -5188,13 +5188,13 @@ system "Kor Zena'i"
 system Kornephoros
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 57.5
 		period 16.3414
 		offset 180
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 57.5
 		period 16.3414
 	object
@@ -5237,7 +5237,7 @@ system Kornephoros
 system Korsmanath
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock8
@@ -5275,7 +5275,7 @@ system Korsmanath
 system Kraz
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock2
@@ -5313,7 +5313,7 @@ system Kraz
 system Kugel
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert0
@@ -5355,13 +5355,13 @@ system Kugel
 system Kursa
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 27.5934
 		period 16.8182
 		offset 180
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 65.4066
 		period 16.8182
 	object Farseer
@@ -5384,7 +5384,7 @@ system Kursa
 system Lesath
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock4
@@ -5418,13 +5418,13 @@ system Lesath
 system Lolami
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 11
 		period 11.3038
 		offset 180
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 88
 		period 11.3038
 	object
@@ -5455,7 +5455,7 @@ system Lolami
 system "Lom Tahr"
 	object
 		sprite stars/f0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert8
@@ -5498,7 +5498,7 @@ system "Lom Tahr"
 system Lurata
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/ice1
@@ -5532,13 +5532,13 @@ system Lurata
 system Makferuti
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 18.2409
 		period 12.3508
 		offset 180
 	object
 		sprite stars/m8
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 65.7591
 		period 12.3508
 	object
@@ -5585,7 +5585,7 @@ system Makferuti
 system Markab
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock19
@@ -5635,7 +5635,7 @@ system Markab
 system Markeb
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/lava0
@@ -5669,7 +5669,7 @@ system Markeb
 system Matar
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock4
@@ -5703,13 +5703,13 @@ system Matar
 system Mebsuta
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 37.1157
 		period 19.3068
 		offset 180
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 78.8843
 		period 19.3068
 	object
@@ -5752,13 +5752,13 @@ system Mebsuta
 system Meftarkata
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 21.8839
 		period 8.39722
 		offset 180
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 77.1161
 		period 8.39722
 	object
@@ -5789,7 +5789,7 @@ system Meftarkata
 system "Mei Yohn"
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud8
@@ -5827,12 +5827,12 @@ system "Mei Yohn"
 system Mekislepti
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 38.4897
 		period 10.4227
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 66.5103
 		period 10.4227
 		offset 180
@@ -5860,7 +5860,7 @@ system Mekislepti
 system Men
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object Thule
 		sprite planet/forest4
@@ -5898,13 +5898,13 @@ system Men
 system Menkalinan
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 58.5
 		period 8.64354
 		offset 180
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 58.5
 		period 8.64354
 	object
@@ -5935,7 +5935,7 @@ system Menkalinan
 system Menkar
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert2
@@ -5965,13 +5965,13 @@ system Menkar
 system Menkent
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 27.7778
 		period 8.77005
 		offset 180
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 76.2222
 		period 8.77005
 	object
@@ -6006,12 +6006,12 @@ system Menkent
 system Merak
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 40.2658
 		period 11.3561
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 55.2342
 		period 11.3561
 		offset 180
@@ -6039,7 +6039,7 @@ system Merak
 system Mesuket
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/mercury
@@ -6085,7 +6085,7 @@ system Mesuket
 system Miaplacidus
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object Vinci
 		sprite planet/ocean7
@@ -6131,7 +6131,7 @@ system Miaplacidus
 system Mimosa
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock13
@@ -6153,12 +6153,12 @@ system Mimosa
 system Minkar
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 33.5961
 		period 16.6267
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 71.4039
 		period 16.6267
 		offset 180
@@ -6190,13 +6190,13 @@ system Minkar
 system Mintaka
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 34.4496
 		period 10.9588
 		offset 180
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 49.0504
 		period 10.9588
 	object
@@ -6223,13 +6223,13 @@ system Mintaka
 system Mirach
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 21.1004
 		period 16.4224
 		offset 180
 	object
 		sprite stars/m8
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 57.8996
 		period 16.4224
 	object Placer
@@ -6260,7 +6260,7 @@ system Mirach
 system Mirfak
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock5
@@ -6286,7 +6286,7 @@ system Mirfak
 system Mirzam
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/lava5
@@ -6316,7 +6316,7 @@ system Mirzam
 system Mizar
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert6
@@ -6346,13 +6346,13 @@ system Mizar
 system Moktar
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 29.0769
 		period 18.1925
 		offset 180
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 68.9231
 		period 18.1925
 	object
@@ -6383,7 +6383,7 @@ system Moktar
 system Mora
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert9
@@ -6413,7 +6413,7 @@ system Mora
 system Muhlifain
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/fog0
@@ -6439,12 +6439,12 @@ system Muhlifain
 system Muphrid
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 21.8366
 		period 10.9152
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 63.6634
 		period 10.9152
 		offset 180
@@ -6472,7 +6472,7 @@ system Muphrid
 system Naos
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud6
@@ -6514,7 +6514,7 @@ system Naos
 system Naper
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert9
@@ -6548,12 +6548,12 @@ system Naper
 system Nihal
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 43.1257
 		period 19.2863
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 64.3743
 		period 19.2863
 		offset 180
@@ -6589,7 +6589,7 @@ system Nihal
 system Nocte
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert8
@@ -6627,7 +6627,7 @@ system Nocte
 system Nunki
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object Albatross
 		sprite planet/cloud8
@@ -6669,13 +6669,13 @@ system Nunki
 system Oblate
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 19.027
 		period 11.802
 		offset 180
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 101.973
 		period 11.802
 	object
@@ -6706,13 +6706,13 @@ system Oblate
 system Orvala
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 14.9297
 		period 17.8357
 		offset 180
 	object
 		sprite stars/m8
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 87.0703
 		period 17.8357
 	object
@@ -6747,7 +6747,7 @@ system Orvala
 system Peacock
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object "New Washington"
 		sprite planet/ocean3
@@ -6789,12 +6789,12 @@ system Peacock
 system Persian
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 27.8124
 		period 13.0946
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 104.688
 		period 13.0946
 		offset 180
@@ -6826,13 +6826,13 @@ system Persian
 system Phact
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 47.0119
 		period 14.3263
 		offset 180
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 64.4881
 		period 14.3263
 	object
@@ -6867,7 +6867,7 @@ system Phact
 system Phecda
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object "New Sahara"
 		sprite planet/forest0
@@ -6893,7 +6893,7 @@ system Phecda
 system Pherkad
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object Solace
 		sprite planet/forest5
@@ -6923,7 +6923,7 @@ system Pherkad
 system Phurad
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock18
@@ -6953,7 +6953,7 @@ system Phurad
 system Pik'ro'iyak
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object "Var' Kayi"
 		sprite planet/forest1
@@ -6979,7 +6979,7 @@ system Pik'ro'iyak
 system Polaris
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/ocean0
@@ -7005,7 +7005,7 @@ system Polaris
 system Pollux
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/ice4
@@ -7031,13 +7031,13 @@ system Pollux
 system Porrima
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 21.1382
 		period 18.8353
 		offset 180
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 97.8618
 		period 18.8353
 	object
@@ -7068,13 +7068,13 @@ system Porrima
 system Prakacha'a
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 32.5255
 		period 12.7118
 		offset 180
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 82.4745
 		period 12.7118
 	object
@@ -7117,7 +7117,7 @@ system Prakacha'a
 system Procyon
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock4
@@ -7143,7 +7143,7 @@ system Procyon
 system "Pug Iyik"
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock6
@@ -7177,7 +7177,7 @@ system "Pug Iyik"
 system Rajak
 	object
 		sprite stars/m8
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock5
@@ -7219,7 +7219,7 @@ system Rajak
 system Rasalhague
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/lava5
@@ -7249,7 +7249,7 @@ system Rasalhague
 system Rastaban
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/ice6
@@ -7279,7 +7279,7 @@ system Rastaban
 system "Rati Cal"
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/ice0
@@ -7305,7 +7305,7 @@ system "Rati Cal"
 system Regor
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock4
@@ -7343,7 +7343,7 @@ system Regor
 system Regulus
 	object
 		sprite stars/b5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/gas15
@@ -7385,7 +7385,7 @@ system Regulus
 system Rigel
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud7
@@ -7427,7 +7427,7 @@ system Rigel
 system Ruchbah
 	object
 		sprite stars/f0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud2
@@ -7465,7 +7465,7 @@ system Ruchbah
 system Rutilicus
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock6
@@ -7503,7 +7503,7 @@ system Rutilicus
 system Sabik
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud2
@@ -7525,12 +7525,12 @@ system Sabik
 system Sabriset
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 35.1028
 		period 12.1391
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 77.8972
 		period 12.1391
 		offset 180
@@ -7555,7 +7555,7 @@ system Sabriset
 system Sadalmelik
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/callisto
@@ -7585,12 +7585,12 @@ system Sadalmelik
 system Sadalsuud
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 26.9714
 		period 13.7031
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 91.0286
 		period 13.7031
 		offset 180
@@ -7626,12 +7626,12 @@ system Sadalsuud
 system Sadr
 	object
 		sprite stars/a5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 5.86016
 		period 6.97718
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 99.6398
 		period 6.97718
 		offset 180
@@ -7663,7 +7663,7 @@ system Sadr
 system Saiph
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud3
@@ -7689,7 +7689,7 @@ system Saiph
 system Salipastart
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/titan
@@ -7727,13 +7727,13 @@ system Salipastart
 system Sargas
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 53
 		period 14.4611
 		offset 180
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 53
 		period 14.4611
 	object
@@ -7756,7 +7756,7 @@ system Sargas
 system Sarin
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert6
@@ -7786,12 +7786,12 @@ system Sarin
 system Sayaiban
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 19.1843
 		period 11.9486
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 102.816
 		period 11.9486
 	object
@@ -7818,7 +7818,7 @@ system Sayaiban
 system Scheat
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert10
@@ -7848,7 +7848,7 @@ system Scheat
 system Schedar
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/lava7
@@ -7886,7 +7886,7 @@ system Schedar
 system Seginus
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object Clark
 		sprite planet/forest6
@@ -7924,7 +7924,7 @@ system Seginus
 system Seketra
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock8
@@ -7958,7 +7958,7 @@ system Seketra
 system Sepetrosk
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock10
@@ -7992,12 +7992,12 @@ system Sepetrosk
 system Sepriaptu
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 16.1966
 		period 9.26902
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 86.8034
 		period 9.26902
 	object
@@ -8020,7 +8020,7 @@ system Sepriaptu
 system Sevrelect
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/dust2
@@ -8050,7 +8050,7 @@ system Sevrelect
 system Shaula
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert3
@@ -8088,13 +8088,13 @@ system Shaula
 system Sheratan
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 21.0713
 		period 13.7542
 		offset 180
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 112.929
 		period 13.7542
 	object
@@ -8125,12 +8125,12 @@ system Sheratan
 system Si'yak'ku
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 19.5395
 		period 12.7342
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 90.4605
 		period 12.7342
 		offset 180
@@ -8178,7 +8178,7 @@ system Si'yak'ku
 system Sich'ka'ara
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/gas10
@@ -8209,7 +8209,7 @@ system Sich'ka'ara
 system Silikatakfar
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/miranda
@@ -8238,7 +8238,7 @@ system Silikatakfar
 system Similisti
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud6
@@ -8272,13 +8272,13 @@ system Similisti
 system Sirius
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 3.94301
 		period 8.13257
 		offset 180
 	object
 		sprite stars/m8
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 86.557
 		period 8.13257
 	object
@@ -8305,7 +8305,7 @@ system Sirius
 system Skeruto
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/lava0
@@ -8335,7 +8335,7 @@ system Skeruto
 system Sko'karak
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock8
@@ -8365,13 +8365,13 @@ system Sko'karak
 system Sobarati
 	object
 		sprite stars/a5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 4.57143
 		period 9.4217
 		offset 180
 	object
 		sprite stars/m8
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 123.429
 		period 9.4217
 	object
@@ -8410,7 +8410,7 @@ system Sobarati
 system Sol
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 25.38
 	object
 		sprite planet/mercury
@@ -8456,7 +8456,7 @@ system Sol
 system Solifar
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object "Desi Seledrak"
 		sprite planet/cloud5
@@ -8486,7 +8486,7 @@ system Solifar
 system Spica
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert4
@@ -8516,7 +8516,7 @@ system Spica
 system Suhail
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/water1
@@ -8546,7 +8546,7 @@ system Suhail
 system Sumar
 	object
 		sprite stars/f0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/lava6
@@ -8584,7 +8584,7 @@ system Sumar
 system Sumprast
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert7
@@ -8622,7 +8622,7 @@ system Sumprast
 system Tais
 	object
 		sprite stars/a5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/venus
@@ -8648,13 +8648,13 @@ system Tais
 system Talita
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 42.8886
 		period 12.2596
 		offset 180
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 74.1114
 		period 12.2596
 	object
@@ -8681,7 +8681,7 @@ system Talita
 system "Tania Australis"
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert5
@@ -8723,12 +8723,12 @@ system "Tania Australis"
 system Tarazed
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 11
 		period 11.3038
 	object
 		sprite stars/m4
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 88
 		period 11.3038
 		offset 180
@@ -8760,12 +8760,12 @@ system Tarazed
 system Tejat
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 7.1843
 		period 12.9183
 	object
 		sprite stars/m8
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 99.3157
 		period 12.9183
 		offset 180
@@ -8809,7 +8809,7 @@ system Tejat
 system Tortor
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock17
@@ -8847,7 +8847,7 @@ system Tortor
 system Turais
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object Gemstone
 		sprite planet/cloud7
@@ -8873,13 +8873,13 @@ system Turais
 system "Ula Mon"
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 56.5
 		period 18.9927
 		offset 180
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 56.5
 		period 18.9927
 	object
@@ -8918,7 +8918,7 @@ system "Ula Mon"
 system "Ultima Thule"
 	object
 		sprite stars/f0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert5
@@ -8948,12 +8948,12 @@ system "Ultima Thule"
 system Umbral
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 31.3563
 		period 14.9921
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 66.6437
 		period 14.9921
 		offset 180
@@ -9001,7 +9001,7 @@ system Umbral
 system Unagi
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/lava3
@@ -9031,7 +9031,7 @@ system Unagi
 system Unukalhai
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/water0
@@ -9061,7 +9061,7 @@ system Unukalhai
 system "Uwa Fahn"
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert8
@@ -9091,13 +9091,13 @@ system "Uwa Fahn"
 system Vega
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 23.3143
 		period 11.0128
 		offset 180
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 78.6857
 		period 11.0128
 	object
@@ -9124,7 +9124,7 @@ system Vega
 system Vindemiatrix
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud0
@@ -9146,7 +9146,7 @@ system Vindemiatrix
 system Volax
 	object
 		sprite stars/f5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert1
@@ -9176,7 +9176,7 @@ system Volax
 system "Wah Ki"
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock11
@@ -9214,7 +9214,7 @@ system "Wah Ki"
 system "Wah Oh"
 	object
 		sprite stars/a0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud4
@@ -9260,7 +9260,7 @@ system "Wah Oh"
 system "Wah Yoot"
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud3
@@ -9298,7 +9298,7 @@ system "Wah Yoot"
 system Waypoint
 	object
 		sprite stars/m8
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock8
@@ -9328,12 +9328,12 @@ system Waypoint
 system Wazn
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 45.5327
 		period 20.9233
 	object
 		sprite stars/m0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 67.9673
 		period 20.9233
 		offset 180
@@ -9365,7 +9365,7 @@ system Wazn
 system Wei
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/dust2
@@ -9399,12 +9399,12 @@ system Wei
 system Wezen
 	object
 		sprite stars/f0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 11.8889
 		period 8.24972
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 95.1111
 		period 8.24972
 		offset 180
@@ -9452,7 +9452,7 @@ system Wezen
 system "Ya Hai"
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/ice6
@@ -9494,7 +9494,7 @@ system "Ya Hai"
 system "Yed Prior"
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert7
@@ -9520,7 +9520,7 @@ system "Yed Prior"
 system Zaurak
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock14
@@ -9546,12 +9546,12 @@ system Zaurak
 system "Zeta Aquilae"
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 22.6286
 		period 10.5305
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 76.3714
 		period 10.5305
 		offset 180
@@ -9595,7 +9595,7 @@ system "Zeta Aquilae"
 system "Zeta Centauri"
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud4
@@ -9625,7 +9625,7 @@ system "Zeta Centauri"
 system Zosma
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/gas11
@@ -9655,7 +9655,7 @@ system Zosma
 system "Zuba Zub"
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/dust6
@@ -9693,12 +9693,12 @@ system "Zuba Zub"
 system Zubenelgenubi
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 32.8466
 		period 12.4309
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 64.1534
 		period 12.4309
 		offset 180
@@ -9730,13 +9730,13 @@ system Zubenelgenubi
 system Zubeneschamali
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 62
 		period 15.622
 		offset 180
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 62
 		period 15.622
 	object
@@ -9769,30 +9769,30 @@ system "Over the Rainbow"
 		sprite planet/wormhole
 	object
 		sprite stars/k5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 1455.1
 		period 875.481048
 		offset 180
 		object
 			sprite stars/m4
-				"frame rate" 0.5
+				"frame rate" 0.2
 			distance 75
 			period 12.179969
 	object
 		sprite stars/g0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 544.9
 		period 875.481048
 		object
 			sprite stars/m4
-				"frame rate" 0.5
+				"frame rate" 0.2
 			distance 107
 			period 12.701281
 
 system "Terra Incognita"
 	object
 		sprite stars/k0
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/lava4
@@ -9826,7 +9826,7 @@ system "Terra Incognita"
 system "World's End"
 	object
 		sprite stars/g5
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite "planet/ringworld right"
