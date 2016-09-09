@@ -1,0 +1,8 @@
+For the sake of simplicity, I've integrated my "Animated Stars" plugin into my main plugin, Enigma Corp. As such, some people may want to play Enigma Corp but not have the animated stars. The following is a step-by-step guide on how to remove the animated stars if one desires.
+
+1) Go to the data folder and remove any files beginning in "map as -".
+2) Go to Enigma Corp/ and find the zip file that contains all the map files in a folder. Unzip this and open the folder.
+3) Drag the files labeled "map nas -" from the unzipped folder into the data folder.
+4) Delete the map folder so that it doesn't screw anything up; keep the zip file so that you can use it later.
+
+And now you're done! You should have successfully removed my beautiful animated stars. If you wish to reverse this, then do the same thing, except with replacing the "map nas -" files with "map as -"
