@@ -22,6 +22,8 @@ V0.5.5
 		*Animated Stars!
 			*I've integrated my animated stars plugin into Enigma Corp, so downloading Enigma Corp now animates all the stars (systems from other plugins not included).
 			*If you so desire, there is a .txt file that has deinstall instructions for the animated stars.
+		*New explosion sprites to be used for special weapons and alien ships.
+			*Changes the old Plasmathrower projectile sprites to be called "ion" and created new plasma sprites.
 	Content Changes
 		*The release of Enigma Corp technology is now on a timer instead of being based off of which campaign missions you have completed.
 		*Redid a lot of the old outfit images so that I can have @2x versions of them.
@@ -62,7 +64,7 @@ V0.5.5
 			*Hellfire: 0.2 mass -> 0.1, 900 cost -> 350.
 			*These changes also alter the mass and capacity of their respective launchers and capacity upgraders. Check commit b0a7550 for full details.
 	Bug Fixes
-		*Moved the position of Termara in order to avoid a bug with the engine. (@KevinKorzekwa)
+		*Moved the position of Termara in order to avoid a bug with the game engine. (@KevinKorzekwa)
 		*The usual typo fixes.
 		*Fixed some errors that were popping up in errors.txt.
 			*Fixed a quote error on the Viper description.
