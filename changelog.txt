@@ -1,6 +1,6 @@
 V0.5.5
 	New Content
-		*Added a few attributes to Enigma stations for use in missions.
+		*Added a few attributes to Enigma stations for use in missions and to allow jobs to appear on the stations.
 		*Added a new mission involving vandilizing Lovelace Labs that introduces the Freelancers, a new government that will be expanded upon later.
 		*Added capacity upgraders for some newer weapons.
 		*Added three new weapons: The Particle Blaster, Particle Repeater, and Modified Proton Gun, all created during the community pack frenzy that resulted in things such as the Gatling Gun and Solifuge.
@@ -11,14 +11,17 @@ V0.5.5
 			*There is also a chance to find old, abandoned ships floating around in human space. These ships are less banged up than those small ships in uninhabited systems and must be boarded to be looted. There is a 50% chance of a derelict fleet spawning every time you land, and it will be located anywhere from 3 to 6 jumps from the landing point.
 		*Damaged outfits: A whole set of human outfits that are damaged and no good. Only meant for selling and can be found in abandoned ships.
 		*Salavaged outfits: A whole set of human outfits that are slightly dented up, having worse stats in some way to their normal variants. Can be used if you need a free outfit and don't mind the extra drawbacks, but are really more for selling. Can be found by looting abandoned ships.
-		*A Dual Slicer Turret and Korath Disruptor Gun for the luls; not currently on any Korath ships.
+		*A Dual Slicer Turret and Korath Disruptor Gun for the luls; can by found on a bunch of Mereti variants.
+			*Because of this, the Mereti no longer ALL have minelayers, so fighting them isn't a total pain anymore!
 		*Enigma Corp fleets now spawn in (almost) all human systems, the frequency of which decreasing with the distance from the nearest station.
-		*Made a bunch of Kor Mereti ship variants that use the two new Korath weapons added.
 		*Implemented my old "relocation" missions into EC.
 			*Adds two new jobs to pick up near earth that involve you transporting large amounts of passengers to less populated planets. Bigger than colonizer jobs.
 			*Adds a short mission that involves bringing escorting supplies to Earth under heavy pirate fire. Results in a temporary Navy license early in the game and gives Earth a sprites with a cool little thing on it (play the mission to find out what it is).
 		*Added About and Readme files.
-		*Created a new start sprite to be used in the Enigma system.
+		*Created a new star sprite to be used in the Enigma system.
+		*Animated Stars!
+			*I've integrated my animated stars plugin into Enigma Corp, so downloading Enigma Corp now animates all the stars (systems from other plugins not included).
+			*If you so desire, there is a .txt file that has deinstall instructions for the animated stars.
 	Content Changes
 		*The release of Enigma Corp technology is now on a timer instead of being based off of which campaign missions you have completed.
 		*Redid a lot of the old outfit images so that I can have @2x versions of them.
@@ -42,17 +45,24 @@ V0.5.5
 		*Move Enigma Zeta out of the Quarg visited system of Dahib and up to Betelgeuse.
 		*Enigma Prime is no longer abandoned before starting the EC mission; they just won't let you land without 1 million rep.
 		*Changed the fleets that spawn in the Enigma system; you'll now see actual Enigma fleets.
-		*Declining Enigma [1a] and [1b] now has the ships become available much later than if you accepted the missions, and declining Enigma [1a] now allows you to still pick up [1b].
-		*Enigma [1c] now only gives you one Echo 78 escort and spawns a Quicksilver test dummy instead of a Firebird.
+		*Declining Enigma Corp [1a] and [1b] now has the ships become available much later than if you accepted the missions, and declining Enigma Corp [1a] now allows you to still pick up [1b].
+		*Enigma Corp [1c] now only gives you one Echo 78 escort and spawns a Quicksilver test dummy instead of a Firebird.
 		*The Termini Appear event on offer condition switched from "free worlds plot completed" to "main plot completed."
+		*Added final explosions on the ships, which I forgot to do for v0.9.2
 	Balance
 		*Rebalanced the capacity upgraders a lot to now compensate for ammunition mass.
 		*Reduced the cost of Shrapnel Canisters (4000->1000).
 		*Increased Missile Turret mass (15->18) as well as renaming it to the "Sidewinder Missile Turret."
 		*Buffed the Hellfire Missile's lifetime by 50% (120->180).
-		*Completely rebalanced all the Enigma Corp ships in the game so far. They are now not all top of their class and mainly are stock fitted with Navy gear (Ion engines and the many fusion/fission reactors).
+		*Completely rebalanced all the Enigma Corp ships in the game so far. They are now not all top of their class and mainly are stock fitted with Navy gear (Ion engines and the many fusion/fission reactors). See full details in commit c3760a4.
+		*Resized a lot of the Echo ships, as many of them were bigger than they should have been. See full details in commit 8bba4ca.
 		*Buffed (nerfed?) the heat damage of the Cryo Beam (-0.1 -> -10) and set its disruption damage to positive.
+		*Changes the mass and cost of the Hellfire and Flux missiles
+			*Flux: 0.15 mass -> 0.25, 1200 cost ->1500.
+			*Hellfire: 0.2 mass -> 0.1, 900 cost -> 350.
+			*These changes also alter the mass and capacity of their respective launchers and capacity upgraders. Check commit b0a7550 for full details.
 	Bug Fixes
+		*Moved the position of Termara in order to avoid a bug with the engine. (@KevinKorzekwa)
 		*The usual typo fixes.
 		*Fixed some errors that were popping up in errors.txt.
 			*Fixed a quote error on the Viper description.
@@ -64,11 +74,10 @@ V0.5.5
 		*The Typhoon Capacity Upgrader now properly appears in outfitters.
 		*The Termini Appearence event now properly sets the fleets of the affected systems to what they should be after the campaign instead of before it.
 	Misc
-		*Removed all @2x files from the plugin. An independent @2x plugin will be created later.
+		*Removed @2x images from the folders. All @2x images are now locate within zip files in their respective folders.
 		*Created a copyright file.
 		*Added a file in to the mod that will only be useable when the World Forge mod is also downloaded. It makes Enigma Corp outfits and ships appear on the Mods and Forge planets, as well as some of it being on the Human planet.
 		*Removed useless Thumbs.db files.
-		*Resized a lot of the Echo ships, as many of them were bigger than they should have been.
 
 V0.5.4 and a half
   Content
