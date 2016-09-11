@@ -53,6 +53,7 @@ ship "Hai Medium Warship"
 	explode "medium explosion" 50
 	explode "big explosion" 40
 	explode "huge explosion" 10
+	"final explode" "final explosion medium"
 	description "Unfettered medium warship. Can carry 2 fighters. Fitted with Large Radar Jammers that the Alphas provided as countermeasures for the Wanderer's infrared and radar tracking Thunderhead missiles in lue of using anti missile turrets."
 
 ship "Hai Light Droneship"
@@ -102,6 +103,7 @@ ship "Hai Light Droneship"
 	explode "small explosion" 45
 	explode "medium explosion" 24
 	explode "big explosion" 10
+	"final explode" "final explosion small"
 	description "Hai light warship. Carries 4 drones. Only two gun hardpoints, relying mainly on its drones for fire power."
 
 ship "Hai Heavy Droneship"
@@ -168,5 +170,6 @@ ship "Hai Heavy Droneship"
 	explode "medium explosion" 40
 	explode "big explosion" 40
 	explode "huge explosion" 15
+	"final explode" "final explosion large"
 	description "Hai heavy warship. Carries 10 drones. The bigger version of the Medium Droneship."
 	

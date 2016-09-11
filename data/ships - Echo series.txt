@@ -131,6 +131,7 @@ ship "EC-031 'Viper'"
 	explode "small explosion" 25
 	explode "medium explosion" 30
 	explode "big explosion" 15
+	"final explode" "final explosion small"
 	description `The Enigma Corproation's "Missile Series" of ships was the first to gain reasonable public acclaim, mainly from those who enjoy using missiles over laser or blaster weaponry. The Viper was the first in this series to be released to the public. Similar to the rest of the ships in the Missile Series, it greatly emphasizes shields over hull compared to normal human ships and is designed to have a very low drag compared to ships of the same size. It has also been praised by many for its niche design of using Lovelace Labs' new Missile Turrets and having a built in missile storage system for carrying even more missiles.`
 	description "Brought to you by the Enigma Corporation."
 
@@ -186,6 +187,7 @@ ship "EC-032 'Rattlesnake'"
 	explode "small explosion" 15
 	explode "medium explosion" 30
 	explode "big explosion" 20
+	"final explode" "final explosion medium"
 	description `The Rattlesnake is the Viper's big brother, having a similar design philosophy and capitalizing on missile bay technology in order to increase the amount of missiles able to be carried. Unsurprisingly, the Corporation has designed the Rattlesnake to only be able to carry extra missiles that have been built by the Corporation itself, able to carry an additional 245 Hellfire Missiles and 350 Flux Missiles.`
 	description "Brought to you by the Enigma Corporation."
 
@@ -244,6 +246,7 @@ ship "EC-033 'King Cobra'"
 	explode "medium explosion" 36
 	explode "big explosion" 24
 	explode "huge explosion" 8
+	"final explode" "final explosion large"
 	description `If the Rattlesnake is the Viper's big brother, than the King Cobra is the father of them all. The biggest of the big when it comes to Enigma Corp missile ships, this heavy warship has ten missile launchers and big enough missile bays to hold 350 Hellfire Missiles and 500 Flux Missiles.`
 	description "Brought to you by the Enigma Corporation."
 
@@ -297,6 +300,7 @@ ship "EC-037 'Aegis'"
 	explode "medium explosion" 36
 	explode "big explosion" 24
 	explode "huge explosion" 8
+	"final explode" "final explosion medium"
 	description `The Aegis was the first ship from the Corporation's "Mythos Series" of ships that was made available to the public. A mix between a medium and heavy warship, it is in a rather odd place. On one had it is the size of a medium warship, but on the other it has enough weapons to compete against many heavy warships. But some tend to shy away from this beast, as all that extra weapon space come as the cost of sustantially less engine capacity.`
 	description "Brought to you by the Enigma Corporation."
 
@@ -350,6 +354,7 @@ ship "EC-050 'Orca'"
 	explode "medium explosion" 60
 	explode "big explosion" 30
 	explode "huge explosion" 20
+	"final explode" "final explosion large"
 	description "The Orca is the mother of all haulers, able to carry twice as much cargo as it competitor, the Bulk Freighter. It does this by packing the cargo as tight as humanly possible and converting much of the space that would normally be used for crew quarters and other facilities into cargo space. Although, this makes the Orca come at a heavy cost of over 43 million credits for the hull alone, as well as making the Orca a large and slow target that can have trouble defending itself."
 	description "Brought to you by the Enigma Corporation."
 
@@ -402,6 +407,7 @@ ship "EC-069 'Star King'"
 	explode "small explosion" 25
 	explode "medium explosion" 25
 	explode "big explosion" 10
+	"final explode" "final explosion medium"
 	description `The Star King was the Corporation's attempt at reviving the luxury cruiser market and openning it up to the wider market of combat pilots. Designed for transport of the most important individuals, the Star King is both more heavily armed and armored than it's smaller cousin, the Star Queen. Every Star King also comes complete with a trained chef and three space waitresses free of charge!`
 	description "Brought to you by the Enigma Corporation."
 
@@ -457,6 +463,7 @@ ship "EC-070 'Star Guardian'"
 	explode "small explosion" 30
 	explode "medium explosion" 30
 	explode "big explosion" 10
+	"final explode" "final explosion medium"
 	description "After the mixed reception of the Star King to the public market, the Corporation began work on a new design that sought to create a perfect luxury transport ship that could also double as a warship. The Star Guardian is the result of that. The pinnicale of luxry transport, the Star Guardian is better than the Star King in every way and also comes specially fitted with an EMP Device designed to get you out of the stickiest of situations. The newly designed EMP Device scrambles the power systems of nearby enemy ships, allowing for the Star Guardian to quickly warp out of the system while recieving little damage."
 	description "Brought to you by the Enigma Corporation."
 
@@ -504,6 +511,7 @@ ship "EC-077 'Dire Wolf'"
 	gun 36 6
 	explode "tiny explosion" 12
 	explode "small explosion" 16
+	"final explode" "final explosion small"
 	description `This ship was a venture into the widely untouched market of bomber technology. The Dire Wolf is an advanced bomber fitted with the strongest of torpedo technology: Enigma Corp's new Wolf Bombs. These weapons are stronger than any other torpedo technology on the market, making the Wolf a formidable foe. This power comes at a cost, though, as the Dire Wolf is clearly one of the weakest ships in its class when it comes to armor and shields.`
 	description "Brought to you by the Enigma Corporation."
 
@@ -554,6 +562,7 @@ ship "EC-078 'Dire Hawk'"
 	gun 36 6
 	explode "tiny explosion" 12
 	explode "small explosion" 16
+	"final explode" "final explosion small"
 	description "One of the main critiques with the Dire Wolf was its low amount of armor in shields, leading to a quick death in most situations. As a result, the Corporation began work on making a new bomber that would be able to withstand much more fire. They ended up creating the Dire Hawk. This ship is exactly the same as the Dire Wolf in almost all ways, except for one important part; the Dire Hawk comes fitted with a prototype cloaking device. This cloaking device allows for the Dire Hawk to avoid taking damage if used correctly, making the Hawk more deadly than the Wolf could ever be."
 	description "Brought to you by the Enigma Corporation."
 
@@ -631,5 +640,6 @@ ship "EC-099 'Oblivion'"
 	explode "medium explosion" 70
 	explode "big explosion" 30
 	explode "huge explosion" 10
+	"final explode" "final explosion large"
 	description "The EC-099 Oblivion heavy flagship is the pinnacle of human technology. Better in almost every way, this behemoth is a true beauty, only entrusted to those in the most inner of circles in the Enigma Corporation. Or just those who cheat to get it."
 	description "Brought to you by the Enigma Corporation."

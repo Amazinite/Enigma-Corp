@@ -48,6 +48,7 @@ ship "Planet Razer"
 	explode "medium explosion" 35
 	explode "big explosion" 45
 	explode "huge explosion" 30
+	"final explode" "final explosion large"
 
 ship "Artillery Battleship"
 	sprite "ship/blue battleship"
@@ -91,6 +92,7 @@ ship "Artillery Battleship"
 	explode "medium explosion" 35
 	explode "big explosion" 45
 	explode "huge explosion" 30
+	"final explode" "final explosion large"
 
 ship "Gun Carrier"
 	sprite "ship/blue gun carrier"
@@ -138,6 +140,7 @@ ship "Gun Carrier"
 	explode "medium explosion" 35
 	explode "big explosion" 45
 	explode "huge explosion" 30
+	"final explode" "final explosion large"
 
 ship "Combat Hauler"
 	sprite "ship/blue hauler"
@@ -178,3 +181,4 @@ ship "Combat Hauler"
 	explode "medium explosion" 35
 	explode "big explosion" 45
 	explode "huge explosion" 30
+	"final explode" "final explosion large"

@@ -44,6 +44,7 @@ ship "Scout Drone"
 	explode "small explosion" 15
 	explode "medium explosion" 10
 	explode "big explosion" 5
+	"final explode" "final explosion large"
 	description "You be snooping around the files?"
 
 ship "Mothership"
@@ -83,4 +84,5 @@ ship "Mothership"
 	turret 224.5 72
 	turret -140 -194.5
 	turret 138.5 -193
-	explode "big explosion" 50
+	explode "nuke explosion" 50
+	"final explode" "final explosion large"
