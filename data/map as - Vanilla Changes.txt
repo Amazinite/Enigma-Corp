@@ -9892,6 +9892,7 @@ event "frame rate check"
 	system Deneb
 		object
 			sprite "star (animated)/g5"
+				"frame rate" 0.2
 			period 10
 		object "Pugglemug"
 			sprite planet/ocean2
