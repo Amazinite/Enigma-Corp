@@ -675,7 +675,7 @@ outfit "Plasmathrower"
 	"weapon capacity" -9
 	"gun ports" -1
 	weapon
-		sprite "effect/explosion/plasma small"
+		sprite "effect/explosion/plasma/small"
 			"frame rate" 60
 			"no repeat"
 		sound "flamethrower"
@@ -693,8 +693,7 @@ outfit "Plasmathrower"
 outfit "Plasmathrower Projectile"
 	weapon
 		sprite "projectile/plasmathrower"
-			"frame rate" 17
-			"random start frame"
+			"frame rate" 60
 		sound "plasma"
 		"hit effect" "plasmathrower hit"
 		"die effect" "plasmathrower die"
