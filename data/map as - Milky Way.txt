@@ -2381,7 +2381,7 @@ planet "Enigma Sigma"
 	government "Enigma Corp"
 
 planet "Enigma Zeta"
-	attributes EC "EC Shady" "dirt belt"
+	attributes EC "EC Shady" north
 	landscape land/station1
 	outfitter "Common Outfits"
 	outfitter "Basic Outfits"
