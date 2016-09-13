@@ -42,7 +42,7 @@ V0.5.5
 			*Pirates are no longer set to hostile if you for some reason are friendly with them.
 			*Blocked and on visit dialogs in some spots.
 		*Enigma Corp fleets are now less likely to spawn in the same systems as the Quarg, as the two factions are hostile towards one another.
-		*Did some rewording in the missions Enigma Corp [0], [1b], [1c], and [1a]'s complete conversation (still need to do the on offer conversation for [1a]), and of the Enigma Prime descriptions.
+		*Did some rewording in the Enigma Corp missions and rewrote Enigma Prime's descriptions.
 		*Enigma Corp [1a] can now only be offered 10 days after dropping the EC CEO off at Enigma Prime
 		*Move Enigma Zeta out of the Quarg visited system of Dahib and up to Betelgeuse.
 		*Enigma Prime is no longer abandoned before starting the EC mission; they just won't let you land without 1 million rep.

@@ -69,7 +69,6 @@ mission "Enigma Corp [0]"
 
 	on complete
 		event "Talk to Dolent" 10
-		event "EC: New Ship" 60
 		payment 30000000
 		conversation
 			`	"Thank you for the ride. Not many people these days would care enough to help out a stranger. Help yourself to the outfitters and shipyards, and I'd love to have you work for me in the future."`
@@ -97,7 +96,6 @@ mission "EC reverse compat"
 		has "event: Enigma Prime Open"
 	on offer
 		event "Enigma Update"
-		event "EC: New Ship" 60
 		fail
 
 event "Enigma Update"
@@ -128,8 +126,6 @@ event "Enigma Update"
 		fleet "Large Deep" 5000
 		fleet "Oblivion" 25000
 		fleet "Keeper" 75000
-
-event "EC: New Ship"
 
 mission "Enigma Corp [1a]"
 	source "Enigma Prime"
