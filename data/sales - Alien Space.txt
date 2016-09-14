@@ -21,7 +21,7 @@ shipyard "Hai Advanced"
 outfitter "Wanderer Basics"
 
 outfitter "Wanderer Advanced"
-	"Thunderhead Cap. Up."
+	"Thunderhead Cap-Up"
 
 outfitter "Hai Basics"
 
