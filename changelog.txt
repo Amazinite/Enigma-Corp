@@ -4,13 +4,16 @@ V0.5.5
 		*Added a new mission involving vandilizing Lovelace Labs that introduces the Freelancers, a new government that will be expanded upon later.
 		*Added capacity upgraders for some newer weapons.
 		*Added three new weapons: The Particle Blaster, Particle Repeater, and Modified Proton Gun, all created during the community pack frenzy that resulted in things such as the Gatling Gun and Solifuge.
-		*Added three new ships to be used by the Hai, also created during the community pack frenzy.
-		*All systems now include minable asteroids (Endless Sky v0.9.3 only).
+		*Added three new ships to be used by the Hai, also created during the community pack frenzy. Not in any fleets yet.
+		*Systems now include minable asteroids (Endless Sky v0.9.3 only).
 		*Space Junk! (Endless Sky v0.9.3 only)
-			*Uninhabited systems have a chance of spawning abandoned small ships orbitting their stars. Destroying these ships will drop damaged outfits and scraps of metal that can be sold for money.
-			*There is also a chance to find old, abandoned ships floating around in human space. These ships are less banged up than those small ships in uninhabited systems and must be boarded to be looted. There is a 50% chance of a derelict fleet spawning every time you land, and it will be located anywhere from 3 to 6 jumps from the landing point.
-		*Damaged outfits: A whole set of human outfits that are damaged and no good. Only meant for selling and can be found in abandoned ships.
-		*Salavaged outfits: A whole set of human outfits that are slightly dented up, having worse stats in some way to their normal variants. Can be used if you need a free outfit and don't mind the extra drawbacks, but are really more for selling. Can be found by looting abandoned ships.
+			*"Space Junk" includes two systems created to make the universe feel more alive and mysterious. These two systems are known as "Minable Junk" and "Spawnable Junk."
+				*Minable Junk: Small abandoned ships like interceptors and light transports or freighters can be found floating around in uninhabited systems. These are long forgotten ships that have been left for dead by pirates. Shooting and destroying them drops outfits and scrap metal to be sold for credits.
+				*Spawnable Junk: Every time you land on a planet, there is a chance that somewhere nearby an abandoned ship will be spawned. This can be any ship that normally spawns in the game, be it a Shuttle all the way up to a Republic Cruiser. 
+			*There has also been two entirely new sets of human outfits that are variants of the normal human outfits. These variants are known as "Damaged" and "Salvagable."
+				*Damaged outfits can not be installed and are a lot less worthy than their normal variants. All minables drop these damaged outfits and they are also what is most likely to be found on spawnable junk.
+				*Salvaged outfits can only be found on spawnable junk and can be installed. They aren't worth as much as the normal variants and are less efficient in certain ways, but can be helpful in the early game if you don't have the cash to buy the normal version.
+					*Disclaimer: All spawnables in this update have damaged outfits. The next update will see salvaged outfits being findable on spawnables.
 		*A Dual Slicer Turret and Korath Disruptor Gun for the luls; can by found on a bunch of Mereti variants.
 			*Because of this, the Mereti no longer ALL have minelayers, so fighting them isn't a total pain anymore!
 		*Enigma Corp fleets now spawn in (almost) all human systems, the frequency of which decreasing with the distance from the nearest station.
@@ -75,6 +78,7 @@ V0.5.5
 		*Put parentheses around choice actions in some missions for consistency with vanilla.
 		*The Typhoon Capacity Upgrader now properly appears in outfitters.
 		*The Termini Appearence event now properly sets the fleets of the affected systems to what they should be after the campaign instead of before it.
+		*Fixed the name of the Thunderhead Capacity Upgrader in sales so that it will be purchaseable now.
 	Misc
 		*Removed @2x images from the folders. All @2x images are now locate within zip files in their respective folders.
 		*Created a copyright file.
