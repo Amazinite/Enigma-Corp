@@ -786,623 +786,614 @@ fleet "Abandoned Militia Fleet (Large)"
 ship "Star Barge" "Star Barge ()"
 	"uncapturable"
 	outfits
-		"Blaster Turret"
-		"nGVF-BB Fuel Cell"
-		"LP036a Battery Pack"
-		"D14-RN Shield Generator"
-		"Chipmunk Plasma Thruster"
-		"Chipmunk Plasma Steering"
-		"Hyperdrive"
+		"Damaged Blaster Turret"
+		"Damaged nGVF-BB Cell"
+		"Damaged LP036a Battery"
+		"Damaged D14-RN Shield"
+		"Damaged Chipmunk Thruster"
+		"Damaged Chipmunk Steering"
+		"Damaged Hyperdrive"
 
 ship "Sparrow" "Sparrow ()"
 	"uncapturable"
 	outfits
-		"Beam Laser" 2
-		"nGVF-BB Fuel Cell"
-		"LP036a Battery Pack"
-		"D14-RN Shield Generator"
-		"Cargo Scanner"
-		"Outfit Scanner"
-		"Chipmunk Plasma Thruster"
-		"Chipmunk Plasma Steering"
-		"Hyperdrive"
+		"Damaged Beam Laser" 2
+		"Damaged nGVF-BB Cell"
+		"Damaged LP036a Battery"
+		"Damaged D14-RN Shield"
+		"Damaged Cargo Scanner"
+		"Damaged Outfit Scanner"
+		"Damaged Chipmunk Thruster"
+		"Damaged Chipmunk Steering"
+		"Damaged Hyperdrive"
 
 ship "Berserker" "Berserker ()"
 	"uncapturable"
 	outfits
-		"Energy Blaster" 2
-		"Javelin Pod" 2
-		"Javelin" 400
-		"nGVF-CC Fuel Cell"
-		"LP036a Battery Pack"
-		"D23-QP Shield Generator"
-		"Ramscoop"
-		"Chipmunk Plasma Thruster"
-		"Greyhound Plasma Steering"
-		"Afterburner"
-		"Hyperdrive"
+		"Damaged Energy Blaster" 2
+		"Damaged Javelin Pod" 2
+		"Javelin" 200
+		"Damaged nGVF-CC Cell"
+		"Damaged LP036a Battery"
+		"Damaged D23-QP Shield"
+		"Damaged Ramscoop"
+		"Damaged Chipmunk Thruster"
+		"Damaged Greyhound Steering"
+		"Damaged Afterburner"
+		"Damaged Hyperdrive"
 
 ship "Wasp" "Wasp ()"
 	"uncapturable"
 	outfits
-		"Proton Gun"
-		"nGVF-BB Fuel Cell"
-		"LP036a Battery Pack"
-		"D14-RN Shield Generator"
-		"X2700 Ion Thruster"
-		"X2200 Ion Steering"
-		"Hyperdrive"
+		"Damaged Proton Gun"
+		"Damaged nGVF-BB Cell"
+		"Damaged LP036a Battery"
+		"Damaged D14-RN Shield"
+		"Damaged X2700 Thruster"
+		"Damaged X2200 Steering"
+		"Damaged Hyperdrive"
 
 ship "Hawk" "Hawk ()"
 	"uncapturable"
 	outfits
-		"Heavy Rocket Launcher" 2
-		"Heavy Rocket" 40
-		"RT-I Radiothermal"
-		"Supercapacitor" 2
-		"D41-HY Shield Generator"
-		"Greyhound Plasma Thruster"
-		"Greyhound Plasma Steering"
-		"Hyperdrive"
+		"Damaged Heavy Rocket" 2
+		"Heavy Rocket" 20
+		"Damaged Radiothermic"
+		"Damaged Supercapacitor" 2
+		"Damaged D41-HY Shield"
+		"Damaged Greyhound Thruster"
+		"Damaged Greyhound Steering"
+		"Damaged Hyperdrive"
 
 ship "Fury" "Fury ()"
 	"uncapturable"
 	outfits
-		"Heavy Laser" 2
-		"RT-I Radiothermal"
-		"Supercapacitor"
-		"D23-QP Shield Generator"
-		"Cooling Ducts"
-		"Chipmunk Plasma Thruster"
-		"A125 Atomic Steering"
-		"Hyperdrive"
+		"Damaged Heavy Laser" 2
+		"Damaged Radiothermic"
+		"Damaged Supercapacitor"
+		"Damaged D23-QP Shield"
+		"Damaged Cooling Ducts"
+		"Damaged Chipmunk Thruster"
+		"Damaged A125 Steering"
+		"Damaged Hyperdrive"
 
 ship "Freighter" "Freighter ()"
 	"uncapturable"
 	outfits
-		"Laser Turret" 2
-		"Heavy Anti-Missile Turret"
-		"NT-200 Nucleovoltaic"
-		"Supercapacitor"
-		"D14-RN Shield Generator"
-		"Ramscoop"
+		"Damaged Laser Turret" 2
+		"Damaged HAM Turret"
+		"Damaged Nucleovoltaic"
+		"Damaged Supercapacitor"
+		"Damaged D14-RN Shield"
+		"Damaged Ramscoop"
 		"Mass Expansion"
-		"Greyhound Plasma Thruster"
-		"X3200 Ion Steering"
-		"Scram Drive"
+		"Damaged Greyhound Thruster"
+		"Damaged X3200 Steering"
+		"Damaged Scram Drive"
 
 ship "Argosy" "Argosy ()"
 	"uncapturable"
 	outfits
-		"Meteor Missile Launcher" 4
-		"Meteor Missile" 140
-		"Anti-Missile Turret"
-		"Heavy Anti-Missile Turret"
-		"Fission Reactor"
-		"Supercapacitor"
-		"D41-HY Shield Generator"
+		"Damaged Meteor Launcher" 4
+		"Meteor Missile" 70
+		"Damaged AM Turret"
+		"Damaged HAM Turret"
+		"Damaged Fission Reactor"
+		"Damaged Supercapacitor"
+		"Damaged D41-HY Shield"
 		"Mass Expansion"
-		"A370 Atomic Thruster"
-		"A255 Atomic Steering"
-		"Hyperdrive"
+		"Damaged A370 Thruster"
+		"Damaged A255 Steering"
+		"Damaged Hyperdrive"
 
 ship "Clipper" "Clipper ()"
 	"uncapturable"
 	outfits
-		"Heavy Rocket Launcher" 2
-		"Heavy Rocket" 40
-		"Meteor Missile Launcher" 2
-		"Meteor Missile" 70
-		"RT-I Radiothermal"
-		"Supercapacitor"
-		"D67-TM Shield Generator"
-		"Greyhound Plasma Thruster"
-		"Impala Plasma Steering"
-		"Scram Drive"
+		"Damaged Heavy Rocket" 2
+		"Heavy Rocket" 20
+		"Damaged Meteor Launcher" 2
+		"Meteor Missile" 35
+		"Damaged Radiothermic"
+		"Damaged Supercapacitor"
+		"Damaged D67-TM Shield"
+		"Damaged Greyhound Thruster"
+		"Damaged Impala Steering"
+		"Damaged Scram Drive"
 
 ship "Behemoth" "Behemoth ()"
 	"uncapturable"
 	outfits
-		"Sidewinder Missile Launcher" 2
-		"Sidewinder Missile" 100
-		"Heavy Laser Turret" 6
-		"Breeder Reactor"
-		"LP144a Battery Pack"
-		"D94-YV Shield Generator"
-		"Large Radar Jammer"
-		"Liquid Nitrogen Cooler"
+		"Damaged Sidewinder Launcher" 2
+		"Sidewinder Missile" 50
+		"Damaged Heavy Turret" 6
+		"Damaged Breeder Reactor"
+		"Damaged LP144a Battery"
+		"Damaged D94-YV Shield"
+		"Damaged Large Jammer"
+		"Damaged Nitrogen Cooler"
 		"Mass Expansion" 6
-		"A250 Atomic Thruster"
-		"A125 Atomic Steering"
-		"A375 Atomic Steering"
-		"Scram Drive"
+		"Damaged A250 Thruster"
+		"Damaged A125 Steering"
+		"Damaged A375 Steering"
+		"Damaged Scram Drive"
 
 ship "Bulk Freighter" "Bulk Freighter ()"
 	"uncapturable"
 	outfits
-		"Laser Turret" 2
-		"Heavy Laser Turret" 2
-		"Heavy Anti-Missile Turret"
-		"Meteor Missile Launcher" 2
-		"Meteor Missile" 70
-		"Fission Reactor"
-		"LP072a Battery Pack"
-		"D94-YV Shield Generator"
+		"Damaged Laser Turret" 2
+		"Damaged Heavy Turret" 2
+		"Damaged HAM Turret"
+		"Damaged Meteor Launcher" 2
+		"Meteor Missile" 35
+		"Damaged Fission Reactor"
+		"Damaged LP072a Battery"
+		"Damaged D94-YV Shield"
 		"Mass Expansion"
-		"A250 Atomic Thruster"
-		"A375 Atomic Steering"
-		"Scram Drive"
+		"Damaged A250 Thruster"
+		"Damaged A375 Steering"
+		"Damaged Scram Drive"
 
 ship "Hauler" "Hauler ()"
 	"uncapturable"
 	outfits
-		"Meteor Missile Launcher" 2
-		"Meteor Missile" 70
-		"Quad Blaster Turret" 2
-		"Heavy Anti-Missile Turret" 2
-		"S3 Thermionic"
-		"LP072a Battery Pack"
-		"D23-QP Shield Generator"
-		"Small Radar Jammer"
-		"Greyhound Plasma Thruster"
-		"Impala Plasma Steering"
-		"Hyperdrive"
+		"Damaged Meteor Launcher" 2
+		"Meteor Missile" 35
+		"Damaged Quad Turret" 2
+		"Damaged HAM Turret" 2
+		"Damaged Thermionic"
+		"Damaged LP072a Battery"
+		"Damaged D23-QP Shield"
+		"Damaged Small Jammer"
+		"Damaged Greyhound Thruster"
+		"Damaged Impala Steering"
+		"Damaged Hyperdrive"
 
 ship "Hauler II" "Hauler II ()"
 	"uncapturable"
 	outfits
-		"Meteor Missile Launcher" 2
-		"Meteor Missile" 70
-		"Quad Blaster Turret" 2
-		"Heavy Anti-Missile Turret" 2
-		"S3 Thermionic"
-		"LP072a Battery Pack"
-		"D23-QP Shield Generator"
-		"Small Radar Jammer"
-		"Greyhound Plasma Thruster"
-		"Impala Plasma Steering"
-		"Hyperdrive"
+		"Damaged Meteor Launcher" 2
+		"Meteor Missile" 35
+		"Damaged Quad Turret" 2
+		"Damaged HAM Turret" 2
+		"Damaged Thermionic"
+		"Damaged LP072a Battery"
+		"Damaged D23-QP Shield"
+		"Damaged Small Jammer"
+		"Damaged Greyhound Thruster"
+		"Damaged Impala Steering"
+		"Damaged Hyperdrive"
 
 ship "Hauler III" "Hauler III ()"
 	"uncapturable"
 	outfits
-		"Meteor Missile Launcher" 2
-		"Meteor Missile" 70
-		"Quad Blaster Turret" 2
-		"Heavy Anti-Missile Turret" 2
-		"S3 Thermionic"
-		"LP072a Battery Pack"
-		"D23-QP Shield Generator"
-		"Small Radar Jammer"
-		"Greyhound Plasma Thruster"
-		"Impala Plasma Steering"
-		"Hyperdrive"
+		"Damaged Meteor Launcher" 2
+		"Meteor Missile" 35
+		"Damaged Quad Turret" 2
+		"Damaged HAM Turret" 2
+		"Damaged Thermionic"
+		"Damaged LP072a Battery"
+		"Damaged D23-QP Shield"
+		"Damaged Small Jammer"
+		"Damaged Greyhound Thruster"
+		"Damaged Impala Steering"
+		"Damaged Hyperdrive"
 
 ship "Heavy Shuttle" "Heavy Shuttle ()"
 	"uncapturable"
 	outfits
-		"Energy Blaster" 2
-		"nGVF-BB Fuel Cell"
-		"LP036a Battery Pack"
-		"D14-RN Shield Generator"
-		"Chipmunk Plasma Thruster"
-		"Chipmunk Plasma Steering"
-		"Hyperdrive"
+		"Damaged Energy Blaster" 2
+		"Damaged nGVF-BB Cell"
+		"Damaged LP036a Battery"
+		"Damaged D14-RN Shield"
+		"Damaged Chipmunk Thruster"
+		"Damaged Chipmunk Steering"
+		"Damaged Hyperdrive"
 
 ship "Shuttle" "Shuttle ()"
 	"uncapturable"
 	outfits
-		"nGVF-AA Fuel Cell"
-		"LP036a Battery Pack"
-		"D14-RN Shield Generator"
-		"X2700 Ion Thruster"
-		"X2200 Ion Steering"
-		"Hyperdrive"
+		"Damaged nGVF-AA Cell"
+		"Damaged LP036a Battery"
+		"Damaged D14-RN Shield"
+		"Damaged X2700 Thruster"
+		"Damaged X2200 Steering"
+		"Damaged Hyperdrive"
 
 ship "Flivver" "Flivver ()"
 	"uncapturable"
 	outfits
-		"RT-I Radiothermal"
-		"D14-RN Shield Generator"
-		"Water Coolant System"
-		"A120 Atomic Thruster"
-		"A125 Atomic Steering"
-		"Hyperdrive"
+		"Damaged Radiothermic"
+		"Damaged D14-RN Shield"
+		"Damaged Water Cooling"
+		"Damaged A120 Thruster"
+		"Damaged A125 Steering"
+		"Damaged Hyperdrive"
 
 ship "Bounder" "Bounder ()"
 	"uncapturable"
 	outfits
-		"Blaster Turret" 2
-		"nGVF-CC Fuel Cell"
-		"LP036a Battery Pack"
-		"D14-RN Shield Generator"
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
-		"Hyperdrive"
+		"Damaged Blaster Turret" 2
+		"Damaged nGVF-CC Cell"
+		"Damaged LP036a Battery"
+		"Damaged D14-RN Shield"
+		"Damaged X3700 Thruster"
+		"Damaged X3200 Steering"
+		"Damaged Hyperdrive"
 
 ship "Arrow" "Arrow ()"	
 	"uncapturable"
 	outfits
-		"Sidewinder Missile Launcher" 2
-		"Sidewinder Missile" 100
-		"Anti-Missile Turret"
-		"Dwarf Core"
-		"Supercapacitor"
-		"D14-RN Shield Generator"
-		"Small Radar Jammer"
-		"A250 Atomic Thruster"
-		"A255 Atomic Steering"
-		"Hyperdrive"
+		"Damaged Sidewinder Launcher" 2
+		"Sidewinder Missile" 50
+		"Damaged AM Turret"
+		"Damaged Dwarf Core"
+		"Damaged Supercapacitor"
+		"Damaged D14-RN Shield"
+		"Damaged Small Jammer"
+		"Damaged A250 Thruster"
+		"Damaged A255 Steering"
+		"Damaged Hyperdrive"
 
 ship "Blackbird" "Blackbird ()"
 	"uncapturable"
 	outfits
-		"Heavy Laser Turret" 2
-		"S3 Thermionic"
-		"LP072a Battery Pack"
-		"D23-QP Shield Generator"
-		"Small Radar Jammer"
-		"Impala Plasma Thruster"
-		"Impala Plasma Steering"
-		"Hyperdrive"
+		"Damaged Heavy Turret" 2
+		"Damaged Thermionic"
+		"Damaged LP072a Battery"
+		"Damaged D23-QP Shield"
+		"Damaged Small Jammer"
+		"Damaged Impala Thruster"
+		"Damaged Impala Steering"
+		"Damaged Hyperdrive"
 
 ship "Star Queen" "Star Queen ()"
 	"uncapturable"
 	outfits
-		"Sidewinder Missile Launcher" 3
-		"Sidewinder Missile" 150
-		"Heavy Anti-Missile Turret" 2
-		"NT-200 Nucleovoltaic"
-		"LP072a Battery Pack"
-		"D94-YV Shield Generator"
-		"Small Radar Jammer" 3
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
-		"Hyperdrive"
+		"Damaged Sidewinder Launcher" 3
+		"Sidewinder Missile" 75
+		"Damaged HAM Turret" 2
+		"Damaged Nucleovoltaic"
+		"Damaged LP072a Battery"
+		"Damaged D94-YV Shield"
+		"Damaged Small Jammer" 3
+		"Damaged X3700 Thruster"
+		"Damaged X3200 Steering"
+		"Damaged Hyperdrive"
 
 ship "Raven" "Raven ()"
 	"uncapturable"
 	outfits
-		"Particle Cannon" 2
-		"Meteor Missile Launcher" 2
-		"Meteor Missile" 70
-		"Fission Reactor"
-		"Supercapacitor" 3
-		"D23-QP Shield Generator"
-		"Water Coolant System"
-		"Cooling Ducts"
-		"A250 Atomic Thruster"
-		"A375 Atomic Steering"
-		"Hyperdrive"
+		"Damaged Particle Cannon" 2
+		"Damaged Meteor Launcher" 2
+		"Meteor Missile" 35
+		"Damaged Fission Reactor"
+		"Damaged Supercapacitor" 3
+		"Damaged D23-QP Shield"
+		"Damaged Water Cooling"
+		"Damaged Cooling Ducts"
+		"Damaged A250 Thruster"
+		"Damaged A375 Steering"
+		"Damaged Hyperdrive"
 
 ship "Osprey" "Osprey ()"
 	"uncapturable"
 	outfits
-		"Heavy Laser" 4
-		"Heavy Laser Turret" 2
-		"Breeder Reactor"
-		"LP036a Battery Pack"
-		"Supercapacitor" 4
-		"D94-YV Shield Generator"
-		"Water Coolant System"
-		"Impala Plasma Thruster"
-		"X4200 Ion Steering"
-		"Hyperdrive"
+		"Damaged Heavy Laser" 4
+		"Damaged Heavy Turret" 2
+		"Damaged Breeder Reactor"
+		"Damaged LP036a Battery"
+		"Damaged Supercapacitor" 4
+		"Damaged D94-YV Shield"
+		"Damaged Water Cooling"
+		"Damaged Impala Thruster"
+		"Damaged X4200 Steering"
+		"Damaged Hyperdrive"
 
 ship "Aerie" "Aerie ()"
 	"uncapturable"
 	outfits
-		"Heavy Laser" 2
-		"Heavy Laser Turret" 2
-		"Heavy Anti-Missile Turret"
-		
-		"NT-200 Nucleovoltaic"
-		"LP072a Battery Pack"
-		"D41-HY Shield Generator"
-		"Large Radar Jammer"
-		
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
-		"Hyperdrive"
+		"Damaged Heavy Laser" 2
+		"Damaged Heavy Turret" 2
+		"Damaged HAM Turret"
+		"Damaged Nucleovoltaic"
+		"Damaged LP072a Battery"
+		"Damaged D41-HY Shield"
+		"Damaged Large Jammer"
+		"Damaged X3700 Thruster"
+		"Damaged X3200 Steering"
+		"Damaged Hyperdrive"
 
 ship "Manta" "Manta ()"
 	"uncapturable"
 	outfits
-		"Meteor Missile Launcher" 2
-		"Meteor Missile" 70
-		"Proton Gun" 4
-		"RT-I Radiothermal"
-		"LP144a Battery Pack"
-		"D14-RN Shield Generator"
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
-		"Hyperdrive"
+		"Damaged Meteor Launcher" 2
+		"Meteor Missile" 35
+		"Damaged Proton Gun" 4
+		"Damaged Radiothermic"
+		"Damaged LP144a Battery"
+		"Damaged D14-RN Shield"
+		"Damaged X3700 Thruster"
+		"Damaged X3200 Steering"
+		"Damaged Hyperdrive"
 
 ship "Quicksilver" "Quicksilver ()"
 	"uncapturable"
 	outfits
-		"Proton Gun" 2
-		"RT-I Radiothermal"
-		"LP036a Battery Pack"
-		"D23-QP Shield Generator"
-		"Cooling Ducts"
-		"Greyhound Plasma Thruster"
-		"Greyhound Plasma Steering"
-		"Hyperdrive"
+		"Damaged Proton Gun" 2
+		"Damaged Radiothermic"
+		"Damaged LP036a Battery"
+		"Damaged D23-QP Shield"
+		"Damaged Cooling Ducts"
+		"Damaged Greyhound Thruster"
+		"Damaged Greyhound Steering"
+		"Damaged Hyperdrive"
 
 ship "Headhunter" "Headhunter ()"
 	"uncapturable"
 	outfits
-		"Particle Cannon" 2
-		"NT-200 Nucleovoltaic"
-		"LP036a Battery Pack"
-		"D23-QP Shield Generator"
-		"A250 Atomic Thruster"
-		"A375 Atomic Steering"
-		"Hyperdrive"
+		"Damaged Particle Cannon" 2
+		"Damaged Nucleovoltaic"
+		"Damaged LP036a Battery"
+		"Damaged D23-QP Shield"
+		"Damaged A250 Thruster"
+		"Damaged A375 Steering"
+		"Damaged Hyperdrive"
 
 ship "Corvette" "Corvette ()"
 	"uncapturable"
 	outfits
-		"Particle Cannon" 4
-		"Heavy Anti-Missile Turret"
-		"Fusion Reactor"
-		"Supercapacitor"
-		"D41-HY Shield Generator"
-		"Liquid Nitrogen Cooler"
-		"Cooling Ducts"
-		"A370 Atomic Thruster"
-		"A375 Atomic Steering"
-		"Hyperdrive"
+		"Damaged Particle Cannon" 4
+		"Damaged HAM Turret"
+		"Damaged Fusion Reactor"
+		"Damaged Supercapacitor"
+		"Damaged D41-HY Shield"
+		"Damaged Nitrogen Cooler"
+		"Damaged Cooling Ducts"
+		"Damaged A370 Thruster"
+		"Damaged A375 Steering"
+		"Damaged Hyperdrive"
 
 ship "Firebird" "Firebird ()"
 	"uncapturable"
 	outfits
-		"Plasma Cannon" 4
-		"Quad Blaster Turret" 2
-		"Breeder Reactor"
-		"LP072a Battery Pack"
-		"LP036a Battery Pack"
-		"D41-HY Shield Generator"
-		"Liquid Nitrogen Cooler"
+		"Damaged Plasma Cannon" 4
+		"Damaged Quad Turret" 2
+		"Damaged Breeder Reactor"
+		"Damaged LP072a Battery"
+		"Damaged LP036a Battery"
+		"Damaged D41-HY Shield"
+		"Damaged Nitrogen Cooler"
 		"Mass Expansion"
-		"X3700 Ion Thruster"
-		"A375 Atomic Steering"
-		"Hyperdrive"
+		"Damaged X3700 Thruster"
+		"Damaged A375 Steering"
+		"Damaged Hyperdrive"
 
 ship "Mule" "Mule ()"
 	"uncapturable"
 	outfits
-		"Heavy Laser Turret" 4
-		"Sidewinder Missile Launcher" 2
-		"Sidewinder Missile" 100
-		"Fission Reactor"
-		"LP072a Battery Pack"
-		"Supercapacitor" 4
-		"D67-TM Shield Generator"
-		"Water Coolant System"
+		"Damaged Heavy Turret" 4
+		"Damaged Sidewinder Launcher" 2
+		"Sidewinder Missile" 50
+		"Damaged Fission Reactor"
+		"Damaged LP072a Battery"
+		"Damaged Supercapacitor" 4
+		"Damaged D67-TM Shield"
+		"Damaged Water Cooling"
 		"Mass Expansion"
-		"Ramscoop"
-		"A370 Atomic Thruster"
-		"A375 Atomic Steering"
-		"Hyperdrive"
+		"Damaged Ramscoop"
+		"Damaged A370 Thruster"
+		"Damaged A375 Steering"
+		"Damaged Hyperdrive"
 
 ship "Splinter" "Splinter ()"
 	"uncapturable"
 	outfits
-		"Heavy Laser" 2
-		"Heavy Laser Turret" 2
-		"Heavy Anti-Missile Turret"
-		"Water Coolant System"
-		"Fission Reactor"
-		"LP036a Battery Pack"
-		"D94-YV Shield Generator"
-		"X3700 Ion Thruster"
-		"Impala Plasma Steering"
-		"Hyperdrive"
+		"Damaged Heavy Laser" 2
+		"Damaged Heavy Turret" 2
+		"Damaged HAM Turret"
+		"Damaged Water Cooling"
+		"Damaged Fission Reactor"
+		"Damaged LP036a Battery"
+		"Damaged D94-YV Shield"
+		"Damaged X3700 Thruster"
+		"Damaged Impala Steering"
+		"Damaged Hyperdrive"
 
 ship "Bastion" "Bastion ()"
 	"uncapturable"
 	outfits
-		"Plasma Cannon" 4
-		"Quad Blaster Turret" 3
-		"Fusion Reactor"
-		"LP072a Battery Pack"
-		"D67-TM Shield Generator"
-		"Liquid Nitrogen Cooler"
+		"Damaged Plasma Cannon" 4
+		"Damaged Quad Turret" 3
+		"Damaged Fusion Reactor"
+		"Damaged LP072a Battery"
+		"Damaged D67-TM Shield"
+		"Damaged Nitrogen Cooler"
 		"Mass Expansion" 2
-		"X3700 Ion Thruster"
-		"Orca Plasma Steering"
-		"Hyperdrive"
+		"Damaged X3700 Thruster"
+		"Damaged Orca Steering"
+		"Damaged Hyperdrive"
 
 ship "Gunboat" "Gunboat ()"
 	"uncapturable"
 	outfits
-		"Heavy Laser" 2
-		"Heavy Laser Turret"
-		
-		"RT-I Radiothermal"
-		"LP144a Battery Pack"
-		"D14-RN Shield Generator"
-		"Cargo Scanner"
-		"Outfit Scanner"
-		
-		"X3700 Ion Thruster"
-		"X2200 Ion Steering"
-		"Hyperdrive"
+		"Damaged Heavy Laser" 2
+		"Damaged Heavy Turret"
+		"Damaged Radiothermic"
+		"Damaged LP144a Battery"
+		"Damaged D14-RN Shield"
+		"Damaged Cargo Scanner"
+		"Damaged Outfit Scanner"
+		"Damaged X3700 Thruster"
+		"Damaged X2200 Steering"
+		"Damaged Hyperdrive"
 
 ship "Rainmaker" "Rainmaker ()"
 	"uncapturable"
 	outfits
-		"Energy Blaster" 2
-		"Meteor Missile Launcher" 4
-		"Meteor Missile" 140
-		
-		"nGVF-CC Fuel Cell"
-		"LP036a Battery Pack"
-		"D14-RN Shield Generator"
-		
-		"X2700 Ion Thruster"
-		"X2200 Ion Steering"
-		"Hyperdrive"
+		"Damaged Energy Blaster" 2
+		"Damaged Meteor Launcher" 4
+		"Meteor Missile" 70
+		"Damaged nGVF-CC Cell"
+		"Damaged LP036a Battery"
+		"Damaged D14-RN Shield"
+		"Damaged X2700 Thruster"
+		"Damaged X2200 Steering"
+		"Damaged Hyperdrive"
 
 ship "Frigate" "Frigate ()"
 	"uncapturable"
 	outfits
-		"Particle Cannon" 2
-		"Torpedo Launcher" 2
-		"Torpedo" 60
-		"Blaster Turret" 3
-		
-		"NT-200 Nucleovoltaic"
-		"LP144a Battery Pack"
-		"D41-HY Shield Generator"
-		
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
-		"Hyperdrive"
+		"Damaged Particle Cannon" 2
+		"Damaged Torpedo Launcher" 2
+		"Torpedo" 30
+		"Damaged Blaster Turret" 3
+		"Damaged Nucleovoltaic"
+		"Damaged LP144a Battery"
+		"Damaged D41-HY Shield"
+		"Damaged X3700 Thruster"
+		"Damaged X3200 Steering"
+		"Damaged Hyperdrive"
 
 ship "Cruiser" "Cruiser ()"
 	"uncapturable"
 	outfits
-		"Heavy Rocket Launcher" 2
-		"Heavy Rocket" 40
-		"Particle Cannon" 4
-		"Heavy Laser Turret" 2
-		"Heavy Anti-Missile Turret"
-		"Quad Blaster Turret"
-		"Laser Rifle" 20
-		"Fragmentation Grenades" 20
-		"Armageddon Core"
-		"Dwarf Core"
-		"Supercapacitor"
-		"D94-YV Shield Generator"
-		"Liquid Helium Cooler"
-		"Ramscoop"
+		"Damaged Heavy Rocket" 2
+		"Heavy Rocket" 20
+		"Damaged Particle Cannon" 4
+		"Damaged Heavy Turret" 2
+		"Damaged HAM Turret"
+		"Damaged Quad Turret"
+		"Damaged Armageddon Core"
+		"Damaged Dwarf Core"
+		"Damaged Supercapacitor"
+		"Damaged D94-YV Shield"
+		"Damaged Helium Cooler"
+		"Damaged Ramscoop"
 		"Mass Expansion"
-		"A520 Atomic Thruster"
-		"A525 Atomic Steering"
-		"X2200 Ion Steering"
-		"Scram Drive"
+		"Damaged A520 Thruster"
+		"Damaged A525 Steering"
+		"Damaged X2200 Steering"
+		"Damaged Scram Drive"
 
 ship "Carrier" "Carrier ()"
 	"uncapturable"
 	outfits
-		"Particle Cannon" 4
-		"Meteor Missile Launcher" 4
-		"Meteor Missile" 140
-		"Heavy Laser Turret" 3
-		"Heavy Anti-Missile Turret"
-		
-		"Fusion Reactor"
-		"LP288a Battery Pack"
-		"D94-YV Shield Generator"
-		"Large Radar Jammer"
-		"Water Coolant System"
-		
-		"X5700 Ion Thruster"
-		"X4200 Ion Steering"
-		"Hyperdrive"
+		"Damaged Particle Cannon" 4
+		"Damaged Meteor Launcher" 4
+		"Meteor Missile" 70
+		"Damaged Heavy Turret" 3
+		"Damaged HAM Turret"
+		"Damaged Fusion Reactor"
+		"Damaged LP288a Battery"
+		"Damaged D94-YV Shield"
+		"Damaged Large Jammer"
+		"Damaged Water Cooling"
+		"Damaged X5700 Thruster"
+		"Damaged X4200 Steering"
+		"Damaged Hyperdrive"
 
 ship "Leviathan" "Leviathan ()"
 	"uncapturable"
 	outfits
-		"Torpedo Launcher" 2
-		"Torpedo" 60
-		"Meteor Missile Launcher" 2
-		"Meteor Missile" 70
-		"Heavy Laser Turret" 4
-		"Breeder Reactor"
-		"LP036a Battery Pack"
-		"D94-YV Shield Generator" 2
-		"Liquid Nitrogen Cooler"
-		"Impala Plasma Thruster"
-		"A375 Atomic Steering"
-		"Afterburner"
-		"Scram Drive"
-		"Ramscoop"
+		"Damaged Torpedo Launcher" 2
+		"Torpedo" 30
+		"Damaged Meteor Launcher" 2
+		"Meteor Missile" 35
+		"Damaged Heavy Turret" 4
+		"Damaged Breeder Reactor"
+		"Damaged LP036a Battery"
+		"Damaged D94-YV Shield" 2
+		"Damaged Nitrogen Cooler"
+		"Damaged Impala Thruster"
+		"Damaged A375 Steering"
+		"Damaged Afterburner"
+		"Damaged Scram Drive"
+		"Damaged Ramscoop"
 
 ship "Bactrian" "Bactrian ()"
 	"uncapturable"
 	outfits
-		"Sidewinder Missile Launcher" 2
-		"Sidewinder Missile" 100
-		"Torpedo Launcher" 2
-		"Torpedo" 60
-		"Heavy Laser Turret" 4
-		"Heavy Anti-Missile Turret" 2
-		"Fusion Reactor"
-		"LP144a Battery Pack"
-		"D94-YV Shield Generator"
-		"Large Radar Jammer"
-		"Ramscoop"
-		"X4700 Ion Thruster"
-		"X5200 Ion Steering"
-		"Hyperdrive"
+		"Damaged Sidewinder Launcher" 2
+		"Sidewinder Missile" 50
+		"Damaged Torpedo Launcher" 2
+		"Torpedo" 30
+		"Damaged Heavy Turret" 4
+		"Damaged HAM Turret" 2
+		"Damaged Fusion Reactor"
+		"Damaged LP144a Battery"
+		"Damaged D94-YV Shield"
+		"Damaged Large Jammer"
+		"Damaged Ramscoop"
+		"Damaged X4700 Thruster"
+		"Damaged X5200 Steering"
+		"Damaged Hyperdrive"
 
 ship "Vanguard" "Vanguard ()"
 	"uncapturable"
 	outfits
-		"Particle Cannon" 7
-		"Fusion Reactor"
-		"LP072a Battery Pack"
-		"D67-TM Shield Generator"
-		"Liquid Nitrogen Cooler"
-		"X3700 Ion Thruster"
-		"X4200 Ion Steering"
-		"Hyperdrive"
+		"Damaged Particle Cannon" 7
+		"Damaged Fusion Reactor"
+		"Damaged LP072a Battery"
+		"Damaged D67-TM Shield"
+		"Damaged Nitrogen Cooler"
+		"Damaged X3700 Thruster"
+		"Damaged X4200 Steering"
+		"Damaged Hyperdrive"
 
 ship "Falcon" "Falcon ()"
 	"uncapturable"
 	outfits
-		"Plasma Turret" 4
-		"Breeder Reactor"
-		"LP144a Battery Pack"
-		"D41-HY Shield Generator"
-		"Small Radar Jammer"
-		"Liquid Nitrogen Cooler"
-		"Impala Plasma Thruster"
-		"Impala Plasma Steering"
-		"Hyperdrive"
+		"Damaged Plasma Cannon" 2
+		"Damaged Torpedo Launcher" 2
+		"Torpedo" 30
+		"Damaged Quad Turret" 4
+		"Damaged Breeder Reactor"
+		"Damaged LP144a Battery"
+		"Damaged D41-HY Shield"
+		"Damaged Small Jammer"
+		"Damaged Nitrogen Cooler"
+		"Damaged Impala Thruster"
+		"Damaged Impala Steering"
+		"Damaged Hyperdrive"
 
 ship "Protector" "Protector ()"
 	"uncapturable"
 	outfits
-		"Laser Turret" 2
-		"Heavy Laser Turret" 4
-		"Fusion Reactor"
-		"LP036a Battery Pack"
-		"Supercapacitor" 3
-		"D94-YV Shield Generator" 2
-		"Water Coolant System"
-		"A370 Atomic Thruster"
-		"A375 Atomic Steering"
-		"Hyperdrive"
+		"Damaged Laser Turret" 2
+		"Damaged Heavy Turret" 4
+		"Damaged Fusion Reactor"
+		"Damaged LP036a Battery"
+		"Damaged Supercapacitor" 3
+		"Damaged D94-YV Shield" 2
+		"Damaged Water Cooling"
+		"Damaged A370 Thruster"
+		"Damaged A375 Steering"
+		"Damaged Hyperdrive"
 
 ship "Dagger" "Dagger ()"
 	"uncapturable"
 	outfits
-		"Beam Laser" 2
-		"nGVF-BB Fuel Cell"
-		"D14-RN Shield Generator"
-		"X1700 Ion Thruster"
-		"X1200 Ion Steering"
+		"Damaged Beam Laser" 2
+		"Damaged nGVF-BB Cell"
+		"Damaged D14-RN Shield"
+		"Damaged X1700 Thruster"
+		"Damaged X1200 Steering"
 
 ship "Lance" "Lance ()"
 	"uncapturable"
 	outfits
-		"Beam Laser" 2
-		"nGVF-AA Fuel Cell"
-		"LP036a Battery Pack"
-		"D14-RN Shield Generator"
-		"X1700 Ion Thruster"
-		"X1200 Ion Steering"
+		"Damaged Beam Laser" 2
+		"Damaged nGVF-AA Cell"
+		"Damaged LP036a Battery"
+		"Damaged D14-RN Shield"
+		"Damaged X1700 Thruster"
+		"Damaged X1200 Steering"
 
 ship "Combat Drone" "Combat Drone ()"
 	"uncapturable"
 	outfits
-		"Beam Laser"
-		"nGVF-AA Fuel Cell"
-		"Supercapacitor"
-		"X1700 Ion Thruster"
-		"X1200 Ion Steering"
+		"Damaged Beam Laser"
+		"Damaged nGVF-AA Cell"
+		"Damaged Supercapacitor"
+		"Damaged X1700 Thruster"
+		"Damaged X1200 Steering"
