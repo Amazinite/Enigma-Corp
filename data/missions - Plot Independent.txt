@@ -18,6 +18,7 @@ mission "Space Elevator 1"
 		random < 50
 		"reputation: Republic" >= 1
 		has "event: war begins"
+		not "chosen sides"
 	to fail
 		has "chosen sides"
 	
