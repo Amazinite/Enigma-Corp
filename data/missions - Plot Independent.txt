@@ -154,7 +154,7 @@ mission "Space Elevator 2"
 
 	on complete
 		payment 600000
-		set "licence: Navy"
+		set "license: Navy"
 		event "space elevator" 45
 		event "license expires" 30
 		conversation 
@@ -183,15 +183,14 @@ event "license expires"
 		
 mission "Navy License Expires"
 	landing
-	destination "Kessel Sepret"
 	to offer
 		has "event: license expires"
 		not "event: joined the navy"
-
 	on offer
 		clear "license: Navy"
-		dialog `When you land, you recieve a message. "Captain <last>. Your Navy license has expired. Please renew it at the nearest Navy center with your proof of Navy ID."`
-			decline
+		conversation 
+			`When you land, you recieve a message. "Captain <last>. Your Navy license has expired. Please renew it at the nearest Navy center with your proof of Navy ID."`
+				decline
 		
 event "space elevator"
 	system Sol
