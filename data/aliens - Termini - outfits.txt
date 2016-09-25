@@ -113,7 +113,7 @@ outfit "Razer"
 		"firing heat" 1
 		"shield damage" 1000
 		"hull damage" 1000
-		unplunderable 1
+	unplunderable 1
 	description "Placeholder item until I get around to expanding upon the alien races."
 
 outfit "Dimensional Laser"
@@ -137,7 +137,7 @@ outfit "Dimensional Laser"
 		"firing heat" 1
 		"shield damage" 100000
 		"hull damage" 100000
-		unplunderable 1
+	unplunderable 1
 	description "Placeholder item until I get around to expanding upon the alien races."
 
 outfit "Mothership Core"
