@@ -85,9 +85,6 @@ event "Enigma Prime Open"
 	planet "Enigma Prime"
 		"required reputation" 20
 		bribe 0.1
-	planet "Enigma Meridian"
-		"required reputation" 20
-		bribe 0.1
 
 mission "EC reverse compat"
 	landing
@@ -99,9 +96,6 @@ mission "EC reverse compat"
 		fail
 
 event "Enigma Update"
-	planet "Enigma Meridian"
-		"required reputation" 20
-		bribe 0.1
 	planet "Enigma Prime"
 		outfitter "Common Outfits"
 		outfitter "Basic Outfits"

@@ -399,10 +399,6 @@ system Enigma
 			sprite planet/station7
 			distance 257
 			period 12.3538
-		object "Enigma Meridian"
-			sprite planet/station6
-			distance 459
-			period 21.53
 
 system Ferum
 	pos 671 -942
@@ -2325,17 +2321,6 @@ planet "Enigma Epsilon"
 	spaceport `Epsilon Station appears to be the only Enigma Corp station that has an outfitter and shipyard stocked with anything other than technology made by the corporation itself. Upon landing, you notice that the station has a number of Deep Sky citizens, mainly scientist. There are a mix of people in green and blue lab coats discussing things in board rooms a view stories up with window views of the spaceport below.`
 	security 0
 	government "Enigma Corp"
-
-planet "Enigma Meridian"
-	landscape land/space2
-	outfitter "Trolls and Lols"
-	shipyard "Trolls and Lols"
-	description "This station is meant for nothing more than to sell stuff that is in the mod and not considered balanced or ready to serious your, but you can buy anyways to have fun with. Enjoy."
-	description "Don't get too excited, though. This is going to be removed in v0.6.0 :)"
-	spaceport "Go away."
-	"required reputation" 1000000
-	bribe 0
-	security 0
 
 planet "Enigma Mu"
 	attributes EC "EC Shady" "EC Secret" rim
