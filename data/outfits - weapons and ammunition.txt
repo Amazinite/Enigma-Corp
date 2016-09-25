@@ -806,7 +806,7 @@ outfit "Shrapnel Cannon"
 	weapon
 		sound "shotgun"
 		ammo "Shrapnel Canister"
-		icon "icon/meteor"
+		icon "icon/shrapnel"
 		"velocity" 1
 		"reload" 120
 		"firing energy" 200
