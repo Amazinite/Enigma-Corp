@@ -56,7 +56,6 @@ government "Andromedan"
 	"bribe" 0
 	"player reputation" -1000
 	"attitude toward"
-		"Korath" -.1
 
 government "Outer Rim Mining"
 	color 1 0.75 0
@@ -68,28 +67,3 @@ government "Outer Rim Mining"
 		"Pirate" -.1
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
-	
-
-# Repeat missions that make sure you are never friendly with certain governments
-#	The `not "<government> friendly"` is for if I ever want to have these governments be friendly.
-#	If they are suppose to be friendly, then that condition will be set in your character's conditions
-
-mission "Andromedan Rep Check"
-	landing
-	invisible
-	repeat
-	to offer
-		not "andromedas friendly"
-	on offer
-		"reputation: Andromedan" = -1000
-		fail
-
-mission "Lovelace Rep Check"
-	landing
-	invisible
-	repeat
-	to offer
-		not "lovelace friendly"
-	on offer
-		"reputation: Lovelace Labs" = -1000
-		fail

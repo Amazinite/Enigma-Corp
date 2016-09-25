@@ -440,6 +440,7 @@ mission "Lovelace Trolling [2]"
 	to offer
 		has "Lovelace Trolling [1]: done"
 	on offer
+		"reputation: Lovelace Labs" = -1000
 		conversation
 			`You land on the outskirts of the main facility to avoid being spotted by Lovelace security. You step off of your ship and notice that some of the guys from the bar who weren't drunk enough to forget where the hyperdrive button is or where they were even going landed with you.`
 			`	One of the noteable people who came with you is Bruce. He walks up to you and hands you a spray can.`
