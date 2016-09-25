@@ -32,9 +32,7 @@ ship "Scout Drone"
 			"hit force" 1
 	outfits
 		"T-Hull Repair" 2
-		
 		"T-Drone Core"
-		
 		"T-Drone Engines"
 		
 	gun 12 -44
@@ -49,6 +47,7 @@ ship "Scout Drone"
 
 ship "Mothership"
 	sprite "ship/mothership alpha"
+	"uncapturable"
 	attributes
 		category "Heavy Warship"
 		"cost" 1
@@ -71,7 +70,6 @@ ship "Mothership"
 			"hit force" 100000000000
 	outfits
 		"Dimensional Laser" 10
-		
 		"Mothership Core"
 		
 	turret -265 -86

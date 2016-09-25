@@ -29,6 +29,8 @@ outfit "T-Hull Repair"
 		"firing heat" 1
 		"shield damage" 0
 		"hull damage" -10
+	unplunderable 1
+	description "Placeholder item until I get around to expanding upon the alien races."
 
 outfit "T-Shield Repair"
 	category "Guns"
@@ -51,6 +53,8 @@ outfit "T-Shield Repair"
 		"firing heat" 1
 		"shield damage" -10
 		"hull damage" 0
+	unplunderable 1
+	description "Placeholder item until I get around to expanding upon the alien races."
 
 outfit "T-Drone Core"
 	category "Systems"
@@ -65,6 +69,8 @@ outfit "T-Drone Core"
 	"jump drive" 10
 	"shield generation" 100000
 	"hull repair rate" 100000
+	unplunderable 1
+	description "Placeholder item until I get around to expanding upon the alien races."
 
 outfit "T-Drone Engines"
 	category "Engines"
@@ -83,6 +89,8 @@ outfit "T-Drone Engines"
 	"flare sprite" "effect/atomic flare/huge"
 		"frame rate" 10
 	"flare sound" "atomic huge"
+	unplunderable 1
+	description "Placeholder item until I get around to expanding upon the alien races."
 
 outfit "Razer"
 	category "Guns"
@@ -105,6 +113,8 @@ outfit "Razer"
 		"firing heat" 1
 		"shield damage" 1000
 		"hull damage" 1000
+		unplunderable 1
+	description "Placeholder item until I get around to expanding upon the alien races."
 
 outfit "Dimensional Laser"
 	category "Turrets"
@@ -127,6 +137,8 @@ outfit "Dimensional Laser"
 		"firing heat" 1
 		"shield damage" 100000
 		"hull damage" 100000
+		unplunderable 1
+	description "Placeholder item until I get around to expanding upon the alien races."
 
 outfit "Mothership Core"
 	category "Systems"
@@ -140,3 +152,5 @@ outfit "Mothership Core"
 	"ramscoop" 100000
 	"shield generation" 10000000
 	"hull repair rate" 10000000
+	unplunderable 1
+	description "Placeholder item until I get around to expanding upon the alien races."

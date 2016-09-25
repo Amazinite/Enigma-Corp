@@ -30,6 +30,8 @@ outfit "Kinetic Rod Launcher"
 		"hit force" 500
 		"shield damage" 10000
 		"hull damage" 10000
+	unplunderable 1
+	description "Placeholder item until I get around to expanding upon the alien races."
 
 outfit "Particle Launcher"
 	category "Turrets"
@@ -53,6 +55,8 @@ outfit "Particle Launcher"
 		"hit force" 100
 		"shield damage" 2500
 		"hull damage" 2500
+	unplunderable 1
+	description "Placeholder item until I get around to expanding upon the alien races."
 
 outfit "Ballistic Pod"
 	category "Turrets"
@@ -76,6 +80,8 @@ outfit "Ballistic Pod"
 		"hit force" 40
 		"shield damage" 100
 		"hull damage" 100
+	unplunderable 1
+	description "Placeholder item until I get around to expanding upon the alien races."
 
 outfit "Slip Drive"
 	category "Systems"
@@ -85,6 +91,8 @@ outfit "Slip Drive"
 	"outfit space" -100
 	"hyperdrive" 10
 	"jump speed" 10
+	unplunderable 1
+	description "Placeholder item until I get around to expanding upon the alien races."
 
 outfit "Hydrogen Thruster"
 	category "Engines"
@@ -99,6 +107,8 @@ outfit "Hydrogen Thruster"
 	"flare sprite" "effect/plasma flare/huge"
 		"frame rate" 9
 	"flare sound" "plasma huge"
+	unplunderable 1
+	description "Placeholder item until I get around to expanding upon the alien races."
 
 outfit "Hydrogen Steering"
 	category "Engines"
@@ -110,6 +120,8 @@ outfit "Hydrogen Steering"
 	"turn" 3000
 	"turning energy" 5
 	"turning heat" 250
+	unplunderable 1
+	description "Placeholder item until I get around to expanding upon the alien races."
 
 outfit "Combustion Reactor"
 	category "Power"
@@ -119,6 +131,8 @@ outfit "Combustion Reactor"
 	"outfit space" -200
 	"energy generation" 10
 	"heat generation" 100
+	unplunderable 1
+	description "Placeholder item until I get around to expanding upon the alien races."
 
 outfit "Purge Vents"
 	category "Systems"
@@ -127,3 +141,5 @@ outfit "Purge Vents"
 	"mass" 200
 	"outfit space" -200
 	"cooling" 150
+	unplunderable 1
+	description "Placeholder item until I get around to expanding upon the alien races."

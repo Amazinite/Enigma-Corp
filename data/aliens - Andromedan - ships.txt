@@ -10,6 +10,7 @@
 
 ship "Planet Razer"
 	sprite "ship/blue warship"
+	"uncapturable"
 	attributes
 		category "Heavy Warship"
 		"cost" 0
@@ -52,6 +53,7 @@ ship "Planet Razer"
 
 ship "Artillery Battleship"
 	sprite "ship/blue battleship"
+	"uncapturable"
 	attributes
 		category "Heavy Warship"
 		"cost" 0
@@ -96,6 +98,7 @@ ship "Artillery Battleship"
 
 ship "Gun Carrier"
 	sprite "ship/blue gun carrier"
+	"uncapturable"
 	attributes
 		category "Medium Warship"
 		"cost" 0
@@ -144,6 +147,7 @@ ship "Gun Carrier"
 
 ship "Combat Hauler"
 	sprite "ship/blue hauler"
+	"uncapturable"
 	attributes
 		category "Heavy Freighter"
 		"cost" 0
