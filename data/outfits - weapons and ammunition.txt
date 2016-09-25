@@ -797,7 +797,7 @@ outfit "Seeker Laser"
 outfit "Shrapnel Cannon"
 	category "Secondary Weapons"
 	cost 235000
-	thumbnail "outfit/known"
+	thumbnail "outfit/shrapnel cannon"
 	"mass" 20
 	"outfit space" -30
 	"weapon capacity" -30
@@ -847,7 +847,7 @@ outfit "shrapnel pellets"
 outfit "Shrapnel Canister"
 	category "Ammunition"
 	cost 1000
-	thumbnail "outfit/known"
+	thumbnail "outfit/shrapnel canister"
 	"mass" .1
 	"canister capacity" -1
 	description "Shrapnel Canisters are ammunition for the Shrapnel Cannon and each hold sixteen super-heated pellets."

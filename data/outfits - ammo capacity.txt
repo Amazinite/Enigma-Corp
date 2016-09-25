@@ -155,7 +155,7 @@ outfit "AM-Bomb Cap-Up"
 outfit "Shrapnel Can Cap-Up"
 	category "Ammunition"
 	cost 50000
-	thumbnail "outfit/known"
+	thumbnail "outfit/canister cap"
 	"mass" 5
 	"outfit space" -10
 	"canister capacity" 50
