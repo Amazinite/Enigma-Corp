@@ -32,9 +32,7 @@ system AMG-45
 	minables silicon 34 6.1241
 	minables lead 18 7.2452
 	minables iron 5 7.7825
-	fleet "ORM Core" 750
-	fleet "ORM Southern" 750
-	fleet "ORM Northern" 750
+	fleet "ORM" 500
 	object
 		sprite "star (animated)/m4"
 			"frame rate" 0.5
@@ -94,9 +92,7 @@ system Auram
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "ORM Core" 2500
-	fleet "ORM Southern" 2500
-	fleet "ORM Northern" 2500
+	fleet "ORM" 1500
 	object
 		sprite "star (animated)/m0"
 			"frame rate" 0.5
@@ -151,9 +147,7 @@ system Avilum
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "ORM Core" 1500
-	fleet "ORM Southern" 1500
-	fleet "ORM Northern" 1500
+	fleet "ORM" 1000
 	object
 		sprite "star (animated)/k5"
 			"frame rate" 0.5
@@ -207,9 +201,7 @@ system DML-91
 	minables copper 24 2.1535
 	minables iron 12 2.2351
 	minables titanium 6 2.6235
-	fleet "ORM Core" 1500
-	fleet "ORM Southern" 1500
-	fleet "ORM Northern" 1500
+	fleet "ORM" 1000
 	object
 		sprite "star (animated)/m4"
 			"frame rate" 0.5
@@ -315,9 +307,7 @@ system END-00
 	minables gold 20 10.6813
 	minables silver 15 10.8153
 	minables uranium 10 11.5135
-	fleet "ORM Core" 5000
-	fleet "ORM Southern" 5000
-	fleet "ORM Northern" 5000
+	fleet "ORM" 3000
 	object
 		sprite "star (animated)/g5"
 			"frame rate" 0.5v
@@ -424,9 +414,7 @@ system Ferum
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "ORM Core" 500
-	fleet "ORM Southern" 500
-	fleet "ORM Northern" 500
+	fleet "ORM" 300
 	object
 		sprite "star (animated)/k5"
 			"frame rate" 0.5
@@ -525,9 +513,7 @@ system JMU-10
 	minables copper 24 2.1535
 	minables iron 12 2.2351
 	minables titanium 6 2.6235
-	fleet "ORM Core" 1000
-	fleet "ORM Southern" 1000
-	fleet "ORM Northern" 1000
+	fleet "ORM" 600
 	object
 		sprite "star (animated)/g0"
 			"frame rate" 0.5
@@ -577,9 +563,7 @@ system Domov
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "ORM Core" 400
-	fleet "ORM Southern" 400
-	fleet "ORM Northern" 400
+	fleet "ORM" 250
 	object
 		sprite "star (animated)/a0"
 			"frame rate" 0.5
@@ -628,9 +612,7 @@ system KAL-25
 	asteroids "large metal" 3 1.9224
 	minables lead 19 3.9762
 	minables neodynium 6 4.2355
-	fleet "ORM Core" 900
-	fleet "ORM Southern" 900
-	fleet "ORM Northern" 900
+	fleet "ORM" 450
 	object
 		sprite "star (animated)/g5"
 			"frame rate" 0.5
@@ -728,9 +710,7 @@ system LPK-52
 	asteroids "large metal" 23 6.6792
 	minables silicon 47 3.1535
 	minables platinum 4 3.7245
-	fleet "ORM Core" 1500
-	fleet "ORM Southern" 1500
-	fleet "ORM Northern" 1500
+	fleet "ORM" 1000
 	object
 		sprite "star (animated)/f5"
 			"frame rate" 0.5
@@ -774,9 +754,7 @@ system NDV-52
 	minables aluminum 21 4.1242
 	minables tungsten 7 4.7232
 	minables silver 2 5.1241
-	fleet "ORM Core" 2000
-	fleet "ORM Southern" 2000
-	fleet "ORM Northern" 2000
+	fleet "ORM" 1500
 	object
 		sprite "star (animated)/k0"
 			"frame rate" 0.5
@@ -884,9 +862,7 @@ system OMA-12
 	minables silicon 25 6.5574
 	minables copper 14 6.9421
 	minables gold 7 7.1241
-	fleet "ORM Core" 4000
-	fleet "ORM Southern" 4000
-	fleet "ORM Northern" 4000
+	fleet "ORM" 2000
 	object
 		sprite "star (animated)/k5"
 			"frame rate" 0.5
@@ -950,9 +926,7 @@ system Ostima
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "ORM Core" 450
-	fleet "ORM Southern" 450
-	fleet "ORM Northern" 450
+	fleet "ORM" 250
 	object
 		sprite "star (animated)/g5"
 			"frame rate" 0.5
@@ -1018,9 +992,7 @@ system PBD-09
 	asteroids "large metal" 115 7.8
 	minables gold 6 5.1245
 	minables uranium 3 5.7231
-	fleet "ORM Core" 2000
-	fleet "ORM Southern" 2000
-	fleet "ORM Northern" 2000
+	fleet "ORM" 1000
 	object
 		sprite "star (animated)/g5"
 			"frame rate" 0.5
@@ -1082,9 +1054,7 @@ system QFS-83
 	minables lead 12 4.6162
 	minables iron 6 4.7123
 	minables uranium 1 4.8132
-	fleet "ORM Core" 1500
-	fleet "ORM Southern" 1500
-	fleet "ORM Northern" 1500
+	fleet "ORM" 800
 	object
 		sprite "star (animated)/f5"
 			"frame rate" 0.5
@@ -1131,9 +1101,7 @@ system RVE-32
 	asteroids "large metal" 8 5.355
 	minables tungsten 12 2.7424
 	minables silver 6 2.8231
-	fleet "ORM Core" 2000
-	fleet "ORM Southern" 2000
-	fleet "ORM Northern" 2000
+	fleet "ORM" 1000
 	object
 		sprite "star (animated)/k5"
 			"frame rate" 0.5
@@ -1235,9 +1203,7 @@ system Mesec
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "ORM Core" 1000
-	fleet "ORM Southern" 1000
-	fleet "ORM Northern" 1000
+	fleet "ORM" 600
 	object
 		sprite "star (animated)/g5"
 			"frame rate" 0.5
@@ -1336,9 +1302,7 @@ system TYU-16
 	minables aluminum 21 4.6236
 	minables iron 10 4.7135
 	minables gold 7 4.8125
-	fleet "ORM Core" 1500
-	fleet "ORM Southern" 1500
-	fleet "ORM Northern" 1500
+	fleet "ORM" 1000
 	object
 		sprite "star (animated)/k5"
 			"frame rate" 0.5
@@ -2161,9 +2125,7 @@ system UVG-64
 	minables aluminum 18 5.8124
 	minables copper 14 5.8951
 	minables iron 6 5.9523
-	fleet "ORM Core" 1000
-	fleet "ORM Southern" 1000
-	fleet "ORM Northern" 1000
+	fleet "ORM" 600
 	object
 		sprite "star (animated)/k5"
 			"frame rate" 0.5
@@ -2214,9 +2176,7 @@ system Ukkamu
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "ORM Core" 750
-	fleet "ORM Southern" 750
-	fleet "ORM Northern" 750
+	fleet "ORM" 400
 	object
 		sprite "star (animated)/b5"
 			"frame rate" 0.5
@@ -2254,9 +2214,7 @@ system WOW-56
 	minables aluminum 18 6.5235
 	minables titanium 9 6.7266
 	minables platinum 3 6.9573
-	fleet "ORM Core" 1000
-	fleet "ORM Southern" 1000
-	fleet "ORM Northern" 1000
+	fleet "ORM" 600
 	object
 		sprite "star (animated)/g0"
 			"frame rate" 0.5
@@ -2291,6 +2249,7 @@ system WOW-56
 		period 1509.61
 
 planet "Diamond Station"
+	attributes orm refueling
 	landscape land/station1
 	description `Diamond Station is the refueling station for Outer Rim Mining ships. Ship land to refuel every time the get ready to leave and when they reenter inhabited space.`
 	spaceport `As with The Hub, almost all landing pads are taken by freighters entering and exiting the spaceport. Given the size of the station, there are a lot less landing pads, so you wonder how they keep up with all the ships without clogging up traffic. Just then, a floating drone flies over to your ship and refuels it before you even land, then flies off to refuel more ships.`
@@ -2334,6 +2293,7 @@ planet "Enigma Mu"
 	security 0
 
 planet "Enigma Prime"
+	attributes EC
 	landscape land/space2
 	outfitter "Enigma Basic"
 	outfitter "Enigma Intermediate"
@@ -2377,6 +2337,7 @@ planet "Enigma Zeta"
 	government "Enigma Corp"
 
 planet Hierro
+	attributes orm
 	landscape land/lava0
 	description `Nicknamed "Frozen Hell" by some of the workers at Outer Rim Mining, Hierro is a strange place. It orbits rather close to a gas giant, causing high amounts of volcanic activity. Even so, the orbit of the moon means that it is only within the habitable zone of the star for half of it's orbit, so for a few weeks it is reasonably livable, but the next few weeks are extrememly cold.`
 	spaceport `The spaceport is located inside of a volcano. The only way you were able to find it was because of the large beacon shooting out of the middle of the crater. You question whether or not having the entire spaceport inside a volcano to harness geothermal power is worth the danger of having the volcano erupt on to the space port.`
@@ -2384,6 +2345,7 @@ planet Hierro
 	security 0
 
 planet Igolide
+	attributes orm
 	landscape land/badlands0
 	description `Igolide is a barely habitable planet, orbiting on the edge of the habitable zone of the Auram system. Due to this, Outer Rim Mining exiles members to this planet as punishment for breaking ORM rules.`
 	spaceport `The spaceport is blocked off from the rest of the settlement with high walls and laser gates at every doorway. A few men in military looking suits get up from the cafeteria area across the spaceport and refill your ship before going back to eating.`
@@ -2391,6 +2353,7 @@ planet Igolide
 	security 0
 
 planet Indalo
+	attributes orm
 	landscape land/myrabella7
 	description `Indalo appears to be the only planet in the entire region to have plant life on it. There are no factories anywhere, and the only evidence of human civiliation is the small spaceport city located near the equator.`
 	spaceport `There appears to be only one landing pad, but when you land you are lowered down into an underground parking complex. You noticed what appears to be hundreds of rows of ships. A tube attatches to the entrance of your ship, which leads to an elevator to the surface of the planet.`
@@ -2401,6 +2364,7 @@ planet "Outer Rim"
 	description "Wormhole connecting Sadr with Immeo."
 
 planet "The Hub"
+	attributes orm
 	landscape land/city12
 	description `Known only as The Hub, this planet is the main outpost of the Outer Rim Mining corporation. Most of the planet has been converted into factories spewing out dangerous chemicals as they smelt down the recently delivered ore into pure metals.`
 	spaceport `Freighters full of ore are constantly flying in and out of the atmoshphere, taking up most of the landing pads. After about an hour of talking with the command tower and waiting for an opening, you are allowed to land on a landing pad near the edge of the spaceport.`
