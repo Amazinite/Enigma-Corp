@@ -1385,6 +1385,7 @@ system Termara
 
 system "Karuht'aryet"
 	pos 152 -913
+	government "Forsaken Ones"
 	habitable 426
 	belt 800
 	link "Karuht'quyet"
@@ -1429,6 +1430,7 @@ system "Karuht'aryet"
 system "Karuht'uma"
 	pos 462 -1040
 	habitable 487
+	government "Forsaken Ones"
 	belt 1400
 	link "Karuht'ut"
 	link "Karuht'yet"
@@ -1467,6 +1469,7 @@ system "Karuht'uma"
 
 system "Karuht'yet"
 	pos 402 -975
+	government "Forsaken Ones"
 	habitable 426
 	belt 650
 	link "Karuht'uma"
@@ -1507,6 +1510,7 @@ system "Karuht'yet"
 
 system "Karuht'umayet"
 	pos 262 -892
+	government "Forsaken Ones"
 	habitable 233
 	belt 500
 	link "Karuht'quyet"
@@ -1553,6 +1557,7 @@ system "Karuht'umayet"
 
 system "Karuht'duyet"
 	pos 200 -1043
+	government "Forsaken Ones"
 	habitable 1080
 	belt 400
 	link "Karuht'enyet"
@@ -1601,6 +1606,7 @@ system "Karuht'duyet"
 
 system "Karuht'utyet"
 	pos 298 -1032
+	government "Forsaken Ones"
 	habitable 426
 	belt 900
 	link "Karuht'duyet"
@@ -1637,6 +1643,7 @@ system "Karuht'utyet"
 
 system "Karuht'quyet"
 	pos 214 -847
+	government "Forsaken Ones"
 	habitable 233
 	belt 800
 	link "Karuht'aryet"
@@ -1680,6 +1687,7 @@ system "Karuht'quyet"
 
 system "Karuht'enyet"
 	pos 225 -964
+	government "Forsaken Ones"
 	habitable 746
 	belt 1600
 	link "Karuht'aryet"
@@ -1723,6 +1731,7 @@ system "Karuht'enyet"
 
 system "Karuht'qu"
 	pos 772 -1017
+	government Quarg
 	habitable 1715
 	belt 1150
 	link "Karuht'ol"
@@ -1771,6 +1780,7 @@ system "Karuht'qu"
 
 system "Karuht'ar"
 	pos 736 -1090
+	government Quarg
 	habitable 426
 	belt 600
 	link "Karuht'ol"
@@ -1811,6 +1821,7 @@ system "Karuht'ar"
 system "Karuht'du"
 	pos 612 -1058
 	habitable 2795
+	government "Forsaken Ones"
 	belt 750
 	link "Karuht'ol"
 	link "Karuht'en"
@@ -1869,6 +1880,7 @@ system "Karuht'du"
 
 system "Karuht'ol"
 	pos 688 -1016
+	government Quarg
 	habitable 368
 	belt 650
 	link "Karuht'qu"
@@ -1920,6 +1932,7 @@ system "Karuht'ol"
 
 system "Karuht'en"
 	pos 636 -1123
+	government "Forsaken Ones"
 	habitable 1080
 	belt 1050
 	link "Karuht'du"
@@ -1959,6 +1972,7 @@ system "Karuht'en"
 
 system "Karuht'ut"
 	pos 550 -1015
+	government "Forsaken Ones"
 	habitable 746
 	belt 650
 	link "Karuht'du"
@@ -2002,6 +2016,7 @@ system "Karuht'ut"
 
 system "Karuht'olyet"
 	pos 325 -942
+	government "Forsaken Ones"
 	habitable 320
 	belt 1200
 	link "Karuht'enyet"
@@ -2200,7 +2215,7 @@ system Ukkamu
 
 system WOW-56
 	pos 841 -1114
-	government "Outer Rim Mining"
+	government Quarg
 	habitable 1080
 	belt 2000
 	link KAL-25

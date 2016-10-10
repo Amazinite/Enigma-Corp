@@ -17,8 +17,8 @@ government "Enigma Corp"
 		"Pug" -.1
 		"Quarg" -.1
 		"Hai" -.1
-		"Hai (Unfettered)" .1
 		"Wanderer" -.1
+		"Hai (Unfettered)" .1
 		"Independant" .1
 		"Syndicate" .1
 		"Deep Sky" .1
@@ -58,7 +58,7 @@ government "Andromedan"
 
 government "Korath"
 	"attitude toward"
-		"Andromedan" -0.2
+		"Andromedan" -.2
 
 government "Outer Rim Mining"
 	color 1 0.75 0
@@ -68,5 +68,15 @@ government "Outer Rim Mining"
 	"attitude toward"
 		"Adamas" .1
 		"Pirate" -.1
+		"Forsaken Ones" -.1
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
+
+government "Forsaken Ones"
+	color .66 .55 0
+	swizzle 0
+	"bribe" 1
+	"player reputation" -1000
+	"attitude toward"
+		"Quarg" -.1
+		"Drak" -.1
