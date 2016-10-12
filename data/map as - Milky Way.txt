@@ -1404,9 +1404,9 @@ system "Karuht'aryet"
 		period 27.5957
 	object
 		sprite planet/cloud5
-		distance 555.2
+		distance 455.2
 		period 253.554
-		object
+		object "Forec Rut'ic"
 			sprite planet/desert4
 			distance 186
 			period 16.5782
@@ -1429,7 +1429,7 @@ system "Karuht'aryet"
 
 system "Karuht'uma"
 	pos 462 -1040
-	habitable 487
+	habitable 1600
 	government "Forsaken Ones"
 	belt 1400
 	link "Karuht'ut"
@@ -1439,7 +1439,7 @@ system "Karuht'uma"
 	minables iron 14 5.4623
 	minables uranium 9 5.6812
 	object
-		sprite "star (animated)/k0"
+		sprite "star (animated)/red giant"
 			"frame rate" 0.5
 		period 10
 	object
@@ -1450,9 +1450,9 @@ system "Karuht'uma"
 		sprite planet/ice1
 		distance 455.2
 		period 176.093
-	object
+	object "Foruht Etin"
 		sprite planet/ocean2
-		distance 877.84
+		distance 1877.84
 		period 471.586
 		object
 			sprite planet/rock0
@@ -1460,7 +1460,7 @@ system "Karuht'uma"
 			period 16.5893
 	object
 		sprite planet/gas0
-		distance 1778.84
+		distance 2778.84
 		period 1360.33
 		object
 			sprite planet/ice8
@@ -1487,8 +1487,8 @@ system "Karuht'yet"
 		sprite planet/cloud0
 		distance 194.24
 		period 52.4691
-	object
-		sprite planet/lava2
+	object "Forfut Mun"
+		sprite planet/rock1
 		distance 431.08
 		period 173.473
 	object
@@ -1587,8 +1587,8 @@ system "Karuht'duyet"
 			sprite planet/ice0
 			distance 239
 			period 13.8544
-	object
-		sprite planet/gas17
+	object "Forfut Tun"
+		sprite planet/earth
 		distance 1248.81
 		period 537.146
 	object
@@ -1624,9 +1624,9 @@ system "Karuht'utyet"
 		sprite planet/rock7
 		distance 133.16
 		period 29.7822
-	object
+	object "Forfut Nun"
 		sprite planet/cloud3
-		distance 504.52
+		distance 440.52
 		period 219.641
 	object
 		sprite planet/gas12
@@ -1656,13 +1656,13 @@ system "Karuht'quyet"
 		sprite "star (animated)/m4"
 			"frame rate" 0.5
 		period 10
-	object
+	object  "Forsorp Rud"
 		sprite planet/venus
-		distance 166.49
+		distance 266.49
 		period 56.2605
 	object
 		sprite planet/ganymede
-		distance 348.49
+		distance 548.49
 		period 170.375
 	object
 		sprite planet/gas8
@@ -1706,13 +1706,14 @@ system "Karuht'enyet"
 		offset 180
 	object
 		sprite "star (animated)/m0"
+			"frame rate" 0.5
 		distance 63.952
 		period 17.3596
 	object
 		sprite planet/desert6
 		distance 258.642
 		period 60.9203
-	object
+	object "Fuhtwar Pu'ug"
 		sprite planet/ocean3
 		distance 729.332
 		period 288.471
@@ -1761,13 +1762,13 @@ system "Karuht'qu"
 		sprite planet/rock0
 		distance 1037.57
 		period 322.815
-	object
+	object Emuhforp
 		sprite planet/forest4
-		distance 1337.38
+		distance 1637.38
 		period 472.4
 	object
 		sprite planet/gas10
-		distance 1920.07
+		distance 2820.07
 		period 812.65
 		object
 			sprite planet/io
@@ -1785,43 +1786,90 @@ system "Karuht'ar"
 	belt 600
 	link "Karuht'ol"
 	link "Karuht'qu"
-	asteroids "large metal" 11 2.4795
-	minables aluminum 25 2.7547
-	minables copper 23 2.8532
-	minables uranium 9 2.9583
 	object
 		sprite "star (animated)/k5"
 			"frame rate" 0.5
 		period 10
 	object
-		sprite planet/dust6
-		distance 138.61
-		period 31.6292
+		sprite "planet/ringworld left"
+		distance 812
+		period 360
+		offset -30
+	object "Alf Minres"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset -50
 	object
-		sprite planet/europa
-		distance 339.02
-		period 120.986
+		sprite "planet/ringworld right"
+		distance 812
+		period 360
+		offset -70
 	object
-		sprite planet/rock16
-		distance 871.27
-		period 498.454
+		sprite "planet/ringworld left"
+		distance 812
+		period 360
+		offset -70
 	object
-		sprite planet/gas12
-		distance 1527.68
-		period 1157.3
-		object
-			sprite planet/rock3
-			distance 287
-			period 12.7705
-		object
-			sprite planet/dust1
-			distance 431
-			period 23.5018
+		sprite "planet/ringworld right"
+		distance 812
+		period 360
+		offset -90
+	object
+		sprite "planet/ringworld right"
+		distance 812
+		period 360
+		offset 40
+	object
+		sprite "planet/ringworld left"
+		distance 812
+		period 360
+		offset 60
+	object
+		sprite "planet/ringworld right"
+		distance 812
+		period 360
+		offset 60
+	object
+		sprite "planet/ringworld left"
+		distance 812
+		period 360
+		offset 80
+	object
+		sprite "planet/ringworld right"
+		distance 812
+		period 360
+		offset 130
+	object
+		sprite "planet/ringworld left"
+		distance 812
+		period 360
+		offset 150
+	object
+		sprite "planet/ringworld right"
+		distance 812
+		period 360
+		offset 180
+	object
+		sprite "planet/ringworld left"
+		distance 812
+		period 360
+		offset 200
+	object
+		sprite "planet/ringworld right"
+		distance 812
+		period 360
+		offset 200
+	object
+		sprite "planet/ringworld left"
+		distance 812
+		period 360
+		offset 220
 
 system "Karuht'du"
 	pos 612 -1058
-	habitable 2795
 	government "Forsaken Ones"
+	habitable 270
 	belt 750
 	link "Karuht'ol"
 	link "Karuht'en"
@@ -1831,17 +1879,12 @@ system "Karuht'du"
 	minables lead 16 3.8642
 	minables uranium 9 3.9672
 	object
-		sprite "star (animated)/f5"
+		sprite "star (animated)/m8"
 			"frame rate" 0.5
 		distance 49.4597
 		period 10.9568
 		offset 180
-	object
-		sprite "star (animated)/g0"
-			"frame rate" 0.5
-		distance 78.5403
-		period 10.9568
-	object
+	object "Fuhtwar Qu'ug"
 		sprite planet/cloud6
 		distance 279.35
 		period 35.3259
@@ -1905,8 +1948,8 @@ system "Karuht'ol"
 		sprite planet/lava3
 		distance 197.649
 		period 57.9181
-	object
-		sprite planet/rock9
+	object Akinagol
+		sprite planet/lava5
 		distance 491.739
 		period 227.286
 	object
@@ -1953,8 +1996,8 @@ system "Karuht'en"
 		sprite planet/venus
 		distance 409.36
 		period 100.811
-	object
-		sprite planet/gas6
+	object "Fuhtwar Sorp"
+		sprite planet/forest2
 		distance 915.12
 		period 336.95
 	object
@@ -1997,13 +2040,13 @@ system "Karuht'ut"
 		sprite planet/rock15
 		distance 199.628
 		period 41.3091
-	object
+	object "Forsorp Maka"
 		sprite planet/rock9
-		distance 455.318
+		distance 765.318
 		period 142.294
 	object
 		sprite planet/gas10
-		distance 834.558
+		distance 1534.558
 		period 353.101
 		object
 			sprite planet/rock0
@@ -2034,9 +2077,9 @@ system "Karuht'olyet"
 		sprite planet/rock17
 		distance 98
 		period 21.6932
-	object
-		sprite planet/cloud4
-		distance 279.96
+	object "Forpup Unu"
+		sprite planet/rock4
+		distance 339.96
 		period 104.744
 	object
 		sprite planet/rock6
@@ -2215,7 +2258,7 @@ system Ukkamu
 
 system WOW-56
 	pos 841 -1114
-	government Quarg
+	government "Outer Rim Mining"
 	habitable 1080
 	belt 2000
 	link KAL-25
@@ -2386,3 +2429,98 @@ planet "The Hub"
 	"required reputation" 50
 	security 0
 	
+planet "Foruht Etin"
+	attributes forsaken
+	landscape land/mfield4
+	description `Foruht Etin is the home world of the Forsaken Ones, or at the very least their most recently established capital. The entire planet appears to be a single gigantic city. From pole to pole and all around the equator, skyscrapers block out any sight of land or sea.`
+	description `	A section of city in the northern hemisphere appears different from the rest; buildings are more spread apart and the entire area is surrounded by a wall that dwarfs even the skyscrapers around it. In the center of this section is a large, circular based building that is visible even from orbit. It is likely that this is their main base of operations, the capital of their entire empire.`
+	spaceport ``
+	"required reputation" 0
+	security 0
+
+planet "Forsorp Maka"
+	attributes forsaken manufacturing
+	landscape land/loc1
+	description `Judging by the large factories that output ships and crates of unknown supplies and the freighters carrying large shipments into orbit, Forsorp Maka is one of the Forsaken Ones' manufacturing worlds, producing all that it needed to run the Forsaken empire. Much of what is produced appears to be warships and weapons, as if the Forsaken were preparing for a large battle, or are even in one.`
+	description `	Many of the smaller freighters seem to carry their supplies eastward galacticaly, toward the direction of the capital, but every so often a large freighter carries with it an entire warship or an unbelievably large crate that is presumably full of weapons and hauls it off westward.`
+	spaceport ``
+	"required reputation" 0
+	security 0
+
+planet "Fuhtwar Qu'ug"
+	attributes forsaken abandoned
+	landscape land/lava1
+	description `Fuhtwar Qu'ug seems to have been abandoned many years ago. The surface is almost entirely covered in craters and the sky is constantly overcast. Any buildings that did survive whatever bombardment occurred here are overgrown with some sort of alien flora. Inside some of the more intact buildings are large alien warships or pieces of weaponry, making this possibly an old military planet.`
+	description `	Upon inspecting some of the alien technology closer, you are unable to find any ways to use it. There are no visible inputs or outputs to any of the outfits and the ships do not even appear to have cockpits to them. You can't help but notice that a few of the outfits and ships are very Quarg-like in nature, but it is no guarantee that they are from the Quarg themselves.`
+
+planet "Fuhtwar Sorp"
+	attributes forsaken military
+	landscape land/loc0
+	description `Fuhtwar Sorp is unlike the other Forsaken military planets in that it does not appear to be made for war itself. Many of the complexes, instead of being surrounded by walls, are open and full of ship hangars and storage warehouses. Large vehicles move crates from the shipments brought by freighters into the warehouses, and newly arrived ships are wheeled into the hangars. It is almost as if this planet is meant to be some sort of resupplying center or a secondary base of operations, supporting whatever war may be going on on the front lines.`
+	spaceport ``
+	"required reputation" 0
+	security 0
+
+planet "Akinagol"
+	attributes quarg abandoned
+	landscape land/nasa7
+	description `Akinagol's surface is a place of nightmares. Scattered across the planet are the empty husks of Quarg warships and what can only be assumed to be Quarg skeletons. Large craters pepper the surface, most three times larger than the craters on the neighboring Forsaken planet, and some being so large that they have pierced the crust of the planet to reveal the mantle below. The atmosphere is poisonous to breathe from the amount of sulfuric gases, and the rains eat away at any organic material unlucky enough not to be under cover. Some small animals and plants have managed to survive whatever hell this planet went through, but they are few and far between with most looking as though they are on Death's doorstep.`
+
+planet "Emuhforp"
+	attributes quarg abandoned
+	landscape land/sea6
+	description `Emuhforp has escaped whatever fate its neighboring system was met with. The surface is not littered with craters or old and forgotten warships, and the local life seems to be thriving rather well. From time to time while scanning the surface you are able to spot through the plant growth what look like buildings that are made out of the same material used in Quarg ships, suggesting that the Quarg once inhabited this planet. Despite this, no Quarg or Quarg ships can be found anywhere. It is likely that the Quarg evacuated this planet before the battle reached it, saving the planet and its native inhabitants.`
+
+planet "Alf Minres"
+	attributes quarg station abandoned
+	landscape land/station2
+	description `Whether this old Quarg ringworld was somehow damaged or just never finished is unclear, but it does seem to have been abandoned for some time now. None of the electronics are working and dust has settled in a thick layer within pressurized areas of the ring.`
+
+planet "Forfut Mun"
+	attributes forsaken food
+	landscape land/hills5-sfiera
+	description `Forfut Mun is undoubtedly a world meant entirely for the production of food. The planet is covered in farms and fields, growing all sorts of alien plants and raising various animals. The only part of the planet that isn't being used to produce food of some sort is the central spaceport, a large area of land comprised of hundreds of landing pads positioned side by side with a refueling station every ten or so landing pads. Food is packaged in crates and placed on freighters before being shipped off to whatever planet requires food at the moment.`
+	spaceport ``
+	"required reputation" 0
+	security 0
+
+planet "Forfut Nun"
+	attributes forsaken "food processing"
+	landscape land/city12
+	description `Forfut Nun is some kind of food processing world filled with processing factories and spaceports for haulers. Forsaken freighters carrying crates of all sorts of food are flown in from neighboring farming systems and hauled off by transportation robots into the factories. On the opposite side of the buildings are large warehouses where crates of processed food are stored before being picked up and carried off to population and military planets by freighters.`
+	spaceport ``
+	"required reputation" 0
+	security 0
+
+planet "Forpup Unu"
+	attributes forsaken population
+	landscape land/city9
+	description `Unlike the rest of the Forsaken worlds, Forpup Unu appears to have no specific purpose. There are no factories, no military complexes, and no overly-extravagant buildings. The planet is mainly cities, but there are a few more suburban looking areas, and unlike the capital where every inch of the surface is covered by buildings, oceans and mountains are visible. The only notable difference on this planet is the size of the buildings; they appear to reach many kilometers in height, some dwarfing even nearby mountains. Each building must be able to hold thousands of people at the very least, making it not all that unlikely that this planet has a higher population than even the capital.`
+	spaceport `The Forpup Unu spaceport seems relatively normal compared to other Forsaken space ports, aside from one fact; almost all of the Forsaken appear to be wearing some sort of breathing apparatus or gas mask. Outside of the spaceport off in the distance can be seen a large construct being build. It looks as though it is a wall similar to those on Forsaken military planets, but whatever it is being made out of is clear.`
+	"required reputation" 0
+	security 0
+
+planet "Forfut Tun"
+	attributes forsaken food
+	landscape land/fields5
+	description `Forfut Tun is another one of the Forsaken food planets, entirely converted into farms and fields. It would be hard to tell the difference between this world and other Forsaken food production worlds were it not for the highly visible domes surrounding many of the fields and farms. The purpose for the domes is not made clear by simply looking at them, possibly they are used as a biosphere of sorts to increase food production, but not all of the fields have them. In some areas of the planet, Forsaken are hastily building more domes and carrying building materials to the construction sites.`
+	spaceport ``
+	"required reputation" 0
+	security 0
+
+planet "Fuhtwar Pu'ug"
+	attributes forsaken abandoned
+	landscape land/hills0
+	description `Fuhtwar Pu'ug is an entirely militarized planet, covered in sectors of shipyards and hangars all surrounded by high walls topped with turrets. Despite all the work put into militarizing the entire planet, it has been completely abandoned. The atmosphere is extremely thin, but suggesting from the rest of the planets that the Forsaken inhabit, it was once much thicker. The strange radiation that is detectable in orbit is still present on the surface of the planets albeit at a lower amount.`
+	description `	Of the many military complexes across the planet, some of them seem to be in serious disrepair, crumbling away at the way and, despite being made out of some sort of alloy or concrete, looking as thought they are rotting.`
+
+planet "Forec Rut'ic"
+	attributes forsaken abandoned
+	landscape land/bwerner2
+	description `Although Forec Rut'ic appears to have once been inhabited by a large number of species, it is currently completely barren. There is no longer an atmosphere on the planet, leading to the eternally black sky above the surface. Around where you landed are a number of scattered bones from long dead animals (some of which seem to be decaying away somehow) and you notice on your ship scanner that the radiation levels are dangerously high; higher than anywhere else in this section of space. Out in the distance is the skyline of a vast advanced looking city that appears to be surrounded in a dome of sorts, but to take time explore it would likely be death due to the radiation.`
+
+planet "Forsorp Rud"
+	attributes forsaken abandoned
+	landscape land/canyon2
+	description `Forsorp Rud shares the same fate as that of the planet in the neighboring system; radiation has stripped the atmosphere clean off the planet, leading to the demise of the many species that once lived and thrived here. The surface seems scorched from the radiation and there are no signs of any life. The only sign of any past life on this planet is a number of abandoned cities, many of which are full of factory-looking buildings that have multiple smoke stacks protruding from the top floors, but even these seem to be rotting away and crumbling like the rest of the planet.`
+

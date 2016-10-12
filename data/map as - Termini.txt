@@ -22,6 +22,7 @@ system "World's Beginning"
 		period 8.24972
 	object
 		sprite star/m8
+			"frame rate" 0.5
 		distance 95.1111
 		period 8.24972
 		offset 180

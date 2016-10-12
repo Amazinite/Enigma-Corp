@@ -68,6 +68,7 @@ system "1"
 	fleet "Planet Destroyers" 200000
 	object
 		sprite "star (animated)/m0"
+			"frame rate" 0.5
 		period 10
 	object Outpost1
 		sprite planet/station0
@@ -93,6 +94,7 @@ system "2"
 	fleet "Planet Destroyers" 200000
 	object
 		sprite "star (animated)/m0"
+			"frame rate" 0.5
 		period 10
 	object Outpost2
 		sprite planet/station0
@@ -117,6 +119,7 @@ system "3"
 	fleet "Planet Destroyers" 200000
 	object
 		sprite "star (animated)/m0"
+			"frame rate" 0.5
 		period 10
 	object Outpost3
 		sprite planet/station0
@@ -143,6 +146,7 @@ system "4"
 	fleet "Planet Destroyers" 200000
 	object
 		sprite "star (animated)/m0"
+			"frame rate" 0.5
 		period 10
 	object Outpost4
 		sprite planet/station0
@@ -167,6 +171,7 @@ system "5"
 	fleet "Planet Destroyers" 200000
 	object
 		sprite "star (animated)/m0"
+			"frame rate" 0.5
 		period 10
 	object Outpost5
 		sprite planet/station0
@@ -192,6 +197,7 @@ system "6"
 	fleet "Planet Destroyers" 200000
 	object
 		sprite "star (animated)/m0"
+			"frame rate" 0.5
 		period 10
 	object Outpost6
 		sprite planet/station0
@@ -216,6 +222,7 @@ system "7"
 	fleet "Planet Destroyers" 200000
 	object
 		sprite "star (animated)/m0"
+			"frame rate" 0.5
 		period 10
 	object Outpost7
 		sprite planet/station0
