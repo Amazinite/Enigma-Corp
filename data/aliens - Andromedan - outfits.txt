@@ -100,7 +100,7 @@ outfit "Hydrogen Thruster"
 	thumbnail "outfit/known"
 	"mass" 200
 	"outfit space" -200
-	"weapon capacity" -200
+	"engine capacity" -200
 	"thrust" 100
 	"thrusting energy" 5
 	"thrusting heat" 250

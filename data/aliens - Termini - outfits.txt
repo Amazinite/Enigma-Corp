@@ -78,7 +78,7 @@ outfit "T-Drone Engines"
 	thumbnail "outfit/T-Drone Engines"
 	"mass" 10
 	"outfit space" -10
-	"engine space" -10
+	"engine capacity" -10
 	"thrust" 100
 	"reverse thrust" 100
 	"turn" 500
