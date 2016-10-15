@@ -8,6 +8,119 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+# Vanilla Capacity Upgraders
+outfit "Meteor Cap-Up"
+	category "Ammunition"
+	cost 10000
+	thumbnail "outfit/meteor cap"
+	"mass" 2
+	"outfit space" -6
+	"meteor capacity" 20
+	description "The Meteor Capacity Upgrader will increase the amount of secondary ammo you can carry for your Meteor Missile Launcher."
+
+outfit "Sidewinder Cap-Up"
+	category "Ammunition"
+	cost 20000
+	thumbnail "outfit/sidewinder cap"
+	"mass" 2
+	"outfit space" -7
+	"sidewinder capacity" 25
+	description "The Sidewinder Capacity Upgrader will increase the amount of secondary ammo you can carry for your Sidewinder Missile Launcher."
+
+outfit "Javelin Cap-Up"
+	category "Ammunition"
+	cost 5000
+	thumbnail "outfit/javelin cap"
+	"mass" 4
+	"outfit space" -8
+	"javelin capacity" 100
+	description "The Javelin Capacity Upgrader will increase the amount of secondary ammo you can carry for your Javelin Missile Launcher."
+
+outfit "Heavy Rocket Cap-Up"
+	category "Ammunition"
+	cost 20000
+	thumbnail "outfit/rocket cap"
+	"mass" 5
+	"outfit space" -10
+	"rocket capacity" 10
+	description "The Heavy Rocket Capacity Upgrader will increase the amount of secondary ammo you can carry for your Heavy Missile Launcher."
+
+outfit "Torpedo Cap-Up"
+	category "Ammunition"
+	cost 21000
+	thumbnail "outfit/torpedo cap"
+	"mass" 4
+	"outfit space" -10
+	"torpedo capacity" 15
+	description "The Torpedo Capacity Upgrader will increase the amount of secondary ammo you can carry for your Torpedo Launcher."
+
+outfit "Typhoon Cap-Up"
+	category "Ammunition"
+	cost 27000
+	thumbnail "outfit/typhoon cap"
+	"mass" 3
+	"outfit space" -8
+	"typhoon capacity" 10
+	description "The Typhoon Capacity Upgrader will increase the amount of secondary ammo you can carry for your Typhoon Launcher."
+
+outfit "Gatling Cap-Up"
+	category "Ammunition"
+	cost 5000
+	thumbnail "outfit/bullet cap"
+	"mass" 1
+	"outfit space" -4
+	"gatling round capacity" 1500
+	description "The Gatling Capacity Upgrader will increase the amount of secondary ammo you can carry for your Gatling Gun."
+
+outfit "Hai Tracker Cap-Up"
+	category "Ammunition"
+	cost 27000
+	thumbnail "outfit/tracker cap"
+	"mass" 4
+	"outfit space" -10
+	"tracker capacity" 27
+	description "The Hai Tracker Capacity Upgrader will increase the amount of secondary ammo you can carry for your Hai Tracker Pod."
+
+outfit "Railgun Cap-Up"
+	category "Ammunition"
+	cost 10000
+	thumbnail "outfit/railgun cap"
+	"mass" 1.5
+	"outfit space" -3
+	"railgun slug capacity" 75
+	description "The Railgun Capacity Upgrader will increase the amount of secondary ammo you can carry for your Railgun."
+
+outfit "Thunderhead Cap-Up"
+	category "Ammunition"
+	cost 36000
+	thumbnail "outfit/thunder cap"
+	"mass" 4
+	"outfit space" -10
+	"thunderhead capacity" 20
+	description "The Thunderhead Capacity Upgrader will increase the amount of secondary ammo you can carry for your Thunderhead Launcher."
+
+outfit "Korath Piercer Cap-Up"
+	category "Ammunition"
+	cost 52500
+	thumbnail "outfit/piercer cap"
+	"mass" 5.5
+	"outfit space" -10
+	"piercer capacity" 15
+	description "The Korath Piercer Capacity Upgrader will increase the amount of secondary ammo you can carry for your Korath Piercer Launcher."
+
+outfit "Korath Mine Cap-Up"
+	category "Ammunition"
+	cost 28000
+	thumbnail "outfit/k-mine cap"
+	"mass" 2.4
+	"outfit space" -9
+	"minelayer capacity" 8
+	description "The Korath Mine Upgrader will increase the amount of secondary ammo you can carry for your Korath Minelayer."
+#
+
+
+
+# Enigma Corp Weapons
 outfit "Arc Discharger"
 	category "Guns"
 	cost 2275000
@@ -32,6 +145,8 @@ outfit "Arc Discharger"
 		"ion damage" 0.3333
 	description "The Arc Discharger works by rerouting your ship's power straight to the core of the weapon. After a short amount of time, the core overcharges and releases a large burst of energy. The resulting lightning storm deals large amounts of shield damage and disrupting the energy systems of any ship that it hits, draining much of their energy."
 	description "Brought to you by the Enigma Corporation."
+
+
 
 outfit "Antimatter Launcher"
 	category "Secondary Weapons"
@@ -71,7 +186,7 @@ outfit "Antimatter Launcher"
 		"missile strength" 0
 	description "Although not available to the wider public, the Enigma Corporation has a plethra of weaponry and other outfits that are based off of stolen alien technology. The Antimatter Launcher is likely the most destructive weapon in existance, using the power of a Quarg Antimatter Core and converting it in to a useable weapon. With enough explosive yield to level half a star system, the Antimatter Launcher requires a specially fitted capital ship to even fit and fire."
 	description "Brought to you by the Enigma Corporation."
-	
+
 outfit "Antimatter Rocket"
 	category "Ammunition"
 	cost 5000000
@@ -82,6 +197,17 @@ outfit "Antimatter Rocket"
 	description "The Antimatter Rocket is a highly illegal ammunition used for the Antimatter Launcher."
 	description "	Given the power of even a single Antimatter Rocket, carrying any bombs at all is punishable by death. And god forbid an Archon see you with one of these."
 	description "Brought to you by the Enigma Corporation."
+
+outfit "AM-Bomb Cap-Up"
+	category "Ammunition"
+	cost 1000000
+	thumbnail "outfit/am cap"
+	"mass" 4
+	"outfit space" -5
+	"bomb capacity" 1
+	description "The Antimatter Bomb Capacity Upgrader will increase the amount of secondary ammo you can carry for your Antimatter Launcher."
+
+
 
 outfit "Cryo Beam"
 	category "Guns"
@@ -111,6 +237,8 @@ outfit "Cryo Beam"
 	description "Some say that the Cryo Beam is stolen technology from an undiscovered alien race that is far superior to humanity, leading some to wonder just how powerful the Corporation really is."
 	description "Brought to you by the Enigma Corporation."
 
+
+
 outfit "EMP Device"
 	category "Guns"
 	cost 2500000
@@ -136,32 +264,8 @@ outfit "EMP Device"
 	description "An EMP Device works similarly to an Arc Discharger in that it charges a power core that discharges in a burst of ionizing energy. The difference is that the EMP Device requires much more energy and impacts ships all around the source instead of focusing the energy to the front of the ship. The large amount of energy that is released greatly heats up the core, requiring a cooling time after being fired."
 	description "Brought to you by the Enigma Corporation."
 
-outfit "Energy Turret"
-	category "Turrets"
-	cost 500000
-	thumbnail "outfit/energy transfer"
-	"mass" 50
-	"outfit space" -50
-	"weapon capacity" -50
-	"turret mounts" -1
-	"required crew" 1
-	weapon
-		sprite "projectile/repair laser"
-			"frame rate" 1
-		sound "heavy laser"
-		"hit effect" "heavy laser impact"
-		icon "icon/nanites"
-		"inaccuracy" .4
-		"velocity" 400
-		"lifetime" 1
-		"reload" 1
-		"firing energy" 10
-		"firing heat" 5
-		"shield damage" 0
-		"hull damage" 0
-		"ion damage" -.25
-	description "The Energy Turret is a new development from the Deep that works to reverse the effects that ion weapons have on ships. Firing a beam of electric energy, any ship that is hit by the beam has their batteries quickly charged, making the Energy Turret especially helpful on support ships to assist front line ships in keeping their energy reserves topped off."
-	
+
+
 outfit "Flux Mine Placer"
 	category "Secondary Weapons"
 	cost 500000
@@ -205,6 +309,17 @@ outfit "Flux Mine"
 	description "The Flux Mine is a Flux Torepdo that has had its thrusters removed and replaced with more flux explosives; used as ammunition for the Flux Mine Placer."
 	description "Brought to you by the Enigma Corporation."
 
+outfit "Flux Mine Cap-Up"
+	category "Ammunition"
+	cost 50000
+	thumbnail "outfit/f mine cap"
+	"mass" 2.5
+	"outfit space" -10
+	"ion mine capacity" 5
+	description "The Flux Mine Capacity Upgrader will increase the amount of secondary ammo you can carry for your Flux Mine Placer."
+
+
+
 outfit "Flux Missile Launcher"
 	category "Secondary Weapons"
 	cost 80000
@@ -242,7 +357,7 @@ outfit "Flux Missile Launcher"
 		"missile strength" 12
 	description "After the huge success of the Hellfire Missile Launcher, the Corporation decided to attempt the same thing with Lovelace's Sidewinder Missile Launcher. As a result, the Flux Missile Launcher was born. Given a similar makeover as the Hellfire Missile Launcher, the Flux Missile Launcher fires faster and holds more missiles, while also having better homing and velocity."
 	description "Brought to you by the Enigma Corporation."
-	
+
 outfit "Flux Missile"
 	category "Ammunition"
 	cost 1500
@@ -252,52 +367,18 @@ outfit "Flux Missile"
 	description "The Flux Missile is the ammunition used for the Flux Missile Launcher."
 	description "	The warhead of the Flux Missile is packed with a small electromagnetic charge that is designed to quickly deplete both the shields and energy reserves of the target ship, making the Flux Missile Launcher a formidable weapon against ships that are working on the edge of their energy generation."
 	description "Brought to you by the Enigma Corporation."
-	
-outfit "Flux Torpedo Launcher"
-	category "Secondary Weapons"
-	cost 260000
-	thumbnail "outfit/flux torpedo launcher"
-	"mass" 20
-	"outfit space" -35
-	"weapon capacity" -35
-	"gun ports" -1
-	"flux torpedo capacity" 30
-	weapon
-		sprite "projectile/fluxtorpedo"
-			"frame rate" 4
-			"random start frame"
-		sound "typhoon"
-		ammo "Flux Torpedo"
-		icon "icon/ion torp"
-		"fire effect" "typhoon fire"
-		"hit effect" "iontorpedoexplosion"
-		"die effect" "tiny explosion"
-		"inaccuracy" 5
-		"velocity" 5
-		"lifetime" 600
-		"reload" 100
-		"firing energy" 4
-		"firing heat" 50
-		"acceleration" .5
-		"drag" .1
-		"turn" 6
-		"homing" 4
-		"optical tracking" .9
-		"shield damage" 0
-		"hull damage" 0
-		"ion damage" 20
-		"hit force" 70
-		"missile strength" 30
-	description "The Flux Torpedo Launcher is an experiment from Syndicate to create an altered version of Deep Sky's Typhoon Launcher that, instead of damage it, disrupts the electrical systems of a ship, leaving them completely useless. This allows convoys of freighters to leave the system before they become too damage or for combat fleets to pummel their useless enemies into submission."
-	
-outfit "Flux Torpedo"
+
+outfit "Flux Missile Cap-Up"
 	category "Ammunition"
-	cost 2700
-	thumbnail "outfit/flux torpedo"
-	"mass" .5
-	"flux torpedo capacity" -1
-	description "Flux Torpedos are ammunition for the Flux Torpedo Launcher."
-	
+	cost 45000
+	thumbnail "outfit/flux cap"
+	"mass" 1.5
+	"outfit space" -9
+	"flux capacity" 30
+	description "The Flux Capacity Upgrader will increase the amount of secondary ammo you can carry for your Flux Missile Launcher."
+
+
+
 outfit "Forge Cannon"
 	category "Turrets"
 	cost 1430000
@@ -322,39 +403,8 @@ outfit "Forge Cannon"
 		"hull damage" 2230
 	description "The Forge Cannon is a highly powerful railgun that fires titanium slugs at extreme speeds, able to reach very long ranges. The kinetic force of the slug landing on a target causes a massive explosion, dealing large amounts of damage and knocking back the ship that it hits. Due to the size of the slugs and the power at which the projectile is launched, they are slowly loaded into the barrel of the weapon and time must be taken for the cannon to charge, leading to rather long reload periods."
 	description "Brought to you by the Enigma Corporation."
-	
-outfit "Fuel Rod Launcher"
-	category "Secondary Weapons"
-	cost 785000
-	thumbnail "outfit/known"
-	"mass" 25
-	"outfit space" -25
-	"weapon capacity" -25
-	"gun ports" -1
-	weapon
-		sprite "projectile/torpedo"
-		sound "torpedo"
-		icon "icon/flamethrower"
-		"hit effect" "big explosion"
-		"inaccuracy" 1
-		"velocity" 25
-		"lifetime" 125
-		"reload" 120
-		"firing energy" 275
-		"firing heat" 500
-		"firing fuel" 25
-		"acceleration" 1
-		"drag" .1
-		"turn" 3
-		"homing" 2
-		"optical tracking" 0.9
-		"hit force" 1000
-		"shield damage" 250
-		"hull damage" 1000
-		"heat damage" 2500
-		"missile strength" 100
-	description "The Fuel Rod Launcher is as simple as it sounds. The weapon fills hollow rods full of your hyperspace fuel and launches them at your foes. The rod is specially designed to shatter upon impact and ignite the fuel, causing a large heat explosion."
-	description "Brought to you by the Enigma Corporation."
+
+
 
 outfit "Grav Bomb"
 	category "Secondary Weapons"
@@ -404,7 +454,9 @@ outfit "Grav3"
 		"blast radius" 50000
 		"trigger radius" 50000
 		"hit force" -20
-	
+
+
+
 outfit "Gravitational Wave Generator"
 	category "Secondary Weapons"
 	cost 5000000
@@ -434,6 +486,8 @@ outfit "Wave"
 		"shield damage" 0
 		"hull damage" 0
 		"hit force" 2000
+
+
 
 outfit "Hellfire Missile Launcher"
 	category "Secondary Weapons"
@@ -471,7 +525,7 @@ outfit "Hellfire Missile Launcher"
 		"missile strength" 4
 	description "The Hellfire Missile Launcher was the first in a long line of patent-infringing weapons that were developed by the Enigma Corporation. Using the Meteor Missile Launcher as a base, all safety measures were removed. This allows for a faster fire rate and next to no energy consumption at the cost of greatly increased heat generated per shot. They also added a larger missile storage compartement, which increases the amount of space needed to fit the launcher."
 	description "Brought to you by the Enigma Corporation."
-	
+
 outfit "Hellfire Missile"
 	category "Ammunition"
 	cost 350
@@ -482,52 +536,17 @@ outfit "Hellfire Missile"
 	description "To avoid complete legal suicide, the Corporation decided to change the design of the Meteor Missile to make it a different missile entirely. The Hellfire Missile has a higher velocity, better homing capabilities, and a higher explosive yeild compared to its Meteor Missile cousin, but at the cost of lasting a much shorter amount of time and doing far less shield damage."
 	description "Brought to you by the Enigma Corporation."
 
-outfit "Modified Proton Gun"
-	category "Secondary Weapons"
-	cost 32000
-	thumbnail "outfit/proton gun"
-	"mass" 5
-	"outfit space" -8
-	"weapon capacity" -8
-	"gun ports" -1
-	"capacitor capacity" 500
-	weapon
-		sprite "projectile/proton"
-		ammo "Proton Capacitor"
-		icon "icon/"
-		sound "proton"
-		"hit effect" "proton impact" 3
-		"inaccuracy" 4
-		"submunition" "Modified Proton Fragment" 10
-		"velocity" 10
-		"lifetime" 1
-		"reload" 8
-		"firing energy" 7
-		"firing force" 1
-		"firing heat" 35
-	description "Although some at the Syndicate saw the Proton Gun's inability to produce a coherent beam a fatal flaw in its design, others saw it as a perfect opportunity to produce a small yet powerful anti-capital ship weapon. By increasing the total amount of current that is run through the coils of the gun, a more powerful beam is produced. This however causes the beam to be even more incoherent, reducing its accuracy and range, but also increasing its total potential damage."
-	description "The first iteration of the weapon was found to be rather useless on larger ships as they had trouble getting close enough to use the weapon, so the Syndicate decided to scale the weapon done and market it as a fighter or interceptor weapon instead."
-	
-outfit "Modified Proton Fragment"
-	weapon
-		sprite "projectile/proton fragment"
-			"no repeat"
-			"frame rate" 2
-		"hit effect" "proton impact"
-		"inaccuracy" 21
-		"lifetime" 15
-		"hit force" 6
-		"shield damage" 1.8
-		"hull damage" 1.5
-		
-outfit "Proton Capacitor"
+outfit "Hellfire Cap-Up"
 	category "Ammunition"
-	cost 50
-	thumbnail "outfit/supercapacitor"
-	mass 0.006
-	"capacitor capacity" -1
-	description "Proton Capacitors are ammunition used for Modified Proton Guns. Due to the amount of ampage that must be reached in order to make a Modified Proton Gun work, one must use specially built capacitors (that burn out after each use) in order to make the weapon function."
-	
+	cost 15000
+	thumbnail "outfit/hellfire cap"
+	"mass" 2
+	"outfit space" -7
+	"hellfire capacity" 50
+	description "The Hellfire Capacity Upgrader will increase the amount of secondary ammo you can carry for your Hellfire Missile Launcher."
+
+
+
 outfit "Missile Denial System"
 	category "Turrets"
 	cost 5000000
@@ -549,43 +568,8 @@ outfit "Missile Denial System"
 	description "The Missile Denial System is based off of old 21st century active protection system technology that destroyed missiles before they reached the vehicle that the APS was mounted on. These APS systems were highly effective, but did not last forever. After a certain amount of projectiles have been stopped, the system becomes useless and must be reloaded. The same is true with the MDS; after 50 shots, the system must take time to recharge."
 	description "Brought to you by the Enigma Corporation."
 
-outfit "Sidewinder Missile Turret"
-	category "Turrets"
-	cost 75000
-	thumbnail "outfit/sidewinder launcher"
-	"mass" 9
-	"outfit space" -18
-	"weapon capacity" -18
-	"turret mounts" -1
-	"required crew" 1
-	"sidewinder capacity" 50
-	weapon
-		sprite "projectile/sidewinder"
-			"no repeat"
-			"frame rate" .25
-		sound "sidewinder"
-		ammo "Sidewinder Missile"
-		icon "icon/sidewinder"
-		"fire effect" "sidewinder fire"
-		"die effect" "missile death"
-		"hit effect" "medium explosion"
-		"inaccuracy" 4
-		"velocity" 12
-		"lifetime" 600
-		"reload" 40
-		"firing energy" 1
-		"firing heat" 15
-		"acceleration" 1.2
-		"drag" .1
-		"turn" 3
-		"homing" 4
-		"radar tracking" 0.9
-		"shield damage" 80
-		"hull damage" 60
-		"hit force" 25
-		"missile strength" 12
-	description "Another development from Lovelace Labs, the Sidewinder Missile Turret is the next step in missile technology. It was becoming increasingly difficult to design missiles with better homing and turning capabilities, so one of the engineers at Lovelace proposed that a missile turret be developed. This would allow missiles to be fired directly at their target, removing the need for missiles to make wide turns and waste much of their fuel and artificially increasing their targeting capabilities."
-	
+
+
 outfit "Particle Repeater"
 	category "Secondary Weapons"
 	cost 37500
@@ -616,14 +600,25 @@ outfit "Particle Repeater"
 		"piercing" 0.1
 		"cluster"
 	description ""
-	
+
 outfit "Repeater Slug"
 	category "Ammunition"
 	thumbnail "outfit/prepeater ammo"
 	cost 25
 	mass 0.01
 	"repeater capacity" -1
-	
+
+outfit "Repeater Slug Cap-Up"
+	category "Ammunition"
+	cost 5000
+	thumbnail "outfit/prepeater cap"
+	"mass" 1.5
+	"outfit space" -3
+	"repeater capacity" 150
+	description "The Repeater Slug Capacity Upgrader will increase the amount of secondary ammo you can carry for your Particle Repeater."
+
+
+
 outfit "Particle Blaster"
 	category "Secondary Weapons"
 	cost 37500
@@ -658,7 +653,7 @@ outfit "Particle Blaster"
 		"piercing" 0.166
 		"missile strength" 5
 	description ""
-	
+
 outfit "Blaster Slug"
 	category "Ammunition"
 	thumbnail "outfit/pblaster ammo"
@@ -666,71 +661,17 @@ outfit "Blaster Slug"
 	mass 0.02
 	"blaster capacity" -1
 
-outfit "Plasmathrower"
-	category "Secondary Weapons"
-	cost 850000
-	thumbnail "outfit/plasmathrower"
-	"mass" 9
-	"outfit space" -9
-	"weapon capacity" -9
-	"gun ports" -1
-	weapon
-		sprite "effect/explosion/plasma/small"
-			"frame rate" 60
-			"no repeat"
-		sound "flamethrower"
-		icon "icon/plasmathrower"
-		"submunition" "Plasmathrower Projectile"
-		"inaccuracy" 12
-		"velocity" 9
-		"lifetime" 5
-		"reload" 1
-		"firing energy" 3.5
-		"firing fuel" .5
-		"firing heat" 2.5
-	description "The Plasmathrower seeks to reinvent the Flamethrower in a more modern context. By using plasma instead of flames, much more heat is produced and the intrinsic properties of plasma also allow the Plasmathrower to inflict a decent amount of ion damage on the targeted ship."
+outfit "Blaster Slug Cap-Up"
+	category "Ammunition"
+	cost 5000
+	thumbnail "outfit/pblaster cap"
+	"mass" 2
+	"outfit space" -4
+	"blaster capacity" 100
+	description "The Blaster Slug Capacity Upgrader will increase the amount of secondary ammo you can carry for your Particle Blaster."
 
-outfit "Plasmathrower Projectile"
-	weapon
-		sprite "projectile/plasmathrower"
-			"frame rate" 60
-		sound "plasma"
-		"hit effect" "plasmathrower hit"
-		"die effect" "plasmathrower die"
-		"inaccuracy" 20
-		"lifetime" 22
-		"shield damage" 1.2
-		"hull damage" 0.9
-		"ion damage" 0.2
-		"heat damage" 300
-	
-outfit "Repair Turret"
-	category "Turrets"
-	cost 500000
-	thumbnail "outfit/repair turret"
-	"mass" 40
-	"outfit space" -50
-	"weapon capacity" -50
-	"turret mounts" -1
-	"required crew" 1
-	"nanite capacity" 1000
-	weapon
-		sprite "projectile/pulse"
-		sound "heavy laser"
-		"hit effect" "heavy laser impact"
-		"ammo" Nanites
-		icon "icon/nanites"
-		"inaccuracy" .4
-		"velocity" 12.5
-		"lifetime" 32
-		"reload" 1
-		"firing energy" 9.4
-		"firing heat" 4.4
-		"shield damage" 0
-		"hull damage" -5
-		"piercing" 1
-	description `Along with the development of the Energy Turret, Deep Sky also created the Repair Turret. This turret takes advantage of nanites used to repair the hull of a ship and fires them through space using new "slow laser" technology. The slow laser carries the nanites to their target where they begin to work away reparing the hull of the ship that they land on.`
-	
+
+
 outfit "Reverse Engineered Skylance"
 	category "Turrets"
 	cost 25000000
@@ -757,14 +698,8 @@ outfit "Reverse Engineered Skylance"
 	description "After disabling and looting about four Quarg spaceships, the Quarg started to hate Enigma Corp. So the Corporation's solution? Reverse engineer some of the stuff they stole!"
 	description "This reverse engineered Skylance is almost like a noraml Quarg Skylance, but a little worse. This version does slightly less damage, generates much more heat, and takes even more energy to fire."
 	description "Brought to you by the Enigma Corporation."
-	
-outfit "Nanites"
-	category "Ammunition"
-	cost 250
-	thumbnail "outfit/nanites"
-	"mass" .01
-	"nanite capacity" -1
-	description "Nanites are small robotic machines used to repair the hull of a ship."
+
+
 
 outfit "Seeker Laser"
 	category "Guns"
@@ -794,6 +729,8 @@ outfit "Seeker Laser"
 	description "The Seeker Laser is said to be made from similar technology to the Cryo Beam. No one knows exactly how it works, but the outcome is incredible. The weapon acts like a normal laser, but fires the lasers in burst instead of in a constant stream. This results in multiple sections that are indepedant from eachother. These mini laser sections then somehow seek their target, moving at speeds so fast that they are nearly impossible to dodge."
 	description "Brought to you by the Enigma Corporation."
 
+
+
 outfit "Shrapnel Cannon"
 	category "Secondary Weapons"
 	cost 235000
@@ -813,14 +750,14 @@ outfit "Shrapnel Cannon"
 		"firing heat" 500
 		"submunition" "shrapnel pellets" 16
 		"submunition" "shrapnel" 16
-		"submunition" "tracer (250)" 1
+		"submunition" "tracer (200)" 1
 	description `When someone at the Enigma Corporation was given thirty seconds to come up with an idea for a new weapon, they immediately blurted out "Big space shotgun!" The Shrapnel Cannon is just that. The large shrapnel shells fired from this weapon explode upon reaching the end of the barrel, firing out sixteen super-heated pellets. This allows for considerable amounts of damage to be dealt up close, but makes the weapon almost completely useless at range.`
 	description "Brought to you by the Enigma Corporation."
-	
-outfit "tracer (250)"
+
+outfit "tracer (200)"
 	weapon
-		"lifetime" 250
-	description "Tracers are used to artificially increase the range of certain weapons so that the AI is able to use them properly. This tracer increases the range to 250."
+		"lifetime" 200
+	description "Tracers are used to artificially increase the range of certain weapons so that the AI is able to use them properly. This tracer increases the range to 200."
 
 outfit "shrapnel"
 	weapon
@@ -852,6 +789,16 @@ outfit "Shrapnel Canister"
 	"canister capacity" -1
 	description "Shrapnel Canisters are ammunition for the Shrapnel Cannon and each hold sixteen super-heated pellets."
 	description "Brought to you by the Enigma Corporation."
+
+outfit "Shrapnel Can Cap-Up"
+	category "Ammunition"
+	cost 50000
+	thumbnail "outfit/canister cap"
+	"mass" 5
+	"outfit space" -10
+	"canister capacity" 50
+	description "The Shrapnel Canister Capacity Upgrader will increase the amount of secondary ammo you can carry for your Shrapnel Cannon."
+
 
 
 outfit "Thermite Mine Placer"
@@ -890,7 +837,7 @@ outfit "Thermite Mine Placer"
 		"missile strength" 1000
 	description "The Thermite Mine Placer, along with the other two mine placer weapons developed by Enigma Corp, seeks to open up a corner of the weapons market that has yet to be touched. Using the Thermite Torpedo as a base, this mine placer deploys an explosive mine that detonates upon coming in close proximity to an enemy ship and deals massive amounts of heat damage."
 	description "Brought to you by the Enigma Corporation."
-	
+
 outfit "Thermite Mine"
 	category "Ammunition"
 	cost 10000
@@ -899,51 +846,17 @@ outfit "Thermite Mine"
 	"thermite mine capacity" -1
 	description "The Thermite Mine is a Thermite Torepdo that has had its thrusters removed and replaced with more thermite explosives; used as ammunition for the Thermite Mine Placer."
 	description "Brought to you by the Enigma Corporation."
-	
-outfit "Thermite Torpedo Launcher"
-	category "Secondary Weapons"
-	cost 260000
-	thumbnail "outfit/thermite torpedo launcher"
-	"mass" 20
-	"outfit space" -35
-	"weapon capacity" -35
-	"gun ports" -1
-	"thermite torpedo capacity" 30
-	weapon
-		sprite "projectile/thermitetorpedo"
-			"frame rate" 4
-			"random start frame"
-		sound "typhoon"
-		ammo "Thermite Torpedo"
-		icon "icon/heat torp"
-		"fire effect" "typhoon fire"
-		"hit effect" "big explosion"
-		"die effect" "tiny explosion"
-		"inaccuracy" 5
-		"velocity" 5
-		"lifetime" 600
-		"reload" 100
-		"firing energy" 4
-		"firing heat" 50
-		"acceleration" .5
-		"drag" .1
-		"turn" 6
-		"homing" 4
-		"optical tracking" .9
-		"shield damage" 50
-		"hull damage" 250
-		"heat damage" 1000
-		"hit force" 70
-		"missile strength" 30
-	description "After the release of the Flamethrower, many in the south were hungry for more weapons that would overheat the many pirates that they had to fight off. As a result, engineers on Rust began experimenting with using iron thermite to generate the heat needed to overheat a ship. This thermite was loaded in to torpedos, creating the Thermite Torpedo and its respective launcher."
-	
-outfit "Thermite Torpedo"
+
+outfit "Thermite Mine Cap-Up"
 	category "Ammunition"
-	cost 2700
-	thumbnail "outfit/thermite torpedo"
-	"mass" .5
-	"thermite torpedo capacity" -1
-	description "Thermite Torpedos are ammunition for the Thermite Torpedo Launcher."
+	cost 50000
+	thumbnail "outfit/t mine cap"
+	"mass" 2.5
+	"outfit space" -10
+	"thermite mine capacity" 5
+	description "The Thermite Mine Capacity Upgrader will increase the amount of secondary ammo you can carry for your Thermite Mine Place."
+
+
 
 outfit "Typhoon Mine Placer"
 	category "Secondary Weapons"
@@ -989,43 +902,17 @@ outfit "Typhoon Mine"
 	"mine capacity" -1
 	description "The Typhoon Mine is a Typhoon Torepdo that has had its thrusters removed and replaced with more explosives; used as ammunition for the Typhoon Mine Placer."
 	description "Brought to you by the Enigma Corporation."
-	
-outfit "Warp Inhibitor"
-	category "Turrets"
-	cost 0
-	thumbnail "outfit/known"
-	"mass" 100
-	"outfit space" -100
-	"weapon capacity" -100
-	"turret mounts" -1
-	"dark matter capacity" 6000
-	weapon
-		sound "skylance"
-		ammo "Dark Matter"
-		icon "icon/dark matter"
-		"inaccuracy" .1
-		"velocity" 10
-		"lifetime" 10
-		"split range" 50
-		"reload" 1
-		"firing energy" 0
-		"firing heat" 0
-		"firing force" -10
-		"submunition" "inhibitor" 1
 
-outfit "inhibitor"
-	weapon
-		"lifetime" 5000
-		"blast radius" 5000
-		"trigger radius" 5000
-		"hit force" 10
-
-outfit "Dark Matter"
+outfit "Typhoon Mine Cap-Up"
 	category "Ammunition"
-	cost 0
-	thumbnail "outfit/known"
-	"mass" 0.5
-	"dark matter capacity" -1
+	cost 50000
+	thumbnail "outfit/e mine cap"
+	"mass" 2.5
+	"outfit space" -10
+	"mine capacity" 5
+	description "The Typhoon Mine Capacity Upgrader will increase the amount of secondary ammo you can carry for your Typhoon Mine Placer."
+
+
 
 outfit "Wolf Bomb Bay"
 	category "Secondary Weapons"
@@ -1074,3 +961,392 @@ outfit "Wolf Bomb"
 	"wolf bomb capacity" -1
 	description "Wolf Bombs are ammunition for the Wolf Bomb Bay."
 	description "Brought to you by the Enigma Corporation."
+#
+
+
+
+# Weapons by other manufacturers
+outfit "Energy Turret"
+	category "Turrets"
+	cost 500000
+	thumbnail "outfit/energy transfer"
+	"mass" 50
+	"outfit space" -50
+	"weapon capacity" -50
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/repair laser"
+			"frame rate" 1
+		sound "heavy laser"
+		"hit effect" "heavy laser impact"
+		icon "icon/nanites"
+		"inaccuracy" .4
+		"velocity" 400
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 10
+		"firing heat" 5
+		"shield damage" 0
+		"hull damage" 0
+		"ion damage" -.25
+	description "The Energy Turret is a new development from the Deep that works to reverse the effects that ion weapons have on ships. Firing a beam of electric energy, any ship that is hit by the beam has their batteries quickly charged, making the Energy Turret especially helpful on support ships to assist front line ships in keeping their energy reserves topped off."
+
+
+
+outfit "Flux Torpedo Launcher"
+	category "Secondary Weapons"
+	cost 260000
+	thumbnail "outfit/flux torpedo launcher"
+	"mass" 20
+	"outfit space" -35
+	"weapon capacity" -35
+	"gun ports" -1
+	"flux torpedo capacity" 30
+	weapon
+		sprite "projectile/fluxtorpedo"
+			"frame rate" 4
+			"random start frame"
+		sound "typhoon"
+		ammo "Flux Torpedo"
+		icon "icon/ion torp"
+		"fire effect" "typhoon fire"
+		"hit effect" "iontorpedoexplosion"
+		"die effect" "tiny explosion"
+		"inaccuracy" 5
+		"velocity" 5
+		"lifetime" 600
+		"reload" 100
+		"firing energy" 4
+		"firing heat" 50
+		"acceleration" .5
+		"drag" .1
+		"turn" 6
+		"homing" 4
+		"optical tracking" .9
+		"shield damage" 0
+		"hull damage" 0
+		"ion damage" 20
+		"hit force" 70
+		"missile strength" 30
+	description "The Flux Torpedo Launcher is an experiment from Syndicate to create an altered version of Deep Sky's Typhoon Launcher that, instead of damage it, disrupts the electrical systems of a ship, leaving them completely useless. This allows convoys of freighters to leave the system before they become too damage or for combat fleets to pummel their useless enemies into submission."
+
+outfit "Flux Torpedo"
+	category "Ammunition"
+	cost 2700
+	thumbnail "outfit/flux torpedo"
+	"mass" .5
+	"flux torpedo capacity" -1
+	description "Flux Torpedos are ammunition for the Flux Torpedo Launcher."
+
+outfit "Flux Torpedo Cap-Up"
+	category "Ammunition"
+	cost 27000
+	thumbnail "outfit/flux torpedo cap"
+	"mass" 3
+	"outfit space" -8
+	"flux torpedo capacity" 10
+	description "The Flux Torpedo Capacity Upgrader will increase the amount of secondary ammo you can carry for your Flux Torpedo Launcher."
+
+
+
+outfit "Fuel Rod Launcher"
+	category "Secondary Weapons"
+	cost 785000
+	thumbnail "outfit/known"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"gun ports" -1
+	weapon
+		sprite "projectile/torpedo"
+		sound "torpedo"
+		icon "icon/flamethrower"
+		"hit effect" "big explosion"
+		"inaccuracy" 1
+		"velocity" 25
+		"lifetime" 125
+		"reload" 120
+		"firing energy" 275
+		"firing heat" 500
+		"firing fuel" 25
+		"acceleration" 1
+		"drag" .1
+		"turn" 3
+		"homing" 2
+		"optical tracking" 0.9
+		"hit force" 1000
+		"shield damage" 250
+		"hull damage" 1000
+		"heat damage" 2500
+		"missile strength" 100
+	description "The Fuel Rod Launcher is as simple as it sounds. The weapon fills hollow rods full of your hyperspace fuel and launches them at your foes. The rod is specially designed to shatter upon impact and ignite the fuel, causing a large heat explosion."
+
+
+
+outfit "Modified Proton Gun"
+	category "Secondary Weapons"
+	cost 32000
+	thumbnail "outfit/proton gun"
+	"mass" 5
+	"outfit space" -8
+	"weapon capacity" -8
+	"gun ports" -1
+	"capacitor capacity" 500
+	weapon
+		sprite "projectile/proton"
+		ammo "Proton Capacitor"
+		icon "icon/"
+		sound "proton"
+		"hit effect" "proton impact" 3
+		"inaccuracy" 4
+		"submunition" "Modified Proton Fragment" 10
+		"velocity" 10
+		"lifetime" 1
+		"reload" 8
+		"firing energy" 7
+		"firing force" 1
+		"firing heat" 35
+	description "Although some at the Syndicate saw the Proton Gun's inability to produce a coherent beam a fatal flaw in its design, others saw it as a perfect opportunity to produce a small yet powerful anti-capital ship weapon. By increasing the total amount of current that is run through the coils of the gun, a more powerful beam is produced. This however causes the beam to be even more incoherent, reducing its accuracy and range, but also increasing its total potential damage."
+	description "The first iteration of the weapon was found to be rather useless on larger ships as they had trouble getting close enough to use the weapon, so the Syndicate decided to scale the weapon done and market it as a fighter or interceptor weapon instead."
+
+outfit "Modified Proton Fragment"
+	weapon
+		sprite "projectile/proton fragment"
+			"no repeat"
+			"frame rate" 2
+		"hit effect" "proton impact"
+		"inaccuracy" 21
+		"lifetime" 15
+		"hit force" 6
+		"shield damage" 1.8
+		"hull damage" 1.5
+
+outfit "Proton Capacitor"
+	category "Ammunition"
+	cost 50
+	thumbnail "outfit/supercapacitor"
+	mass 0.006
+	"capacitor capacity" -1
+	description "Proton Capacitors are ammunition used for Modified Proton Guns. Due to the amount of ampage that must be reached in order to make a Modified Proton Gun work, one must use specially built capacitors (that burn out after each use) in order to make the weapon function."
+
+outfit "Proton Cap-Up"
+	category "Ammunition"
+	cost 12500
+	thumbnail "outfit/capacitor cap"
+	"mass" 1.5
+	"outfit space" -3
+	"capacitor capacity" 250
+	description "The Proton Capacity Upgrader will increase the amount of secondary ammo you can carry for your Modified Proton Gun."
+
+
+
+outfit "Sidewinder Missile Turret"
+	category "Turrets"
+	cost 75000
+	thumbnail "outfit/sidewinder launcher"
+	"mass" 9
+	"outfit space" -18
+	"weapon capacity" -18
+	"turret mounts" -1
+	"required crew" 1
+	"sidewinder capacity" 50
+	weapon
+		sprite "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		ammo "Sidewinder Missile"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "medium explosion"
+		"inaccuracy" 4
+		"velocity" 12
+		"lifetime" 600
+		"reload" 40
+		"firing energy" 1
+		"firing heat" 15
+		"acceleration" 1.2
+		"drag" .1
+		"turn" 3
+		"homing" 4
+		"radar tracking" 0.9
+		"shield damage" 80
+		"hull damage" 60
+		"hit force" 25
+		"missile strength" 12
+	description "Another development from Lovelace Labs, the Sidewinder Missile Turret is the next step in missile technology. It was becoming increasingly difficult to design missiles with better homing and turning capabilities, so one of the engineers at Lovelace proposed that a missile turret be developed. This would allow missiles to be fired directly at their target, removing the need for missiles to make wide turns and waste much of their fuel and artificially increasing their targeting capabilities."
+
+
+
+outfit "Plasmathrower"
+	category "Secondary Weapons"
+	cost 850000
+	thumbnail "outfit/plasmathrower"
+	"mass" 9
+	"outfit space" -9
+	"weapon capacity" -9
+	"gun ports" -1
+	weapon
+		sprite "effect/explosion/plasma/small"
+			"frame rate" 60
+			"no repeat"
+		sound "flamethrower"
+		icon "icon/plasmathrower"
+		"submunition" "Plasmathrower Projectile"
+		"inaccuracy" 12
+		"velocity" 9
+		"lifetime" 5
+		"reload" 1
+		"firing energy" 3.5
+		"firing fuel" .5
+		"firing heat" 2.5
+	description "The Plasmathrower seeks to reinvent the Flamethrower in a more modern context. By using plasma instead of flames, much more heat is produced and the intrinsic properties of plasma also allow the Plasmathrower to inflict a decent amount of ion damage on the targeted ship."
+
+outfit "Plasmathrower Projectile"
+	weapon
+		sprite "projectile/plasmathrower"
+			"frame rate" 60
+		sound "plasma"
+		"hit effect" "plasmathrower hit"
+		"die effect" "plasmathrower die"
+		"inaccuracy" 20
+		"lifetime" 22
+		"shield damage" 1.2
+		"hull damage" 0.9
+		"ion damage" 0.2
+		"heat damage" 300
+
+
+
+outfit "Repair Turret"
+	category "Turrets"
+	cost 500000
+	thumbnail "outfit/repair turret"
+	"mass" 40
+	"outfit space" -50
+	"weapon capacity" -50
+	"turret mounts" -1
+	"required crew" 1
+	"nanite capacity" 1000
+	weapon
+		sprite "projectile/pulse"
+		sound "heavy laser"
+		"hit effect" "heavy laser impact"
+		"ammo" Nanites
+		icon "icon/nanites"
+		"inaccuracy" .4
+		"velocity" 12.5
+		"lifetime" 32
+		"reload" 1
+		"firing energy" 9.4
+		"firing heat" 4.4
+		"shield damage" 0
+		"hull damage" -5
+		"piercing" 1
+	description `Along with the development of the Energy Turret, Deep Sky also created the Repair Turret. This turret takes advantage of nanites used to repair the hull of a ship and fires them through space using new "slow laser" technology. The slow laser carries the nanites to their target where they begin to work away reparing the hull of the ship that they land on.`
+
+outfit "Nanites"
+	category "Ammunition"
+	cost 250
+	thumbnail "outfit/nanites"
+	"mass" .01
+	"nanite capacity" -1
+	description "Nanites are small robotic machines used to repair the hull of a ship."
+
+
+
+outfit "Thermite Torpedo Launcher"
+	category "Secondary Weapons"
+	cost 260000
+	thumbnail "outfit/thermite torpedo launcher"
+	"mass" 20
+	"outfit space" -35
+	"weapon capacity" -35
+	"gun ports" -1
+	"thermite torpedo capacity" 30
+	weapon
+		sprite "projectile/thermitetorpedo"
+			"frame rate" 4
+			"random start frame"
+		sound "typhoon"
+		ammo "Thermite Torpedo"
+		icon "icon/heat torp"
+		"fire effect" "typhoon fire"
+		"hit effect" "big explosion"
+		"die effect" "tiny explosion"
+		"inaccuracy" 5
+		"velocity" 5
+		"lifetime" 600
+		"reload" 100
+		"firing energy" 4
+		"firing heat" 50
+		"acceleration" .5
+		"drag" .1
+		"turn" 6
+		"homing" 4
+		"optical tracking" .9
+		"shield damage" 50
+		"hull damage" 250
+		"heat damage" 1000
+		"hit force" 70
+		"missile strength" 30
+	description "After the release of the Flamethrower, many in the south were hungry for more weapons that would overheat the many pirates that they had to fight off. As a result, engineers on Rust began experimenting with using iron thermite to generate the heat needed to overheat a ship. This thermite was loaded in to torpedos, creating the Thermite Torpedo and its respective launcher."
+
+outfit "Thermite Torpedo"
+	category "Ammunition"
+	cost 2700
+	thumbnail "outfit/thermite torpedo"
+	"mass" .5
+	"thermite torpedo capacity" -1
+	description "Thermite Torpedos are ammunition for the Thermite Torpedo Launcher."
+
+outfit "Thermite Torpedo Cap-Up"
+	category "Ammunition"
+	cost 27000
+	thumbnail "outfit/thermite torpedo cap"
+	"mass" 3
+	"outfit space" -8
+	"thermite torpedo capacity" 10
+	description "The Thermite Torpedo Capacity Upgrader will increase the amount of secondary ammo you can carry for your Thermite Torpedo Launcher."
+
+
+
+outfit "Warp Inhibitor"
+	category "Turrets"
+	cost 0
+	thumbnail "outfit/known"
+	"mass" 100
+	"outfit space" -100
+	"weapon capacity" -100
+	"turret mounts" -1
+	"dark matter capacity" 6000
+	weapon
+		sound "skylance"
+		ammo "Dark Matter"
+		icon "icon/dark matter"
+		"inaccuracy" .1
+		"velocity" 10
+		"lifetime" 10
+		"split range" 50
+		"reload" 1
+		"firing energy" 0
+		"firing heat" 0
+		"firing force" -10
+		"submunition" "inhibitor" 1
+
+outfit "inhibitor"
+	weapon
+		"lifetime" 5000
+		"blast radius" 5000
+		"trigger radius" 5000
+		"hit force" 10
+
+outfit "Dark Matter"
+	category "Ammunition"
+	cost 0
+	thumbnail "outfit/known"
+	"mass" 0.5
+	"dark matter capacity" -1
+#
