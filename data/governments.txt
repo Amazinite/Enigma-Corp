@@ -13,16 +13,13 @@ government "Enigma Corp"
 	swizzle 3
 	"player reputation" 10
 	"attitude toward"
-		"Korath" -.1
+		"Outer Ring Mining" .1
+		"Deep Sky" .1 # For Shields Up
+		"Syndicate" .1
+		"Merchant" .1
+		"Hai (Unfettered)" .1
 		"Pug" -.1
 		"Quarg" -.1
-		"Hai" -.1
-		"Wanderer" -.1
-		"Hai (Unfettered)" .1
-		"Independant" .1
-		"Syndicate" .1
-		"Deep Sky" .1
-		"Outer Ring Mining" .1
 	"bribe" .05
 	"fine" 0
 	"friendly hail" "friendly civilian"
@@ -80,3 +77,12 @@ government "Forsaken Ones"
 	"attitude toward"
 		"Quarg" -.1
 		"Drak" -.1
+		"Outer Rim Mining" -.1
+		"Wanderer" -.1
+
+government "Forgotten Ones"
+	color .33 .33 .66
+	swizzle 0
+	"player reputation" 10
+	"attitude toward"
+		"Forsaken Ones" -.1
