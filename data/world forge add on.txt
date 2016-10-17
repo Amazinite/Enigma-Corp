@@ -258,9 +258,9 @@ shipyard "Andromedan"
 	"Artillery Battleship"
 
 shipyard "EC Hai"
-	"Hai Heavy Droneship"
-	"Hai Light Droneship"
-	"Hai Medium Warship"
+	"Rhino Beetle"
+	"Weevil"
+	"Praying Mantis"
 	
 shipyard "Enigma Corp"
 	"EC-001 'Badger'"

@@ -1,4 +1,4 @@
-ship "Hai Medium Warship"
+ship "Praying Mantis"
 	sprite "ship/hai med warship"
 	attributes
 		category "Medium Warship"
@@ -56,7 +56,7 @@ ship "Hai Medium Warship"
 	"final explode" "final explosion medium"
 	description "Unfettered medium warship. Can carry 2 fighters. Fitted with Large Radar Jammers that the Alphas provided as countermeasures for the Wanderer's infrared and radar tracking Thunderhead missiles in lue of using anti missile turrets."
 
-ship "Hai Light Droneship"
+ship "Weevil"
 	sprite "ship/hai light droneship"
 	attributes
 		category "Light Warship"
@@ -106,7 +106,7 @@ ship "Hai Light Droneship"
 	"final explode" "final explosion small"
 	description "Hai light warship. Carries 4 drones. Only two gun hardpoints, relying mainly on its drones for fire power."
 
-ship "Hai Heavy Droneship"
+ship "Rhino Beetle"
 	sprite "ship/hai droneship"
 	attributes
 		category "Heavy Warship"
