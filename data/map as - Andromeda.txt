@@ -15,14 +15,14 @@ galaxy "Andromeda"
 system "Sagittarius A*"
 	pos 100 20
 	habitable 0
-	fleet "Scouting Fleet" 100000
+#	fleet "Scouting Fleet" 100000
 	object
 		sprite star/blackhole
 		period 10
-	object "Wormhole Andromeda"
-		sprite planet/wormhole
-		distance 5000
-		period 4000
+#	object "Wormhole Andromeda"
+#		sprite planet/wormhole
+#		distance 5000
+#		period 4000
 
 ###
 system "Andromeda"
