@@ -1,5 +1,5 @@
 ship "Praying Mantis"
-	sprite "ship/hai med warship"
+	sprite "ship/hai praying mantis"
 	attributes
 		category "Medium Warship"
 		"cost" 10250000
@@ -57,7 +57,7 @@ ship "Praying Mantis"
 	description "Unfettered medium warship. Can carry 2 fighters. Fitted with Large Radar Jammers that the Alphas provided as countermeasures for the Wanderer's infrared and radar tracking Thunderhead missiles in lue of using anti missile turrets."
 
 ship "Weevil"
-	sprite "ship/hai light droneship"
+	sprite "ship/hai weevil"
 	attributes
 		category "Light Warship"
 		"cost" 4750000
@@ -107,7 +107,7 @@ ship "Weevil"
 	description "Hai light warship. Carries 4 drones. Only two gun hardpoints, relying mainly on its drones for fire power."
 
 ship "Rhino Beetle"
-	sprite "ship/hai droneship"
+	sprite "ship/hai rhino beetle"
 	attributes
 		category "Heavy Warship"
 		"cost" 14900000
