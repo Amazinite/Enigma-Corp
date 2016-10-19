@@ -9,7 +9,7 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 ship "Planet Razer"
-	sprite "ship/blue warship"
+	sprite "ship/world-ship a"
 	"uncapturable"
 	attributes
 		category "Heavy Warship"
@@ -52,7 +52,7 @@ ship "Planet Razer"
 	"final explode" "final explosion large"
 
 ship "Artillery Battleship"
-	sprite "ship/blue battleship"
+	sprite "ship/kar ik vot 349"
 	"uncapturable"
 	attributes
 		category "Heavy Warship"
@@ -97,7 +97,7 @@ ship "Artillery Battleship"
 	"final explode" "final explosion large"
 
 ship "Gun Carrier"
-	sprite "ship/blue gun carrier"
+	sprite "ship/tek far 109"
 	"uncapturable"
 	attributes
 		category "Medium Warship"
@@ -146,7 +146,7 @@ ship "Gun Carrier"
 	"final explode" "final explosion large"
 
 ship "Combat Hauler"
-	sprite "ship/blue hauler"
+	sprite "ship/met par tek 53"
 	"uncapturable"
 	attributes
 		category "Heavy Freighter"
