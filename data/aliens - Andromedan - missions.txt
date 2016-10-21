@@ -18,7 +18,7 @@ mission "Andromedan Intro"
 			`As you land your ship, you notice a rather large crowd in the middle of the spaceport. You walk over to try and see what is going on. As you make your way through the crowd, you begin to hear what sounds like an old man screaming.`
 			`	"THEY ARE COMING! THE END TIMES ARE NIGH!"`
 			`	You finally get to the center of the crowd to see a greasy old man in rags, covered in god knows what.`
-			`	"JUDGMENT DAY IS UPON US ALL!" He continues you yell while spazzing out on the concrete. `
+			`	"JUDGMENT DAY IS UPON US ALL!" He continues yelling while spazzing out on the concrete. `
 			choice
 				`	(Ask the old man what he's screaming about.)`
 					goto ask
