@@ -75,26 +75,6 @@ outfit "FP340c Atomic Battery"
 	"energy capacity" 33500
 	description "Atomic batteries are a relatively recent invention from Deep Sky. They are built perfectly at the atomic level, making them much more efficient than normal batteries, carrying 50% more charge in the same amount of space."
 
-outfit "Fuel Powered Generator"
-	category "Power"
-	cost 3675000
-	thumbnail "outfit/known"
-	"mass" 70
-	"outfit space" -70
-	"gun ports" -1
-	weapon
-		sprite "effect/afterburner"
-		sound "flamethrower"
-		icon "icon/flamethrower"
-		"velocity" 1
-		"lifetime" 5
-		"reload" 1
-		"firing energy" -15
-		"firing heat" 83.333
-		"firing fuel" .1
-	description "For when you’re in the heat of battle and need some extra energy, say hello to the Fuel Powered Generator. Fire this thing up in the middle of battle to convert your hyperspace fuel into useable energy. Especially useful for those with a lot of fuel but not much space for batteries or reactors."
-	description "Due to the massive amounts of heat generated when in use, the generator requires the use of one of your ship's gun ports to be used as an exhaust port to let out all the heat."
-
 outfit "Heat Sinks"
 	category "Systems"
 	cost 7500
