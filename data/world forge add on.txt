@@ -77,7 +77,6 @@ outfitter "EC Misc"
 	"Blaster Slug Cap-Up"
 	"Proton Cap-Up"
 	"Incendiary Grenades"
-	"Plasma Rifle"
 	"Rail Rifle"
 	"Plasma Deflector"
 	"Personal Shield Generator"
@@ -113,6 +112,7 @@ outfitter "EC Misc"
 	"Thermite Torpedo"
 	"Warp Inhibitor"
 	"Dark Matter"
+	"Laser SMG"
 	
 outfitter "EC Korath"
 	"Korath Dual Slicer Turret"
@@ -277,6 +277,7 @@ outfitter deprecated
 	"Red Star Core"
 	"Blackhole Reactor"
 	"Heat Sinks"
+	"Plasma Rifle"
 
 planet Mods
 	shipyard "Enigma Corp"

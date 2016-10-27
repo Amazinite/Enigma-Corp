@@ -8,6 +8,15 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+outfit "Plasma Rifle"
+	category "Hand to Hand"
+	"cost" 18000
+	thumbnail "outfit/plasma rifle"
+	"capture attack" 0.8
+	"capture defense" 1.2
+	"unplunderable" 1
+	description "A plasma rifle is the direct upgrade to a laser rifle, providing both more offensive and defensive power to your crew. Instead of firing a beam of high-powered light, a plasma rifle fires a small burst of plasma. This burst, although traveling at slower speeds, has much more stopping power compared to that of a laser and without the proper protective material can leave severe burns on the target."
+
 outfit "Heavy Water Coolant System"
 	category "Systems"
 	cost 50000

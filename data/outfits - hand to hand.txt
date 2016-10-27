@@ -18,14 +18,14 @@ outfit "Incendiary Grenades"
 	"illegal" 1000000
 	description "As with chemical weapons, incendiary weaponry for use on organic beings in prohibited by interstellar law. Incendiary grenades are considered just as illegal as nerve gas, but back a much bigger punch when used offensively. Although, do to their nature they actually harm you when used defensively. It turns out that burning your own ship from the inside is never a good idea."
 
-outfit "Plasma Rifle"
+outfit "Laser SMG"
 	category "Hand to Hand"
-	"cost" 18000
-	thumbnail "outfit/plasma rifle"
-	"capture attack" 0.8
+	"cost" 9500
+	thumbnail "outfit/laser smg"
+	"capture attack" 0.75
 	"capture defense" 1.2
 	"unplunderable" 1
-	description "A plasma rifle is the direct upgrade to a laser rifle, providing both more offensive and defensive power to your crew. Instead of firing a beam of high-powered light, a plasma rifle fires a small burst of plasma. This burst, although traveling at slower speeds, has much more stopping power compared to that of a laser and without the proper protective material can leave severe burns on the target."
+	description "The laser SMG is a more compact and lightweight version of the popular laser rifle. Although it has a lesser stopping power than it's bigger brother, its decreased size allows it to be held closer to the body, increasing overall combat effectiveness."
 
 outfit "Rail Rifle"
 	category "Hand to Hand"
