@@ -27,11 +27,9 @@ outfitter "Hai Basics"
 
 outfitter "Hai Intermediate"
 	"Hai Tracker Cap-Up"
-	"Railgun Cap-Up"
 
 outfitter "Hai Advanced"
 	"Hai Tracker Cap-Up"
-	"Railgun Cap-Up"
 
 outfitter "Korath Basics"
 	"Korath Piercer Cap-Up"
