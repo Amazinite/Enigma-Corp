@@ -4972,6 +4972,9 @@ system Kochab
 		distance 2419.01
 		period 2660.37
 
+system "Kor Ak'Mari"
+	pos 43 35
+
 system "Kor En'lakfar"
 	object
 		sprite "star (animated)/g0"
