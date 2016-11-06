@@ -20,3 +20,6 @@
 	"star (animated)/m0"
 	"star (animated)/m4"
 	"star (animated)/m8"
+	"star (animated)/blue giant"
+	"star (animated)/red giant"
+	"star (animated)/neutron"
