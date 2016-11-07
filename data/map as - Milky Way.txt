@@ -295,7 +295,7 @@ system "Tua Alpha"
 system END-00
 	pos 1209 -1168
 	government "Outer Rim Mining"
-	habitable 625
+	habitable 6250
 	belt 3000
 	link OMA-12
 	asteroids "small rock" 3 1.5675
@@ -309,11 +309,11 @@ system END-00
 	minables uranium 10 11.5135
 	fleet "ORM" 3000
 	object
-		sprite "star (animated)/g5"
-			"frame rate" 0.5v
+		sprite "star (animated)/blue giant"
+			"frame rate" 0.5
 		period 10
 	object
-		sprite planet/cloud8
+		sprite planet/lava5
 		distance 219.24
 		period 51.9397
 	object
@@ -994,7 +994,7 @@ system PBD-09
 	minables uranium 3 5.7231
 	fleet "ORM" 1000
 	object
-		sprite "star (animated)/g5"
+		sprite "star (animated)/brown dwarf"
 			"frame rate" 0.5
 		period 10
 	object
@@ -1304,11 +1304,16 @@ system TYU-16
 	minables gold 7 4.8125
 	fleet "ORM" 1000
 	object
-		sprite "star (animated)/k5"
+		sprite "star (animated)/m8"
 			"frame rate" 0.5
 		period 10
+		object
+			sprite "star (animated)/brown dwarf"
+				"frame rate" 0.5
+			distance 50
+			period 20
 	object
-		sprite planet/gas6
+		sprite planet/rock1
 		distance 377.36
 		period 142.079
 	object
@@ -1394,6 +1399,7 @@ system "Karuht'aryet"
 	minables silicon 24 4.6178
 	minables tungsten 15 4.7125
 	minables uranium 9 4.8124
+	fleet "Radiation Large" 100
 	object
 		sprite "star (animated)/k5"
 			"frame rate" 0.5
@@ -1511,16 +1517,17 @@ system "Karuht'yet"
 system "Karuht'umayet"
 	pos 262 -892
 	government "Forsaken Ones"
-	habitable 233
+	habitable 10000
 	belt 500
 	link "Karuht'quyet"
 	asteroids "medium rock" 163 0.845
 	minables lead 25 3.1515
 	minables silver 12 3.2631
 	minables uranium 9 3.3865
+	fleet "Radiation Large" 100
 	object
-		sprite "star (animated)/m4"
-			"frame rate" 0.5
+		sprite "star (animated)/neutron"
+			"frame rate" 60
 		period 10
 	object
 		sprite planet/desert9
@@ -1567,6 +1574,7 @@ system "Karuht'duyet"
 	minables lead 30 2.9241
 	minables neodynium 14 3.1527
 	minables uranium 9 3.2526
+	fleet "Radiation Small" 2000
 	object
 		sprite "star (animated)/g0"
 			"frame rate" 0.5
@@ -1652,6 +1660,7 @@ system "Karuht'quyet"
 	minables copper 32 3.9132
 	minables titanium 12 4.1616
 	minables uranium 9 4.2142
+	fleet "Radiation Large" 100
 	object
 		sprite "star (animated)/m4"
 			"frame rate" 0.5
@@ -1698,6 +1707,7 @@ system "Karuht'enyet"
 	minables aluminum 24 5.5325
 	minables gold 9 5.7982
 	minables uranium 9 6.1245
+	fleet "Radiation Large" 100
 	object
 		sprite "star (animated)/k5"
 			"frame rate" 0.5
@@ -2069,6 +2079,7 @@ system "Karuht'olyet"
 	minables silicon 24 5.7153
 	minables iron 14 5.8621
 	minables uranium 9 5.9323
+	fleet "Radiation Small" 2000
 	object
 		sprite "star (animated)/m0"
 			"frame rate" 0.5
