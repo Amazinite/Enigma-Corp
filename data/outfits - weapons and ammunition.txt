@@ -754,11 +754,6 @@ outfit "Shrapnel Cannon"
 	description `When someone at the Enigma Corporation was given thirty seconds to come up with an idea for a new weapon, they immediately blurted out "Big space shotgun!" The Shrapnel Cannon is just that. The large shrapnel shells fired from this weapon explode upon reaching the end of the barrel, firing out sixteen super-heated pellets. This allows for considerable amounts of damage to be dealt up close, but makes the weapon almost completely useless at range.`
 	description "Brought to you by the Enigma Corporation."
 
-outfit "tracer (200)"
-	weapon
-		"lifetime" 200
-	description "Tracers are used to artificially increase the range of certain weapons so that the AI is able to use them properly. This tracer increases the range to 200."
-
 outfit "shrapnel"
 	weapon
 		sprite "projectile/proton fragment"
