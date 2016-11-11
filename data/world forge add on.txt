@@ -266,6 +266,13 @@ shipyard "Enigma Corp"
 	"EC-078 'Dire Hawk'"
 	"EC-099 'Oblivion'"
 
+shipyard human
+	"Assault Cruiser"
+	"Battlecruiser"
+
+outfitter human
+	"Exotic Particle Cannon"
+
 outfitter deprecated
 	"Antimatter Steering"
 	"Antimatter Thruster"
