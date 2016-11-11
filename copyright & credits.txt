@@ -27,7 +27,9 @@ Files: images/*
 Copyright: Jonathan Steck
 License: CC-BY-SA-4.0
 
-Files: images/stars/*
+Files:
+ images/stars?(animated)/*
+ images/stars/*
 Copyright: Jonathan Steck
 License: CC-BY-SA-4.0
 Comment: Derived from works by Michael Zahniser (under the same license).
@@ -39,6 +41,7 @@ License: CC-BY-SA-4.0
 Files:
  images/effect/antimatter/*
  images/effect/explosion/*
+ images/effect/radiation*
  images/icon/*
  images/outfit/*
  images/projectile/*
@@ -68,10 +71,17 @@ Copyright: MillionthVector <http://millionthvector.blogspot.com/>
 License: CC-BY-SA-4.0
 
 Files:
- images/ship/hai?droneship*
- images/ship/hai?light?droneship*
- images/ship/hai?med?warship*
+ images/ship/hai?rhino?beetle*
+ images/ship/hai?weevil*
+ images/ship/hai?praying?mantis*
 Copyright: Matthew Smestad
+License: CC-BY-SA-4.0
+
+Files:
+ images/outfit/pcannon*
+ images/projectile/pcannon*
+ images/effect/pcannon?impact*
+Copyright: @Spiral03 <Steam user FallenCat http://steamcommunity.com/profiles/76561198138978292/>
 License: CC-BY-SA-4.0
 
 Files:
