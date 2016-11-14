@@ -273,6 +273,11 @@ shipyard human
 outfitter human
 	"Exotic Particle Cannon"
 
+outfitter wanderer
+	"Type 5 Radiant Thruster"
+	"Type 5 Radiant Steering"
+	"Type 0 Radiant Engines"
+
 outfitter deprecated
 	"Antimatter Steering"
 	"Antimatter Thruster"

@@ -111,3 +111,18 @@ event "Termini Wormhole"
 			sprite planet/wormhole
 			distance 2079.28
 			period 4290.76
+
+mission "type 5 radiants"
+	landing
+	invisible
+	to offer
+		has "event: wanderers: derecho mass production"
+	on offer
+		event "type 5 radiants"
+		fail
+
+event "type 5 radiants"
+	outfitter "Wanderer Advanced"
+		"Type 5 Radiant Thruster"
+		"Type 5 Radiant Steering"
+		"Type 0 Radiant Engines"
