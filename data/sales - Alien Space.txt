@@ -21,16 +21,11 @@ shipyard "Hai Advanced"
 outfitter "Wanderer Basics"
 
 outfitter "Wanderer Advanced"
-	"Thunderhead Cap-Up"
 
 outfitter "Hai Basics"
 
 outfitter "Hai Intermediate"
-	"Hai Tracker Cap-Up"
 
 outfitter "Hai Advanced"
-	"Hai Tracker Cap-Up"
 
 outfitter "Korath Basics"
-	"Korath Piercer Cap-Up"
-	"Korath Mine Cap-Up"

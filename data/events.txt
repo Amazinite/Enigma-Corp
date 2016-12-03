@@ -7,21 +7,6 @@
 # Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
-		
-mission "Typhoon Cap-Up"
-	landing
-	invisible
-	to offer
-		has "event: deep sky tech available"
-	on offer
-		event "Typhoon Cap"
-		fail
-		
-event "Typhoon Cap"
-	outfitter "Deep Sky Basic"
-		"Typhoon Cap-Up"
-	outfitter "Deep Sky Advanced"
-		"Typhoon Cap-Up"
 
 mission "Termini Appear"
 	landing
