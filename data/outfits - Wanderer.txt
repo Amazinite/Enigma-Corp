@@ -29,7 +29,7 @@ outfit "Type 0 Radiant Engines"
 
 outfit "Type 5 Radiant Thruster"
 	category "Engines"
-	"cost" 2055000
+	"cost" 2455000
 	thumbnail "outfit/huge radiant thruster"
 	"mass" 91
 	"outfit space" -91
@@ -45,7 +45,7 @@ outfit "Type 5 Radiant Thruster"
 
 outfit "Type 5 Radiant Steering"
 	category "Engines"
-	"cost" 1870000
+	"cost" 2220000
 	thumbnail "outfit/huge radiant steering"
 	"mass" 73
 	"outfit space" -73
