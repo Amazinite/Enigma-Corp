@@ -313,7 +313,7 @@ mission "Lovelace Trolling [1]"
 	destination "Ada"
 	description "Go to <destination> and Vandalize Lovelace Labs."
 	to offer
-		random > 60
+		random < 20
 	on offer
 		conversation
 			`As you enter the spaceport, you notice a group of guys having a party over at the bar, people laughing and drinks flying.`
@@ -503,82 +503,3 @@ event "lovelace calms down"
 		"required reputation" 100
 	planet "Carbuncle Station"
 		"required reputation" 100
-		
-mission "Lovelace Secrets [1]"
-	name "Steal Lovelace Secrets"
-	source
-		attributes "EC Shady"
-	description "Go to <destination> to steal secrets from Lovelace Labs for a rather enticing <payment>."
-	destination "Pilot"
-	
-# To offer is just the random line for now, as I want people to actually be able to play it without needing to make a new account.
-# Will activate the other two to offer lines come v0.6.0
-	to offer
-#		has "event: Enigma Corp 1"
-#		not "event: Enigma Corp 2"
-		not "EC: accepted help"
-		random < 50
-
-	on offer
-		conversation
-			`Walking up to the spaceport's bar, you notice that the entire station is rather empty compared to most other places you've been to. There couldn't be more than two dozen people in sight, most of them appearing to be uniformed workers, despite the area being massive. The Enigma Corporation must have not done a good job of advertising their grand openning.`
-			`	While taking a sip of the drink that you ordered (which tastes pretty stale, and really isn't worth the credits you spent for it) a shady looking character sits down next to you and orders a drink. He is wearing a long black trench coat that covers his feet and a wide brim hat that covers most of his face.`
-			choice
-				`	(Introduce yourself.)`
-				`	(Walk away to try and avoid confrontation.)`
-					goto walk
-			
-			`	You turn to the man and extend your hand.`
-			`	"Hello there. The name's <first>."`
-			`	The man turns to you and takes your hand. "Afternoon, <first>."`
-			`	He then quickly looks both ways and leans in close to you, speaking under his breath to try and avoid drawing eyes..`
-			`	"You want to make some quick dough?"`
-			choice
-				`	"Sure. Who wouldn't?"`
-					goto deal
-				`	"Sorry, but I don't deal with shady characters."`
-					decline
-
-			label walk
-			`	You get up from your chair and start walking back to your ship when the shady individual says something.`
-			`	"Hey kid. You want to make some quick dough?"`
-			choice
-				`	(Turn around.)`
-				`	(Ignore and leave.)`
-					decline
-					
-			`	You turn back around and look at the man, saying nothing, but waiting for what he has to say.`
-
-			label deal
-			`	"I've got a million credits I'd be willing to give you if you did me a favor."`
-			`	"What kind of favor?" you ask.`
-			`	"You ever hear of Lovelace Labs? Well they've been giving a corporation that I am affiliated with some trouble lately, and I'd like to get back at them. The only problem is that they've banned me from setting foot on their sites, bioscanners and shit stopping me from even getting near their planets without setting off alarms, so I need someone else to help me out."`
-			choice
-				`	"And I'm that someone?"`
-				`	"It sounds like you're about to suggest something illegal. I really rather wouldn't help with that kind of stuff."`
-					decline
-					
-			`	"Indeed you are. I need you to go to <destination> and infiltrate Lovelace's server rooms. From there, download everything from the servers that contains the keyword 'flux.'"`
-			choice
-				`	"I'll do it. But don't get the idea that I'll do this kind of stuff for you in the future."`
-					accept
-				`	"What do you think I am, some sort of leet hacker?"`
-				`	"Sorry, but I'd like to stay on the right side of the law"`
-					decline
-					
-			`	"Well maybe not, but I know someone who is. He's been retired for years so he wouldn't do the job, but he has the tools to do the job. If you wanted, I could tell him to contact you when he has spare time. He would give you everything you need to hack into Lovelace with ease."`
-			choice
-				`	"No need, I'll do it myself."`
-					accept
-				`	"I'm interested. Contact your friend and I'll do the job."`
-				`	"If you really want this job done, then get your hacker friend to do it for you."`
-					decline
-					
-			`	"Alright. Expect him to contact you in a few days."`
-				defer
-				
-	on defer
-		set "EC: accepted help"
-		event "contacted by friend" 14
-
-event "contacted by friend"
