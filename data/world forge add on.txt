@@ -102,12 +102,6 @@ outfitter "Andromedan"
 	"Hydrogen Steering"
 	"Combustion Reactor"
 	"Purge Vents"
-	
-outfitter "Termini"
-	"Mothership Core"
-	"T-Drone Core"
-	"T-Drone Engines"
-	"Razer"
 
 outfitter "Salvaged"
 	"Scrap Metal"
@@ -214,9 +208,6 @@ outfitter "Salvaged"
 	"Salvaged Nuclear Missile"
 	"Salvaged Gatling Gun"
 
-shipyard "Termini"
-	"Scout Drone"
-	
 shipyard "Andromedan"
 	"Combat Hauler"
 	"Gun Carrier"
@@ -227,7 +218,7 @@ shipyard "EC Hai"
 	"Rhino Beetle"
 	"Weevil"
 	"Praying Mantis"
-	
+
 shipyard "Enigma Corp"
 	"EC-001 'Badger'"
 	"EC-002 'Sentry'"
@@ -294,30 +285,26 @@ outfitter deprecated
 planet Mods
 	shipyard "Enigma Corp"
 	shipyard "Andromedan"
-	shipyard "Termini"
 	shipyard "EC Hai"
 	outfitter "Enigma Corp"
 	outfitter "EC Misc"
 	outfitter "EC Korath"
-	outfitter "Termini"
 	outfitter "Andromedan"
 
 planet Forge
 	shipyard "Enigma Corp"
 	shipyard "Andromedan"
-	shipyard "Termini"
 	shipyard "EC Hai"
 	outfitter "Enigma Corp"
 	outfitter "EC Misc"
 	outfitter "EC Korath"
-	outfitter "Termini"
 	outfitter "Andromedan"
 
 planet Human
 	shipyard "Enigma Corp"
 	outfitter "Enigma Corp"
 	outfitter "EC Misc"
-	
+
 planet Hai
 	shipyard "EC Hai"
 
