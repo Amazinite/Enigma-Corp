@@ -7624,6 +7624,10 @@ system Sadr
 		sprite planet/miranda
 		distance 2553.34
 		period 830.739
+	object "Outer Rim"
+		sprite planet/wormhole
+		distance 3000
+		period 1000
 
 system Saiph
 	object

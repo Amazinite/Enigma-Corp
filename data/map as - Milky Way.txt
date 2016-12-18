@@ -1138,47 +1138,6 @@ system RVE-32
 			distance 368
 			period 26.4705
 
-system Sadr
-	object
-		sprite "star (animated)/a5"
-			"frame rate" 0.5
-		distance 5.86016
-		period 6.97718
-	object
-		sprite "star (animated)/m0"
-			"frame rate" 0.5
-		distance 99.6398
-		period 6.97718
-		offset 180
-	object
-		sprite planet/callisto
-		distance 280.83
-		period 30.3017
-	object
-		sprite planet/rock3
-		distance 543.84
-		period 81.6597
-	object
-		sprite planet/desert6
-		distance 876.65
-		period 167.125
-		object
-			sprite planet/rock17
-			distance 150
-			period 17.5682
-	object
-		sprite planet/desert5
-		distance 1311.09
-		period 305.668
-	object
-		sprite planet/miranda
-		distance 2553.34
-		period 830.739
-	object "Outer Rim"
-		sprite planet/wormhole
-		distance 3000
-		period 1000
-
 system Mesec
 	pos 733 -974
 	government "Outer Rim Mining"
