@@ -309,6 +309,7 @@ system END-00
 	minables uranium 10 11.5135
 	fleet "ORM" 3000
 	object
+		sprite "star (animated)/o4"
 			"frame rate" 0.5
 		period 10
 	object
