@@ -2273,7 +2273,7 @@ system "Tua Gamma"
 		sprite planet/cloud8
 		distance 791.056
 		period 331.678
-		object Copper Station
+		object "Copper Station"
 			sprite planet/station6
 			distance 184
 			period 27.1691
