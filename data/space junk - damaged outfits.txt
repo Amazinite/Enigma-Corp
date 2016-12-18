@@ -541,24 +541,6 @@ outfit "Damaged LP576a Battery"
 
 ##########################
 # Power
-outfit "Damaged KP-6 Array"
-	category "Special"
-	cost 5000
-	thumbnail "outfit/tiny photovoltaic"
-	"flotsam sprite" "effect/box"
-	"mass" 2.25
-	"installable" -1
-	description "An old KP-6 Photovoltaic Array, damaged beyond repair. There are quite a few pieces missing, but it should probably sell for half its original price."
-
-outfit "Damaged KP-6 Panel"
-	category "Special"
-	cost 45000
-	thumbnail "outfit/small photovoltaic"
-	"flotsam sprite" "effect/box"
-	"mass" 18
-	"installable" -1
-	description "An old KP-6 Photovoltaic Array, damaged beyond repair. There are quite a few pieces missing, but it should probably sell for half its original price."
-
 outfit "Damaged nGVF-AA Cell"
 	category "Special"
 	cost 20000

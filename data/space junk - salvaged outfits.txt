@@ -822,22 +822,6 @@ outfit "Salvaged LP576a Battery"
 #	75% energy at same heat; "Broken outputs."
 #	50% mass efficiency but 200% heat/energy efficiency; "Something strange."
 
-outfit "Salvaged KP-6 Array"
-	category "Power"
-	cost 7500
-	thumbnail "outfit/tiny photovoltaic"
-	"mass" 3
-	"outfit space" -3
-	"solar collection" .1
-
-outfit "Salvaged KP-6 Panel"
-	category "Power"
-	cost 67500
-	thumbnail "outfit/small photovoltaic"
-	"mass" 24
-	"outfit space" -24
-	"solar collection" 1.1
-
 outfit "Salvaged nGVF-AA Cell"
 	category "Power"
 	cost 30000
