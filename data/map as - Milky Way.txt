@@ -35,7 +35,7 @@ system AMG-45
 	fleet "ORM" 500
 	object
 		sprite "star (animated)/m4"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/lava4
@@ -93,9 +93,10 @@ system Auram
 	trade Metal 390
 	trade Plastic 390
 	fleet "ORM" 1500
+	fleet "Quarg" 1500
 	object
 		sprite "star (animated)/m0"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/mars
@@ -150,13 +151,13 @@ system Avilum
 	fleet "ORM" 1000
 	object
 		sprite "star (animated)/k5"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 51.4801
 		period 19.2524
 		offset 180
 	object
 		sprite "star (animated)/m0"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 68.5199
 		period 19.2524
 	object
@@ -204,7 +205,7 @@ system DML-91
 	fleet "ORM" 1000
 	object
 		sprite "star (animated)/m4"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/io
@@ -214,6 +215,10 @@ system DML-91
 		sprite planet/rock15
 		distance 392
 		period 203.259
+		object "Ruby Station"
+			sprite planet/station3
+			distance 159
+			period 17.4038
 	object
 		sprite planet/desert1
 		distance 996.76
@@ -250,13 +255,13 @@ system "Tua Alpha"
 	asteroids "large metal" 2 7.7868
 	object
 		sprite "star (animated)/f0"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 17.8711
 		period 8.04829
 		offset 180
 	object
 		sprite "star (animated)/k0"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 87.1289
 		period 8.04829
 	object
@@ -287,7 +292,7 @@ system "Tua Alpha"
 			sprite planet/dust0
 			distance 208
 			period 15.7904
-		object
+		object "Iron Station"
 			sprite planet/station1
 			distance 325
 			period 30.8406
@@ -295,9 +300,9 @@ system "Tua Alpha"
 system END-00
 	pos 1209 -1168
 	government "Outer Rim Mining"
-	habitable 6250
+	habitable 5250
 	belt 3000
-	link OMA-12
+	link LLK-33
 	asteroids "small rock" 3 1.5675
 	asteroids "medium rock" 240 1.6815
 	asteroids "large rock" 25 4.218
@@ -310,7 +315,7 @@ system END-00
 	fleet "ORM" 3000
 	object
 		sprite "star (animated)/o4"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/lava5
@@ -328,21 +333,18 @@ system END-00
 			sprite planet/ice8
 			distance 338.891
 			period 32.8388
-			offset 322.832
 	object
 		sprite planet/gas0
 		distance 1685.41
 		period 1107.08
-		offset 359.416
 	object
 		sprite planet/uranus
-		distance 2396.5
-		period 1877.1
-		offset 359.753
-		object
+		distance 4793
+		period 2815.7
+		object "END Anomaly"
 			sprite planet/luna
-			distance 209
-			period 12.909
+			distance 309
+			period 18.909
 
 system Enigma
 	pos -740 -485
@@ -417,7 +419,7 @@ system Ferum
 	fleet "ORM" 300
 	object
 		sprite "star (animated)/k5"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/ganymede
@@ -460,7 +462,7 @@ system Immeo
 	link "Tua Omega"
 	object
 		sprite "star (animated)/g5"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/ice4
@@ -516,7 +518,7 @@ system JMU-10
 	fleet "ORM" 600
 	object
 		sprite "star (animated)/g0"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/dust2
@@ -526,7 +528,7 @@ system JMU-10
 		sprite planet/desert5
 		distance 495.21
 		period 134.132
-	object
+	object "JMU Anomaly"
 		sprite planet/desert2
 		distance 983.77
 		period 375.568
@@ -564,9 +566,10 @@ system Domov
 	trade Metal 390
 	trade Plastic 390
 	fleet "ORM" 250
+	fleet "Quarg" 1500
 	object
 		sprite "star (animated)/a0"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rhea
@@ -615,7 +618,7 @@ system KAL-25
 	fleet "ORM" 450
 	object
 		sprite "star (animated)/g5"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 51
 		period 11.6548
 		offset 180
@@ -631,6 +634,10 @@ system KAL-25
 		sprite planet/rock10
 		distance 647.85
 		period 186.559
+		object "Emerald Station"
+			sprite planet/station2
+			distance 241
+			period 12.3397
 	object
 		sprite planet/gas11
 		distance 1512.09
@@ -669,7 +676,7 @@ system "Tua Beta"
 	asteroids "medium metal" 1 3.6288
 	object
 		sprite "star (animated)/m0"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud7
@@ -697,12 +704,12 @@ system "Tua Beta"
 		period 4647.12
 
 system LPK-52
-	pos 1080 -961
+	pos 1083 -965
 	government "Outer Rim Mining"
 	habitable 1850
 	belt 400
 	link DML-91
-	link TYU-16
+	link RPM-40
 	asteroids "medium rock" 49 3.289
 	asteroids "large rock" 7 6.9322
 	asteroids "small metal" 6 5.0094
@@ -713,12 +720,12 @@ system LPK-52
 	fleet "ORM" 1000
 	object
 		sprite "star (animated)/f5"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 9.19459
 		period 13.1532
 	object
 		sprite "star (animated)/m8"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 116.805
 		period 13.1532
 		offset 180
@@ -730,7 +737,7 @@ system LPK-52
 		sprite planet/rock16
 		distance 671.375
 		period 161.779
-	object
+	object "LPK Anomaly"
 		sprite planet/forest0
 		distance 1043.14
 		period 313.318
@@ -740,7 +747,7 @@ system LPK-52
 		period 1063.08
 
 system NDV-52
-	pos 1035 -1132
+	pos 969 -1149
 	government "Outer Rim Mining"
 	habitable 720
 	belt 750
@@ -757,13 +764,13 @@ system NDV-52
 	fleet "ORM" 1500
 	object
 		sprite "star (animated)/k0"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 27.2175
 		period 11.4769
 		offset 180
 	object
 		sprite "star (animated)/m4"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 56.7825
 		period 11.4769
 	object
@@ -778,6 +785,10 @@ system NDV-52
 		sprite planet/rock0
 		distance 688.982
 		period 269.599
+		object "Sapphire Station"
+			sprite planet/station4
+			distance 222
+			period 17.6079
 	object
 		sprite planet/cloud1
 		distance 1192.82
@@ -814,7 +825,7 @@ system "Tua Omega"
 	asteroids "large metal" 18 8.4448
 	object
 		sprite "star (animated)/k5"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/ice4
@@ -850,12 +861,12 @@ system "Tua Omega"
 			period 19.976
 
 system OMA-12
-	pos 1112 -1191
+	pos 1035 -1122
 	government "Outer Rim Mining"
 	habitable 426
 	belt 1800
-	link END-00
 	link NDV-52
+	link NDA-63
 	asteroids "large rock" 1 3.456
 	asteroids "medium metal" 9 3.0208
 	asteroids "large metal" 5 3.6864
@@ -865,7 +876,7 @@ system OMA-12
 	fleet "ORM" 2000
 	object
 		sprite "star (animated)/k5"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert3
@@ -904,6 +915,76 @@ system OMA-12
 			distance 488
 			period 46.0578
 
+system NDA-63
+	pos 1069 -1165
+	government "Outer Rim Mining"
+	habitable 135
+	link LLK-33
+	link OMA-12
+	asteroids "small rock" 12 2.394
+	asteroids "medium rock" 7 3.1236
+	asteroids "large rock" 6 3.1236
+	asteroids "small metal" 1 2.2116
+	asteroids "medium metal" 3 2.5764
+	asteroids "large metal" 4 2.394
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/ocean9
+		distance 223.25
+		period 114.837
+	object
+		sprite planet/lava1
+		distance 413.25
+		period 289.209
+	object
+		sprite planet/rock2
+		distance 652.54
+		period 573.857
+	object
+		sprite planet/rock5
+		distance 1440.9
+		period 1882.97
+	object
+		sprite planet/gas0
+		distance 2001.71
+		period 3083.15
+
+system LLK-33
+	pos 1128 -1200
+	government "Outer Rim Mining"
+	habitable 320
+	link END-00
+	link NDA-63
+	asteroids "small rock" 2 2.184
+	asteroids "large rock" 2 1.872
+	asteroids "small metal" 2 2.2152
+	asteroids "large metal" 1 2.2152
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/ice5
+		distance 171.69
+		period 50.304
+	object
+		sprite planet/desert8
+		distance 435.53
+		period 203.241
+	object
+		sprite planet/ganymede
+		distance 613.22
+		period 339.554
+	object
+		sprite planet/jupiter
+		distance 954.63
+		period 659.535
+	object
+		sprite planet/gas1
+		distance 2328.07
+		period 2511.77
+
 system Ostima
 	pos 845 -962
 	government "Outer Rim Mining"
@@ -927,15 +1008,16 @@ system Ostima
 	trade Metal 390
 	trade Plastic 390
 	fleet "ORM" 250
+	fleet "Quarg" 1500
 	object
 		sprite "star (animated)/g5"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 33.5238
 		period 12.8173
 		offset 180
 	object
 		sprite "star (animated)/m0"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 65.4762
 		period 12.8173
 	object
@@ -995,7 +1077,7 @@ system PBD-09
 	fleet "ORM" 1000
 	object
 		sprite "star (animated)/l5"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/venus
@@ -1009,8 +1091,8 @@ system PBD-09
 		sprite planet/gas17
 		distance 995.01
 		period 502.182
-		object
-			sprite planet/dust7
+		object "Amazonite Station"
+			sprite planet/station1
 			distance 239
 			period 15.7859
 	object
@@ -1057,7 +1139,7 @@ system QFS-83
 	fleet "ORM" 800
 	object
 		sprite "star (animated)/f5"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud4
@@ -1104,12 +1186,12 @@ system RVE-32
 	fleet "ORM" 1000
 	object
 		sprite "star (animated)/k5"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 30.7879
 		period 12.6424
 	object
 		sprite "star (animated)/m4"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 56.2121
 		period 12.6424
 		offset 180
@@ -1117,14 +1199,14 @@ system RVE-32
 		sprite planet/lava2
 		distance 187.902
 		period 40.1281
-	object
+	object "RVE Anomaly"
 		sprite planet/rock1
-		distance 378.462
-		period 114.706
+		distance 678.462
+		period 164.706
 	object
 		sprite planet/jupiter
-		distance 770.422
-		period 333.154
+		distance 1270.422
+		period 433.154
 	object
 		sprite planet/gas9
 		distance 2385.42
@@ -1165,7 +1247,7 @@ system Mesec
 	fleet "ORM" 600
 	object
 		sprite "star (animated)/g5"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud3
@@ -1201,57 +1283,85 @@ system "Tua Psi"
 	government "Outer Rim Mining"
 	habitable 2202
 	link "Tua Beta"
-	asteroids "small rock" 60 1.8304
-	asteroids "medium rock" 11 1.1792
-	asteroids "large rock" 14 2.288
-	asteroids "small metal" 29 2.1648
 	object
 		sprite "star (animated)/f5"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 26.3049
 		period 11.0663
 	object
 		sprite "star (animated)/k0"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 92.6951
 		period 11.0663
 		offset 180
 	object
-		sprite planet/gas2
-		distance 458.535
-		period 83.7032
-		object
-			sprite planet/ice8
-			distance 204
-			period 17.6547
+		sprite "planet/ringworld left"
+		distance 812
+		period 360
+		offset -30
+	object "Bet Minres"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset -50
 	object
-		sprite planet/gas12
-		distance 1160.23
-		period 336.896
-		object
-			sprite planet/oberon
-			distance 255
-			period 10.6954
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset -70
 	object
-		sprite planet/rock14
-		distance 1915.59
-		period 714.719
-		object
-			sprite planet/station2
-			distance 255
-			period 10.6954
+		sprite "planet/ringworld right"
+		distance 812
+		period 360
+		offset -90
 	object
-		sprite planet/gas17
-		distance 3059.6
-		period 1442.71
+		sprite "planet/ringworld right"
+		distance 812
+		period 360
+		offset 40
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 60
+	object
+		sprite "planet/ringworld left"
+		distance 812
+		period 360
+		offset 80
+	object
+		sprite "planet/ringworld right"
+		distance 812
+		period 360
+		offset 130
+	object
+		sprite "planet/ringworld left"
+		distance 812
+		period 360
+		offset 150
+	object
+		sprite "planet/ringworld right"
+		distance 812
+		period 360
+		offset 180
+	object
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 200
+	object
+		sprite "planet/ringworld left"
+		distance 812
+		period 360
+		offset 220
 
 system TYU-16
-	pos 1027 -920
+	pos 1015 -934
 	government "Outer Rim Mining"
 	habitable 426
 	belt 1150
 	link DML-91
-	link LPK-52
+	link RPM-40
 	asteroids "small rock" 1 9.0558
 	asteroids "medium rock" 19 5.4054
 	asteroids "large rock" 24 8.5644
@@ -1264,14 +1374,14 @@ system TYU-16
 	fleet "ORM" 1000
 	object
 		sprite "star (animated)/m8"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 		object
 			sprite "star (animated)/l5"
-				"frame rate" 0.5
+				"frame rate" 0.2
 			distance 50
 			period 20
-	object
+	object "TYU Anomaly"
 		sprite planet/rock1
 		distance 377.36
 		period 142.079
@@ -1323,7 +1433,7 @@ system Termara
 	fleet "Large Deep" 4000
 	object
 		sprite star/wr
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 11.8889
 		period 8.24972
 	object
@@ -1347,6 +1457,57 @@ system Termara
 			distance 374
 			period 25.5097
 
+system RPM-40
+	pos 1072 -896
+	government "Outer Rim Mining"
+	habitable 625
+	link TYU-16
+	link LPK-52
+	asteroids "small rock" 4 1.463
+	asteroids "medium rock" 10 1.001
+	asteroids "large rock" 18 2.1098
+	asteroids "medium metal" 2 1.0626
+	asteroids "large metal" 1 1.9096
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/desert1
+		distance 202.36
+		period 46.0582
+	object
+		sprite planet/rock5
+		distance 414.12
+		period 134.837
+	object
+		sprite planet/rock9
+		distance 614.12
+		period 243.5
+	object
+		sprite planet/gas16
+		distance 1415.01
+		period 851.646
+		object
+			sprite planet/dust3
+			distance 187
+			period 13.4605
+		object
+			sprite planet/rock0
+			distance 305
+			period 28.038
+	object
+		sprite planet/neptune
+		distance 2941.77
+		period 2552.9
+		object
+			sprite planet/rock14
+			distance 207
+			period 14.8384
+		object
+			sprite planet/dust1
+			distance 331
+			period 30.0037
+
 system "Karuht'aryet"
 	pos 152 -913
 	government "Forsaken Ones"
@@ -1361,7 +1522,7 @@ system "Karuht'aryet"
 	fleet "Radiation Large" 100
 	object
 		sprite "star (animated)/k5"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rhea
@@ -1394,8 +1555,8 @@ system "Karuht'aryet"
 
 system "Karuht'uma"
 	pos 462 -1040
-	habitable 1600
 	government "Forsaken Ones"
+	habitable 1600
 	belt 1400
 	link "Karuht'ut"
 	link "Karuht'yet"
@@ -1405,7 +1566,7 @@ system "Karuht'uma"
 	minables uranium 9 5.6812
 	object
 		sprite "star (animated)/red giant"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud0
@@ -1446,7 +1607,7 @@ system "Karuht'yet"
 	minables uranium 9 3.7526
 	object
 		sprite "star (animated)/k5"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/cloud0
@@ -1536,7 +1697,7 @@ system "Karuht'duyet"
 	fleet "Radiation Small" 2000
 	object
 		sprite "star (animated)/g0"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert8
@@ -1585,7 +1746,7 @@ system "Karuht'utyet"
 	minables uranium 9 4.7263
 	object
 		sprite "star (animated)/k5"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock7
@@ -1622,7 +1783,7 @@ system "Karuht'quyet"
 	fleet "Radiation Large" 100
 	object
 		sprite "star (animated)/m4"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object  "Forsorp Rud"
 		sprite planet/venus
@@ -1669,13 +1830,13 @@ system "Karuht'enyet"
 	fleet "Radiation Large" 100
 	object
 		sprite "star (animated)/k5"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 48.048
 		period 17.3596
 		offset 180
 	object
 		sprite "star (animated)/m0"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 63.952
 		period 17.3596
 	object
@@ -1713,7 +1874,7 @@ system "Karuht'qu"
 	minables uranium 9 4.7514
 	object
 		sprite "star (animated)/f5"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/desert10
@@ -1757,7 +1918,7 @@ system "Karuht'ar"
 	link "Karuht'qu"
 	object
 		sprite "star (animated)/k5"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite "planet/ringworld left"
@@ -1849,7 +2010,7 @@ system "Karuht'du"
 	minables uranium 9 3.9672
 	object
 		sprite "star (animated)/m8"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 49.4597
 		period 10.9568
 		offset 180
@@ -1904,12 +2065,12 @@ system "Karuht'ol"
 	minables uranium 9 3.9531
 	object
 		sprite "star (animated)/m4"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 35.1906
 		period 19.6055
 	object
 		sprite "star (animated)/m8"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 60.8094
 		period 19.6055
 		offset 180
@@ -1955,7 +2116,7 @@ system "Karuht'en"
 	minables uranium 9 4.8135
 	object
 		sprite "star (animated)/g0"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/ice5
@@ -1996,13 +2157,13 @@ system "Karuht'ut"
 	minables uranium 9 3.9752
 	object
 		sprite "star (animated)/k5"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 50.6221
 		period 18.7731
 		offset 180
 	object
 		sprite "star (animated)/m0"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 67.3779
 		period 18.7731
 	object
@@ -2041,7 +2202,7 @@ system "Karuht'olyet"
 	fleet "Radiation Small" 2000
 	object
 		sprite "star (animated)/m0"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock17
@@ -2091,12 +2252,12 @@ system "Tua Gamma"
 	asteroids "large rock" 2 4.6574
 	object
 		sprite "star (animated)/k0"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 31.7538
 		period 14.4626
 	object
 		sprite "star (animated)/m4"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		distance 66.2462
 		period 14.4626
 		offset 180
@@ -2112,7 +2273,7 @@ system "Tua Gamma"
 		sprite planet/cloud8
 		distance 791.056
 		period 331.678
-		object
+		object Copper Station
 			sprite planet/station6
 			distance 184
 			period 27.1691
@@ -2156,7 +2317,7 @@ system UVG-64
 	fleet "ORM" 600
 	object
 		sprite "star (animated)/k5"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/rock5
@@ -2185,15 +2346,10 @@ system UVG-64
 
 system Ukkamu
 	pos 848 -879
-	government "Outer Rim Mining"
-	habitable 8640
+	government Quarg
+	habitable 1080
 	link Auram
 	link Ostima
-	asteroids "medium rock" 56 2.1112
-	asteroids "large rock" 10 2.4206
-	asteroids "small metal" 1 1.1284
-	asteroids "medium metal" 59 1.2194
-	asteroids "large metal" 5 1.547
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -2204,27 +2360,102 @@ system Ukkamu
 	trade Medical 680
 	trade Metal 390
 	trade Plastic 390
-	fleet "ORM" 400
+	fleet "Large Quarg" 3000
+	fleet "Quarg" 800
+	fleet "ORM" 1000
 	object
-		sprite "star (animated)/b5"
-			"frame rate" 0.5
+		sprite "star (animated)/g5"
+			"frame rate" 0.2
 		period 10
-	object
-		sprite planet/gas3
-		distance 415.36
-		period 36.4284
-	object
-		sprite planet/gas17
-		distance 1035.17
-		period 143.325
-	object
-		sprite planet/gas6
-		distance 2093.58
-		period 412.228
-		object
-			sprite planet/lava0
-			distance 318
-			period 14.4846
+	object "Det Minres"
+		sprite planet/ringworld
+		distance 812
+		period 360
+	object "Det Minres"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 20
+	object "Det Minres"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 40
+	object "Det Minres"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 60
+	object "Det Minres"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 80
+	object "Det Minres"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 100
+	object "Det Minres"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 120
+	object "Det Minres"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 140
+	object "Det Minres"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 160
+	object "Det Minres"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 180
+	object "Det Minres"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 200
+	object "Det Minres"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 220
+	object "Det Minres"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 240
+	object "Det Minres"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 260
+	object "Det Minres"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 280
+	object "Det Minres"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 300
+	object "Det Minres"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 320
+	object "Det Minres"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 340
 
 system WOW-56
 	pos 841 -1114
@@ -2245,7 +2476,7 @@ system WOW-56
 	fleet "ORM" 600
 	object
 		sprite "star (animated)/g0"
-			"frame rate" 0.5
+			"frame rate" 0.2
 		period 10
 	object
 		sprite planet/gas13
@@ -2404,7 +2635,7 @@ planet "Foruht Etin"
 	landscape land/mfield4
 	description `Foruht Etin is the home world of the Forsaken Ones, or at the very least their most recently established capital. The entire planet appears to be a single gigantic city. From pole to pole and all around the equator, skyscrapers block out any sight of land or sea.`
 	description `	A section of city in the northern hemisphere appears different from the rest; buildings are more spread apart and the entire area is surrounded by a wall that dwarfs even the skyscrapers around it. In the center of this section is a large, circular based building that is visible even from orbit. It is likely that this is their main base of operations, the capital of their entire empire.`
-	spaceport ``
+	spaceport `x`
 	"required reputation" 0
 	security 0
 
@@ -2413,7 +2644,7 @@ planet "Forsorp Maka"
 	landscape land/loc1
 	description `Judging by the large factories that output ships and crates of unknown supplies and the freighters carrying large shipments into orbit, Forsorp Maka is one of the Forsaken Ones' manufacturing worlds, producing all that it needed to run the Forsaken empire. Much of what is produced appears to be warships and weapons, as if the Forsaken were preparing for a large battle, or are even in one.`
 	description `	Many of the smaller freighters seem to carry their supplies eastward galacticaly, toward the direction of the capital, but every so often a large freighter carries with it an entire warship or an unbelievably large crate that is presumably full of weapons and hauls it off westward.`
-	spaceport ``
+	spaceport `x`
 	"required reputation" 0
 	security 0
 
@@ -2427,7 +2658,7 @@ planet "Fuhtwar Sorp"
 	attributes forsaken military
 	landscape land/loc0
 	description `Fuhtwar Sorp is unlike the other Forsaken military planets in that it does not appear to be made for war itself. Many of the complexes, instead of being surrounded by walls, are open and full of ship hangars and storage warehouses. Large vehicles move crates from the shipments brought by freighters into the warehouses, and newly arrived ships are wheeled into the hangars. It is almost as if this planet is meant to be some sort of resupplying center or a secondary base of operations, supporting whatever war may be going on on the front lines.`
-	spaceport ``
+	spaceport `x`
 	"required reputation" 0
 	security 0
 
@@ -2450,7 +2681,7 @@ planet "Forfut Mun"
 	attributes forsaken food
 	landscape land/hills5-sfiera
 	description `Forfut Mun is undoubtedly a world meant entirely for the production of food. The planet is covered in farms and fields, growing all sorts of alien plants and raising various animals. The only part of the planet that isn't being used to produce food of some sort is the central spaceport, a large area of land comprised of hundreds of landing pads positioned side by side with a refueling station every ten or so landing pads. Food is packaged in crates and placed on freighters before being shipped off to whatever planet requires food at the moment.`
-	spaceport ``
+	spaceport `x`
 	"required reputation" 0
 	security 0
 
@@ -2458,7 +2689,7 @@ planet "Forfut Nun"
 	attributes forsaken "food processing"
 	landscape land/city12
 	description `Forfut Nun is some kind of food processing world filled with processing factories and spaceports for haulers. Forsaken freighters carrying crates of all sorts of food are flown in from neighboring farming systems and hauled off by transportation robots into the factories. On the opposite side of the buildings are large warehouses where crates of processed food are stored before being picked up and carried off to population and military planets by freighters.`
-	spaceport ``
+	spaceport `x`
 	"required reputation" 0
 	security 0
 
@@ -2474,7 +2705,7 @@ planet "Forfut Tun"
 	attributes forsaken food
 	landscape land/fields5
 	description `Forfut Tun is another one of the Forsaken food planets, entirely converted into farms and fields. It would be hard to tell the difference between this world and other Forsaken food production worlds were it not for the highly visible domes surrounding many of the fields and farms. The purpose for the domes is not made clear by simply looking at them, possibly they are used as a biosphere of sorts to increase food production, but not all of the fields have them. In some areas of the planet, Forsaken are hastily building more domes and carrying building materials to the construction sites.`
-	spaceport ``
+	spaceport `x`
 	"required reputation" 0
 	security 0
 
@@ -2494,3 +2725,82 @@ planet "Forsorp Rud"
 	landscape land/canyon2
 	description `Forsorp Rud shares the same fate as that of the planet in the neighboring system; radiation has stripped the atmosphere clean off the planet, leading to the demise of the many species that once lived and thrived here. The surface seems scorched from the radiation and there are no signs of any life. The only sign of any past life on this planet is a number of abandoned cities, many of which are full of factory-looking buildings that have multiple smoke stacks protruding from the top floors, but even these seem to be rotting away and crumbling like the rest of the planet.`
 
+planet "Iron Station"
+	attributes orm abandoned
+	landscape land/station0
+	description `x`
+
+planet "Bet Minres"
+	attributes quarg station abandoned
+	landscape land/station2
+	description `x`
+
+planet "Copper Station"
+	attributes orm abandoned
+	landscape land/space7
+	description `x`
+
+planet "Det Minres"
+	attributes quarg station
+	landscape land/station2
+	description `x`
+	spaceport `x`
+	"required reputation" 0
+	security 0
+
+planet "Emerald Station"
+	attributes uninhabited orm refueling
+	landscape land/space0
+	description `x`
+	spaceport `x`
+	"required reputation" 0
+	security 0
+
+planet "Ruby Station"
+	attributes uninhabited orm refueling
+	landscape land/station4
+	description `x`
+	spaceport `x`
+	"required reputation" 0
+	security 0
+
+planet "LPK Anomaly"
+	attributes anomaly
+	landscape land/badlands1
+	description `x`
+
+planet "TYU Anomaly"
+	attributes anomaly
+	landscape land/badlands2
+	description `x`
+
+planet "JMU Anomaly"
+	attributes anomaly
+	landscape land/badlands3
+	description `x`
+
+planet "Sapphire Station"
+	attributes uninhabited orm refueling
+	landscape land/space4
+	description `x`
+	spaceport `x`
+	"required reputation" 0
+	security 0
+
+planet "RVE Anomaly"
+	attributes anomaly
+	landscape land/badlands4
+	description `x`
+
+planet "Amazonite Station"
+	attributes uninhabited orm refueling
+	landscape land/station1
+	description `x`
+	spaceport `x`
+	"required reputation" 0
+	security 0
+
+planet "END Anomaly"
+	attributes anomaly
+	landscape land/badlands5
+	description `x`
