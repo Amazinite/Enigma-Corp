@@ -309,7 +309,6 @@ system END-00
 	minables uranium 10 11.5135
 	fleet "ORM" 3000
 	object
-		sprite "star (animated)/blue giant"
 			"frame rate" 0.5
 		period 10
 	object
@@ -994,7 +993,7 @@ system PBD-09
 	minables uranium 3 5.7231
 	fleet "ORM" 1000
 	object
-		sprite "star (animated)/brown dwarf"
+		sprite "star (animated)/l5"
 			"frame rate" 0.5
 		period 10
 	object
@@ -1308,7 +1307,7 @@ system TYU-16
 			"frame rate" 0.5
 		period 10
 		object
-			sprite "star (animated)/brown dwarf"
+			sprite "star (animated)/l5"
 				"frame rate" 0.5
 			distance 50
 			period 20
