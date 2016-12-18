@@ -41,11 +41,6 @@ government "Lovelace Labs"
 		"Pirate" -.1
 	"friendly hail" "friendly navy"
 	"hostile hail" "hostile navy"
-	
-government "Termini"
-	color 0.26 0.8 0.84
-	swizzle 5
-	"player reputation" 10
 
 government "Andromedan"
 	color 0 0.3 1
@@ -58,7 +53,7 @@ government "Korath"
 		"Andromedan" -.2
 
 government "Outer Rim Mining"
-	color 1 0.75 0
+	color 1 0.4 0.4
 	swizzle 0
 	"bribe" 0.5
 	"player reputation" 10
