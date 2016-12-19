@@ -1413,7 +1413,7 @@ system LPK-52
 		sprite planet/rock16
 		distance 671.375
 		period 161.779
-	object "LPK Anomaly"
+	object
 		sprite planet/forest0
 		distance 1043.14
 		period 313.318
@@ -1844,7 +1844,7 @@ system RPM-40
 		sprite planet/rock5
 		distance 414.12
 		period 134.837
-	object
+	object "RPM Anomaly"
 		sprite planet/rock9
 		distance 614.12
 		period 243.5
@@ -1953,7 +1953,7 @@ system TYU-16
 				"frame rate" 0.2
 			distance 50
 			period 20
-	object "TYU Anomaly"
+	object
 		sprite planet/rock1
 		distance 377.36
 		period 142.079
@@ -2524,8 +2524,8 @@ planet "Alf Minres"
 planet "Amazonite Station"
 	attributes uninhabited orm refueling
 	landscape land/station1
-	description x
-	spaceport x
+	description `Amazonite Station is the most distant fueling station from the main Outer Rim Mining worlds, located in a system already mostly devoid of asteroids. Mining fleets rarely come here, usually only arriving if they do not have enough fuel remaining to make it to Emerald Station closer to ORM territory. On rare occasions the station is visited by fuel tankers to top off the station's fuel pods and to restock the food supplies, but otherwise ORM pays little attention to this station.`
+	spaceport `Due to the relative uselessness of this station, the inside is rather unkempt. The floors are dusty and there are stains of long-past spilled liquids. The spaceport is empty except for five dirty looking individuals playing cards at one of the tables and ordering beers from whatever unlucky fellow is manning the space-bar at that moment.`
 	"required reputation" 0
 	security 0
 
@@ -2537,7 +2537,7 @@ planet "Bet Minres"
 planet "Copper Station"
 	attributes orm abandoned
 	landscape land/space7
-	description x
+	description `Copper Station is the second refueling station that was built in the Outer Rim by the Company, but today it is an empty shell of a station, unused for years. Orbiting the station there is no clear way in, but the station appears to still have a slight amount of power running the emergency lights. It gives the station an eerie atmosphere, but odds are that they will not be functional for much longer.`
 
 planet "Det Minres"
 	attributes quarg station
@@ -2558,13 +2558,13 @@ planet "Diamond Station"
 planet "END Anomaly"
 	attributes anomaly
 	landscape land/badlands5
-	description x
+	description `Flying over the planet, you notice what appear to be the ruins of old cities. Structures of metal are scattered all across the planet, covered in plants and half buried under layers of sediment. Given how deep into the ground some of the buildings go, they were either built that way or have to be thousands of years old to have been buried in rock like fossils of an ancient time.`
 
 planet "Emerald Station"
 	attributes uninhabited orm refueling
 	landscape land/space0
-	description x
-	spaceport x
+	description `Emerald Station is the most used and well kept of all the Outer Rim refueling depot. It is the closest to the main Outer Rim Mining planets, and as such is visited by every ship returning to The Hub or leaving for a long journey north. The refueling ports are normally always occupied with ships only giving room for the refueling tankers that arrive often to fill the pods back up to full.`
+	spaceport `The spaceport is located opposite the refueling stations, making it one of the quietest parts of the station. Few ships bother to land here, usually only stopping at the station to take a break from the constant hyperdrive or to grab something to eat that isn't the normal grub taken on space flights.`
 	"required reputation" 0
 	security 0
 
@@ -2760,17 +2760,18 @@ planet Indalo
 planet "Iron Station"
 	attributes orm abandoned
 	landscape land/station0
-	description x
+	description `An old decommissioned refueling station, Iron Stations was once used by the Outer Rim Mining company to allow their exploration ships to make their way deep into the Outer Rim during the early days of the Company's expansion.`
+	description `	While the landing pads are still in good shape, much of the station is sealed off due to the lack of power and there is no longer any fuel in the station's fuel pods.`
 
 planet "JMU Anomaly"
 	attributes anomaly
 	landscape land/badlands3
-	description x
+	description `Outer Rim Mining seems to have the most interest in this planet of all of the anomalies in the Outer Rim. The Company has built large dome structures on many places across the planet, some even able to fit multiple Bactrians. While trying to get a closer look at one of the domes, you notice the sentry towers surrounding the dome and a nearby landing port with a few combat ships parked. In the interest of not starting a fight, you raise your altitude and keep your distance from any of the domes.`
 
-planet "LPK Anomaly"
+planet "RPM Anomaly"
 	attributes anomaly
 	landscape land/badlands1
-	description x
+	description `Why exactly this planet has been marked as an anomaly at first seems strange. The surface seems rather normal for a planet inside of a habitable zone. Plants of all sorts cover the surface and large animals can be seen roaming below the tree line. Then you look down at your sensors and realize nothing is working. Someone or something is jamming all sensors on the planet. Whether this is caused by the Company or the reason this planet is labeled as an anomaly is unknown, but it can never be a good thing to be flying around blind without your sensors.`
 
 planet "Outer Rim"
 	landscape ""
@@ -2779,28 +2780,23 @@ planet "Outer Rim"
 planet "RVE Anomaly"
 	attributes anomaly
 	landscape land/badlands4
-	description x
+	description `Of the so called "anomaly" planets, this one is the most scarred and damaged of them all. The planet has no atmosphere and is covered in craters of all shapes and sizes. Some are from impacts that hit perpendicular to the ground while others came in at wide angles, creating long oblong craters. One section of the planet looks entirely untouched and the rock looks newer, suggesting that tectonic activity has healed this part of the planet.`
 
 planet "Ruby Station"
 	attributes uninhabited orm refueling
 	landscape land/station4
-	description x
-	spaceport x
+	description `Ruby Station provides fuel for the fleets of ships that enter "the Loop," a number of Outer Rim systems that are all connected to each other to form a circle. The region isn't as rich in more valuable ores as other sections of space, but it is high in minerals like silicon and iron which are essential for the creation of new ships and outfits.`
+	spaceport `Most of the station is devoted to storage space for all the minerals that come in to the station, awaiting transport back to The Hub. The spaceport itself is even used partly as storage. Aside from a few open landing pads, the port is mostly crates stacked up to the ceiling full of iron, aluminum, and other minerals found within the Loop.`
 	"required reputation" 0
 	security 0
 
 planet "Sapphire Station"
 	attributes uninhabited orm refueling
 	landscape land/space4
-	description x
-	spaceport x
+	description `Sapphire Station is the exit and entrance to the so called "Long Arm" of the Outer Rim. Beyond this point is extremely asteroid rich uninhabited space. Even so, fleets rarely come out this far. There are stories of ships going out and never returning, only for their wreckage to be found weeks later floating around with cargo holds full of platinum or gold.`
+	spaceport `Of the few people wandering around the spaceport, most seem somewhat on edge. Being so close to an area of space known seemingly devour ships must put fear in the current inhabitants of this station. Could whatever is causing the disappearances and deaths come to this station? One can only hope not.`
 	"required reputation" 0
 	security 0
-
-planet "TYU Anomaly"
-	attributes anomaly
-	landscape land/badlands2
-	description x
 
 planet "The Hub"
 	attributes orm
