@@ -81,7 +81,7 @@ outfit "Antimatter Rocket"
 	thumbnail "outfit/antimatter rocket"
 	"mass" 1
 	"bomb capacity" -1
-	"illegal" -1
+	"atrocity" 1
 	description "The Antimatter Rocket is a highly illegal ammunition used for the Antimatter Launcher."
 	description "	Given the power of even a single Antimatter Rocket, carrying any bombs at all is punishable by death. And god forbid an Archon see you with one of these."
 	description "Brought to you by the Enigma Corporation."
