@@ -33,7 +33,7 @@ ship "Hardened Archon"
 		"drag" 27
 		"heat dissipation" 40
 		"fuel capacity" 800
-		"outfit space" 0
+		"outfit space" 800
 		"weapon capacity" 600
 		"engine capacity" 200
 		"energy capacity" 25000
