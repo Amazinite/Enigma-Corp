@@ -8,13 +8,6 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-shipyard human
-	"Assault Cruiser"
-	"Battlecruiser"
-
-outfitter human
-	"Exotic Particle Cannon"
-
 outfitter wanderer
 	"Type 5 Radiant Thruster"
 	"Type 5 Radiant Steering"
@@ -211,11 +204,6 @@ outfitter "Salvaged"
 	"Salvaged Nuclear Missile"
 	"Salvaged Gatling Gun"
 
-shipyard "EC Hai"
-	"Rhino Beetle"
-	"Weevil"
-	"Praying Mantis"
-
 shipyard "Enigma Corp"
 	"EC-001 'Badger'"
 	"EC-002 'Sentry'"
@@ -272,14 +260,12 @@ outfitter deprecated
 
 planet Mods
 	shipyard "Enigma Corp"
-	shipyard "EC Hai"
 	outfitter "Enigma Corp"
 	outfitter "EC Misc"
 	outfitter "EC Korath"
 
 planet Forge
 	shipyard "Enigma Corp"
-	shipyard "EC Hai"
 	outfitter "Enigma Corp"
 	outfitter "EC Misc"
 	outfitter "EC Korath"
@@ -288,9 +274,6 @@ planet Human
 	shipyard "Enigma Corp"
 	outfitter "Enigma Corp"
 	outfitter "EC Misc"
-
-planet Hai
-	shipyard "EC Hai"
 
 planet Korath
 	outfitter "EC Korath"

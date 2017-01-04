@@ -8,16 +8,6 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-effect "pcannon impact"
-	sprite "effect/pcannon impact"
-		"no repeat"
-		"frame rate" 30
-	sound "explosion small"
-	"lifetime" 10
-	"random angle" 2
-	"velocity scale" -.05
-	"random spin" 10
-
 effect "plasmathrower die"
 	sprite "effect/explosion/plasma/small"
 		"no repeat"
