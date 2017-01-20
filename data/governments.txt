@@ -13,12 +13,15 @@ government "Enigma Corp"
 	swizzle 3
 	"player reputation" 10
 	"attitude toward"
-		"Outer Ring Mining" .2
+		"Outer Ring Mining" .5
 		"Deep Sky" .01
-		"Syndicate" .2
-		"Merchant" .1
-		"Hai (Unfettered)" .2
+		"Merchant" .01
+		"Hai (Unfettered)" .01
+		"Coalition" .01
+		"Heliarch" .01
 		"Pug" -.01
+		"Korath" -.01
+		"Kor Sestor" -.01
 		"Quarg" -.01
 	"bribe" .05
 	"fine" 0
@@ -58,7 +61,6 @@ government "Outer Rim Mining"
 	"bribe" 0.5
 	"player reputation" 10
 	"attitude toward"
-		"Adamas" .1
 		"Pirate" -.1
 		"Forsaken Ones" -.5
 	"friendly hail" "friendly civilian"
@@ -70,7 +72,7 @@ government "Forsaken Ones"
 	"bribe" 1
 	"player reputation" -1000
 	"attitude toward"
-		"Quarg" -.5
+		"Quarg" -1
 		"Drak" -1000
 		"Outer Rim Mining" -.01
 		"Wanderer" -.01
