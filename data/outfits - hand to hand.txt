@@ -9,6 +9,7 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 outfit "Incendiary Grenades"
+	plural "Incendiary Grenades"
 	category "Hand to Hand"
 	"cost" 100000
 	thumbnail "outfit/incendiary grenades"
@@ -84,6 +85,7 @@ outfit "Portable Flamethrower"
 	description "Able to do the work of more than eight laser rifles, portable flamethrowers are highly sought after by boarders all over the galaxy."
 
 outfit "Crew Implants"
+	plural "Crew Implants"
 	category "Hand to Hand"
 	cost 1000000
 	thumbnail "outfit/known"

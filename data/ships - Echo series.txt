@@ -9,6 +9,7 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 ship "EC-001 'Badger'"
+	plural  "EC-001 'Badgers'"
 	sprite "ship/Echo 1"
 	attributes
 		category "Drone"
@@ -49,6 +50,7 @@ ship "EC-001 'Badger'"
 	description "Brought to you by the Enigma Corporation."
 
 ship "EC-002 'Sentry'"
+	plural "EC-002 'Sentries'"
 	sprite "ship/sentry drone"
 	attributes
 		category "Drone"
@@ -85,6 +87,7 @@ ship "EC-002 'Sentry'"
 	description "Brought to you by the Enigma Corporation."
 
 ship "EC-031 'Viper'"
+	plural "EC-031 `Vipers`"
 	sprite "ship/Echo 31"
 	attributes
 		category "Light Warship"
@@ -136,6 +139,7 @@ ship "EC-031 'Viper'"
 	description "Brought to you by the Enigma Corporation."
 
 ship "EC-032 'Rattlesnake'"
+	plural "EC-032 'Rattlesnakes'"
 	sprite "ship/Echo 32"
 	attributes
 		category "Medium Warship"
@@ -192,6 +196,7 @@ ship "EC-032 'Rattlesnake'"
 	description "Brought to you by the Enigma Corporation."
 
 ship "EC-033 'King Cobra'"
+	plural "EC-033 `King Cobras`"
 	sprite "ship/Echo 33"
 	attributes
 		category "Heavy Warship"
@@ -251,6 +256,7 @@ ship "EC-033 'King Cobra'"
 	description "Brought to you by the Enigma Corporation."
 
 ship "EC-037 'Aegis'"
+	plural "EC-037 'Aegises'"
 	sprite "ship/Echo 37"
 	attributes
 		category "Medium Warship"
@@ -305,6 +311,7 @@ ship "EC-037 'Aegis'"
 	description "Brought to you by the Enigma Corporation."
 
 ship "EC-050 'Orca'"
+	plural "EC-050 'Orcas'"
 	sprite "ship/Echo 50"
 	attributes
 		category "Heavy Freighter"
@@ -359,6 +366,7 @@ ship "EC-050 'Orca'"
 	description "Brought to you by the Enigma Corporation."
 
 ship "EC-069 'Star King'"
+	plural "EC-069 'Star Kings'"
 	sprite "ship/Echo 69"
 	attributes
 		category "Transport"
@@ -412,6 +420,7 @@ ship "EC-069 'Star King'"
 	description "Brought to you by the Enigma Corporation."
 
 ship "EC-070 'Star Guardian'"
+	plural "EC-070 `Star Guardians`"
 	sprite "ship/Echo 70"
 	attributes
 		category "Transport"
@@ -468,6 +477,7 @@ ship "EC-070 'Star Guardian'"
 	description "Brought to you by the Enigma Corporation."
 
 ship "EC-077 'Dire Wolf'"
+	plural "EC-077 'Dire Wolves'"
 	sprite "ship/Echo 77"
 	attributes
 		category "Light Warship"
@@ -516,6 +526,7 @@ ship "EC-077 'Dire Wolf'"
 	description "Brought to you by the Enigma Corporation."
 
 ship "EC-078 'Dire Hawk'"
+	plural "EC-078 'Dire Hawks'"
 	sprite "ship/Echo 78"
 	attributes
 		category "Light Warship"
@@ -567,6 +578,7 @@ ship "EC-078 'Dire Hawk'"
 	description "Brought to you by the Enigma Corporation."
 
 ship "EC-099 'Oblivion'"
+	plural "EC-099 'Oblivions'"
 	sprite "ship/Echo 99"
 	attributes
 		category "Heavy Warship"

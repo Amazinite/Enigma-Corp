@@ -9,6 +9,7 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 	
 outfit "X1025 Ion Engines"
+	plural "X1025 Ion Engines"
 	category "Engines"
 	"cost" 10000
 	thumbnail "outfit/tiny ion engines"
