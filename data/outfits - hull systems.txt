@@ -8,28 +8,6 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-outfit "Reflective Plating Prototype"
-	category "Systems"
-	cost 1000000
-	thumbnail "outfit/reflective plating"
-	"mass" 6
-	"outfit space" -6
-	"scan interference" 2.5
-	description "Some random dude in a tuxedo came here one day and just dropped these off. He says that they're some sort of prototype for something he's working on, and that he wants us to test them out for him. Not that I'm complaining, they keep the Republic out of my cargo. -Pirate Shopkeeper."
-
-outfit "Reflective Plating"
-	plural "Reflective Plating"
-	category "Systems"
-	cost 10000000
-	thumbnail "outfit/reflective plating"
-	"mass" 60
-	"outfit space" -60
-	"scan interference" 500
-	description "Behold! A smuggler's best friend! This reflective plating works* by reflecting** any incoming scans, so if those pesky Republic ships try and scan your illegal cargo, they'll end up scanning themselves! Isn't that great?"
-	description "*These will only work if your entire ship is covered in this plating, so make sure to save some space."
-	description "**Enigma Corp is not liable for any ships that are scanned while using reflective plating, as traveling thourgh space may scratch the plating and reduce its effectivness."
-	description "Brought to you by Enigma Corp."
-
 outfit "Exotic Matter Plating"
 	plural "Exotic Matter Plating"
 	category "Systems"

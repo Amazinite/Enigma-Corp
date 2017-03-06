@@ -267,89 +267,6 @@ outfit "Forge Cannon"
 
 
 
-outfit "Grav Bomb"
-	category "Secondary Weapons"
-	cost 5000000
-	thumbnail "outfit/known"
-	"mass" 45
-	"outfit space" -45
-	"weapon capacity" -45
-	"turret mounts" -1
-	weapon
-		sound "fire-lance"
-		"submunition" "Grav" 100
-		icon "icon/"
-		"inaccuracy" .1
-		"velocity" 1
-		"lifetime" 1
-		"reload" 180
-		"firing energy" 1000
-		"firing heat" 0
-	description "The Grav Bomb has the reverse effect of the Gravitational Wave Generator, pulling ships toward the origin point as opposed to pushing them away. This can be extremely helpful for pulling smaller and quicker ships into the optimal range of your weapon, or stopping missile boats from getting too far away.."
-	description "Brought to you by the Enigma Corporation."
-
-outfit "Grav"
-	weapon
-		sprite "projectile/grav"
-		"inaccuracy" 360
-		"lifetime" 10
-		"velocity" 10
-		"submunition" "Grav2" 1
-
-outfit "Grav2"
-	weapon
-		sprite "projectile/grav"
-		"inaccuracy" 1
-		"lifetime" 10
-		"velocity" -20
-		"submunition" "Grav3" 1
-		"submunition" "Grav4" 1
-
-outfit "Grav3"
-	weapon
-		sprite "projectile/grav"
-		"hit effect" "small explosion"
-		"die effect" "small explosion"
-		"lifetime" 1
-		"velocity" 0
-		"blast radius" 50000
-		"trigger radius" 50000
-		"hit force" -20
-
-
-
-outfit "Gravitational Wave Generator"
-	category "Secondary Weapons"
-	cost 5000000
-	thumbnail "outfit/blackholes"
-	"mass" 45
-	"outfit space" -45
-	"weapon capacity" -45
-	"turret mounts" -1
-	weapon
-		sound "plasma"
-		"submunition" "Wave" 200
-		icon "icon/"
-		"inaccuracy" .1
-		"velocity" 10
-		"lifetime" 1
-		"reload" 180
-		"firing energy" 2000
-		"firing heat" -1000
-	description "The Gravitational Wave Generator works on unknown technology in order to generator a gravitational wave strong enough to exert a force upon ships and push them away from the origin point of the blast. This requires large amounts of energy, but mysteriously also draws heat away from your ship."
-	description "Brought to you by the Enigma Corporation."
-
-outfit "Wave"
-	weapon
-		sprite "projectile/wave"
-		"inaccuracy" 360
-		"lifetime" 100
-		"shield damage" 0
-		"hull damage" 0
-		"hit force" 2000
-
-
-
 outfit "Hellfire Missile Launcher"
 	category "Secondary Weapons"
 	cost 25000
@@ -503,35 +420,6 @@ outfit "Blaster Slug"
 	cost 50
 	mass 0.02
 	"blaster capacity" -1
-
-
-
-outfit "Reverse Engineered Skylance"
-	category "Turrets"
-	cost 25000000
-	thumbnail "outfit/unknown"
-	"mass" 60
-	"outfit space" -60
-	"weapon capacity" -60
-	"turret mounts" -1
-	"required crew" 1
-	weapon
-		sprite "projectile/skylance"
-			"frame rate" 1
-		sound "RESL"
-		"hit effect" "skylance impact"
-		"inaccuracy" .4
-		"velocity" 500
-		"lifetime" 1
-		"reload" 1
-		"firing energy" 35
-		"firing heat" 20
-		"shield damage" 40
-		"hull damage" 30
-		"ion damage" .1
-	description "After disabling and looting about four Quarg spaceships, the Quarg started to hate Enigma Corp. So the Corporation's solution? Reverse engineer some of the stuff they stole!"
-	description "This reverse engineered Skylance is almost like a noraml Quarg Skylance, but a little worse. This version does slightly less damage, generates much more heat, and takes even more energy to fire."
-	description "Brought to you by the Enigma Corporation."
 
 
 
@@ -1086,44 +974,4 @@ outfit "Thermite Torpedo"
 	"mass" .5
 	"thermite torpedo capacity" -1
 	description "Thermite Torpedos are ammunition for the Thermite Torpedo Launcher."
-
-
-
-outfit "Warp Inhibitor"
-	category "Turrets"
-	cost 0
-	thumbnail "outfit/known"
-	"mass" 100
-	"outfit space" -100
-	"weapon capacity" -100
-	"turret mounts" -1
-	"dark matter capacity" 6000
-	weapon
-		sound "skylance"
-		ammo "Dark Matter"
-		icon "icon/dark matter"
-		"inaccuracy" .1
-		"velocity" 10
-		"lifetime" 10
-		"split range" 50
-		"reload" 1
-		"firing energy" 0
-		"firing heat" 0
-		"firing force" -10
-		"submunition" "inhibitor" 1
-
-outfit "inhibitor"
-	weapon
-		"lifetime" 5000
-		"blast radius" 5000
-		"trigger radius" 5000
-		"hit force" 10
-
-outfit "Dark Matter"
-	plural "Dark Matter"
-	category "Ammunition"
-	cost 0
-	thumbnail "outfit/known"
-	"mass" 0.5
-	"dark matter capacity" -1
 #

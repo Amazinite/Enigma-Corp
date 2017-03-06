@@ -8,17 +8,6 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-ship "Leviathan" "Leviathan (Inhibitor)"
-	outfits
-		"A250 Atomic Thruster"
-		"A375 Atomic Steering"
-		"Scram Drive"
-		"Fission Reactor"
-		"LP072a Battery Pack"
-		"D94-YV Shield Generator"
-		"Warp Inhibitor"
-		"Dark Matter" 6000
-
 ship "Splinter" "Splinter (Plasmathrower)"
 	outfits
 		"Plasmathrower" 2

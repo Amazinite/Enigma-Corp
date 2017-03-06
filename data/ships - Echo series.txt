@@ -49,43 +49,6 @@ ship "EC-001 'Badger'"
 	description `The Badger was the first of the Corporation's ships that did not use a stolen design. Created to compete against the Republic Navy Combat Drone, it is the strongest drone currently on the galactic market. Equipped with three gun hardpoints and double the hull strength, the Badger can pack a huge punch. Although, some critique the Badger for being very slow and large, making it an easy target.`
 	description "Brought to you by the Enigma Corporation."
 
-ship "EC-002 'Sentry'"
-	plural "EC-002 'Sentries'"
-	sprite "ship/sentry drone"
-	attributes
-		category "Drone"
-#		category "Interceptor"
-		"cost" 52000
-		"hull" 5000
-		"mass" 120
-		"drag" 1
-		"heat dissipation" 1
-		"outfit space" 100
-		"weapon capacity" 50
-		"engine capacity" 10
-		"automaton" 1
-#		"required crew" 1
-#		"bunks" 1
-		weapon
-			"blast radius" 12
-			"shield damage" 120
-			"hull damage" 60
-			"hit force" 180
-	outfits
-		"Laser Turret"
-
-		"nGVF-BB Fuel Cell"
-		"LP036a Battery Pack"
-
-		"X1025 Ion Engines"
-
-	engine -9 29
-	engine 9 29
-	turret 0 0 "Laser Turret"
-	explode "tiny explosion" 15
-	description "The Sentry Drone is little more than a joke among those in the Corporation design team. Nothing more than a huge metal box filled with targetting computer and a single turret hardpoint placed on the top, the Sentry is a rarely seen drone that can be very useful in numbers, but due to its large mass and low engine capacity it is a rather easy target to hit and does not last long in large battles."
-	description "Brought to you by the Enigma Corporation."
-
 ship "EC-031 'Viper'"
 	plural "EC-031 `Vipers`"
 	sprite "ship/Echo 31"

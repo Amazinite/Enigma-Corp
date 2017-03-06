@@ -9,8 +9,6 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 outfitter "Pirate Outfits"
-	"Galaxy Map"
-	"Reflective Plating Prototype"
 	"Reinforced Plating B-Class"
 	"Shield Overcharger B-Class"
 	"Incendiary Grenades"

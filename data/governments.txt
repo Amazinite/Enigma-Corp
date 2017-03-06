@@ -28,15 +28,6 @@ government "Enigma Corp"
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
 
-government "Freelancer"
-	swizzle 5
-	bribe 0
-	"player reputation" 10
-	"attitude toward"
-		"Pirate" -.1
-	"friendly hail" "friendly civilian"
-	"hostile hail" "hostile civilian"
-
 government "Lovelace Labs"
 	swizzle 0
 	"player reputation" -1000
@@ -44,42 +35,3 @@ government "Lovelace Labs"
 		"Pirate" -.01
 	"friendly hail" "friendly navy"
 	"hostile hail" "hostile navy"
-
-government "Andromedan"
-	color 0 0.3 1
-	swizzle 6
-	"bribe" 0
-	"player reputation" -1000
-
-government "Korath"
-	"attitude toward"
-		"Andromedan" -.01
-
-government "Outer Rim Mining"
-	color 1 0.4 0.4
-	swizzle 0
-	"bribe" 0.5
-	"player reputation" 10
-	"attitude toward"
-		"Pirate" -.1
-		"Forsaken Ones" -.5
-	"friendly hail" "friendly civilian"
-	"hostile hail" "hostile civilian"
-
-government "Forsaken Ones"
-	color .66 .55 0
-	swizzle 0
-	"bribe" 1
-	"player reputation" -1000
-	"attitude toward"
-		"Quarg" -1
-		"Drak" -1000
-		"Outer Rim Mining" -.01
-		"Wanderer" -.01
-
-government "Forgotten Ones"
-	color .33 .33 .66
-	swizzle 0
-	"player reputation" 10
-	"attitude toward"
-		"Forsaken Ones" -.1

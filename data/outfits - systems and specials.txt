@@ -28,24 +28,6 @@ outfit "Fuel Powered Generator"
 	description "For when you’re in the heat of battle and need some extra energy, say hello to the Fuel Powered Generator. Fire this thing up in the middle of battle to convert your hyperspace fuel into useable energy. Especially useful for those with a lot of fuel but not much space for batteries or reactors."
 	description "Due to the massive amounts of heat generated when in use, the generator requires the use of one of your ship's gun ports to be used as an exhaust port to let out all the heat."
 
-outfit "Galaxy Map"
-	category "Special"
-	cost 1000
-	thumbnail "outfit/map"
-	"map" 1000
-	description "This data chip gives you what every ship should already have installed in it: a map of the entire galaxy. Or at least what we know of so far. Back in the early days of space piracy, a few pirates were angry that their ships didn't already have maps downloaded into them and that they needed to go exploring everything to fill the map. So instead of doing things legally, they stole maps from disabled Republic ships and started replicating them. And since not all pirates are heartless, they actually sold them for next to nothing! Can you believe that?"
-
-outfit "Pocket Wormhole"
-	category "Systems"
-	cost 999999999999
-	thumbnail "outfit/pockethole"
-	"cargo space" 10000000
-	"mass" 0
-	"outfit space" 10000000
-	description "The Pocket Wormhole is a wormhole that has been ripped in space to a different dimension. This allows you to place a seemingly infinite amount of items into the wormhole for use later."
-	description "Warning: Enigma Corp is not responsible for anything that exits the wormhole that was not put into it (including but not limited too: Cthulhu, the End of Days, Drak, or yourself from a parallel universe), or the well-being of anything placed inside the wormhole."
-	description "Brought to you by Enigma Corp."
-
 outfit "External Fuel Pod"
 	category "Systems"
 	"cost" 10000
@@ -78,14 +60,3 @@ outfit "Engine Expansion"
 	"engine capacity" 15
 	"unplunderable" 1
 	description "Do you rarely use all your cargo space and wish it could be put to better use? Well fear no more, as this engine expansion will convert unwanted cargo space into room for more engines!"
-
-outfit "Reverse Engineered Jump Drive"
-	category "Systems"
-	cost 10000000
-	thumbnail "outfit/jump drive"
-	"mass" 20
-	"outfit space" -20
-	"jump speed" 0.25
-	"jump drive" 0.9
-	description "Never before have the secrets of the Jump Drive been unlocked, until now! Enigma Corp has figured out how to reverse engineer Jump Drives, and is now selling them!"
-	description "Brought to you by Enigma Corp."

@@ -1,0 +1,106 @@
+# Copyright (c) 2016 by Jonathan Steck
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+system Enigma
+	pos -740 -485
+	government "Enigma Corp"
+	habitable 880
+	link Termara
+	asteroids "small rock" 6 2.6418
+	asteroids "medium rock" 68 2.2372
+	asteroids "large rock" 22 1.3328
+	asteroids "small metal" 3 2.5228
+	asteroids "medium metal" 6 1.9992
+	asteroids "large metal" 4 2.7132
+	trade Clothing 224
+	trade Electronics 756
+	trade Equipment 352
+	trade Food 345
+	trade "Heavy Metals" 562
+	trade Industrial 748
+	trade Medical 636
+	trade Metal 376
+	trade Plastic 373
+	fleet "Small Enigma Merchents" 500
+	fleet "Large Enigma Merchants" 1000
+	fleet "Small Enigma Military" 750
+	fleet "Large Enigma Military" 1500
+	fleet "Small Northern Merchants" 1500
+	fleet "Large Northern Merchants" 3000
+	fleet "Small Northern Pirates" 2000
+	fleet "Large Northern Pirates" 3000
+	fleet "Small Deep" 3000
+	fleet "Large Deep" 5000
+	fleet Oblivion 25000
+	fleet Keeper 75000
+	belt 1000
+	minables uranium 1 4.1232
+	object
+		sprite "star/devoured star"
+		period 10
+	object
+		sprite planet/gas5
+		distance 664.041
+		period 127.543
+		object "Enigma Prime"
+			sprite planet/station7
+			distance 257
+			period 12.3538
+
+system Suhail
+	link Regor
+	link Termara
+
+system Termara
+	pos -757 -412
+	government Republic
+	habitable 5880
+	link Suhail
+	link Enigma
+	asteroids "small rock" 6 2.6418
+	asteroids "small metal" 3 2.5228
+	fleet "Small Enigma Merchants" 750
+	fleet "Large Enigma Merchants" 1500
+	fleet "Small Enigma Military" 2250
+	fleet "Large Enigma Military" 4500
+	fleet "Small Northern Merchants" 1000
+	fleet "Large Northern Merchants" 2500
+	fleet "Small Northern Pirates" 1500
+	fleet "Large Northern Pirates" 2500
+	fleet "Small Deep" 2000
+	fleet "Large Deep" 4000
+	belt 1200
+	minables neodymium 8 3.1412
+	minables uranium 5 2.9358
+	object
+		sprite star/wr
+			"frame rate" 0.2
+		distance 11.8889
+		period 8.24972
+	object
+		sprite planet/miranda
+		distance 255.401
+		period 30.4227
+	object
+		sprite planet/gas5
+		distance 664.041
+		period 127.543
+	object
+		sprite planet/gas9
+		distance 1579.78
+		period 1596.42
+		object
+			sprite planet/rock0
+			distance 220
+			period 11.5088
+		object
+			sprite planet/rock14
+			distance 374
+			period 25.5097
