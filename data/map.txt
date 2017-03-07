@@ -38,8 +38,6 @@ system Enigma
 	fleet "Large Northern Pirates" 3000
 	fleet "Small Deep" 3000
 	fleet "Large Deep" 5000
-	fleet Oblivion 25000
-	fleet Keeper 75000
 	belt 1000
 	minables uranium 1 4.1232
 	object

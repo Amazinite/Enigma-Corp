@@ -8,22 +8,6 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-fleet "Oblivion"
-	government "Enigma Corp"
-	names "enigma military"
-	personality forbearing entering
-	variant
-		"EC-099 'Oblivion'" 1
-
-fleet "Keeper"
-	government "Drak"
-	names "keepers"
-	cargo 0
-	personality
-		staying heroic
-	variant
-		"Archon"
-		
 fleet "Small Enigma Merchants"
 	government "Enigma Corp"
 	names "civilian"
