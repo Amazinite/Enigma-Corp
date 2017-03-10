@@ -8,77 +8,199 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-ship "Splinter" "Splinter (Plasmathrower)"
+ship "Aerie" "Aerie (EC Merchant)"
 	outfits
-		"Plasmathrower" 2
-		"Heavy Anti-Missile Turret" 2
-		"Water Coolant System"
-		"Fission Reactor"
-		"LP036a Battery Pack"
-		"D94-YV Shield Generator" 2
-		"X3700 Ion Thruster"
-		"Impala Plasma Steering"
-		"Hyperdrive"
-	
-ship "Quicksilver" "Quicksilver (Ionizer)"
-	outfits
-		"Flux Torpedo Launcher"
-		"Flux Torpedo" 30
-		"Plasmathrower"
-		"RT-I Radiothermal"
-		"LP036a Battery Pack" 2
-		"D23-QP Shield Generator" 2
-		"Cooling Ducts"
-		"Greyhound Plasma Thruster"
-		"Greyhound Plasma Steering"
-		"Hyperdrive"
-
-ship "Falcon" "Falcon (Flux Torpedo)"
-	outfits
-		"Flux Torpedo Launcher" 2
-		"Flux Torpedo" 60
-		"Heavy Laser Turret" 4
-		"Fusion Reactor"
-		"D67-TM Shield Generator"
-		"Small Radar Jammer"
-		"Orca Plasma Thruster"
-		"A375 Atomic Steering"
-		"Hyperdrive"
-	gun "Flux Torpedo Launcher"
-	gun "Flux Torpedo Launcher"
-	gun
-	gun
-	
-ship "Firebird" "Firebird (Plasmathrower)"
-	outfits
-		"Plasmathrower" 4
+		"Torpedo Launcher" 2
+		Torpedo 60
 		"Heavy Laser Turret" 2
-		"Breeder Reactor"
-		"LP072a Battery Pack"
-		"D41-HY Shield Generator" 2
+		"Anti-Missile Turret"
+		"Fission Reactor"
+		Supercapacitor
 		"Liquid Nitrogen Cooler"
-		"Mass Expansion"
-		"X3700 Ion Thruster"
-		"A375 Atomic Steering"
-		"Hyperdrive"
-	
-ship "Hawk" "Hawk (Flux Torpedo)"
-	outfits
-		"Flux Torpedo Launcher"
-		"Flux Torpedo" 30
-		"RT-I Radiothermal"
-		"Supercapacitor" 2
 		"D41-HY Shield Generator"
-		"Greyhound Plasma Thruster"
-		"Greyhound Plasma Steering"
-		"Hyperdrive"
-	
-ship "Fury" "Fury (Plasmathrower)"
+		"Small Radar Jammer" 2
+		"Interference Plating" 2
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		Hyperdrive
+
+ship "Argosy" "Argosy (EC Merchant)"
 	outfits
-		"Plasmathrower" 4
-		"S3 Thermionic"
-		"Supercapacitor" 4
-		"Cooling Ducts"
-		"Chipmunk Plasma Thruster"
+		"Heavy Laser" 4
+		"Anti-Missile Turret"
+		"Fission Reactor"
+		Supercapacitor
+		"D23-QP Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Large Radar Jammer"
+		"Interference Plating" 2
+		"Mass Expansion" 2
+		"A250 Atomic Thruster"
+		"A375 Atomic Steering"
+		Hyperdrive
+
+ship "Behemoth" "Behemoth (EC Merchant)"
+	outfits
+		"Heavy Laser Turret" 2
+		"Anti-Missile Turret" 2
+		"Heavy Anti-Missile Turret" 2
+		"Breeder Reactor"
+		Supercapacitor
+		"D94-YV Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Interference Plating" 4
+		"Cargo Expansion" 2
+		"A250 Atomic Thruster"
 		"A125 Atomic Steering"
-		"Hyperdrive"
+		"A375 Atomic Steering"
+		"Scram Drive"
+
+ship "Blackbird" "Blackbird (EC Merchant)"
+	outfits
+		"Heavy Laser Turret" 2
+		"Fission Reactor"
+		Supercapacitor
+		"D23-QP Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Large Radar Jammer"
+		"Interference Plating" 2
+		"A370 Atomic Thruster"
+		"A125 Atomic Steering"
+		"A375 Atomic Steering"
+		Hyperdrive
+
+ship "Bulk Freighter" "Bulk Freighter (EC Merchant)"
+	outfits
+		"Heavy Laser Turret" 3
+		"Heavy Anti-Missile Turret" 2
+		"Fusion Reactor"
+		Supercapacitor
+		"D23-QP Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Interference Plating" 2
+		"Mass Expansion" 2
+		"A370 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Scram Drive"
+
+ship "Clipper" "Clipper (EC Merchant)"
+	outfits
+		"Torpedo Launcher" 2
+		Torpedo 60
+		"Fission Reactor"
+		Supercapacitor
+		"D23-QP Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Interference Plating" 2
+		"A250 Atomic Thruster"
+		"A375 Atomic Steering"
+		Hyperdrive
+
+ship "Corvette" "Corvette (EC Merchant)"
+	outfits
+		"Proton Gun" 4
+		"Heavy Anti-Missile Turret"
+		"Fusion Reactor"
+		Supercapacitor
+		"D23-QP Shield Generator"
+		"Liquid Helium Cooler"
+		"Small Radar Jammer" 2
+		"Interference Plating" 2
+		"Mass Expansion"
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		Hyperdrive
+
+ship "Freighter" "Freighter (EC Merchant)"
+	outfits
+		"Heavy Anti-Missile Turret" 2
+		"Fission Reactor"
+		Supercapacitor
+		"Liquid Nitrogen Cooler"
+		"Interference Plating" 3
+		"Fuel Pod" 2
+		"Mass Expansion"
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Scram Drive"
+
+ship "Heavy Shuttle" "Heavy Shuttle (EC Merchant)"
+	outfits
+		"Gatling Gun"
+		"Gatling Gun Ammo" 3000
+		"Dwarf Core"
+		Supercapacitor
+		"Water Coolant System"
+		"Interference Plating"
+		"A120 Atomic Thruster"
+		"A125 Atomic Steering"
+		Hyperdrive
+
+ship "Osprey" "Osprey (EC Merchant)"
+	outfits
+		"Proton Gun" 4
+		"Anti-Missile Turret" 2
+		"Fusion Reactor"
+		"LP072a Battery Pack"
+		"D23-QP Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Water Coolant System"
+		"Mass Expansion"
+		"A370 Atomic Thruster"
+		"A125 Atomic Steering"
+		"A525 Atomic Steering"
+		Hyperdrive
+
+ship "Scout" "Scout (EC Merchant)"
+	outfits
+		"Gatling Gun" 2
+		"Gatling Gun Ammo" 6000
+		"Fission Reactor"
+		Supercapacitor
+		"Liquid Nitrogen Cooler"
+		"Fuel Pod" 2
+		"Mass Expansion"
+		"Interference Plating"
+		"A370 Atomic Thruster"
+		"A375 Atomic Steering"
+		Hyperdrive
+
+ship "Star Barge" "Star Barge (EC Merchant)"
+	outfits
+		"Dwarf Core"
+		Supercapacitor
+		"Water Coolant System"
+		"Interference Plating"
+		"Cargo Expansion"
+		"A120 Atomic Thruster"
+		"A125 Atomic Steering"
+		Hyperdrive
+
+ship "Quicksilver" "Quicksilver (EC Merchant)"
+	outfits
+		"Fission Reactor"
+		Supercapacitor
+		"Liquid Nitrogen Cooler"
+		"Interference Plating" 2
+		"Particle Cannon" 2
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		Hyperdrive
+
+ship "Vanguard" "Vanguard (EC Merchant)"
+	outfits
+		"Sidewinder Missile Launcher" 7
+		"Sidewinder Missile" 700
+		"Sidewinder Missile Rack" 14
+		"Heavy Anti-Missile Turret"
+		"Breeder Reactor"
+		Supercapacitor
+		"D94-YV Shield Generator"
+		"Liquid Nitrogen Cooler"
+		"Water Coolant System"
+		"Large Radar Jammer" 2
+		"Interference Plating" 2
+		"Mass Expansion"
+		"A520 Atomic Thruster"
+		"A375 Atomic Steering"
+		Hyperdrive

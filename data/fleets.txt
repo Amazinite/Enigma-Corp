@@ -13,235 +13,117 @@ fleet "Small Enigma Merchants"
 	names "civilian"
 	cargo 4
 	personality
-		confusion 40
-		timid frugal
-	variant 50
-		"Shuttle"
-	variant 40
-		"Star Barge"
-		"Shuttle" 2
-	variant 30
-		"Freighter"
-	variant 10
-		"Freighter (Fancy)"
+		confusion 20
+		timid
 	variant 20
-		"Freighter"
-		"Shuttle" 4
-	variant 6
-		"Freighter"
-		"Berserker"
-	variant 3
-		"Freighter"
-		"Berserker (Afterburner)"
-	variant 5
-		"Freighter (Fancy)"
-		"Shuttle" 4
+		"Scout (EC Merchant)"
+	variant 20
+		"Heavy Shuttle (EC Merchant)" 3
+	variant 20
+		"Star Barge (EC Merchant)" 3
+	variant 15
+		"Clipper (EC Merchant)" 2
+	variant 15
+		"Freighter (EC Merchant)" 2
+	variant 15
+		"Argosy (EC Merchant)" 2
+	variant 15
+		"Quicksilver (EC Merchant)"
+		"Freighter (EC Merchant)"
+	variant 15
+		"Clipper (EC Merchant)" 2
+		"Freighter (EC Merchant)"
+	variant 15
+		"Quicksilver (EC Merchant)"
+		"Star Barge (EC Merchant) 2
+	variant 15
+		"Freighter (EC Merchant)"
+		"Heavy Shuttle (EC Merchant)" 2
+	variant 15
+		"Argosy (EC Merchant)"
+		"Freighter (EC Merchant)"
 	variant 10
-		"Freighter" 3
-		"Sparrow" 1
-	variant 3
-		"Mule"
-		"Dagger"
-	variant 3
-		"Mule (Heavy)"
-		"Dagger"
-	variant 2
-		"Bounder"
-	variant 3
-		"Flivver"
-	variant 2
-		"Flivver (Racing)"
-	variant 4
-		"Hauler II"
-	variant 3
-		"Hauler"
-	variant 2
-		"Hauler II"
-		"Hauler"
+		"Quicksilver (EC Merchant)" 2
+		"Clipper (EC Merchant)" 3
+	variant 10
+		"Argosy (EC Merchant)" 2
+		"Freighter (EC Merchant)" 2
+	variant 10
+		"Quicksilver (EC Merchant)" 2
+		"Argosy (EC Merchant" 2
+	variant 5
+		"Freighter (EC Merchant)" 5
+	variant 5
+		"Clipper (EC Merchant)" 4
+	variant 5
+		"Clipper (EC Merchant)" 2
+		"Star Barge (EC Merchant)" 4
+	variant 5
+		"Argosy (EC Merchant)" 4
+	variant 1
+		"Quicksilver (EC Merchant)" 3
 		
 fleet "Large Enigma Merchants"
 	government "Enigma Corp"
 	names "civilian"
 	cargo 5
 	personality
-		confusion 20
-		timid frugal
+		confusion 10
+		timid
 	variant 20
-		"Freighter" 2
-		"Firebird"
-	variant 6
-		"Freighter" 2
-		"Berserker" 2
-	variant 3
-		"Freighter" 2
-		"Berserker (Afterburner)" 2
-	variant 10
-		"Freighter" 2
-		"Firebird (Plasma)"
-	variant 10
-		"Freighter" 2
-		"Firebird (Missile)"
-	variant 10
-		"Freighter" 3
-		"Firebird"
-	variant 2
-		"Freighter" 3
-		"Firebird (Plasma)"
-	variant 2
-		"Freighter" 3
-		"Firebird (Missile)"
+		"Blackbird (EC Merchant)" 3
 	variant 20
-		"Freighter" 2
-		"Corvette"
+		"Corvette (EC Merchant)" 3
+	variant 20
+		"Osprey (EC Merchant)" 3
+	variant 20
+		"Aerie (EC Merchant)" 3
+	variant 20
+		"Behemoth (EC Merchant)"
+	variant 20
+		"Bulk Freighter (EC Merchant)"
+	variant 15
+		"Behemoth (EC Merchant)" 2
+	variant 15
+		"Bulk Freighter (EC Merchant)" 2
+	variant 15
+		"Behemoth (EC Merchant)"
+		"Bulk Freighter (EC Merchant)"
+	variant 15
+		"Behemoth (EC Merchant)"
+		"Vanguard (EC Merchant)"
+	variant 15
+		"Behemoth (EC Merchant)"
+		"Corvette (EC Merchant)" 2
+	variant 15
+		"Bulk Freighter (EC Merchant)"
+		"Osprey (EC Merchant)" 2
+	variant 15
+		"Bulk Freighter (EC Merchant)"
+		"Osprey (EC Merchant)" 2
 	variant 10
-		"Freighter" 2
-		"Corvette (Speedy)"
+		"Aerie (EC Merchant)" 2
+		"Corvette (EC Merchant)"
 	variant 10
-		"Freighter" 2
-		"Corvette (Missile)"
+		"Osprey (EC Merchant)" 2
+		"Aerie (EC Merchant)" 2
 	variant 10
-		"Freighter" 3
-		"Corvette"
-	variant 3
-		"Freighter" 3
-		"Corvette (Speedy)"
-	variant 3
-		"Freighter" 3
-		"Corvette (Missile)"
-	variant 6
-		"Freighter" 4
-		"Leviathan"
-	variant 6
-		"Freighter" 4
-		"Leviathan (Heavy)"
-	variant 6
-		"Freighter" 4
-		"Leviathan (Laser)"
-	variant 30
-		"Behemoth"
-	variant 10
-		"Behemoth (Speedy)"
-	variant 10
-		"Behemoth" 2
-	variant 4
-		"Behemoth"
-		"Headhunter" 2
-	variant 2
-		"Behemoth"
-		"Headhunter (Particle)" 2
-	variant 4
-		"Bulk Freighter"
-		"Headhunter" 2
-	variant 2
-		"Bulk Freighter"
-		"Headhunter (Particle)" 2
-	variant 10
-		"Bulk Freighter"
-		"Sparrow" 2
-	variant 4
-		"Bulk Freighter (Heavy)"
-		"Sparrow" 2
-	variant 2
-		"Bulk Freighter (Heavy)"
-		"Berserker" 2
-	variant 2
-		"Bulk Freighter (Heavy)"
-		"Berserker (Afterburner)" 2
-	variant 4
-		"Bulk Freighter (Blaster)"
-		"Sparrow" 2
-	variant 10
-		"Behemoth" 2
-		"Firebird" 1
-	variant 10
-		"Freighter" 4
-		"Sparrow" 2
-		"Firebird" 1
-	variant 3
-		"Freighter (Fancy)" 4
-		"Sparrow" 2
-		"Firebird (Plasma)" 1
-	variant 2
-		"Bactrian"
-		"Dagger" 3
-	variant 2
-		"Bactrian"
-		"Lance" 3
-	variant 2
-		"Arrow"
-	variant 1
-		"Star Queen"
-		"Leviathan"
-	variant 1
-		"Star Queen"
-		"Headhunter (Particle)" 3
-	variant 1
-		"Star Queen"
-		"Berserker (Afterburner)" 2
-	variant 1
-		"Star Queen"
-		"Leviathan (Heavy)"
-	variant 1
-		"Star Queen"
-		"Leviathan (Laser)"
-	variant 1
-		"Star Queen"
-		"Firebird" 2
-	variant 1
-		"Star Queen"
-		"Firebird (Plasma)" 2
-	variant 8
-		"Hauler III"
-		"Hauler II"
-	variant 6
-		"Hauler II"
-		"Hauler" 3
-	variant 4
-		"Hauler III" 2
-	variant 4
-		"Hauler III"
-		"Hauler II"
-		"Headhunter" 3
-		
-fleet "Small Enigma Military"
-	government "Enigma Corp"
-	names "enigma military"
-	cargo 1
-	personality
-		heroic
-	variant 6
-		"EC-031 'Viper'" 2
+		"Blackbird (EC Merchant)" 2
+		"Osprey (EC Merchant)" 2
 	variant 5
-		"EC-077 'Dire Wolf'"
-		"EC-031 'Viper'"
-	variant 4
-		"EC-037 'Aegis'"
-	variant 3
-		"EC-077 'Dire Wolf'" 2
-	variant 1
-		"EC-031 'Viper'" 3
-	variant 6
-		"EC-077 'Dire Wolf'"
-		
-fleet "Large Enigma Military"
-	government "Enigma Corp"
-	names "enigma military"
-	fighters "enigma drone"
-	cargo 1
-	personality
-		heroic
+		"Vanguard (EC Merchant)"
+		"Blackbird (EC Merchant)" 2
 	variant 5
-		"EC-031 'Viper'" 2
-		"EC-077 'Dire Wolf'" 3
-	variant 3
-		"EC-032 'Rattlesnake'"
-		"EC-031 'Viper'"
-	variant 1
-		"EC-033 'King Cobra'" 2
-		"EC-032 'Rattlesnake'" 2
-		"EC-031 'Viper'" 2
-		"EC-077 'Dire Wolf'" 2
-	variant 1
-		"EC-032 'Rattlesnake'" 2
-	variant 1
-		"EC-037 'Aegis'" 3
+		"Vanguard (EC Merchant)" 2
+	variant 5
+		"Corvette (EC Merchant)" 2
+		"Bulk Freighter (EC Merchant)"
+		"Behemoth (EC Merchant)"
+	variant 5
+		"Vanguard (EC Merchant)"
+		"Osprey (EC Merchant)" 2
+		"Corvette (EC Merchant)" 2
+	variant 5
+		"Osprey (EC Merchant)" 2
+		"Corvette (EC Merchant)" 2
+		"Aerie (EC Merchant)" 2
