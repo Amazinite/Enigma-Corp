@@ -20,6 +20,8 @@ outfit "Korath Dual Slicer Turret"
 	weapon
 		sprite "projectile/2x slicer"
 			"frame rate" 6
+		"hardpoint sprite" "hardpoint/dual slicer turret"
+		"hardpoint offset" 18.
 		sound "slicer"
 		"hit effect" "slicer impact" 2
 		"inaccuracy" 0
