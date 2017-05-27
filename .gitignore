@@ -1,1 +1,12 @@
 *.db
+data/campaign - intros.txt
+data/campaign - ec start.txt
+data/campaign - ec middle.txt
+data/campaign - ec end.txt
+data/campaign - ec alt end.txt
+data/campaign - ec sides.txt
+data/campaign - lll start.txt
+data/campaign - lll middle.txt
+data/campaign - lll end.txt
+data/campaign - lll alt end.txt
+data/campaign - lll sides.txt
