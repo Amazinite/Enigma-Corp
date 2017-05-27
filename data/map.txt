@@ -10,8 +10,7 @@
 
 system Achernar
 	object
-		sprite "star (animated)/g5"
-			"frame rate" 0.2
+		sprite star/g5
 		period 10
 	object
 		sprite planet/desert3
@@ -52,13 +51,11 @@ system Achernar
 
 system Adhara
 	object
-		sprite "star (animated)/k0"
-			"frame rate" 0.2
+		sprite star/k0
 		distance 33.5961
 		period 16.6267
 	object
-		sprite "star (animated)/m0"
-			"frame rate" 0.2
+		sprite star/m0
 		distance 71.4039
 		period 16.6267
 		offset 180
@@ -93,14 +90,12 @@ system Adhara
 
 system "Alpha Centauri"
 	object
-		sprite "star (animated)/k5"
-			"frame rate" 0.2
+		sprite star/k5
 		distance 26.7033
 		period 16.011
 		offset 180
 	object
-		sprite "star (animated)/m4"
-			"frame rate" 0.2
+		sprite star/m4
 		distance 63.2967
 		period 16.011
 	object Chiron
@@ -134,8 +129,7 @@ system "Alpha Centauri"
 
 system Betelgeuse
 	object
-		sprite "star (animated)/g0"
-			"frame rate" 0.2
+		sprite star/g0
 		period 10
 	object
 		sprite planet/desert2
@@ -224,8 +218,7 @@ system Enigma
 
 system Kraz
 	object
-		sprite "star (animated)/g0"
-			"frame rate" 0.2
+		sprite star/g0
 		period 10
 	object
 		sprite planet/rock2
@@ -287,7 +280,6 @@ system Termara
 	minables uranium 5 2.9358
 	object
 		sprite star/wr
-			"frame rate" 0.2
 		distance 11.8889
 		period 8.24972
 	object
