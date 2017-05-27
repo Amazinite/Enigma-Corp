@@ -240,33 +240,6 @@ outfit "Flux Missile"
 
 
 
-outfit "Forge Cannon"
-	category "Turrets"
-	cost 1430000
-	thumbnail "outfit/known"
-	"mass" 62
-	"outfit space" -62
-	"weapon capacity" -62
-	"turret mounts" -1
-	weapon
-		sprite "projectile/ion bolt"
-		sound "ion"
-		"hit effect" "huge explosion"
-		"inaccuracy" 1
-		"velocity" 20
-		"lifetime" 100
-		"reload" 600
-		"firing energy" 2400
-		"firing force" 250
-		"firing heat" 4800
-		"hit force" 750
-		"shield damage" 1800
-		"hull damage" 2230
-	description "The Forge Cannon is a highly powerful railgun that fires titanium slugs at extreme speeds, able to reach very long ranges. The kinetic force of the slug landing on a target causes a massive explosion, dealing large amounts of damage and knocking back the ship that it hits. Due to the size of the slugs and the power at which the projectile is launched, they are slowly loaded into the barrel of the weapon and time must be taken for the cannon to charge, leading to rather long reload periods."
-	description "Brought to you by the Enigma Corporation."
-
-
-
 outfit "Hellfire Missile Launcher"
 	category "Secondary Weapons"
 	cost 25000
