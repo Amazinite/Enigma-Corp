@@ -35,7 +35,7 @@ fleet "Small Enigma Merchants"
 		"Freighter (EC Merchant)"
 	variant 15
 		"Quicksilver (EC Merchant)"
-		"Star Barge (EC Merchant) 2
+		"Star Barge (EC Merchant)" 2
 	variant 15
 		"Freighter (EC Merchant)"
 		"Heavy Shuttle (EC Merchant)" 2
