@@ -41,7 +41,7 @@ outfit "Type 5 Radiant Thruster"
 	"flare sprite" "effect/plasma flare/huge"
 		"frame rate" 20
 	"flare sound" "plasma huge"
-	description "Created as a result of the increased need for bigger engines on the new warships, this thruster is the biggest and best thruster yet to be sold by the Wanderers, better even than the previously largest thruster"
+	description "Created as a result of the increased need for bigger engines on the new warships, this thruster is the biggest and best thruster yet to be sold by the Wanderers, better even than the previously largest thruster."
 
 outfit "Type 5 Radiant Steering"
 	category "Engines"
